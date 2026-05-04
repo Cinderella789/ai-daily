@@ -10,7 +10,10 @@
   <header class="header">
     <div class="container">
       <h1>AI Daily</h1>
-      <p class="subtitle">Русскоязычный дашборд новостей искусственного интеллекта · обновляется ежедневно в 08:00 MSK</p>
+      <p class="subtitle">
+        Русскоязычный дашборд новостей ИИ · обновляется ежедневно в 08:00 MSK ·
+        <a href="./archive.html" style="color:var(--accent);">Архив и поиск →</a>
+      </p>
     </div>
   </header>
 
@@ -24,6 +27,10 @@
     <button class="filter-btn" data-topic="AI Agents">AI Agents</button>
     <button class="filter-btn" data-topic="Corporate AI">Corporate AI</button>
   </nav>
+
+  <section class="container search-block">
+    <input id="search" type="search" placeholder="Поиск по текущей ленте…" autocomplete="off" />
+  </section>
 
   <main class="container">
     <div id="meta" class="meta"></div>
