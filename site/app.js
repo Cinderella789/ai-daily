@@ -30,14 +30,14 @@
 
     // Обновляем счётчик у "Все"
     const allBtn = sourceFiltersEl.querySelector('[data-source="all"]');
-    if (allBtn) allBtn.textContent = `Все · ${items.length}`;
+    if (allBtn) allBtn.innerHTML = `Все<span class="count">${items.length}</span>`;
 
     // Добавляем по кнопке на каждый источник
     for (const [source, n] of sorted) {
       const btn = document.createElement("button");
       btn.className = "filter-btn";
       btn.dataset.source = source;
-      btn.textContent = `${source} · ${n}`;
+      btn.innerHTML = `${source}<span class="count">${n}</span>`;
       sourceFiltersEl.appendChild(btn);
     }
   }
