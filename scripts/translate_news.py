@@ -1,4 +1,4 @@
-"""Перевод заголовков и саммари на русский через Claude Haiku.
+"""Перевод заголовков и саммари на русский через OpenAI (gpt-4o-mini по умолчанию).
 
 Использует cache/.translation-cache.json чтобы не переводить повторно.
 """
@@ -16,7 +16,14 @@ DATA_PATH = ROOT / "data" / "latest.json"
 CACHE_PATH = ROOT / "cache" / ".translation-cache.json"
 
 load_dotenv(ROOT / ".env")
-MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5")
+MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+
+SYSTEM_PROMPT = (
+    "Ты переводчик технических AI-новостей с английского на русский. "
+    "Сохраняй имена компаний, моделей и продуктов латиницей. "
+    "Стиль — нейтральный, лаконичный, как у качественного русскоязычного техмедиа. "
+    "Возвращай ТОЛЬКО перевод без преамбулы и без кавычек."
+)
 
 
 def _load_cache() -> dict:
@@ -35,33 +42,31 @@ def _save_cache(cache: dict) -> None:
 def translate(client, text: str) -> str:
     if not text.strip():
         return ""
-    msg = client.messages.create(
+    resp = client.chat.completions.create(
         model=MODEL,
+        temperature=0.2,
         max_tokens=600,
-        system=(
-            "Ты переводчик технических AI-новостей с английского на русский. "
-            "Сохраняй имена компаний, моделей и продуктов латиницей. "
-            "Стиль — нейтральный, лаконичный, как у качественного русскоязычного техмедиа. "
-            "Возвращай ТОЛЬКО перевод без преамбулы."
-        ),
-        messages=[{"role": "user", "content": text}],
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": text},
+        ],
     )
-    return msg.content[0].text.strip()
+    return (resp.choices[0].message.content or "").strip()
 
 
 def main() -> None:
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
-        print("[translate_news] ANTHROPIC_API_KEY не задан — пропускаю перевод", file=sys.stderr)
+        print("[translate_news] OPENAI_API_KEY не задан — пропускаю перевод", file=sys.stderr)
         return
 
     try:
-        from anthropic import Anthropic
+        from openai import OpenAI
     except ImportError:
-        print("[translate_news] anthropic SDK не установлен", file=sys.stderr)
+        print("[translate_news] openai SDK не установлен", file=sys.stderr)
         return
 
-    client = Anthropic(api_key=api_key)
+    client = OpenAI(api_key=api_key)
     payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     cache = _load_cache()
     new_count = 0

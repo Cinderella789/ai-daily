@@ -31,7 +31,7 @@ ai-daily/
 │   ├── latest.json          # последние новости за 24 часа
 │   └── archive.json         # исторические данные
 ├── cache/
-│   └── .translation-cache.json  # кэш переводов (Claude Haiku)
+│   └── .translation-cache.json  # кэш переводов (OpenAI)
 ├── scripts/
 │   ├── fetch_feeds.py       # сбор RSS + arXiv
 │   ├── classify_news.py     # тематическая классификация
@@ -67,7 +67,8 @@ python scripts/build_digest.py
 Создай `.env` в корне (не коммитится):
 
 ```
-ANTHROPIC_API_KEY=sk-ant-...
+OPENAI_API_KEY=sk-...
+OPENAI_MODEL=gpt-4o-mini
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=yuliacinderella789@gmail.com
