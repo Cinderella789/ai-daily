@@ -144,3 +144,24 @@ mark {
 }
 .pager button:hover:not(:disabled) { border-color: var(--accent); }
 .pager button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.dup-badge {
+  background: var(--accent);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 10px;
+  margin-left: auto;
+}
+.duplicates {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.duplicates .dup-label { font-weight: 600; margin-right: 6px; }
+.duplicates a { color: var(--muted); text-decoration: underline; text-decoration-style: dotted; }
+.duplicates a:hover { color: var(--accent); }

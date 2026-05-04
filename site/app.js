@@ -70,15 +70,23 @@
       const date = new Date(it.published_at).toLocaleString("ru-RU", {
         day: "numeric", month: "short", hour: "2-digit", minute: "2-digit",
       });
+      const dups = Array.isArray(it.duplicates) ? it.duplicates : [];
+      const dupHtml = dups.length
+        ? `<div class="duplicates"><span class="dup-label">Также об этом:</span> ${dups
+            .map((d) => `<a href="${d.url}" target="_blank" rel="noopener">${d.source || "источник"}</a>`)
+            .join(" · ")}</div>`
+        : "";
       return `
         <article class="news-card">
           <div class="topbar">
             <span class="topic">${it.topic || ""}</span>
             <span>${it.source || ""}</span>
             <span>· ${date}</span>
+            ${dups.length ? `<span class="dup-badge">+${dups.length}</span>` : ""}
           </div>
           <h2><a href="${it.url}" target="_blank" rel="noopener">${highlight(titleRaw, query)}</a></h2>
           <p>${highlight(summaryRaw, query)}${summaryRaw.length >= 320 ? "…" : ""}</p>
+          ${dupHtml}
         </article>
       `;
     }).join("");

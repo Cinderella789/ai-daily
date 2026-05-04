@@ -35,6 +35,11 @@ jobs:
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
         run: python scripts/translate_news.py
 
+      - name: Semantic deduplication (OpenAI embeddings)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/dedup_news.py
+
       - name: Mirror latest.json into site/data
         run: |
           mkdir -p site/data
@@ -47,6 +52,6 @@ jobs:
         run: |
           git config user.name  "ai-daily-bot"
           git config user.email "ai-daily-bot@users.noreply.github.com"
-          git add data/latest.json site/data/latest.json data/archive.json site/data/archive.json cache/.translation-cache.json
+          git add data/latest.json site/data/latest.json data/archive.json site/data/archive.json cache/.translation-cache.json cache/.embeddings-cache.json
           git diff --cached --quiet || git commit -m "chore: refresh news $(date -u +%FT%TZ)"
           git push
