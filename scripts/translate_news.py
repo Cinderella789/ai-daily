@@ -12,6 +12,10 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+
+from sources import RUSSIAN_SOURCES  # noqa: E402
+
 DATA_PATH = ROOT / "data" / "latest.json"
 CACHE_PATH = ROOT / "cache" / ".translation-cache.json"
 
@@ -70,8 +74,16 @@ def main() -> None:
     payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     cache = _load_cache()
     new_count = 0
+    skipped_ru = 0
 
     for item in payload["items"]:
+        # Русскоязычные источники не переводим
+        if item.get("source") in RUSSIAN_SOURCES:
+            item["title_ru"] = item.get("title_en", "")
+            item["summary_ru"] = item.get("summary_en", "")
+            skipped_ru += 1
+            continue
+
         key_t = f"t::{item['id']}"
         key_s = f"s::{item['id']}"
         if key_t not in cache:
@@ -87,7 +99,7 @@ def main() -> None:
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     _save_cache(cache)
-    print(f"[translate_news] new translations: {new_count}, total cached: {len(cache)}")
+    print(f"[translate_news] new: {new_count}, skipped(ru): {skipped_ru}, cached: {len(cache)}")
 
 
 if __name__ == "__main__":

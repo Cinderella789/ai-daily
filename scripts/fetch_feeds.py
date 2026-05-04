@@ -6,11 +6,24 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import feedparser
+
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
+
+def _clean_html(text: str) -> str:
+    """Убираем HTML-теги и лишние пробелы."""
+    if not text:
+        return ""
+    text = _TAG_RE.sub(" ", text)
+    text = _WS_RE.sub(" ", text).strip()
+    return text
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -49,8 +62,8 @@ def fetch_rss() -> list[dict]:
                 "id": _stable_id(url),
                 "source": feed["name"],
                 "url": url,
-                "title_en": entry.get("title", "").strip(),
-                "summary_en": entry.get("summary", "").strip(),
+                "title_en": _clean_html(entry.get("title", "")),
+                "summary_en": _clean_html(entry.get("summary", "")),
                 "published_at": dt.isoformat(),
             })
     return items

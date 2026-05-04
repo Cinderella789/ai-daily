@@ -2,18 +2,19 @@
 
 Русскоязычный дашборд новостей искусственного интеллекта. Агрегирует RSS из ключевых источников, классифицирует материалы по темам, переводит заголовки и саммари на русский и формирует ежедневный digest.
 
-Прод-версия: [ai-daily.pplx.app](https://ai-daily.pplx.app)
+Прод-версия: [ai-daily-9au.pages.dev](https://ai-daily-9au.pages.dev) · бэкап: [cinderella789.github.io/ai-daily](https://cinderella789.github.io/ai-daily/)
 
 ## Источники
 
-- TechCrunch (AI секция)
-- VentureBeat (AI)
-- OpenAI Blog
-- Hugging Face Blog
-- Wired (AI)
-- MIT Technology Review (AI)
-- Google AI Blog
-- arXiv (cs.AI, cs.LG, cs.CL)
+**Индустриальные медиа:** TechCrunch AI, VentureBeat AI, The Verge AI, Ars Technica AI, Wired AI, MIT Technology Review
+
+**Лаборатории и компании:** OpenAI, Google AI, Google DeepMind, Hugging Face
+
+**Research:** Berkeley AI Research (BAIR), arXiv (cs.AI, cs.LG, cs.CL)
+
+**Сообщество:** Hacker News (фильтр AI/LLM, 100+ голосов)
+
+**Русскоязычные:** Habr (AI), Habr (Machine Learning), vc.ru (тег AI)
 
 ## Темы
 
