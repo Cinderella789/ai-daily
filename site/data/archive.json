@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "id": "8a4b199d5b86399a",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1031380/?utm_campaign=1031380&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "LLM-пентест в 2026: что изменилось за год",
+      "summary_en": "Привет, Хабр! Согласно отчёту Trend Micro TrendAI за прошлый год число CVE во всей AI-экосистеме почти удвоилось: с 419 до 756. Цифры стартовые, но мысль простая. Тестировать нейросетевые сервисы как обычные веб-приложения в 2026-м уже недостаточно. И вот почему. В этой статье разберу: - что появилось нового в OWASP LLM Top 10 (версия 2025); - какие атаки реально работают в проде, а какие так и остались в arXiv; - чем тестируют LLM сейчас (open-source стек плюс российские игроки); - плюс короткий практический playbook на четыре уровня. Читать далее",
+      "published_at": "2026-05-04T17:44:00+00:00",
+      "topic": "Models",
+      "title_ru": "LLM-пентест в 2026: что изменилось за год",
+      "summary_ru": "Привет, Хабр! Согласно отчёту Trend Micro TrendAI за прошлый год число CVE во всей AI-экосистеме почти удвоилось: с 419 до 756. Цифры стартовые, но мысль простая. Тестировать нейросетевые сервисы как обычные веб-приложения в 2026-м уже недостаточно. И вот почему. В этой статье разберу: - что появилось нового в OWASP LLM Top 10 (версия 2025); - какие атаки реально работают в проде, а какие так и остались в arXiv; - чем тестируют LLM сейчас (open-source стек плюс российские игроки); - плюс короткий практический playbook на четыре уровня. Читать далее"
+    },
+    {
       "id": "4e60ba9595b8ef99",
       "source": "Google AI Blog",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
@@ -109,6 +120,17 @@
       "topic": "Corporate AI",
       "title_ru": "Anthropic и OpenAI запускают совместные предприятия для предоставления услуг в области корпоративного ИИ.",
       "summary_ru": "Обе компании, Anthropic и OpenAI, заключили партнерство с управляющими активами для более активного продвижения своих корпоративных AI-продуктов."
+    },
+    {
+      "id": "9338c82257de4a49",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+      "title_en": "Redis Array Playground",
+      "summary_en": "Tool: Redis Array Playground Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. The new commands are ARCOUNT , ARDEL , ARDELRANGE , ARGET , ARGETRANGE , ARGREP , ARINFO , ARINSERT , ARLASTITEMS , ARLEN , ARMGET , ARMSET , ARNEXT , AROP , ARRING , ARSCAN , ARSEEK , ARSET . The implementation is currently available in a branch, so I had Claude Code for web build this interactive playground for trying out the new commands in a WASM-compiled build of a subset of Redis running in the browser. The most interesting new command is ARGREP which can run a server-side grep against a range of values in the array using the newly vendored TRE regex library . Salvatore wrote more about the AI-assisted development process for the array type in Redis array type: short story of a long development . Tags: salvatore-sanfilippo , webassembly , generative-ai , agentic-engineering , ai , redis , llms , regular-expressions , c",
+      "published_at": "2026-05-04T15:53:57+00:00",
+      "topic": "Models",
+      "title_ru": "Redis Array Playground",
+      "summary_ru": "Инструмент: Redis Array Playground. Сальваторе Санфилиппо представил PR, добавляющий новый тип данных - массивы - в Redis. Новые команды: ARCOUNT, ARDEL, ARDELRANGE, ARGET, ARGETRANGE, ARGREP, ARINFO, ARINSERT, ARLASTITEMS, ARLEN, ARMGET, ARMSET, ARNEXT, AROP, ARRING, ARSCAN, ARSEEK, ARSET. Реализация в настоящее время доступна в ветке, поэтому я попросил Claude Code создать этот интерактивный плейграунд для тестирования новых команд в сборке Redis, скомпилированной в WASM, работающей в браузере. Самая интересная новая команда - ARGREP, которая может выполнять серверный grep по диапазону значений в массиве, используя новую библиотеку регулярных выражений TRE. Сальваторе написал больше о процессе разработки с помощью ИИ для типа массива в статье \"Redis array type: short story of a long development\". Теги: salvatore-sanfilippo, webassembly, generative-ai, agentic-engineering, ai, redis, llms, regular-expressions, c."
     },
     {
       "id": "890350b269bfca8f",
@@ -221,6 +243,17 @@
       "summary_ru": "В понедельник DoorDash добавила новые инструменты на базе ИИ, которые позволяют торговцам ускорить процесс регистрации, редактировать фотографии для улучшения внешнего вида блюд и создавать новые веб-сайты на основе существующего контента."
     },
     {
+      "id": "8bb62aa48c8769dd",
+      "source": "Habr CV",
+      "url": "https://habr.com/ru/articles/1031192/?utm_campaign=1031192&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Как из смарт-камеры сделать машинное зрение: дружим Hikrobot ID3000 + OpenCV через Python",
+      "summary_en": "Можно ли из смарт-камеры сделать полноценную систему машинного зрения? Можно, нужно подружить её C-библиотеку Hikrobot IDMVS SDK с OpenCV через Python. О том, как это сделать — расскажу на примере кейса печати маркировки на мешках строительной смеси: как мы проверяли синхронность печати кодов маркировки, искали белые квадраты, попадали в них кодами, дублировали по 4 кода на один мешок. Читать далее",
+      "published_at": "2026-05-04T12:23:44+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Как из смарт-камеры сделать машинное зрение: дружим Hikrobot ID3000 + OpenCV через Python",
+      "summary_ru": "Можно ли из смарт-камеры сделать полноценную систему машинного зрения? Можно, нужно подружить её C-библиотеку Hikrobot IDMVS SDK с OpenCV через Python. О том, как это сделать — расскажу на примере кейса печати маркировки на мешках строительной смеси: как мы проверяли синхронность печати кодов маркировки, искали белые квадраты, попадали в них кодами, дублировали по 4 кода на один мешок. Читать далее"
+    },
+    {
       "id": "00afe1ed22fe2397",
       "source": "Habr AI",
       "url": "https://habr.com/ru/articles/1031194/?utm_campaign=1031194&utm_source=habrahabr&utm_medium=rss",
@@ -296,6 +329,17 @@
       "topic": "Models",
       "title_ru": "Как я Zabbix с LLM дружил в свободное время. Архитектурный обзор взаимодействия с нейросетью. Часть 1 «При чем тут ТЗ»",
       "summary_ru": "Это первая статья из цикла о том, как я пытался сделать алерты Zabbix в домашней лаборатории чуть умнее, прикрутив к ним локальную LLM и не получить на выходе архитектурного монстра Франкенштейна. В теории хотелось простого: система принимает события мониторинга, понимает их контекст, не дергает лишний раз по пустякам и подсказывает, куда смотреть в первую очередь. Но на практике необходимо начинать не с модели, не с кода и даже не с Docker Compose, а с нормального ТЗ. В процессе написания материал разросся до неимоверных размеров, поэтому пришлось поделить его аж на четыре части. Ссылки буду добавлять по мере выпуска (примерно раз в одну-две недели). Часть 1: Вводная и формирование ТЗ -&gt; вы здесь Часть 2: Выбор локальной LLM Часть 3: Формирование HLD и немного LLD Часть 4: Что из этого вышло Читать далее"
+    },
+    {
+      "id": "637ec671dad66e69",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/google-earnings-meta-earnings/",
+      "title_en": "Google Earnings, Meta Earnings",
+      "summary_en": "Wall Street loved Google's earnings, and hated Meta's, even though the latter's core business was more impressive. The difference is that Google is monetizing its investments now (and it might be all Anthropic).",
+      "published_at": "2026-05-04T10:00:00+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Прибыль Google, Прибыль Meta",
+      "summary_ru": "Уолл-стрит одобрил отчёт Google, но раскритиковал Meta, несмотря на то что основной бизнес последней выглядел более впечатляюще. Разница в том, что Google сейчас монетизирует свои инвестиции (возможно, это связано с Anthropic)."
     },
     {
       "id": "b2474d33cbb0cf39",
@@ -406,6 +450,17 @@
       "topic": "Models",
       "title_ru": "Почему self-hosted LLM падает в проде",
       "summary_ru": "Привет! Меня зовут Андрей Пахомов, я разработчик в AI Platform Битрикс24. Сегодня расскажу, почему self-hosted LLM ломается в проде, где на самом деле возникают проблемы и какие метрики помогают вовремя это увидеть. Читать далее"
+    },
+    {
+      "id": "29ffe93c8a209fa3",
+      "source": "Last Week in AI",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-243-gpt-55-deepseek",
+      "title_en": "LWiAI Podcast #243 - GPT 5.5, DeepSeek V4, AI safety sabotage",
+      "summary_en": "Our 243rd episode with a summary and discussion of last week&#8217;s big AI news!",
+      "published_at": "2026-05-04T07:54:06+00:00",
+      "topic": "Models",
+      "title_ru": "LWiAI Подкаст #243 - GPT 5.5, DeepSeek V4, саботаж безопасности ИИ",
+      "summary_ru": "Наш 243-й эпизод с обзором и обсуждением главных новостей AI за прошлую неделю!"
     },
     {
       "id": "71f7de6cac465146",
@@ -628,6 +683,6 @@
       "summary_ru": "За&nbsp;последний год появилось множество видеороликов и статей по&nbsp;использованию нейросетей для&nbsp;изучения английского языка. Очень часто авторы, среди которых попадаются и «дипломированные» учителя, в&nbsp;очень немногочисленных и расплывчатых промптах‑инструкциях просят ИИ ограничиваться каким‑то уровнем CEFR, от&nbsp;A1&nbsp;до&nbsp;С2. Как&nbsp;ни странно, никто из&nbsp;этих авторов даже не&nbsp;потрудился изучить, понимают&nbsp;ли ChatGPT, Gemini, Claude, Grok, что&nbsp;входит в&nbsp;конкретный уровень, а&nbsp;что&nbsp;— нет. Как&nbsp;это можно проверить? Читать далее"
     }
   ],
-  "updated_at": "2026-05-04T17:34:01.046222+00:00",
-  "total": 57
+  "updated_at": "2026-05-04T17:49:12.266992+00:00",
+  "total": 62
 }

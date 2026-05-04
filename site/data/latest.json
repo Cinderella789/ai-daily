@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-05-04T17:29:56.762946+00:00",
+  "generated_at": "2026-05-04T17:49:00.022734+00:00",
   "items": [
+    {
+      "id": "8a4b199d5b86399a",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1031380/?utm_campaign=1031380&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "LLM-пентест в 2026: что изменилось за год",
+      "summary_en": "Привет, Хабр! Согласно отчёту Trend Micro TrendAI за прошлый год число CVE во всей AI-экосистеме почти удвоилось: с 419 до 756. Цифры стартовые, но мысль простая. Тестировать нейросетевые сервисы как обычные веб-приложения в 2026-м уже недостаточно. И вот почему. В этой статье разберу: - что появилось нового в OWASP LLM Top 10 (версия 2025); - какие атаки реально работают в проде, а какие так и остались в arXiv; - чем тестируют LLM сейчас (open-source стек плюс российские игроки); - плюс короткий практический playbook на четыре уровня. Читать далее",
+      "published_at": "2026-05-04T17:44:00+00:00",
+      "topic": "Models",
+      "title_ru": "LLM-пентест в 2026: что изменилось за год",
+      "summary_ru": "Привет, Хабр! Согласно отчёту Trend Micro TrendAI за прошлый год число CVE во всей AI-экосистеме почти удвоилось: с 419 до 756. Цифры стартовые, но мысль простая. Тестировать нейросетевые сервисы как обычные веб-приложения в 2026-м уже недостаточно. И вот почему. В этой статье разберу: - что появилось нового в OWASP LLM Top 10 (версия 2025); - какие атаки реально работают в проде, а какие так и остались в arXiv; - чем тестируют LLM сейчас (open-source стек плюс российские игроки); - плюс короткий практический playbook на четыре уровня. Читать далее"
+    },
     {
       "id": "4e60ba9595b8ef99",
       "source": "Google AI Blog",
@@ -16,7 +27,7 @@
       "id": "4664d6e6ae14d05e",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
-      "title_en": "Elon Musk’s only expert witness at the OpenAI trial fears an AGI arms race",
+      "title_en": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race",
       "summary_en": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs.",
       "published_at": "2026-05-04T16:57:47+00:00",
       "topic": "Research",
@@ -112,6 +123,17 @@
       "summary_ru": "Обе компании, Anthropic и OpenAI, заключили партнерство с управляющими активами для более активного продвижения своих корпоративных AI-продуктов."
     },
     {
+      "id": "9338c82257de4a49",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+      "title_en": "Redis Array Playground",
+      "summary_en": "Tool: Redis Array Playground Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. The new commands are ARCOUNT , ARDEL , ARDELRANGE , ARGET , ARGETRANGE , ARGREP , ARINFO , ARINSERT , ARLASTITEMS , ARLEN , ARMGET , ARMSET , ARNEXT , AROP , ARRING , ARSCAN , ARSEEK , ARSET . The implementation is currently available in a branch, so I had Claude Code for web build this interactive playground for trying out the new commands in a WASM-compiled build of a subset of Redis running in the browser. The most interesting new command is ARGREP which can run a server-side grep against a range of values in the array using the newly vendored TRE regex library . Salvatore wrote more about the AI-assisted development process for the array type in Redis array type: short story of a long development . Tags: salvatore-sanfilippo , webassembly , generative-ai , agentic-engineering , ai , redis , llms , regular-expressions , c",
+      "published_at": "2026-05-04T15:53:57+00:00",
+      "topic": "Models",
+      "title_ru": "Redis Array Playground",
+      "summary_ru": "Инструмент: Redis Array Playground. Сальваторе Санфилиппо представил PR, добавляющий новый тип данных - массивы - в Redis. Новые команды: ARCOUNT, ARDEL, ARDELRANGE, ARGET, ARGETRANGE, ARGREP, ARINFO, ARINSERT, ARLASTITEMS, ARLEN, ARMGET, ARMSET, ARNEXT, AROP, ARRING, ARSCAN, ARSEEK, ARSET. Реализация в настоящее время доступна в ветке, поэтому я попросил Claude Code создать этот интерактивный плейграунд для тестирования новых команд в сборке Redis, скомпилированной в WASM, работающей в браузере. Самая интересная новая команда - ARGREP, которая может выполнять серверный grep по диапазону значений в массиве, используя новую библиотеку регулярных выражений TRE. Сальваторе написал больше о процессе разработки с помощью ИИ для типа массива в статье \"Redis array type: short story of a long development\". Теги: salvatore-sanfilippo, webassembly, generative-ai, agentic-engineering, ai, redis, llms, regular-expressions, c."
+    },
+    {
       "id": "890350b269bfca8f",
       "source": "MIT Tech Review",
       "url": "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/",
@@ -200,17 +222,6 @@
       "summary_ru": "Акция BOGO запущена. В течение ограниченного времени при покупке одного билета на TechCrunch Disrupt 2026 вы получите 50% скидку на второй билет того же типа. Акция заканчивается в эту пятницу, 8 мая. Сэкономьте здесь."
     },
     {
-      "id": "b9b9d42b9f01dd2a",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/companies/ru_mts/articles/1031062/?utm_campaign=1031062&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Русская рулетка с поиском: почему каждый десятый ответ в AI-выдаче — ложь",
-      "summary_en": "ИИ все активнее в повседневных задачах, например стал частью поиска. Google и другие системы генерируют сверху LLM-сводку. Не надо тратить время на выбор ссылок и анализ информации — получаешь всё на блюдечке, даже с понятной версткой.&nbsp; Но все мы знаем, что ИИ выдает несуществующие факты, путает источники и делает некорректные выводы. Насколько часты эти ошибки? И критичны ли? Рассмотрю, откуда они в поиске, на примере Google — только потому, что под руку попалось исследование его точности. Так-то поисковые ИИ-агенты чудят примерно одинаково. Читать далее",
-      "published_at": "2026-05-04T13:00:10+00:00",
-      "topic": "Models",
-      "title_ru": "Русская рулетка с поиском: почему каждый десятый ответ в AI-выдаче — ложь",
-      "summary_ru": "ИИ все активнее в повседневных задачах, например стал частью поиска. Google и другие системы генерируют сверху LLM-сводку. Не надо тратить время на выбор ссылок и анализ информации — получаешь всё на блюдечке, даже с понятной версткой.&nbsp; Но все мы знаем, что ИИ выдает несуществующие факты, путает источники и делает некорректные выводы. Насколько часты эти ошибки? И критичны ли? Рассмотрю, откуда они в поиске, на примере Google — только потому, что под руку попалось исследование его точности. Так-то поисковые ИИ-агенты чудят примерно одинаково. Читать далее"
-    },
-    {
       "id": "8a4187a1b3def95e",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
@@ -222,6 +233,17 @@
       "summary_ru": "В понедельник DoorDash добавила новые инструменты на базе ИИ, которые позволяют торговцам ускорить процесс регистрации, редактировать фотографии для улучшения внешнего вида блюд и создавать новые веб-сайты на основе существующего контента."
     },
     {
+      "id": "8bb62aa48c8769dd",
+      "source": "Habr CV",
+      "url": "https://habr.com/ru/articles/1031192/?utm_campaign=1031192&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Как из смарт-камеры сделать машинное зрение: дружим Hikrobot ID3000 + OpenCV через Python",
+      "summary_en": "Можно ли из смарт-камеры сделать полноценную систему машинного зрения? Можно, нужно подружить её C-библиотеку Hikrobot IDMVS SDK с OpenCV через Python. О том, как это сделать — расскажу на примере кейса печати маркировки на мешках строительной смеси: как мы проверяли синхронность печати кодов маркировки, искали белые квадраты, попадали в них кодами, дублировали по 4 кода на один мешок. Читать далее",
+      "published_at": "2026-05-04T12:23:44+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Как из смарт-камеры сделать машинное зрение: дружим Hikrobot ID3000 + OpenCV через Python",
+      "summary_ru": "Можно ли из смарт-камеры сделать полноценную систему машинного зрения? Можно, нужно подружить её C-библиотеку Hikrobot IDMVS SDK с OpenCV через Python. О том, как это сделать — расскажу на примере кейса печати маркировки на мешках строительной смеси: как мы проверяли синхронность печати кодов маркировки, искали белые квадраты, попадали в них кодами, дублировали по 4 кода на один мешок. Читать далее"
+    },
+    {
       "id": "c93bdada068c2b5f",
       "source": "vc.ru AI",
       "url": "https://vc.ru/ai/2909392-ai-konstruktor-saitov-v-uzbekistane?from=rss",
@@ -231,6 +253,17 @@
       "topic": "Startups",
       "title_ru": "Запись в сообществе AI",
       "summary_ru": "#стартап #узбекистан #ai #конструктор_сайтов #малыйбизнес"
+    },
+    {
+      "id": "637ec671dad66e69",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/google-earnings-meta-earnings/",
+      "title_en": "Google Earnings, Meta Earnings",
+      "summary_en": "Wall Street loved Google's earnings, and hated Meta's, even though the latter's core business was more impressive. The difference is that Google is monetizing its investments now (and it might be all Anthropic).",
+      "published_at": "2026-05-04T10:00:00+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Прибыль Google, Прибыль Meta",
+      "summary_ru": "Уолл-стрит одобрил отчёт Google, но раскритиковал Meta, несмотря на то что основной бизнес последней выглядел более впечатляюще. Разница в том, что Google сейчас монетизирует свои инвестиции (возможно, это связано с Anthropic)."
     },
     {
       "id": "735d341b9e007f94",
@@ -253,6 +286,17 @@
       "topic": "Research",
       "title_ru": "Изучаем машинное обучение scikit-learn за одну статью: от понимания API до боевого пайплайна",
       "summary_ru": "Осваиваем scikit-learn за 20 минут 🚀 Выкатил на Хабр гайд для тех, кто хочет понять классический ML на Python без воды. Внутри: — Главный секрет библиотеки (.fit, .predict, .transform) — Как не обмануть себя при оценке модели — Сборка правильного Pipeline, как у мидлов Залетайте читать и забирать шаблоны кода. Читать далее"
+    },
+    {
+      "id": "29ffe93c8a209fa3",
+      "source": "Last Week in AI",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-243-gpt-55-deepseek",
+      "title_en": "LWiAI Podcast #243 - GPT 5.5, DeepSeek V4, AI safety sabotage",
+      "summary_en": "Our 243rd episode with a summary and discussion of last week&#8217;s big AI news!",
+      "published_at": "2026-05-04T07:54:06+00:00",
+      "topic": "Models",
+      "title_ru": "LWiAI Подкаст #243 - GPT 5.5, DeepSeek V4, саботаж безопасности ИИ",
+      "summary_ru": "Наш 243-й эпизод с обзором и обсуждением главных новостей AI за прошлую неделю!"
     },
     {
       "id": "b6ba16c5014ae2e1",
