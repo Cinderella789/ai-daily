@@ -24,8 +24,16 @@ body {
 .subtitle { color: var(--muted); margin: 8px 0 0; font-size: 14px; }
 
 .filters {
-  display: flex; flex-wrap: wrap; gap: 8px;
-  padding: 20px; margin-top: 16px;
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  padding: 12px 20px; margin-top: 4px;
+}
+.filters + .filters { margin-top: 0; padding-top: 4px; }
+.filter-label {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 4px;
 }
 .filter-btn {
   background: var(--card);

@@ -2,10 +2,12 @@
   const listEl = document.getElementById("news-list");
   const metaEl = document.getElementById("meta");
   const filtersEl = document.getElementById("filters");
+  const sourceFiltersEl = document.getElementById("source-filters");
   const searchEl = document.getElementById("search");
 
   let items = [];
   let activeTopic = "all";
+  let activeSource = "all";
   let query = "";
   let debounceId = 0;
 
@@ -17,10 +19,33 @@
     return text.slice(0, idx) + `<mark>${text.slice(idx, end)}</mark>` + text.slice(end);
   }
 
+  function buildSourceButtons() {
+    // Считаем счётчики по источникам, сортируем по убыванию
+    const counts = {};
+    for (const it of items) {
+      const s = it.source || "—";
+      counts[s] = (counts[s] || 0) + 1;
+    }
+    const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+    // Обновляем счётчик у "Все"
+    const allBtn = sourceFiltersEl.querySelector('[data-source="all"]');
+    if (allBtn) allBtn.textContent = `Все · ${items.length}`;
+
+    // Добавляем по кнопке на каждый источник
+    for (const [source, n] of sorted) {
+      const btn = document.createElement("button");
+      btn.className = "filter-btn";
+      btn.dataset.source = source;
+      btn.textContent = `${source} · ${n}`;
+      sourceFiltersEl.appendChild(btn);
+    }
+  }
+
   function render() {
-    let filtered = activeTopic === "all"
-      ? items
-      : items.filter((it) => it.topic === activeTopic);
+    let filtered = items;
+    if (activeTopic !== "all") filtered = filtered.filter((it) => it.topic === activeTopic);
+    if (activeSource !== "all") filtered = filtered.filter((it) => it.source === activeSource);
 
     if (query) {
       filtered = filtered.filter((it) => {
@@ -35,7 +60,7 @@
     }
 
     if (!filtered.length) {
-      listEl.innerHTML = '<p class="empty">Ничего не найдено.</p>';
+      listEl.innerHTML = '<p class="empty">Ничего не найдено по выбранным фильтрам.</p>';
       return;
     }
 
@@ -62,9 +87,18 @@
   filtersEl.addEventListener("click", (e) => {
     const btn = e.target.closest(".filter-btn");
     if (!btn) return;
-    document.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active"));
+    filtersEl.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active"));
     btn.classList.add("active");
     activeTopic = btn.dataset.topic;
+    render();
+  });
+
+  sourceFiltersEl.addEventListener("click", (e) => {
+    const btn = e.target.closest(".filter-btn");
+    if (!btn) return;
+    sourceFiltersEl.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeSource = btn.dataset.source;
     render();
   });
 
@@ -84,6 +118,7 @@
     items = payload.items || [];
     const ts = new Date(payload.generated_at).toLocaleString("ru-RU");
     metaEl.textContent = `Обновлено: ${ts} · всего материалов: ${items.length}`;
+    buildSourceButtons();
     render();
   } catch (err) {
     listEl.innerHTML = `<p class="empty">Не удалось загрузить новости: ${err.message}</p>`;

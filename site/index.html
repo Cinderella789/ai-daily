@@ -17,7 +17,8 @@
     </div>
   </header>
 
-  <nav class="filters container" id="filters">
+  <nav class="filters container" id="filters" aria-label="Фильтр по теме">
+    <span class="filter-label">Тема:</span>
     <button class="filter-btn active" data-topic="all">Все</button>
     <button class="filter-btn" data-topic="Models">Models</button>
     <button class="filter-btn" data-topic="Hardware">Hardware</button>
@@ -26,6 +27,12 @@
     <button class="filter-btn" data-topic="Research">Research</button>
     <button class="filter-btn" data-topic="AI Agents">AI Agents</button>
     <button class="filter-btn" data-topic="Corporate AI">Corporate AI</button>
+  </nav>
+
+  <nav class="filters container" id="source-filters" aria-label="Фильтр по источнику">
+    <span class="filter-label">Источник:</span>
+    <button class="filter-btn active" data-source="all">Все</button>
+    <!-- остальные кнопки добавятся динамически из latest.json -->
   </nav>
 
   <section class="container search-block">
