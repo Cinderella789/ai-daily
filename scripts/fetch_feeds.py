@@ -31,6 +31,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from sources import RSS_FEEDS, ARXIV_CATEGORIES  # noqa: E402
 
 WINDOW_HOURS = 24
+MAX_PER_SOURCE = 8  # ограничение выдачи одного источника — чтобы лента была разнообразной
 DATA_PATH = ROOT / "data" / "latest.json"
 
 
@@ -107,6 +108,17 @@ def main() -> None:
         seen.add(it["id"])
         deduped.append(it)
     deduped.sort(key=lambda x: x["published_at"], reverse=True)
+
+    # Ограничиваем количество материалов от одного источника
+    counts: dict[str, int] = {}
+    capped: list[dict] = []
+    for it in deduped:
+        src = it["source"]
+        if counts.get(src, 0) >= MAX_PER_SOURCE:
+            continue
+        counts[src] = counts.get(src, 0) + 1
+        capped.append(it)
+    deduped = capped
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(
