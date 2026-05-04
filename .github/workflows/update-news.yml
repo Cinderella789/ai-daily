@@ -1,0 +1,44 @@
+name: update-news
+
+on:
+  schedule:
+    # 08:00 MSK = 05:00 UTC
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Fetch RSS + arXiv
+        run: python scripts/fetch_feeds.py
+
+      - name: Classify by topic
+        run: python scripts/classify_news.py
+
+      - name: Translate (Claude Haiku)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-haiku-4-5' }}
+        run: python scripts/translate_news.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "ai-daily-bot"
+          git config user.email "ai-daily-bot@users.noreply.github.com"
+          git add data/latest.json cache/.translation-cache.json
+          git diff --cached --quiet || git commit -m "chore: refresh news $(date -u +%FT%TZ)"
+          git push

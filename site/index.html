@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Daily — живая лента ИИ-новостей</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>AI Daily</h1>
+      <p class="subtitle">Русскоязычный дашборд новостей искусственного интеллекта · обновляется ежедневно в 08:00 MSK</p>
+    </div>
+  </header>
+
+  <nav class="filters container" id="filters">
+    <button class="filter-btn active" data-topic="all">Все</button>
+    <button class="filter-btn" data-topic="Models">Models</button>
+    <button class="filter-btn" data-topic="Hardware">Hardware</button>
+    <button class="filter-btn" data-topic="Regulations">Regulations</button>
+    <button class="filter-btn" data-topic="Startups">Startups</button>
+    <button class="filter-btn" data-topic="Research">Research</button>
+    <button class="filter-btn" data-topic="AI Agents">AI Agents</button>
+    <button class="filter-btn" data-topic="Corporate AI">Corporate AI</button>
+  </nav>
+
+  <main class="container">
+    <div id="meta" class="meta"></div>
+    <div id="news-list" class="news-list">
+      <p class="empty">Загружаю новости…</p>
+    </div>
+  </main>
+
+  <footer class="footer container">
+    <p>Источник кода: <a href="https://github.com/Cinderella789/ai-daily">github.com/Cinderella789/ai-daily</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
