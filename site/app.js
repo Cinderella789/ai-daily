@@ -46,7 +46,7 @@
   });
 
   try {
-    const res = await fetch("../data/latest.json", { cache: "no-store" });
+    const res = await fetch("./data/latest.json", { cache: "no-store" });
     const payload = await res.json();
     items = payload.items || [];
     const ts = new Date(payload.generated_at).toLocaleString("ru-RU");
