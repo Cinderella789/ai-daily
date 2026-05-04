@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "latest.json"
 CACHE_PATH = ROOT / "cache" / ".embeddings-cache.json"
 
-SIMILARITY_THRESHOLD = 0.82
+SIMILARITY_THRESHOLD = 0.65
 EMBED_MODEL = os.environ.get("OPENAI_EMBED_MODEL", "text-embedding-3-small")
 
 
@@ -181,7 +181,7 @@ def main() -> None:
 
     deduped.sort(key=lambda x: x.get("published_at", ""), reverse=True)
     payload["items"] = deduped
-    payload["dedup_at"] = datetime.utcnow().isoformat() + "Z"
+    payload["dedup_at"] = datetime.now().astimezone().isoformat()
 
     DATA_PATH.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),
