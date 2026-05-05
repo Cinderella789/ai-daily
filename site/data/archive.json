@@ -1,6 +1,323 @@
 {
   "items": [
     {
+      "id": "8b9549a02331f3d6",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1031498/?utm_campaign=1031498&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Парадокс GPT-5.5: чем подробнее промт — тем хуже. Разобрал свой 663-строчный скилл и сверился с Claude",
+      "summary_en": "OpenAI выкатил гайд по промтингу GPT-5.5. Главный тезис: длинные простыни инструкций с ALWAYS/NEVER/MUST не помогают модели — они мешают. Чем подробнее зажимаешь процесс, тем хуже результат. Я полез проверять. Открыл свой рабочий скилл — process-logs, обработка логов ошибок, версия 1.9.0, продакшн. 663 строки, 36 капс-блоков: «CRITICAL REQUIREMENTS», «YOU MUST FOLLOW THESE RULES. NO EXCEPTIONS». Каждый раздел начинается с MANDATORY. Перечитал по новым правилам OpenAI и нашёл четыре проблемы в одной секции из 134 слов: дублирующиеся императивы на одну мысль, judgment-call под видом invariant, нет stopping condition. Переписал — стало 50 слов. На Opus 4.7 и GPT-5.5 короткий вариант даёт лучший фикс на одной и той же ошибке из логов. В статье: разбор 5 ключевых тезисов гайда с прямыми цитатами, диф «до/после» на реальном продакшн-скилле, эксперимент в Google Stitch, который можно повторить за 5 минут, и сверка с тем, что говорит Anthropic про Claude. Читать далее",
+      "published_at": "2026-05-05T06:42:56+00:00",
+      "topic": "Models",
+      "title_ru": "Парадокс GPT-5.5: чем подробнее промт — тем хуже. Разобрал свой 663-строчный скилл и сверился с Claude",
+      "summary_ru": "OpenAI выкатил гайд по промтингу GPT-5.5. Главный тезис: длинные простыни инструкций с ALWAYS/NEVER/MUST не помогают модели — они мешают. Чем подробнее зажимаешь процесс, тем хуже результат. Я полез проверять. Открыл свой рабочий скилл — process-logs, обработка логов ошибок, версия 1.9.0, продакшн. 663 строки, 36 капс-блоков: «CRITICAL REQUIREMENTS», «YOU MUST FOLLOW THESE RULES. NO EXCEPTIONS». Каждый раздел начинается с MANDATORY. Перечитал по новым правилам OpenAI и нашёл четыре проблемы в одной секции из 134 слов: дублирующиеся императивы на одну мысль, judgment-call под видом invariant, нет stopping condition. Переписал — стало 50 слов. На Opus 4.7 и GPT-5.5 короткий вариант даёт лучший фикс на одной и той же ошибке из логов. В статье: разбор 5 ключевых тезисов гайда с прямыми цитатами, диф «до/после» на реальном продакшн-скилле, эксперимент в Google Stitch, который можно повторить за 5 минут, и сверка с тем, что говорит Anthropic про Claude. Читать далее"
+    },
+    {
+      "id": "0da0af50f71ef85b",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/companies/sberbank/articles/1031026/?utm_campaign=1031026&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Театр одного агента: режиссура мультиагентной системы",
+      "summary_en": "Привет, Хабр! Меня зовут Михаил Афанасьев, я главный специалист в команде кибербезопасности Platform V в СберТехе, занимаюсь подготовкой продуктов к прохождению сертификации ФСТЭК России. Хочу рассказать о режиссуре LLM-агентов и о том, как выбор ролей и написание промптов превращают хаотичный поток запросов к нейросети в надёжную инженерную систему. Читать далее",
+      "published_at": "2026-05-05T05:51:31+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Театр одного агента: режиссура мультиагентной системы",
+      "summary_ru": "Привет, Хабр! Меня зовут Михаил Афанасьев, я главный специалист в команде кибербезопасности Platform V в СберТехе, занимаюсь подготовкой продуктов к прохождению сертификации ФСТЭК России. Хочу рассказать о режиссуре LLM-агентов и о том, как выбор ролей и написание промптов превращают хаотичный поток запросов к нейросети в надёжную инженерную систему. Читать далее"
+    },
+    {
+      "id": "517495afe4580ba0",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/ai/2898105-ii-obnaruzhivaet-rak-podzhiludochnoy-na-rannikh-stadiyakh?from=rss",
+      "title_en": "ИИ научился видеть рак поджелудочной за 475 дней до постановки диагноза",
+      "summary_en": "У рака поджелудочной есть одна особенность: когда появляются симптомы, бороться с болезнью часто уже поздно. Но что если болезнь можно заметить гораздо раньше, но человек просто не способен увидеть эти сигналы?",
+      "published_at": "2026-05-05T05:37:23+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "ИИ научился видеть рак поджелудочной за 475 дней до постановки диагноза",
+      "summary_ru": "У рака поджелудочной есть одна особенность: когда появляются симптомы, бороться с болезнью часто уже поздно. Но что если болезнь можно заметить гораздо раньше, но человек просто не способен увидеть эти сигналы?"
+    },
+    {
+      "id": "91d29587c9d71bf2",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1031466/?utm_campaign=1031466&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Они точно попадут в ИИ-библию",
+      "summary_en": "Скидываю на ваше обозрение результаты небольшого эксперимента. Я спросил у самых популярных нейронок, какой фильм/книгу/игру/человека они бы занесли в свою библию, если бы когда-то решили написать ее. Результаты на экране Читать далее",
+      "published_at": "2026-05-05T03:39:53+00:00",
+      "topic": "Research",
+      "title_ru": "Они точно попадут в ИИ-библию",
+      "summary_ru": "Скидываю на ваше обозрение результаты небольшого эксперимента. Я спросил у самых популярных нейронок, какой фильм/книгу/игру/человека они бы занесли в свою библию, если бы когда-то решили написать ее. Результаты на экране Читать далее"
+    },
+    {
+      "id": "0e3920cef6f23c33",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+      "title_en": "As workers worry about AI, Nvidia’s Jensen Huang says AI is ‘creating an enormous number of jobs’",
+      "summary_en": "The Nvidia CEO seems to feel that claims of AI's job-killing potential have been greatly exaggerated.",
+      "published_at": "2026-05-05T03:31:54+00:00",
+      "topic": "Hardware",
+      "title_ru": "По мере того как работники беспокоятся о влиянии ИИ, Дженсен Хуанг из Nvidia заявляет, что ИИ «создает огромное количество рабочих мест».",
+      "summary_ru": "Генеральный директор Nvidia, похоже, считает, что утверждения о потенциальной угрозе AI для рабочих мест сильно преувеличены."
+    },
+    {
+      "id": "159dd8b62840bc1b",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1031058/?utm_campaign=1031058&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Экономические противоречия развития LLM. Смерть производства виртуального товара",
+      "summary_en": "Почему доступ к большим языковым моделям напоминает аренду «цифровой земли»? Как три экономические роли LLM порождают конфликт интересов, и что это значит для IT-специалистов. Продолжение исследования производственных отношений в индустрии. Читать далее",
+      "published_at": "2026-05-05T03:03:43+00:00",
+      "topic": "Models",
+      "title_ru": "Экономические противоречия развития LLM. Смерть производства виртуального товара",
+      "summary_ru": "Почему доступ к большим языковым моделям напоминает аренду «цифровой земли»? Как три экономические роли LLM порождают конфликт интересов, и что это значит для IT-специалистов. Продолжение исследования производственных отношений в индустрии. Читать далее"
+    },
+    {
+      "id": "ca300f940cc4c324",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+      "title_en": "Quoting John Gruber",
+      "summary_en": "So it’s well known that Y Combinator owns some stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows several OpenAI investors came back with an answer: Y Combinator owns about 0.6 percent of OpenAI. At OpenAI’s current $852 billion valuation , that’s worth over $5 billion. &mdash; John Gruber , Y Combinator’s Stake in OpenAI Tags: openai , y-combinator , ai , john-gruber",
+      "published_at": "2026-05-05T00:46:29+00:00",
+      "topic": "Startups",
+      "title_ru": "Цитируя Джона Грубера",
+      "summary_ru": "Известно, что Y Combinator владеет долей в OpenAI. Но насколько велика эта доля? Получить эту информацию довольно сложно. Я поинтересовался и один источник, знакомый с несколькими инвесторами OpenAI, сообщил, что Y Combinator владеет примерно 0,6 процента OpenAI. При текущей оценке OpenAI в 852 миллиарда долларов это составляет более 5 миллиардов долларов."
+    },
+    {
+      "id": "5a4f8fd6de2f1bce",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1031458/?utm_campaign=1031458&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Как я поднял сервис через LLM, ничего не настраивая, и стал не архитектором сетей, а параноиком",
+      "summary_en": "«Не знаю языка, не написал ни строчки кода, я архитектор» — в чем косяк такой логики? Сказ о том, как я поднимал сервис через llm в области знаний где я профан, он ломался экзотическими (наверное) способами после каждой итерации, теперь он вроде работает но может и нет - ответить на это я не могу потому что недостаточно экспертизы и от этого с ним страшно работать. Ладно, еще одна статья про вайбкод, давай",
+      "published_at": "2026-05-05T00:36:35+00:00",
+      "topic": "Models",
+      "title_ru": "Как я поднял сервис через LLM, ничего не настраивая, и стал не архитектором сетей, а параноиком",
+      "summary_ru": "«Не знаю языка, не написал ни строчки кода, я архитектор» — в чем косяк такой логики? Сказ о том, как я поднимал сервис через llm в области знаний где я профан, он ломался экзотическими (наверное) способами после каждой итерации, теперь он вроде работает но может и нет - ответить на это я не могу потому что недостаточно экспертизы и от этого с ним страшно работать. Ладно, еще одна статья про вайбкод, давай"
+    },
+    {
+      "id": "2b1a4b2f2b945b93",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1030572/?utm_campaign=1030572&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "ИИ в трейдинге: почему предсказание цены — плохая постановка задачи",
+      "summary_en": "Это моя вторая часть заметок с&nbsp;Perm Winter School '26, некоммерческой научно‑практической конференции. В&nbsp;первой части я рассказал, что&nbsp;если просто взять котировки, скормить их нейросети попросив предсказать куда пойдёт рынок завтра, то скорее всего получится красивая иллюзия, которая может выглядеть убедительно, но&nbsp;в&nbsp;реальной жизни всё закончится убытками. Первая часть&nbsp;была довольно популярна, хотя многие мне написали что‑то вроде «Вы просто не&nbsp;ту модель пробовали», «Нужно больше данных», «Надо давать нейросети не&nbsp;график OHLCV, а&nbsp;что‑то другое». И в&nbsp;целом я согласен с&nbsp;таким ходом рассуждений, потому что&nbsp;из&nbsp;конференции я вынес не&nbsp;то, что&nbsp;нельзя заработать на&nbsp;бирже, а&nbsp;то, что&nbsp;большинство частных трейдеров решают вообще не&nbsp;ту задачу. Ошибка новичка: искать ответ на&nbsp;вопрос «куда пойдет рынок» Когда мы смотрим на&nbsp;график конечно&nbsp;же сразу возникает вопрос&nbsp;— вверх или&nbsp;вниз дальше. И вся индустрия трейдинга построена на&nbsp;этой бинарной ловушке&nbsp;— что&nbsp;на&nbsp;рынке всего две кнопки: 📈 Покупай. 📉 Продавай. Самый неожиданный для&nbsp;меня общий мотив нескольких докладов&nbsp;был таким: рынок не&nbsp;обязательно нужно предсказывать. Побывал в Перми на конференции",
+      "published_at": "2026-05-05T00:23:32+00:00",
+      "topic": "Regulations",
+      "title_ru": "ИИ в трейдинге: почему предсказание цены — плохая постановка задачи",
+      "summary_ru": "Это моя вторая часть заметок с&nbsp;Perm Winter School '26, некоммерческой научно‑практической конференции. В&nbsp;первой части я рассказал, что&nbsp;если просто взять котировки, скормить их нейросети попросив предсказать куда пойдёт рынок завтра, то скорее всего получится красивая иллюзия, которая может выглядеть убедительно, но&nbsp;в&nbsp;реальной жизни всё закончится убытками. Первая часть&nbsp;была довольно популярна, хотя многие мне написали что‑то вроде «Вы просто не&nbsp;ту модель пробовали», «Нужно больше данных», «Надо давать нейросети не&nbsp;график OHLCV, а&nbsp;что‑то другое». И в&nbsp;целом я согласен с&nbsp;таким ходом рассуждений, потому что&nbsp;из&nbsp;конференции я вынес не&nbsp;то, что&nbsp;нельзя заработать на&nbsp;бирже, а&nbsp;то, что&nbsp;большинство частных трейдеров решают вообще не&nbsp;ту задачу. Ошибка новичка: искать ответ на&nbsp;вопрос «куда пойдет рынок» Когда мы смотрим на&nbsp;график конечно&nbsp;же сразу возникает вопрос&nbsp;— вверх или&nbsp;вниз дальше. И вся индустрия трейдинга построена на&nbsp;этой бинарной ловушке&nbsp;— что&nbsp;на&nbsp;рынке всего две кнопки: 📈 Покупай. 📉 Продавай. Самый неожиданный для&nbsp;меня общий мотив нескольких докладов&nbsp;был таким: рынок не&nbsp;обязательно нужно предсказывать. Побывал в Перми на конференции"
+    },
+    {
+      "id": "e1f875fa052c8ca3",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
+      "title_en": "Granite 4.1 3B SVG Pelican Gallery",
+      "summary_en": "Granite 4.1 3B SVG Pelican Gallery IBM released their Granite 4.1 family of LLMs a few days ago. They're Apache 2.0 licensed and come in 3B, 8B and 30B sizes. Granite 4.1 LLMs: How They’re Built by Granite team member Yousaf Shah describes the training process in detail. Unsloth released the unsloth/granite-4.1-3b-GGUF collection of GGUF encoded quantized variants of the 3B model - 21 different model files ranging in size from 1.2GB to 6.34GB. All 21 of those Unsloth files add up to 51.3GB, which inspired me to finally try an experiment I've been wanting to run for ages: prompting \"Generate an SVG of a pelican riding a bicycle\" against different sized quantized variants of the same model to see what the results would look like. Honestly, the results are less interesting than I expected. There's no distinguishable pattern relating quality to size - they're all pretty terrible! I'll likely try this again in the future with a model that's better at drawing pelicans. Tags: ibm , ai , generative-ai , llms , pelican-riding-a-bicycle , llm-release",
+      "published_at": "2026-05-04T23:49:24+00:00",
+      "topic": "Models",
+      "title_ru": "Granite 4.1 3B SVG Pelican Gallery",
+      "summary_ru": "IBM выпустила свою семью LLM Granite 4.1 всего несколько дней назад. Они лицензированы по Apache 2.0 и представлены в размерах 3B, 8B и 30B. В статье \"Granite 4.1 LLMs: How They’re Built\" член команды Granite Юсаф Шах подробно описывает процесс обучения. Unsloth выпустила коллекцию unsloth/granite-4.1-3b-GGUF, содержащую закодированные в формате GGUF квантизированные варианты 3B модели - 21 файл модели размером от 1.2GB до 6.34GB. Все 21 файл от Unsloth в сумме составляют 51.3GB, что вдохновило меня наконец провести эксперимент, который я давно хотел осуществить: запрос \"Сгенерируйте SVG пеликана, едущего на велосипеде\" к различным квантизированным вариантам одной и той же модели, чтобы увидеть, каковы будут результаты. Честно говоря, результаты менее интересные, чем я ожидал. Нет различимого паттерна, связывающего качество с размером - все они довольно плохие! Я, вероятно, попробую это снова в будущем с моделью, которая лучше рисует пеликанов. Теги: ibm, ai, generative-ai, llms, pelican-riding-a-bicycle, llm-release"
+    },
+    {
+      "id": "c70e640de30e3432",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/greg-brockman-testifies-musk-v-altman-trial/",
+      "title_en": "Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’",
+      "summary_en": "OpenAI’s cofounder and president revealed in federal court on Monday that he’s one of the largest individual stakeholders in the AI lab.",
+      "published_at": "2026-05-04T23:19:52+00:00",
+      "topic": "Research",
+      "title_ru": "Грег Брокман защищает долю OpenAI в $30 миллиардов: «Кровь, пот и слезы»",
+      "summary_ru": "Соучредитель и президент OpenAI в понедельник в федеральном суде заявил, что он является одним из крупнейших индивидуальных акционеров лаборатории ИИ.",
+      "duplicates": [
+        {
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial",
+          "title_en": "OpenAI’s president does ‘all the things,’ except answer a question",
+          "title_ru": "Президент OpenAI выполняет «все задачи», кроме как отвечает на вопросы.",
+          "published_at": "2026-05-04T23:49:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "15cc65d7fd8504a7",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/4/andy-masley/#atom-everything",
+      "title_en": "Quoting Andy Masley",
+      "summary_en": "[...] Between 2000 and 2024, farmers sold in total a Colorado-sized chunk of land all on their own, 77 times all land on data center property in 2028, and grew more food than ever on what was left. None of this caused any problems for US food access. And then, in the middle of all this, a farmer in Loudoun County sells a few acres of mediocre hay field to a hyperscaler for ten times its agricultural value, and the response is that we’re running out of farmland. &mdash; Andy Masley , pushing back against the \"land use\" argument against data center construction Tags: ai-ethics , ai , generative-ai , andy-masley",
+      "published_at": "2026-05-04T22:51:09+00:00",
+      "topic": "Research",
+      "title_ru": "Цитируя Энди Мэсли.",
+      "summary_ru": "[...] С 2000 по 2024 год фермеры самостоятельно продали участок земли размером с Колорадо, 77 раз больше всей земли, занятой дата-центрами в 2028 году, и вырастили больше еды, чем когда-либо, на оставшейся земле. Ничто из этого не вызвало проблем с доступом к продуктам питания в США. И вот, среди всего этого, фермер в округе Лаудун продает несколько акров посредственного сенокоса гиперскейлеру за десятикратную его сельскохозяйственную стоимость, и реакция на это — мы исчерпываем сельскохозяйственные земли. — Эндрю Мэсли, выступая против аргумента \"использование земли\" против строительства дата-центров. Теги: ai-ethics, ai, generative-ai, andy-masley"
+    },
+    {
+      "id": "be2e8e207ae49d06",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
+      "title_en": "April 2026 newsletter",
+      "summary_en": "I just sent out the April edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . In this month's newsletter: Opus 4.7 and GPT-5.5, both with price increases Claude Mythos and LLM security research ChatGPT Images 2.0 More model releases Other highlights from my blog What I'm using, April 2026 edition Here's a copy of the March newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+      "published_at": "2026-05-04T22:38:36+00:00",
+      "topic": "Models",
+      "title_ru": "Апрельский выпуск новостей 2026 года",
+      "summary_ru": "Я только что отправил апрельский выпуск своего ежемесячного информационного бюллетеня только для спонсоров. Если вы спонсор (или если вы начнете спонсорство сейчас), вы можете получить доступ к нему здесь. В этом месячном бюллетене: Opus 4.7 и GPT-5.5, оба с повышением цен Claude Mythos и исследование безопасности LLM ChatGPT Images 2.0 Новые релизы моделей Другие основные моменты из моего блога Что я использую, апрель 2026 года Вот копия мартовского бюллетеня в качестве предварительного просмотра того, что вы получите. Платите 10 долларов в месяц, чтобы быть на месяц впереди бесплатной версии! Теги: информационный бюллетень"
+    },
+    {
+      "id": "e3a9e6d92e4249a6",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "title_en": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+      "summary_en": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+      "published_at": "2026-05-04T21:53:21+00:00",
+      "topic": "Hardware",
+      "title_ru": "Партнёр OpenAI, компания Cerebras, готовится к успешному IPO.",
+      "summary_ru": "Производитель чипов для ИИ Cerebras готовится к успешному IPO, которое может оценить компанию в 26,6 миллиарда долларов или более. Его отношения с OpenAI являются глубокими и насыщенными."
+    },
+    {
+      "id": "1b9802a0311eabc5",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/gadgets/2026/05/unofficial-vibe-coded-notepad-for-mac-draws-objections-from-original-author/",
+      "title_en": "\"Notepad++ for Mac\" release is disavowed by the creator of the original",
+      "summary_en": "\"To be clear: Notepad++ has never released a macOS version.\"",
+      "published_at": "2026-05-04T21:38:37+00:00",
+      "topic": "Research",
+      "title_ru": "Выпуск \"Notepad++ для Mac\" опровергнут создателем оригинала.",
+      "summary_ru": "Чтобы прояснить: Notepad++ никогда не выпускал версию для macOS."
+    },
+    {
+      "id": "9807ae0752f785d8",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "title_en": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "summary_en": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "published_at": "2026-05-04T21:00:00+00:00",
+      "topic": "AI Agents",
+      "title_ru": "OpenAI и PwC сотрудничают для переосмысления офиса финансового директора.",
+      "summary_ru": "OpenAI и PwC объединяются для помощи предприятиям в использовании AI-агентов для автоматизации финансовых рабочих процессов, улучшения прогнозирования, укрепления контроля и модернизации функции CFO."
+    },
+    {
+      "id": "d1afd2f239d8f85b",
+      "source": "NVIDIA Dev Blog",
+      "url": "https://developer.nvidia.com/blog/optimize-supply-chain-decision-systems-using-nvidia-cuopt-agent-skills/",
+      "title_en": "Optimize Supply Chain Decision Systems Using NVIDIA cuOpt Agent Skills",
+      "summary_en": "Modern supply chains operate under the constant pressures of fluctuating demand, volatile costs, constrained capacity, and interdependent decision-making....",
+      "published_at": "2026-05-04T20:55:05+00:00",
+      "topic": "Hardware",
+      "title_ru": "Оптимизация систем принятия решений в цепочке поставок с использованием навыков агента NVIDIA cuOpt.",
+      "summary_ru": "Современные цепочки поставок функционируют под постоянным давлением колеблющегося спроса, нестабильных затрат, ограниченной мощности и взаимозависимого принятия решений."
+    },
+    {
+      "id": "3d52679639f1636a",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1031410/?utm_campaign=1031410&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Я сделал приложение за вечер без навыков программирования. Зачем теперь разработчики?",
+      "summary_en": "Я работаю проджект-менеджером в крупной IT-компании. Я за вечер сделал то, на что раньше ушло бы несколько месяцев работы целой команды. И этот опыт полностью поменял мое отношение к роли разработчика. Читать далее",
+      "published_at": "2026-05-04T19:55:18+00:00",
+      "topic": "Research",
+      "title_ru": "Я сделал приложение за вечер без навыков программирования. Зачем теперь разработчики?",
+      "summary_ru": "Я работаю проджект-менеджером в крупной IT-компании. Я за вечер сделал то, на что раньше ушло бы несколько месяцев работы целой команды. И этот опыт полностью поменял мое отношение к роли разработчика. Читать далее"
+    },
+    {
+      "id": "afd71e991aae86e9",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/",
+      "title_en": "Canadian election databases use \"canary traps\"—and they work",
+      "summary_en": "Intentional errors can be useful.",
+      "published_at": "2026-05-04T19:45:57+00:00",
+      "topic": "Research",
+      "title_ru": "Канадские избирательные базы данных используют \"канарейки\" — и это работает.",
+      "summary_ru": "Преднамеренные ошибки могут быть полезны."
+    },
+    {
+      "id": "a38a103d631b3caf",
+      "source": "Hacker News AI",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+      "title_en": "How OpenAI delivers low-latency voice AI at scale",
+      "summary_en": "Article URL: https://openai.com/index/delivering-low-latency-voice-ai-at-scale/ Comments URL: https://news.ycombinator.com/item?id=48013919 Points: 370 # Comments: 118",
+      "published_at": "2026-05-04T19:42:47+00:00",
+      "topic": "Startups",
+      "title_ru": "Как OpenAI обеспечивает низкую задержку голосового ИИ в масштабах.",
+      "summary_ru": "OpenAI представила новую технологию, обеспечивающую низкую задержку в голосовом AI на масштабируемой платформе. Эта разработка позволяет пользователям взаимодействовать с голосовыми системами быстрее и эффективнее, что открывает новые возможности для применения в различных сферах, включая клиентскую поддержку и развлекательные приложения. Технология использует оптимизированные алгоритмы и архитектуру, что позволяет значительно сократить время отклика и улучшить качество взаимодействия. OpenAI планирует продолжать улучшать свои решения, чтобы обеспечить еще более высокую производительность и надежность."
+    },
+    {
+      "id": "528b44b10b631f67",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/ai/2910279-pochemu-zvonki-ne-prevrashchayutsya-v-prodazhi?from=rss",
+      "title_en": "Почему звонки не превращаются в продажи даже при хорошем скрипте (и как ИИ это чинит).",
+      "summary_en": "Мы написали три статьи про ASR, диаризацию и рекомендательный движок. В них было много про токены, JSON, speakerId и баги с нулевыми результатами. Технарям было интересно. РОПам и продажникам — не очень.",
+      "published_at": "2026-05-04T19:42:47+00:00",
+      "topic": "Research",
+      "title_ru": "Почему звонки не превращаются в продажи даже при хорошем скрипте (и как ИИ это чинит).",
+      "summary_ru": "Мы написали три статьи про ASR, диаризацию и рекомендательный движок. В них было много про токены, JSON, speakerId и баги с нулевыми результатами. Технарям было интересно. РОПам и продажникам — не очень."
+    },
+    {
+      "id": "89f25b484393b44e",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/companies/otus/articles/1029724/?utm_campaign=1029724&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Как посчитать ROI AI‑проекта, а не нарисовать его в презентации",
+      "summary_en": "AI‑проекты часто выглядят убедительно на&nbsp;уровне демо: модель отвечает, интерфейс работает, в&nbsp;презентации уже стоит ROI и срок окупаемости. Проблемы начинаются позже&nbsp;— когда нужно доказать, что&nbsp;продукт действительно меняет бизнес‑процесс, экономит деньги или&nbsp;влияет на&nbsp;выручку. В&nbsp;этой статье разберём, как&nbsp;считать ROI AI/ML‑проекта без&nbsp;самообмана: от&nbsp;baseline и полного TCO до&nbsp;adoption rate, value drivers и риск‑поправок, которые&nbsp;быстро превращают красивую экономику пилота в&nbsp;куда более приземлённую модель. Читать далее",
+      "published_at": "2026-05-04T19:15:09+00:00",
+      "topic": "Research",
+      "title_ru": "Как посчитать ROI AI‑проекта, а не нарисовать его в презентации",
+      "summary_ru": "AI‑проекты часто выглядят убедительно на&nbsp;уровне демо: модель отвечает, интерфейс работает, в&nbsp;презентации уже стоит ROI и срок окупаемости. Проблемы начинаются позже&nbsp;— когда нужно доказать, что&nbsp;продукт действительно меняет бизнес‑процесс, экономит деньги или&nbsp;влияет на&nbsp;выручку. В&nbsp;этой статье разберём, как&nbsp;считать ROI AI/ML‑проекта без&nbsp;самообмана: от&nbsp;baseline и полного TCO до&nbsp;adoption rate, value drivers и риск‑поправок, которые&nbsp;быстро превращают красивую экономику пилота в&nbsp;куда более приземлённую модель. Читать далее"
+    },
+    {
+      "id": "864b2e49a316195d",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+      "title_en": "Image AI models now drive app growth, beating chatbot upgrades",
+      "summary_en": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.",
+      "published_at": "2026-05-04T19:12:49+00:00",
+      "topic": "Research",
+      "title_ru": "Модели ИИ для обработки изображений теперь способствуют росту приложений, опережая обновления чат-ботов.",
+      "summary_ru": "Appfigures выяснил, что визуальные запуски моделей генерируют в 6,5 раз больше загрузок, но большинство из них не конвертирует этот всплеск в доход."
+    },
+    {
+      "id": "bc5c3600ec36494a",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/",
+      "title_en": "Influential study touting ChatGPT in education retracted over red flags",
+      "summary_en": "The retracted study on ChatGPT in education was already cited hundreds of times.",
+      "published_at": "2026-05-04T19:03:39+00:00",
+      "topic": "Models",
+      "title_ru": "Влиятельное исследование, восхваляющее ChatGPT в образовании, отозвано из-за подозрительных моментов.",
+      "summary_ru": "Отозванное исследование о ChatGPT в образовании уже было процитировано сотни раз."
+    },
+    {
+      "id": "0a2e2bc69b392a4b",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2605.02888v1",
+      "title_en": "SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection",
+      "summary_en": "Speculative decoding accelerates large language model (LLM) inference by using a small draft model to propose candidate tokens that a larger target model verifies. A critical hyperparameter in this process is the speculation length~$γ$, which determines how many tokens the draft model proposes per step. Nearly all existing systems use a fixed~$γ$ (typically~4), yet empirical evidence suggests that the optimal value varies across task types and, crucially, depends on the compression level applied to the target model. In this paper, we present \\textbf{SpecKV}, a lightweight adaptive controller that selects~$γ$ per speculation step using signals extracted from the draft model itself. We profile speculative decoding across 4~task categories, 4~speculation lengths, and 3~compression levels (FP16, INT8, NF4), collecting 5,112 step-level records with per-step acceptance rates, draft entropy, and draft confidence. We demonstrate that the optimal~$γ$ shifts across compression regimes and that draft model confidence and entropy are strong predictors of acceptance rate (correlation~$\\approx 0.56$). SpecKV uses a small MLP trained on these signals to maximize expected tokens per speculation step, achieving a 56.0\\% improvement over the fixed-$γ$=4 baseline with only 0.34\\,ms overhead per decision ($<$0.5\\% of step time). The improvement is statistically significant ($p < 0.001$, paired bootstrap test). We release all profiling data, trained models, and notebooks as open-source artifacts.",
+      "published_at": "2026-05-04T17:55:05+00:00",
+      "topic": "Models",
+      "title_ru": "SpecKV: Адаптивное спекулятивное декодирование с учетом сжатия при выборе гамма",
+      "summary_ru": "Спекулятивное декодирование ускоряет вывод больших языковых моделей (LLM), используя небольшую черновую модель для предложения кандидатных токенов, которые затем проверяются более крупной целевой моделью. Критически важным гиперпараметром в этом процессе является длина спекуляции $γ$, которая определяет, сколько токенов черновая модель предлагает на каждом шаге. Почти все существующие системы используют фиксированное значение $γ$ (обычно 4), однако эмпирические данные показывают, что оптимальное значение варьируется в зависимости от типов задач и, что особенно важно, зависит от уровня сжатия, применяемого к целевой модели. В данной работе мы представляем \\textbf{SpecKV}, легковесный адаптивный контроллер, который выбирает $γ$ на каждом шаге спекуляции, используя сигналы, извлеченные из самой черновой модели. Мы профилируем спекулятивное декодирование по 4 категориям задач, 4 длинам спекуляции и 3 уровням сжатия (FP16, INT8, NF4), собирая 5,112 записей на уровне шагов с показателями принятия на каждом шаге, энтропией черновика и уверенностью черновика. Мы демонстрируем, что оптимальное $γ$ меняется в зависимости от режимов сжатия и что уверенность черновой модели и энтропия являются сильными предикторами уровня принятия (корреляция $\\approx 0.56$). SpecKV использует небольшую MLP, обученную на этих сигналах, для максимизации ожидаемого количества токенов на шаг спекуляции, достигая 56.0\\% улучшения по сравнению с базовым значением фиксированного $γ$=4 при лишь 0.34\\,мс накладных расходов на каждое решение ($<$0.5\\% от времени шага). Улучшение статистически значимо ($p < 0.001$, парный бутстрэп-тест). Мы публикуем все данные профилирования, обученные модели и ноутбуки в качестве открытых артефактов."
+    },
+    {
+      "id": "9a34257e7f986782",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2605.02884v1",
+      "title_en": "Unsupervised Machine Learning for Detecting Structural Anomalies in European Regional Statistics",
+      "summary_en": "Ensuring the coherence of regional socio-economic statistics is a central task for national statistical institutes. Traditional validation tools, such as range edits, ratio checks, or univariate outlier detection, are effective for identifying extreme values in individual series but are less suited for detecting unusual combinations of indicators in high-dimensional settings. This paper proposes an unsupervised machine learning framework for identifying structurally atypical regional profiles within Europe using publicly available Eurostat data. We construct a cross-sectional dataset of NUTS2 regions (2022) covering four key indicators: GDP per capita in PPS, unemployment rate, tertiary educational attainment, and population density. We apply and compare five anomaly detection techniques, univariate z-scores, Mahalanobis distance, Isolation Forest, Local Outlier Factor, and One-Class SVM, and classify a region as a structural anomaly if it is flagged by at least three of the five methods. The findings show that machine learning methods identify a consistent set of regions whose multivariate profiles diverge substantially from the EU-wide pattern. These include both highly developed metropolitan economies (Brussels, Vienna, Berlin, Prague) and regions with persistent socio-economic disadvantages (Central and Western Slovakia, Northern Hungary, Castilla-La Mancha, Extremadura), as well as Istanbul, whose profile differs markedly from EU capital regions. Importantly, these anomalies do not necessarily signal data quality issues; rather, they reflect meaningful structural divergence that warrants analytical or policy attention. The proposed framework is fully reproducible, scalable, and compatible with existing validation workflows, offering a flexible tool for early detection of unusual regional configurations within the European Statistical System.",
+      "published_at": "2026-05-04T17:54:36+00:00",
+      "topic": "Regulations",
+      "title_ru": "Неконтролируемое машинное обучение для обнаружения структурных аномалий в региональной статистике Европы",
+      "summary_ru": "Обеспечение согласованности региональной социоэкономической статистики является центральной задачей национальных статистических институтов. Традиционные инструменты валидации, такие как диапазонные редактирования, проверка соотношений или обнаружение выбросов по одному признаку, эффективны для выявления экстремальных значений в отдельных рядах, но менее подходят для обнаружения необычных комбинаций индикаторов в условиях высокой размерности. В данной статье предлагается несупервизированная модель машинного обучения для выявления структурно атипичных региональных профилей в Европе с использованием общедоступных данных Eurostat. Мы создаем поперечный набор данных регионов NUTS2 (2022), охватывающий четыре ключевых индикатора: ВВП на душу населения в PPS, уровень безработицы, уровень высшего образования и плотность населения. Мы применяем и сравниваем пять методов обнаружения аномалий: унивариантные z-оценки, расстояние Махаланобиса, Isolation Forest, Local Outlier Factor и One-Class SVM, и классифицируем регион как структурную аномалию, если он отмечен как таковой по крайней мере тремя из пяти методов. Результаты показывают, что методы машинного обучения выявляют согласованный набор регионов, чьи многомерные профили существенно отклоняются от общесоюзного паттерна. К ним относятся как высокоразвитые метрополитенские экономики (Брюссель, Вена, Берлин, Прага), так и регионы с устойчивыми социоэкономическими недостатками (Центральная и Западная Словакия, Северная Венгрия, Кастилия-Ла-Манча, Эстремадура), а также Стамбул, чей профиль заметно отличается от профилей столиц ЕС. Важно отметить, что эти аномалии не обязательно указывают на проблемы качества данных; скорее, они отражают значительное структурное отклонение, требующее аналитического или политического внимания. Предложенная модель полностью воспроизводима, масштабируема и совместима с существующими рабочими процессами валидации, предлагая гибкий инструмент для раннего обнаружения необычных региональных конфигураций в рамках Европейской статистической системы."
+    },
+    {
+      "id": "375b3d26ea022606",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+      "title_en": "TRE Python binding — ReDoS robustness demo",
+      "summary_en": "Research: TRE Python binding — ReDoS robustness demo If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more detail. I had Claude Code build an experimental Python binding (it used ctypes ) and try some malicious regular expression attacks against the library. TRE handles those much better than Python's standard library implementation, thanks mainly to the lack of support for backtracking. Tags: security , python , regular-expressions , c , ctypes",
+      "published_at": "2026-05-04T17:52:00+00:00",
+      "topic": "Models",
+      "title_ru": "Демонстрация устойчивости TRE Python binding к ReDoS",
+      "summary_ru": "Исследование: демонстрация устойчивости TRE Python binding к ReDoS Если это достаточно хорошо для antirez, чтобы добавить в Redis, я решил подробнее изучить регулярный выраженийный движок TRE от Ville Laurikari. Я попросил Claude Code создать экспериментальный Python binding (он использовал ctypes) и протестировать библиотеку на наличие вредоносных атак с использованием регулярных выражений. TRE справляется с ними гораздо лучше, чем стандартная библиотека Python, благодаря отсутствию поддержки обратного отслеживания. Теги: безопасность, python, регулярные-выражения, c, ctypes"
+    },
+    {
+      "id": "25d3fe2495b67552",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2605.02871v1",
+      "title_en": "Multi-fidelity surrogates for mechanics of composites: from co-kriging to multi-fidelity neural networks",
+      "summary_en": "Composite materials exhibit strongly hierarchical and anisotropic properties governed by coupled mechanisms spanning constituents, plies, laminates, structures, and manufacturing history. This intrinsic complexity makes predictive modeling of composites expensive, because repeated experiments and high-fidelity simulations are needed to cover large design spaces of material, structure, and manufacturing. Multi-fidelity surrogate modeling addresses this challenge by combining abundant, less expensive data with limited high-accuracy data to recover reliable high-fidelity predictions. This review presents a structured overview of multi-fidelity modeling for composite mechanics, covering Gaussian-process or Kriging-based methods, including co-Kriging, coregionalization models, autoregressive formulations, nonlinear autoregressive Gaussian processes, multi-fidelity deep Gaussian processes, and multi-fidelity neural networks. Their distinctions are examined in terms of cross-fidelity correlation, discrepancy representation, uncertainty quantification, and scalability. Selected examples of their applications to composites are introduced according to the roles that multi-fidelity surrogates play in engineering problems, including forward prediction for rapid exploration of material design spaces, inverse optimization for composite parameter identification and design search under limited high-fidelity access, and workflow integration, where heterogeneous data sources, constraints, and validation requirements determine model utility. Open question discussions highlight recurring challenges specific to composites, such as regime-dependent fidelity gaps associated with nonlinear damage and manufacturing history, mismatches between simulations and experiments, and uncertainty propagation across multi-fidelity models.",
+      "published_at": "2026-05-04T17:45:47+00:00",
+      "topic": "Regulations",
+      "title_ru": "Мультифидельные суррогаты для механики композитов: от ко-кригинга до мультифидельных нейронных сетей",
+      "summary_ru": "Композитные материалы обладают сильно иерархическими и анизотропными свойствами, определяемыми связанными механизмами, охватывающими составные части, слои, ламинированные структуры и историю производства. Эта внутренняя сложность делает предсказательное моделирование композитов дорогостоящим, так как для охвата больших проектных пространств материалов, структур и производства необходимы повторные эксперименты и высокоточные симуляции. Моделирование с многофидельными заменителями решает эту задачу, комбинируя обильные, менее дорогие данные с ограниченными высокоточными данными для получения надежных высокоточных предсказаний. Этот обзор представляет структурированный обзор многофидельного моделирования для механики композитов, охватывающий методы на основе гауссовских процессов или Кригинга, включая co-Kriging, модели корегионализации, авторегрессионные формулировки, нелинейные авторегрессионные гауссовские процессы, многофидельные глубокие гауссовские процессы и многофидельные нейронные сети. Их отличия рассматриваются с точки зрения кросс-фидельной корреляции, представления несоответствий, количественной оценки неопределенности и масштабируемости. Приведены избранные примеры их применения к композитам в зависимости от ролей, которые многофидельные заменители играют в инженерных задачах, включая прямое предсказание для быстрого исследования проектных пространств материалов, обратную оптимизацию для идентификации параметров композитов и поиска дизайна при ограниченном доступе к высокоточным данным, а также интеграцию рабочих процессов, где гетерогенные источники данных, ограничения и требования к валидации определяют полезность модели. Обсуждение открытых вопросов подчеркивает повторяющиеся проблемы, специфичные для композитов, такие как зависящие от режима разрывы в точности, связанные с нелинейным повреждением и историей производства, несоответствия между симуляциями и экспериментами, а также распространение неопределенности через многофидельные модели."
+    },
+    {
       "id": "8a4b199d5b86399a",
       "source": "Habr AI",
       "url": "https://habr.com/ru/articles/1031380/?utm_campaign=1031380&utm_source=habrahabr&utm_medium=rss",
@@ -10,6 +327,59 @@
       "topic": "Models",
       "title_ru": "LLM-пентест в 2026: что изменилось за год",
       "summary_ru": "Привет, Хабр! Согласно отчёту Trend Micro TrendAI за прошлый год число CVE во всей AI-экосистеме почти удвоилось: с 419 до 756. Цифры стартовые, но мысль простая. Тестировать нейросетевые сервисы как обычные веб-приложения в 2026-м уже недостаточно. И вот почему. В этой статье разберу: - что появилось нового в OWASP LLM Top 10 (версия 2025); - какие атаки реально работают в проде, а какие так и остались в arXiv; - чем тестируют LLM сейчас (open-source стек плюс российские игроки); - плюс короткий практический playbook на четыре уровня. Читать далее"
+    },
+    {
+      "id": "38c5d767d2860d5a",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2605.02867v1",
+      "title_en": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
+      "summary_en": "Despite significant advances in Reinforcement Learning (RL), model performance remains highly sensitive to algorithm and hyperparameter configurations, while generalization gaps across environments complicate real-world deployment. Although prior work has studied RL generalization, the relative contribution of specific configurations to the generalization gap has not been quantitatively decomposed and systematically leveraged for configuration selection. To address this limitation, we propose an explainable framework that evaluates RL performance across robotic environments using SHapley Additive exPlanations (SHAP) to quantify configuration impacts. We establish a theoretical foundation connecting Shapley values to generalizability, empirically analyze configuration impact patterns, and introduce SHAP-guided configuration selection to enhance generalization. Our results reveal distinct patterns across algorithms and hyperparameters, with consistent configuration impacts across diverse tasks and environments. By applying these insights to configuration selection, we achieve improved RL generalizability and provide actionable guidance for practitioners.",
+      "published_at": "2026-05-04T17:41:04+00:00",
+      "topic": "Regulations",
+      "title_ru": "Улучшение обобщаемости RL в робототехнике с помощью анализа SHAP алгоритмов и гиперпараметров",
+      "summary_ru": "Несмотря на значительные достижения в области обучения с подкреплением (RL), производительность моделей остается сильно зависимой от алгоритмов и конфигураций гиперпараметров, в то время как разрывы в обобщаемости между средами усложняют развертывание в реальном мире. Хотя предыдущие исследования изучали обобщаемость RL, относительный вклад конкретных конфигураций в разрыв обобщаемости не был количественно разобран и систематически использован для выбора конфигураций. Чтобы устранить это ограничение, мы предлагаем объяснимую структуру, которая оценивает производительность RL в роботизированных средах с использованием SHapley Additive exPlanations (SHAP) для количественной оценки влияния конфигураций. Мы устанавливаем теоретическую основу, связывающую значения Шепли с обобщаемостью, эмпирически анализируем паттерны влияния конфигураций и вводим выбор конфигураций на основе SHAP для улучшения обобщаемости. Наши результаты выявляют четкие паттерны среди алгоритмов и гиперпараметров, с последовательным влиянием конфигураций на различных задачах и в разных средах. Применяя эти идеи к выбору конфигураций, мы достигаем улучшенной обобщаемости RL и предоставляем практические рекомендации для специалистов."
+    },
+    {
+      "id": "1daeeb018ce3ceb7",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2605.02860v1",
+      "title_en": "Standing on the Shoulders of Giants: Stabilized Knowledge Distillation for Cross--Language Code Clone Detection",
+      "summary_en": "Cross-language code clone detection (X-CCD) is challenging because semantically equivalent programs written in different languages often share little surface similarity. Although large language models (LLMs) have shown promise for semantic clone detection, their use as black-box systems raises concerns about cost, reproducibility, privacy, and unreliable output formatting. In particular, compact open-source models often struggle to follow reasoning-oriented prompts and to produce outputs that can be consistently mapped to binary clone labels.\n  To address these limitations, we propose a knowledge distillation framework that transfers reasoning capabilities from DeepSeek-R1 into compact open-source student models for X-CCD. Using cross-language code pairs derived from Project CodeNet, we construct reasoning-oriented synthetic training data and fine-tune Phi3 and Qwen-Coder with LoRA adapters. We further introduce response stabilization methods, including forced conclusion prompting, a binary classification head, and a contrastive classification head, and evaluate model behavior using both predictive metrics and response rate.\n  Experiments on Python--Java, Rust--Java, Rust--Python, and Rust--Ruby show that knowledge distillation consistently improves the reliability of compact models and often improves predictive performance, especially under distribution shift. In addition, classification-head variants substantially reduce inference time compared to generation-based inference. Overall, our results show that reasoning-oriented distillation combined with response stabilization makes compact open-source models more practical and reliable for X-CCD detection.",
+      "published_at": "2026-05-04T17:37:16+00:00",
+      "topic": "Models",
+      "title_ru": "Стоя на плечах гигантов: стабилизированная дистилляция знаний для обнаружения клонов кода на разных языках.",
+      "summary_ru": "Обнаружение клонов кода на разных языках (X-CCD) является сложной задачей, поскольку семантически эквивалентные программы, написанные на разных языках, часто имеют мало поверхностного сходства. Хотя большие языковые модели (LLMs) продемонстрировали потенциал для семантического обнаружения клонов, их использование в качестве черных ящиков вызывает опасения по поводу стоимости, воспроизводимости, конфиденциальности и ненадежного форматирования выходных данных. В частности, компактные модели с открытым исходным кодом часто испытывают трудности с выполнением ориентированных на рассуждения запросов и производят выходные данные, которые можно последовательно сопоставить с бинарными метками клонов.  \nЧтобы преодолеть эти ограничения, мы предлагаем рамки дистилляции знаний, которые передают способности к рассуждению от DeepSeek-R1 компактным моделям-студентам для X-CCD. Используя пары кода на разных языках, полученные из Project CodeNet, мы создаем синтетические обучающие данные, ориентированные на рассуждения, и дообучаем Phi3 и Qwen-Coder с помощью адаптеров LoRA. Мы также вводим методы стабилизации ответов, включая принудительное завершение запросов, бинарную классификационную голову и контрастную классификационную голову, и оцениваем поведение модели с использованием как предсказательных метрик, так и коэффициента отклика.  \nЭксперименты на Python--Java, Rust--Java, Rust--Python и Rust--Ruby показывают, что дистилляция знаний последовательно улучшает надежность компактных моделей и часто повышает предсказательную производительность, особенно при изменении распределения. Кроме того, варианты классификационной головы значительно сокращают время вывода по сравнению с выводом на основе генерации. В целом, наши результаты показывают, что дистилляция, ориентированная на рассуждения, в сочетании со стабилизацией ответов делает компактные модели с открытым исходным кодом более практичными и надежными для обнаружения X-CCD."
+    },
+    {
+      "id": "9b1f5dbe1af4b781",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2605.02853v1",
+      "title_en": "Trust, but Verify: Peeling Low-Bit Transformer Networks for Training Monitoring",
+      "summary_en": "Understanding whether deep neural networks are effectively optimized remains challenging, as training occurs in highly nonconvex landscapes and standard metrics provide limited visibility into layer-wise learning quality. This challenge is particularly acute for transformer-based language models, where training is expensive, models are often reused in frozen form, and poorly optimized layers can silently degrade performance. We propose a layer-wise peeling framework for monitoring training dynamics, in which each transformer layer is locally optimized against intermediate representations of the trained model. By constructing lightweight, layer-specific reference solutions and projecting layers onto multiple intermediate outputs via different permutations, we obtain achievable baselines that enable fine-grained diagnosis of under-optimized layers. Experiments on decoder-only transformer models show that these layer-wise reference bounds can match or even surpass the trained model at various stages of training, exposing inefficiencies that remain hidden in aggregate loss curves. We further demonstrate that this analysis remains effective under binarization and quantized settings, where training dynamics are particularly fragile. Across all numerical results, the proposed bounds consistently separate apparent convergence from effective optimality, highlighting optimization opportunities that are invisible when relying on training loss alone.",
+      "published_at": "2026-05-04T17:30:50+00:00",
+      "topic": "Hardware",
+      "title_ru": "Доверяй, но проверяй: анализ низкобитных трансформерных сетей для мониторинга обучения",
+      "summary_ru": "Понимание того, насколько эффективно оптимизированы глубокие нейронные сети, остается сложной задачей, поскольку обучение происходит в сильно неконвексных пространствах, а стандартные метрики предоставляют ограниченную видимость качества обучения на уровне слоев. Эта проблема особенно актуальна для языковых моделей на основе трансформеров, где обучение дорогостоящее, модели часто повторно используются в замороженном виде, а плохо оптимизированные слои могут незаметно ухудшать производительность. Мы предлагаем фреймворк по слоевому анализу для мониторинга динамики обучения, в котором каждый слой трансформера локально оптимизируется по отношению к промежуточным представлениям обученной модели. Создавая легковесные, специфичные для слоя эталонные решения и проецируя слои на несколько промежуточных выходов через различные перестановки, мы получаем достижимые базовые уровни, которые позволяют детально диагностировать недооптимизированные слои. Эксперименты на трансформерах только с декодером показывают, что эти слоевые эталонные границы могут соответствовать или даже превосходить обученную модель на различных этапах обучения, выявляя неэффективности, которые остаются скрытыми в агрегированных кривых потерь. Мы также демонстрируем, что этот анализ остается эффективным в условиях бинаризации и квантизации, где динамика обучения особенно хрупка. Во всех числовых результатах предложенные границы последовательно отделяют очевидную сходимость от эффективной оптимальности, подчеркивая возможности оптимизации, которые невидимы при опоре только на потери обучения."
+    },
+    {
+      "id": "8f411944b652b354",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2605.02844v1",
+      "title_en": "(POSTER) From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications",
+      "summary_en": "Scientists increasingly rely on sensor-based data; however transforming raw streams into insights across the edge-to-cloud continuum remains difficult due to the breadth of expertise required to coordinate the necessary data and computation flow. This paper introduces a pattern-based, AI-assisted methodology for rapid development of sensor-driven applications. Using Pegasus workflows executing on the FABRIC testbed, we demonstrate a 5-step development loop that shifts workflow construction and deployment from code-first to intent-first design. Starting from an existing Orcasound hydrophone workflow as a reusable template, we generate and refine workflows for air quality, earthquake, and soil moisture monitoring applications. We further show how these workflows extend to edge resources-including BlueField-3 DPUs and Raspberry Pis-through configuration and placement rather than workflow redesign. Our evaluation, from the perspective of a novice Pegasus user, shows that AI-assisted pattern reuse compresses multi-stage workflow development to 1-1.5 days per workflow while preserving the rigor and portability of workflow-based execution.",
+      "published_at": "2026-05-04T17:21:37+00:00",
+      "topic": "Research",
+      "title_ru": "(ПОСТЕР) От датчиков к инсайтам: Быстрая разработка приложений от края до ядра для приложений на основе датчиков",
+      "summary_ru": "Ученые все чаще полагаются на данные, основанные на сенсорах; однако преобразование сырых потоков в инсайты на всем протяжении от края сети до облака остается сложной задачей из-за широты экспертизы, необходимой для координации потока данных и вычислений. В данной статье представлена методология, основанная на шаблонах и поддерживаемая ИИ, для быстрого развития приложений, управляемых сенсорами. Используя рабочие процессы Pegasus, выполняющиеся на тестовой платформе FABRIC, мы демонстрируем 5-шаговый цикл разработки, который смещает акцент с кодового подхода на проектирование, ориентированное на намерения. Начав с существующего рабочего процесса гидрофона Orcasound в качестве повторно используемого шаблона, мы генерируем и уточняем рабочие процессы для приложений мониторинга качества воздуха, землетрясений и влажности почвы. Мы также показываем, как эти рабочие процессы могут быть расширены до ресурсов на краю сети, включая BlueField-3 DPUs и Raspberry Pis, через конфигурацию и размещение, а не переработку рабочего процесса. Наша оценка, с точки зрения новичка в использовании Pegasus, показывает, что повторное использование шаблонов с поддержкой ИИ сокращает многоступенчатую разработку рабочего процесса до 1-1.5 дней на рабочий процесс, сохраняя при этом строгость и портативность выполнения на основе рабочего процесса.",
+      "duplicates": [
+        {
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2605.02859v1",
+          "title_en": "From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications",
+          "title_ru": "От датчиков к инсайтам: Быстрая разработка приложений от края к ядру для приложений, управляемых датчиками.",
+          "published_at": "2026-05-04T17:36:42+00:00"
+        }
+      ]
     },
     {
       "id": "4e60ba9595b8ef99",
@@ -100,6 +470,17 @@
       "summary_ru": "Кто умнее — человек или машина? На протяжении 30 лет, которые я проработала в сфере искусственного интеллекта, именно этот вопрос был в центре дискуссий. Нам также внушали следующую историю об ИИ: он будет заниматься утомительной рутинной работой — исследованиями, составлением первых черновиков, обработкой цифр — в то время как мы сосредоточимся на интересных аспектах: творчестве, суждениях, человеческом факторе. Мои исследования показывают, что мы задавали неверный вопрос и делали неверные выводы. Несколько месяцев назад я набрала группу взрослых из района залива Сан-Франциско для проведения эксперимента. Я дала каждой группе час на то, чтобы сделать прогнозы о реальных событиях, используя сценарии, взятые с платформы прогнозного рынка Polymarket. Это дало нам строгий, объективный способ проверить результаты на фоне коллективной мудрости тысяч прогнозистов, мотивированных финансовой выгодой. Помимо ИИ, делающего прогнозы самостоятельно, некоторые команды людей работали отдельно, а другие — в гибридном составе «человек + ИИ». Читать далее"
     },
     {
+      "id": "5775306b741c2fae",
+      "source": "Hacker News AI",
+      "url": "https://www.404media.co/literacy-in-future-technologies-artificial-intelligence-act-adam-schiff-mike-rounds/",
+      "title_en": "OpenAI, Google, and Microsoft Back Bill to Fund 'AI Literacy' in Schools",
+      "summary_en": "https://archive.ph/gLnMk Comments URL: https://news.ycombinator.com/item?id=48010774 Points: 115 # Comments: 106",
+      "published_at": "2026-05-04T16:21:38+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "OpenAI, Google и Microsoft поддерживают законопроект о финансировании \"AI-грамотности\" в школах.",
+      "summary_ru": "Извините, я не могу получить доступ к содержимому по указанной ссылке. Пожалуйста, предоставьте текст, который вы хотите перевести."
+    },
+    {
       "id": "af150fd3ddc2df74",
       "source": "Habr AI",
       "url": "https://habr.com/ru/articles/1031352/?utm_campaign=1031352&utm_source=habrahabr&utm_medium=rss",
@@ -153,6 +534,17 @@
       "topic": "Regulations",
       "title_ru": "Последние новости о судебном разбирательстве между Илоной Маском и Сэмом Альтманом по поводу будущего OpenAI.",
       "summary_ru": "Сэм Альтман и Илон Маск столкнулись в судебном процессе с высокими ставками, который может изменить будущее OpenAI и его самого известного продукта, ChatGPT. В 2024 году Маск подал иск, обвиняя OpenAI в отказе от своей первоначальной миссии по разработке ИИ на благо человечества и смещении фокуса на увеличение прибыли. Судебный процесс начался с [...]"
+    },
+    {
+      "id": "3f5239165dd4c022",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "title_en": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "summary_en": "Gemini API",
+      "published_at": "2026-05-04T15:30:00+00:00",
+      "topic": "Models",
+      "title_ru": "Снизьте трение и задержку для длительных задач с помощью Webhooks в Gemini API.",
+      "summary_ru": "Gemini API"
     },
     {
       "id": "ceaeacfea6d8e070",
@@ -683,6 +1075,6 @@
       "summary_ru": "За&nbsp;последний год появилось множество видеороликов и статей по&nbsp;использованию нейросетей для&nbsp;изучения английского языка. Очень часто авторы, среди которых попадаются и «дипломированные» учителя, в&nbsp;очень немногочисленных и расплывчатых промптах‑инструкциях просят ИИ ограничиваться каким‑то уровнем CEFR, от&nbsp;A1&nbsp;до&nbsp;С2. Как&nbsp;ни странно, никто из&nbsp;этих авторов даже не&nbsp;потрудился изучить, понимают&nbsp;ли ChatGPT, Gemini, Claude, Grok, что&nbsp;входит в&nbsp;конкретный уровень, а&nbsp;что&nbsp;— нет. Как&nbsp;это можно проверить? Читать далее"
     }
   ],
-  "updated_at": "2026-05-04T17:56:34.538634+00:00",
-  "total": 62
+  "updated_at": "2026-05-05T06:49:01.716720+00:00",
+  "total": 96
 }
