@@ -16,6 +16,21 @@ import feedparser
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
 
+# Рекламные / промо-маркеры. Проверяются в URL и заголовке (lower).
+_PROMO_PATTERNS = [
+    # TechCrunch и другие венчурные издания пихают рекламу своих конференций
+    "disrupt", "early-bird", "early bird", "last-chance", "last chance",
+    "days-left", "days left", "hours-left", "hours left",
+    "% off", "discount", "promo", "sponsored", "webinar",
+    "register-now", "register now", "limited-time", "limited time",
+    "осталось", "скидк", "промокод", "купите билет", "билеты на",
+]
+
+
+def _is_promo(title: str, url: str) -> bool:
+    haystack = f"{title} {url}".lower()
+    return any(p in haystack for p in _PROMO_PATTERNS)
+
 
 def _clean_html(text: str) -> str:
     """Убираем HTML-теги и лишние пробелы."""
@@ -59,11 +74,14 @@ def fetch_rss() -> list[dict]:
             url = entry.get("link", "")
             if not url:
                 continue
+            title = _clean_html(entry.get("title", ""))
+            if _is_promo(title, url):
+                continue
             items.append({
                 "id": _stable_id(url),
                 "source": feed["name"],
                 "url": url,
-                "title_en": _clean_html(entry.get("title", "")),
+                "title_en": title,
                 "summary_en": _clean_html(entry.get("summary", "")),
                 "published_at": dt.isoformat(),
             })
