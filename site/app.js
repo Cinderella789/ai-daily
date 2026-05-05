@@ -120,12 +120,25 @@
     });
   }
 
+  function humanAgo(d) {
+    const diff = Math.floor((Date.now() - d.getTime()) / 1000);
+    if (diff < 60) return "только что";
+    if (diff < 3600) return `${Math.floor(diff / 60)} мин назад`;
+    if (diff < 86400) return `${Math.floor(diff / 3600)} ч назад`;
+    return `${Math.floor(diff / 86400)} дн назад`;
+  }
+
   try {
     const res = await fetch("./data/latest.json", { cache: "no-store" });
     const payload = await res.json();
     items = payload.items || [];
-    const ts = new Date(payload.generated_at).toLocaleString("ru-RU");
-    metaEl.textContent = `Обновлено: ${ts} · всего материалов: ${items.length}`;
+    const updatedAt = new Date(payload.generated_at);
+    const ts = updatedAt.toLocaleString("ru-RU", {
+      day: "numeric", month: "long", hour: "2-digit", minute: "2-digit",
+      timeZone: "Europe/Moscow",
+    });
+    const ago = humanAgo(updatedAt);
+    metaEl.innerHTML = `Обновлено: ${ts} MSK <span class="ago">(${ago})</span> · ${items.length} материалов за сутки`;
     buildSourceButtons();
     render();
   } catch (err) {
