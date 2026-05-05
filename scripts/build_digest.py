@@ -13,8 +13,26 @@ from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "latest.json"
+LOCK_PATH = ROOT / "data" / ".last-digest-date.txt"
 
 load_dotenv(ROOT / ".env")
+
+
+def _today_msk() -> str:
+    """Возвращает дату по Москве в формате YYYY-MM-DD."""
+    from datetime import datetime, timedelta, timezone
+    msk = timezone(timedelta(hours=3))
+    return datetime.now(msk).strftime("%Y-%m-%d")
+
+
+def _already_sent_today() -> bool:
+    if not LOCK_PATH.exists():
+        return False
+    return LOCK_PATH.read_text(encoding="utf-8").strip() == _today_msk()
+
+
+def _mark_sent_today() -> None:
+    LOCK_PATH.write_text(_today_msk(), encoding="utf-8")
 
 
 def pick_top(items: list[dict], n: int = 5) -> list[dict]:
@@ -94,6 +112,11 @@ def send(html: str, subject: str) -> None:
 
 
 def main() -> None:
+    force = "--force" in sys.argv
+    if not force and _already_sent_today():
+        print(f"[build_digest] сегодня ({_today_msk()}) уже отправляли — пропускаю")
+        return
+
     payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     top = pick_top(payload["items"], n=5)
     if not top:
@@ -112,7 +135,8 @@ def main() -> None:
     date_str = f"{today.day} {months[today.month - 1]}"
     subject = f"AI Daily · {date_str} · топ-5 новостей"
     send(html, subject=subject)
-    print(f"[build_digest] отправлено {len(top)} новостей")
+    _mark_sent_today()
+    print(f"[build_digest] отправлено {len(top)} новостей, защёлка на {_today_msk()}")
 
 
 if __name__ == "__main__":

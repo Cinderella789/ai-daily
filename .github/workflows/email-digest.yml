@@ -2,15 +2,27 @@ name: email-digest
 
 on:
   schedule:
-    # 09:00 MSK = 06:00 UTC
-    - cron: "0 6 * * *"
+    # Три попытки — на случай если GitHub Actions пропустит запуск.
+    # Скрипт сам проверяет защёлку и шлёт письмо только один раз в сутки.
+    - cron: "0 6 * * *"   # 09:00 MSK
+    - cron: "20 6 * * *"  # 09:20 MSK (если первый пропущен)
+    - cron: "45 6 * * *"  # 09:45 MSK (последняя попытка)
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Принудительно отправить, игнорируя защёлку"
+        required: false
+        default: "false"
 
 jobs:
   send:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
         with:
@@ -28,4 +40,18 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           DIGEST_TO: ${{ secrets.DIGEST_TO }}
           DIGEST_FROM_NAME: AI Daily
-        run: python scripts/build_digest.py
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            python scripts/build_digest.py --force
+          else
+            python scripts/build_digest.py
+          fi
+
+      - name: Commit lock file
+        run: |
+          git config user.name  "ai-daily-bot"
+          git config user.email "ai-daily-bot@users.noreply.github.com"
+          git add data/.last-digest-date.txt
+          git diff --cached --quiet || git commit -m "chore: digest sent $(date -u +%FT%TZ)"
+          git pull --rebase origin main || true
+          git push || true
