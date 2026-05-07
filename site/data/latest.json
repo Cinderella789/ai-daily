@@ -1,38 +1,287 @@
 {
-  "generated_at": "2026-05-07T11:30:22.515783+00:00",
+  "generated_at": "2026-05-07T18:17:06.853671+00:00",
   "items": [
     {
-      "id": "182b0c0d312025dd",
-      "source": "vc.ru AI",
-      "url": "https://vc.ru/marketplace/2914642-ya-podsmotrel-kartochki-top-20-sellerov-ozon-na-marketai-seoru-za-82-sekundy-i-moya-kartochka-perestala-gnit-na-4-i-stranice?from=rss",
-      "title_en": "Я подсмотрел карточки топ-20 селлеров Ozon на marketai-seo.ru за 82 секунды и моя карточка перестала гнить на 4-й странице.",
-      "summary_en": "Все, кто продаёт на Ozon, рано или поздно упираются в один и тот же вопрос: почему карточки конкурентов висят в топе, а моя — где-то на 4-й странице? Казалось бы, и цена адекватная, и доставка быстрая, и товар такой же. Но алгоритмы Ozon явно что-то подкручивают… узнать бы, что именно.",
-      "published_at": "2026-05-07T11:11:29+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Я подсмотрел карточки топ-20 селлеров Ozon на marketai-seo.ru за 82 секунды и моя карточка перестала гнить на 4-й странице.",
-      "summary_ru": "Все, кто продаёт на Ozon, рано или поздно упираются в один и тот же вопрос: почему карточки конкурентов висят в топе, а моя — где-то на 4-й странице? Казалось бы, и цена адекватная, и доставка быстрая, и товар такой же. Но алгоритмы Ozon явно что-то подкручивают… узнать бы, что именно."
-    },
-    {
-      "id": "a777b09332e6f3ee",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/companies/veai/articles/1032012/?utm_campaign=1032012&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Veai 5.10: общие скиллы и подсказки в чате",
-      "summary_en": "Главное в Veai 5.10 – скиллы теперь подхватываются из dot-директорий других ассистентов. В чат добавили быструю документацию по ссылкам на код. Запуск и получение конфигураций в Rider До Veai 5.10 в C#/.NET-проекте нужно было просить агента прогнать тесты в модуле или собрать проект. Агент шёл в терминал и пытался угадать команду: какой dotnet , какой TFM, какой фильтр и какой путь к csproj. На монорепо с несколькими SDK и global.json это регулярно заканчивалось exit code 1 и попыткой починить рабочий код. Читать далее",
-      "published_at": "2026-05-07T11:07:12+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Veai 5.10: общие скиллы и подсказки в чате",
-      "summary_ru": "Главное в Veai 5.10 – скиллы теперь подхватываются из dot-директорий других ассистентов. В чат добавили быструю документацию по ссылкам на код. Запуск и получение конфигураций в Rider До Veai 5.10 в C#/.NET-проекте нужно было просить агента прогнать тесты в модуле или собрать проект. Агент шёл в терминал и пытался угадать команду: какой dotnet , какой TFM, какой фильтр и какой путь к csproj. На монорепо с несколькими SDK и global.json это регулярно заканчивалось exit code 1 и попыткой починить рабочий код. Читать далее"
-    },
-    {
-      "id": "3cc8adaa84bf4f3a",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/articles/1032562/?utm_campaign=1032562&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Fake AI installers: как «установить Claude» может превратиться в запуск малвари",
-      "summary_en": "Найди одно отличие которое поможет избежать проблем. Новый тип атак на невнимательных пользователей. Читать далее",
-      "published_at": "2026-05-07T11:05:49+00:00",
+      "id": "c7baf15e1fc3f707",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
+      "title_en": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+      "summary_en": "Behind the Scenes Hardening Firefox with Claude Mythos Preview Fascinating, in-depth details on how Mozilla used their access to the Claude Mythos preview to locate and then fix hundreds of vulnerabilities in Firefox: Suddenly, the bugs are very good Just a few months ago, AI-generated security bug reports to open source projects were mostly known for being unwanted slop. Dealing with reports that look plausibly correct but are wrong imposes an asymmetric cost on project maintainers: it’s cheap and easy to prompt an LLM to find a “problem” in code, but slow and expensive to respond to it. It is difficult to overstate how much this dynamic changed for us over a few short months. This was due to a combination of two main factors. First, the models got a lot more capable. Second, we dramatically improved our techniques for harnessing these models — steering them, scaling them, and stacking them to generate large amounts of signal and filter out the noise. They include some detailed bug descriptions too, including a 20-year old XSLT bug and a 15-year-old bug in the &lt;legend&gt; element. A lot of the attempts made by the harness were blocked by Firefox's existing defense-in-depth measures, which is reassuring. Mozilla were fixing around 20-30 security bugs in Firefox per month through 2025. That jumped to 423 in April. Via Lobste.rs Tags: firefox , mozilla , security , ai , generative-ai , llms , anthropic , claude , ai-security-research",
+      "published_at": "2026-05-07T17:56:25+00:00",
       "topic": "Models",
-      "title_ru": "Fake AI installers: как «установить Claude» может превратиться в запуск малвари",
-      "summary_ru": "Найди одно отличие которое поможет избежать проблем. Новый тип атак на невнимательных пользователей. Читать далее"
+      "title_ru": "За кулисами: Укрепление Firefox с предварительным просмотром Claude Mythos",
+      "summary_ru": "За кулисами: Укрепление Firefox с помощью предварительного просмотра Claude Mythos. Удивительные, подробные сведения о том, как Mozilla использовала доступ к предварительному просмотру Claude Mythos для выявления и исправления сотен уязвимостей в Firefox. Внезапно ошибки стали очень полезными. Всего несколько месяцев назад отчеты о безопасности, сгенерированные ИИ, для проектов с открытым исходным кодом в основном были известны как нежелательный мусор. Работа с отчетами, которые выглядят правдоподобно, но на самом деле неверны, накладывает асимметричные затраты на поддерживающих проект: легко и дешево заставить LLM найти \"проблему\" в коде, но медленно и дорого на нее реагировать. Трудно переоценить, насколько сильно эта динамика изменилась для нас за короткий промежуток времени. Это произошло благодаря сочетанию двух основных факторов. Во-первых, модели стали гораздо более способными. Во-вторых, мы значительно улучшили наши методы использования этих моделей — управления ими, масштабирования и комбинирования для генерации большого количества сигналов и фильтрации шума. Они также включают некоторые подробные описания ошибок, включая 20-летнюю ошибку XSLT и 15-летнюю ошибку в элементе <legend>. Многие попытки, предпринятые с помощью harness, были заблокированы существующими мерами защиты Firefox, что обнадеживает. Mozilla исправляла около 20-30 уязвимостей в Firefox в месяц до 2025 года. В апреле это число возросло до 423."
+    },
+    {
+      "id": "690c113d945f8d92",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1032740/?utm_campaign=1032740&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Два окна в работе с AI-агентами: архитектор и разработчик. Самый недооценённый паттерн",
+      "summary_en": "Перестал работать с AI-агентом в одном окне. Сделал два — архитектор и разработчик. Одна модель в обоих или разные — не принципиально. Важно, что у каждого окна свой характер и нет инерции другого. Шесть категорий ошибок, которые этот паттерн закрывает, и одна где он избыточен. Читать далее",
+      "published_at": "2026-05-07T17:53:42+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Два окна в работе с AI-агентами: архитектор и разработчик. Самый недооценённый паттерн",
+      "summary_ru": "Перестал работать с AI-агентом в одном окне. Сделал два — архитектор и разработчик. Одна модель в обоих или разные — не принципиально. Важно, что у каждого окна свой характер и нет инерции другого. Шесть категорий ошибок, которые этот паттерн закрывает, и одна где он избыточен. Читать далее"
+    },
+    {
+      "id": "c437ca1ef00637c7",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/chatgpt-chinese-catch-you-steadily-sycophancy/",
+      "title_en": "ChatGPT Has 'Goblin' Mania in the US. In China It Will 'Catch You Steadily'",
+      "summary_en": "OpenAI's chatbot has some weird linguistic tics in Chinese that are driving users crazy.",
+      "published_at": "2026-05-07T16:25:48+00:00",
+      "topic": "Models",
+      "title_ru": "ChatGPT испытывает \"гоблинскую\" манию в США. В Китае он будет \"постепенно захватывать вас\".",
+      "summary_ru": "Чат-бот OpenAI имеет странные языковые особенности в китайском языке, которые сводят пользователей с ума."
+    },
+    {
+      "id": "c044e7ba828e542a",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
+      "title_en": "How Anthropic’s Mythos has rewritten Firefox’s approach to cybersecurity",
+      "summary_en": "Security researchers at Mozilla say Anthropic's Mythos has unearthed a wealth of high-severity bugs in Firefox.",
+      "published_at": "2026-05-07T16:05:48+00:00",
+      "topic": "Research",
+      "title_ru": "Как Mythos от Anthropic изменил подход Firefox к кибербезопасности",
+      "summary_ru": "Исследователи безопасности из Mozilla сообщают, что Mythos от Anthropic обнаружил множество уязвимостей высокой степени серьезности в Firefox."
+    },
+    {
+      "id": "570dd5819dc214e1",
+      "source": "NVIDIA Dev Blog",
+      "url": "https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/",
+      "title_en": "Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus",
+      "summary_en": "Distributed deep learning depends on fast, reliable GPU-to-GPU communication using the NVIDIA Collective Communication Library (NCCL). When training slows down,...",
+      "published_at": "2026-05-07T16:02:58+00:00",
+      "topic": "Hardware",
+      "title_ru": "Мониторинг производительности в реальном времени и более быстрое отладка с помощью NCCL Inspector и Prometheus",
+      "summary_ru": "Распределенное глубокое обучение зависит от быстрой и надежной связи между GPU с использованием библиотеки коллективной коммуникации NVIDIA (NCCL). Когда обучение замедляется,..."
+    },
+    {
+      "id": "c98e2e0016087766",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/id5923884/2915026-istoriya-zapier-avtomatizatsiya-bez-programmirovaniya?from=rss",
+      "title_en": "Написали код один раз, чтобы больше никогда этого не делать. История Zapier",
+      "summary_en": "Перетаскивая десятый раз за день данные из почты в Excel, потом в CRM, потом в отчёты — Фостер и Хэлминг поймали себя на мысли о том, ручная работа отнимает время, которое можно было бы потратить на важные дела.",
+      "published_at": "2026-05-07T15:38:14+00:00",
+      "topic": "Research",
+      "title_ru": "Написали код один раз, чтобы больше никогда этого не делать. История Zapier",
+      "summary_ru": "Перетаскивая десятый раз за день данные из почты в Excel, потом в CRM, потом в отчёты — Фостер и Хэлминг поймали себя на мысли о том, ручная работа отнимает время, которое можно было бы потратить на важные дела."
+    },
+    {
+      "id": "bcc70247df39f03f",
+      "source": "Hacker News AI",
+      "url": "https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers",
+      "title_en": "Motherboard sales 'collapse' amid unprecedented shortages fueled by AI",
+      "summary_en": "Article URL: https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers Comments URL: https://news.ycombinator.com/item?id=48050540 Points: 132 # Comments: 112",
+      "published_at": "2026-05-07T15:23:23+00:00",
+      "topic": "Hardware",
+      "title_ru": "Продажи материнских плат \"обрушились\" на фоне беспрецедентных дефицитов, вызванных AI.",
+      "summary_ru": "Продажи материнских плат упали более чем на 25 процентов, так как производители чипов ограничивают рынок энтузиастов ПК, чтобы сосредоточиться на производстве большего количества AI-чипов. Ожидается, что ASUS продаст на 5 миллионов плат меньше в 2025 году, также ожидается снижение продаж у Gigabyte, MSI и ASRock."
+    },
+    {
+      "id": "b5cffd1657a47db5",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/startup-battlefield-200-applications-close-may-27-a-shot-at-vc-access-global-visibility-techcrunch-coverage-and-100k/",
+      "title_en": "Startup Battlefield 200 applications close May 27: A shot at VC access, global visibility, TechCrunch coverage, and $100K",
+      "summary_en": "Startup Battlefield 200 applications are open, but only for three more weeks. Apply by May 27 for your shot at VC access, global visibility, TechCrunch coverage, $100,000 equity-free, and more opportunities for major scaling impact.",
+      "published_at": "2026-05-07T15:00:00+00:00",
+      "topic": "Regulations",
+      "title_ru": "Заявки на участие в Startup Battlefield 200 закрываются 27 мая: возможность получить доступ к венчурному капиталу, глобальную видимость, освещение в TechCrunch и $100K.",
+      "summary_ru": "Заявки на участие в Startup Battlefield 200 открыты, но только на три недели. Подайте заявку до 27 мая, чтобы получить доступ к венчурному капиталу, глобальную видимость, освещение в TechCrunch, $100,000 безвозмездных средств и другие возможности для значительного роста."
+    },
+    {
+      "id": "55f4efd6881ccbd9",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/companies/sandboxer/articles/1032704/?utm_campaign=1032704&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Где российские клинреки расходятся с международными гайдлайнами: справочник для врача на графе знаний",
+      "summary_en": "Идея этого продукта родилась дома. Моя жена работает врачом в клинике Фомина (известная московская клиника), и однажды она рассказала мне вещь, к которой я был не готов: российские клинические рекомендации (КР) в среднем отстают от международных гайдлайнов на два года. Это не просто задержка во времени — это отставание в методиках, дозировках и качестве ухода за пациентом. И дотянуться до свежих международных гайдов российскому врачу сейчас почти негде: UpToDate отрезан, обходы через зарубежные SIM-карты прикрыли (разве что опытные айтишники знают пути обхода), Notion ушёл — а вместе с ним разлетелись по чатам и заметкам рабочие шаблоны, которые врачи годами в нём вели. Когда жена это рассказала, мы взяли тему в работу как обычную задачу: гипотеза, интервью с врачами, валидация, MVP на нашей платформе. Так получился&nbsp; МедБро &nbsp;— бесплатный справочник, который рядом с международной рекомендацией сразу показывает соответствующую позицию из российского КР. Работает на&nbsp; medbro.pro , есть Android-сборка, iOS на модерации App Store. Сейчас продукт в режиме альфа-тестирования: загружено около 80 гайдлайнов, к 30 мая планируем закрыть основные специальности и выкатить личный кабинет врача с закладками. В статье разберу четыре конкретные боли врача, ту самую функцию, ради которой во многом и затевался продукт, и то, как мы построили под неё граф клинических знаний. Читать далее",
+      "published_at": "2026-05-07T14:38:55+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Где российские клинреки расходятся с международными гайдлайнами: справочник для врача на графе знаний",
+      "summary_ru": "Идея этого продукта родилась дома. Моя жена работает врачом в клинике Фомина (известная московская клиника), и однажды она рассказала мне вещь, к которой я был не готов: российские клинические рекомендации (КР) в среднем отстают от международных гайдлайнов на два года. Это не просто задержка во времени — это отставание в методиках, дозировках и качестве ухода за пациентом. И дотянуться до свежих международных гайдов российскому врачу сейчас почти негде: UpToDate отрезан, обходы через зарубежные SIM-карты прикрыли (разве что опытные айтишники знают пути обхода), Notion ушёл — а вместе с ним разлетелись по чатам и заметкам рабочие шаблоны, которые врачи годами в нём вели. Когда жена это рассказала, мы взяли тему в работу как обычную задачу: гипотеза, интервью с врачами, валидация, MVP на нашей платформе. Так получился&nbsp; МедБро &nbsp;— бесплатный справочник, который рядом с международной рекомендацией сразу показывает соответствующую позицию из российского КР. Работает на&nbsp; medbro.pro , есть Android-сборка, iOS на модерации App Store. Сейчас продукт в режиме альфа-тестирования: загружено около 80 гайдлайнов, к 30 мая планируем закрыть основные специальности и выкатить личный кабинет врача с закладками. В статье разберу четыре конкретные боли врача, ту самую функцию, ради которой во многом и затевался продукт, и то, как мы построили под неё граф клинических знаний. Читать далее"
+    },
+    {
+      "id": "5f96233f714807cb",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/podcast/auroras-chris-urmson-on-why-self-driving-trucks-are-finally-ready-to-scale/",
+      "title_en": "Aurora’s Chris Urmson on why self-driving trucks are finally ready to scale",
+      "summary_en": "Self-driving has been &#8220;almost here&#8221; for over a decade. But somewhere between DARPA&#160;challenges&#160;and a handful of driverless trucks hauling freight between Dallas and Houston, Aurora&#160;co-founder and&#160;CEO&#160;Chris Urmson’s story&#160;changed.&#160;The self-driving truck&#160;company&#160;started commercial driverless operations last April and is now scaling from a handful of trucks to hundreds this year.&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast,&#160;we&#8217;re&#160;bringing you a [&#8230;]",
+      "published_at": "2026-05-07T14:24:54+00:00",
+      "topic": "Research",
+      "title_ru": "Крис Урмсон из Aurora о том, почему самоуправляемые грузовики наконец готовы к масштабированию.",
+      "summary_ru": "Автономные автомобили находятся на пороге реализации уже более десяти лет. Однако где-то между вызовами DARPA и несколькими беспилотными грузовиками, перевозящими грузы между Далласом и Хьюстоном, история соучредителя и CEO Aurora Криса Урмсона изменилась. Компания по производству беспилотных грузовиков начала коммерческие операции без водителей в прошлом апреле и сейчас планирует увеличить количество грузовиков с нескольких до сотен в этом году. В этом эпизоде подкаста TechCrunch Equity мы расскажем вам [...]"
+    },
+    {
+      "id": "03593ef5718d95d3",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/companies/ru_mts/articles/1032434/?utm_campaign=1032434&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Как я использовал Cursor для онбординга в продукт в бигтех-компании",
+      "summary_en": "Привет! Меня зовут Родион, я стажер фронтенд-разработчик. Когда-то в 2022 году писал свои первые сайты на нативном HTML, CSS и JavaScript. С тех пор успел поработать в стартапах и на фрилансе, и вот опыт завел меня в мой первый бигтех — MTS Web Services. Проект, с которым работает моя команда управления производством, пишется уже не первый год. Когда я только устроился в компанию и впервые увидел его структуру, то подумал, что разбираться в ней займет примерно весь стажерский срок. Нужно было понять логику всех вложенностей, правил, «исторических особенностей», но в реальности хотелось поскорее приступить к работе. В первые дни мне дали задачу по созданию нового виджета. На проекте их уже было много, так что где-то должны были храниться файлы, в которые я планировал дописать строчки, а еще папки, чтобы добавить новые компоненты. Звучит элементарно, на поиск нужных мест я потратил около часа. Просто на то, чтобы понять, где все это лежит. Такой расклад меня, конечно, не устроил, и я пошел смотреть, что с этим можно сделать, — так и познакомился с Cursor. В этом посте расскажу, как настроил его под проект, какие промпты использовал, благодаря чему реально сэкономил время, и как боролся с багами. Надеюсь, будет полезно таким же как и я начинающим специалистам. Читать дальше",
+      "published_at": "2026-05-07T14:08:29+00:00",
+      "topic": "Startups",
+      "title_ru": "Как я использовал Cursor для онбординга в продукт в бигтех-компании",
+      "summary_ru": "Привет! Меня зовут Родион, я стажер фронтенд-разработчик. Когда-то в 2022 году писал свои первые сайты на нативном HTML, CSS и JavaScript. С тех пор успел поработать в стартапах и на фрилансе, и вот опыт завел меня в мой первый бигтех — MTS Web Services. Проект, с которым работает моя команда управления производством, пишется уже не первый год. Когда я только устроился в компанию и впервые увидел его структуру, то подумал, что разбираться в ней займет примерно весь стажерский срок. Нужно было понять логику всех вложенностей, правил, «исторических особенностей», но в реальности хотелось поскорее приступить к работе. В первые дни мне дали задачу по созданию нового виджета. На проекте их уже было много, так что где-то должны были храниться файлы, в которые я планировал дописать строчки, а еще папки, чтобы добавить новые компоненты. Звучит элементарно, на поиск нужных мест я потратил около часа. Просто на то, чтобы понять, где все это лежит. Такой расклад меня, конечно, не устроил, и я пошел смотреть, что с этим можно сделать, — так и познакомился с Cursor. В этом посте расскажу, как настроил его под проект, какие промпты использовал, благодаря чему реально сэкономил время, и как боролся с багами. Надеюсь, будет полезно таким же как и я начинающим специалистам. Читать дальше"
+    },
+    {
+      "id": "6fbc73af09243119",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/gadgets/925458/google-health-fitbit-air-ai-coaching-wearables-fitness-trackers",
+      "title_en": "Google’s taking a big swing at AI health with the Fitbit Air",
+      "summary_en": "It's a Whoop dupe. That was my first thought when I saw the new $99 Google Fitbit Air. You can hardly blame me. The band is screenless with a metallic fabric clasp. My eyes flickered between the Fitbit Air and my wrist, where I'm wearing a Whoop MG. Was I not seeing double? But as [&#8230;]",
+      "published_at": "2026-05-07T14:00:00+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Google делает серьезный шаг в области ИИ в здравоохранении с Fitbit Air.",
+      "summary_ru": "Это дубликат Whoop. Это была моя первая мысль, когда я увидел новый Google Fitbit Air за 99 долларов. Нельзя меня в этом винить. У браслета нет экрана, а застежка выполнена из металлической ткани. Мои глаза метались между Fitbit Air и моим запястьем, на котором я ношу Whoop MG. Разве я не вижу двойное изображение? Но как [...]",
+      "duplicates": [
+        {
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/",
+          "title_en": "Google unveils screenless Fitbit Air and Google Health app to replace Fitbit",
+          "title_ru": "Google представила безэкранный Fitbit Air и приложение Google Health, которое заменит Fitbit.",
+          "published_at": "2026-05-07T14:00:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "7da45bc96137b73c",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+      "title_en": "China’s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets",
+      "summary_en": "Moonshot's annualized recurring revenue topped $200 million in April, driven by rapid growth in paid subscriptions and API usage.",
+      "published_at": "2026-05-07T13:44:25+00:00",
+      "topic": "Startups",
+      "title_ru": "Китайская компания Moonshot AI привлекла $2 миллиарда при оценке в $20 миллиардов на фоне растущего спроса на открытый искусственный интеллект.",
+      "summary_ru": "Годовой повторяющийся доход Moonshot превысил 200 миллионов долларов в апреле, что стало результатом быстрого роста платных подписок и использования API."
+    },
+    {
+      "id": "64444bd62f8a63f4",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1032656/?utm_campaign=1032656&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Дрессировка и воспитание личного автономного AI-агента на VPS (Hermes Agent вместо OpenClaw)",
+      "summary_en": "Хочешь личного агента, который на связи 24/7? Послушного, исполнительного и даже ... в меру умного? Он работает за еду (токены) и кров (VPS), учится новому и готов взять на себя любую рутину (связанную с интернетом) если ты его научишь. Он свободен от корпоративных инфраструктур (opensource) и предан только тебе. Он требует дрессировки и воспитания, а затем становится исполнительным секретарём. Мы живём в удивительное время, когда это стало реальным. Сначала LLMs проникли в веб-поиск -- появился \"chatgpt\". Проникли в компьютер -- \"claude code\". Когда настала очередь VPS -- появился небезопасный OpenClaw, а вскоре за ним -- перспективный Hermes. Hermes Agent (от Nous Research) -- opensource приложение ( GitHub ) для запуска автономных AI-агентов с самообучением, набором необходимых tools, доступом к огромной базе навыков и интеграцией с Telegram и другими мессенджерами. В статье: подробный разбор архитектуры Hermes Agent, установка и первичная настройка (для чайников), воспитание агента под 4 реальных кейса (в деталях), особенности использования различных LLM (в качестве мозгов) и разбор плюсов, минусов и ограничений Hermes (что он делает легко, а что ему недоступно). Статья написана человеком, без использования LLM, и отражает реальный жизненный опыт. Читать далее",
+      "published_at": "2026-05-07T13:26:13+00:00",
+      "topic": "Models",
+      "title_ru": "Дрессировка и воспитание личного автономного AI-агента на VPS (Hermes Agent вместо OpenClaw)",
+      "summary_ru": "Хочешь личного агента, который на связи 24/7? Послушного, исполнительного и даже ... в меру умного? Он работает за еду (токены) и кров (VPS), учится новому и готов взять на себя любую рутину (связанную с интернетом) если ты его научишь. Он свободен от корпоративных инфраструктур (opensource) и предан только тебе. Он требует дрессировки и воспитания, а затем становится исполнительным секретарём. Мы живём в удивительное время, когда это стало реальным. Сначала LLMs проникли в веб-поиск -- появился \"chatgpt\". Проникли в компьютер -- \"claude code\". Когда настала очередь VPS -- появился небезопасный OpenClaw, а вскоре за ним -- перспективный Hermes. Hermes Agent (от Nous Research) -- opensource приложение ( GitHub ) для запуска автономных AI-агентов с самообучением, набором необходимых tools, доступом к огромной базе навыков и интеграцией с Telegram и другими мессенджерами. В статье: подробный разбор архитектуры Hermes Agent, установка и первичная настройка (для чайников), воспитание агента под 4 реальных кейса (в деталях), особенности использования различных LLM (в качестве мозгов) и разбор плюсов, минусов и ограничений Hermes (что он делает легко, а что ему недоступно). Статья написана человеком, без использования LLM, и отражает реальный жизненный опыт. Читать далее"
+    },
+    {
+      "id": "baadfd77c02b6412",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla/",
+      "title_en": "Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla",
+      "summary_en": "Musk was “prepared to do the for-profit, provided he would get control.”",
+      "published_at": "2026-05-07T13:14:01+00:00",
+      "topic": "Research",
+      "title_ru": "Илон Маск пытался нанять основателей OpenAI для создания подразделения ИИ внутри Tesla.",
+      "summary_ru": "Маск был \"готов заняться коммерческой деятельностью, при условии что получит контроль\"."
+    },
+    {
+      "id": "ab00e241ebe4e663",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/ai/2914873-podstavka-s-ii-dlya-regulirovki-monitora-po-poze-polzovatelya?from=rss",
+      "title_en": "Эта подставка с ИИ регулирует положение монитора в зависимости от позы",
+      "summary_en": "Камера отслеживает положение головы и тела, после чего небольшие моторы перемещают экран, подстраивая его под уровень глаз и нужное расстояние. Вместо того чтобы постоянно поправлять рабочее место или мириться с плохой осанкой, оно само начинает адаптироваться под вас.",
+      "published_at": "2026-05-07T13:08:29+00:00",
+      "topic": "Regulations",
+      "title_ru": "Эта подставка с ИИ регулирует положение монитора в зависимости от позы",
+      "summary_ru": "Камера отслеживает положение головы и тела, после чего небольшие моторы перемещают экран, подстраивая его под уровень глаз и нужное расстояние. Вместо того чтобы постоянно поправлять рабочее место или мириться с плохой осанкой, оно само начинает адаптироваться под вас."
+    },
+    {
+      "id": "f95196e36e3ebd99",
+      "source": "NVIDIA AI Blog",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gaijin-sso/",
+      "title_en": "Linked and Loaded: Gaijin Single Sign-On Now Available on GeForce NOW",
+      "summary_en": "Less typing, more tanking. Faster logins mean more time in the gaming action — and this week provides GeForce NOW members with a smoother path straight into the battlefield. Cloud gaming is all about instant access to titles across devices, and the latest GeForce NOW update removes another layer for members jumping into their Gaijin [&#8230;]",
+      "published_at": "2026-05-07T13:00:27+00:00",
+      "topic": "Regulations",
+      "title_ru": "Связано и готово: Gaijin Single Sign-On теперь доступен на GeForce NOW.",
+      "summary_ru": "Меньше набора текста, больше действий. Быстрее вход в систему означает больше времени для игры — и на этой неделе участники GeForce NOW получают более плавный доступ прямо на поле боя. Облачный гейминг ориентирован на мгновенный доступ к играм на разных устройствах, и последнее обновление GeForce NOW убирает еще один барьер для участников, которые хотят погрузиться в свои игры от Gaijin."
+    },
+    {
+      "id": "330128a430535f8c",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
+      "title_en": "Spotify wants to become the home for AI-generated personal audio",
+      "summary_en": "Users will be able to create a podcast from Codex or Claude Code and import it to Spotify.",
+      "published_at": "2026-05-07T13:00:00+00:00",
+      "topic": "Models",
+      "title_ru": "Spotify хочет стать домом для персонального аудио, созданного с помощью ИИ.",
+      "summary_ru": "Пользователи смогут создавать подкасты с помощью Codex или Claude Code и импортировать их в Spotify.",
+      "duplicates": [
+        {
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
+          "title_en": "OpenClaw and Claude can put your AI-generated podcasts in Spotify",
+          "title_ru": "OpenClaw и Claude могут разместить ваши подкасты, созданные с помощью ИИ, на Spotify.",
+          "published_at": "2026-05-07T14:15:40+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8174eb0eef5fb1d4",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1032630/?utm_campaign=1032630&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "В поисках Мемо",
+      "summary_en": "Я искал рабочее решение для памяти ИИ-агента с момента как поставил первый OpenClaw Перепробовал наверное почти всё и вот рассказываю, что и зачем искал, и к чему пришёл и как вообще до такой жизни докатился :) Читать далее",
+      "published_at": "2026-05-07T12:51:11+00:00",
+      "topic": "Regulations",
+      "title_ru": "В поисках Мемо",
+      "summary_ru": "Я искал рабочее решение для памяти ИИ-агента с момента как поставил первый OpenClaw Перепробовал наверное почти всё и вот рассказываю, что и зачем искал, и к чему пришёл и как вообще до такой жизни докатился :) Читать далее"
+    },
+    {
+      "id": "05e80ec6d2f62fe9",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/spotifys-ai-dj-now-supports-french-german-italian-and-brazilian-portuguese/",
+      "title_en": "Spotify’s AI DJ now supports French, German, Italian, and Brazilian Portuguese",
+      "summary_en": "Spotify's AI DJ feature now supports French, German, Italian, and Brazilian Portuguese.",
+      "published_at": "2026-05-07T12:20:04+00:00",
+      "topic": "Research",
+      "title_ru": "AI DJ от Spotify теперь поддерживает французский, немецкий, итальянский и бразильский португальский языки.",
+      "summary_ru": "Функция AI DJ в Spotify теперь поддерживает французский, немецкий, итальянский и бразильский португальский языки."
+    },
+    {
+      "id": "3bb78123b1e24ac5",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1032588/?utm_campaign=1032588&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Code with Claude 2026: что Anthropic показали разработчикам на своей конференции",
+      "summary_en": "6 мая 2026 года в Сан-Франциско прошла вторая конференция Anthropic для разработчиков — Code with Claude. Площадку для мероприятия в этот раз расширили: в этот раз взяли бывший автосалон SVN West, так как спрос оказался выше. Следующие 2 конференции пройдут в Лондоне и Токио (19 мая и 10 июня), а записи всех докладов должны опубликовать в ближайшее время на YouTube канале Claude Code . Для тех, кто хочет посмотреть все доклады уже сейчас, опубликовал полную запись в ТГК (5+ часов видео). Ниже пройдемся по всем докладам и отметим самое важное. Читать далее",
+      "published_at": "2026-05-07T12:11:36+00:00",
+      "topic": "Models",
+      "title_ru": "Code with Claude 2026: что Anthropic показали разработчикам на своей конференции",
+      "summary_ru": "6 мая 2026 года в Сан-Франциско прошла вторая конференция Anthropic для разработчиков — Code with Claude. Площадку для мероприятия в этот раз расширили: в этот раз взяли бывший автосалон SVN West, так как спрос оказался выше. Следующие 2 конференции пройдут в Лондоне и Токио (19 мая и 10 июня), а записи всех докладов должны опубликовать в ближайшее время на YouTube канале Claude Code . Для тех, кто хочет посмотреть все доклады уже сейчас, опубликовал полную запись в ТГК (5+ часов видео). Ниже пройдемся по всем докладам и отметим самое важное. Читать далее"
+    },
+    {
+      "id": "89f848f05922c05d",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/id5923884/2914734-vnedrenie-ii-v-koll-tsentry-medtronic?from=rss",
+      "title_en": "Внедрили AI-агентов в колл-центры — сэкономили 450 миллионов",
+      "summary_en": "Представьте: вы — пациент с кардиостимулятором. У вас вопрос, можно ли пользоваться микроволновкой. Вы звоните в поддержку. И слышите: «Для обслуживания кардиостимуляторов нажмите 1.",
+      "published_at": "2026-05-07T12:11:02+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Внедрили AI-агентов в колл-центры — сэкономили 450 миллионов",
+      "summary_ru": "Представьте: вы — пациент с кардиостимулятором. У вас вопрос, можно ли пользоваться микроволновкой. Вы звоните в поддержку. И слышите: «Для обслуживания кардиостимуляторов нажмите 1."
+    },
+    {
+      "id": "bc8c98081280ecfa",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/companies/otus/articles/1029756/?utm_campaign=1029756&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Запуск ИИ‑продукта с нуля: от гипотезы до первых результатов",
+      "summary_en": "AI-прототип сегодня можно собрать за вечер, но между рабочим демо и продуктом, которым реально пользуются и за который готовы платить, обычно лежит неприятная зона: слабая гипотеза, грязные данные, лишний стек, непонятные метрики и отсутствие внедрения. В статье разбираем, как подойти к запуску AI/ML-продукта без иллюзии «сейчас прикрутим LLM и всё взлетит»: от проверки боли и выбора use case до MVP, первых метрик и типичных ошибок, которые хоронят проекты ещё до выхода в прод. Разобрать запуск",
+      "published_at": "2026-05-07T12:06:02+00:00",
+      "topic": "Models",
+      "title_ru": "Запуск ИИ‑продукта с нуля: от гипотезы до первых результатов",
+      "summary_ru": "AI-прототип сегодня можно собрать за вечер, но между рабочим демо и продуктом, которым реально пользуются и за который готовы платить, обычно лежит неприятная зона: слабая гипотеза, грязные данные, лишний стек, непонятные метрики и отсутствие внедрения. В статье разбираем, как подойти к запуску AI/ML-продукта без иллюзии «сейчас прикрутим LLM и всё взлетит»: от проверки боли и выбора use case до MVP, первых метрик и типичных ошибок, которые хоронят проекты ещё до выхода в прод. Разобрать запуск"
+    },
+    {
+      "id": "82ee99d1933e33ce",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1032610/?utm_campaign=1032610&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Кириллица в LLM: почему русский язык в нейросетях стоит дороже и работает медленнее",
+      "summary_en": "Когда вы пишете запрос в&nbsp;ChatGPT или&nbsp;другую нейросеть, она не&nbsp;работает с&nbsp;буквами или&nbsp;словами&nbsp;— она режет ваш текст на&nbsp;маленькие кусочки. Эти кусочки называются токенами, и от&nbsp;того, как&nbsp;именно нейросеть режет текст, зависит цена ответа, скорость, и сколько информации в&nbsp;неё помещается за&nbsp;раз. С&nbsp;английским это работает хорошо: одно слово&nbsp;— обычно один‑два кусочка. С&nbsp;русским всё хуже: то&nbsp;же самое слово часто превращается в&nbsp;три‑четыре обрывка. Английское «contract»&nbsp;— один токен. Русское «разработка»&nbsp;— два‑три. «Программирование»&nbsp;— три‑четыре. Из‑за этого русский текст в&nbsp;облачных сервисах вроде OpenAI обходится примерно в 2&nbsp;раза дороже английского, медленнее обрабатывается, и в&nbsp;одно «контекстное окно» нейросети помещается заметно меньше реального содержания. Эта статья&nbsp;— про&nbsp;то, откуда берётся разница, как&nbsp;её измерить на&nbsp;ваших данных и какие модели лучше работают с&nbsp;русским языком. Читать далее",
+      "published_at": "2026-05-07T12:05:35+00:00",
+      "topic": "Models",
+      "title_ru": "Кириллица в LLM: почему русский язык в нейросетях стоит дороже и работает медленнее",
+      "summary_ru": "Когда вы пишете запрос в&nbsp;ChatGPT или&nbsp;другую нейросеть, она не&nbsp;работает с&nbsp;буквами или&nbsp;словами&nbsp;— она режет ваш текст на&nbsp;маленькие кусочки. Эти кусочки называются токенами, и от&nbsp;того, как&nbsp;именно нейросеть режет текст, зависит цена ответа, скорость, и сколько информации в&nbsp;неё помещается за&nbsp;раз. С&nbsp;английским это работает хорошо: одно слово&nbsp;— обычно один‑два кусочка. С&nbsp;русским всё хуже: то&nbsp;же самое слово часто превращается в&nbsp;три‑четыре обрывка. Английское «contract»&nbsp;— один токен. Русское «разработка»&nbsp;— два‑три. «Программирование»&nbsp;— три‑четыре. Из‑за этого русский текст в&nbsp;облачных сервисах вроде OpenAI обходится примерно в 2&nbsp;раза дороже английского, медленнее обрабатывается, и в&nbsp;одно «контекстное окно» нейросети помещается заметно меньше реального содержания. Эта статья&nbsp;— про&nbsp;то, откуда берётся разница, как&nbsp;её измерить на&nbsp;ваших данных и какие модели лучше работают с&nbsp;русским языком. Читать далее"
     },
     {
       "id": "89056fd254923a7f",
@@ -50,7 +299,7 @@
       "source": "Wired AI",
       "url": "https://www.wired.com/story/this-reggae-band-is-in-a-nightmare-battle-against-ai-slop-remixes/",
       "title_en": "This Reggae Band Is in a Nightmare Battle Against AI Slop Remixes",
-      "summary_en": "When Stick Figure’s six-year-old song shot up the charts, the band was thrilled. But its viral moment was spurred by unauthorized AI remixes.",
+      "summary_en": "When Stick Figure’s seven-year-old song shot up the charts, the band was thrilled. But its viral moment was spurred by unauthorized AI remixes.",
       "published_at": "2026-05-07T11:00:00+00:00",
       "topic": "Regulations",
       "title_ru": "Эта регги-группа ведет кошмарную борьбу с AI-ремиксами низкого качества.",
@@ -66,39 +315,6 @@
       "topic": "Regulations",
       "title_ru": "Parloa создает сервисных агентов, с которыми клиенты хотят общаться.",
       "summary_ru": "Parloa использует модели OpenAI для создания масштабируемых голосовых AI-агентов службы поддержки, позволяя предприятиям разрабатывать, моделировать и внедрять надежные взаимодействия в реальном времени."
-    },
-    {
-      "id": "57c05f13839226d4",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/articles/1032538/?utm_campaign=1032538&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "[Перевод] Chrome без спроса скачивает 4 гб модель. В масштабе миллиардов устройств это уже заметный удар по климату",
-      "summary_en": "Две недели назад я писал про&nbsp;Anthropic: Claude Desktop тихо регистрирует модуль Native Messaging сразу в&nbsp;семи браузерах на&nbsp;базе Chromium на&nbsp;машине пользователя. Схема там&nbsp;была чрезвычайно простая: запускаешь одну программу, а&nbsp;она без&nbsp;спроса прописывает себя в&nbsp;настройки других установленных тобой программ. То есть спокойно перелезает через некие «границы доверия» между вендорами. Ни окна согласия, ни понятного отказа в&nbsp;интерфейсе. Удаляешь вручную&nbsp;— при&nbsp;следующем запуске все появляется снова. Теперь та же история всплыла у Google. Chrome без спроса кладет на диск файл локальной ИИ-модели размером 4 ГБ. Это weights.bin в каталоге OptGuideOnDeviceModel . По сути, это веса Gemini Nano, локальной языковой модели Google. Браузер не спрашивает разрешения, никак не показывает пользователю, что сделал, а если файл удалить - просто скачивает его снова. С юридической стороны история очень похожа на кейс Anthropic. Но у Google добавляется еще одна вещь: масштаб. Когда такой файл разъезжается по гигантской аудитории Chrome, экологическая цена уже вполне материальна. В зависимости от числа устройств речь идет примерно о 6-60 тыс. тонн CO2-эквивалента за одну такую волну загрузок. То есть одна компания просто решает, что браузер по умолчанию для миллиардов людей раскатает по их машинам 4 ГБ бинарных данных, которых никто не просил. Читать далее",
-      "published_at": "2026-05-07T10:43:10+00:00",
-      "topic": "Models",
-      "title_ru": "[Перевод] Chrome без спроса скачивает 4 гб модель. В масштабе миллиардов устройств это уже заметный удар по климату",
-      "summary_ru": "Две недели назад я писал про&nbsp;Anthropic: Claude Desktop тихо регистрирует модуль Native Messaging сразу в&nbsp;семи браузерах на&nbsp;базе Chromium на&nbsp;машине пользователя. Схема там&nbsp;была чрезвычайно простая: запускаешь одну программу, а&nbsp;она без&nbsp;спроса прописывает себя в&nbsp;настройки других установленных тобой программ. То есть спокойно перелезает через некие «границы доверия» между вендорами. Ни окна согласия, ни понятного отказа в&nbsp;интерфейсе. Удаляешь вручную&nbsp;— при&nbsp;следующем запуске все появляется снова. Теперь та же история всплыла у Google. Chrome без спроса кладет на диск файл локальной ИИ-модели размером 4 ГБ. Это weights.bin в каталоге OptGuideOnDeviceModel . По сути, это веса Gemini Nano, локальной языковой модели Google. Браузер не спрашивает разрешения, никак не показывает пользователю, что сделал, а если файл удалить - просто скачивает его снова. С юридической стороны история очень похожа на кейс Anthropic. Но у Google добавляется еще одна вещь: масштаб. Когда такой файл разъезжается по гигантской аудитории Chrome, экологическая цена уже вполне материальна. В зависимости от числа устройств речь идет примерно о 6-60 тыс. тонн CO2-эквивалента за одну такую волну загрузок. То есть одна компания просто решает, что браузер по умолчанию для миллиардов людей раскатает по их машинам 4 ГБ бинарных данных, которых никто не просил. Читать далее"
-    },
-    {
-      "id": "0c908390fdd6301e",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/companies/1forma/articles/1032510/?utm_campaign=1032510&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Как посчитать TCO автоматизации: подход Organization as Code",
-      "summary_en": "Вы знаете, сколько стоит сервер. У вас есть договор с хостинг-провайдером, инвойс от вендора, строка в ИТ-бюджете. А вот сколько стоят процесс согласования договора с клиентом, сопровождение в месяц, один цикл согласования заявки на закупку и другие процессы — сходу ответить сложно. Большинство компаний на эти вопросы отвечают приблизительно. В лучшем случае — оценкой в Excel, где кто-то умножил количество сотрудников на среднюю зарплату и поделил на число проектов. В худшем — интуитивным ощущением руководителя, которое потом попадает в презентацию для инвесторов как «мы оптимизировали операционные расходы на 15%». Проблема не в том, что никто не пытался посчитать, а в том, что получившаяся цифра не имеет отношения к реальности. McKinsey в исследовании Global Survey on AI фиксирует типичную ситуацию: около 60% организаций не видят EBIT-импакта от AI-проектов не потому, что технология не работает, а потому что никто не договорился, как именно измерять результат. Нет так называемого evidence pack — пакета подтверждённых данных, на который можно опереться при принятии решений. Без него пилот выглядит успешным на демо, но при масштабировании выясняется, что атрибуция была некорректной, а стоимость посчитана по-разному на разных этапах. Это касается не только AI. Любой проект автоматизации страдает от той же проблемы: вы запускаете систему, тратите бюджет, получаете отчёт о выполнении — и не можете сказать, сколько всё это стоило в пересчёте на единицу работы, сравнить два процесса по стоимости владения или оценить, окупилась ли автоматизация. Вы управляете процессом, но не знаете его реальную цену. Читать далее",
-      "published_at": "2026-05-07T10:22:20+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Как посчитать TCO автоматизации: подход Organization as Code",
-      "summary_ru": "Вы знаете, сколько стоит сервер. У вас есть договор с хостинг-провайдером, инвойс от вендора, строка в ИТ-бюджете. А вот сколько стоят процесс согласования договора с клиентом, сопровождение в месяц, один цикл согласования заявки на закупку и другие процессы — сходу ответить сложно. Большинство компаний на эти вопросы отвечают приблизительно. В лучшем случае — оценкой в Excel, где кто-то умножил количество сотрудников на среднюю зарплату и поделил на число проектов. В худшем — интуитивным ощущением руководителя, которое потом попадает в презентацию для инвесторов как «мы оптимизировали операционные расходы на 15%». Проблема не в том, что никто не пытался посчитать, а в том, что получившаяся цифра не имеет отношения к реальности. McKinsey в исследовании Global Survey on AI фиксирует типичную ситуацию: около 60% организаций не видят EBIT-импакта от AI-проектов не потому, что технология не работает, а потому что никто не договорился, как именно измерять результат. Нет так называемого evidence pack — пакета подтверждённых данных, на который можно опереться при принятии решений. Без него пилот выглядит успешным на демо, но при масштабировании выясняется, что атрибуция была некорректной, а стоимость посчитана по-разному на разных этапах. Это касается не только AI. Любой проект автоматизации страдает от той же проблемы: вы запускаете систему, тратите бюджет, получаете отчёт о выполнении — и не можете сказать, сколько всё это стоило в пересчёте на единицу работы, сравнить два процесса по стоимости владения или оценить, окупилась ли автоматизация. Вы управляете процессом, но не знаете его реальную цену. Читать далее"
-    },
-    {
-      "id": "0ef9b0e9ad4ac376",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/companies/x-com/articles/1032506/?utm_campaign=1032506&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Что подорожает после оперативной памяти в 2026 году",
-      "summary_en": "В ситуации, которая разворачивается сейчас на рынке оперативной памяти, самое неприятное — даже не сами цены, к которым мы уже привыкли. Самое неприятное в том, что на DDR5 история не заканчивается, а только начинается и ценам еще есть куда расти. DRAM, SSD, видеопамять, мобильная LPDDR и другие компоненты производятся на одних и тех же фабриках одними и теми же компаниями. Когда Samsung переводит линию на производство памяти с высокой пропускной способностью для дата-центров, страдают не только планки в наших компьютерах, а вообще все, что содержит хоть какой-то чип памяти. И если вы что-то планировали покупать в этом году, имеет смысл понимать, в каком порядке подорожание дойдет до вашего кошелька . Читать далее",
-      "published_at": "2026-05-07T10:20:04+00:00",
-      "topic": "Hardware",
-      "title_ru": "Что подорожает после оперативной памяти в 2026 году",
-      "summary_ru": "В ситуации, которая разворачивается сейчас на рынке оперативной памяти, самое неприятное — даже не сами цены, к которым мы уже привыкли. Самое неприятное в том, что на DDR5 история не заканчивается, а только начинается и ценам еще есть куда расти. DRAM, SSD, видеопамять, мобильная LPDDR и другие компоненты производятся на одних и тех же фабриках одними и теми же компаниями. Когда Samsung переводит линию на производство памяти с высокой пропускной способностью для дата-центров, страдают не только планки в наших компьютерах, а вообще все, что содержит хоть какой-то чип памяти. И если вы что-то планировали покупать в этом году, имеет смысл понимать, в каком порядке подорожание дойдет до вашего кошелька . Читать далее"
     },
     {
       "id": "fc85e2e8a562074a",
@@ -123,15 +339,15 @@
       "summary_ru": "Интервью с Джоанной Стерн о её новой книге о жизни с ИИ и о создании собственной медиа-компании."
     },
     {
-      "id": "d0001148c59bf545",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/companies/cloud_ru/articles/1029282/?utm_campaign=1029282&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "ИИ, когда ты уже окупишься",
-      "summary_en": "Если вы прямо сейчас думаете, внедрять вам ИИ или нет, то сначала ответьте себе: а вы уже посчитали ROI? Читать далее",
-      "published_at": "2026-05-07T08:07:23+00:00",
+      "id": "4ba89a634a8ba847",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "title_en": "Advancing voice intelligence with new models in the API",
+      "summary_en": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+      "published_at": "2026-05-07T10:00:00+00:00",
       "topic": "Research",
-      "title_ru": "ИИ, когда ты уже окупишься",
-      "summary_ru": "Если вы прямо сейчас думаете, внедрять вам ИИ или нет, то сначала ответьте себе: а вы уже посчитали ROI? Читать далее"
+      "title_ru": "Продвижение голосового интеллекта с новыми моделями в API",
+      "summary_ru": "Изучите новые модели голосового взаимодействия в реальном времени в API OpenAI, которые могут рассуждать, переводить и транскрибировать речь, обеспечивая более естественные и интеллектуальные голосовые взаимодействия."
     },
     {
       "id": "f63b2425358055bb",
@@ -167,15 +383,15 @@
       "summary_ru": "Недавно я наткнулся на чрезвычайно любопытный инструмент, который представляет собой опенсорсный слой для оркестрации ИИ-агентов. Я не IT-специалист и не лезу глубоко в код, но этот сервис однозначно заслуживает внимания. За его развитием очень интересно следить, так как он может быть крайне полезным для перестройки привычных бизнес-процессов."
     },
     {
-      "id": "c15f1276e5ed959f",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/companies/gazprombank/articles/1032406/?utm_campaign=1032406&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Токенизация: почему ИИ сложно считать буквы «r» в «strawberry»?",
-      "summary_en": "Пока мы воспринимаем свои промпты как обычный текст из символов, для LLM они в виде токенов «выглядят» совсем иначе. И если не осознавать этого, порой можно наткнуться на проблемы. Поэтому полезно (и интересно) понимать: что вообще представляют собой токены? По какому алгоритму текст преобразуют в них и обратно? Какие важные нюансы при этом возникают? Возможно, подробнее и понятнее всех объяснил пару лет назад ИИ-рисерчер Андрей Карпатый , записав двухчасовое видео на английском. А теперь мы решили сделать хабрапост, который и пересказывает на русском главное из этого видео, и делает поправку на прошедшее время, и учитывает другие источники (вроде книги «Build a Large Language Models from Scratch»). Описанное применимо к мейнстримовым LLM вроде GPT, в других моделях возможны отличия. Читать далее",
-      "published_at": "2026-05-07T07:46:26+00:00",
+      "id": "9a94881d37e815c7",
+      "source": "Hacker News AI",
+      "url": "https://unsloth.ai/blog/nvidia-collab",
+      "title_en": "Making LLM Training Faster with Unsloth and NVIDIA",
+      "summary_en": "Article URL: https://unsloth.ai/blog/nvidia-collab Comments URL: https://news.ycombinator.com/item?id=48046397 Points: 101 # Comments: 19",
+      "published_at": "2026-05-07T07:15:11+00:00",
       "topic": "Models",
-      "title_ru": "Токенизация: почему ИИ сложно считать буквы «r» в «strawberry»?",
-      "summary_ru": "Пока мы воспринимаем свои промпты как обычный текст из символов, для LLM они в виде токенов «выглядят» совсем иначе. И если не осознавать этого, порой можно наткнуться на проблемы. Поэтому полезно (и интересно) понимать: что вообще представляют собой токены? По какому алгоритму текст преобразуют в них и обратно? Какие важные нюансы при этом возникают? Возможно, подробнее и понятнее всех объяснил пару лет назад ИИ-рисерчер Андрей Карпатый , записав двухчасовое видео на английском. А теперь мы решили сделать хабрапост, который и пересказывает на русском главное из этого видео, и делает поправку на прошедшее время, и учитывает другие источники (вроде книги «Build a Large Language Models from Scratch»). Описанное применимо к мейнстримовым LLM вроде GPT, в других моделях возможны отличия. Читать далее"
+      "title_ru": "Ускорение обучения LLM с помощью Unsloth и NVIDIA",
+      "summary_ru": "NVIDIA представила новую функцию в своем облачном сервисе NVIDIA Collaboratory, которая позволяет пользователям запускать и обучать модели машинного обучения с использованием графических процессоров (GPU) в облаке. Эта функция направлена на упрощение процесса разработки и тестирования AI-моделей, предоставляя доступ к мощным вычислительным ресурсам без необходимости в локальном оборудовании. \n\nПользователи могут легко интегрировать свои проекты с популярными библиотеками, такими как TensorFlow и PyTorch, а также использовать предобученные модели для ускорения разработки. NVIDIA Collaboratory также предлагает инструменты для визуализации данных и мониторинга производительности моделей, что делает его удобным решением для исследователей и разработчиков в области искусственного интеллекта. \n\nС запуском этой функции NVIDIA стремится укрепить свои позиции на рынке облачных вычислений и AI, предоставляя пользователям доступ к передовым технологиям и ресурсам для реализации их идей."
     },
     {
       "id": "561f2d2c07547b28",
@@ -211,22 +427,11 @@
       "summary_ru": "Даже сильная NLP‑модель&nbsp;быстро упирается в&nbsp;банальную проблему: ей нужны данные, причём не&nbsp;абстрактные «готовые датасеты», а&nbsp;тексты под&nbsp;конкретную задачу, домен и гипотезу. В&nbsp;статье разберём базовый путь от&nbsp;HTML‑страницы до&nbsp;пригодного корпуса: как&nbsp;получать данные через HTTP‑запросы, доставать нужные элементы с&nbsp;помощью BeautifulSoup, работать с&nbsp;CSS‑селекторами, подключать Playwright для&nbsp;динамических сайтов и очищать сырой веб‑текст так, чтобы его уже можно&nbsp;было использовать в&nbsp;NLP‑пайплайне. Читать далее"
     },
     {
-      "id": "172868d97e53bc7a",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/articles/1032216/?utm_campaign=1032216&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "LEGO Education 2026: Новые наборы? Новая электроника? Новая образовательная парадигма",
-      "summary_en": "В 2026 году LEGO Education делает ход, который ещё пару лет назад казался невозможным: - компания отказывается от собственной робототехнической платформы,&nbsp; - снижает роль программирования и внедряет элементы ИИ в образовательном курсе,&nbsp; - заменяет хабы… карточками NFC. Очередная смена поколений электрики, наборов и деталей?&nbsp; Или пересмотр стратегии модели STEM-образования?&nbsp; В статье раскрываем картину происходящего. Читать далее",
-      "published_at": "2026-05-07T06:43:57+00:00",
-      "topic": "Research",
-      "title_ru": "LEGO Education 2026: Новые наборы? Новая электроника? Новая образовательная парадигма",
-      "summary_ru": "В 2026 году LEGO Education делает ход, который ещё пару лет назад казался невозможным: - компания отказывается от собственной робототехнической платформы,&nbsp; - снижает роль программирования и внедряет элементы ИИ в образовательном курсе,&nbsp; - заменяет хабы… карточками NFC. Очередная смена поколений электрики, наборов и деталей?&nbsp; Или пересмотр стратегии модели STEM-образования?&nbsp; В статье раскрываем картину происходящего. Читать далее"
-    },
-    {
       "id": "7be8dfa76af045ab",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
       "title_en": "Five architects of the AI economy explain where the wheels are coming off",
-      "summary_en": "Earlier this week, five people who touch every layer of the AI supply chain sat down at the Milken Global Conference in Beverly Hills, where they talked with TechCrunch about everything from chip shortages to orbital data centers to the possibility that the whole architecture that undergirds the tech is wrong.",
+      "summary_en": "Earlier this week, five people who touch every layer of the AI supply chain sat down at the Milken Institute Global Conference in Beverly Hills, where they talked with TechCrunch about everything from chip shortages to orbital data centers to the possibility that the whole architecture that undergirds the tech is wrong.",
       "published_at": "2026-05-07T05:25:10+00:00",
       "topic": "Hardware",
       "title_ru": "Пять архитекторов AI-экономики объясняют, где возникают проблемы.",
@@ -244,26 +449,66 @@
       "summary_ru": "Почти каждый новый AI-релиз сегодня подаётся одинаково: умнее, быстрее, ближе к реальной работе. С GPT-5.5 OpenAI тоже делает ставку именно на это описание: модель лучше справляется с расплывчатыми многошаговыми задачами, быстрее понимает намерение пользователя, сама планирует следующие шаги, использует инструменты и проверяет результат. 23 апреля OpenAI объявила о выпуске GPT-5.5, а 24 апреля добавила GPT-5.5 и GPT-5.5 Pro в API.Но если убрать красивый язык, то вопрос на самом деле очень простой: что именно в работе стало менее раздражающим.Мне кажется, главное изменение не в том, что модель “лучше отвечает”. Это слишком общее описание. Более заметное изменение в другом: GPT-5.5 пытается взять на себя ту часть работы, которую раньше пользователь всё равно делал вручную — расщеплял задачу, уточнял порядок действий, напоминал модели про инструменты, просил проверить себя ещё раз. OpenAI прямо подаёт GPT-5.5 как модель для coding, research, data analysis, docs, spreadsheets и software operations, то есть не для одного хорошего ответа, а для цепочки действий.Именно здесь релиз действительно меняет работу.Не в моменте “она написала красивее”, а в моменте “мне пришлось меньше быть собственным координатором”.Но не всё, что хорошо звучит в анонсе, одинаково сильно чувствуется в жизни. Формулировки вроде more intuitive, carry more of the work itself и a new way of getting work done on a computer выглядят убедительно, но на практике их стоит переводить в более скучные вопросы: стало ли меньше лишних итераций? приходится ли всё ещё вручную страховать модель? экономит ли она время вне демо-сценариев? Сам релиз намекает на это смещение: речь идёт не о “магии”, а о complex production workflows, grounded assistants и product-spec-to-plan workflows.Поэтому я бы не писал, что GPT-5.5 “изменил работу вообще”.Он, скорее, изменил тип рутины, которую теперь можно отдавать модели без постоянного подталкивания. Для тех, кто работает с исследованием, структурированием, кодом, таблицами и длинными задачами через несколько инструментов, это уже заметно. Для человека, который просто иногда просит написать абзац или поправить письмо, разница, скорее всего, будет ощущаться гораздо слабее. Официальные материалы OpenAI сами подталкивают именно к такому выводу: сильные стороны GPT-5.5 описаны через сложные рабочие сценарии, а не через бытовой чат.Наверное, поэтому GPT-5.5 мне кажется не “самым впечатляющим” релизом, а одним из самых показательных. Он хорошо показывает, куда вообще движется AI: не к ещё одному красивому ответу, а к системе, которая всё чаще предлагает пользователю уже не реплику, а готовый ход работы. И вот это уже действительно меняет привычки. Но, как обычно, не везде одинаково и не так революционно, как звучит в анонсе."
     },
     {
-      "id": "f11fbcf611f05654",
-      "source": "vc.ru AI",
-      "url": "https://vc.ru/ai/2913619-suno-kupit-podpisku-kak-oformit-dostup?from=rss",
-      "title_en": "Suno купить подписку: как оформить доступ к сервису в России",
-      "summary_en": "Suno купить подписку — актуальный вопрос для пользователей, которые хотят получить доступ к расширенным возможностям генерации музыки в сервисе Suno. Из-за ограничений международных платежей стандартная оплата может работать нестабильно, поэтому многие ищут способы, как оплатить Suno в России и подключить платный тариф без иностранной карты.",
-      "published_at": "2026-05-07T00:21:48+00:00",
-      "topic": "Research",
-      "title_ru": "Suno купить подписку: как оформить доступ к сервису в России",
-      "summary_ru": "Suno купить подписку — актуальный вопрос для пользователей, которые хотят получить доступ к расширенным возможностям генерации музыки в сервисе Suno. Из-за ограничений международных платежей стандартная оплата может работать нестабильно, поэтому многие ищут способы, как оплатить Suno в России и подключить платный тариф без иностранной карты."
+      "id": "fe948365c4d6a69e",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "title_en": "Introducing Trusted Contact in ChatGPT",
+      "summary_en": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "topic": "Models",
+      "title_ru": "Представляем Trusted Contact в ChatGPT",
+      "summary_ru": "Представляем Trusted Contact в ChatGPT — дополнительную функцию безопасности, которая уведомляет человека, которому вы доверяете, если обнаружены серьезные опасения по поводу самоповреждения.",
+      "duplicates": [
+        {
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification",
+          "title_en": "ChatGPT&#8217;s &#8216;Trusted Contact&#8217; will alert loved ones of safety concerns",
+          "title_ru": "Функция «Trusted Contact» в ChatGPT будет уведомлять близких о проблемах с безопасностью.",
+          "published_at": "2026-05-07T18:00:00+00:00"
+        }
+      ]
     },
     {
       "id": "682acca1ab2fd865",
       "source": "The Verge AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
       "title_en": "Musk’s biggest loyalist became his biggest liability",
-      "summary_en": "I sat down in the Musk v. Altman trial courtroom today, painfully aware that no one was going to ask Shivon Zilis the question on everyone's minds: Girl, what the fuck are you doing? Zilis, who testified under oath that she is the mother of four of Musk's children, was… what's the best way to [&#8230;]",
+      "summary_en": "I sat down in the Musk v. Altman trial courtroom today, painfully aware that no one was going to ask Shivon Zilis the question on everyone's minds: Girl, what the fuck are you doing? Zilis, who testified under oath that she is the mother of four of Musk's children, was… What's the best way to [&#8230;]",
       "published_at": "2026-05-06T23:37:02+00:00",
       "topic": "Research",
       "title_ru": "Самый преданный сторонник Маска стал его самой большой проблемой.",
       "summary_ru": "Я сегодня сел в зал суда по делу Musk против Altman, остро осознавая, что никто не спросит Шивон Зилис вопрос, который волнует всех: Девушка, что ты делаешь? Зилис, которая под присягой заявила, что является матерью четверых детей Маска, была... как лучше всего [&#8230;]"
+    },
+    {
+      "id": "62413ca56b74355c",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
+      "title_en": "Elon Musk’s Last-Ditch Effort to Control OpenAI: Recruit Sam Altman to Tesla",
+      "summary_en": "Messages between Shivon Zilis and Tesla executives reveal plans in 2017 to start a rival AI lab, potentially led by Altman or Demis Hassabis.",
+      "published_at": "2026-05-06T23:23:45+00:00",
+      "topic": "Research",
+      "title_ru": "Последняя попытка Илона Маска контролировать OpenAI: привлечь Сэма Олтмана в Tesla.",
+      "summary_ru": "Сообщения между Шивон Зилис и руководством Tesla раскрывают планы 2017 года по созданию конкурирующей лаборатории ИИ, возможно, под руководством Алтмана или Демиса Хасабиса.",
+      "duplicates": [
+        {
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+          "title_en": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+          "title_ru": "Последние новости о судебном разбирательстве между Илоной Маском и Сэмом Альтманом по поводу будущего OpenAI.",
+          "published_at": "2026-05-07T17:40:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "457fbc8b3bafb206",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/",
+      "title_en": "Anthropic raises Claude Code usage limits, credits new deal with SpaceX",
+      "summary_en": "Deal follows others with Microsoft, Amazon, and more.",
+      "published_at": "2026-05-06T22:09:14+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Anthropic увеличивает лимиты использования Claude Code, связывая это с новым соглашением с SpaceX.",
+      "summary_ru": "Сделка следует за другими с Microsoft, Amazon и другими."
     },
     {
       "id": "534b5121c9c69963",
@@ -286,28 +531,6 @@
       "topic": "Hardware",
       "title_ru": "TSMC использует ветерную энергию на фоне роста спроса на AI-чипы, Тайвань испытывает энергетический кризис.",
       "summary_ru": "TSMC поддерживает возобновляемые источники энергии на фоне рекордного спроса на энергию в производстве энергоемких чипов."
-    },
-    {
-      "id": "de7a083a7aeaf946",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/",
-      "title_en": "Snap says its $400M deal with Perplexity ‘amicably ended’",
-      "summary_en": "The deal, announced last November, would have seen Perplexity's AI search engine integrated directly into Snapchat.",
-      "published_at": "2026-05-06T21:43:24+00:00",
-      "topic": "Research",
-      "title_ru": "Snap сообщает, что сделка на 400 миллионов долларов с Perplexity «достигнута мирным путем».",
-      "summary_ru": "Сделка, объявленная в прошлом ноябре, предусматривала прямую интеграцию AI-поисковика Perplexity в Snapchat."
-    },
-    {
-      "id": "30a5aafec8ba8e52",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
-      "title_en": "Is xAI a neocloud now?",
-      "summary_en": "xAI's real business may be more about building data centers than training AI models.",
-      "published_at": "2026-05-06T21:32:55+00:00",
-      "topic": "Research",
-      "title_ru": "Является ли xAI неоклаудом сейчас?",
-      "summary_ru": "Настоящий бизнес xAI может заключаться больше в строительстве дата-центров, чем в обучении AI-моделей."
     },
     {
       "id": "79e266a1a3f04e32",
@@ -362,332 +585,17 @@
       "published_at": "2026-05-06T18:28:52+00:00",
       "topic": "Research",
       "title_ru": "Anthropic объединяется с SpaceX на фоне странностей в гонке ИИ.",
-      "summary_ru": "В неожиданном повороте событий две компании подписали соглашение, согласно которому Anthropic будет использовать вычислительные ресурсы xAI Элонa Маска."
-    },
-    {
-      "id": "1d1bfdc0279bf4f1",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/",
-      "title_en": "How Elon Musk left OpenAI, according to Greg Brockman",
-      "summary_en": "Cutthroat negotiations between startup founders are rarely shared so publicly, especially when a company becomes as world-changing as OpenAI.",
-      "published_at": "2026-05-06T18:23:54+00:00",
-      "topic": "Startups",
-      "title_ru": "Грег Брокман рассказал, как Илон Маск покинул OpenAI. По его словам, Маск ушел из организации в 2018 году после разногласий по поводу направления работы и стратегии компании. Основной причиной стало стремление Маска сосредоточиться на своих других проектах, таких как Tesla и SpaceX. Брокман отметил, что уход Маска не был связан с конфликтами, а скорее с различиями в видении будущего искусственного интеллекта.",
-      "summary_ru": "Жесткие переговоры между основателями стартапов редко становятся достоянием общественности, особенно когда речь идет о компании, такой как OpenAI, способной изменить мир."
-    },
-    {
-      "id": "ce8008a23ecb6a64",
-      "source": "Wired AI",
-      "url": "https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/",
-      "title_en": "Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows",
-      "summary_en": "New research suggests that reliance on AI assistants can have a negative impact on people’s ability to think and problem solve.",
-      "published_at": "2026-05-06T18:00:00+00:00",
-      "topic": "Research",
-      "title_ru": "Использование ИИ всего на 10 минут может сделать вас ленивым и глупым, показывает исследование.",
-      "summary_ru": "Новое исследование показывает, что зависимость от AI-ассистентов может негативно сказаться на способности людей мыслить и решать проблемы."
-    },
-    {
-      "id": "0a64fb485f1b162f",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2605.05206v1",
-      "title_en": "Taming Outlier Tokens in Diffusion Transformers",
-      "summary_en": "We study outlier tokens in Diffusion Transformers (DiTs) for image generation. Prior work has shown that Vision Transformers (ViTs) can produce a small number of high-norm tokens that attract disproportionate attention while carrying limited local information, but their role in generative models remains underexplored. We show that this phenomenon appears in both the encoder and denoiser of modern Representation Autoencoder (RAE)-DiT pipelines: pretrained ViT encoders can produce outlier representations, and DiTs themselves can develop internal outlier tokens, especially in intermediate layers. Moreover, simply masking high-norm tokens does not improve performance, indicating that the problem is not only caused by a few extreme values, but is more closely related to corrupted local patch semantics. To address this issue, we introduce Dual-Stage Registers (DSR), a register-based intervention for both components: trained registers when available, recursive test-time registers otherwise, and diffusion registers for the denoiser. Across ImageNet and large-scale text-to-image generation, these interventions consistently reduce outlier artifacts and improve generation quality. Our results highlight outlier-token control as an important ingredient in building stronger DiTs.",
-      "published_at": "2026-05-06T17:59:42+00:00",
-      "topic": "Regulations",
-      "title_ru": "Управление выбросами токенов в диффузионных трансформерах",
-      "summary_ru": "Мы изучаем аномальные токены в Diffusion Transformers (DiTs) для генерации изображений. Предыдущие исследования показали, что Vision Transformers (ViTs) могут производить небольшое количество токенов с высокой нормой, которые привлекают непропорционально большое внимание, при этом имея ограниченную локальную информацию, но их роль в генеративных моделях остается недостаточно исследованной. Мы показываем, что это явление наблюдается как в энкодере, так и в денойзере современных пайплайнов Representation Autoencoder (RAE)-DiT: предобученные энкодеры ViT могут производить аномальные представления, а сами DiTs могут развивать внутренние аномальные токены, особенно на промежуточных слоях. Более того, простое маскирование токенов с высокой нормой не улучшает производительность, что указывает на то, что проблема вызвана не только несколькими экстремальными значениями, но и более тесно связана с искаженной локальной семантикой патчей. Чтобы решить эту проблему, мы вводим Dual-Stage Registers (DSR), интервенцию на основе регистров для обоих компонентов: обученные регистры, когда они доступны, рекурсивные регистры во время тестирования в противном случае и диффузионные регистры для денойзера. На данных ImageNet и в крупномасштабной генерации текста в изображение эти интервенции последовательно уменьшают артефакты аномальных токенов и улучшают качество генерации. Наши результаты подчеркивают контроль аномальных токенов как важный элемент в создании более мощных DiTs."
-    },
-    {
-      "id": "2e1f2c97a9b27d23",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2605.05197v1",
-      "title_en": "Implicit Representations of Grammaticality in Language Models",
-      "summary_en": "Grammaticality and likelihood are distinct notions in human language. Pretrained language models (LMs), which are probabilistic models of language fitted to maximize corpus likelihood, generate grammatically well-formed text and discriminate well between grammatical and ungrammatical sentences in tightly controlled minimal pairs. However, their string probabilities do not sharply discriminate between grammatical and ungrammatical sentences overall. But do LMs implicitly acquire a grammaticality distinction distinct from string probability? We explore this question through studying internal representations of LMs, by training a linear probe on a dataset of grammatical and (synthetic) ungrammatical sentences obtained by applying perturbations to a naturalistic text corpus. We find that this simple grammaticality probe generalizes to human-curated grammaticality judgment benchmarks and outperforms LM probability-based grammaticality judgments. When applied to semantic plausibility benchmarks, in which both members of a minimal pair are grammatical and differ in only plausibility, the probe however performs worse than string probability. The English-trained probe also exhibits nontrivial cross-lingual generalization, outperforming string probabilities on grammaticality benchmarks in numerous other languages. Additionally, probe scores correlate only weakly with string probabilities. These results collectively suggest that LMs acquire to some extent an implicit grammaticality distinction within their hidden layers.",
-      "published_at": "2026-05-06T17:57:31+00:00",
-      "topic": "Research",
-      "title_ru": "Неявные представления грамматичности в языковых моделях",
-      "summary_ru": "Грамматичность и вероятность — это разные понятия в человеческом языке. Предобученные языковые модели (LMs), которые являются вероятностными моделями языка, настроенными на максимизацию вероятности корпуса, генерируют грамматически правильный текст и хорошо различают грамматические и неграмматические предложения в строго контролируемых минимальных парах. Однако их вероятности строк не четко различают грамматические и неграмматические предложения в целом. Но приобретают ли LMs неявное различие грамматичности, отличное от вероятности строки? Мы исследуем этот вопрос, изучая внутренние представления LMs, обучая линейный пробник на наборе данных грамматических и (синтетических) неграмматических предложений, полученных путем применения возмущений к естественному текстовому корпусу. Мы обнаруживаем, что этот простой пробник грамматичности обобщается на оценочные эталоны грамматичности, составленные людьми, и превосходит оценки грамматичности на основе вероятности LMs. Однако при применении к эталонам семантической правдоподобности, в которых оба члена минимальной пары грамматичны и различаются только по правдоподобности, пробник показывает худшие результаты, чем вероятность строки. Пробник, обученный на английском, также демонстрирует нетривиальную кросс-языковую обобщаемость, превосходя вероятности строк по эталонам грамматичности на многих других языках. Кроме того, оценки пробника слабо коррелируют с вероятностями строк. Эти результаты в совокупности предполагают, что LMs в некоторой степени приобретают неявное различие грамматичности в своих скрытых слоях."
-    },
-    {
-      "id": "3c23afd6f16c3e54",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
-      "title_en": "Mira Murati tells the court that she couldn’t trust Sam Altman’s words",
-      "summary_en": "Mira Murati, OpenAI's former CTO, has testified under oath that CEO Sam Altman lied to her about the safety standards for a new AI model. In a video deposition shown during the ongoing Musk v. Altman trial on Wednesday, Murati said Altman falsely stated that OpenAI's legal department determined a new AI model did not [&#8230;]",
-      "published_at": "2026-05-06T17:55:53+00:00",
-      "topic": "Research",
-      "title_ru": "Мира Мурати заявила в суде, что не могла доверять словам Сэма Олтмана.",
-      "summary_ru": "Мира Мурати, бывший технический директор OpenAI, дала показания под присягой, что генеральный директор Сэм Альтман солгал ей о стандартах безопасности для новой модели ИИ. В видео-показаниях, продемонстрированных во время продолжающегося судебного разбирательства между Маском и Альтманом в среду, Мурати заявила, что Альтман неверно утверждал, что юридический отдел OpenAI определил, что новая модель ИИ не [...]"
-    },
-    {
-      "id": "2cf95c018a635a68",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2605.05193v1",
-      "title_en": "Grokability in five inequalities",
-      "summary_en": "In this note, we report five mathematical discoveries made in collaboration with Grok, all of which have been subsequently verified by the authors. These include an improved lower bound on the maximal Gaussian perimeter of convex sets in $\\mathbb{R}^n$, sharper $L_2$-$L_1$ moment comparison inequalities on the Hamming cube $\\{-1,1\\}^n$, a strengthened autoconvolution inequality, improved asymptotic bounds on the size of the largest $g$-Sidon sets in $\\{1,\\dots,n\\}$, and an optimal balanced Szarek's inequality.",
-      "published_at": "2026-05-06T17:55:15+00:00",
-      "topic": "Research",
-      "title_ru": "Grokability в пяти неравенствах",
-      "summary_ru": "В этой заметке мы сообщаем о пяти математических открытиях, сделанных в сотрудничестве с Grok, все из которых впоследствии были подтверждены авторами. К ним относятся улучшенная нижняя граница максимального гауссового периметра выпуклых множеств в $\\mathbb{R}^n$, более точные неравенства сравнения моментов $L_2$-$L_1$ на кубе Хэмминга $\\{-1,1\\}^n$, усиленное неравенство автосвёртки, улучшенные асимптотические оценки размера крупнейших $g$-Сидоновых множеств в $\\{1,\\dots,n\\}$ и оптимальное сбалансированное неравенство Шарека."
-    },
-    {
-      "id": "3639cf5b1b1f25e3",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2605.05192v1",
-      "title_en": "Almost-Orthogonality in Lp Spaces: A Case Study with Grok",
-      "summary_en": "Carbery proposed the following sharpened form of triangle inequality for many functions: for any $p\\ge 2$ and any finite sequence $(f_j)_j\\subset L^p$ we have \\[ \\Big\\|\\sum_j f_j\\Big\\|_p \\ \\le\\ \\left(\\sup_{j} \\sum_{k} α_{jk}^{\\,c}\\right)^{1/p'} \\Big(\\sum_j \\|f_j\\|_p^p\\Big)^{1/p}, \\] where $c=2$, $1/p+1/p'=1$, and $α_{jk}=\\sqrt{\\frac{\\|f_{j}f_{k}\\|_{p/2}}{\\|f_{j}\\|_{p}\\|f_{k}\\|_{p}}}$. In the first part of this paper we construct a counterexample showing that this inequality fails for every $p>2$. We then prove that if an estimate of the above form holds, the exponent must satisfy $c\\le p'$. Finally, at the critical exponent $c=p'$, we establish the inequality for all integer values $p\\ge 2$.\n  In the second part of the paper we obtain a sharp three-function bound \\[ \\Big\\|\\sum_{j=1}^{3} f_j\\Big\\|_p \\ \\le\\ \\left(1+2Γ^{c(p)}\\right)^{1/p'} \\Big(\\sum_{j=1}^{3} \\|f_j\\|_p^p\\Big)^{1/p}, \\] where $p \\geq 3$, $c(p) = \\frac{2\\ln(2)}{(p-2)\\ln(3)+2\\ln(2)}$ and $Γ=Γ(f_1,f_2,f_3)\\in[0,1]$ quantifies the degree of orthogonality among $f_1,f_2,f_3$. The exponent $c(p)$ is optimal, and improves upon the power $r(p) = \\frac{6}{5p-4}$ obtained previously by Carlen, Frank, and Lieb. Some intermediate lemmas and inequalities appearing in this work were explored with the assistance of the large language model Grok.",
-      "published_at": "2026-05-06T17:54:51+00:00",
-      "topic": "Research",
-      "title_ru": "Почти ортогональность в пространствах Lp: Кейс-стадия с Grok",
-      "summary_ru": "Carbery предложил следующую уточненную форму неравенства треугольника для многих функций: для любого $p\\ge 2$ и любой конечной последовательности $(f_j)_j\\subset L^p$ выполняется неравенство  \n\\[\n\\Big\\|\\sum_j f_j\\Big\\|_p \\ \\le\\ \\left(\\sup_{j} \\sum_{k} α_{jk}^{\\,c}\\right)^{1/p'} \\Big(\\sum_j \\|f_j\\|_p^p\\Big)^{1/p},\n\\] \nгде $c=2$, $1/p+1/p'=1$, и $α_{jk}=\\sqrt{\\frac{\\|f_{j}f_{k}\\|_{p/2}}{\\|f_{j}\\|_{p}\\|f_{k}\\|_{p}}}$. В первой части этой статьи мы приводим контрпример, показывающий, что это неравенство не выполняется для любого $p>2$. Затем мы доказываем, что если оценка вышеуказанного вида выполняется, то показатель должен удовлетворять условию $c\\le p'$. Наконец, при критическом показателе $c=p'$ мы устанавливаем неравенство для всех целых значений $p\\ge 2$.\n\nВо второй части статьи мы получаем точную оценку для трех функций  \n\\[\n\\Big\\|\\sum_{j=1}^{3} f_j\\Big\\|_p \\ \\le\\ \\left(1+2Γ^{c(p)}\\right)^{1/p'} \\Big(\\sum_{j=1}^{3} \\|f_j\\|_p^p\\Big)^{1/p},\n\\] \nгде $p \\geq 3$, $c(p) = \\frac{2\\ln(2)}{(p-2)\\ln(3)+2\\ln(2)}$ и $Γ=Γ(f_1,f_2,f_3)\\in[0,1]$ количественно оценивает степень ортогональности между $f_1,f_2,f_3$. Показатель $c(p)$ является оптимальным и улучшает степень $r(p) = \\frac{6}{5p-4}$, полученную ранее Карленом, Фрэнком и Либом. Некоторые промежуточные леммы и неравенства, появляющиеся в этой работе, были исследованы с помощью языковой модели Grok."
-    },
-    {
-      "id": "7b717c1bc123268c",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2605.05191v1",
-      "title_en": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
-      "summary_en": "Long-horizon search agents must manage a rapidly growing working context as they reason, call tools, and observe information. Naively accumulating all intermediate content can overwhelm the agent, increasing costs and the risk of errors. We propose that effective context management should be adaptive: parts of the agent's trajectory are maintained at different levels of detail depending on their current relevance to the task. To operationalize this principle, we introduce Context-ReAct, a general agentic paradigm for elastic context orchestration that integrates reasoning, context management, and tool use in a unified loop. Context-ReAct provides five atomic operations: Skip, Compress, Rollback, Snippet and Delete, which allow the agent to dynamically reshape its working context, preserving important evidence, summarizing resolved information, discarding unhelpful branches, and controlling context size. We prove that the Compress operator is expressively complete, while the other specialized operators provide efficiency and fidelity guarantees that reduce generation cost and hallucination risk. Building on this paradigm, we develop LongSeeker, a long-horizon search agent fine-tuned from Qwen3-30B-A3B on 10k synthesized trajectories. Across four representative search benchmarks, LongSeeker achieves 61.5% on BrowseComp and 62.5% on BrowseComp-ZH, substantially outperforming Tongyi DeepResearch (43.2% and 46.7%) and AgentFold (36.2% and 47.3%). These results highlight the potential of adaptive context management, showing that agents can achieve more reliable and efficient long-horizon reasoning by actively shaping their working memory.",
-      "published_at": "2026-05-06T17:54:16+00:00",
-      "topic": "AI Agents",
-      "title_ru": "LongSeeker: Эластичная контекстная оркестрация для агентов долгосрочного поиска",
-      "summary_ru": "Агенты долгосрочного поиска должны управлять быстро растущим рабочим контекстом, когда они рассуждают, используют инструменты и наблюдают за информацией. Наивное накопление всего промежуточного контента может перегрузить агента, увеличивая затраты и риск ошибок. Мы предлагаем, что эффективное управление контекстом должно быть адаптивным: части траектории агента сохраняются на разных уровнях детализации в зависимости от их текущей актуальности для задачи. Для реализации этого принципа мы представляем Context-ReAct, общую агентную парадигму для эластичной оркестрации контекста, которая интегрирует рассуждение, управление контекстом и использование инструментов в едином цикле. Context-ReAct предоставляет пять атомарных операций: Skip, Compress, Rollback, Snippet и Delete, которые позволяют агенту динамически изменять свой рабочий контекст, сохраняя важные доказательства, подводя итоги разрешенной информации, отбрасывая бесполезные ветви и контролируя размер контекста. Мы доказываем, что оператор Compress является выразительно полным, в то время как другие специализированные операторы обеспечивают гарантии эффективности и точности, которые снижают затраты на генерацию и риск галлюцинаций. Основываясь на этой парадигме, мы разрабатываем LongSeeker, агента долгосрочного поиска, настроенного на основе Qwen3-30B-A3B на 10k синтезированных траекториях. На четырех представительных тестах поиска LongSeeker достигает 61.5% на BrowseComp и 62.5% на BrowseComp-ZH, значительно опережая Tongyi DeepResearch (43.2% и 46.7%) и AgentFold (36.2% и 47.3%). Эти результаты подчеркивают потенциал адаптивного управления контекстом, показывая, что агенты могут достигать более надежного и эффективного долгосрочного рассуждения, активно формируя свою рабочую память."
-    },
-    {
-      "id": "8babfa007d30ba9f",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2605.05189v1",
-      "title_en": "Sharp Capacity Thresholds in Linear Associative Memory: From Winner-Take-All to Listwise Retrieval",
-      "summary_en": "How many key-value associations can a $d\\times d$ linear memory store? We show that the answer depends not only on the $d^2$ degrees of freedom in the memory matrix, but also on the retrieval criterion. In an isotropic Gaussian model for the stored pairs, we show that top-1 retrieval, where every signal must beat its largest distractor, requires the logarithmic model-size scale $d^2\\asymp n\\log n$. We prove that the correlation matrix memory construction, which stores associations by superposing key-target outer products, achieves this scale through a sharp phase transition, and that the same scaling is necessary for any linear memory. Thus the logarithm is the intrinsic extreme-value price of winner-take-all decoding.\n  We next consider listwise retrieval, where the correct target need not be the unique top-scoring item but should remain among the strongest candidates. To formalize this regime, we propose the Tail-Average Margin (TAM), a convex upper-tail criterion that certifies inclusion of the correct target in a controlled candidate list. Under this listwise retrieval criterion, the capacity follows the quadratic scale $d^2\\asymp n$. At load $n/d^2\\toα$, we develop an exact asymptotic theory for the TAM empirical-risk minimizer through a two-parameter scalar variational principle. The theory has a rich phenomenology: in the ridgeless limit it yields a closed-form critical load separating satisfiable and unsatisfiable phases, and it predicts the limiting laws of true scores, competitor scores, margins, and percentile profiles. Finally, a small-tail extrapolation further leads to the conjectural sharp top-1 threshold $d^2\\sim 2n\\log n$.",
-      "published_at": "2026-05-06T17:53:20+00:00",
-      "topic": "Regulations",
-      "title_ru": "Резкие пороговые значения емкости в линейной ассоциативной памяти: от принципа \"победитель забирает все\" к списковому извлечению.",
-      "summary_ru": "Сколько пар ключ-значение может хранить линейная память размером $d\\times d$? Мы показываем, что ответ зависит не только от $d^2$ степеней свободы в матрице памяти, но и от критерия извлечения. В изотропной гауссовой модели для хранимых пар мы показываем, что извлечение top-1, при котором каждый сигнал должен превосходить своего наибольшего отвлекающего фактора, требует логарифмической модели размера $d^2\\asymp n\\log n$. Мы доказываем, что конструкция памяти с корреляционной матрицей, которая хранит ассоциации путем суперпозиции внешних произведений ключ-цель, достигает этой шкалы через резкий фазовый переход, и что такая же шкала необходима для любой линейной памяти. Таким образом, логарифм является внутренней ценой экстремальных значений для декодирования \"победитель забирает все\".\n\nДалее мы рассматриваем извлечение по списку, где правильная цель не обязательно должна быть уникальным элементом с наивысшим баллом, но должна оставаться среди сильнейших кандидатов. Чтобы формализовать этот режим, мы предлагаем критерий Tail-Average Margin (TAM), выпуклый критерий верхнего хвоста, который сертифицирует включение правильной цели в контролируемый список кандидатов. При этом критерии извлечения по списку емкость следует квадратичной шкале $d^2\\asymp n$. При нагрузке $n/d^2\\toα$ мы разрабатываем точную асимптотическую теорию для минимизатора эмпирического риска TAM через вариационный принцип с двумя параметрами. Теория имеет богатую феноменологию: в пределе без рифлений она дает замкнутую критическую нагрузку, разделяющую удовлетворимые и неудовлетворимые фазы, и предсказывает предельные законы истинных оценок, оценок конкурентов, маржей и процентных профилей. Наконец, экстраполяция для малых хвостов приводит к предполагаемому резкому порогу top-1 $d^2\\sim 2n\\log n$."
-    },
-    {
-      "id": "22c02ca0d7a7af79",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2605.05179v1",
-      "title_en": "Estimating the expected output of wide random MLPs more efficiently than sampling",
-      "summary_en": "By far the most common way to estimate an expected loss in machine learning is to draw samples, compute the loss on each one, and take the empirical average. However, sampling is not necessarily optimal. Given an MLP at initialization, we show how to estimate its expected output over Gaussian inputs without running samples through the network at all. Instead, we produce approximate representations of the distributions of activations at each layer, leveraging tools such as cumulants and Hermite expansions. We show both theoretically and empirically that for sufficiently wide networks, our estimator achieves a target mean squared error using substantially fewer FLOPs than Monte Carlo sampling. We find moreover that our methods perform particularly well at estimating the probabilities of rare events, and additionally demonstrate how they can be used for model training. Together, these findings suggest a path to producing models with a greatly reduced probability of catastrophic tail risks.",
-      "published_at": "2026-05-06T17:46:12+00:00",
-      "topic": "Hardware",
-      "title_ru": "Оценка ожидаемого выхода широких случайных MLP более эффективно, чем с помощью выборки.",
-      "summary_ru": "Наиболее распространённым способом оценки ожидаемых потерь в машинном обучении является выборка, вычисление потерь для каждой выборки и взятие эмпирического среднего. Однако выборка не всегда является оптимальной. Учитывая MLP на этапе инициализации, мы показываем, как оценить его ожидаемый выход при гауссовских входах без пропуска выборок через сеть. Вместо этого мы создаём приближённые представления распределений активаций на каждом слое, используя такие инструменты, как кумулянты и разложения Эрмита. Мы показываем как теоретически, так и эмпирически, что для достаточно широких сетей наш оцениватель достигает целевой средней квадратичной ошибки, используя значительно меньше FLOPs, чем метод Монте-Карло. Более того, мы обнаруживаем, что наши методы особенно хорошо справляются с оценкой вероятностей редких событий и дополнительно демонстрируем, как их можно использовать для обучения моделей. В совокупности эти результаты указывают на путь к созданию моделей с значительно сниженной вероятностью катастрофических рисков в хвосте распределения."
-    },
-    {
-      "id": "73db108d113515c9",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2605.05176v1",
-      "title_en": "Understanding In-Context Learning for Nonlinear Regression with Transformers: Attention as Featurizer",
-      "summary_en": "Pre-trained transformers are able to learn from examples provided as part of the prompt without any weight updates, a remarkable ability known as in-context learning (ICL). Despite its demonstrated efficacy across various domains, the theoretical understanding of ICL is still developing. Whereas most existing theory has focused on linear models, we study ICL in the nonlinear regression setting. Through the interaction mechanism in attention, we explicitly construct transformer networks to realize nonlinear features, such as polynomial or spline bases, which span a wide class of functions. Based on this construction, we establish a framework to analyze end-to-end in-context nonlinear regression with the constructed features. Our theory provides finite-sample generalization error bounds in terms of context length and training set size. We numerically validate the theory on synthetic regression tasks.",
-      "published_at": "2026-05-06T17:42:07+00:00",
-      "topic": "Regulations",
-      "title_ru": "Понимание обучения в контексте для нелинейной регрессии с использованием трансформеров: внимание как фичеайзер.",
-      "summary_ru": "Предобученные трансформеры способны обучаться на примерах, предоставленных в запросе, без обновления весов, что является замечательной способностью, известной как обучение в контексте (ICL). Несмотря на его доказанную эффективность в различных областях, теоретическое понимание ICL все еще находится в стадии развития. В то время как большинство существующих теорий сосредоточено на линейных моделях, мы изучаем ICL в контексте нелинейной регрессии. Через механизм взаимодействия в внимании мы явно конструируем сети трансформеров для реализации нелинейных признаков, таких как полиномиальные или сплайн-базисы, которые охватывают широкий класс функций. На основе этой конструкции мы устанавливаем рамки для анализа конечной нелинейной регрессии в контексте с использованием сконструированных признаков. Наша теория предоставляет границы обобщающей ошибки для конечных выборок в зависимости от длины контекста и размера обучающего набора. Мы численно проверяем теорию на синтетических задачах регрессии."
-    },
-    {
-      "id": "5b4c238ff41cad0e",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
-      "title_en": "SpaceX may spend up to $119B on ‘Terafab’ chip factory in Texas",
-      "summary_en": "The project would be a \"multi-phase, next-generation, vertically integrated semiconductor manufacturing and advanced computing fabrication facility,\" according to the proposal.",
-      "published_at": "2026-05-06T17:23:08+00:00",
-      "topic": "Hardware",
-      "title_ru": "SpaceX может потратить до 119 миллиардов долларов на фабрику чипов 'Terafab' в Техасе.",
-      "summary_ru": "SpaceX, космическая компания Илона Маска, которая также включает его AI-компанию xAI, рассматривает возможность инвестирования 55 миллиардов долларов, по крайней мере на начальном этапе, в строительство завода по производству полупроводников в Техасе, согласно документам, поданным в округ Граймс."
-    },
-    {
-      "id": "f652c92e96cc2952",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
-      "title_en": "DeepSeek could hit $45B valuation from its first investment round",
-      "summary_en": "The Chinese AI lab came to prominence in early 2025 after launching a large language model that trained on a fraction of the compute power and at a fraction of the cost of the big U.S. models like those from OpenAI and Anthropic.",
-      "published_at": "2026-05-06T17:20:34+00:00",
-      "topic": "Models",
-      "title_ru": "DeepSeek может достичь оценки в 45 миллиардов долларов после первого раунда инвестиций.",
-      "summary_ru": "Китайская AI-лаборатория стала известна в начале 2025 года после запуска крупной языковой модели, которая обучалась на меньшем объеме вычислительных ресурсов и за меньшую стоимость по сравнению с крупными американскими моделями, такими как те, что разработаны OpenAI и Anthropic."
-    },
-    {
-      "id": "72543cfba3015545",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/gaming/2026/05/google-deepmind-partners-with-eve-online-for-ai-model-testing/",
-      "title_en": "Google DeepMind partners with EVE Online for AI model testing",
-      "summary_en": "Move comes as CCP Games spends $120M to go independent, rebrands as Fenris Creations.",
-      "published_at": "2026-05-06T16:56:49+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Google DeepMind сотрудничает с EVE Online для тестирования моделей ИИ.",
-      "summary_ru": "Шаг сделан в то время, как CCP Games тратит 120 миллионов долларов на независимость и ребрендинг под названием Fenris Creations."
-    },
-    {
-      "id": "591d2508df9956c4",
-      "source": "Wired AI",
-      "url": "https://www.wired.com/story/i-am-begging-ai-companies-to-stop-naming-features-after-human-processes/",
-      "title_en": "I Am Begging AI Companies to Stop Naming Features After Human Processes",
-      "summary_en": "Anthropic announced “dreaming” for AI agents to sort through “memories” at its developer conference. Can we not?",
-      "published_at": "2026-05-06T16:51:12+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Я умоляю компании AI прекратить называть функции в честь человеческих процессов.",
-      "summary_ru": "Anthropic анонсировала функцию \"сновидений\" для AI-агентов, позволяющую им сортировать \"воспоминания\" на своей конференции для разработчиков. Неужели это необходимо?"
-    },
-    {
-      "id": "094d0c7cec18a4e6",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of/",
-      "title_en": "Anthropic's Claude Managed Agents can now \"dream,\" sort of",
-      "summary_en": "Also, 5-hour usage limits will double for Pro and Max users of Claude Code.",
-      "published_at": "2026-05-06T16:15:27+00:00",
-      "topic": "Models",
-      "title_ru": "Управляемые агенты Claude от Anthropic теперь могут \"мечтать\", в определенном смысле.",
-      "summary_ru": "Кроме того, лимиты использования в 5 часов удвоятся для пользователей Pro и Max Claude Code.",
+      "summary_ru": "В неожиданном повороте событий две компании подписали соглашение, согласно которому Anthropic будет использовать вычислительные ресурсы xAI Элонa Маска.",
       "duplicates": [
         {
-          "source": "Ars Technica AI",
-          "url": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/",
-          "title_en": "Anthropic raises Claude Code usage limits, credits new deal with SpaceX",
-          "title_ru": "Anthropic увеличивает лимиты использования Claude Code, связывая это с новым соглашением с SpaceX.",
-          "published_at": "2026-05-06T22:09:14+00:00"
+          "source": "Simon Willison",
+          "url": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
+          "title_en": "Notes on the xAI/Anthropic data center deal",
+          "title_ru": "Записки о сделке между xAI и Anthropic по дата-центру.",
+          "published_at": "2026-05-07T17:09:28+00:00"
         }
       ]
-    },
-    {
-      "id": "7fd7635574ec5271",
-      "source": "Google AI Blog",
-      "url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
-      "title_en": "5 gardening tips you can try right in Search",
-      "summary_en": "An abstract background featuring soft, stippled illustrations of flowers and a butterfly in a bright palette of blue, green, and red. In the center of the image is a white circle containing a magnifying glass.",
-      "published_at": "2026-05-06T16:00:00+00:00",
-      "topic": "Regulations",
-      "title_ru": "5 советов по садоводству, которые вы можете попробовать прямо в Поиске.",
-      "summary_ru": "Абстрактный фон с мягкими, точечными иллюстрациями цветов и бабочки в яркой палитре синего, зеленого и красного цветов. В центре изображения находится белый круг с увеличительным стеклом."
-    },
-    {
-      "id": "388ec99527c0298c",
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
-      "title_en": "Live blog: Code w/ Claude 2026",
-      "summary_en": "I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions. Tags: ai , generative-ai , llms , anthropic , claude , claude-code , live-blog",
-      "published_at": "2026-05-06T15:58:27+00:00",
-      "topic": "Models",
-      "title_ru": "Живой блог: Code w/ Claude 2026",
-      "summary_ru": "Я на мероприятии Anthropic Code w/ Claude в 2026 году и буду вести прямую трансляцию ключевого выступления и несколько других заметок в течение дня. Теги: ai, generative-ai, llms, anthropic, claude, live-blog."
-    },
-    {
-      "id": "883e289551379d92",
-      "source": "Wired AI",
-      "url": "https://www.wired.com/story/cybercriminals-are-complaining-about-ai-slop-flooding-their-forums/",
-      "title_en": "Hackers Hate AI Slop Even More Than You Do",
-      "summary_en": "It's not just you. Scammers, hackers, and other cybercriminals are complaining about “AI shit” flooding platforms where they discuss cyberattacks and other illegal activity.",
-      "published_at": "2026-05-06T15:49:12+00:00",
-      "topic": "Regulations",
-      "title_ru": "Киберпреступники жалуются на поток некачественного контента, заполняющего их форумы.",
-      "summary_ru": "Не только вы. Хакеры и другие киберпреступники жалуются на \"AI-ерунду\", заполняющую платформы, где они обсуждают кибератаки и другую незаконную деятельность."
-    },
-    {
-      "id": "655e9a83ee40f1f4",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
-      "title_en": "Google's Gemma 4 AI models get 3x speed boost by predicting future tokens",
-      "summary_en": "Up to 3x the speed with no loss of quality—is it too good to be true?",
-      "published_at": "2026-05-06T15:44:20+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Модели AI Google Gemma 4 получили тройное ускорение благодаря предсказанию будущих токенов.",
-      "summary_ru": "До 3 раз быстрее без потери качества — неужели это слишком хорошо, чтобы быть правдой?"
-    },
-    {
-      "id": "f997a4857c322467",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "title_en": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-      "summary_en": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial [&#8230;]",
-      "published_at": "2026-05-06T15:37:32+00:00",
-      "topic": "Regulations",
-      "title_ru": "Последние новости о судебном разбирательстве между Илоной Маском и Сэмом Альтманом по поводу будущего OpenAI.",
-      "summary_ru": "Сэм Альтман и Илон Маск столкнулись в судебном процессе с высокими ставками, который может изменить будущее OpenAI и его самого известного продукта, ChatGPT. В 2024 году Маск подал иск, обвиняя OpenAI в отказе от своей первоначальной миссии по разработке ИИ на благо человечества и смещении фокуса на увеличение прибыли. Судебный процесс начался с [...]",
-      "duplicates": [
-        {
-          "source": "Wired AI",
-          "url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
-          "title_en": "Elon Musk’s Last-Ditch Effort to Control OpenAI: Recruit Sam Altman to Tesla",
-          "title_ru": "Последняя попытка Илона Маска контролировать OpenAI: привлечь Сэма Олтмана в Tesla.",
-          "published_at": "2026-05-06T23:23:45+00:00"
-        }
-      ]
-    },
-    {
-      "id": "2f2bb790d6620c8c",
-      "source": "vc.ru AI",
-      "url": "https://vc.ru/services/2913241-kak-targetai-zamenil-kolltsentr-na-ii?from=rss",
-      "title_en": "Алло — это робот? Нет, это ИИ.",
-      "summary_en": "Как таргет targetAI заменил коллцентр на ИИ и сэкономил миллионыРоссийский стартап targetAI автоматизировал 52% звонков страховой сократив время диалога с 3х минут до 100 секунд .",
-      "published_at": "2026-05-06T14:56:44+00:00",
-      "topic": "Startups",
-      "title_ru": "Алло — это робот? Нет, это ИИ.",
-      "summary_ru": "Как таргет targetAI заменил коллцентр на ИИ и сэкономил миллионыРоссийский стартап targetAI автоматизировал 52% звонков страховой сократив время диалога с 3х минут до 100 секунд ."
-    },
-    {
-      "id": "839f5e0b5c1d8233",
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
-      "title_en": "Vibe coding and agentic engineering are getting closer than I'd like",
-      "summary_en": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own work. One thing I really enjoy about podcasts is that they sometimes push me to think out loud in a way that exposes an idea I've not previously been able to put into words. Vibe coding and agentic engineering are starting to overlap A few weeks after vibe coding was first coined I published Not all AI-assisted programming is vibe coding (but vibe coding rocks) , where I firmly staked out my belief that \"vibe coding\" is a very different beast from responsible use of AI to write code, which I've since started to call agentic engineering . When Joseph brought up the distinction between the two I had a sudden realization that they're not nearly as distinct for me as they used to be: Weirdly though, those things have started to blur for me already, which is quite upsetting. I thought we had a very clear delineation where vibe coding is the thing where you're not looking at the code at all. You might not even know how to program. You might be a non-programmer who asks for a thing, and gets a thing, and if the thing works, then great! And if it doesn't, you tell it that it doesn't work and cross your fingers. But at no point are you really caring about the code quality or any of those additional constraints. And my take on vibe coding was that it's fantastic, provided you understand when it can be used and when it can't. A personal tool for you, where if there's a bug it hurts only you, go ahead! If you're building software for other people, vibe coding is grossly irresponsible because it's other people's information. Other people get hurt by your stupid bugs. You need to have a higher level than that. This contrasts with agentic engineering where you are a professional software engineer. You understand security and maintainability and operations and performance and so forth. You're using these tools to the highest of your own ability. I'm finding the scope of challenges I can take on has gone up by a significant amount because I've got the support of these tools. But I'm still leaning on my 25 years of experience as a software engineer. The goal is to build high quality production systems: if you're building lower quality stuff faster, I think that's bad. I want to build higher quality stuff faster. I want everything I'm building to be better in every way than it was before. The problem is that as the coding agents get more reliable, I'm not reviewing every line of code that they write anymore, even for my production level stuff. I know full well that if you ask Claude Code to build a JSON API endpoint that runs a SQL query and outputs the results as JSON, it's just going to do it right. It's not going to mess that up. You have it add automated tests, you have it add documentation, you know it's going to be good. But I'm not reviewing that code. And now I've got that feeling of guilt: if I haven't reviewed the code, is it really responsible for me to use this in production? The thing that really helps me is thinking back to when I've worked at larger organizations where I've been an engineering manager. Other teams are building software that my team depends on. If another team hands over something and says, \"hey, this is the image resize service, here's how to use it to resize your images\"... I'm not going to go and read every line of code that they wrote. I'm going to look at their documentation and I'm going to use it to resize some images. And then I'm going to start shipping my own features. And if I start running into problems where the image resizer thing appears to have bugs or the performance isn't good, that's when I might dig into their Git repositories and see what's going on. But for the most part I treat that as a semi-black box that I don't look at until I need to. I'm starting to treat the agents in the same way. And it still feels uncomfortable, because human beings are accountable for what they do. A team can build a reputation. I can say \"I trust that team over there. They built good software in the past. They're not going to build something rubbish because that affects their professional reputations.\" Claude Code does not have a professional reputation! It can't take accountability for what it's done. But it's been proving itself anyway - time and time again it's churning out straightforward things and doing them right in the style that I like. There's an element of the normalization of deviance here - every time a model turns out to have written the right code without me monitoring it closely there's a risk that I'll trust it at the wrong moment in the future and get burned. The new challenge of evaluating software It used to be if you found a GitHub repository with a hundred commits and a good readme and automated tests and stuff, you could be pretty sure that the person writing that had put a lot of care and attention into that project. And now I can knock out a git repository with a hundred commits and a beautiful readme and comprehensive tests of every line of code in half an hour! It looks identical to those projects that have had a great deal of care and attention. Maybe it is as good as them. I don't know. I can't tell from looking at it. Even for my own projects, I can't tell. So I realized what I value more than the quality of the tests and documentation is that I want somebody to have used the thing. If you've got a vibe coded thing which you have used every day for the past two weeks, that's much more valuable to me than something that you've just spat out and hardly even exercised. The bottlenecks have shifted If you can go from producing 200 lines of code a day to 2,000 lines of code a day, what else breaks? The entire software development lifecycle was, it turns out, designed around the idea that it takes a day to produce a few hundred lines of code. And now it doesn't. It's not just the downstream stuff, it's the upstream stuff as well. I saw a great talk by Jenny Wen , who's the design leader at Anthropic, where she said we have all of these design processes that are based around the idea that you need to get the design right - because if you hand it off to the engineers and they spend three months building the wrong thing, that's catastrophic. There's this whole very extensive design process that you put in place because that design results in expensive work. But if it doesn't take three months to build, maybe the design process can be a whole lot riskier because cost, if you get something wrong, has been reduced so much. Why I'm still not afraid for my career When I look at my conversations with the agents, it's very clear to me that this is moon language for the vast majority of human beings. There are a whole bunch of reasons I'm not scared that my career as a software engineer is over now that computers can write their own code, partly because these things are amplifiers of existing experience. If you know what you're doing, you can run so much faster with them. [...] I'm constantly reminded as I work with these tools how hard the thing that we do is. Producing software is a ferociously difficult thing to do. And you could give me all of the AI tools in the world and what we're trying to achieve here is still really difficult. [...] Matthew Yglesias, who's a political commentator, yesterday tweeted , \"Five months in, I think I've decided that I don't want to vibecode — I want professionally managed software companies to use AI coding assistance to make more/better/cheaper software products that they sell to me for money.\" And that feels about right to me. I can plumb my house if I watch enough YouTube videos on plumbing. I would rather hire a plumber. On the threat to SaaS providers of companies rolling their own solutions instead: I just realized it's the thing I said earlier about how I only want to use your side project if you've used it for a few weeks. The enterprise version of that is I don't want a CRM unless at least two other giant enterprises have successfully used that CRM for six months. [...] You want solutions that are proven to work before you take a risk on them. Tags: ai , generative-ai , llms , podcast-appearances , vibe-coding , coding-agents , agentic-engineering",
-      "published_at": "2026-05-06T14:24:08+00:00",
-      "topic": "Models",
-      "title_ru": "Vibe coding и агентная инженерия становятся ближе, чем мне хотелось бы.",
-      "summary_ru": "Недавно я поговорил с Джозефом Руссио о инструментах программирования на основе ИИ для подкаста Heavybit \"High Leverage\": эпизод #9, \"Сдвиг парадигмы программирования с ИИ\" с Саймоном Уиллисом. Вот некоторые из моих основных моментов, включая тревожное осознание того, что vibe coding и agentic engineering начали пересекаться в моей работе. Мне нравится, что подкасты иногда заставляют меня думать вслух, что позволяет выразить идеи, которые я не мог сформулировать ранее. Vibe coding и agentic engineering начинают пересекаться. Несколько недель спустя после того, как термин vibe coding был впервые введен, я опубликовал статью \"Не все программирование с помощью ИИ — это vibe coding (но vibe coding крут)\", где я четко обозначил свою позицию, что \"vibe coding\" — это совершенно другое, чем ответственное использование ИИ для написания кода, что я позже начал называть agentic engineering. Когда Джозеф упомянул различие между ними, я внезапно осознал, что для меня они уже не так различны, как раньше: странно, но эти вещи начали размываться для меня, что довольно тревожно. Я думал, что у нас есть четкое разделение, где vibe coding — это когда вы вообще не смотрите на код. Вы можете даже не знать, как программировать. Вы можете быть непрофессионалом, который запрашивает что-то и получает это, и если это работает, то отлично! А если нет, вы говорите, что это не работает, и надеетесь на лучшее. Но в какой-то момент вам действительно не важно качество кода или какие-либо дополнительные ограничения. Мое мнение о vibe coding заключается в том, что это фантастично, если вы понимаете, когда это можно использовать, а когда нет. Личный инструмент для вас, где, если есть ошибка, это вредит только вам, вперед! Если вы создаете программное обеспечение для других людей, vibe coding крайне безответственно, потому что это информация других людей. Другие люди страдают от ваших глупых ошибок. Вам нужно иметь более высокий уровень. Это контрастирует с agentic engineering, где вы профессиональный инженер-программист. Вы понимаете безопасность, поддерживаемость, эксплуатацию и производительность и так далее. Вы используете эти инструменты на максимуме своих возможностей. Я замечаю, что объем задач, которые я могу взять на себя, значительно увеличился благодаря поддержке этих инструментов. Но я все еще полагаюсь на свои 25 лет опыта как инженера-программиста. Цель — создавать высококачественные производственные системы: если вы создаете менее качественные вещи быстрее, я считаю, что это плохо. Я хочу создавать"
-    },
-    {
-      "id": "2299d5a6071c4571",
-      "source": "Habr ML",
-      "url": "https://habr.com/ru/articles/1032188/?utm_campaign=1032188&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "OneOCR — скрытая OCR внутри Windows 11",
-      "summary_en": "OneOCR&nbsp;— это набор из&nbsp;двух динамических библиотек и одной модели ONNX для&nbsp;распознавания текста в&nbsp;приложениях Snipping Tool и Photos в&nbsp;Windows 11. Читать далее",
-      "published_at": "2026-05-06T13:29:50+00:00",
-      "topic": "Research",
-      "title_ru": "OneOCR — скрытая OCR внутри Windows 11",
-      "summary_ru": "OneOCR&nbsp;— это набор из&nbsp;двух динамических библиотек и одной модели ONNX для&nbsp;распознавания текста в&nbsp;приложениях Snipping Tool и Photos в&nbsp;Windows 11. Читать далее"
-    },
-    {
-      "id": "82fc41339ea59c51",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links",
-      "title_en": "Google&#8217;s AI search summaries will now quote Reddit",
-      "summary_en": "Google is updating its AI Search features to make it easier for users to find information from sources they know and trust. One of the more notable changes introduces \"a preview of perspectives\" from firsthand sources like social media, Reddit, and other web forums, effectively linking your search queries with online conversations around similar topics. [&#8230;]",
-      "published_at": "2026-05-06T13:00:30+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "AI-резюме поиска Google теперь будут цитировать Reddit.",
-      "summary_ru": "Google обновляет свои функции AI-поиска, чтобы упростить пользователям поиск информации из известных и надежных источников. Одно из наиболее заметных изменений вводит \"предварительный просмотр перспектив\" от первоисточников, таких как социальные сети, Reddit и другие веб-форумы, эффективно связывая ваши поисковые запросы с онлайн-беседами по схожим темам.",
-      "duplicates": [
-        {
-          "source": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/",
-          "title_en": "Google updates AI search to include quotes from Reddit and other sources",
-          "title_ru": "Google обновляет поиск с использованием ИИ, добавляя «экспертные советы» из Reddit и других веб-форумов.",
-          "published_at": "2026-05-06T15:49:39+00:00"
-        }
-      ]
-    },
-    {
-      "id": "f6e064821d2f748d",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/924931/microsoft-office-copilot-windows-reorg-shuffle",
-      "title_en": "Microsoft’s Office and LinkedIn chief now runs Teams in latest reshuffle",
-      "summary_en": "Microsoft's LinkedIn chief, Ryan Roslansky, took on an expanded role at the company as head of Office last year, and he's now getting more responsibilities as part of the latest leadership reshuffle inside Microsoft. Sources tell me that the Microsoft Teams organization is moving to report to Roslansky, who will now lead a new Work [&#8230;]",
-      "published_at": "2026-05-06T11:45:41+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Глава Office и LinkedIn в Microsoft теперь возглавляет Teams в рамках последней реорганизации.",
-      "summary_ru": "Генеральный директор LinkedIn компании Microsoft, Райан Розлански, в прошлом году получил расширенные полномочия, став главой Office, и теперь он получает дополнительные обязанности в рамках последней реорганизации руководства Microsoft. Источники сообщают, что организация Microsoft Teams теперь будет подчиняться Розлански, который возглавит новое направление Work."
-    },
-    {
-      "id": "8ddee50e966e21cf",
-      "source": "NVIDIA AI Blog",
-      "url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
-      "title_en": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
-      "summary_en": "The race to build the world’s most powerful AI factories demands networking that keeps pace with the ambitions of AI itself. NVIDIA Spectrum-X Ethernet scale-out infrastructure stands at the forefront of that race as the most advanced AI networking technology available today, deployed by industry leaders who can’t afford to compromise on performance, resilience or [&#8230;]",
-      "published_at": "2026-05-06T11:30:20+00:00",
-      "topic": "Hardware",
-      "title_ru": "NVIDIA Spectrum-X — открытая, AI-ориентированная Ethernet-сеть — устанавливает стандарт для гигаскейл AI, теперь с MRC.",
-      "summary_ru": "Соревнование по созданию самых мощных AI-фабрик в мире требует сетевой инфраструктуры, которая соответствует амбициям самого ИИ. NVIDIA Spectrum-X Ethernet — это передовая инфраструктура масштабируемой сети, которая занимает лидирующие позиции в этой гонке как самая современная технология сетевого взаимодействия для ИИ, используемая лидерами отрасли, которые не могут позволить себе компромиссы в производительности, надежности или [...]"
     }
   ],
-  "dedup_at": "2026-05-07T11:32:26.500840+00:00"
+  "dedup_at": "2026-05-07T18:18:40.184875+00:00"
 }

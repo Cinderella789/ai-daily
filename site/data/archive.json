@@ -1,6 +1,288 @@
 {
   "items": [
     {
+      "id": "c7baf15e1fc3f707",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
+      "title_en": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+      "summary_en": "Behind the Scenes Hardening Firefox with Claude Mythos Preview Fascinating, in-depth details on how Mozilla used their access to the Claude Mythos preview to locate and then fix hundreds of vulnerabilities in Firefox: Suddenly, the bugs are very good Just a few months ago, AI-generated security bug reports to open source projects were mostly known for being unwanted slop. Dealing with reports that look plausibly correct but are wrong imposes an asymmetric cost on project maintainers: it’s cheap and easy to prompt an LLM to find a “problem” in code, but slow and expensive to respond to it. It is difficult to overstate how much this dynamic changed for us over a few short months. This was due to a combination of two main factors. First, the models got a lot more capable. Second, we dramatically improved our techniques for harnessing these models — steering them, scaling them, and stacking them to generate large amounts of signal and filter out the noise. They include some detailed bug descriptions too, including a 20-year old XSLT bug and a 15-year-old bug in the &lt;legend&gt; element. A lot of the attempts made by the harness were blocked by Firefox's existing defense-in-depth measures, which is reassuring. Mozilla were fixing around 20-30 security bugs in Firefox per month through 2025. That jumped to 423 in April. Via Lobste.rs Tags: firefox , mozilla , security , ai , generative-ai , llms , anthropic , claude , ai-security-research",
+      "published_at": "2026-05-07T17:56:25+00:00",
+      "topic": "Models",
+      "title_ru": "За кулисами: Укрепление Firefox с предварительным просмотром Claude Mythos",
+      "summary_ru": "За кулисами: Укрепление Firefox с помощью предварительного просмотра Claude Mythos. Удивительные, подробные сведения о том, как Mozilla использовала доступ к предварительному просмотру Claude Mythos для выявления и исправления сотен уязвимостей в Firefox. Внезапно ошибки стали очень полезными. Всего несколько месяцев назад отчеты о безопасности, сгенерированные ИИ, для проектов с открытым исходным кодом в основном были известны как нежелательный мусор. Работа с отчетами, которые выглядят правдоподобно, но на самом деле неверны, накладывает асимметричные затраты на поддерживающих проект: легко и дешево заставить LLM найти \"проблему\" в коде, но медленно и дорого на нее реагировать. Трудно переоценить, насколько сильно эта динамика изменилась для нас за короткий промежуток времени. Это произошло благодаря сочетанию двух основных факторов. Во-первых, модели стали гораздо более способными. Во-вторых, мы значительно улучшили наши методы использования этих моделей — управления ими, масштабирования и комбинирования для генерации большого количества сигналов и фильтрации шума. Они также включают некоторые подробные описания ошибок, включая 20-летнюю ошибку XSLT и 15-летнюю ошибку в элементе <legend>. Многие попытки, предпринятые с помощью harness, были заблокированы существующими мерами защиты Firefox, что обнадеживает. Mozilla исправляла около 20-30 уязвимостей в Firefox в месяц до 2025 года. В апреле это число возросло до 423."
+    },
+    {
+      "id": "690c113d945f8d92",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1032740/?utm_campaign=1032740&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Два окна в работе с AI-агентами: архитектор и разработчик. Самый недооценённый паттерн",
+      "summary_en": "Перестал работать с AI-агентом в одном окне. Сделал два — архитектор и разработчик. Одна модель в обоих или разные — не принципиально. Важно, что у каждого окна свой характер и нет инерции другого. Шесть категорий ошибок, которые этот паттерн закрывает, и одна где он избыточен. Читать далее",
+      "published_at": "2026-05-07T17:53:42+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Два окна в работе с AI-агентами: архитектор и разработчик. Самый недооценённый паттерн",
+      "summary_ru": "Перестал работать с AI-агентом в одном окне. Сделал два — архитектор и разработчик. Одна модель в обоих или разные — не принципиально. Важно, что у каждого окна свой характер и нет инерции другого. Шесть категорий ошибок, которые этот паттерн закрывает, и одна где он избыточен. Читать далее"
+    },
+    {
+      "id": "c437ca1ef00637c7",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/chatgpt-chinese-catch-you-steadily-sycophancy/",
+      "title_en": "ChatGPT Has 'Goblin' Mania in the US. In China It Will 'Catch You Steadily'",
+      "summary_en": "OpenAI's chatbot has some weird linguistic tics in Chinese that are driving users crazy.",
+      "published_at": "2026-05-07T16:25:48+00:00",
+      "topic": "Models",
+      "title_ru": "ChatGPT испытывает \"гоблинскую\" манию в США. В Китае он будет \"постепенно захватывать вас\".",
+      "summary_ru": "Чат-бот OpenAI имеет странные языковые особенности в китайском языке, которые сводят пользователей с ума."
+    },
+    {
+      "id": "c044e7ba828e542a",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
+      "title_en": "How Anthropic’s Mythos has rewritten Firefox’s approach to cybersecurity",
+      "summary_en": "Security researchers at Mozilla say Anthropic's Mythos has unearthed a wealth of high-severity bugs in Firefox.",
+      "published_at": "2026-05-07T16:05:48+00:00",
+      "topic": "Research",
+      "title_ru": "Как Mythos от Anthropic изменил подход Firefox к кибербезопасности",
+      "summary_ru": "Исследователи безопасности из Mozilla сообщают, что Mythos от Anthropic обнаружил множество уязвимостей высокой степени серьезности в Firefox."
+    },
+    {
+      "id": "570dd5819dc214e1",
+      "source": "NVIDIA Dev Blog",
+      "url": "https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/",
+      "title_en": "Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus",
+      "summary_en": "Distributed deep learning depends on fast, reliable GPU-to-GPU communication using the NVIDIA Collective Communication Library (NCCL). When training slows down,...",
+      "published_at": "2026-05-07T16:02:58+00:00",
+      "topic": "Hardware",
+      "title_ru": "Мониторинг производительности в реальном времени и более быстрое отладка с помощью NCCL Inspector и Prometheus",
+      "summary_ru": "Распределенное глубокое обучение зависит от быстрой и надежной связи между GPU с использованием библиотеки коллективной коммуникации NVIDIA (NCCL). Когда обучение замедляется,..."
+    },
+    {
+      "id": "c98e2e0016087766",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/id5923884/2915026-istoriya-zapier-avtomatizatsiya-bez-programmirovaniya?from=rss",
+      "title_en": "Написали код один раз, чтобы больше никогда этого не делать. История Zapier",
+      "summary_en": "Перетаскивая десятый раз за день данные из почты в Excel, потом в CRM, потом в отчёты — Фостер и Хэлминг поймали себя на мысли о том, ручная работа отнимает время, которое можно было бы потратить на важные дела.",
+      "published_at": "2026-05-07T15:38:14+00:00",
+      "topic": "Research",
+      "title_ru": "Написали код один раз, чтобы больше никогда этого не делать. История Zapier",
+      "summary_ru": "Перетаскивая десятый раз за день данные из почты в Excel, потом в CRM, потом в отчёты — Фостер и Хэлминг поймали себя на мысли о том, ручная работа отнимает время, которое можно было бы потратить на важные дела."
+    },
+    {
+      "id": "bcc70247df39f03f",
+      "source": "Hacker News AI",
+      "url": "https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers",
+      "title_en": "Motherboard sales 'collapse' amid unprecedented shortages fueled by AI",
+      "summary_en": "Article URL: https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers Comments URL: https://news.ycombinator.com/item?id=48050540 Points: 132 # Comments: 112",
+      "published_at": "2026-05-07T15:23:23+00:00",
+      "topic": "Hardware",
+      "title_ru": "Продажи материнских плат \"обрушились\" на фоне беспрецедентных дефицитов, вызванных AI.",
+      "summary_ru": "Продажи материнских плат упали более чем на 25 процентов, так как производители чипов ограничивают рынок энтузиастов ПК, чтобы сосредоточиться на производстве большего количества AI-чипов. Ожидается, что ASUS продаст на 5 миллионов плат меньше в 2025 году, также ожидается снижение продаж у Gigabyte, MSI и ASRock."
+    },
+    {
+      "id": "b5cffd1657a47db5",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/startup-battlefield-200-applications-close-may-27-a-shot-at-vc-access-global-visibility-techcrunch-coverage-and-100k/",
+      "title_en": "Startup Battlefield 200 applications close May 27: A shot at VC access, global visibility, TechCrunch coverage, and $100K",
+      "summary_en": "Startup Battlefield 200 applications are open, but only for three more weeks. Apply by May 27 for your shot at VC access, global visibility, TechCrunch coverage, $100,000 equity-free, and more opportunities for major scaling impact.",
+      "published_at": "2026-05-07T15:00:00+00:00",
+      "topic": "Regulations",
+      "title_ru": "Заявки на участие в Startup Battlefield 200 закрываются 27 мая: возможность получить доступ к венчурному капиталу, глобальную видимость, освещение в TechCrunch и $100K.",
+      "summary_ru": "Заявки на участие в Startup Battlefield 200 открыты, но только на три недели. Подайте заявку до 27 мая, чтобы получить доступ к венчурному капиталу, глобальную видимость, освещение в TechCrunch, $100,000 безвозмездных средств и другие возможности для значительного роста."
+    },
+    {
+      "id": "55f4efd6881ccbd9",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/companies/sandboxer/articles/1032704/?utm_campaign=1032704&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Где российские клинреки расходятся с международными гайдлайнами: справочник для врача на графе знаний",
+      "summary_en": "Идея этого продукта родилась дома. Моя жена работает врачом в клинике Фомина (известная московская клиника), и однажды она рассказала мне вещь, к которой я был не готов: российские клинические рекомендации (КР) в среднем отстают от международных гайдлайнов на два года. Это не просто задержка во времени — это отставание в методиках, дозировках и качестве ухода за пациентом. И дотянуться до свежих международных гайдов российскому врачу сейчас почти негде: UpToDate отрезан, обходы через зарубежные SIM-карты прикрыли (разве что опытные айтишники знают пути обхода), Notion ушёл — а вместе с ним разлетелись по чатам и заметкам рабочие шаблоны, которые врачи годами в нём вели. Когда жена это рассказала, мы взяли тему в работу как обычную задачу: гипотеза, интервью с врачами, валидация, MVP на нашей платформе. Так получился&nbsp; МедБро &nbsp;— бесплатный справочник, который рядом с международной рекомендацией сразу показывает соответствующую позицию из российского КР. Работает на&nbsp; medbro.pro , есть Android-сборка, iOS на модерации App Store. Сейчас продукт в режиме альфа-тестирования: загружено около 80 гайдлайнов, к 30 мая планируем закрыть основные специальности и выкатить личный кабинет врача с закладками. В статье разберу четыре конкретные боли врача, ту самую функцию, ради которой во многом и затевался продукт, и то, как мы построили под неё граф клинических знаний. Читать далее",
+      "published_at": "2026-05-07T14:38:55+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Где российские клинреки расходятся с международными гайдлайнами: справочник для врача на графе знаний",
+      "summary_ru": "Идея этого продукта родилась дома. Моя жена работает врачом в клинике Фомина (известная московская клиника), и однажды она рассказала мне вещь, к которой я был не готов: российские клинические рекомендации (КР) в среднем отстают от международных гайдлайнов на два года. Это не просто задержка во времени — это отставание в методиках, дозировках и качестве ухода за пациентом. И дотянуться до свежих международных гайдов российскому врачу сейчас почти негде: UpToDate отрезан, обходы через зарубежные SIM-карты прикрыли (разве что опытные айтишники знают пути обхода), Notion ушёл — а вместе с ним разлетелись по чатам и заметкам рабочие шаблоны, которые врачи годами в нём вели. Когда жена это рассказала, мы взяли тему в работу как обычную задачу: гипотеза, интервью с врачами, валидация, MVP на нашей платформе. Так получился&nbsp; МедБро &nbsp;— бесплатный справочник, который рядом с международной рекомендацией сразу показывает соответствующую позицию из российского КР. Работает на&nbsp; medbro.pro , есть Android-сборка, iOS на модерации App Store. Сейчас продукт в режиме альфа-тестирования: загружено около 80 гайдлайнов, к 30 мая планируем закрыть основные специальности и выкатить личный кабинет врача с закладками. В статье разберу четыре конкретные боли врача, ту самую функцию, ради которой во многом и затевался продукт, и то, как мы построили под неё граф клинических знаний. Читать далее"
+    },
+    {
+      "id": "5f96233f714807cb",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/podcast/auroras-chris-urmson-on-why-self-driving-trucks-are-finally-ready-to-scale/",
+      "title_en": "Aurora’s Chris Urmson on why self-driving trucks are finally ready to scale",
+      "summary_en": "Self-driving has been &#8220;almost here&#8221; for over a decade. But somewhere between DARPA&#160;challenges&#160;and a handful of driverless trucks hauling freight between Dallas and Houston, Aurora&#160;co-founder and&#160;CEO&#160;Chris Urmson’s story&#160;changed.&#160;The self-driving truck&#160;company&#160;started commercial driverless operations last April and is now scaling from a handful of trucks to hundreds this year.&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast,&#160;we&#8217;re&#160;bringing you a [&#8230;]",
+      "published_at": "2026-05-07T14:24:54+00:00",
+      "topic": "Research",
+      "title_ru": "Крис Урмсон из Aurora о том, почему самоуправляемые грузовики наконец готовы к масштабированию.",
+      "summary_ru": "Автономные автомобили находятся на пороге реализации уже более десяти лет. Однако где-то между вызовами DARPA и несколькими беспилотными грузовиками, перевозящими грузы между Далласом и Хьюстоном, история соучредителя и CEO Aurora Криса Урмсона изменилась. Компания по производству беспилотных грузовиков начала коммерческие операции без водителей в прошлом апреле и сейчас планирует увеличить количество грузовиков с нескольких до сотен в этом году. В этом эпизоде подкаста TechCrunch Equity мы расскажем вам [...]"
+    },
+    {
+      "id": "03593ef5718d95d3",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/companies/ru_mts/articles/1032434/?utm_campaign=1032434&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Как я использовал Cursor для онбординга в продукт в бигтех-компании",
+      "summary_en": "Привет! Меня зовут Родион, я стажер фронтенд-разработчик. Когда-то в 2022 году писал свои первые сайты на нативном HTML, CSS и JavaScript. С тех пор успел поработать в стартапах и на фрилансе, и вот опыт завел меня в мой первый бигтех — MTS Web Services. Проект, с которым работает моя команда управления производством, пишется уже не первый год. Когда я только устроился в компанию и впервые увидел его структуру, то подумал, что разбираться в ней займет примерно весь стажерский срок. Нужно было понять логику всех вложенностей, правил, «исторических особенностей», но в реальности хотелось поскорее приступить к работе. В первые дни мне дали задачу по созданию нового виджета. На проекте их уже было много, так что где-то должны были храниться файлы, в которые я планировал дописать строчки, а еще папки, чтобы добавить новые компоненты. Звучит элементарно, на поиск нужных мест я потратил около часа. Просто на то, чтобы понять, где все это лежит. Такой расклад меня, конечно, не устроил, и я пошел смотреть, что с этим можно сделать, — так и познакомился с Cursor. В этом посте расскажу, как настроил его под проект, какие промпты использовал, благодаря чему реально сэкономил время, и как боролся с багами. Надеюсь, будет полезно таким же как и я начинающим специалистам. Читать дальше",
+      "published_at": "2026-05-07T14:08:29+00:00",
+      "topic": "Startups",
+      "title_ru": "Как я использовал Cursor для онбординга в продукт в бигтех-компании",
+      "summary_ru": "Привет! Меня зовут Родион, я стажер фронтенд-разработчик. Когда-то в 2022 году писал свои первые сайты на нативном HTML, CSS и JavaScript. С тех пор успел поработать в стартапах и на фрилансе, и вот опыт завел меня в мой первый бигтех — MTS Web Services. Проект, с которым работает моя команда управления производством, пишется уже не первый год. Когда я только устроился в компанию и впервые увидел его структуру, то подумал, что разбираться в ней займет примерно весь стажерский срок. Нужно было понять логику всех вложенностей, правил, «исторических особенностей», но в реальности хотелось поскорее приступить к работе. В первые дни мне дали задачу по созданию нового виджета. На проекте их уже было много, так что где-то должны были храниться файлы, в которые я планировал дописать строчки, а еще папки, чтобы добавить новые компоненты. Звучит элементарно, на поиск нужных мест я потратил около часа. Просто на то, чтобы понять, где все это лежит. Такой расклад меня, конечно, не устроил, и я пошел смотреть, что с этим можно сделать, — так и познакомился с Cursor. В этом посте расскажу, как настроил его под проект, какие промпты использовал, благодаря чему реально сэкономил время, и как боролся с багами. Надеюсь, будет полезно таким же как и я начинающим специалистам. Читать дальше"
+    },
+    {
+      "id": "6fbc73af09243119",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/gadgets/925458/google-health-fitbit-air-ai-coaching-wearables-fitness-trackers",
+      "title_en": "Google’s taking a big swing at AI health with the Fitbit Air",
+      "summary_en": "It's a Whoop dupe. That was my first thought when I saw the new $99 Google Fitbit Air. You can hardly blame me. The band is screenless with a metallic fabric clasp. My eyes flickered between the Fitbit Air and my wrist, where I'm wearing a Whoop MG. Was I not seeing double? But as [&#8230;]",
+      "published_at": "2026-05-07T14:00:00+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Google делает серьезный шаг в области ИИ в здравоохранении с Fitbit Air.",
+      "summary_ru": "Это дубликат Whoop. Это была моя первая мысль, когда я увидел новый Google Fitbit Air за 99 долларов. Нельзя меня в этом винить. У браслета нет экрана, а застежка выполнена из металлической ткани. Мои глаза метались между Fitbit Air и моим запястьем, на котором я ношу Whoop MG. Разве я не вижу двойное изображение? Но как [...]",
+      "duplicates": [
+        {
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/",
+          "title_en": "Google unveils screenless Fitbit Air and Google Health app to replace Fitbit",
+          "title_ru": "Google представила безэкранный Fitbit Air и приложение Google Health, которое заменит Fitbit.",
+          "published_at": "2026-05-07T14:00:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "7da45bc96137b73c",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+      "title_en": "China’s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets",
+      "summary_en": "Moonshot's annualized recurring revenue topped $200 million in April, driven by rapid growth in paid subscriptions and API usage.",
+      "published_at": "2026-05-07T13:44:25+00:00",
+      "topic": "Startups",
+      "title_ru": "Китайская компания Moonshot AI привлекла $2 миллиарда при оценке в $20 миллиардов на фоне растущего спроса на открытый искусственный интеллект.",
+      "summary_ru": "Годовой повторяющийся доход Moonshot превысил 200 миллионов долларов в апреле, что стало результатом быстрого роста платных подписок и использования API."
+    },
+    {
+      "id": "64444bd62f8a63f4",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1032656/?utm_campaign=1032656&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Дрессировка и воспитание личного автономного AI-агента на VPS (Hermes Agent вместо OpenClaw)",
+      "summary_en": "Хочешь личного агента, который на связи 24/7? Послушного, исполнительного и даже ... в меру умного? Он работает за еду (токены) и кров (VPS), учится новому и готов взять на себя любую рутину (связанную с интернетом) если ты его научишь. Он свободен от корпоративных инфраструктур (opensource) и предан только тебе. Он требует дрессировки и воспитания, а затем становится исполнительным секретарём. Мы живём в удивительное время, когда это стало реальным. Сначала LLMs проникли в веб-поиск -- появился \"chatgpt\". Проникли в компьютер -- \"claude code\". Когда настала очередь VPS -- появился небезопасный OpenClaw, а вскоре за ним -- перспективный Hermes. Hermes Agent (от Nous Research) -- opensource приложение ( GitHub ) для запуска автономных AI-агентов с самообучением, набором необходимых tools, доступом к огромной базе навыков и интеграцией с Telegram и другими мессенджерами. В статье: подробный разбор архитектуры Hermes Agent, установка и первичная настройка (для чайников), воспитание агента под 4 реальных кейса (в деталях), особенности использования различных LLM (в качестве мозгов) и разбор плюсов, минусов и ограничений Hermes (что он делает легко, а что ему недоступно). Статья написана человеком, без использования LLM, и отражает реальный жизненный опыт. Читать далее",
+      "published_at": "2026-05-07T13:26:13+00:00",
+      "topic": "Models",
+      "title_ru": "Дрессировка и воспитание личного автономного AI-агента на VPS (Hermes Agent вместо OpenClaw)",
+      "summary_ru": "Хочешь личного агента, который на связи 24/7? Послушного, исполнительного и даже ... в меру умного? Он работает за еду (токены) и кров (VPS), учится новому и готов взять на себя любую рутину (связанную с интернетом) если ты его научишь. Он свободен от корпоративных инфраструктур (opensource) и предан только тебе. Он требует дрессировки и воспитания, а затем становится исполнительным секретарём. Мы живём в удивительное время, когда это стало реальным. Сначала LLMs проникли в веб-поиск -- появился \"chatgpt\". Проникли в компьютер -- \"claude code\". Когда настала очередь VPS -- появился небезопасный OpenClaw, а вскоре за ним -- перспективный Hermes. Hermes Agent (от Nous Research) -- opensource приложение ( GitHub ) для запуска автономных AI-агентов с самообучением, набором необходимых tools, доступом к огромной базе навыков и интеграцией с Telegram и другими мессенджерами. В статье: подробный разбор архитектуры Hermes Agent, установка и первичная настройка (для чайников), воспитание агента под 4 реальных кейса (в деталях), особенности использования различных LLM (в качестве мозгов) и разбор плюсов, минусов и ограничений Hermes (что он делает легко, а что ему недоступно). Статья написана человеком, без использования LLM, и отражает реальный жизненный опыт. Читать далее"
+    },
+    {
+      "id": "baadfd77c02b6412",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla/",
+      "title_en": "Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla",
+      "summary_en": "Musk was “prepared to do the for-profit, provided he would get control.”",
+      "published_at": "2026-05-07T13:14:01+00:00",
+      "topic": "Research",
+      "title_ru": "Илон Маск пытался нанять основателей OpenAI для создания подразделения ИИ внутри Tesla.",
+      "summary_ru": "Маск был \"готов заняться коммерческой деятельностью, при условии что получит контроль\"."
+    },
+    {
+      "id": "ab00e241ebe4e663",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/ai/2914873-podstavka-s-ii-dlya-regulirovki-monitora-po-poze-polzovatelya?from=rss",
+      "title_en": "Эта подставка с ИИ регулирует положение монитора в зависимости от позы",
+      "summary_en": "Камера отслеживает положение головы и тела, после чего небольшие моторы перемещают экран, подстраивая его под уровень глаз и нужное расстояние. Вместо того чтобы постоянно поправлять рабочее место или мириться с плохой осанкой, оно само начинает адаптироваться под вас.",
+      "published_at": "2026-05-07T13:08:29+00:00",
+      "topic": "Regulations",
+      "title_ru": "Эта подставка с ИИ регулирует положение монитора в зависимости от позы",
+      "summary_ru": "Камера отслеживает положение головы и тела, после чего небольшие моторы перемещают экран, подстраивая его под уровень глаз и нужное расстояние. Вместо того чтобы постоянно поправлять рабочее место или мириться с плохой осанкой, оно само начинает адаптироваться под вас."
+    },
+    {
+      "id": "f95196e36e3ebd99",
+      "source": "NVIDIA AI Blog",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gaijin-sso/",
+      "title_en": "Linked and Loaded: Gaijin Single Sign-On Now Available on GeForce NOW",
+      "summary_en": "Less typing, more tanking. Faster logins mean more time in the gaming action — and this week provides GeForce NOW members with a smoother path straight into the battlefield. Cloud gaming is all about instant access to titles across devices, and the latest GeForce NOW update removes another layer for members jumping into their Gaijin [&#8230;]",
+      "published_at": "2026-05-07T13:00:27+00:00",
+      "topic": "Regulations",
+      "title_ru": "Связано и готово: Gaijin Single Sign-On теперь доступен на GeForce NOW.",
+      "summary_ru": "Меньше набора текста, больше действий. Быстрее вход в систему означает больше времени для игры — и на этой неделе участники GeForce NOW получают более плавный доступ прямо на поле боя. Облачный гейминг ориентирован на мгновенный доступ к играм на разных устройствах, и последнее обновление GeForce NOW убирает еще один барьер для участников, которые хотят погрузиться в свои игры от Gaijin."
+    },
+    {
+      "id": "330128a430535f8c",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
+      "title_en": "Spotify wants to become the home for AI-generated personal audio",
+      "summary_en": "Users will be able to create a podcast from Codex or Claude Code and import it to Spotify.",
+      "published_at": "2026-05-07T13:00:00+00:00",
+      "topic": "Models",
+      "title_ru": "Spotify хочет стать домом для персонального аудио, созданного с помощью ИИ.",
+      "summary_ru": "Пользователи смогут создавать подкасты с помощью Codex или Claude Code и импортировать их в Spotify.",
+      "duplicates": [
+        {
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
+          "title_en": "OpenClaw and Claude can put your AI-generated podcasts in Spotify",
+          "title_ru": "OpenClaw и Claude могут разместить ваши подкасты, созданные с помощью ИИ, на Spotify.",
+          "published_at": "2026-05-07T14:15:40+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8174eb0eef5fb1d4",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1032630/?utm_campaign=1032630&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "В поисках Мемо",
+      "summary_en": "Я искал рабочее решение для памяти ИИ-агента с момента как поставил первый OpenClaw Перепробовал наверное почти всё и вот рассказываю, что и зачем искал, и к чему пришёл и как вообще до такой жизни докатился :) Читать далее",
+      "published_at": "2026-05-07T12:51:11+00:00",
+      "topic": "Regulations",
+      "title_ru": "В поисках Мемо",
+      "summary_ru": "Я искал рабочее решение для памяти ИИ-агента с момента как поставил первый OpenClaw Перепробовал наверное почти всё и вот рассказываю, что и зачем искал, и к чему пришёл и как вообще до такой жизни докатился :) Читать далее"
+    },
+    {
+      "id": "05e80ec6d2f62fe9",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/spotifys-ai-dj-now-supports-french-german-italian-and-brazilian-portuguese/",
+      "title_en": "Spotify’s AI DJ now supports French, German, Italian, and Brazilian Portuguese",
+      "summary_en": "Spotify's AI DJ feature now supports French, German, Italian, and Brazilian Portuguese.",
+      "published_at": "2026-05-07T12:20:04+00:00",
+      "topic": "Research",
+      "title_ru": "AI DJ от Spotify теперь поддерживает французский, немецкий, итальянский и бразильский португальский языки.",
+      "summary_ru": "Функция AI DJ в Spotify теперь поддерживает французский, немецкий, итальянский и бразильский португальский языки."
+    },
+    {
+      "id": "3bb78123b1e24ac5",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1032588/?utm_campaign=1032588&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Code with Claude 2026: что Anthropic показали разработчикам на своей конференции",
+      "summary_en": "6 мая 2026 года в Сан-Франциско прошла вторая конференция Anthropic для разработчиков — Code with Claude. Площадку для мероприятия в этот раз расширили: в этот раз взяли бывший автосалон SVN West, так как спрос оказался выше. Следующие 2 конференции пройдут в Лондоне и Токио (19 мая и 10 июня), а записи всех докладов должны опубликовать в ближайшее время на YouTube канале Claude Code . Для тех, кто хочет посмотреть все доклады уже сейчас, опубликовал полную запись в ТГК (5+ часов видео). Ниже пройдемся по всем докладам и отметим самое важное. Читать далее",
+      "published_at": "2026-05-07T12:11:36+00:00",
+      "topic": "Models",
+      "title_ru": "Code with Claude 2026: что Anthropic показали разработчикам на своей конференции",
+      "summary_ru": "6 мая 2026 года в Сан-Франциско прошла вторая конференция Anthropic для разработчиков — Code with Claude. Площадку для мероприятия в этот раз расширили: в этот раз взяли бывший автосалон SVN West, так как спрос оказался выше. Следующие 2 конференции пройдут в Лондоне и Токио (19 мая и 10 июня), а записи всех докладов должны опубликовать в ближайшее время на YouTube канале Claude Code . Для тех, кто хочет посмотреть все доклады уже сейчас, опубликовал полную запись в ТГК (5+ часов видео). Ниже пройдемся по всем докладам и отметим самое важное. Читать далее"
+    },
+    {
+      "id": "89f848f05922c05d",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/id5923884/2914734-vnedrenie-ii-v-koll-tsentry-medtronic?from=rss",
+      "title_en": "Внедрили AI-агентов в колл-центры — сэкономили 450 миллионов",
+      "summary_en": "Представьте: вы — пациент с кардиостимулятором. У вас вопрос, можно ли пользоваться микроволновкой. Вы звоните в поддержку. И слышите: «Для обслуживания кардиостимуляторов нажмите 1.",
+      "published_at": "2026-05-07T12:11:02+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Внедрили AI-агентов в колл-центры — сэкономили 450 миллионов",
+      "summary_ru": "Представьте: вы — пациент с кардиостимулятором. У вас вопрос, можно ли пользоваться микроволновкой. Вы звоните в поддержку. И слышите: «Для обслуживания кардиостимуляторов нажмите 1."
+    },
+    {
+      "id": "bc8c98081280ecfa",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/companies/otus/articles/1029756/?utm_campaign=1029756&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Запуск ИИ‑продукта с нуля: от гипотезы до первых результатов",
+      "summary_en": "AI-прототип сегодня можно собрать за вечер, но между рабочим демо и продуктом, которым реально пользуются и за который готовы платить, обычно лежит неприятная зона: слабая гипотеза, грязные данные, лишний стек, непонятные метрики и отсутствие внедрения. В статье разбираем, как подойти к запуску AI/ML-продукта без иллюзии «сейчас прикрутим LLM и всё взлетит»: от проверки боли и выбора use case до MVP, первых метрик и типичных ошибок, которые хоронят проекты ещё до выхода в прод. Разобрать запуск",
+      "published_at": "2026-05-07T12:06:02+00:00",
+      "topic": "Models",
+      "title_ru": "Запуск ИИ‑продукта с нуля: от гипотезы до первых результатов",
+      "summary_ru": "AI-прототип сегодня можно собрать за вечер, но между рабочим демо и продуктом, которым реально пользуются и за который готовы платить, обычно лежит неприятная зона: слабая гипотеза, грязные данные, лишний стек, непонятные метрики и отсутствие внедрения. В статье разбираем, как подойти к запуску AI/ML-продукта без иллюзии «сейчас прикрутим LLM и всё взлетит»: от проверки боли и выбора use case до MVP, первых метрик и типичных ошибок, которые хоронят проекты ещё до выхода в прод. Разобрать запуск"
+    },
+    {
+      "id": "82ee99d1933e33ce",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1032610/?utm_campaign=1032610&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Кириллица в LLM: почему русский язык в нейросетях стоит дороже и работает медленнее",
+      "summary_en": "Когда вы пишете запрос в&nbsp;ChatGPT или&nbsp;другую нейросеть, она не&nbsp;работает с&nbsp;буквами или&nbsp;словами&nbsp;— она режет ваш текст на&nbsp;маленькие кусочки. Эти кусочки называются токенами, и от&nbsp;того, как&nbsp;именно нейросеть режет текст, зависит цена ответа, скорость, и сколько информации в&nbsp;неё помещается за&nbsp;раз. С&nbsp;английским это работает хорошо: одно слово&nbsp;— обычно один‑два кусочка. С&nbsp;русским всё хуже: то&nbsp;же самое слово часто превращается в&nbsp;три‑четыре обрывка. Английское «contract»&nbsp;— один токен. Русское «разработка»&nbsp;— два‑три. «Программирование»&nbsp;— три‑четыре. Из‑за этого русский текст в&nbsp;облачных сервисах вроде OpenAI обходится примерно в 2&nbsp;раза дороже английского, медленнее обрабатывается, и в&nbsp;одно «контекстное окно» нейросети помещается заметно меньше реального содержания. Эта статья&nbsp;— про&nbsp;то, откуда берётся разница, как&nbsp;её измерить на&nbsp;ваших данных и какие модели лучше работают с&nbsp;русским языком. Читать далее",
+      "published_at": "2026-05-07T12:05:35+00:00",
+      "topic": "Models",
+      "title_ru": "Кириллица в LLM: почему русский язык в нейросетях стоит дороже и работает медленнее",
+      "summary_ru": "Когда вы пишете запрос в&nbsp;ChatGPT или&nbsp;другую нейросеть, она не&nbsp;работает с&nbsp;буквами или&nbsp;словами&nbsp;— она режет ваш текст на&nbsp;маленькие кусочки. Эти кусочки называются токенами, и от&nbsp;того, как&nbsp;именно нейросеть режет текст, зависит цена ответа, скорость, и сколько информации в&nbsp;неё помещается за&nbsp;раз. С&nbsp;английским это работает хорошо: одно слово&nbsp;— обычно один‑два кусочка. С&nbsp;русским всё хуже: то&nbsp;же самое слово часто превращается в&nbsp;три‑четыре обрывка. Английское «contract»&nbsp;— один токен. Русское «разработка»&nbsp;— два‑три. «Программирование»&nbsp;— три‑четыре. Из‑за этого русский текст в&nbsp;облачных сервисах вроде OpenAI обходится примерно в 2&nbsp;раза дороже английского, медленнее обрабатывается, и в&nbsp;одно «контекстное окно» нейросети помещается заметно меньше реального содержания. Эта статья&nbsp;— про&nbsp;то, откуда берётся разница, как&nbsp;её измерить на&nbsp;ваших данных и какие модели лучше работают с&nbsp;русским языком. Читать далее"
+    },
+    {
       "id": "182b0c0d312025dd",
       "source": "vc.ru AI",
       "url": "https://vc.ru/marketplace/2914642-ya-podsmotrel-kartochki-top-20-sellerov-ozon-na-marketai-seoru-za-82-sekundy-i-moya-kartochka-perestala-gnit-na-4-i-stranice?from=rss",
@@ -122,6 +404,17 @@
       "summary_ru": "Интервью с Джоанной Стерн о её новой книге о жизни с ИИ и о создании собственной медиа-компании."
     },
     {
+      "id": "4ba89a634a8ba847",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "title_en": "Advancing voice intelligence with new models in the API",
+      "summary_en": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+      "published_at": "2026-05-07T10:00:00+00:00",
+      "topic": "Research",
+      "title_ru": "Продвижение голосового интеллекта с новыми моделями в API",
+      "summary_ru": "Изучите новые модели голосового взаимодействия в реальном времени в API OpenAI, которые могут рассуждать, переводить и транскрибировать речь, обеспечивая более естественные и интеллектуальные голосовые взаимодействия."
+    },
+    {
       "id": "d0001148c59bf545",
       "source": "Habr AI",
       "url": "https://habr.com/ru/companies/cloud_ru/articles/1029282/?utm_campaign=1029282&utm_source=habrahabr&utm_medium=rss",
@@ -175,6 +468,17 @@
       "topic": "Models",
       "title_ru": "Токенизация: почему ИИ сложно считать буквы «r» в «strawberry»?",
       "summary_ru": "Пока мы воспринимаем свои промпты как обычный текст из символов, для LLM они в виде токенов «выглядят» совсем иначе. И если не осознавать этого, порой можно наткнуться на проблемы. Поэтому полезно (и интересно) понимать: что вообще представляют собой токены? По какому алгоритму текст преобразуют в них и обратно? Какие важные нюансы при этом возникают? Возможно, подробнее и понятнее всех объяснил пару лет назад ИИ-рисерчер Андрей Карпатый , записав двухчасовое видео на английском. А теперь мы решили сделать хабрапост, который и пересказывает на русском главное из этого видео, и делает поправку на прошедшее время, и учитывает другие источники (вроде книги «Build a Large Language Models from Scratch»). Описанное применимо к мейнстримовым LLM вроде GPT, в других моделях возможны отличия. Читать далее"
+    },
+    {
+      "id": "9a94881d37e815c7",
+      "source": "Hacker News AI",
+      "url": "https://unsloth.ai/blog/nvidia-collab",
+      "title_en": "Making LLM Training Faster with Unsloth and NVIDIA",
+      "summary_en": "Article URL: https://unsloth.ai/blog/nvidia-collab Comments URL: https://news.ycombinator.com/item?id=48046397 Points: 101 # Comments: 19",
+      "published_at": "2026-05-07T07:15:11+00:00",
+      "topic": "Models",
+      "title_ru": "Ускорение обучения LLM с помощью Unsloth и NVIDIA",
+      "summary_ru": "NVIDIA представила новую функцию в своем облачном сервисе NVIDIA Collaboratory, которая позволяет пользователям запускать и обучать модели машинного обучения с использованием графических процессоров (GPU) в облаке. Эта функция направлена на упрощение процесса разработки и тестирования AI-моделей, предоставляя доступ к мощным вычислительным ресурсам без необходимости в локальном оборудовании. \n\nПользователи могут легко интегрировать свои проекты с популярными библиотеками, такими как TensorFlow и PyTorch, а также использовать предобученные модели для ускорения разработки. NVIDIA Collaboratory также предлагает инструменты для визуализации данных и мониторинга производительности моделей, что делает его удобным решением для исследователей и разработчиков в области искусственного интеллекта. \n\nС запуском этой функции NVIDIA стремится укрепить свои позиции на рынке облачных вычислений и AI, предоставляя пользователям доступ к передовым технологиям и ресурсам для реализации их идей."
     },
     {
       "id": "561f2d2c07547b28",
@@ -254,6 +558,26 @@
       "summary_ru": "Suno купить подписку — актуальный вопрос для пользователей, которые хотят получить доступ к расширенным возможностям генерации музыки в сервисе Suno. Из-за ограничений международных платежей стандартная оплата может работать нестабильно, поэтому многие ищут способы, как оплатить Suno в России и подключить платный тариф без иностранной карты."
     },
     {
+      "id": "fe948365c4d6a69e",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "title_en": "Introducing Trusted Contact in ChatGPT",
+      "summary_en": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "topic": "Models",
+      "title_ru": "Представляем Trusted Contact в ChatGPT",
+      "summary_ru": "Представляем Trusted Contact в ChatGPT — дополнительную функцию безопасности, которая уведомляет человека, которому вы доверяете, если обнаружены серьезные опасения по поводу самоповреждения.",
+      "duplicates": [
+        {
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification",
+          "title_en": "ChatGPT&#8217;s &#8216;Trusted Contact&#8217; will alert loved ones of safety concerns",
+          "title_ru": "Функция «Trusted Contact» в ChatGPT будет уведомлять близких о проблемах с безопасностью.",
+          "published_at": "2026-05-07T18:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "682acca1ab2fd865",
       "source": "The Verge AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
@@ -263,6 +587,37 @@
       "topic": "Research",
       "title_ru": "Самый преданный сторонник Маска стал его самой большой проблемой.",
       "summary_ru": "Я сегодня сел в зал суда по делу Musk против Altman, остро осознавая, что никто не спросит Шивон Зилис вопрос, который волнует всех: Девушка, что ты делаешь? Зилис, которая под присягой заявила, что является матерью четверых детей Маска, была... как лучше всего [&#8230;]"
+    },
+    {
+      "id": "62413ca56b74355c",
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
+      "title_en": "Elon Musk’s Last-Ditch Effort to Control OpenAI: Recruit Sam Altman to Tesla",
+      "summary_en": "Messages between Shivon Zilis and Tesla executives reveal plans in 2017 to start a rival AI lab, potentially led by Altman or Demis Hassabis.",
+      "published_at": "2026-05-06T23:23:45+00:00",
+      "topic": "Research",
+      "title_ru": "Последняя попытка Илона Маска контролировать OpenAI: привлечь Сэма Олтмана в Tesla.",
+      "summary_ru": "Сообщения между Шивон Зилис и руководством Tesla раскрывают планы 2017 года по созданию конкурирующей лаборатории ИИ, возможно, под руководством Алтмана или Демиса Хасабиса.",
+      "duplicates": [
+        {
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+          "title_en": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+          "title_ru": "Последние новости о судебном разбирательстве между Илоной Маском и Сэмом Альтманом по поводу будущего OpenAI.",
+          "published_at": "2026-05-07T17:40:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "457fbc8b3bafb206",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/",
+      "title_en": "Anthropic raises Claude Code usage limits, credits new deal with SpaceX",
+      "summary_en": "Deal follows others with Microsoft, Amazon, and more.",
+      "published_at": "2026-05-06T22:09:14+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Anthropic увеличивает лимиты использования Claude Code, связывая это с новым соглашением с SpaceX.",
+      "summary_ru": "Сделка следует за другими с Microsoft, Amazon и другими."
     },
     {
       "id": "534b5121c9c69963",
@@ -3202,6 +3557,6 @@
       "summary_ru": "За&nbsp;последний год появилось множество видеороликов и статей по&nbsp;использованию нейросетей для&nbsp;изучения английского языка. Очень часто авторы, среди которых попадаются и «дипломированные» учителя, в&nbsp;очень немногочисленных и расплывчатых промптах‑инструкциях просят ИИ ограничиваться каким‑то уровнем CEFR, от&nbsp;A1&nbsp;до&nbsp;С2. Как&nbsp;ни странно, никто из&nbsp;этих авторов даже не&nbsp;потрудился изучить, понимают&nbsp;ли ChatGPT, Gemini, Claude, Grok, что&nbsp;входит в&nbsp;конкретный уровень, а&nbsp;что&nbsp;— нет. Как&nbsp;это можно проверить? Читать далее"
     }
   ],
-  "updated_at": "2026-05-07T11:32:26.666152+00:00",
-  "total": 283
+  "updated_at": "2026-05-07T18:18:40.331598+00:00",
+  "total": 312
 }
