@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-05-08T10:09:13.275035+00:00",
+  "generated_at": "2026-05-08T10:53:57.513341+00:00",
   "items": [
+    {
+      "id": "5f57d32da0e0461e",
+      "source": "Habr ML",
+      "url": "https://habr.com/ru/companies/veai/articles/1033008/?utm_campaign=1033008&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Почему AI-агент чинит симптом, а не баг: трейсы выполнения и бенчмарки на BugSwarm",
+      "summary_en": "Когда AI-агенту дают только stack trace и текст файла с упавшим тестом,&nbsp;он часто чинит симптом,&nbsp;а не причину.&nbsp;Тест зеленеет,&nbsp;баг переезжает в master,&nbsp;через неделю всплывает в другом месте.&nbsp;На простых багах это незаметно,&nbsp;на нетривиальных&nbsp;—&nbsp;становится правилом. В этой статье&nbsp;—&nbsp;что меняется,&nbsp;если вместо stack trace дать агенту сжатый трейс выполнения,&nbsp;собранный на стороне IDE.&nbsp;Три бага из реального кода,&nbsp;эвристики сжатия трейса,&nbsp;склейка многопоточных вызовов по timestamp и цифры на датасете BugSwarm Pro для DeepSeek V3.2 и проприетарных LLM. Статья пригодится,&nbsp;если вы: Читать далее",
+      "published_at": "2026-05-08T10:31:43+00:00",
+      "topic": "Research",
+      "title_ru": "Почему AI-агент чинит симптом, а не баг: трейсы выполнения и бенчмарки на BugSwarm",
+      "summary_ru": "Когда AI-агенту дают только stack trace и текст файла с упавшим тестом,&nbsp;он часто чинит симптом,&nbsp;а не причину.&nbsp;Тест зеленеет,&nbsp;баг переезжает в master,&nbsp;через неделю всплывает в другом месте.&nbsp;На простых багах это незаметно,&nbsp;на нетривиальных&nbsp;—&nbsp;становится правилом. В этой статье&nbsp;—&nbsp;что меняется,&nbsp;если вместо stack trace дать агенту сжатый трейс выполнения,&nbsp;собранный на стороне IDE.&nbsp;Три бага из реального кода,&nbsp;эвристики сжатия трейса,&nbsp;склейка многопоточных вызовов по timestamp и цифры на датасете BugSwarm Pro для DeepSeek V3.2 и проприетарных LLM. Статья пригодится,&nbsp;если вы: Читать далее"
+    },
     {
       "id": "b79c6090cca85882",
       "source": "Habr AI",
@@ -46,9 +57,9 @@
       "summary_ru": "Быстро собрать прототип страницы, чтобы использовать его для постановки задачи команде. AI не вместо разработчиков, а в помощь Product Owner. Читать далее"
     },
     {
-      "id": "4a11b33d8608acc7",
+      "id": "2529aafb3ce72ad1",
       "source": "vc.ru AI",
-      "url": "https://vc.ru/ai/2916350-anthropic-dobavila-claude-managed-agents-funkciyu-snovidenii-chtoby-ii-agenty-peresmatrivali-proshluyu-rabotu-i-obnovlyali-pamyat?from=rss",
+      "url": "https://vc.ru/ai/2916350-anthropic-funkciya-snovidenij-ii-agentov-claude?from=rss",
       "title_en": "Anthropic добавила Claude Managed Agents функцию «сновидений», чтобы ИИ-агенты пересматривали прошлую работу и обновляли память",
       "summary_en": "Anthropic добавила в платформу Claude Managed Agents функцию «сновидений» — запланированный процесс, в ходе которого ИИ-агенты пересматривают свою прошлую работу и обновляют память. Компания представила обновление 6 мая вместе с двумя другими функциями: оценкой результата по заданным критериям и координацией нескольких агентов. Anthropic пишет, что эти инструменты должны сделать агентов Claude более самостоятельными при выполнении сложных задач с минимальным участием человека.",
       "published_at": "2026-05-08T09:44:44+00:00",
@@ -299,6 +310,17 @@
       "summary_ru": "Согласно отчету Марка Гурмана из Bloomberg, слухи о наушниках AirPods от Apple с камерами приближаются к этапу, когда компания начнет тестировать раннее массовое производство. В настоящее время тестировщики Apple \"активно используют\" прототипы, находящиеся на этапе проверки дизайна, который является шагом перед этапом проверки производства. Камеры в AirPods \"не предназначены\" для съемки фотографий или [...]"
     },
     {
+      "id": "643b8c5b0449964a",
+      "source": "Hacker News AI",
+      "url": "https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/",
+      "title_en": "Two Home Affairs officials suspended after AI 'hallucinations' found",
+      "summary_en": "Article URL: https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/ Comments URL: https://news.ycombinator.com/item?id=48053842 Points: 102 # Comments: 22",
+      "published_at": "2026-05-07T19:38:36+00:00",
+      "topic": "Startups",
+      "title_ru": "Два сотрудника Министерства внутренних дел приостановлены после обнаружения \"галлюцинаций\" ИИ.",
+      "summary_ru": "В Южной Африке несколько сотрудников Министерства внутренних дел были отстранены от работы после инцидента, связанного с использованием искусственного интеллекта. Официальные лица утверждают, что система AI выдала ложные данные, что привело к неправильным решениям в вопросах иммиграции. Это событие подчеркивает риски, связанные с полаганием на технологии, которые могут генерировать недостоверную информацию, известную как \"галлюцинации\" AI. Министерство проводит расследование, чтобы выяснить, как произошла ошибка и какие меры необходимо предпринять для предотвращения подобных случаев в будущем."
+    },
+    {
       "id": "74a9ddc6a1c12547",
       "source": "The Verge AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/926356/spacex-terafab-plant-cost-ai-chips",
@@ -358,7 +380,7 @@
       "source": "Hacker News AI",
       "url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
       "title_en": "AI slop is killing online communities",
-      "summary_en": "Article URL: https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/ Comments URL: https://news.ycombinator.com/item?id=48053203 Points: 667 # Comments: 572",
+      "summary_en": "Article URL: https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/ Comments URL: https://news.ycombinator.com/item?id=48053203 Points: 678 # Comments: 580",
       "published_at": "2026-05-07T18:46:25+00:00",
       "topic": "Startups",
       "title_ru": "AI-содержимое разрушает онлайн-сообщества.",
@@ -583,7 +605,7 @@
       "source": "Hacker News AI",
       "url": "https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers",
       "title_en": "Motherboard sales 'collapse' amid unprecedented shortages fueled by AI",
-      "summary_en": "Article URL: https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers Comments URL: https://news.ycombinator.com/item?id=48050540 Points: 273 # Comments: 325",
+      "summary_en": "Article URL: https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers Comments URL: https://news.ycombinator.com/item?id=48050540 Points: 275 # Comments: 326",
       "published_at": "2026-05-07T15:23:23+00:00",
       "topic": "Hardware",
       "title_ru": "Продажи материнских плат \"обрушились\" на фоне беспрецедентных дефицитов, вызванных AI.",
@@ -716,18 +738,7 @@
       "topic": "Regulations",
       "title_ru": "Parloa создает сервисных агентов, с которыми клиенты хотят общаться.",
       "summary_ru": "Parloa использует модели OpenAI для создания масштабируемых голосовых AI-агентов службы поддержки, позволяя предприятиям разрабатывать, моделировать и внедрять надежные взаимодействия в реальном времени."
-    },
-    {
-      "id": "fc85e2e8a562074a",
-      "source": "Habr CV",
-      "url": "https://habr.com/ru/articles/1032500/?utm_campaign=1032500&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "svg-react-preview: предпросмотр inline-SVG внутри JSX-компонентов прямо в Zed",
-      "summary_en": "Открываешь иконочный React-компонент — и видишь стену &lt;path&gt; с координатами и viewBox-арифметикой. Что там нарисовано — непонятно, пока не скопируешь разметку в отдельный .svg, браузерные DevTools или Figma. Каждый такой маневр выбивает из потока. Читать далее",
-      "published_at": "2026-05-07T10:15:16+00:00",
-      "topic": "Regulations",
-      "title_ru": "svg-react-preview: предпросмотр inline-SVG внутри JSX-компонентов прямо в Zed",
-      "summary_ru": "Открываешь иконочный React-компонент — и видишь стену &lt;path&gt; с координатами и viewBox-арифметикой. Что там нарисовано — непонятно, пока не скопируешь разметку в отдельный .svg, браузерные DevTools или Figma. Каждый такой маневр выбивает из потока. Читать далее"
     }
   ],
-  "dedup_at": "2026-05-08T10:10:41.028967+00:00"
+  "dedup_at": "2026-05-08T10:54:07.677905+00:00"
 }
