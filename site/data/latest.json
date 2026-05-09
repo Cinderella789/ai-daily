@@ -1,6 +1,50 @@
 {
-  "generated_at": "2026-05-09T15:38:46.762670+00:00",
+  "generated_at": "2026-05-09T20:01:37.752016+00:00",
   "items": [
+    {
+      "id": "5180bb08c7d0a36f",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1033386/?utm_campaign=1033386&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Как я использовал Cursor для онбординга",
+      "summary_en": "Привет! Меня зовут Родион, и я фронтенд-разработчик. Когда-то в 2022 году писал свои первые сайты на нативном HTML, CSS и JavaScript. С тех пор успел поработать в стартапах и на фрилансе. Я работаю в проектах, которые пишутся уже не первый год. И каждый раз, когда я сталкиваюсь с новым, впервые вижу его структуру, то думаю, что разбираться в нем буду несколько месяцев. Нужно понять логику всех вложенностей, правил, «исторических особенностей», но в реальности хочется поскорее приступить к работе. Итак, расскажу о том, как решил эту проблему. В первые дни на новом месте мне дали задачу по созданию нового виджета. На проекте их уже было много, так что где-то должны были храниться файлы, в которые я планировал дописать строчки, а еще папки, чтобы добавить новые компоненты. Звучит элементарно, на поиск нужных мест я потратил около часа. Просто на то, чтобы понять, где все это лежит. Такой расклад меня, конечно, не устроил, и я пошел смотреть, что с этим можно сделать, — так и познакомился с Cursor. В этом посте расскажу, как настроил его под проект, какие промпты использовал, благодаря чему реально сэкономил время, и как боролся с багами. Надеюсь, будет полезно таким же как и я начинающим специалистам. Читать далее",
+      "published_at": "2026-05-09T19:51:10+00:00",
+      "topic": "Startups",
+      "title_ru": "Как я использовал Cursor для онбординга",
+      "summary_ru": "Привет! Меня зовут Родион, и я фронтенд-разработчик. Когда-то в 2022 году писал свои первые сайты на нативном HTML, CSS и JavaScript. С тех пор успел поработать в стартапах и на фрилансе. Я работаю в проектах, которые пишутся уже не первый год. И каждый раз, когда я сталкиваюсь с новым, впервые вижу его структуру, то думаю, что разбираться в нем буду несколько месяцев. Нужно понять логику всех вложенностей, правил, «исторических особенностей», но в реальности хочется поскорее приступить к работе. Итак, расскажу о том, как решил эту проблему. В первые дни на новом месте мне дали задачу по созданию нового виджета. На проекте их уже было много, так что где-то должны были храниться файлы, в которые я планировал дописать строчки, а еще папки, чтобы добавить новые компоненты. Звучит элементарно, на поиск нужных мест я потратил около часа. Просто на то, чтобы понять, где все это лежит. Такой расклад меня, конечно, не устроил, и я пошел смотреть, что с этим можно сделать, — так и познакомился с Cursor. В этом посте расскажу, как настроил его под проект, какие промпты использовал, благодаря чему реально сэкономил время, и как боролся с багами. Надеюсь, будет полезно таким же как и я начинающим специалистам. Читать далее"
+    },
+    {
+      "id": "594ab57271cff39a",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1033376/?utm_campaign=1033376&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "LazyWeb: 257 тысяч экранов реальных приложений как контекст для AI-агентов",
+      "summary_en": "Если вы хоть раз просили Claude Code, Cursor или Codex сделать интерфейс — то знаете эту проблему. Код модель пишет неплохо, но визуально результат выглядит как “сайт, сгенерированный AI”. Одинаковые карточки, одинаковые градиенты, одинаковый набор паттернов из топа поиска. Несколько недель назад вышел LazyWeb — MCP-сервер, который даёт агенту 257k экранов реальных приложений как визуальный контекст. Установил, прогнал на pricing-странице для своего пет-проекта, разбираю, что получилось. Читать далее",
+      "published_at": "2026-05-09T18:27:18+00:00",
+      "topic": "Models",
+      "title_ru": "LazyWeb: 257 тысяч экранов реальных приложений как контекст для AI-агентов",
+      "summary_ru": "Если вы хоть раз просили Claude Code, Cursor или Codex сделать интерфейс — то знаете эту проблему. Код модель пишет неплохо, но визуально результат выглядит как “сайт, сгенерированный AI”. Одинаковые карточки, одинаковые градиенты, одинаковый набор паттернов из топа поиска. Несколько недель назад вышел LazyWeb — MCP-сервер, который даёт агенту 257k экранов реальных приложений как визуальный контекст. Установил, прогнал на pricing-странице для своего пет-проекта, разбираю, что получилось. Читать далее"
+    },
+    {
+      "id": "354d332dae4037d4",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1033232/?utm_campaign=1033232&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Экономика Бытия, Этика Демиургов или Почему нейросетям не позволено воспроизводить обнаженное человеческое тело",
+      "summary_en": "Началось все с того, что однажды я задумался над последним вопросом заголовка: почему генеративным нейросетям не позволено воспроизводить обнаженное человеческое тело? Ну, понятно, что цензура, и понятно, что в открытом доступе лежит куча моделей, которые развращай обучай как хочешь.&nbsp; Но откуда взялось само убеждение, что человеческое тело не может быть воспроизведено во всем своем великолепии? Почему его можно показывать в музее и спальне, например, а urbi et orbi друзьям и интернету – нельзя? А вот ни за что не догадаетесь",
+      "published_at": "2026-05-09T18:18:03+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Экономика Бытия, Этика Демиургов или Почему нейросетям не позволено воспроизводить обнаженное человеческое тело",
+      "summary_ru": "Началось все с того, что однажды я задумался над последним вопросом заголовка: почему генеративным нейросетям не позволено воспроизводить обнаженное человеческое тело? Ну, понятно, что цензура, и понятно, что в открытом доступе лежит куча моделей, которые развращай обучай как хочешь.&nbsp; Но откуда взялось само убеждение, что человеческое тело не может быть воспроизведено во всем своем великолепии? Почему его можно показывать в музее и спальне, например, а urbi et orbi друзьям и интернету – нельзя? А вот ни за что не догадаетесь"
+    },
+    {
+      "id": "a66112d74e603616",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
+      "title_en": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
+      "summary_en": "",
+      "published_at": "2026-05-09T18:09:28+00:00",
+      "topic": "AI Agents",
+      "title_ru": "OncoAgent: Двухуровневая многоагентная структура для поддержки клинических решений в онкологии с сохранением конфиденциальности.",
+      "summary_ru": ""
+    },
     {
       "id": "10fc3da355a991c8",
       "source": "Habr ML",
@@ -83,7 +127,7 @@
       "source": "Hacker News AI",
       "url": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
       "title_en": "All my clients wanted a carousel, now it's an AI chatbot",
-      "summary_en": "Article URL: https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md Comments URL: https://news.ycombinator.com/item?id=48072720 Points: 122 # Comments: 57",
+      "summary_en": "Article URL: https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md Comments URL: https://news.ycombinator.com/item?id=48072720 Points: 130 # Comments: 59",
       "published_at": "2026-05-09T07:23:40+00:00",
       "topic": "Startups",
       "title_ru": "Все мои клиенты хотели карусель, теперь это AI-чатбот.",
@@ -110,6 +154,17 @@
       "topic": "Models",
       "title_ru": "Цитируя Люка Керли.",
       "summary_ru": "WebRTC разработан для ухудшения качества и потери моего запроса при плохих условиях сети. WebRTC агрессивно отбрасывает аудиопакеты, чтобы поддерживать низкую задержку. Если вы когда-либо слышали искаженное аудио на конференц-связи, это WebRTC. Идея заключается в том, что конференц-связи зависят от быстрого обмена, поэтому ожидание аудио недопустимо. …но как пользователь, я бы предпочел подождать дополнительные 200 мс, чтобы мой медленный/дорогой запрос был точным. В конце концов, я плачу хорошие деньги за качественный результат, а плохой запрос означает плохой ответ. Не то чтобы LLM были особенно отзывчивыми. Но мне не разрешают ждать. В браузере невозможно даже повторно передать аудиопакет WebRTC; мы пробовали в Discord. Реализация жестко закодирована для реального времени, иначе… — Люк Кёрли, Проблема WebRTC в OpenAI, в ответ на то, как OpenAI обеспечивает низкую задержку голосового ИИ в масштабах. Теги: webrtc, openai"
+    },
+    {
+      "id": "1f1203a4b6d3475e",
+      "source": "Hacker News AI",
+      "url": "https://mccue.dev/pages/5-8-26-ai-art",
+      "title_en": "People Hate AI Art",
+      "summary_en": "Article URL: https://mccue.dev/pages/5-8-26-ai-art Comments URL: https://news.ycombinator.com/item?id=48070548 Points: 131 # Comments: 164",
+      "published_at": "2026-05-09T00:39:58+00:00",
+      "topic": "Startups",
+      "title_ru": "Люди ненавидят искусство, созданное ИИ.",
+      "summary_ru": "Статья недоступна для перевода."
     },
     {
       "id": "cddc5b6e7f9b5663",
@@ -167,6 +222,17 @@
       "summary_ru": "Статья Тариqa Shihipar \"Непомерная эффективность HTML\" выступает в защиту использования HTML в качестве формата вывода для запросов к Claude, вместо Markdown. В статье приведены интересные примеры и предложения по запросам, такие как: \"Помоги мне проверить этот PR, создав HTML-артефакт, который его описывает. Я не очень знаком с логикой потоков/обратного давления, поэтому сосредоточься на этом. Отобрази фактические изменения с аннотациями на полях, раскрась находки по степени серьезности и добавь все, что может помочь лучше донести концепцию.\" Ранее я предпочитал запрашивать большинство вещей в Markdown, поскольку в эпоху GPT-4 лимит в 8192 токена делал эффективность Markdown по сравнению с HTML крайне важной. Однако статья Тариqa заставила меня пересмотреть это, особенно в контексте вывода. Запрашивая у Claude объяснение в HTML, можно включать SVG-диаграммы, интерактивные виджеты, навигацию по странице и другие удобные способы представления информации. В декабре я писал о полезных паттернах для создания HTML-инструментов, но это было сосредоточено на интерактивных утилитах, подобных тем, что находятся на моем сайте tools.simonwillison.net. Я рад начать экспериментировать с богатыми HTML-объяснениями в ответ на спонтанные запросы. Я попробовал это на copy.fail, который описывает недавно обнаруженную уязвимость в Linux, включая доказательство концепции, представленное в виде обфусцированного Python-кода. Я попросил GPT-5.5 создать HTML-объяснение уязвимости следующим образом: \"curl https://copy.fail/exp | llm -m gpt-5.5 -s 'Объясни этот код подробно. Переформатируй его, разъясни любые запутанные моменты и углубись в то, что он делает и как работает. Выводи HTML, аккуратно оформленный с использованием возможностей HTML, CSS и JavaScript, чтобы сделать объяснение богатым, интерактивным и максимально ясным.'\" Вот полученная HTML-страница. Она довольно хороша, хотя мне следовало бы акцентировать внимание на объяснении уязвимости, а не на Python-обертке вокруг нее. Теги: html, безопасность, markdown, ai, инженерия-запросов, генеративный-ai, llms, llm, claude-code."
     },
     {
+      "id": "16a2d9af2d0cbdc1",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/gaming/2026/05/sony-says-efficient-ai-tools-will-lead-to-even-more-games-flooding-the-market/",
+      "title_en": "Sony says \"efficient\" AI tools will lead to even more games flooding the market",
+      "summary_en": "But human artists still \"must remain at the center,\" PlayStation maker says.",
+      "published_at": "2026-05-08T20:51:17+00:00",
+      "topic": "Research",
+      "title_ru": "Sony заявляет, что \"эффективные\" инструменты ИИ приведут к еще большему количеству игр на рынке.",
+      "summary_ru": "Но человеческие художники все равно \"должны оставаться в центре\", говорит производитель PlayStation."
+    },
+    {
       "id": "be27dd67aaedd773",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
@@ -176,190 +242,7 @@
       "topic": "Regulations",
       "title_ru": "Возвращение Intel оказывается еще более захватывающим, чем кажется.",
       "summary_ru": "Акции Intel за последний год выросли на впечатляющие 490%, что является ставкой Уолл-стрита, возможно, опережающей фактическое восстановление компании."
-    },
-    {
-      "id": "bb2ec84744a130b1",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/google/2026/05/google-will-put-more-links-to-websites-in-ai-overviews/",
-      "title_en": "Course correction: Google to link more sources in AI Overviews",
-      "summary_en": "Google's AI search will start citing its sources in several new ways.",
-      "published_at": "2026-05-08T19:43:47+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Коррекция курса: Google будет связывать больше источников в AI Overviews.",
-      "summary_ru": "AI-поиск Google начнет указывать свои источники несколькими новыми способами."
-    },
-    {
-      "id": "c0641eb0de56205a",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-      "title_en": "All the latest updates on AI data centers",
-      "summary_en": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.&#160; From audacious plans to launch data centers into [&#8230;]",
-      "published_at": "2026-05-08T18:45:08+00:00",
-      "topic": "Regulations",
-      "title_ru": "Все последние обновления о центрах обработки данных для ИИ.",
-      "summary_ru": "Массированные новые дата-центры являются физической основой надежд и амбиций технологических компаний в области ИИ. Однако стремление расширить склады, заполненные энергоемкими серверами, также вызвало споры по всему миру относительно их влияния на энергосети, счета за коммунальные услуги, близлежащие сообщества и окружающую среду."
-    },
-    {
-      "id": "0cdf1c4ffb03eb79",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/articles/1033188/?utm_campaign=1033188&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Миллион клодобезьян: естественный отбор вайбкодинга",
-      "summary_en": "Размышления на тему куда катится вайбкодинг и прочие агентские разработки. Хотите я прочитаю эту статью за вас? Читать далее",
-      "published_at": "2026-05-08T18:33:55+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Миллион клодобезьян: естественный отбор вайбкодинга",
-      "summary_ru": "Размышления на тему куда катится вайбкодинг и прочие агентские разработки. Хотите я прочитаю эту статью за вас? Читать далее"
-    },
-    {
-      "id": "430d9b1e9426668e",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-      "title_en": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
-      "summary_en": "Cloudflare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
-      "published_at": "2026-05-08T18:33:21+00:00",
-      "topic": "Research",
-      "title_ru": "Cloudflare сообщает, что искусственный интеллект сделал 1,100 рабочих мест устаревшими, несмотря на то, что выручка достигла рекордного уровня.",
-      "summary_ru": "Cloudflare объявила о первом крупном сокращении штата. Генеральный директор Мэттью Принс заявил, что из-за повышения эффективности благодаря ИИ компании не требуется столько сотрудников в службе поддержки."
-    },
-    {
-      "id": "c3d413dd8422abd1",
-      "source": "Habr ML",
-      "url": "https://habr.com/ru/articles/1033184/?utm_campaign=1033184&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Cобрать агента для XAI и никогда больше не быть онлайн",
-      "summary_en": "Привет, друзья! Я, похоже, наконец пережила кризис пришествия агентов в нашу жизнь. Мне всегда безумно нравился процесс решения задач —&nbsp;этакий личный, удивительный мир, даже когда ты уже знаешь правило Лопиталя/Modus ponens/выберите то, которое заставило вас смеяться больше всего при изучении. А теперь, чтобы не выпасть из жизни, задачи просто приходится решать с кем-то . И этот кто-то LLM-Agent. По жизни я —&nbsp;XAI Researcher, так что эта статья, среди прочих, будет практическим туториалам для решения задачи \"собрать агента для интепретируемости ML моделей и больше никогда не смотреть в экран, думая о коэффициентах логистической регрессии\". Или всё-таки подумать придётся? Весь код туториала лежит здесь: https://github.com/SadSabrina/XAI-open_materials/tree/main/naive_agent_and_xai Читать далее",
-      "published_at": "2026-05-08T18:29:19+00:00",
-      "topic": "Research",
-      "title_ru": "Cобрать агента для XAI и никогда больше не быть онлайн",
-      "summary_ru": "Привет, друзья! Я, похоже, наконец пережила кризис пришествия агентов в нашу жизнь. Мне всегда безумно нравился процесс решения задач —&nbsp;этакий личный, удивительный мир, даже когда ты уже знаешь правило Лопиталя/Modus ponens/выберите то, которое заставило вас смеяться больше всего при изучении. А теперь, чтобы не выпасть из жизни, задачи просто приходится решать с кем-то . И этот кто-то LLM-Agent. По жизни я —&nbsp;XAI Researcher, так что эта статья, среди прочих, будет практическим туториалам для решения задачи \"собрать агента для интепретируемости ML моделей и больше никогда не смотреть в экран, думая о коэффициентах логистической регрессии\". Или всё-таки подумать придётся? Весь код туториала лежит здесь: https://github.com/SadSabrina/XAI-open_materials/tree/main/naive_agent_and_xai Читать далее"
-    },
-    {
-      "id": "bb83d039abe201ab",
-      "source": "Hacker News AI",
-      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
-      "title_en": "AI is breaking two vulnerability cultures",
-      "summary_en": "Article URL: https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures Comments URL: https://news.ycombinator.com/item?id=48066524 Points: 370 # Comments: 148",
-      "published_at": "2026-05-08T17:55:08+00:00",
-      "topic": "Startups",
-      "title_ru": "Искусственный интеллект разрушает две культуры уязвимостей.",
-      "summary_ru": "AI разрушает две культуры уязвимости.",
-      "duplicates": [
-        {
-          "source": "Hacker News AI",
-          "url": "https://mccue.dev/pages/5-8-26-ai-art",
-          "title_en": "People Hate AI Art",
-          "title_ru": "Люди ненавидят искусство, созданное ИИ.",
-          "published_at": "2026-05-09T00:39:58+00:00"
-        }
-      ]
-    },
-    {
-      "id": "4862d0651ed0666c",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
-      "title_en": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
-      "summary_en": "",
-      "published_at": "2026-05-08T17:41:05+00:00",
-      "topic": "Models",
-      "title_ru": "CyberSecQwen-4B: Почему защитная кибербезопасность нуждается в небольших, специализированных, локально запускаемых моделях",
-      "summary_ru": ""
-    },
-    {
-      "id": "3ec78cd865e9d367",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/google/2026/05/no-google-hasnt-changed-chromes-local-ai-features-its-just-as-confusing-as-ever/",
-      "title_en": "Chrome's 4GB AI model isn't new, but you're not wrong for being confused",
-      "summary_en": "You can stop Chrome from taking up 4GB of storage for local AI, but that shouldn't be your problem.",
-      "published_at": "2026-05-08T17:17:17+00:00",
-      "topic": "Research",
-      "title_ru": "Модель ИИ Chrome объемом 4 ГБ не нова, но вы не ошибаетесь, испытывая замешательство.",
-      "summary_ru": "Вы можете остановить Chrome от использования 4 ГБ памяти для локального ИИ, но это не должно быть вашей проблемой."
-    },
-    {
-      "id": "bd62a6d1a283ed05",
-      "source": "NVIDIA Dev Blog",
-      "url": "https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/",
-      "title_en": "Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding",
-      "summary_en": "Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits grep, curl, tar, or a shell pipeline is...",
-      "published_at": "2026-05-08T17:13:33+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Улучшение генерации Bash в малых языковых моделях с помощью декодирования с ограничениями грамматики",
-      "summary_ru": "Bash является одним из самых гибких и мощных интерфейсов, доступных для AI-агентов. В правильной системе модель, которая генерирует команды grep, curl, tar или конвейеры оболочки, может..."
-    },
-    {
-      "id": "29626376f64045f9",
-      "source": "Stratechery",
-      "url": "https://stratechery.com/2026/earning-spending/",
-      "title_en": "2026.19: Earning & Spending",
-      "summary_en": "The best Stratechery content from the week of May 4, 2026, including what we learned from Big Tech's first quarter, a conversation with Joanna Stern, and asking what's next for the Boston Celtics.",
-      "published_at": "2026-05-08T17:00:00+00:00",
-      "topic": "Research",
-      "title_ru": "2026.19: Заработок и расходы",
-      "summary_ru": "Лучший контент Stratechery за неделю с 4 мая 2026 года, включая выводы из первого квартала Больших Технологий, разговор с Джоанной Стерн и обсуждение будущего Бостон Селтикс."
-    },
-    {
-      "id": "27e7e35598a5159e",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/games/926914/sony-playstation-ai-powerful-tool-games",
-      "title_en": "PlayStation sees AI as a ‘powerful tool’ to help make games",
-      "summary_en": "As part of an earnings presentation on Friday, Sony shared how it's thinking about AI at the company, including many details about how it's evaluating AI as part of making PlayStation games. Generative AI has recently been showing up in bigger games - though many indie developers still reject it - and while Sony calls [&#8230;]",
-      "published_at": "2026-05-08T16:30:56+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "PlayStation рассматривает ИИ как «мощный инструмент» для создания игр.",
-      "summary_ru": "В рамках презентации по итогам earnings в пятницу Sony поделилась своими мыслями о ИИ в компании, включая множество деталей о том, как она оценивает ИИ при создании игр для PlayStation. Генеративный ИИ в последнее время все чаще появляется в крупных играх, хотя многие инди-разработчики все еще отказываются от него.",
-      "duplicates": [
-        {
-          "source": "Ars Technica AI",
-          "url": "https://arstechnica.com/gaming/2026/05/sony-says-efficient-ai-tools-will-lead-to-even-more-games-flooding-the-market/",
-          "title_en": "Sony says \"efficient\" AI tools will lead to even more games flooding the market",
-          "title_ru": "Sony заявляет, что \"эффективные\" инструменты ИИ приведут к еще большему количеству игр на рынке.",
-          "published_at": "2026-05-08T20:51:17+00:00"
-        }
-      ]
-    },
-    {
-      "id": "a40b2ba2d440123f",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/emo",
-      "title_en": "EMO: Pretraining mixture of experts for emergent modularity",
-      "summary_en": "",
-      "published_at": "2026-05-08T16:03:50+00:00",
-      "topic": "Research",
-      "title_ru": "EMO: Предобучение смеси экспертов для возникновения модульности",
-      "summary_ru": ""
-    },
-    {
-      "id": "f3090a403fca4a83",
-      "source": "NVIDIA Dev Blog",
-      "url": "https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/",
-      "title_en": "Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo",
-      "summary_en": "An agentic exchange must preserve a structured interaction: assistant turns interleave reasoning with one or more tool calls, and subsequent user turns return...",
-      "published_at": "2026-05-08T15:59:16+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Токены и инструменты потоковой передачи: поддержка многоходовых агентных интерфейсов в NVIDIA Dynamo",
-      "summary_ru": "Агентный обмен должен сохранять структурированное взаимодействие: помощник чередует рассуждения с одним или несколькими вызовами инструментов, а последующие действия пользователя возвращают..."
-    },
-    {
-      "id": "a41404028a10c045",
-      "source": "vc.ru AI",
-      "url": "https://vc.ru/ai/2917085-kak-otlichit-tekst-cheloveka-ot-teksta-ii?from=rss",
-      "title_en": "Как пишет человек и как пишет ИИ",
-      "summary_en": "Короооооче.",
-      "published_at": "2026-05-08T15:55:28+00:00",
-      "topic": "Research",
-      "title_ru": "Как пишет человек и как пишет ИИ",
-      "summary_ru": "Короооооче."
-    },
-    {
-      "id": "7dd0052ac621c2d1",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-      "title_en": "The “people’s airline” and the enterprise AI gold rush",
-      "summary_en": "Everyone wants a piece of the&#160;enterprise&#160;AI pie, and this week, we saw a string of companies making their moves. From&#160;Anthropic and OpenAI announcing new joint ventures&#160;targeting enterprise AI deployment to&#160;SAP dropping $1B&#160;on German AI startup Prior Labs,&#160;it&#8217;s&#160;becoming clear that if&#160;you&#8217;re&#160;a startup building enterprise tools,&#160;you&#8217;re&#160;likely an&#160;acquisition target.&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, hosts Kirsten Korosec, Anthony [&#8230;]",
-      "published_at": "2026-05-08T15:46:17+00:00",
-      "topic": "Startups",
-      "title_ru": "\"Народная авиакомпания\" и золотая лихорадка в области корпоративного ИИ",
-      "summary_ru": "Все хотят получить свою долю в сфере корпоративного ИИ, и на этой неделе мы стали свидетелями ряда компаний, которые делают свои шаги. От того, как Anthropic и OpenAI объявили о новых совместных предприятиях, нацеленных на внедрение корпоративного ИИ, до того, как SAP вложила $1 млрд в немецкий стартап Prior Labs, становится очевидным, что если вы стартап, разрабатывающий инструменты для бизнеса, вы, вероятно, станете объектом для приобретения. В этом эпизоде подкаста TechCrunch Equity ведущие Кирстен Коросек и Энтони [...]"
     }
   ],
-  "dedup_at": "2026-05-09T15:38:53.233112+00:00"
+  "dedup_at": "2026-05-09T20:01:43.836550+00:00"
 }
