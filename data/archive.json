@@ -1,6 +1,83 @@
 {
   "items": [
     {
+      "id": "860c63194ef3d7c9",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/ai/2916380-openai-zapuskayut-programmu-chatgpt-futures?from=rss",
+      "title_en": "OpenAI выбрала 26 студентов для программы ChatGPT Futures и даст им гранты на развитие ИИ-проектов",
+      "summary_en": "Компания OpenAI запустила программу ChatGPT Futures: Class of 2026 для студентов и молодых разработчиков, которые используют искусственный интеллект в учебе, исследованиях, стартапах и общественных проектах. В первый набор вошли 26 участников из более чем 20 университетов и институтов, включая Vanderbilt, University of Toronto, Oxford и Georgia Tech. Каждый из них получит грант в размере 10 тысяч долларов и доступ к передовым моделям OpenAI.",
+      "published_at": "2026-05-09T06:10:09+00:00",
+      "topic": "Models",
+      "title_ru": "OpenAI выбрала 26 студентов для программы ChatGPT Futures и даст им гранты на развитие ИИ-проектов",
+      "summary_ru": "Компания OpenAI запустила программу ChatGPT Futures: Class of 2026 для студентов и молодых разработчиков, которые используют искусственный интеллект в учебе, исследованиях, стартапах и общественных проектах. В первый набор вошли 26 участников из более чем 20 университетов и институтов, включая Vanderbilt, University of Toronto, Oxford и Georgia Tech. Каждый из них получит грант в размере 10 тысяч долларов и доступ к передовым моделям OpenAI."
+    },
+    {
+      "id": "3eb04cdf5dff7818",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything",
+      "title_en": "Quoting Luke Curley",
+      "summary_en": "WebRTC is designed to degrade and drop my prompt during poor network conditions. wtf my dude WebRTC aggressively drops audio packets to keep latency low. If you’ve ever heard distorted audio on a conference call, that’s WebRTC baybee. The idea is that conference calls depend on rapid back-and-forth, so pausing to wait for audio is unacceptable. …but as a user, I would much rather wait an extra 200ms for my slow/expensive prompt to be accurate. After all, I’m paying good money to boil the ocean, and a garbage prompt means a garbage response. It’s not like LLMs are particularly responsive anyway. But I’m not allowed to wait . It’s impossible to even retransmit a WebRTC audio packet within a browser; we tried at Discord. The implementation is hard-coded for real-time latency or else . &mdash; Luke Curley , OpenAI’s WebRTC Problem, in response to How OpenAI delivers low-latency voice AI at scale Tags: webrtc , openai",
+      "published_at": "2026-05-09T01:03:58+00:00",
+      "topic": "Models",
+      "title_ru": "Цитируя Люка Керли.",
+      "summary_ru": "WebRTC разработан для ухудшения качества и потери моего запроса при плохих условиях сети. WebRTC агрессивно отбрасывает аудиопакеты, чтобы поддерживать низкую задержку. Если вы когда-либо слышали искаженное аудио на конференц-связи, это WebRTC. Идея заключается в том, что конференц-связи зависят от быстрого обмена, поэтому ожидание аудио недопустимо. …но как пользователь, я бы предпочел подождать дополнительные 200 мс, чтобы мой медленный/дорогой запрос был точным. В конце концов, я плачу хорошие деньги за качественный результат, а плохой запрос означает плохой ответ. Не то чтобы LLM были особенно отзывчивыми. Но мне не разрешают ждать. В браузере невозможно даже повторно передать аудиопакет WebRTC; мы пробовали в Discord. Реализация жестко закодирована для реального времени, иначе… — Люк Кёрли, Проблема WebRTC в OpenAI, в ответ на то, как OpenAI обеспечивает низкую задержку голосового ИИ в масштабах. Теги: webrtc, openai"
+    },
+    {
+      "id": "cddc5b6e7f9b5663",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+      "title_en": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
+      "summary_en": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed that they’d promised to maintain&#8230;",
+      "published_at": "2026-05-08T23:59:19+00:00",
+      "topic": "Research",
+      "title_ru": "Неделя 2: Musk против Altman: OpenAI отвечает, а Shivon Zilis раскрывает, что Musk пытался переманить Сэма Альтмана.",
+      "summary_ru": "Во вторую неделю знакового судебного процесса между Илоной Маском и OpenAI внимание было сосредоточено на мотивах Маска для подачи иска. На прошлой неделе Маск выступил в суде, утверждая, что генеральный директор OpenAI Сэм Альтман и президент Грег Брокман обманули его, заставив пожертвовать 38 миллионов долларов компании. Он заявил, что они обещали поддерживать..."
+    },
+    {
+      "id": "208e689ff94e9ce7",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1033230/?utm_campaign=1033230&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Большие модели, маленькие токены. ЛЛМ - битва за контекст (ч.1)",
+      "summary_en": "Почему понимание токенов, весов и словарей — ключ к продуктивной работе с AI-агентами. Первая глава цикла “Битва за контекст”. Читать далее",
+      "published_at": "2026-05-08T23:42:33+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Большие модели, маленькие токены. ЛЛМ - битва за контекст (ч.1)",
+      "summary_ru": "Почему понимание токенов, весов и словарей — ключ к продуктивной работе с AI-агентами. Первая глава цикла “Битва за контекст”. Читать далее"
+    },
+    {
+      "id": "18e393ee2491bab3",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
+      "title_en": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+      "summary_en": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
+      "published_at": "2026-05-08T22:59:05+00:00",
+      "topic": "Regulations",
+      "title_ru": "Уволенные сотрудники Oracle пытались договориться о лучших условиях выходного пособия. Oracle отказала.",
+      "summary_ru": "Некоторые узнали, что не имеют права на защиту по закону WARN, включая двухмесячное уведомление, поскольку компания классифицировала их как удаленных работников."
+    },
+    {
+      "id": "8b7b40ac32ebcd71",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1033220/?utm_campaign=1033220&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Чему меня научили два месяца с легковесным локальным AI-агентом",
+      "summary_en": "Два месяца назад openLight был маленьким pet project’ом: Raspberry Pi, Telegram-бот, SQLite и несколько команд для управления сервисами. Мне просто хотелось перестать печатать ssh pi@raspberrypi.local с телефона каждый раз, когда падал очередной контейнер или начинал странно вести себя Tailscale. За это время проект неожиданно превратился во что-то большее. Не в “автономного AI-агента”, а скорее в легковесный слой управления для personal infrastructure — маленьких always-on машин вроде Raspberry Pi, Mac mini, VPS или старых домашних серверов. В статье я подробно разбираю: * почему почти весь проект пришлось переписать хотя бы один раз * как deterministic-first роутинг оказался полезнее “умных” AI-агентов * зачем я отказался от идеи сложного tool calling в пользу простых и проверяемых skill’ов * почему Telegram неожиданно оказался идеальным интерфейсом для homelab-инфраструктуры; * и почему, как мне кажется, будущее локальных AI-систем будет не “магическим”, а маленьким, наблюдаемым и ремонтопригодным. Это не история про очередной AI framework. Скорее инженерная ретроспектива о том, как реальное использование быстро ломает красивые архитектурные идеи, и почему иногда один Go-бинарь, SQLite и несколько хорошо продуманных allowlist’ов оказываются полезнее огромных cloud-native систем. Читать далее",
+      "published_at": "2026-05-08T21:59:53+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Чему меня научили два месяца с легковесным локальным AI-агентом",
+      "summary_ru": "Два месяца назад openLight был маленьким pet project’ом: Raspberry Pi, Telegram-бот, SQLite и несколько команд для управления сервисами. Мне просто хотелось перестать печатать ssh pi@raspberrypi.local с телефона каждый раз, когда падал очередной контейнер или начинал странно вести себя Tailscale. За это время проект неожиданно превратился во что-то большее. Не в “автономного AI-агента”, а скорее в легковесный слой управления для personal infrastructure — маленьких always-on машин вроде Raspberry Pi, Mac mini, VPS или старых домашних серверов. В статье я подробно разбираю: * почему почти весь проект пришлось переписать хотя бы один раз * как deterministic-first роутинг оказался полезнее “умных” AI-агентов * зачем я отказался от идеи сложного tool calling в пользу простых и проверяемых skill’ов * почему Telegram неожиданно оказался идеальным интерфейсом для homelab-инфраструктуры; * и почему, как мне кажется, будущее локальных AI-систем будет не “магическим”, а маленьким, наблюдаемым и ремонтопригодным. Это не история про очередной AI framework. Скорее инженерная ретроспектива о том, как реальное использование быстро ломает красивые архитектурные идеи, и почему иногда один Go-бинарь, SQLite и несколько хорошо продуманных allowlist’ов оказываются полезнее огромных cloud-native систем. Читать далее"
+    },
+    {
+      "id": "4603f86027bf6141",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
+      "title_en": "Using Claude Code: The Unreasonable Effectiveness of HTML",
+      "summary_en": "Using Claude Code: The Unreasonable Effectiveness of HTML Thought-provoking piece by Thariq Shihipar (on the Claude Code team at Anthropic) advocating for HTML over Markdown as an output format to request from Claude. The article is crammed with interesting examples (collected on this site ) and prompt suggestions like this one: Help me review this PR by creating an HTML artifact that describes it. I'm not very familiar with the streaming/backpressure logic so focus on that. Render the actual diff with inline margin annotations, color-code findings by severity and whatever else might be needed to convey the concept well. I've been defaulting to asking for most things in Markdown since the GPT-4 days, when the 8,192 token limit meant that Markdown's token-efficiency over HTML was extremely worthwhile. Thariq's piece here has caused me to reconsider that, especially for output. Asking Claude for an explanation in HTML means it can drop in SVG diagrams, interactive widgets, in-page navigation and all sorts of other neat ways of making the information more pleasant to navigate. I wrote about Useful patterns for building HTML tools last December, but that was focused very much on interactive utilities like the ones on my tools.simonwillison.net site. I'm excited to start experimenting more with rich HTML explanations in response to ad-hoc prompts. Trying this out on copy.fail copy.fail describes a recently discovered Linux security exploit, including a proof of concept distributed as obfuscated Python. I tried having GPT-5.5 create an HTML explanation of the exploit like this: curl https://copy.fail/exp | llm -m gpt-5.5 -s 'Explain this code in detail. Reformat it, expand out any confusing bits and go deep into what it does and how it works. Output HTML, neatly styled and using capabilities of HTML and CSS and JavaScript to make the explanation rich and interactive and as clear as possible' Here's the resulting HTML page . It's pretty good, though I should have emphasized explaining the exploit over the Python harness around it. Tags: html , security , markdown , ai , prompt-engineering , generative-ai , llms , llm , claude-code",
+      "published_at": "2026-05-08T21:00:11+00:00",
+      "topic": "Models",
+      "title_ru": "Использование Claude Code: Непомерная эффективность HTML",
+      "summary_ru": "Статья Тариqa Shihipar \"Непомерная эффективность HTML\" выступает в защиту использования HTML в качестве формата вывода для запросов к Claude, вместо Markdown. В статье приведены интересные примеры и предложения по запросам, такие как: \"Помоги мне проверить этот PR, создав HTML-артефакт, который его описывает. Я не очень знаком с логикой потоков/обратного давления, поэтому сосредоточься на этом. Отобрази фактические изменения с аннотациями на полях, раскрась находки по степени серьезности и добавь все, что может помочь лучше донести концепцию.\" Ранее я предпочитал запрашивать большинство вещей в Markdown, поскольку в эпоху GPT-4 лимит в 8192 токена делал эффективность Markdown по сравнению с HTML крайне важной. Однако статья Тариqa заставила меня пересмотреть это, особенно в контексте вывода. Запрашивая у Claude объяснение в HTML, можно включать SVG-диаграммы, интерактивные виджеты, навигацию по странице и другие удобные способы представления информации. В декабре я писал о полезных паттернах для создания HTML-инструментов, но это было сосредоточено на интерактивных утилитах, подобных тем, что находятся на моем сайте tools.simonwillison.net. Я рад начать экспериментировать с богатыми HTML-объяснениями в ответ на спонтанные запросы. Я попробовал это на copy.fail, который описывает недавно обнаруженную уязвимость в Linux, включая доказательство концепции, представленное в виде обфусцированного Python-кода. Я попросил GPT-5.5 создать HTML-объяснение уязвимости следующим образом: \"curl https://copy.fail/exp | llm -m gpt-5.5 -s 'Объясни этот код подробно. Переформатируй его, разъясни любые запутанные моменты и углубись в то, что он делает и как работает. Выводи HTML, аккуратно оформленный с использованием возможностей HTML, CSS и JavaScript, чтобы сделать объяснение богатым, интерактивным и максимально ясным.'\" Вот полученная HTML-страница. Она довольно хороша, хотя мне следовало бы акцентировать внимание на объяснении уязвимости, а не на Python-обертке вокруг нее. Теги: html, безопасность, markdown, ai, инженерия-запросов, генеративный-ai, llms, llm, claude-code."
+    },
+    {
       "id": "be27dd67aaedd773",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
@@ -65,6 +142,26 @@
       "topic": "Research",
       "title_ru": "Cобрать агента для XAI и никогда больше не быть онлайн",
       "summary_ru": "Привет, друзья! Я, похоже, наконец пережила кризис пришествия агентов в нашу жизнь. Мне всегда безумно нравился процесс решения задач —&nbsp;этакий личный, удивительный мир, даже когда ты уже знаешь правило Лопиталя/Modus ponens/выберите то, которое заставило вас смеяться больше всего при изучении. А теперь, чтобы не выпасть из жизни, задачи просто приходится решать с кем-то . И этот кто-то LLM-Agent. По жизни я —&nbsp;XAI Researcher, так что эта статья, среди прочих, будет практическим туториалам для решения задачи \"собрать агента для интепретируемости ML моделей и больше никогда не смотреть в экран, думая о коэффициентах логистической регрессии\". Или всё-таки подумать придётся? Весь код туториала лежит здесь: https://github.com/SadSabrina/XAI-open_materials/tree/main/naive_agent_and_xai Читать далее"
+    },
+    {
+      "id": "bb83d039abe201ab",
+      "source": "Hacker News AI",
+      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "title_en": "AI is breaking two vulnerability cultures",
+      "summary_en": "Article URL: https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures Comments URL: https://news.ycombinator.com/item?id=48066524 Points: 331 # Comments: 133",
+      "published_at": "2026-05-08T17:55:08+00:00",
+      "topic": "Startups",
+      "title_ru": "Искусственный интеллект разрушает две культуры уязвимостей.",
+      "summary_ru": "AI разрушает две культуры уязвимости.",
+      "duplicates": [
+        {
+          "source": "Hacker News AI",
+          "url": "https://mccue.dev/pages/5-8-26-ai-art",
+          "title_en": "People Hate AI Art",
+          "title_ru": "Люди ненавидят искусство, созданное ИИ.",
+          "published_at": "2026-05-09T00:39:58+00:00"
+        }
+      ]
     },
     {
       "id": "4862d0651ed0666c",
@@ -166,6 +263,17 @@
       "summary_ru": "Все хотят получить свою долю в сфере корпоративного ИИ, и на этой неделе мы стали свидетелями ряда компаний, которые делают свои шаги. От того, как Anthropic и OpenAI объявили о новых совместных предприятиях, нацеленных на внедрение корпоративного ИИ, до того, как SAP вложила $1 млрд в немецкий стартап Prior Labs, становится очевидным, что если вы стартап, разрабатывающий инструменты для бизнеса, вы, вероятно, станете объектом для приобретения. В этом эпизоде подкаста TechCrunch Equity ведущие Кирстен Коросек и Энтони [...]"
     },
     {
+      "id": "18abfd036c359508",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
+      "title_en": "Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure",
+      "summary_en": "When OpenAI was busy experimenting with AI-powered gaming bots, Microsoft CEO Satya Nadella and OpenAI CEO Sam Altman were in the early days of forming an AI partnership. Court documents from the ongoing Musk v. Altman trial have provided a rare look at the communications between Microsoft's top executives about investing in OpenAI and fears [&#8230;]",
+      "published_at": "2026-05-08T15:25:02+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Microsoft беспокоилась, что OpenAI может перейти к Amazon и «плохо отзываться» об Azure.",
+      "summary_ru": "Когда OpenAI занималась экспериментами с игровыми ботами на базе ИИ, генеральный директор Microsoft Сатья Наделла и генеральный директор OpenAI Сэм Альтман находились на ранних этапах формирования партнерства в области ИИ. Судебные документы из текущего дела Musk против Altman предоставили редкий взгляд на коммуникации между высшими руководителями Microsoft о вложениях в OpenAI и опасениях [...]"
+    },
+    {
       "id": "4bf53a9d7b40da94",
       "source": "Habr ML",
       "url": "https://habr.com/ru/articles/1032154/?utm_campaign=1032154&utm_source=habrahabr&utm_medium=rss",
@@ -241,6 +349,17 @@
       "topic": "Models",
       "title_ru": "Можно ли отдать всю разработку полностью ИИ? Я попробовал",
       "summary_ru": "Всем привет! Хочу поделиться историей, как я решил попробовать сделать для себя тот самый саморазвивающийся ИИ-стартап и что из этого вышло. Начну с предыстории. В 2022 году я переехал в Грузию, в Батуми. Здесь я практически сразу начал учить язык, и мне захотелось чуть упростить себе этот процесс — сделать это я решил с помощью своего Telegram-бота. Почему бота? Всем известно, что материал усваивается быстрее и проще, если не садиться за него раз-два в неделю, а стараться изучать что-то небольшое каждый день. Тут мне бы очень помог Duolingo. Но там грузинского нет, хотя есть клингонский. Короче, было решено сделать свой Duolingo из Telegram-бота, только для грузинского. Сначала получилось что-то совсем простое: перевести / сохранить слово / устроить с новыми словами квиз. Долгое время этого функционала мне хватало, и бот я не развивал, но вот решил попробовать автоматизировать его при помощи современных LLM. Идея была такая — ночью агенты кодят. А утром я читаю чейнджлог и наслаждаюсь новыми функциями. Что получилось на деле —можно почитать под катом. Читать далее"
+    },
+    {
+      "id": "868029f2875ab2e0",
+      "source": "Hacker News AI",
+      "url": "https://github.com/regent-vcs/re_gent",
+      "title_en": "Show HN: Git for AI Agents",
+      "summary_en": "hi guys. been working on something i think is fundamentally missing in today's workflow with ai agents. vcs. i find myself struggling with questions that agents can't answer like \"why did you do it?\", \"when did u delete this folder? why?\", etc. or trying to /rewind (after a /compact...) or basically `bisect` to find when and why something was done by the agent in the current / previous session. just like git did for code, i think we are the same core capabilities with ai agents so... i developed an open source solution for that (currently supporting claude code) would love to get feedback, contribution or maybe other ideas or solutions you find for those problems. Comments URL: https://news.ycombinator.com/item?id=48063548 Points: 101 # Comments: 46",
+      "published_at": "2026-05-08T14:15:36+00:00",
+      "topic": "Models",
+      "title_ru": "Показать HN: Git для AI-агентов",
+      "summary_ru": "Привет, ребята. Я работал над чем-то, что, по моему мнению, фундаментально отсутствует в сегодняшнем рабочем процессе с AI-агентами — системами контроля версий (VCS). Я сталкиваюсь с вопросами, на которые агенты не могут ответить, такими как \"почему ты это сделал?\", \"когда ты удалил эту папку? Почему?\", и т.д., или пытаюсь /rewind (после /compact...) или, по сути, выполнить `bisect`, чтобы выяснить, когда и почему что-то было сделано агентом в текущей или предыдущей сессии. Так же, как это делает git для кода, я считаю, что у нас есть те же основные возможности с AI-агентами, поэтому я разработал решение с открытым исходным кодом для этого (в настоящее время поддерживает Claude Code). Буду рад получить отзывы, предложения по улучшению или, возможно, другие идеи или решения, которые вы нашли для этих проблем."
     },
     {
       "id": "592dc3a8ec4fbdbd",
@@ -4501,6 +4620,6 @@
       "summary_ru": "За&nbsp;последний год появилось множество видеороликов и статей по&nbsp;использованию нейросетей для&nbsp;изучения английского языка. Очень часто авторы, среди которых попадаются и «дипломированные» учителя, в&nbsp;очень немногочисленных и расплывчатых промптах‑инструкциях просят ИИ ограничиваться каким‑то уровнем CEFR, от&nbsp;A1&nbsp;до&nbsp;С2. Как&nbsp;ни странно, никто из&nbsp;этих авторов даже не&nbsp;потрудился изучить, понимают&nbsp;ли ChatGPT, Gemini, Claude, Grok, что&nbsp;входит в&nbsp;конкретный уровень, а&nbsp;что&nbsp;— нет. Как&nbsp;это можно проверить? Читать далее"
     }
   ],
-  "updated_at": "2026-05-08T20:38:29.469855+00:00",
-  "total": 397
+  "updated_at": "2026-05-09T09:55:26.132615+00:00",
+  "total": 407
 }

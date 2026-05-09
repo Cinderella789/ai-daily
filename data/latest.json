@@ -1,6 +1,83 @@
 {
-  "generated_at": "2026-05-08T20:37:34.380544+00:00",
+  "generated_at": "2026-05-09T09:54:46.661382+00:00",
   "items": [
+    {
+      "id": "860c63194ef3d7c9",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/ai/2916380-openai-zapuskayut-programmu-chatgpt-futures?from=rss",
+      "title_en": "OpenAI выбрала 26 студентов для программы ChatGPT Futures и даст им гранты на развитие ИИ-проектов",
+      "summary_en": "Компания OpenAI запустила программу ChatGPT Futures: Class of 2026 для студентов и молодых разработчиков, которые используют искусственный интеллект в учебе, исследованиях, стартапах и общественных проектах. В первый набор вошли 26 участников из более чем 20 университетов и институтов, включая Vanderbilt, University of Toronto, Oxford и Georgia Tech. Каждый из них получит грант в размере 10 тысяч долларов и доступ к передовым моделям OpenAI.",
+      "published_at": "2026-05-09T06:10:09+00:00",
+      "topic": "Models",
+      "title_ru": "OpenAI выбрала 26 студентов для программы ChatGPT Futures и даст им гранты на развитие ИИ-проектов",
+      "summary_ru": "Компания OpenAI запустила программу ChatGPT Futures: Class of 2026 для студентов и молодых разработчиков, которые используют искусственный интеллект в учебе, исследованиях, стартапах и общественных проектах. В первый набор вошли 26 участников из более чем 20 университетов и институтов, включая Vanderbilt, University of Toronto, Oxford и Georgia Tech. Каждый из них получит грант в размере 10 тысяч долларов и доступ к передовым моделям OpenAI."
+    },
+    {
+      "id": "3eb04cdf5dff7818",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything",
+      "title_en": "Quoting Luke Curley",
+      "summary_en": "WebRTC is designed to degrade and drop my prompt during poor network conditions. wtf my dude WebRTC aggressively drops audio packets to keep latency low. If you’ve ever heard distorted audio on a conference call, that’s WebRTC baybee. The idea is that conference calls depend on rapid back-and-forth, so pausing to wait for audio is unacceptable. …but as a user, I would much rather wait an extra 200ms for my slow/expensive prompt to be accurate. After all, I’m paying good money to boil the ocean, and a garbage prompt means a garbage response. It’s not like LLMs are particularly responsive anyway. But I’m not allowed to wait . It’s impossible to even retransmit a WebRTC audio packet within a browser; we tried at Discord. The implementation is hard-coded for real-time latency or else . &mdash; Luke Curley , OpenAI’s WebRTC Problem, in response to How OpenAI delivers low-latency voice AI at scale Tags: webrtc , openai",
+      "published_at": "2026-05-09T01:03:58+00:00",
+      "topic": "Models",
+      "title_ru": "Цитируя Люка Керли.",
+      "summary_ru": "WebRTC разработан для ухудшения качества и потери моего запроса при плохих условиях сети. WebRTC агрессивно отбрасывает аудиопакеты, чтобы поддерживать низкую задержку. Если вы когда-либо слышали искаженное аудио на конференц-связи, это WebRTC. Идея заключается в том, что конференц-связи зависят от быстрого обмена, поэтому ожидание аудио недопустимо. …но как пользователь, я бы предпочел подождать дополнительные 200 мс, чтобы мой медленный/дорогой запрос был точным. В конце концов, я плачу хорошие деньги за качественный результат, а плохой запрос означает плохой ответ. Не то чтобы LLM были особенно отзывчивыми. Но мне не разрешают ждать. В браузере невозможно даже повторно передать аудиопакет WebRTC; мы пробовали в Discord. Реализация жестко закодирована для реального времени, иначе… — Люк Кёрли, Проблема WebRTC в OpenAI, в ответ на то, как OpenAI обеспечивает низкую задержку голосового ИИ в масштабах. Теги: webrtc, openai"
+    },
+    {
+      "id": "cddc5b6e7f9b5663",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+      "title_en": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
+      "summary_en": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed that they’d promised to maintain&#8230;",
+      "published_at": "2026-05-08T23:59:19+00:00",
+      "topic": "Research",
+      "title_ru": "Неделя 2: Musk против Altman: OpenAI отвечает, а Shivon Zilis раскрывает, что Musk пытался переманить Сэма Альтмана.",
+      "summary_ru": "Во вторую неделю знакового судебного процесса между Илоной Маском и OpenAI внимание было сосредоточено на мотивах Маска для подачи иска. На прошлой неделе Маск выступил в суде, утверждая, что генеральный директор OpenAI Сэм Альтман и президент Грег Брокман обманули его, заставив пожертвовать 38 миллионов долларов компании. Он заявил, что они обещали поддерживать..."
+    },
+    {
+      "id": "208e689ff94e9ce7",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1033230/?utm_campaign=1033230&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Большие модели, маленькие токены. ЛЛМ - битва за контекст (ч.1)",
+      "summary_en": "Почему понимание токенов, весов и словарей — ключ к продуктивной работе с AI-агентами. Первая глава цикла “Битва за контекст”. Читать далее",
+      "published_at": "2026-05-08T23:42:33+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Большие модели, маленькие токены. ЛЛМ - битва за контекст (ч.1)",
+      "summary_ru": "Почему понимание токенов, весов и словарей — ключ к продуктивной работе с AI-агентами. Первая глава цикла “Битва за контекст”. Читать далее"
+    },
+    {
+      "id": "18e393ee2491bab3",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
+      "title_en": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+      "summary_en": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
+      "published_at": "2026-05-08T22:59:05+00:00",
+      "topic": "Regulations",
+      "title_ru": "Уволенные сотрудники Oracle пытались договориться о лучших условиях выходного пособия. Oracle отказала.",
+      "summary_ru": "Некоторые узнали, что не имеют права на защиту по закону WARN, включая двухмесячное уведомление, поскольку компания классифицировала их как удаленных работников."
+    },
+    {
+      "id": "8b7b40ac32ebcd71",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1033220/?utm_campaign=1033220&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Чему меня научили два месяца с легковесным локальным AI-агентом",
+      "summary_en": "Два месяца назад openLight был маленьким pet project’ом: Raspberry Pi, Telegram-бот, SQLite и несколько команд для управления сервисами. Мне просто хотелось перестать печатать ssh pi@raspberrypi.local с телефона каждый раз, когда падал очередной контейнер или начинал странно вести себя Tailscale. За это время проект неожиданно превратился во что-то большее. Не в “автономного AI-агента”, а скорее в легковесный слой управления для personal infrastructure — маленьких always-on машин вроде Raspberry Pi, Mac mini, VPS или старых домашних серверов. В статье я подробно разбираю: * почему почти весь проект пришлось переписать хотя бы один раз * как deterministic-first роутинг оказался полезнее “умных” AI-агентов * зачем я отказался от идеи сложного tool calling в пользу простых и проверяемых skill’ов * почему Telegram неожиданно оказался идеальным интерфейсом для homelab-инфраструктуры; * и почему, как мне кажется, будущее локальных AI-систем будет не “магическим”, а маленьким, наблюдаемым и ремонтопригодным. Это не история про очередной AI framework. Скорее инженерная ретроспектива о том, как реальное использование быстро ломает красивые архитектурные идеи, и почему иногда один Go-бинарь, SQLite и несколько хорошо продуманных allowlist’ов оказываются полезнее огромных cloud-native систем. Читать далее",
+      "published_at": "2026-05-08T21:59:53+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Чему меня научили два месяца с легковесным локальным AI-агентом",
+      "summary_ru": "Два месяца назад openLight был маленьким pet project’ом: Raspberry Pi, Telegram-бот, SQLite и несколько команд для управления сервисами. Мне просто хотелось перестать печатать ssh pi@raspberrypi.local с телефона каждый раз, когда падал очередной контейнер или начинал странно вести себя Tailscale. За это время проект неожиданно превратился во что-то большее. Не в “автономного AI-агента”, а скорее в легковесный слой управления для personal infrastructure — маленьких always-on машин вроде Raspberry Pi, Mac mini, VPS или старых домашних серверов. В статье я подробно разбираю: * почему почти весь проект пришлось переписать хотя бы один раз * как deterministic-first роутинг оказался полезнее “умных” AI-агентов * зачем я отказался от идеи сложного tool calling в пользу простых и проверяемых skill’ов * почему Telegram неожиданно оказался идеальным интерфейсом для homelab-инфраструктуры; * и почему, как мне кажется, будущее локальных AI-систем будет не “магическим”, а маленьким, наблюдаемым и ремонтопригодным. Это не история про очередной AI framework. Скорее инженерная ретроспектива о том, как реальное использование быстро ломает красивые архитектурные идеи, и почему иногда один Go-бинарь, SQLite и несколько хорошо продуманных allowlist’ов оказываются полезнее огромных cloud-native систем. Читать далее"
+    },
+    {
+      "id": "4603f86027bf6141",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
+      "title_en": "Using Claude Code: The Unreasonable Effectiveness of HTML",
+      "summary_en": "Using Claude Code: The Unreasonable Effectiveness of HTML Thought-provoking piece by Thariq Shihipar (on the Claude Code team at Anthropic) advocating for HTML over Markdown as an output format to request from Claude. The article is crammed with interesting examples (collected on this site ) and prompt suggestions like this one: Help me review this PR by creating an HTML artifact that describes it. I'm not very familiar with the streaming/backpressure logic so focus on that. Render the actual diff with inline margin annotations, color-code findings by severity and whatever else might be needed to convey the concept well. I've been defaulting to asking for most things in Markdown since the GPT-4 days, when the 8,192 token limit meant that Markdown's token-efficiency over HTML was extremely worthwhile. Thariq's piece here has caused me to reconsider that, especially for output. Asking Claude for an explanation in HTML means it can drop in SVG diagrams, interactive widgets, in-page navigation and all sorts of other neat ways of making the information more pleasant to navigate. I wrote about Useful patterns for building HTML tools last December, but that was focused very much on interactive utilities like the ones on my tools.simonwillison.net site. I'm excited to start experimenting more with rich HTML explanations in response to ad-hoc prompts. Trying this out on copy.fail copy.fail describes a recently discovered Linux security exploit, including a proof of concept distributed as obfuscated Python. I tried having GPT-5.5 create an HTML explanation of the exploit like this: curl https://copy.fail/exp | llm -m gpt-5.5 -s 'Explain this code in detail. Reformat it, expand out any confusing bits and go deep into what it does and how it works. Output HTML, neatly styled and using capabilities of HTML and CSS and JavaScript to make the explanation rich and interactive and as clear as possible' Here's the resulting HTML page . It's pretty good, though I should have emphasized explaining the exploit over the Python harness around it. Tags: html , security , markdown , ai , prompt-engineering , generative-ai , llms , llm , claude-code",
+      "published_at": "2026-05-08T21:00:11+00:00",
+      "topic": "Models",
+      "title_ru": "Использование Claude Code: Непомерная эффективность HTML",
+      "summary_ru": "Статья Тариqa Shihipar \"Непомерная эффективность HTML\" выступает в защиту использования HTML в качестве формата вывода для запросов к Claude, вместо Markdown. В статье приведены интересные примеры и предложения по запросам, такие как: \"Помоги мне проверить этот PR, создав HTML-артефакт, который его описывает. Я не очень знаком с логикой потоков/обратного давления, поэтому сосредоточься на этом. Отобрази фактические изменения с аннотациями на полях, раскрась находки по степени серьезности и добавь все, что может помочь лучше донести концепцию.\" Ранее я предпочитал запрашивать большинство вещей в Markdown, поскольку в эпоху GPT-4 лимит в 8192 токена делал эффективность Markdown по сравнению с HTML крайне важной. Однако статья Тариqa заставила меня пересмотреть это, особенно в контексте вывода. Запрашивая у Claude объяснение в HTML, можно включать SVG-диаграммы, интерактивные виджеты, навигацию по странице и другие удобные способы представления информации. В декабре я писал о полезных паттернах для создания HTML-инструментов, но это было сосредоточено на интерактивных утилитах, подобных тем, что находятся на моем сайте tools.simonwillison.net. Я рад начать экспериментировать с богатыми HTML-объяснениями в ответ на спонтанные запросы. Я попробовал это на copy.fail, который описывает недавно обнаруженную уязвимость в Linux, включая доказательство концепции, представленное в виде обфусцированного Python-кода. Я попросил GPT-5.5 создать HTML-объяснение уязвимости следующим образом: \"curl https://copy.fail/exp | llm -m gpt-5.5 -s 'Объясни этот код подробно. Переформатируй его, разъясни любые запутанные моменты и углубись в то, что он делает и как работает. Выводи HTML, аккуратно оформленный с использованием возможностей HTML, CSS и JavaScript, чтобы сделать объяснение богатым, интерактивным и максимально ясным.'\" Вот полученная HTML-страница. Она довольно хороша, хотя мне следовало бы акцентировать внимание на объяснении уязвимости, а не на Python-обертке вокруг нее. Теги: html, безопасность, markdown, ai, инженерия-запросов, генеративный-ai, llms, llm, claude-code."
+    },
     {
       "id": "be27dd67aaedd773",
       "source": "TechCrunch AI",
@@ -68,6 +145,26 @@
       "summary_ru": "Привет, друзья! Я, похоже, наконец пережила кризис пришествия агентов в нашу жизнь. Мне всегда безумно нравился процесс решения задач —&nbsp;этакий личный, удивительный мир, даже когда ты уже знаешь правило Лопиталя/Modus ponens/выберите то, которое заставило вас смеяться больше всего при изучении. А теперь, чтобы не выпасть из жизни, задачи просто приходится решать с кем-то . И этот кто-то LLM-Agent. По жизни я —&nbsp;XAI Researcher, так что эта статья, среди прочих, будет практическим туториалам для решения задачи \"собрать агента для интепретируемости ML моделей и больше никогда не смотреть в экран, думая о коэффициентах логистической регрессии\". Или всё-таки подумать придётся? Весь код туториала лежит здесь: https://github.com/SadSabrina/XAI-open_materials/tree/main/naive_agent_and_xai Читать далее"
     },
     {
+      "id": "bb83d039abe201ab",
+      "source": "Hacker News AI",
+      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "title_en": "AI is breaking two vulnerability cultures",
+      "summary_en": "Article URL: https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures Comments URL: https://news.ycombinator.com/item?id=48066524 Points: 331 # Comments: 133",
+      "published_at": "2026-05-08T17:55:08+00:00",
+      "topic": "Startups",
+      "title_ru": "Искусственный интеллект разрушает две культуры уязвимостей.",
+      "summary_ru": "AI разрушает две культуры уязвимости.",
+      "duplicates": [
+        {
+          "source": "Hacker News AI",
+          "url": "https://mccue.dev/pages/5-8-26-ai-art",
+          "title_en": "People Hate AI Art",
+          "title_ru": "Люди ненавидят искусство, созданное ИИ.",
+          "published_at": "2026-05-09T00:39:58+00:00"
+        }
+      ]
+    },
+    {
       "id": "4862d0651ed0666c",
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
@@ -120,7 +217,16 @@
       "published_at": "2026-05-08T16:30:56+00:00",
       "topic": "Corporate AI",
       "title_ru": "PlayStation рассматривает ИИ как «мощный инструмент» для создания игр.",
-      "summary_ru": "В рамках презентации по итогам earnings в пятницу Sony поделилась своими мыслями о ИИ в компании, включая множество деталей о том, как она оценивает ИИ при создании игр для PlayStation. Генеративный ИИ в последнее время все чаще появляется в крупных играх, хотя многие инди-разработчики все еще отказываются от него."
+      "summary_ru": "В рамках презентации по итогам earnings в пятницу Sony поделилась своими мыслями о ИИ в компании, включая множество деталей о том, как она оценивает ИИ при создании игр для PlayStation. Генеративный ИИ в последнее время все чаще появляется в крупных играх, хотя многие инди-разработчики все еще отказываются от него.",
+      "duplicates": [
+        {
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/gaming/2026/05/sony-says-efficient-ai-tools-will-lead-to-even-more-games-flooding-the-market/",
+          "title_en": "Sony says \"efficient\" AI tools will lead to even more games flooding the market",
+          "title_ru": "Sony заявляет, что \"эффективные\" инструменты ИИ приведут к еще большему количеству игр на рынке.",
+          "published_at": "2026-05-08T20:51:17+00:00"
+        }
+      ]
     },
     {
       "id": "a40b2ba2d440123f",
@@ -165,6 +271,17 @@
       "topic": "Startups",
       "title_ru": "\"Народная авиакомпания\" и золотая лихорадка в области корпоративного ИИ",
       "summary_ru": "Все хотят получить свою долю в сфере корпоративного ИИ, и на этой неделе мы стали свидетелями ряда компаний, которые делают свои шаги. От того, как Anthropic и OpenAI объявили о новых совместных предприятиях, нацеленных на внедрение корпоративного ИИ, до того, как SAP вложила $1 млрд в немецкий стартап Prior Labs, становится очевидным, что если вы стартап, разрабатывающий инструменты для бизнеса, вы, вероятно, станете объектом для приобретения. В этом эпизоде подкаста TechCrunch Equity ведущие Кирстен Коросек и Энтони [...]"
+    },
+    {
+      "id": "18abfd036c359508",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
+      "title_en": "Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure",
+      "summary_en": "When OpenAI was busy experimenting with AI-powered gaming bots, Microsoft CEO Satya Nadella and OpenAI CEO Sam Altman were in the early days of forming an AI partnership. Court documents from the ongoing Musk v. Altman trial have provided a rare look at the communications between Microsoft's top executives about investing in OpenAI and fears [&#8230;]",
+      "published_at": "2026-05-08T15:25:02+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Microsoft беспокоилась, что OpenAI может перейти к Amazon и «плохо отзываться» об Azure.",
+      "summary_ru": "Когда OpenAI занималась экспериментами с игровыми ботами на базе ИИ, генеральный директор Microsoft Сатья Наделла и генеральный директор OpenAI Сэм Альтман находились на ранних этапах формирования партнерства в области ИИ. Судебные документы из текущего дела Musk против Altman предоставили редкий взгляд на коммуникации между высшими руководителями Microsoft о вложениях в OpenAI и опасениях [...]"
     },
     {
       "id": "4bf53a9d7b40da94",
@@ -244,6 +361,17 @@
       "summary_ru": "Всем привет! Хочу поделиться историей, как я решил попробовать сделать для себя тот самый саморазвивающийся ИИ-стартап и что из этого вышло. Начну с предыстории. В 2022 году я переехал в Грузию, в Батуми. Здесь я практически сразу начал учить язык, и мне захотелось чуть упростить себе этот процесс — сделать это я решил с помощью своего Telegram-бота. Почему бота? Всем известно, что материал усваивается быстрее и проще, если не садиться за него раз-два в неделю, а стараться изучать что-то небольшое каждый день. Тут мне бы очень помог Duolingo. Но там грузинского нет, хотя есть клингонский. Короче, было решено сделать свой Duolingo из Telegram-бота, только для грузинского. Сначала получилось что-то совсем простое: перевести / сохранить слово / устроить с новыми словами квиз. Долгое время этого функционала мне хватало, и бот я не развивал, но вот решил попробовать автоматизировать его при помощи современных LLM. Идея была такая — ночью агенты кодят. А утром я читаю чейнджлог и наслаждаюсь новыми функциями. Что получилось на деле —можно почитать под катом. Читать далее"
     },
     {
+      "id": "868029f2875ab2e0",
+      "source": "Hacker News AI",
+      "url": "https://github.com/regent-vcs/re_gent",
+      "title_en": "Show HN: Git for AI Agents",
+      "summary_en": "hi guys. been working on something i think is fundamentally missing in today's workflow with ai agents. vcs. i find myself struggling with questions that agents can't answer like \"why did you do it?\", \"when did u delete this folder? why?\", etc. or trying to /rewind (after a /compact...) or basically `bisect` to find when and why something was done by the agent in the current / previous session. just like git did for code, i think we are the same core capabilities with ai agents so... i developed an open source solution for that (currently supporting claude code) would love to get feedback, contribution or maybe other ideas or solutions you find for those problems. Comments URL: https://news.ycombinator.com/item?id=48063548 Points: 101 # Comments: 46",
+      "published_at": "2026-05-08T14:15:36+00:00",
+      "topic": "Models",
+      "title_ru": "Показать HN: Git для AI-агентов",
+      "summary_ru": "Привет, ребята. Я работал над чем-то, что, по моему мнению, фундаментально отсутствует в сегодняшнем рабочем процессе с AI-агентами — системами контроля версий (VCS). Я сталкиваюсь с вопросами, на которые агенты не могут ответить, такими как \"почему ты это сделал?\", \"когда ты удалил эту папку? Почему?\", и т.д., или пытаюсь /rewind (после /compact...) или, по сути, выполнить `bisect`, чтобы выяснить, когда и почему что-то было сделано агентом в текущей или предыдущей сессии. Так же, как это делает git для кода, я считаю, что у нас есть те же основные возможности с AI-агентами, поэтому я разработал решение с открытым исходным кодом для этого (в настоящее время поддерживает Claude Code). Буду рад получить отзывы, предложения по улучшению или, возможно, другие идеи или решения, которые вы нашли для этих проблем."
+    },
+    {
       "id": "592dc3a8ec4fbdbd",
       "source": "Habr AI",
       "url": "https://habr.com/ru/articles/1033116/?utm_campaign=1033116&utm_source=habrahabr&utm_medium=rss",
@@ -299,28 +427,6 @@
       "summary_ru": "OpenAI использует несколько методов для безопасной работы Codex, включая песочницу, процедуры одобрения, сетевые политики и встроенную телеметрию агентов. Эти меры помогают обеспечить безопасное и соответствующее использование кодирующих агентов. Песочница изолирует выполнение кода, минимизируя риски. Процедуры одобрения гарантируют, что только проверенные запросы обрабатываются. Сетевые политики контролируют доступ к ресурсам и данным, а встроенная телеметрия позволяет отслеживать и анализировать поведение агентов для повышения безопасности и соответствия."
     },
     {
-      "id": "c52165e48af83c71",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/articles/1032788/?utm_campaign=1032788&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Хохма от Anthropic, или не используйте ИИ, чтобы попасть в ИИ‑компанию",
-      "summary_en": "В&nbsp;феврале 2025&nbsp;года по&nbsp;техносфере разошлась небольшая, но почти анекдотичная новость: Anthropic, компания, стоящая за&nbsp;Claude, просила кандидатов не&nbsp;использовать ИИ‑ассистентов при&nbsp;подаче заявки на&nbsp;работу. Не&nbsp;только инженеров. Маркетинг, финансы, продажи, коммуникации&nbsp;— почти все роли. Казалось бы, компания делает один из&nbsp;лучших инструментов для&nbsp;письма и просит людей не&nbsp;пользоваться им, когда от&nbsp;них как&nbsp;раз требуется написать о&nbsp;себе. Но&nbsp;если остановиться на&nbsp;уровне «ха‑ха, ИИ‑компания запретила ИИ», мы пропустим главное. Это не&nbsp;история о&nbsp;лицемерии одной компании. Это история о&nbsp;том, что&nbsp;рынок найма сломал один из&nbsp;своих базовых механизмов: отклик перестал&nbsp;быть надежным сигналом. Читать далее",
-      "published_at": "2026-05-08T12:23:47+00:00",
-      "topic": "Models",
-      "title_ru": "Хохма от Anthropic, или не используйте ИИ, чтобы попасть в ИИ‑компанию",
-      "summary_ru": "В&nbsp;феврале 2025&nbsp;года по&nbsp;техносфере разошлась небольшая, но почти анекдотичная новость: Anthropic, компания, стоящая за&nbsp;Claude, просила кандидатов не&nbsp;использовать ИИ‑ассистентов при&nbsp;подаче заявки на&nbsp;работу. Не&nbsp;только инженеров. Маркетинг, финансы, продажи, коммуникации&nbsp;— почти все роли. Казалось бы, компания делает один из&nbsp;лучших инструментов для&nbsp;письма и просит людей не&nbsp;пользоваться им, когда от&nbsp;них как&nbsp;раз требуется написать о&nbsp;себе. Но&nbsp;если остановиться на&nbsp;уровне «ха‑ха, ИИ‑компания запретила ИИ», мы пропустим главное. Это не&nbsp;история о&nbsp;лицемерии одной компании. Это история о&nbsp;том, что&nbsp;рынок найма сломал один из&nbsp;своих базовых механизмов: отклик перестал&nbsp;быть надежным сигналом. Читать далее"
-    },
-    {
-      "id": "226d60602fcf52eb",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/companies/ru_mts/articles/1032512/?utm_campaign=1032512&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Все на завод! Робот импровизирует и решает промышленные задачи с 99% успеха",
-      "summary_en": "Роботы долгое время умели одно: безупречно копировать заученные движения. Но стоило реальности чуть отклониться от сценария — и они терялись. Теперь одна компания заявляет, что переломила эту ситуацию. Ее робот достигает 99% успеха в реальных задачах — не в лаборатории, а на производстве и в быту. Разработчики утверждают: машина понимает окружающий мир и адаптируется на ходу. Решение предложил Generalist — стартап, который строит базовые модели для роботов общего назначения. Его основал бывший исследователь Google DeepMind. Nvidia вложилась в компанию на раннем этапе. Generalist собрала данные необычным способом. Компания использует дешевые носимые датчики — их крепят на запястья людей. Так собирают огромные массивы реальных физических действий. И дообучают роботов. Читать далее",
-      "published_at": "2026-05-08T12:15:45+00:00",
-      "topic": "Hardware",
-      "title_ru": "Все на завод! Робот импровизирует и решает промышленные задачи с 99% успеха",
-      "summary_ru": "Роботы долгое время умели одно: безупречно копировать заученные движения. Но стоило реальности чуть отклониться от сценария — и они терялись. Теперь одна компания заявляет, что переломила эту ситуацию. Ее робот достигает 99% успеха в реальных задачах — не в лаборатории, а на производстве и в быту. Разработчики утверждают: машина понимает окружающий мир и адаптируется на ходу. Решение предложил Generalist — стартап, который строит базовые модели для роботов общего назначения. Его основал бывший исследователь Google DeepMind. Nvidia вложилась в компанию на раннем этапе. Generalist собрала данные необычным способом. Компания использует дешевые носимые датчики — их крепят на запястья людей. Так собирают огромные массивы реальных физических действий. И дообучают роботов. Читать далее"
-    },
-    {
       "id": "c44ec34e01a3116b",
       "source": "The Verge AI",
       "url": "https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness",
@@ -352,170 +458,7 @@
       "topic": "Regulations",
       "title_ru": "Новый Дикий Запад игрушек для детей с ИИ",
       "summary_ru": "Эти милые, подключенные компаньоны могут изменить всё — от игр в воображение до вечерних сказок. Неудивительно, что некоторые законодатели хотят их запретить."
-    },
-    {
-      "id": "2529aafb3ce72ad1",
-      "source": "vc.ru AI",
-      "url": "https://vc.ru/ai/2916350-anthropic-funkciya-snovidenij-ii-agentov-claude?from=rss",
-      "title_en": "Anthropic добавила Claude Managed Agents функцию «сновидений», чтобы ИИ-агенты пересматривали прошлую работу и обновляли память",
-      "summary_en": "Anthropic добавила в платформу Claude Managed Agents функцию «сновидений» — запланированный процесс, в ходе которого ИИ-агенты пересматривают свою прошлую работу и обновляют память. Компания представила обновление 6 мая вместе с двумя другими функциями: оценкой результата по заданным критериям и координацией нескольких агентов. Anthropic пишет, что эти инструменты должны сделать агентов Claude более самостоятельными при выполнении сложных задач с минимальным участием человека.",
-      "published_at": "2026-05-08T09:44:44+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Anthropic добавила Claude Managed Agents функцию «сновидений», чтобы ИИ-агенты пересматривали прошлую работу и обновляли память",
-      "summary_ru": "Anthropic добавила в платформу Claude Managed Agents функцию «сновидений» — запланированный процесс, в ходе которого ИИ-агенты пересматривают свою прошлую работу и обновляют память. Компания представила обновление 6 мая вместе с двумя другими функциями: оценкой результата по заданным критериям и координацией нескольких агентов. Anthropic пишет, что эти инструменты должны сделать агентов Claude более самостоятельными при выполнении сложных задач с минимальным участием человека."
-    },
-    {
-      "id": "fa0c7b902dfff4a6",
-      "source": "Habr ML",
-      "url": "https://habr.com/ru/articles/1032948/?utm_campaign=1032948&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "[Перевод] Почему ИИ решает математические задачи, если не умеет думать",
-      "summary_en": "На утверждение, что большие языковые модели не мыслят, есть простой встречный вопрос : “Если это так, как ИИ выполняет арифметические операции?” Действительно, сложение, вычитание и умножение кажутся точными и алгоритмизированными процессами. Кажется логичным предположить, что внутри модели должен быть некий “калькулятор” или хотя бы его подобие. Но это не так. Читать далее",
-      "published_at": "2026-05-08T09:10:45+00:00",
-      "topic": "Research",
-      "title_ru": "[Перевод] Почему ИИ решает математические задачи, если не умеет думать",
-      "summary_ru": "На утверждение, что большие языковые модели не мыслят, есть простой встречный вопрос : “Если это так, как ИИ выполняет арифметические операции?” Действительно, сложение, вычитание и умножение кажутся точными и алгоритмизированными процессами. Кажется логичным предположить, что внутри модели должен быть некий “калькулятор” или хотя бы его подобие. Но это не так. Читать далее"
-    },
-    {
-      "id": "b63023bfb9fc2173",
-      "source": "BAIR Blog",
-      "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
-      "title_en": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
-      "summary_en": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand? We provide a detailed analysis of recent progress in the field of parallel reasoning, especially Adaptive Parallel Reasoning. Disclosure: this post is part landscape survey, part perspective on adaptive parallel reasoning. One of the authors (Tony Lian) co-led ThreadWeaver ( Lian et al., 2025 ), one of the methods discussed below. The authors aim to present each approach on its own terms. Motivation Recent progress in LLM reasoning capabilities has been largely driven by inference-time scaling, in addition to data and parameter scaling ( OpenAI et al., 2024 ; DeepSeek-AI et al., 2025 ). Models that explicitly output reasoning tokens (through intermediate steps, backtracking, and exploration) now dominate math, coding, and agentic benchmarks. These behaviors allow models to explore alternative hypotheses, correct earlier mistakes, and synthesize conclusions rather than committing to a single solution ( Wen et al., 2025 ). The problem is that sequential reasoning scales linearly with the amount of exploration. Scaling sequential reasoning tokens comes at a cost, as models risk exceeding effective context limits ( Hsieh et al., 2024 ). The accumulation of intermediate exploration paths makes it challenging for the model to disambiguate amongst distractors when attending to information in its context, leading to a degradation of model performance, also known as context-rot ( Hong, Troynikov and Huber, 2025 ). Latency also grows proportionally with reasoning length. For complex tasks requiring millions of tokens for exploration and planning, it’s not uncommon to see users wait tens of minutes or even hours for an answer ( Qu et al., 2025 ). As we continue to scale along the output sequence length dimension, we also make inference slower, less reliable, and more compute-intensive. Parallel reasoning has emerged as a natural solution. Instead of exploring paths sequentially ( Gandhi et al., 2024 ) and accumulating the context window at every step, we can allow models to explore multiple threads independently (threads don’t rely on each other’s context) and concurrently (threads can be executed at the same time). Figure 1: Sequential vs. Parallel Reasoning Over recent years, a growing body of work has explored this idea across synthetic settings (e.g., the Countdown game ( Katz, Kokel and Sreedharan, 2025 )), real-world math problems, and general reasoning tasks. From Fixed Parallelism to Adaptive Control Existing approaches show that parallel reasoning can help, but most of them still decide the parallel structure outside the model rather than letting the model choose it. Simple fork-and-join. Self-consistency/Majority Voting — independently sample multiple complete reasoning traces, extract final answer from each, and return the most common one ( Wang et al., 2023 ). Best-of-N (BoN) — similar to self-consistency, but uses a trained verifier to select the best solution instead of using majority voting ( Stiennon et al., 2022 ). Although simple to implement, these methods often incur redundant computation across branches since trajectories are sampled independently. Heuristic-based structured search. Tree / Graph / Skeleton of Thoughts — a family of structured decomposition methods that explores multiple alternative “thoughts” using known search algorithms (BFS/DFS) and prunes via LLM-based evaluation ( Yao et al., 2023 ; Besta et al., 2024 ; Ning et al., 2024 ). Monte-Carlo Tree Search (MCTS) — estimates node values by sampling random rollouts and expands the search tree with Upper Confidence Bound (UCB) style exploration-exploitation ( Xie et al., 2024 ; Zhang et al., 2024 ). These methods improve upon simple fork-and-join by decomposing tasks into non-overlapping subtasks; however, they require prior knowledge about the decomposition strategy, which is not always known. Recent variants. ParaThinker — trains a model to run in two fixed stages: first generating multiple reasoning threads in parallel, then synthesizing them. They introduce trainable control tokens ( &lt;think_i&gt; ) and thought-specific positional embeddings to enforce independence during reasoning and controlled integration during summarization via a two-phase attention mask ( Wen et al., 2025 ). GroupThink — multiple parallel reasoning threads can see each other’s partial progress at token level and adapt mid-generation. Unlike prior concurrent methods that operate on independent requests, GroupThink runs a single LLM producing multiple interdependent reasoning trajectories simultaneously ( Hsu et al., 2025 ). Hogwild! Inference — multiple parallel reasoning threads share KV cache and decide how to decompose tasks without an explicit coordination protocol. Workers generate concurrently into a shared attention cache using RoPE to stitch together individual KV blocks in different orders without recomputation ( Rodionov et al., 2025 ). Figure 2: Various Strategies for Parallel Reasoning The methods above share a common limitation: the decision to parallelize, the level of parallelization, and the search strategy are imposed on the model, regardless of whether the problem actually benefits from it. However, different problems need different levels of parallelization, and that is something critical to the effectiveness of parallelization. For example, a framework that applies the same parallel structure to “What’s 25+42?” and “What’s the smallest planar region in which you can continuously rotate a unit-length line segment by 180°?” is wasting compute on the former and probably using the wrong decomposition strategy for the latter. In the approaches described above, the model is not taught this adaptive behavior. A natural question arises: What if the model could decide for itself when to parallelize, how many threads to spawn, and how to coordinate them based on the problem at hand? Adaptive Parallel Reasoning (APR) answers this question by making parallelization part of the model’s generated control flow. Formally defined, adaptivity refers to the model’s ability to dynamically allocate compute between parallel and serial operations at inference time . In other words, a model with adaptive parallel reasoning (APR) capability is taught to coordinate its control flow — when to generate sequences sequentially vs. in parallel. It’s important to note that the concept of adaptive parallel reasoning was introduced by the work Learning Adaptive Parallel Reasoning with Language Models ( Pan et al., 2025 ), but is a paradigm rather than a specific method. Throughout this post, APR refers to the paradigm, while “ the APR method ” denotes the specific instantiation from Pan et al. (2025). This shift matters for three reasons. Compared to Tree-of-Thoughts, APR doesn’t need domain-specific heuristics for decomposition. During RL, the model learns general decomposition strategies from trial and error. In fact, models discover useful parallelization patterns, such as running the next step along with the self-verification of a previous step, or hedging a primary approach with a backup one, in an emergent manner that would be difficult to hand-design ( Yao et al., 2023 ; Wu et al., 2025 ; Zheng et al., 2025 ). Compared to BoN, APR avoids redundant computation. APR models have control over what each parallel thread will do before branching out. Therefore, APR can learn to produce a set of unique, non-overlapping subtasks before assigning them to independent threads ( Wang et al., 2023 ; Stiennon et al., 2022 ; Pan et al., 2025 ; Yang et al., 2025 ). Compared to non-adaptive approaches, APR can choose not to parallelize. Adaptive models can adjust the level of parallelization to match the complexity of the problem against the complexity and overhead of parallelization ( Lian et al., 2025 ). In practice, this is implemented by having the model output special tokens that control when to reason in parallel versus sequentially. Below is a condensed ThreadWeaver-style trace: two outlines and two paths under a &lt;Parallel&gt; block, then the threads agree on a single boxed answer. Figure 3: Example of an Adaptive Parallel Reasoning Trajectory from ThreadWeaver, manually condensed for ease of illustration. Figure 4: Special Tokens Variants across Adaptive Parallel Reasoning Papers Inference Systems for Adaptive Parallelism How do we actually execute parallel branches? We take inspiration from computer systems, and specifically, multithreading and multiprocessing. Most of this work can be viewed as leveraging a fork-join design. At inference time, we are effectively asking the model to perform a map-reduce operation: Fork the problem into subtasks/threads, process them concurrently Join them into a final answer Figure 5: Fork-join Inference Design Specifically, the model will encounter a list of subtasks. It will then prefill each of the subtasks and send them off as independent requests for the inference engine to process. These threads then decode concurrently until they hit an end token or exceed max length. This process blocks until all threads finish decoding and then aggregates the results. This is common across various adaptive parallel reasoning approaches. However, one issue arises during aggregation: the content generated in branches cannot be easily aggregated at the KV cache level. This is because tokens in independent threads start at identical position IDs, resulting in encoding overlap and non-standard behavior when merging KV cache back together. Similarly, since independent threads do not attend to each other, their concatenated KV cache results in a non-causal attention pattern, which the base model has not seen during training. To address this issue, the field splits into two schools of thought on how to execute the aggregation process, defined by whether they modify the inference engine or work around it. Multiverse modifies the inference engine to reuse KV cache across the join. Before taking a deeper look into Multiverse ( Yang et al., 2025 )’s memory management, let’s first understand how KV cache is handled up until the “join” phase. Notice how each of the independent threads share the prefix sequence, i.e., the list of subtasks. Without optimization, each thread needs to prefill and recompute the KV cache for the prefix sequence. However, this redundancy can be avoided with SGLang ’s RadixAttention ( Sheng et al., 2023 ), which organizes multiple requests into a radix tree, a trie (prefix tree) with sequences of elements of varying lengths instead of single elements. This way, the only new KV cache entries are those from independent thread generation. Figure 6: RadixAttention’s KV Cache Management Strategy Now, if everything went well, all the independent threads have come back from the inference engine. Our goal is now to figure out how to synthesize them back into a single sequence to continue decoding for next steps. It turns out, we can reuse the KV cache of these independent threads during the synthesis stage. Specifically, Multiverse ( Yang et al., 2025 ), Parallel-R1 ( Zheng et al., 2025 ), and NPR ( Wu et al., 2025 ) modify the inference engine to copy over the KV cache generated by each thread and edits the page table so that it stitches together non-contiguous memory blocks into a single KV cache sequence. This avoids the redundant computation of a second prefill and reuses existing KV cache as much as possible. However, this has several major limitations. First, this approach requires modifying the inference engine to perform non-standard memory handling, which can result in unexpected behaviors. Specifically, since the synthesis request references KV cache from previous requests, it creates fragility in the system and the possibility of bad pointers. Another request can come in and evict the referenced KV cache before the synthesis request completes, requiring it to halt and trigger a re-prefilling of the previous thread request. This problem has led the Multiverse researchers ( Yang et al., 2025 ) to limit the batch size that the inference engine can handle, which restricts throughput. Figure 7: KV Cache “Stitching” During Multiverse Inference Second, this approach modifies how models see the sequence, which creates a distributional shift that models are not pretrained on, therefore requiring more extensive training to align behavior. Specifically, when we stitch together KV cache this way, we create a sequence with non-standard position encoding. During independent-thread generation, all threads started at the same position index and attended to the prior subtasks, NOT each other. So when the threads merge back, the resulting KV cache has a non-standard positional encoding and does not use causal attention. Therefore, this approach requires extensive training to align the model to this new behavior. To address this, Multiverse ( Yang et al., 2025 ) and related works apply a modified attention mask during training to prevent independent threads from attending to each other, aligning the training and inference behaviors. Figure 8: Multiverse’s Attention Mask With these issues arising from non-standard KV cache management, can we try an approach without engine modifications? ThreadWeaver keeps the inference engine unchanged and moves orchestration to the client. ThreadWeaver ( Lian et al., 2025 ) treats parallel inference purely as a client-side problem. The “Fork” process is nearly identical to Multiverse’s, but the join phase handles memory very differently as it does NOT modify engine internals. Instead, the client concatenates all text outputs from independent branches into one contiguous sequence. Then, the engine performs a second prefill to generate the KV cache for the conclusion generation step. While this introduces computational redundancy that Multiverse tries to avoid, the cost of prefill is significantly lower than decoding. In addition, this does not require special attention handling during inference, as the second prefill uses causal attention (threads see each other), making it easier to adapt sequential autoregressive models for this task. Figure 9: ThreadWeaver’s Prefill and Decode Strategy How should we train a model to learn this behavior? Naively, for each parallel trajectory, we can break it down into multiple sequential pieces following our inference pattern. For instance, we would train the model to output the subtasks given prompt, individual threads given prompt+subtask assignment, and conclusion given prompt+subtasks+corresponding threads. However, this seems redundant and not compute efficient. Can we do better? Turns out, yes. As in ThreadWeaver ( Lian et al., 2025 ), we can organize a parallel trajectory into a prefix-tree (trie), flatten it into a single sequence, and apply an ancestor-only attention mask during training (not inference!). Figure 10: Building the Prefix-tree and Flattening into a single training sequence Specifically, we apply masking and position IDs to mimic the inference behavior, such that each thread is only conditioned on the prompt+subtasks, without ever attending to sibling threads or the final conclusion. The engine-agnostic design makes adoption easy since you don’t need to figure out a separate hosting method and can leverage existing hardware infra. It also gets better as existing inference engines get better. What’s more, with an engine-agnostic method, we can serve a hybrid model that switches between sequential and parallel thinking modes easily. Training Models to Use Parallelism Once the inference path exists, the next problem is teaching a model to use it. Demonstrations are needed because the model must learn to output special tokens that orchestrate control flow. We found the instruction-following capabilities of base models insufficient for generating parallel threads. An interesting question here is: does SFT training induce a fundamental reasoning capability for parallel execution that was previously absent, or does it merely align the model’s existing pre-trained capabilities to a specific control-flow token syntax. Typical wisdom is SFT teaches new knowledge; but contrary to common belief, some papers—notably Parallel-R1 ( Zheng et al., 2025 ) and NPR ( Wu et al., 2025 )—argue that their SFT demonstrations simply induce format following (i.e., how to structure parallel requests). We leave this as future work. Figure 11: Sources of Parallelization Demonstration Data Demonstrations teach the syntax of parallel control flow, but they do not fully solve the incentive problem. In an ideal world, we only need to reward the outcome accuracy, and the parallelization pattern emerges naturally given that it learns to output special tokens through SFT, similar to the emergence of long CoT. However, researchers ( Zheng et al., 2025 ) observed that this is not enough, and we do in fact need parallelization incentives. The question then becomes, how do we tell when the model is parallelizing effectively? Structure-only rewards are too easy to game. Naively, we can give a reward for the number of threads spawned. But models can spawn many short, useless threads to hack the reward. Okay, that doesn’t work. How about a binary reward for simply using parallel structure correctly? This partially solves the issue of models spamming new threads, but models still learn to spawn threads when they don’t need to. The authors of Parallel-R1 ( Zheng et al., 2025 ) introduced an alternating-schedule, only rewarding parallel structure 20% of the time, which successfully increased the use of parallel structure (13.6% → 63%), but had little impact on overall accuracy. With this structure-only approach, we might be drifting away from our original goal of increasing accuracy and reducing latency… How can we optimize for the Pareto frontier directly? Accuracy is simple — we just look at the outcome. How about latency? Efficiency rewards need to track the critical path. In sequential-only trajectories, we can measure latency based on the total number of tokens generated. To extend this to parallel trajectories, we can focus on the critical path, or the longest sequence of tokens that are causally dependent, as this directly determines our end-to-end generation time (i.e., wall-clock time). As an example, when there are two &lt;Parallel&gt; sections with five threads each, the critical path will go through the longest thread from the first parallel section, then any sequential tokens, then the longest thread from the second parallel section, and so on until the end of sequence. Figure 12: Critical Path Length Illustration The goal is to minimize the length of the critical path. Simultaneously, we would still like the model to be spending tokens exploring threads in parallel. To combine the two objectives, we can focus on making the critical path a smaller fraction of the total tokens spent. Authors of ThreadWeaver ( Lian et al., 2025 ) framed the parallelization reward as $1 - L_{\\mathrm{critical}} / L_{\\mathrm{total}}$, which is 0 for a sequential trajectory, and increases linearly as the critical path gets smaller compared to the total tokens generated. Parallel efficiency should be gated by correctness. Intuitively, when multiple trajectories are correct we should assign more reward to the trajectories that are more efficient at parallelization. But how about when they are all incorrect? Should we assign any reward at all? Probably not. To formalize this, $R = R_{\\mathrm{correctness}} + R_{\\mathrm{parallel}}$. Assuming binary outcome correctness, this can be written as $R = \\mathbf{1}(\\text{Correctness}) + \\mathbf{1}(\\text{Correctness}) \\times (\\text{some parallelization metric})$. This way, a model only gets a parallelization reward when it answers correctly, since we don’t want to pose parallelization constraints on the model if it couldn’t answer the question correctly. Figure 13: Differences in Reward Designs Across Adaptive Parallel Reasoning Works Evaluation and Open Questions When all is said and done, how well do these adaptive parallel methods actually perform? Well…this is a hard question, as they differ in model choice and metrics. The model selection depends on the training method, SFT problem difficulty, and sequence length. When running SFT on difficult datasets like s1k, which contains graduate-level math and science problems, researchers chose a large base model (Qwen2.5 32B for Multiverse ( Yang et al., 2025 )) to capture the complex reasoning structure behind the solution trajectories. When running RL, researchers chose a small, non-CoT, instruct model (4B, 8B) due to compute cost constraints. Figure 14: Difference in Model Choice Across Adaptive Parallel Reasoning Papers Each paper also offers a slightly different interpretation about how adaptive parallel reasoning contributes to the research field. They optimize for different theoretical objectives, so they use slightly different sets of metrics: Multiverse and ThreadWeaver ( Yang et al., 2025 ; Lian et al., 2025 ) aim to deliver sequential-AR-model-level accuracy at faster speeds. Multiverse shows that APR models can achieve higher accuracy under the same fixed context window, while ThreadWeaver shows that the APR model achieves shorter end-to-end token latency (critical path length) while getting comparable accuracy. NPR ( Wu et al., 2025 ) treats sequential fallback as a failure mode and optimizes for 100% Genuine Parallelism Rate, measured as the ratio of parallel tokens to total tokens. Parallel-R1 ( Zheng et al., 2025 ) does not focus on end-to-end latency and instead optimizes for exploration diversity, presenting APR as a form of mid-training exploration scaffold that provides a performance boost after RL. Open Questions While Adaptive Parallel Reasoning represents a promising step toward more efficient inference-time scaling, significant open questions remain. As noted above, Parallel-R1 ( Zheng et al., 2025 ) presents APR as a form of mid-training exploration scaffold rather than a primarily inference-time technique. This invites a more fundamental question: Does parallelization at inference-time consistently improve accuracy, or is it primarily valuable as a training-time exploration scaffold? Parallel-R1 suggests that the diversity induced by parallel structure during RL may matter more than the parallelization itself at test time. A related concern is stability. There’s also a persistent tendency for models to collapse back to sequential reasoning when parallelization rewards are relaxed. Parallel-R1 authors showed that removing parallelization reward after 200 steps results in the model reverting to sequential behavior. Is this a training stability issue, a reward signal design issue, or evidence that parallel structure genuinely conflicts with how autoregressive pretraining shapes the model’s prior? Beyond whether APR works, deployment introduces its own questions. Can we design training methods that account for available compute budget at inference time, so parallelization decisions are hardware-aware rather than purely problem-driven? Finally, the parallel structures considered above are essentially flat. What if we allow parallelization depth &gt; 1? Recursive language models (RLMs; Zhang, Kraska and Khattab, 2026 ) effectively manage long context and show promising inference-time scaling capabilities. How well do RLMs perform when trained with end-to-end RL that incentivizes adaptive parallelization? Acknowledgements We thank Nicholas Tomlin and Alane Suhr for providing us with helpful feedback. We thank Christopher Park, Karl Vilhelmsson, Nyx Iskandar , Georgia Zhou, Kaival Shah , and Jyoti Rani for their insightful suggestions. We thank Vijay Kethana , Jaewon Chang , Cameron Jordan , Syrielle Montariol , Erran Li, and Anya Ji for their valuable discussions. We thank Jiayi Pan , Xiuyu Li , and Alex Zhang for their constructive correspondences about Adaptive Parallel Reasoning and Recursive Language Models.",
-      "published_at": "2026-05-08T09:00:00+00:00",
-      "topic": "Research",
-      "title_ru": "Адаптивное параллельное рассуждение: следующий парадигма эффективного масштабирования вывода",
-      "summary_ru": "Обзор адаптивного параллельного рассуждения. Что если модель рассуждения могла бы сама решать, когда разложить и параллелизовать независимые подзадачи, сколько параллельных потоков запустить и как их координировать в зависимости от конкретной задачи? Мы предоставляем детальный анализ недавних достижений в области параллельного рассуждения, особенно адаптивного параллельного рассуждения. Данное сообщение является частью ландшафтного обзора и перспективы адаптивного параллельного рассуждения. Один из авторов (Тони Лян) совместно руководил проектом ThreadWeaver (Lian et al., 2025), одним из методов, обсуждаемых ниже. Авторы стремятся представить каждый подход в его собственных терминах. Мотивация Недавний прогресс в возможностях рассуждения LLM в значительной степени был вызван масштабированием во время вывода, помимо масштабирования данных и параметров (OpenAI et al., 2024; DeepSeek-AI et al., 2025). Модели, которые явно выводят токены рассуждения (через промежуточные шаги, возврат к предыдущим шагам и исследование), теперь доминируют в математических, программных и агентских тестах. Эти поведения позволяют моделям исследовать альтернативные гипотезы, исправлять предыдущие ошибки и синтезировать выводы, а не ограничиваться одним решением (Wen et al., 2025). Проблема в том, что последовательное рассуждение масштабируется линейно с увеличением объема исследования. Масштабирование последовательных токенов рассуждения имеет свои издержки, так как модели рискуют превысить эффективные ограничения контекста (Hsieh et al., 2024). Накопление промежуточных путей исследования затрудняет модели различение между отвлекающими факторами при обращении к информации в своем контексте, что приводит к ухудшению производительности модели, также известному как \"context-rot\" (Hong, Troynikov и Huber, 2025). Задержка также растет пропорционально длине рассуждения. Для сложных задач, требующих миллионов токенов для исследования и планирования, пользователи часто ждут десятки минут или даже часы для получения ответа (Qu et al., 2025). По мере того как мы продолжаем масштабировать длину выходной последовательности, мы также замедляем вывод, делаем его менее надежным и более ресурсоемким. Параллельное рассуждение стало естественным решением. Вместо того чтобы исследовать пути последовательно (Gandhi et al., 2024) и на"
-    },
-    {
-      "id": "bdb1cfeffc4924c8",
-      "source": "Habr CV",
-      "url": "https://habr.com/ru/companies/airi/articles/1032886/?utm_campaign=1032886&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Конвейеры формирования изображений. Часть 2: Баланс белого и преобразование к стандартному наблюдателю",
-      "summary_en": "С вами снова Егор Ершов, руководитель группы «Цветовая вычислительная фотография» в AIRI и заведующий сектором репродукции и синтеза цвета ИППИ РАН. Я продолжаю свой цикл статей по мотивам лекций по вычислительной фотографии, и в прошлый раз мы приступили к разбору типичных конвейеров формирования изображения, заложенных в наши профессиональные камеры и мобильные телефоны. Типичный пайплайн — от нажатия кнопки затвора до сохранения файла — довольно внушителен по количеству шагов, грубо его можно разделить на подготовку сырого RAW‑изображения и последующую обработку программными средствами. В предыдущей статье мы успели рассмотреть лишь первые два шага — регистрация света и дебайеринг, на этот раз поговорим про баланс белого и переход в пространство стандартного наблюдателя. Приятного чтения! Читать далее",
-      "published_at": "2026-05-08T08:26:15+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Конвейеры формирования изображений. Часть 2: Баланс белого и преобразование к стандартному наблюдателю",
-      "summary_ru": "С вами снова Егор Ершов, руководитель группы «Цветовая вычислительная фотография» в AIRI и заведующий сектором репродукции и синтеза цвета ИППИ РАН. Я продолжаю свой цикл статей по мотивам лекций по вычислительной фотографии, и в прошлый раз мы приступили к разбору типичных конвейеров формирования изображения, заложенных в наши профессиональные камеры и мобильные телефоны. Типичный пайплайн — от нажатия кнопки затвора до сохранения файла — довольно внушителен по количеству шагов, грубо его можно разделить на подготовку сырого RAW‑изображения и последующую обработку программными средствами. В предыдущей статье мы успели рассмотреть лишь первые два шага — регистрация света и дебайеринг, на этот раз поговорим про баланс белого и переход в пространство стандартного наблюдателя. Приятного чтения! Читать далее"
-    },
-    {
-      "id": "b21409a6f0b2de47",
-      "source": "vc.ru AI",
-      "url": "https://vc.ru/id121721/2916083-legkiy-sposob-nayti-biznes-partnerov-s-pomoschyu-ai?from=rss",
-      "title_en": "Легкий способ бизнес-знакомств",
-      "summary_en": "После хороших мероприятий остается несколько идей потенциальных партнерств. У Васи есть завод, я умею возить товары в Чили – можно наладить экспорт его товаров, как жаль, что мы раньше не встретились. Понятно, в 80% случаев никто никому на следующий день не напишет, а в 19 из оставшихся 20 – что-то все равно не получится. Но вот Wise в последний 1% входит, он, говорят, примерно так и появился, сейчас компания 15 миллиардов долларов стоит.",
-      "published_at": "2026-05-08T07:22:07+00:00",
-      "topic": "Research",
-      "title_ru": "Легкий способ бизнес-знакомств",
-      "summary_ru": "После хороших мероприятий остается несколько идей потенциальных партнерств. У Васи есть завод, я умею возить товары в Чили – можно наладить экспорт его товаров, как жаль, что мы раньше не встретились. Понятно, в 80% случаев никто никому на следующий день не напишет, а в 19 из оставшихся 20 – что-то все равно не получится. Но вот Wise в последний 1% входит, он, говорят, примерно так и появился, сейчас компания 15 миллиардов долларов стоит."
-    },
-    {
-      "id": "d17ca1c27bbf2492",
-      "source": "Habr ML",
-      "url": "https://habr.com/ru/companies/yandex_praktikum/articles/1031378/?utm_campaign=1031378&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Как устроена ML-платформа Michelangelo и какие базовые принципы из неё важно усвоить",
-      "summary_en": "Привет! Меня зовут Катерина Цаплина, я программный эксперт курса «MLOps для разработки и мониторинга моделей», и это вторая статья цикла о том, как компании реализуют MLOps. В предыдущей части мы разбирали, какие архитектурные подходы скрываются за MLOps: от workflow-фреймворков до managed-сервисов и внутренних платформ.&nbsp; В этой статье хочу разобрать один из самых известных платформенных кейсов — Michelangelo компании Uber. Он ценен тем, что наглядно показывает, как ML-платформа вырастает из практических задач и затем эволюционирует&nbsp; вместе с изменением сценариев: от классического ML к deep learning и LLMOps. Поговорим о том, как устроена платформа, какие сущности и слои в ней ключевые и почему этот пример остаётся полезным. Посмотрим на Michelangelo через призму российских реалий, порассуждаем о связи между зрелостью ML в компании и сложностью корпоративного ландшафта, а также о том, когда платформа действительно становится оправданной. Читать далее",
-      "published_at": "2026-05-08T07:01:00+00:00",
-      "topic": "Models",
-      "title_ru": "Как устроена ML-платформа Michelangelo и какие базовые принципы из неё важно усвоить",
-      "summary_ru": "Привет! Меня зовут Катерина Цаплина, я программный эксперт курса «MLOps для разработки и мониторинга моделей», и это вторая статья цикла о том, как компании реализуют MLOps. В предыдущей части мы разбирали, какие архитектурные подходы скрываются за MLOps: от workflow-фреймворков до managed-сервисов и внутренних платформ.&nbsp; В этой статье хочу разобрать один из самых известных платформенных кейсов — Michelangelo компании Uber. Он ценен тем, что наглядно показывает, как ML-платформа вырастает из практических задач и затем эволюционирует&nbsp; вместе с изменением сценариев: от классического ML к deep learning и LLMOps. Поговорим о том, как устроена платформа, какие сущности и слои в ней ключевые и почему этот пример остаётся полезным. Посмотрим на Michelangelo через призму российских реалий, порассуждаем о связи между зрелостью ML в компании и сложностью корпоративного ландшафта, а также о том, когда платформа действительно становится оправданной. Читать далее"
-    },
-    {
-      "id": "4141d96cae93b7a0",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
-      "title_en": "The fax machine is the bottleneck in US healthcare, and VCs are starting to notice",
-      "summary_en": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the founders say the administrative staff they work with aren't worried about that; they're more worried about drowning.",
-      "published_at": "2026-05-08T04:42:29+00:00",
-      "topic": "Research",
-      "title_ru": "Почему вы никогда не можете дождаться обратного звонка от своего врача",
-      "summary_ru": "Как и многим AI-компаниям, автоматизирующим работу, которую в настоящее время выполняют люди, Basata в конечном итоге придется столкнуться с более сложным вопросом о том, где провести грань между дополнением работников и их вытеснением. На данный момент основатели утверждают, что административный персонал, с которым они работают, не беспокоится об этом; их больше беспокоит возможность утопления в работе."
-    },
-    {
-      "id": "df97851414faeb75",
-      "source": "Wired AI",
-      "url": "https://www.wired.com/story/microsoft-executives-discuss-openai-sam-altman-2018/",
-      "title_en": "Musk v. Altman Evidence Shows What Microsoft Executives Thought of OpenAI",
-      "summary_en": "Leaders at the tech giant were skeptical of OpenAI—but wary of pushing it into the arms of Amazon, according to emails dating back to 2018.",
-      "published_at": "2026-05-08T01:42:14+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Доказательства в деле Musk против Altman показывают, что руководители Microsoft думали об OpenAI.",
-      "summary_ru": "Руководство технологического гиганта скептически относилось к OpenAI, но опасалось, что это может привести к сотрудничеству с Amazon, согласно электронным письмам, датированным 2018 годом.",
-      "duplicates": [
-        {
-          "source": "The Verge AI",
-          "url": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
-          "title_en": "Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure",
-          "title_ru": "Microsoft беспокоилась, что OpenAI может перейти к Amazon и «плохо отзываться» об Azure.",
-          "published_at": "2026-05-08T15:25:02+00:00"
-        }
-      ]
-    },
-    {
-      "id": "014246575aa456da",
-      "source": "Platformer",
-      "url": "https://www.platformer.news/did-xai-just-concede-the-ai-race/",
-      "title_en": "Did xAI just concede the AI race?",
-      "summary_en": "Elon Musk had lots of reasons to make a deal with Anthropic — but he wouldn’t have done it if he were ahead. PLUS: The incredible testimony of Shivon Zilis, and a big new study on school phone bans",
-      "published_at": "2026-05-08T00:00:47+00:00",
-      "topic": "Regulations",
-      "title_ru": "xAI не признала поражение в гонке ИИ.",
-      "summary_ru": "Илон Маск имел множество причин для заключения сделки с Anthropic, но он бы не сделал этого, если бы находился в выигрышной позиции. Плюс: невероятные показания Шивон Зилис и крупное новое исследование о запрете телефонов в школах."
-    },
-    {
-      "id": "57ef3b10d01ae8cf",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-      "title_en": "OpenAI launches new voice intelligence features in its API",
-      "summary_en": "The new features could be handy for customer service systems, but OpenAI says they have applications that work across a variety of other fields, including education and creator platforms.",
-      "published_at": "2026-05-07T22:24:50+00:00",
-      "topic": "Research",
-      "title_ru": "OpenAI запускает новые функции голосового интеллекта в своем API.",
-      "summary_ru": "Новые функции могут быть полезны для систем обслуживания клиентов, но OpenAI утверждает, что они имеют применение в различных других областях, включая образование и платформы для создателей контента."
-    },
-    {
-      "id": "eee20fca46d5ffb7",
-      "source": "Wired AI",
-      "url": "https://www.wired.com/story/uncanny-valley-podcast-trump-pivots-ai-regulation-worker-ousted-by-doge-runs-for-office-hantavirus-explained/",
-      "title_en": "Trump Pivots on AI Regulation, Worker Ousted by DOGE Runs for Office, and Hantavirus Explained",
-      "summary_en": "Today on Uncanny Valley, we’re diving into recent reports that the Trump administration is considering an executive order that would establish some sort of federal oversight over new AI models.",
-      "published_at": "2026-05-07T21:37:20+00:00",
-      "topic": "Regulations",
-      "title_ru": "Трамп изменил позицию по регулированию ИИ, работник, уволенный из-за DOGE, баллотируется в органы власти, и объяснение хантавируса.",
-      "summary_ru": "Сегодня в Uncanny Valley мы рассматриваем недавние сообщения о том, что администрация Трампа рассматривает возможность издания исполнительного указа, который установит федеральный контроль над новыми AI-моделями."
-    },
-    {
-      "id": "0135d7bcbcb29a79",
-      "source": "NVIDIA Dev Blog",
-      "url": "https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/",
-      "title_en": "Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling",
-      "summary_en": "NVIDIA GB200 NVL72 introduces a fundamentally new way to build GPU clusters by extending NVIDIA NVLink coherence across an entire rack. This design enables...",
-      "published_at": "2026-05-07T21:20:14+00:00",
-      "topic": "Hardware",
-      "title_ru": "Достижение максимальной эффективности системы и нагрузки на NVIDIA GB200 NVL72 с использованием блочного планирования Slurm",
-      "summary_ru": "NVIDIA GB200 NVL72 представляет собой принципиально новый способ создания кластеров GPU, расширяя когерентность NVIDIA NVLink на весь стойку. Этот дизайн позволяет..."
-    },
-    {
-      "id": "c9954e0f897447c3",
-      "source": "NVIDIA Dev Blog",
-      "url": "https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/",
-      "title_en": "Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer",
-      "summary_en": "Model quantization is an effective method to reduce VRAM usage and improve inference performance on consumer devices such as NVIDIA GeForce RTX GPUs. By...",
-      "published_at": "2026-05-07T21:18:06+00:00",
-      "topic": "Hardware",
-      "title_ru": "Квантование моделей: Посттренировочное квантование с использованием NVIDIA Model Optimizer",
-      "summary_ru": "Квантование моделей — это эффективный метод снижения использования VRAM и повышения производительности вывода на потребительских устройствах, таких как графические процессоры NVIDIA GeForce RTX. Путем..."
-    },
-    {
-      "id": "8c23e63118a53615",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-      "title_en": "Voi founders’ new AI startup Pit has become the latest rising star out of Stockholm",
-      "summary_en": "AI startup Pit is led by the co-founders of European scooter giant Voi and backed by a16z, which is leading the startup’s $16 million seed round.",
-      "published_at": "2026-05-07T21:02:11+00:00",
-      "topic": "Startups",
-      "title_ru": "Основатели Voi запустили новый стартап в области ИИ под названием Pit, который стал последней восходящей звездой из Стокгольма.",
-      "summary_ru": "AI-стартап Pit возглавляют соучредители европейского гиганта самокатов Voi, а финансирование в размере 16 миллионов долларов в рамках посевного раунда предоставляет компания a16z."
     }
   ],
-  "dedup_at": "2026-05-08T20:38:29.300903+00:00"
+  "dedup_at": "2026-05-09T09:55:25.977222+00:00"
 }
