@@ -1,12 +1,8 @@
 name: email-digest
 
 on:
-  schedule:
-    # Три попытки — на случай если GitHub Actions пропустит запуск.
-    # Скрипт сам проверяет защёлку и шлёт письмо только один раз в сутки.
-    - cron: "0 6 * * *"   # 09:00 MSK
-    - cron: "20 6 * * *"  # 09:20 MSK (если первый пропущен)
-    - cron: "45 6 * * *"  # 09:45 MSK (последняя попытка)
+  # Cron переехал на личный сервер (см. update-news.yml).
+  # Рассылка идёт из ~/ai-daily/run-digest.sh в 09:00 MSK.
   workflow_dispatch:
     inputs:
       force:
