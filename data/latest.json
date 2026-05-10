@@ -1,6 +1,94 @@
 {
-  "generated_at": "2026-05-09T20:01:37.752016+00:00",
+  "generated_at": "2026-05-10T08:08:35.545435+00:00",
   "items": [
+    {
+      "id": "8eea8660873c9196",
+      "source": "vc.ru AI",
+      "url": "https://vc.ru/ai/2918578-obzor-plaginov-codex-aws-browser-coderabbit-i-drugie?from=rss",
+      "title_en": "Какие плагины доступны в Codex и зачем они нужны: большой обзор",
+      "summary_en": "Разберем несколько плагинов, каждый из которых закрывает отдельный класс задач:",
+      "published_at": "2026-05-10T07:50:10+00:00",
+      "topic": "Research",
+      "title_ru": "Какие плагины доступны в Codex и зачем они нужны: большой обзор",
+      "summary_ru": "Разберем несколько плагинов, каждый из которых закрывает отдельный класс задач:"
+    },
+    {
+      "id": "aa7e67df950b588e",
+      "source": "Habr ML",
+      "url": "https://habr.com/ru/articles/1033442/?utm_campaign=1033442&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Эра личных секретарей",
+      "summary_en": "Долгое время я не мог понять причин восторга по поводу электронных ассистентов по набору текста и кода. Технологически&nbsp;— это забавно, практически&nbsp;— действительно ускоряет процесс создания всего, что может быть автодополнено без потери смысла. Иными словами, если мы умеем ходить и знаем, как пройти в библиотеку,&nbsp;— ассистент сгоняет туда быстрее нас. Но если мы, прости господи,&nbsp;— стартапер с неоконченным гуманитарным образованием,&nbsp;— модельки только усугубят нашу некомпетентность. Мы теперь будем заходить в непролазную топь&nbsp;— в тыщу раз быстрее самого проворного Сусанина. Чем же настолько восхищаются многие окружающие меня люди? А вот чем!",
+      "published_at": "2026-05-10T07:24:37+00:00",
+      "topic": "Startups",
+      "title_ru": "Эра личных секретарей",
+      "summary_ru": "Долгое время я не мог понять причин восторга по поводу электронных ассистентов по набору текста и кода. Технологически&nbsp;— это забавно, практически&nbsp;— действительно ускоряет процесс создания всего, что может быть автодополнено без потери смысла. Иными словами, если мы умеем ходить и знаем, как пройти в библиотеку,&nbsp;— ассистент сгоняет туда быстрее нас. Но если мы, прости господи,&nbsp;— стартапер с неоконченным гуманитарным образованием,&nbsp;— модельки только усугубят нашу некомпетентность. Мы теперь будем заходить в непролазную топь&nbsp;— в тыщу раз быстрее самого проворного Сусанина. Чем же настолько восхищаются многие окружающие меня люди? А вот чем!"
+    },
+    {
+      "id": "7983c54cbf169cb4",
+      "source": "Habr ML",
+      "url": "https://habr.com/ru/companies/ru_mts/articles/1033082/?utm_campaign=1033082&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Новая архитектура для агентов: как Intel и SambaNova разделили инференс между GPU, RDU и CPU",
+      "summary_en": "В апреле 2026-го Intel и ИИ-платформа SambaNova опубликовали совместный blueprint гетерогенного инференса: prefill — на GPU, decode — на SambaNova SN50 RDU, агентские действия — на Intel Xeon 6. Готовое решение обещают во второй половине 2026-го, и оно встает в обычную стойку 30 кВт с воздушным охлаждением, без капитальных переделок машинного зала. Идея такая: как только случился массовый приход агентов, decode перестал быть побочной фазой и становится доминирующей нагрузкой, а монолитная архитектура «GPU на всё» начала просаживаться по экономике. Коротко разберем, как это работает и почему это может стать востребованным. Читать далее",
+      "published_at": "2026-05-10T07:10:35+00:00",
+      "topic": "Hardware",
+      "title_ru": "Новая архитектура для агентов: как Intel и SambaNova разделили инференс между GPU, RDU и CPU",
+      "summary_ru": "В апреле 2026-го Intel и ИИ-платформа SambaNova опубликовали совместный blueprint гетерогенного инференса: prefill — на GPU, decode — на SambaNova SN50 RDU, агентские действия — на Intel Xeon 6. Готовое решение обещают во второй половине 2026-го, и оно встает в обычную стойку 30 кВт с воздушным охлаждением, без капитальных переделок машинного зала. Идея такая: как только случился массовый приход агентов, decode перестал быть побочной фазой и становится доминирующей нагрузкой, а монолитная архитектура «GPU на всё» начала просаживаться по экономике. Коротко разберем, как это работает и почему это может стать востребованным. Читать далее"
+    },
+    {
+      "id": "cd3d056cdb1c0eed",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1033420/?utm_campaign=1033420&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Ваш Telegram-бот на базе LLM уязвим. Я написал сканер, чтобы доказать это на популярном Open Source проекте",
+      "summary_en": "TL;DR: Я создал BarkingDog — ИИ-сканер безопасности с открытым исходным кодом для Telegram-ботов и веб-приложений на базе LLM. Затем я натравил его на реального, широко используемого опенсорсного Telegram-бота. Он написал работающий кейлоггер. Подтвердил, что отбеливатель лечит COVID-19. Выдал пошаговую инструкцию по взлому корпоративной сети с указанием конкретных хакерских утилит. Затем я пропатчил системный промпт. Оценка: 97/100. Никакой смены модели. Никаких изменений в коде. Всего шесть строк текста. Читать далее",
+      "published_at": "2026-05-10T05:16:07+00:00",
+      "topic": "Models",
+      "title_ru": "Ваш Telegram-бот на базе LLM уязвим. Я написал сканер, чтобы доказать это на популярном Open Source проекте",
+      "summary_ru": "TL;DR: Я создал BarkingDog — ИИ-сканер безопасности с открытым исходным кодом для Telegram-ботов и веб-приложений на базе LLM. Затем я натравил его на реального, широко используемого опенсорсного Telegram-бота. Он написал работающий кейлоггер. Подтвердил, что отбеливатель лечит COVID-19. Выдал пошаговую инструкцию по взлому корпоративной сети с указанием конкретных хакерских утилит. Затем я пропатчил системный промпт. Оценка: 97/100. Никакой смены модели. Никаких изменений в коде. Всего шесть строк текста. Читать далее"
+    },
+    {
+      "id": "e6f13054eb7ab227",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1033416/?utm_campaign=1033416&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Claude Code — полный гайд и обучение для новичков с нуля",
+      "summary_en": "В этой статье ты получишь полный гайд по Claude Code.. В одной этой статье вся информация, которая тебе нужна. Привет. Начнем с того, что компания Anthropic в последнее время обновляет продукты с совершенно безумной скоростью, настолько, что даже многие глубоко вовлечённые пользователи с трудом успевают следить. Практически каждый день выходят новые версии, а с января этого года крупные обновления стабильно выпускаются примерно раз в две недели. Новые модели, новые инструменты, новые интеграции и даже целые новые категории продуктов появляются непрерывно. Стоит отвлечься или отдохнуть пару недель и вы, скорее всего, уже пропустили немало ключевых изменений. И да, Claude действительно меняет ваш способ работы, это не подлежит сомнению. Все что было запущено на Claude по состоянию на 23 марта 2026 года, здесь будет охвачено: как настроить каждую функцию, в каких сценариях её использовать и какие лучшие практики реально работают. Понимание этих различий, это именно то, что отделяет «вау, прикольно» от «реально перестроил рабочий процесс». Читать далее",
+      "published_at": "2026-05-10T04:45:01+00:00",
+      "topic": "Models",
+      "title_ru": "Claude Code — полный гайд и обучение для новичков с нуля",
+      "summary_ru": "В этой статье ты получишь полный гайд по Claude Code.. В одной этой статье вся информация, которая тебе нужна. Привет. Начнем с того, что компания Anthropic в последнее время обновляет продукты с совершенно безумной скоростью, настолько, что даже многие глубоко вовлечённые пользователи с трудом успевают следить. Практически каждый день выходят новые версии, а с января этого года крупные обновления стабильно выпускаются примерно раз в две недели. Новые модели, новые инструменты, новые интеграции и даже целые новые категории продуктов появляются непрерывно. Стоит отвлечься или отдохнуть пару недель и вы, скорее всего, уже пропустили немало ключевых изменений. И да, Claude действительно меняет ваш способ работы, это не подлежит сомнению. Все что было запущено на Claude по состоянию на 23 марта 2026 года, здесь будет охвачено: как настроить каждую функцию, в каких сценариях её использовать и какие лучшие практики реально работают. Понимание этих различий, это именно то, что отделяет «вау, прикольно» от «реально перестроил рабочий процесс». Читать далее"
+    },
+    {
+      "id": "9226d8bc5499344c",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+      "title_en": "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
+      "summary_en": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
+      "published_at": "2026-05-10T02:00:00+00:00",
+      "topic": "Research",
+      "title_ru": "Voice AI в Индии — это сложная задача. Wispr Flow все равно делает на это ставку.",
+      "summary_ru": "Wispr Flow сообщает, что рост ускорился в Индии после запуска Hinglish, несмотря на продолжающиеся проблемы с продуктами голосового ИИ."
+    },
+    {
+      "id": "bcbb36f15951266e",
+      "source": "Habr AI",
+      "url": "https://habr.com/ru/articles/1033404/?utm_campaign=1033404&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Цифровой аудит против галлюцинаций по ГОСТу. Как понять, когда ответу ИИ нельзя верить?",
+      "summary_en": "Все мы привыкли, что&nbsp;нейросети&nbsp;— это про&nbsp;креатив,&nbsp;быстрый поиск и «накидай мне презу на&nbsp;завтра», но&nbsp;что&nbsp;происходит, когда вы выводите LLM из&nbsp;зоны комфорта написания стишков, саммари и поздравлений для&nbsp;бухгалтерии, в&nbsp;зону ответственности, такую как&nbsp;анализ сложных документов, комплаенс, медицина, право, аудит или&nbsp;стратегическое планирование и финансы? Там начинается серая зона, где ИИ не&nbsp;просто ошибается, он совершает ложные декларирования исполнения. То есть говорит: «Я прочитал и проверил», хотя на&nbsp;самом деле: «Я сгенерировал текст, похожий на&nbsp;отчет о&nbsp;проверке». Читать далее",
+      "published_at": "2026-05-10T01:35:05+00:00",
+      "topic": "Models",
+      "title_ru": "Цифровой аудит против галлюцинаций по ГОСТу. Как понять, когда ответу ИИ нельзя верить?",
+      "summary_ru": "Все мы привыкли, что&nbsp;нейросети&nbsp;— это про&nbsp;креатив,&nbsp;быстрый поиск и «накидай мне презу на&nbsp;завтра», но&nbsp;что&nbsp;происходит, когда вы выводите LLM из&nbsp;зоны комфорта написания стишков, саммари и поздравлений для&nbsp;бухгалтерии, в&nbsp;зону ответственности, такую как&nbsp;анализ сложных документов, комплаенс, медицина, право, аудит или&nbsp;стратегическое планирование и финансы? Там начинается серая зона, где ИИ не&nbsp;просто ошибается, он совершает ложные декларирования исполнения. То есть говорит: «Я прочитал и проверил», хотя на&nbsp;самом деле: «Я сгенерировал текст, похожий на&nbsp;отчет о&nbsp;проверке». Читать далее"
+    },
+    {
+      "id": "c7c11ee24f5445df",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "title_en": "So you’ve heard these AI terms and nodded along; let’s fix that",
+      "summary_en": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "published_at": "2026-05-09T21:45:00+00:00",
+      "topic": "Research",
+      "title_ru": "Вы слышали эти термины об ИИ и кивали в знак согласия; давайте это исправим.",
+      "summary_ru": "Рост ИИ привел к появлению множества новых терминов и сленга. Вот глоссарий с определениями некоторых из самых важных слов и фраз, с которыми вы можете столкнуться."
+    },
     {
       "id": "5180bb08c7d0a36f",
       "source": "Habr AI",
@@ -11,6 +99,17 @@
       "topic": "Startups",
       "title_ru": "Как я использовал Cursor для онбординга",
       "summary_ru": "Привет! Меня зовут Родион, и я фронтенд-разработчик. Когда-то в 2022 году писал свои первые сайты на нативном HTML, CSS и JavaScript. С тех пор успел поработать в стартапах и на фрилансе. Я работаю в проектах, которые пишутся уже не первый год. И каждый раз, когда я сталкиваюсь с новым, впервые вижу его структуру, то думаю, что разбираться в нем буду несколько месяцев. Нужно понять логику всех вложенностей, правил, «исторических особенностей», но в реальности хочется поскорее приступить к работе. Итак, расскажу о том, как решил эту проблему. В первые дни на новом месте мне дали задачу по созданию нового виджета. На проекте их уже было много, так что где-то должны были храниться файлы, в которые я планировал дописать строчки, а еще папки, чтобы добавить новые компоненты. Звучит элементарно, на поиск нужных мест я потратил около часа. Просто на то, чтобы понять, где все это лежит. Такой расклад меня, конечно, не устроил, и я пошел смотреть, что с этим можно сделать, — так и познакомился с Cursor. В этом посте расскажу, как настроил его под проект, какие промпты использовал, благодаря чему реально сэкономил время, и как боролся с багами. Надеюсь, будет полезно таким же как и я начинающим специалистам. Читать далее"
+    },
+    {
+      "id": "f8ef2468772c739f",
+      "source": "Hacker News AI",
+      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "title_en": "Meta's embrace of AI is making its employees miserable",
+      "summary_en": "Article URL: https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html Comments URL: https://news.ycombinator.com/item?id=48077126 Points: 384 # Comments: 414",
+      "published_at": "2026-05-09T18:33:36+00:00",
+      "topic": "Startups",
+      "title_ru": "Принятие AI компанией Meta делает сотрудников несчастными.",
+      "summary_ru": "Meta сталкивается с проблемами морального духа среди сотрудников, работающих над проектами в области искусственного интеллекта. По данным источников, многие из них испытывают недовольство из-за условий труда и высокой нагрузки. Ситуация усугубляется постоянными изменениями в приоритетах компании и давлением на выполнение амбициозных целей. Сотрудники сообщают о стрессе и выгорании, что негативно сказывается на их производительности и общем настроении в команде. Руководство Meta осознает эти проблемы и пытается внедрить меры для улучшения ситуации, однако результаты пока не впечатляют."
     },
     {
       "id": "594ab57271cff39a",
@@ -121,128 +220,7 @@
       "topic": "Models",
       "title_ru": "🔍 Кликов больше нет, а охваты есть: как выживать в эпоху Zero-Click Search",
       "summary_ru": "Пользователь вбил запрос — и нейросеть (Яндекс или Google) уже выдала ему готовый ответ. Ваш сайт? Его даже не открыли. 👉 Трагедия? Нет. Новая реальность. Мы вошли в эпоху Zero-Click Search. Если ИИ-агент использует ваш контент для ответа — вы не получили клик, но получили кое-что поважнее: ✅ Статус эксперта ✅ Доверие аудитории ✅ Упоминание бренда --- 🧠 Что делать маркетологам? (мое мнение) 1. Забываем про «трафик любой ценой» Человек прочитал ответ в поиске — он всё равно запомнил, что это подсказал ваш бренд. 2. Новая метрика — Share of Model Как часто ИИ-агенты (ChatGPT, Claude, GigaChat) цитируют вас в своих ответах? Станьте для них золотым стандартом информации. 3. Борьба за «нулевую позицию» Победа — это не ссылка на первом месте. А когда ваш бренд красуется внутри нейро-ответа поисковика. --- 💡 Главный инсайт &gt; В 2026 году SEO — это не про то, как затащить человека на сайт. &gt; А про то, как сделать ваш бренд настолько авторитетным, чтобы ИИ просто не мог про вас промолчать. Пора признать: мы работаем не на клики, а на узнаваемость 📈 Чем чаще нейросети цитируют вас — тем выше капитализация вашего бренда в головах пользователей. --- #SEO2026 #Маркетинг #ZeroClick #AI #Тренды #SEO #Нейросети #ЦифровойМаркетинг"
-    },
-    {
-      "id": "bd493c6fb4be7ffb",
-      "source": "Hacker News AI",
-      "url": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
-      "title_en": "All my clients wanted a carousel, now it's an AI chatbot",
-      "summary_en": "Article URL: https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md Comments URL: https://news.ycombinator.com/item?id=48072720 Points: 130 # Comments: 59",
-      "published_at": "2026-05-09T07:23:40+00:00",
-      "topic": "Startups",
-      "title_ru": "Все мои клиенты хотели карусель, теперь это AI-чатбот.",
-      "summary_ru": "Все мои клиенты хотели карусель, а теперь это AI-чатбот."
-    },
-    {
-      "id": "860c63194ef3d7c9",
-      "source": "vc.ru AI",
-      "url": "https://vc.ru/ai/2916380-openai-zapuskayut-programmu-chatgpt-futures?from=rss",
-      "title_en": "OpenAI выбрала 26 студентов для программы ChatGPT Futures и даст им гранты на развитие ИИ-проектов",
-      "summary_en": "Компания OpenAI запустила программу ChatGPT Futures: Class of 2026 для студентов и молодых разработчиков, которые используют искусственный интеллект в учебе, исследованиях, стартапах и общественных проектах. В первый набор вошли 26 участников из более чем 20 университетов и институтов, включая Vanderbilt, University of Toronto, Oxford и Georgia Tech. Каждый из них получит грант в размере 10 тысяч долларов и доступ к передовым моделям OpenAI.",
-      "published_at": "2026-05-09T06:10:09+00:00",
-      "topic": "Models",
-      "title_ru": "OpenAI выбрала 26 студентов для программы ChatGPT Futures и даст им гранты на развитие ИИ-проектов",
-      "summary_ru": "Компания OpenAI запустила программу ChatGPT Futures: Class of 2026 для студентов и молодых разработчиков, которые используют искусственный интеллект в учебе, исследованиях, стартапах и общественных проектах. В первый набор вошли 26 участников из более чем 20 университетов и институтов, включая Vanderbilt, University of Toronto, Oxford и Georgia Tech. Каждый из них получит грант в размере 10 тысяч долларов и доступ к передовым моделям OpenAI."
-    },
-    {
-      "id": "3eb04cdf5dff7818",
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything",
-      "title_en": "Quoting Luke Curley",
-      "summary_en": "WebRTC is designed to degrade and drop my prompt during poor network conditions. wtf my dude WebRTC aggressively drops audio packets to keep latency low. If you’ve ever heard distorted audio on a conference call, that’s WebRTC baybee. The idea is that conference calls depend on rapid back-and-forth, so pausing to wait for audio is unacceptable. …but as a user, I would much rather wait an extra 200ms for my slow/expensive prompt to be accurate. After all, I’m paying good money to boil the ocean, and a garbage prompt means a garbage response. It’s not like LLMs are particularly responsive anyway. But I’m not allowed to wait . It’s impossible to even retransmit a WebRTC audio packet within a browser; we tried at Discord. The implementation is hard-coded for real-time latency or else . &mdash; Luke Curley , OpenAI’s WebRTC Problem, in response to How OpenAI delivers low-latency voice AI at scale Tags: webrtc , openai",
-      "published_at": "2026-05-09T01:03:58+00:00",
-      "topic": "Models",
-      "title_ru": "Цитируя Люка Керли.",
-      "summary_ru": "WebRTC разработан для ухудшения качества и потери моего запроса при плохих условиях сети. WebRTC агрессивно отбрасывает аудиопакеты, чтобы поддерживать низкую задержку. Если вы когда-либо слышали искаженное аудио на конференц-связи, это WebRTC. Идея заключается в том, что конференц-связи зависят от быстрого обмена, поэтому ожидание аудио недопустимо. …но как пользователь, я бы предпочел подождать дополнительные 200 мс, чтобы мой медленный/дорогой запрос был точным. В конце концов, я плачу хорошие деньги за качественный результат, а плохой запрос означает плохой ответ. Не то чтобы LLM были особенно отзывчивыми. Но мне не разрешают ждать. В браузере невозможно даже повторно передать аудиопакет WebRTC; мы пробовали в Discord. Реализация жестко закодирована для реального времени, иначе… — Люк Кёрли, Проблема WebRTC в OpenAI, в ответ на то, как OpenAI обеспечивает низкую задержку голосового ИИ в масштабах. Теги: webrtc, openai"
-    },
-    {
-      "id": "1f1203a4b6d3475e",
-      "source": "Hacker News AI",
-      "url": "https://mccue.dev/pages/5-8-26-ai-art",
-      "title_en": "People Hate AI Art",
-      "summary_en": "Article URL: https://mccue.dev/pages/5-8-26-ai-art Comments URL: https://news.ycombinator.com/item?id=48070548 Points: 131 # Comments: 164",
-      "published_at": "2026-05-09T00:39:58+00:00",
-      "topic": "Startups",
-      "title_ru": "Люди ненавидят искусство, созданное ИИ.",
-      "summary_ru": "Статья недоступна для перевода."
-    },
-    {
-      "id": "cddc5b6e7f9b5663",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
-      "title_en": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-      "summary_en": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed that they’d promised to maintain&#8230;",
-      "published_at": "2026-05-08T23:59:19+00:00",
-      "topic": "Research",
-      "title_ru": "Неделя 2: Musk против Altman: OpenAI отвечает, а Shivon Zilis раскрывает, что Musk пытался переманить Сэма Альтмана.",
-      "summary_ru": "Во вторую неделю знакового судебного процесса между Илоной Маском и OpenAI внимание было сосредоточено на мотивах Маска для подачи иска. На прошлой неделе Маск выступил в суде, утверждая, что генеральный директор OpenAI Сэм Альтман и президент Грег Брокман обманули его, заставив пожертвовать 38 миллионов долларов компании. Он заявил, что они обещали поддерживать..."
-    },
-    {
-      "id": "208e689ff94e9ce7",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/articles/1033230/?utm_campaign=1033230&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Большие модели, маленькие токены. ЛЛМ - битва за контекст (ч.1)",
-      "summary_en": "Почему понимание токенов, весов и словарей — ключ к продуктивной работе с AI-агентами. Первая глава цикла “Битва за контекст”. Читать далее",
-      "published_at": "2026-05-08T23:42:33+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Большие модели, маленькие токены. ЛЛМ - битва за контекст (ч.1)",
-      "summary_ru": "Почему понимание токенов, весов и словарей — ключ к продуктивной работе с AI-агентами. Первая глава цикла “Битва за контекст”. Читать далее"
-    },
-    {
-      "id": "18e393ee2491bab3",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-      "title_en": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
-      "summary_en": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
-      "published_at": "2026-05-08T22:59:05+00:00",
-      "topic": "Regulations",
-      "title_ru": "Уволенные сотрудники Oracle пытались договориться о лучших условиях выходного пособия. Oracle отказала.",
-      "summary_ru": "Некоторые узнали, что не имеют права на защиту по закону WARN, включая двухмесячное уведомление, поскольку компания классифицировала их как удаленных работников."
-    },
-    {
-      "id": "8b7b40ac32ebcd71",
-      "source": "Habr AI",
-      "url": "https://habr.com/ru/articles/1033220/?utm_campaign=1033220&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Чему меня научили два месяца с легковесным локальным AI-агентом",
-      "summary_en": "Два месяца назад openLight был маленьким pet project’ом: Raspberry Pi, Telegram-бот, SQLite и несколько команд для управления сервисами. Мне просто хотелось перестать печатать ssh pi@raspberrypi.local с телефона каждый раз, когда падал очередной контейнер или начинал странно вести себя Tailscale. За это время проект неожиданно превратился во что-то большее. Не в “автономного AI-агента”, а скорее в легковесный слой управления для personal infrastructure — маленьких always-on машин вроде Raspberry Pi, Mac mini, VPS или старых домашних серверов. В статье я подробно разбираю: * почему почти весь проект пришлось переписать хотя бы один раз * как deterministic-first роутинг оказался полезнее “умных” AI-агентов * зачем я отказался от идеи сложного tool calling в пользу простых и проверяемых skill’ов * почему Telegram неожиданно оказался идеальным интерфейсом для homelab-инфраструктуры; * и почему, как мне кажется, будущее локальных AI-систем будет не “магическим”, а маленьким, наблюдаемым и ремонтопригодным. Это не история про очередной AI framework. Скорее инженерная ретроспектива о том, как реальное использование быстро ломает красивые архитектурные идеи, и почему иногда один Go-бинарь, SQLite и несколько хорошо продуманных allowlist’ов оказываются полезнее огромных cloud-native систем. Читать далее",
-      "published_at": "2026-05-08T21:59:53+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Чему меня научили два месяца с легковесным локальным AI-агентом",
-      "summary_ru": "Два месяца назад openLight был маленьким pet project’ом: Raspberry Pi, Telegram-бот, SQLite и несколько команд для управления сервисами. Мне просто хотелось перестать печатать ssh pi@raspberrypi.local с телефона каждый раз, когда падал очередной контейнер или начинал странно вести себя Tailscale. За это время проект неожиданно превратился во что-то большее. Не в “автономного AI-агента”, а скорее в легковесный слой управления для personal infrastructure — маленьких always-on машин вроде Raspberry Pi, Mac mini, VPS или старых домашних серверов. В статье я подробно разбираю: * почему почти весь проект пришлось переписать хотя бы один раз * как deterministic-first роутинг оказался полезнее “умных” AI-агентов * зачем я отказался от идеи сложного tool calling в пользу простых и проверяемых skill’ов * почему Telegram неожиданно оказался идеальным интерфейсом для homelab-инфраструктуры; * и почему, как мне кажется, будущее локальных AI-систем будет не “магическим”, а маленьким, наблюдаемым и ремонтопригодным. Это не история про очередной AI framework. Скорее инженерная ретроспектива о том, как реальное использование быстро ломает красивые архитектурные идеи, и почему иногда один Go-бинарь, SQLite и несколько хорошо продуманных allowlist’ов оказываются полезнее огромных cloud-native систем. Читать далее"
-    },
-    {
-      "id": "4603f86027bf6141",
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
-      "title_en": "Using Claude Code: The Unreasonable Effectiveness of HTML",
-      "summary_en": "Using Claude Code: The Unreasonable Effectiveness of HTML Thought-provoking piece by Thariq Shihipar (on the Claude Code team at Anthropic) advocating for HTML over Markdown as an output format to request from Claude. The article is crammed with interesting examples (collected on this site ) and prompt suggestions like this one: Help me review this PR by creating an HTML artifact that describes it. I'm not very familiar with the streaming/backpressure logic so focus on that. Render the actual diff with inline margin annotations, color-code findings by severity and whatever else might be needed to convey the concept well. I've been defaulting to asking for most things in Markdown since the GPT-4 days, when the 8,192 token limit meant that Markdown's token-efficiency over HTML was extremely worthwhile. Thariq's piece here has caused me to reconsider that, especially for output. Asking Claude for an explanation in HTML means it can drop in SVG diagrams, interactive widgets, in-page navigation and all sorts of other neat ways of making the information more pleasant to navigate. I wrote about Useful patterns for building HTML tools last December, but that was focused very much on interactive utilities like the ones on my tools.simonwillison.net site. I'm excited to start experimenting more with rich HTML explanations in response to ad-hoc prompts. Trying this out on copy.fail copy.fail describes a recently discovered Linux security exploit, including a proof of concept distributed as obfuscated Python. I tried having GPT-5.5 create an HTML explanation of the exploit like this: curl https://copy.fail/exp | llm -m gpt-5.5 -s 'Explain this code in detail. Reformat it, expand out any confusing bits and go deep into what it does and how it works. Output HTML, neatly styled and using capabilities of HTML and CSS and JavaScript to make the explanation rich and interactive and as clear as possible' Here's the resulting HTML page . It's pretty good, though I should have emphasized explaining the exploit over the Python harness around it. Tags: html , security , markdown , ai , prompt-engineering , generative-ai , llms , llm , claude-code",
-      "published_at": "2026-05-08T21:00:11+00:00",
-      "topic": "Models",
-      "title_ru": "Использование Claude Code: Непомерная эффективность HTML",
-      "summary_ru": "Статья Тариqa Shihipar \"Непомерная эффективность HTML\" выступает в защиту использования HTML в качестве формата вывода для запросов к Claude, вместо Markdown. В статье приведены интересные примеры и предложения по запросам, такие как: \"Помоги мне проверить этот PR, создав HTML-артефакт, который его описывает. Я не очень знаком с логикой потоков/обратного давления, поэтому сосредоточься на этом. Отобрази фактические изменения с аннотациями на полях, раскрась находки по степени серьезности и добавь все, что может помочь лучше донести концепцию.\" Ранее я предпочитал запрашивать большинство вещей в Markdown, поскольку в эпоху GPT-4 лимит в 8192 токена делал эффективность Markdown по сравнению с HTML крайне важной. Однако статья Тариqa заставила меня пересмотреть это, особенно в контексте вывода. Запрашивая у Claude объяснение в HTML, можно включать SVG-диаграммы, интерактивные виджеты, навигацию по странице и другие удобные способы представления информации. В декабре я писал о полезных паттернах для создания HTML-инструментов, но это было сосредоточено на интерактивных утилитах, подобных тем, что находятся на моем сайте tools.simonwillison.net. Я рад начать экспериментировать с богатыми HTML-объяснениями в ответ на спонтанные запросы. Я попробовал это на copy.fail, который описывает недавно обнаруженную уязвимость в Linux, включая доказательство концепции, представленное в виде обфусцированного Python-кода. Я попросил GPT-5.5 создать HTML-объяснение уязвимости следующим образом: \"curl https://copy.fail/exp | llm -m gpt-5.5 -s 'Объясни этот код подробно. Переформатируй его, разъясни любые запутанные моменты и углубись в то, что он делает и как работает. Выводи HTML, аккуратно оформленный с использованием возможностей HTML, CSS и JavaScript, чтобы сделать объяснение богатым, интерактивным и максимально ясным.'\" Вот полученная HTML-страница. Она довольно хороша, хотя мне следовало бы акцентировать внимание на объяснении уязвимости, а не на Python-обертке вокруг нее. Теги: html, безопасность, markdown, ai, инженерия-запросов, генеративный-ai, llms, llm, claude-code."
-    },
-    {
-      "id": "16a2d9af2d0cbdc1",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/gaming/2026/05/sony-says-efficient-ai-tools-will-lead-to-even-more-games-flooding-the-market/",
-      "title_en": "Sony says \"efficient\" AI tools will lead to even more games flooding the market",
-      "summary_en": "But human artists still \"must remain at the center,\" PlayStation maker says.",
-      "published_at": "2026-05-08T20:51:17+00:00",
-      "topic": "Research",
-      "title_ru": "Sony заявляет, что \"эффективные\" инструменты ИИ приведут к еще большему количеству игр на рынке.",
-      "summary_ru": "Но человеческие художники все равно \"должны оставаться в центре\", говорит производитель PlayStation."
-    },
-    {
-      "id": "be27dd67aaedd773",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
-      "title_en": "Intel’s comeback story is even wilder than it seems",
-      "summary_en": "Intel's stock has risen a stunning 490% over the past year, a bet by Wall Street that may be running well ahead of the company's actual turnaround.",
-      "published_at": "2026-05-08T20:02:52+00:00",
-      "topic": "Regulations",
-      "title_ru": "Возвращение Intel оказывается еще более захватывающим, чем кажется.",
-      "summary_ru": "Акции Intel за последний год выросли на впечатляющие 490%, что является ставкой Уолл-стрита, возможно, опережающей фактическое восстановление компании."
     }
   ],
-  "dedup_at": "2026-05-09T20:01:43.836550+00:00"
+  "dedup_at": "2026-05-10T08:08:47.117177+00:00"
 }
