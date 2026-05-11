@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI Daily — архив и поиск</title>
+  <title>AI &amp; Crypto Daily — архив и поиск</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="header">
     <div class="container">
-      <h1>AI Daily — архив</h1>
+      <h1>AI &amp; Crypto Daily — архив</h1>
       <p class="subtitle">
         Поиск по всем материалам ·
         <a href="./" style="color:var(--accent);">← на главную</a>
@@ -20,6 +20,11 @@
   <section class="container search-block">
     <input id="search" type="search" placeholder="Поиск по заголовку и описанию…" autocomplete="off" />
     <div class="filter-row">
+      <select id="category-filter">
+        <option value="all">Все разделы</option>
+        <option value="ai">🤖 AI</option>
+        <option value="crypto">₿ Crypto</option>
+      </select>
       <select id="topic-filter">
         <option value="all">Все темы</option>
       </select>

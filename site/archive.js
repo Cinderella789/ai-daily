@@ -4,6 +4,7 @@
   const metaEl = $("meta");
   const pagerEl = $("pager");
   const searchEl = $("search");
+  const categoryEl = $("category-filter");
   const topicEl = $("topic-filter");
   const sourceEl = $("source-filter");
   const periodEl = $("period-filter");
@@ -29,6 +30,7 @@
   function getQuery() {
     return {
       q: searchEl.value.trim().toLowerCase(),
+      category: categoryEl.value,
       topic: topicEl.value,
       source: sourceEl.value,
       period: periodEl.value,
@@ -36,12 +38,13 @@
   }
 
   function applyFilters() {
-    const { q, topic, source, period } = getQuery();
+    const { q, category, topic, source, period } = getQuery();
     let cutoff = 0;
     if (period !== "all") {
       cutoff = Date.now() - Number(period) * 24 * 3600 * 1000;
     }
     return items.filter((it) => {
+      if (category !== "all" && (it.category || "ai") !== category) return false;
       if (topic !== "all" && it.topic !== topic) return false;
       if (source !== "all" && it.source !== source) return false;
       if (cutoff && new Date(it.published_at).getTime() < cutoff) return false;
@@ -96,9 +99,13 @@
       });
       const title = highlight(titleRaw, q);
       const summary = highlight(summaryRaw, q);
+      const catBadge = it.category === "crypto"
+        ? '<span class="cat-badge crypto">₿ Crypto</span>'
+        : '<span class="cat-badge ai">🤖 AI</span>';
       return `
         <article class="news-card">
           <div class="topbar">
+            ${catBadge}
             <span class="topic">${it.topic || ""}</span>
             <span>${it.source || ""}</span>
             <span>· ${date}</span>
@@ -127,6 +134,7 @@
   }
 
   searchEl.addEventListener("input", debouncedRender);
+  categoryEl.addEventListener("change", debouncedRender);
   topicEl.addEventListener("change", debouncedRender);
   sourceEl.addEventListener("change", debouncedRender);
   periodEl.addEventListener("change", debouncedRender);

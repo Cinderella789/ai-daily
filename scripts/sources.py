@@ -1,6 +1,13 @@
-"""Конфигурация источников новостей и тем."""
+"""Конфигурация источников новостей и тем.
 
-RSS_FEEDS = [
+Каждый источник помечен категорией: "ai" или "crypto".
+Категория попадает в каждую новость как поле item["category"].
+"""
+
+# ============================================================
+# AI источники
+# ============================================================
+AI_RSS_FEEDS = [
     # Английские — индустрия
     {"name": "TechCrunch AI",    "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
     {"name": "VentureBeat AI",   "url": "https://venturebeat.com/category/ai/feed/"},
@@ -41,15 +48,62 @@ RSS_FEEDS = [
     {"name": "vc.ru GPT",        "url": "https://vc.ru/rss/tag/gpt"},
 ]
 
+# ============================================================
+# Crypto источники
+# ============================================================
+CRYPTO_RSS_FEEDS = [
+    # Английские — крупные медиа
+    {"name": "CoinDesk",         "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
+    {"name": "Cointelegraph",   "url": "https://cointelegraph.com/rss"},
+    {"name": "The Block",       "url": "https://www.theblock.co/rss.xml"},
+    {"name": "Decrypt",         "url": "https://decrypt.co/feed"},
+    {"name": "CryptoSlate",     "url": "https://cryptoslate.com/feed/"},
+    {"name": "Bankless",        "url": "https://newsletter.banklesshq.com/feed"},
+    {"name": "Blockworks",      "url": "https://blockworks.co/feed"},
+    {"name": "DL News",         "url": "https://www.dlnews.com/arc/outboundfeeds/rss/"},
+
+    # Английские — research / аналитика
+    {"name": "Messari",         "url": "https://messari.io/rss"},
+    {"name": "a16z crypto",     "url": "https://a16zcrypto.com/feed/"},
+    {"name": "DefiLlama Blog",  "url": "https://defillama.com/blog/feed.xml"},
+
+    # Биржи и L1
+    {"name": "Binance Blog",    "url": "https://www.binance.com/en/blog/rss/all"},
+    {"name": "Coinbase Blog",   "url": "https://www.coinbase.com/blog/rss"},
+    {"name": "Ethereum Blog",   "url": "https://blog.ethereum.org/feed.xml"},
+    {"name": "Solana Blog",     "url": "https://solana.com/news/rss.xml"},
+
+    # Русскоязычные
+    {"name": "Forklog",         "url": "https://forklog.com/feed"},
+    {"name": "BeInCrypto RU",   "url": "https://ru.beincrypto.com/feed/"},
+    {"name": "Bits.media",      "url": "https://bits.media/rss/news/"},
+    {"name": "Cointelegraph RU","url": "https://ru.cointelegraph.com/rss"},
+    {"name": "Habr Crypto",     "url": "https://habr.com/ru/rss/hub/cryptocurrency/all/?fl=ru"},
+    {"name": "Habr Blockchain", "url": "https://habr.com/ru/rss/hub/blockchain/all/?fl=ru"},
+]
+
+# Объединённый список (для обратной совместимости и общего fetch)
+RSS_FEEDS = AI_RSS_FEEDS + CRYPTO_RSS_FEEDS
+
+# Маппинг источник -> категория ("ai" или "crypto")
+SOURCE_CATEGORY = {
+    **{f["name"]: "ai"     for f in AI_RSS_FEEDS},
+    **{f["name"]: "crypto" for f in CRYPTO_RSS_FEEDS},
+    "arXiv": "ai",  # arXiv cs.AI/cs.LG/cs.CL
+}
+
 # Источники, у которых контент уже на русском — перевод не нужен
 RUSSIAN_SOURCES = {
     "Habr AI", "Habr ML", "Habr NLP", "Habr CV",
     "vc.ru AI", "vc.ru GPT",
+    "Forklog", "BeInCrypto RU", "Bits.media", "Cointelegraph RU",
+    "Habr Crypto", "Habr Blockchain",
 }
 
 ARXIV_CATEGORIES = ["cs.AI", "cs.LG", "cs.CL"]
 
-TOPICS = [
+# Темы для AI-новостей
+TOPICS_AI = [
     "Models",
     "Hardware",
     "Regulations",
@@ -59,8 +113,23 @@ TOPICS = [
     "Corporate AI",
 ]
 
+# Темы для Crypto-новостей
+TOPICS_CRYPTO = [
+    "Bitcoin",
+    "Ethereum",
+    "DeFi",
+    "Altcoins",
+    "Regulations",
+    "Hacks",
+    "Macro",
+    "NFT & Gaming",
+]
+
+# Объединённый список (для обратной совместимости)
+TOPICS = TOPICS_AI + TOPICS_CRYPTO
+
 # Ключевые слова для эвристической классификации (lowercase, EN + RU)
-TOPIC_KEYWORDS = {
+TOPIC_KEYWORDS_AI = {
     "Models": [
         "gpt", "claude", "llama", "gemini", "mistral", "qwen", "deepseek",
         "model release", "fine-tune", "foundation model", "новая модель",
@@ -95,3 +164,54 @@ TOPIC_KEYWORDS = {
         "тинькофф", "т-банк", "вк", "корпорат",
     ],
 }
+
+TOPIC_KEYWORDS_CRYPTO = {
+    "Bitcoin": [
+        "bitcoin", " btc ", "btc/", "satoshi", "halving", "lightning network",
+        "биткоин", "биткойн", "халвинг", "сатоши",
+    ],
+    "Ethereum": [
+        "ethereum", " eth ", "eth/", "vitalik", "layer 2", "l2", "rollup",
+        "optimism", "arbitrum", "base", "zksync", "starknet",
+        "эфир", "эфириум", "виталик", "роллап",
+    ],
+    "DeFi": [
+        "defi", "uniswap", "aave", "curve", "maker", "compound", "lido",
+        "liquidity", "yield", "farming", "staking", "lending", "perp",
+        "perpetual", "dex", "amm", "tvl", "vault",
+        "дефи", "децентрализован", "ликвидност", "стейкинг", "фарм",
+    ],
+    "Altcoins": [
+        "solana", " sol ", "avalanche", " avax", "cardano", " ada ",
+        "polkadot", " dot ", "chainlink", " link ", "polygon", "matic",
+        "sui", "aptos", "near", "cosmos", "atom",
+        "meme", "memecoin", "мем-коин", "альткоин", "альт",
+        "doge", "shib", "pepe", "bonk", "wif",
+    ],
+    "Regulations": [
+        "sec", "cftc", "regulation", "compliance", "lawsuit", "ban",
+        "approved", "approval", "settlement", "licence", "license",
+        "mica", "кик", "цб", "центробанк", "закон", "регулирован",
+        "запрет", "одобрил", "иск", "штраф", "лицензи",
+    ],
+    "Hacks": [
+        "hack", "exploit", "drained", "stolen", "breach", "vulnerability",
+        "rug pull", "phishing", "attack", "compromised",
+        "взлом", "эксплойт", "украл", "уязвимост", "скам", "скам-проект",
+        "взломали", "вывели",
+    ],
+    "Macro": [
+        "etf", "futures", "fed", "federal reserve", "interest rate",
+        "inflation", "institutional", "blackrock", "fidelity", "grayscale",
+        "microstrategy", "strategy", "michael saylor",
+        "фрс", "ставк", "инфляц", "институционал", "фьючерс", "этф",  # этф = ETF
+    ],
+    "NFT & Gaming": [
+        "nft", "opensea", "blur", "magic eden", "gamefi", "play-to-earn",
+        "p2e", "axie", "sandbox", "decentraland",
+        "нфт", "геймфай", "плэй-ту-эрн", "геймин",
+    ],
+}
+
+# Объединённый словарь — используется classify_news.py если нужна общая классификация
+TOPIC_KEYWORDS = {**TOPIC_KEYWORDS_AI, **TOPIC_KEYWORDS_CRYPTO}

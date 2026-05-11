@@ -43,10 +43,11 @@ def _clean_html(text: str) -> str:
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from sources import RSS_FEEDS, ARXIV_CATEGORIES  # noqa: E402
+from sources import RSS_FEEDS, ARXIV_CATEGORIES, SOURCE_CATEGORY  # noqa: E402
 
 WINDOW_HOURS = 24
 MAX_PER_SOURCE = 8  # ограничение выдачи одного источника — чтобы лента была разнообразной
+MAX_PER_CATEGORY = 80  # ограничение на категорию (ai/crypto), чтобы одна не забивала другую
 DATA_PATH = ROOT / "data" / "latest.json"
 
 
@@ -80,6 +81,7 @@ def fetch_rss() -> list[dict]:
             items.append({
                 "id": _stable_id(url),
                 "source": feed["name"],
+                "category": SOURCE_CATEGORY.get(feed["name"], "ai"),
                 "url": url,
                 "title_en": title,
                 "summary_en": _clean_html(entry.get("summary", "")),
@@ -108,6 +110,7 @@ def fetch_arxiv() -> list[dict]:
         items.append({
             "id": _stable_id(r.entry_id),
             "source": "arXiv",
+            "category": "ai",
             "url": r.entry_id,
             "title_en": r.title.strip(),
             "summary_en": r.summary.strip(),
@@ -127,14 +130,19 @@ def main() -> None:
         deduped.append(it)
     deduped.sort(key=lambda x: x["published_at"], reverse=True)
 
-    # Ограничиваем количество материалов от одного источника
-    counts: dict[str, int] = {}
+    # Ограничиваем количество материалов от одного источника и от категории
+    src_counts: dict[str, int] = {}
+    cat_counts: dict[str, int] = {}
     capped: list[dict] = []
     for it in deduped:
         src = it["source"]
-        if counts.get(src, 0) >= MAX_PER_SOURCE:
+        cat = it.get("category", "ai")
+        if src_counts.get(src, 0) >= MAX_PER_SOURCE:
             continue
-        counts[src] = counts.get(src, 0) + 1
+        if cat_counts.get(cat, 0) >= MAX_PER_CATEGORY:
+            continue
+        src_counts[src] = src_counts.get(src, 0) + 1
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
         capped.append(it)
     deduped = capped
 

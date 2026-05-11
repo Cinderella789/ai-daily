@@ -1,11 +1,12 @@
-# AI Daily
+# AI &amp; Crypto Daily
 
-Русскоязычный дашборд новостей искусственного интеллекта. Агрегирует RSS из ключевых источников, классифицирует материалы по темам, переводит заголовки и саммари на русский и формирует ежедневный digest.
+Русскоязычный дашборд новостей AI и крипты. Агрегирует RSS из ключевых источников, классифицирует материалы по категориям и темам, переводит заголовки и саммари на русский и формирует ежедневный digest.
 
 Прод-версия: [ai-daily-9au.pages.dev](https://ai-daily-9au.pages.dev) · бэкап: [cinderella789.github.io/ai-daily](https://cinderella789.github.io/ai-daily/)
 
 ## Источники
 
+### AI
 **Индустриальные медиа:** TechCrunch AI, VentureBeat AI, The Verge AI, Ars Technica AI, Wired AI, MIT Technology Review
 
 **Лаборатории и компании:** OpenAI, Google AI, Google DeepMind, Hugging Face
@@ -16,9 +17,20 @@
 
 **Русскоязычные:** Habr (AI), Habr (Machine Learning), vc.ru (тег AI)
 
+### Crypto
+**Крупные медиа:** CoinDesk, Cointelegraph, The Block, Decrypt, CryptoSlate, Bankless, Blockworks, DL News
+
+**Research:** Messari, a16z crypto, DefiLlama Blog
+
+**Биржи и L1:** Binance, Coinbase, Ethereum Foundation, Solana
+
+**Русскоязычные:** Forklog, BeInCrypto RU, Bits.media, Cointelegraph RU, Habr (Crypto, Blockchain)
+
 ## Темы
 
-`Models` · `Hardware` · `Regulations` · `Startups` · `Research` · `AI Agents` · `Corporate AI`
+**AI:** `Models` · `Hardware` · `Regulations` · `Startups` · `Research` · `AI Agents` · `Corporate AI`
+
+**Crypto:** `Bitcoin` · `Ethereum` · `DeFi` · `Altcoins` · `Regulations` · `Hacks` · `Macro` · `NFT & Gaming`
 
 ## Структура проекта
 
