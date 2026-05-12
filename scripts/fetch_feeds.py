@@ -66,8 +66,16 @@ def _entry_dt(entry) -> datetime | None:
 def fetch_rss() -> list[dict]:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=WINDOW_HOURS)
     items: list[dict] = []
+    failed: list[str] = []
     for feed in RSS_FEEDS:
-        parsed = feedparser.parse(feed["url"])
+        try:
+            parsed = feedparser.parse(feed["url"])
+        except Exception as e:
+            failed.append(f"{feed['name']}: {type(e).__name__}")
+            continue
+        if getattr(parsed, "bozo", 0) and not getattr(parsed, "entries", None):
+            failed.append(f"{feed['name']}: parse failed")
+            continue
         for entry in parsed.entries:
             dt = _entry_dt(entry)
             if not dt or dt < cutoff:
@@ -87,6 +95,8 @@ def fetch_rss() -> list[dict]:
                 "summary_en": _clean_html(entry.get("summary", "")),
                 "published_at": dt.isoformat(),
             })
+    if failed:
+        print(f"[fetch_rss] skipped {len(failed)} failing feeds: {failed[:5]}")
     return items
 
 
@@ -103,7 +113,12 @@ def fetch_arxiv() -> list[dict]:
         max_results=50,
         sort_by=arxiv.SortCriterion.SubmittedDate,
     )
-    for r in search.results():
+    try:
+        results = list(search.results())
+    except Exception as e:
+        print(f"[fetch_arxiv] skipped due to API error: {type(e).__name__}: {e}")
+        return []
+    for r in results:
         dt = r.published.astimezone(timezone.utc)
         if dt < cutoff:
             continue
