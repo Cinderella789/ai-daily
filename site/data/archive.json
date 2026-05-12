@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "id": "24f112a41ce34dbb",
+      "source": "RBC Crypto",
+      "category": "crypto",
+      "url": "https://www.rbc.ru/sport/11/05/2026/69d3b3c09a794770cbbbf327",
+      "title_en": "В «Динамо» назвали причину эвакуации арены после матча с «Краснодаром»",
+      "summary_en": "Примерно через час после окончания игры поступил сигнал о возможной угрозе. По итогам проверки с привлечением кинологической службы опасных предметов не обнаружено",
+      "published_at": "2026-05-12T07:41:57+00:00",
+      "topic": "Altcoins",
+      "title_ru": "В «Динамо» назвали причину эвакуации арены после матча с «Краснодаром»",
+      "summary_ru": "Примерно через час после окончания игры поступил сигнал о возможной угрозе. По итогам проверки с привлечением кинологической службы опасных предметов не обнаружено"
+    },
+    {
+      "id": "93e015a223f35fba",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/huma-finance-101k-exploit-polygon/",
+      "title_en": "Huma Finance reports $101K exploit of deprecated V1 contracts on Polygon",
+      "summary_en": "The exploit highlights the critical need for DeFi protocols to secure deprecated contracts to prevent future vulnerabilities and financial losses. The post Huma Finance reports $101K exploit of deprecated V1 contracts on Polygon appeared first on Crypto Briefing .",
+      "published_at": "2026-05-12T07:41:49+00:00",
+      "topic": "DeFi",
+      "title_ru": "Huma Finance сообщает о взломе на сумму $101K из-за устаревших контрактов V1 на Polygon.",
+      "summary_ru": "Эксплуатация подчеркивает критическую необходимость для DeFi-протоколов защищать устаревшие контракты, чтобы предотвратить будущие уязвимости и финансовые потери. Пост Huma Finance сообщает о взломе устаревших контрактов V1 на Polygon на сумму 101 тыс. долларов."
+    },
+    {
+      "id": "43fe88a7a5105a8b",
+      "source": "RBC Crypto",
+      "category": "crypto",
+      "url": "https://www.rbc.ru/rbcfreenews/69eaac069a7947441eed51f9",
+      "title_en": "США сосредоточили 20 боевых кораблей вблизи Ирана",
+      "summary_en": "В Аравийском море находятся 20 боевых кораблей&nbsp;ВМС США и еще два находятся в пути.",
+      "published_at": "2026-05-12T07:41:36+00:00",
+      "topic": "Altcoins",
+      "title_ru": "США сосредоточили 20 боевых кораблей вблизи Ирана",
+      "summary_ru": "В Аравийском море находятся 20 боевых кораблей&nbsp;ВМС США и еще два находятся в пути."
+    },
+    {
+      "id": "6fad8be8a33208ba",
+      "source": "RBC Crypto",
+      "category": "crypto",
+      "url": "https://www.rbc.ru/sport/06/03/2025/67c9c8319a794779cd2889b5",
+      "title_en": "Два игрока «Зенита» вошли в расширенный состав сборной Бразилии на ЧМ",
+      "summary_en": "Луис Энрике и Дуглас Сантос из «Зенита» вошли в расширенную заявку сборной Бразилии на ЧМ‑2026. Всего в предварительный список, направленный в ФИФА, попало 55 футболистов. Финальную заявку из 26 человек объявят 18 мая",
+      "published_at": "2026-05-12T07:37:41+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Два игрока «Зенита» вошли в расширенный состав сборной Бразилии на ЧМ",
+      "summary_ru": "Луис Энрике и Дуглас Сантос из «Зенита» вошли в расширенную заявку сборной Бразилии на ЧМ‑2026. Всего в предварительный список, направленный в ФИФА, попало 55 футболистов. Финальную заявку из 26 человек объявят 18 мая"
+    },
+    {
       "id": "168d93ec70a7d513",
       "source": "Habr AI",
       "category": "ai",
@@ -11,6 +59,54 @@
       "topic": "Models",
       "title_ru": "Почему spec-driven development плохо работает на микросервисах: часть 1. Где теряется контекст",
       "summary_ru": "Я работаю в большой продуктовой компании с тысячей микросервисов.&nbsp;В такой системе даже небольшая фича часто проходит через несколько сервисов,&nbsp;событий и внутренних контрактов.&nbsp;Spec-driven development с LLM уже применяется в некоторых командах для планирования и ревью фич,&nbsp;поэтому мне было важно понять,&nbsp;где этот подход помогает,&nbsp;а где начинает ошибаться.&nbsp;Пока задача живёт внутри одного сервиса,&nbsp;всё обычно идёт быстро:&nbsp;спека короткая,&nbsp;описание и реализация помещаются в контекст модели.&nbsp;Но как только фича проходит через несколько сервисов,&nbsp;начинаются проблемы.&nbsp;По отдельности каждый кусок выглядит нормально:&nbsp;разбиение на слои,&nbsp;именование по код стайлу,&nbsp;прохождение тестов и ревью.&nbsp;Но в целом система не работает должным образом.&nbsp;Типичные ошибки:&nbsp;нет идемпотентности,&nbsp;LLM упускает сценарии и edge case-ы,&nbsp;появляются циклические вызовы сервисов.&nbsp;Чем больше делаешь правок,&nbsp;тем больше ошибок она допускает. Для эксперимента я собрал отдельный стенд:&nbsp; Go-проект - платформа для поиска фрилансеров .&nbsp;Внутри 12 микросервисов,&nbsp;связанных через gRPC и брокер сообщений;&nbsp;в этом проекте брокером выступает NATS.&nbsp;Одни сервисы хранят задачи и профили исполнителей,&nbsp;другие подбирают кандидатов,&nbsp;считают расстояния,&nbsp;проверяют портфолио и отправляют уведомления.&nbsp;Проект специально спроектирован с шестью категориями архитектурных ловушек:&nbsp;они проявляются не внутри одного сервиса,&nbsp;а на границах между сервисами. Фича для эксперимента была такой:&nbsp;если выбранный фрилансер отказался от оффера,&nbsp;платформа должна автоматически найти следующего подходящего кандидата,&nbsp;отправить ему новый оффер и уведомить заказчика о переназначении. Claude написал спеку,&nbsp;реализацию и юнит-тесты,&nbsp;но полный сценарий отказа и переназначения не сошёлся.&nbsp;Два независимых ревью нашли одну и ту же группу ошибок:&nbsp;по отдельности сервисы выглядели нормально,&nbsp;а вместе работали не так,&nbsp;как нужно. На это можно ответить,&nbsp;что нужен end-to-end тест на весь сценарий,&nbsp;но это не закрывает проблему целиком.&nbsp;End-to-end тесты есть не везде,&nbsp;их дорого поддерживать,&nbsp;и они не покрывают все развилки:&nbsp;особенно редкие edge case-ы,&nbsp;дубликаты событий,&nbsp;гонки и редкие комбинации условий.&nbsp;Главное же в другом:&nbsp;на этапе spec-driven разработки модель должна помочь собрать требования,&nbsp;ограничения и контекст,&nbsp;а именно там она часто ошибается. Разработчик тоже не всегда заранее знает,&nbsp;где спрятана проблема.&nbsp;Он может помнить про Outbox,&nbsp;дедупликацию уведомлений или особые требования конкретного сервиса к входным данным,&nbsp;но не сформулировать это как ограничение для новой фичи.&nbsp;LLM читает документы по сервисам,&nbsp;задаёт уточняющие вопросы и всё равно может пропустить связь между ними. В итоге спека получается подробной,&nbsp;но неполной:&nbsp;в ней есть локальные изменения по сервисам,&nbsp;зато нет системных инвариантов,&nbsp;которые живут между сервисами.&nbsp;Реализация может быть нормально разложена по слоям,&nbsp;тесты отдельных компонентов проходят,&nbsp;а ошибка обнаруживается уже на уровне сценария или ревью. Где LLM теряет контекст"
+    },
+    {
+      "id": "44ee76eb5ad8b83a",
+      "source": "RBC Crypto",
+      "category": "crypto",
+      "url": "https://www.rbc.ru/finances/06/05/2026/69fad48f9a79475fd8f7c717",
+      "title_en": "США ввели санкции против посредников в торговле нефтью Ирана с Китаем",
+      "summary_en": "США включили в санкционный список ряд компаний и лиц, которых Вашингтон связывает с поставками иранской нефти в Китай. Ранее Трамп предложил Китаю направить нефтяные танкеры в США вместо стран Персидского залива",
+      "published_at": "2026-05-12T07:33:21+00:00",
+      "topic": "Macro",
+      "title_ru": "США ввели санкции против посредников в торговле нефтью Ирана с Китаем",
+      "summary_ru": "США включили в санкционный список ряд компаний и лиц, которых Вашингтон связывает с поставками иранской нефти в Китай. Ранее Трамп предложил Китаю направить нефтяные танкеры в США вместо стран Персидского залива"
+    },
+    {
+      "id": "2e6bb7f8ecef2f28",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.club/demand-for-commodities-pushed-the-silver-price-up-5-56-to-84-77/",
+      "title_en": "Серебро подорожало на 5,56% до $84,77, обогнав биткоин",
+      "summary_en": "Сегодня серебро торгуется по цене около $84,77 после роста на 5,56% за день. Биткоин торгуется по цене около $81,000 после того, как на выходных его цена поднялась выше $82,000. В начале этой торговой недели спотовая цена на серебро поднялась до $84,77, подорожав на 5,56%, впервые с 13 марта. На внутридневном графике серебра произошёл резкий скачок [&#8230;] Источник",
+      "published_at": "2026-05-12T07:31:32+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Серебро подорожало на 5,56% до $84,77, обогнав биткоин",
+      "summary_ru": "Сегодня серебро торгуется по цене около $84,77 после роста на 5,56% за день. Биткоин торгуется по цене около $81,000 после того, как на выходных его цена поднялась выше $82,000. В начале этой торговой недели спотовая цена на серебро поднялась до $84,77, подорожав на 5,56%, впервые с 13 марта. На внутридневном графике серебра произошёл резкий скачок [&#8230;] Источник"
+    },
+    {
+      "id": "42513500cf1fe8ab",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/cardano-foundation-ceo-why-the-world-needs-a-neutral-blockchain-settlement-layer/",
+      "title_en": "Cardano Foundation CEO: Why the World Needs a ‘Neutral’ Blockchain Settlement Layer",
+      "summary_en": "Frederik Gregaard, head of the Cardano Foundation, highlighted that in an age when the current banking system has been revealed to be deeply politicized, blockchain has the opportunity to rise as a neutral, resilient, and transparent system to support global commerce. Cardano Foundation CEO Talks Blockchain as a Neutral Settlement Layer While blockchain technology is [&#8230;]",
+      "published_at": "2026-05-12T07:30:14+00:00",
+      "topic": "Regulations",
+      "title_ru": "Генеральный директор Cardano Foundation: Почему миру нужен «нейтральный» слой расчетов на блокчейне",
+      "summary_ru": "Фредерик Грегард, глава Cardano Foundation, отметил, что в эпоху, когда текущая банковская система оказалась глубоко политизированной, блокчейн имеет возможность стать нейтральной, устойчивой и прозрачной системой для поддержки глобальной торговли. Генеральный директор Cardano Foundation говорит о блокчейне как о нейтральном уровне расчетов."
+    },
+    {
+      "id": "37c8f49e003b487c",
+      "source": "RBC Crypto",
+      "category": "crypto",
+      "url": "https://www.rbc.ru/radio/12/05/2026/69fc68089a7947a216f9b566",
+      "title_en": "Как технологические платформы меняют рынок креативной индустрии",
+      "summary_en": "Рынок мероприятий растет примерно на 20% в год. Обсуждаем, как технологические платформы и экосистемный подход помогают организаторам привлекать аудиторию и формировать спрос в креативной экономике",
+      "published_at": "2026-05-12T07:30:00+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Как технологические платформы меняют рынок креативной индустрии",
+      "summary_ru": "Рынок мероприятий растет примерно на 20% в год. Обсуждаем, как технологические платформы и экосистемный подход помогают организаторам привлекать аудиторию и формировать спрос в креативной экономике"
     },
     {
       "id": "b442ff1d8204af30",
@@ -37,6 +133,78 @@
       "summary_ru": "WordPress-хостинги и защитные сервисы начали массово ограничивать AI-ботов на уровне CDN, WAF и rate limiting. Владелец сайта при этом может даже не понимать, что часть трафика блокируется."
     },
     {
+      "id": "f345fcc1b8c8320b",
+      "source": "RBC Crypto",
+      "category": "crypto",
+      "url": "https://www.rbc.ru/rbcfreenews/6a02a8649a794729adf71f2f",
+      "title_en": "Второй регион перевел школьников на дистанционное обучение из-за дронов",
+      "summary_en": "На дистанционное обучение с 12 по 14 мая включительно перейдут школы Пензы, Заречного, села Засечное, Сердобского и Нижнеломовского районов. Дистанционно будут также учиться студенты колледжей и вузов",
+      "published_at": "2026-05-12T07:26:12+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Второй регион перевел школьников на дистанционное обучение из-за дронов",
+      "summary_ru": "На дистанционное обучение с 12 по 14 мая включительно перейдут школы Пензы, Заречного, села Засечное, Сердобского и Нижнеломовского районов. Дистанционно будут также учиться студенты колледжей и вузов"
+    },
+    {
+      "id": "a77fc35775e2ea08",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/clarity-act-momentum-revives-xrp-etf-narrative-as-flare-xrpfi-sees-growing-institutional-attention/",
+      "title_en": "CLARITY Act Momentum Revives XRP ETF Narrative as Flare XRPFi Sees Growing Institutional Attention",
+      "summary_en": "Standard Chartered estimates that XRP ETFs could attract $4-$8 billion in inflows by year-end if the asset receives permanent commodity status.",
+      "published_at": "2026-05-12T07:23:33+00:00",
+      "topic": "Macro",
+      "title_ru": "Законопроект CLARITY вновь подогревает интерес к ETF на XRP, в то время как Flare XRPFi привлекает все больше внимания со стороны институциональных инвесторов.",
+      "summary_ru": "Standard Chartered оценивает, что XRP ETF могут привлечь от 4 до 8 миллиардов долларов в виде притока средств к концу года, если актив получит постоянный статус товара."
+    },
+    {
+      "id": "f5e7f41775420f89",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/lumentum-joins-nasdaq-100-index-2/",
+      "title_en": "Lumentum joins NASDAQ-100 index, replacing CoStar Group on May 18",
+      "summary_en": "Lumentum's NASDAQ-100 inclusion highlights the growing influence of AI infrastructure on market dynamics and investment strategies. The post Lumentum joins NASDAQ-100 index, replacing CoStar Group on May 18 appeared first on Crypto Briefing .",
+      "published_at": "2026-05-12T07:16:44+00:00",
+      "topic": "DeFi",
+      "title_ru": "Lumentum вошел в индекс NASDAQ-100, заменив CoStar Group 18 мая.",
+      "summary_ru": "Включение Lumentum в индекс NASDAQ-100 подчеркивает растущее влияние инфраструктуры ИИ на рыночную динамику и инвестиционные стратегии. Публикация \"Lumentum присоединяется к индексу NASDAQ-100, заменяя CoStar Group 18 мая\" впервые появилась на Crypto Briefing."
+    },
+    {
+      "id": "485310ceb981583f",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/trump-no-bailout-us-airlines/",
+      "title_en": "Trump says administration not considering bailouts for US air carriers",
+      "summary_en": "Trump's stance may lead to market volatility as investors recall past bailout negotiations, impacting airline stock stability and investor confidence. The post Trump says administration not considering bailouts for US air carriers appeared first on Crypto Briefing .",
+      "published_at": "2026-05-12T07:16:17+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Трамп заявил, что администрация не рассматривает возможность bailout для американских авиаперевозчиков.",
+      "summary_ru": "Позиция Трампа может привести к волатильности на рынке, так как инвесторы вспоминают прошлые переговоры о bailout, что влияет на стабильность акций авиакомпаний и доверие инвесторов."
+    },
+    {
+      "id": "2bca0c370f5bfac4",
+      "source": "InCrypted",
+      "category": "crypto",
+      "url": "https://incrypted.com/crypto-com-poluchyla-lytsenzyju-oae/",
+      "title_en": "В ОАЭ разрешили оплачивать госуслуги через платформу Crypto.com",
+      "summary_en": "Платформа Crypto.com объявила, что ее подразделение Foris DAX Middle East FZE получило лицензию SVF от Центрального банка ОАЭ. Компания заявила, что стала первым поставщиком услуг виртуальных активов (VASP) в стране, получившим подобное разрешение. Лицензия позволит Crypto.com принимать цифровые активы для оплаты государственных услуг и сборов в ОАЭ. В рамках партнерства с Департаментом финансов Дубая жители [&#8230;] Сообщение В ОАЭ разрешили оплачивать госуслуги через платформу Crypto.com появились сначала на INCRYPTED .",
+      "published_at": "2026-05-12T07:15:56+00:00",
+      "topic": "Regulations",
+      "title_ru": "В ОАЭ разрешили оплачивать госуслуги через платформу Crypto.com",
+      "summary_ru": "Платформа Crypto.com объявила, что ее подразделение Foris DAX Middle East FZE получило лицензию SVF от Центрального банка ОАЭ. Компания заявила, что стала первым поставщиком услуг виртуальных активов (VASP) в стране, получившим подобное разрешение. Лицензия позволит Crypto.com принимать цифровые активы для оплаты государственных услуг и сборов в ОАЭ. В рамках партнерства с Департаментом финансов Дубая жители [&#8230;] Сообщение В ОАЭ разрешили оплачивать госуслуги через платформу Crypto.com появились сначала на INCRYPTED ."
+    },
+    {
+      "id": "95296d0ce5a8acf2",
+      "source": "RBC Crypto",
+      "category": "crypto",
+      "url": "https://www.rbc.ru/education/04/05/2026/69f25f3d9a79471ab1be423d",
+      "title_en": "В компаниях началась волна «увольнений без истерик», сообщили кадровики",
+      "summary_en": "Каждая четвертая компания в России начала сокращать персонал, часто — без компенсаций. В каких сферах увольнений в этом году будет особенно много и чем они вызваны?",
+      "published_at": "2026-05-12T07:15:44+00:00",
+      "topic": "Altcoins",
+      "title_ru": "В компаниях началась волна «увольнений без истерик», сообщили кадровики",
+      "summary_ru": "Каждая четвертая компания в России начала сокращать персонал, часто — без компенсаций. В каких сферах увольнений в этом году будет особенно много и чем они вызваны?"
+    },
+    {
       "id": "01863eea12b6abcf",
       "source": "Habr AI",
       "category": "ai",
@@ -59,6 +227,18 @@
       "topic": "Altcoins",
       "title_ru": "Лучшие асик-майнеры по итогам апреля: обзор лидеров и аутсайдеров",
       "summary_ru": "&#1040;&#1087;&#1088;&#1077;&#1083;&#1100; 2026 &#1075;&#1086;&#1076;&#1072; &#1089;&#1090;&#1072;&#1083; &#1086;&#1076;&#1085;&#1080;&#1084; &#1080;&#1079; &#1083;&#1091;&#1095;&#1096;&#1080;&#1093; &#1084;&#1077;&#1089;&#1103;&#1094;&#1077;&#1074; &#1076;&#1083;&#1103; &#1084;&#1072;&#1081;&#1085;&#1077;&#1088;&#1086;&#1074; &#1073;&#1080;&#1090;&#1082;&#1086;&#1080;&#1085;&#1072; &#1079;&#1072; &#1075;&#1086;&#1076;. &#1044;&#1086;&#1093;&#1086;&#1076;&#1085;&#1086;&#1089;&#1090;&#1100; &#1076;&#1086;&#1073;&#1099;&#1095;&#1080; &#1085;&#1072; &#1077;&#1076;&#1080;&#1085;&#1080;&#1094;&#1091; &#1074;&#1099;&#1095;&#1080;&#1089;&#1083;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1081; &#1084;&#1086;&#1097;&#1085;&#1086;&#1089;&#1090;&#1080; &#1087;&#1088;&#1077;&#1074;&#1099;&#1089;&#1080;&#1083;&#1072; $36 &#1079;&#1072; PH/s &#1074; &#1089;&#1091;&#1090;&#1082;&#1080; &#1074;&#1087;&#1077;&#1088;&#1074;&#1099;&#1077; &#1089; &#1082;&#1086;&#1085;&#1094;&#1072; &#1103;&#1085;&#1074;&#1072;&#1088;&#1103;, &#1072; &#1083;&#1080;&#1076;&#1077;&#1088;&#1099; &#1089;&#1088;&#1077;&#1076;&#1080; ASIC-&#1091;&#1089;&#1090;&#1088;&#1086;&#1081;&#1089;&#1090;&#1074; &#1087;&#1086;&#1082;&#1072;&#1079;&#1072;&#1083;&#1080; &#1076;&#1086; 23,75% &#1075;&#1086;&#1076;&#1086;&#1074;&#1099;&#1093;. &#1058;&#1072;&#1082;&#1080;&#1084;&#1080; &#1076;&#1072;&#1085;&#1085;&#1099;&#1084;&#1080; &#1089; &#1088;&#1077;&#1076;&#1072;&#1082;&#1094;&#1080;&#1077;&#1081; BeInCrypto &#1087;&#1086;&#1076;&#1077;&#1083;&#1080;&#1083;&#1080;&#1089;&#1100; &#1072;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1082;&#1080; &#1082;&#1086;&#1084;&#1087;&#1072;&#1085;&#1080;&#1080; Intelion Data Systems. &#1056;&#1072;&#1089;&#1089;&#1082;&#1072;&#1079;&#1099;&#1074;&#1072;&#1077;&#1084;, &#1082;&#1072;&#1082;&#1080;&#1077; &#1072;&#1089;&#1080;&#1082;&#1080; &#1089;&#1077;&#1075;&#1086;&#1076;&#1085;&#1103; &#1074; &#1090;&#1086;&#1087;&#1077;, &#1072; The post Лучшие асик-майнеры по итогам апреля: обзор лидеров и аутсайдеров appeared first on BeInCrypto ."
+    },
+    {
+      "id": "601ac6ff216cc34a",
+      "source": "RBC Crypto",
+      "category": "crypto",
+      "url": "https://www.rbc.ru/sport/25/04/2026/69ec7d419a79472ed28155d8",
+      "title_en": "В НБА повторили рекорд по набранным очкам за половину матча плей-офф",
+      "summary_en": "Защитник «Кливленда» Донован Митчелл набрал 39 очков во второй половине четвертого матча серии второго раунда плей-офф НБА против «Детройта» (112:103). Это позволило ему повторить достижение Эрика Флойда, установленное в 1987 году",
+      "published_at": "2026-05-12T07:09:09+00:00",
+      "topic": "Altcoins",
+      "title_ru": "В НБА повторили рекорд по набранным очкам за половину матча плей-офф",
+      "summary_ru": "Защитник «Кливленда» Донован Митчелл набрал 39 очков во второй половине четвертого матча серии второго раунда плей-офф НБА против «Детройта» (112:103). Это позволило ему повторить достижение Эрика Флойда, установленное в 1987 году"
     },
     {
       "id": "fd77d85c98a9e4b2",
@@ -85,6 +265,42 @@
       "summary_ru": "Фонд Ethereum утвердил новый минимальный предел газа и предложение по улучшению для своего обновления \"Glamsterdam\", которое, вероятно, будет запущено в третьем квартале 2026 года."
     },
     {
+      "id": "d61bf56fa8094606",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/iran-war-us-fuel-cost-tracker/",
+      "title_en": "This Is How Much the Iran War Is Adding to Every American’s Fuel Bill",
+      "summary_en": "Americans have spent $37.6 billion more on gasoline and diesel since the Iran war erupted on February 28.&#160; This data comes from a live tracker from Brown University&#8217;s Watson School of International and Public Affairs. The Iran War Has Cost Every American Household $287 in Extra Fuel So Far The figure breaks down to about The post This Is How Much the Iran War Is Adding to Every American&#8217;s Fuel Bill appeared first on BeInCrypto .",
+      "published_at": "2026-05-12T07:05:39+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Вот сколько война в Иране добавляет к топливным расходам каждого американца.",
+      "summary_ru": "Американцы потратили на $37,6 миллиарда больше на бензин и дизель с момента начала войны в Иране 28 февраля. Эти данные предоставлены в режиме реального времени трекером Школы международных и общественных дел имени Уотсона при Университете Брауна. Война в Иране обошлась каждой американской семье в дополнительные $287 на топливо."
+    },
+    {
+      "id": "a271e1d04964edbf",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/us-iran-tensions-threaten-oil-supply-via-strait-of-hormuz/",
+      "title_en": "US-Iran tensions threaten oil supply via Strait of Hormuz",
+      "summary_en": "Heightened US-Iran tensions could destabilize global oil markets, impacting economies reliant on stable oil prices and supply routes. The post US-Iran tensions threaten oil supply via Strait of Hormuz appeared first on Crypto Briefing .",
+      "published_at": "2026-05-12T07:02:43+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Напряженность между США и Ираном угрожает поставкам нефти через Ормузский пролив.",
+      "summary_ru": "Обострение напряженности между США и Ираном может дестабилизировать глобальные нефтяные рынки, что повлияет на экономики, зависящие от стабильных цен на нефть и транспортных маршрутов."
+    },
+    {
+      "id": "93b7bdb43eb12840",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/iran-threatens-90-uranium-enrichment-if-us-resumes-strikes/",
+      "title_en": "Iran threatens 90% uranium enrichment if US resumes strikes",
+      "summary_en": "Heightened tensions and potential escalation complicate diplomatic efforts, reducing chances for a US-Iran nuclear agreement by May 31. The post Iran threatens 90% uranium enrichment if US resumes strikes appeared first on Crypto Briefing .",
+      "published_at": "2026-05-12T07:02:43+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Иран угрожает обогащением урана до 90%, если США возобновят удары.",
+      "summary_ru": "Обострение напряженности и потенциальная эскалация усложняют дипломатические усилия, снижая шансы на достижение ядерного соглашения между США и Ираном до 31 мая."
+    },
+    {
       "id": "e0038b304ceed38f",
       "source": "Habr AI",
       "category": "ai",
@@ -97,6 +313,18 @@
       "summary_ru": "В первой части мы рассказали о пилоте и первых версиях системы Smart Timber для измерения и учета объемов древесины, внедрении продукта у клиента и переходе от технического наполнения к продуктовой составляющей решения.&nbsp; Сегодня в блоге ЛАНИТ мы подробно остановимся именно на технических решениях, которые сделали возможной работу системы в полевых условиях. Читать далее"
     },
     {
+      "id": "ec834737a2ba849c",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/news/crypto-funds-six-week-streak-clarity-act/",
+      "title_en": "Crypto Funds Extend Six-Week Streak With $858M Inflows On CLARITY Act Progress",
+      "summary_en": "Global crypto funds have extended their positive streak into a sixth straight week amid growing rally conviction and a boost from improving sentiment around the CLARITY Act ahead of its long‑delayed Senate Banking markup. Related Reading: Bitcoin Price Gains Renewed Strength, Market Eyes Bullish Breakout Bitcoin Leads Crypto Funds $858M Inflows Global crypto investment products have extended their positive streak for the sixth consecutive week after posting $857.9 million in inflows over the past week. The funds saw a significant surge from the modest $117 million recorded on the week that ended on April 24. As Bitcoin surged to its highest levels in months, funds based on the flagship crypto led last week’s boom, drawing $706.1 million and bringing year-to-date (YTD) flows to $4.9 billion, according to CoinShares data. Conversely, short Bitcoin products saw $14.4 million in outflows, its largest withdrawals of the year, indicating traders are unwinding hedges amid growing rally conviction. Altcoin-based products also posted positive results, with Ethereum funds recording $77.1 million in inflows, a significant recovery from the $81.6 million in outflows the prior week. Solana and XRP investment products followed, bringing $47.6 million and $39.6 million, respectively. Notably, multi-asset products were the only category to see a negative performance, with $5.5m in outflows. Regionally, US crypto funds dominated last week, drawing $776.6 million in inflows. This marked a strong recovery from the previous week, when they only brought in $21.1 million. It’s worth noting that US crypto exchange-traded funds (ETFs) recently saw their best monthly performance since October 2025, with over $2 billion in inflows across all major categories. As reported by News BTC, Bitcoin ETFs recorded their second straight month of massive gains, posting $1.97 billion in April, while Solana funds continued their seven-month positive streak, with $38.69 million in inflows. Meanwhile, Ethereum and XRP ETFs rebounded last month, with a strong recovery from their March performance. CLARITY Act Fuels US Sentiment CoinShares’ head of research, James Butterfill, attributed last week’s performance to progress on the US crypto market structure bill, known as the CLARITY Act, which has been stalled on the Senate Banking Committee for nearly four months. He explained that crypto funds’ recovery is likely fueled by improving sentiment around the CLARITY Act after Senator Thom Tillis and Angel Alsobrooks released the final text of the stablecoin yield compromise and “held firm” against recent banking-industry pushback. Over the past week, US banking trade groups have led efforts to push for amendments to the stablecoin yield compromise ahead of the crypto bill’s upcoming markup session. The groups have argued that the current language still leaves room for rewards programs that could effectively replicate yield. However, Senate sources have told journalist Eleanor Terret that the effort was “pretty milquetoast,” adding that “members have already shifted their focus to wrapping up other issues in the bill like ethics.” Related Reading: Bitcoin Flashes Signal With 186% Average One-Year Return Meanwhile, Coinbase, Kraken, and Gemini are pushing lawmakers to scrap a key provision requiring exchanges to list only digital assets that are “not readily susceptible to manipulation,” arguing that the provision would be difficult to apply fairly to crypto, especially to smaller tokens that are traded less frequently. The Senate Banking Committee’s long-awaited markup session for the CLARITY Act has been scheduled for Thrusday, May 14. Featured Image from Unsplash.com, Chart from TradingView.com",
+      "published_at": "2026-05-12T07:00:12+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Криптофонды продолжают шестинедельную серию с притоком $858 млн на фоне прогресса по закону CLARITY.",
+      "summary_ru": "Глобальные криптофонды продлили свою положительную динамику на шестую неделю подряд на фоне растущей уверенности в ралли и улучшения настроений вокруг акта CLARITY перед его долгожданным рассмотрением в Сенате. \n\nГлобальные инвестиционные продукты в криптовалюту продлили свою положительную динамику на шестую подряд неделю, зафиксировав приток в $857,9 миллиона за последнюю неделю. Фонды показали значительный рост по сравнению с скромными $117 миллиона, зафиксированными на неделе, завершившейся 24 апреля. В то время как Bitcoin достиг своих максимальных уровней за месяцы, фонды, основанные на этой криптовалюте, возглавили рост на прошлой неделе, привлекая $706,1 миллиона и доведя притоки с начала года до $4,9 миллиарда, согласно данным CoinShares. В то же время, продукты с короткими позициями по Bitcoin зафиксировали отток в $14,4 миллиона, что стало крупнейшими выводами года, указывая на то, что трейдеры закрывают хеджирование на фоне растущей уверенности в ралли. Продукты на основе альткоинов также показали положительные результаты, фонды Ethereum зафиксировали приток в $77,1 миллиона, что стало значительным восстановлением по сравнению с оттоком в $81,6 миллиона на предыдущей неделе. Инвестиционные продукты Solana и XRP привлекли $47,6 миллиона и $39,6 миллиона соответственно. Примечательно, что мультиактивные продукты стали единственной категорией с отрицательной динамикой, зафиксировав отток в $5,5 миллиона. \n\nРегионально, криптофонды США доминировали на прошлой неделе, привлекая $776,6 миллиона. Это стало сильным восстановлением по сравнению с предыдущей неделей, когда они привлекли всего $21,1 миллиона. Стоит отметить, что криптообменные фонды (ETFs) в США недавно показали свои лучшие месячные результаты с октября 2025 года, с более чем $2 миллиарда притоков по всем основным категориям. Как сообщается в News BTC, Bitcoin ETFs зафиксировали второй подряд месяц значительных приростов, показав $1,97 миллиарда в апреле, в то время как фонды Solana продолжили свою положительную динамику на протяжении семи месяцев, с притоком в $38,69 миллиона. Тем временем, Ethereum и XRP ETFs восстановились в прошлом месяце, показав сильное восстановление по сравнению с мартовскими результатами. \n\nГлава исследований CoinShares Джеймс Баттерфилл связал результаты"
+    },
+    {
       "id": "8dd49b22745c6292",
       "source": "vc.ru AI",
       "category": "ai",
@@ -107,6 +335,27 @@
       "topic": "Research",
       "title_ru": "В ближайшие дни ИТ-кластер «Газпром нефть» вместе с Кейс-клубом НИУ ВШЭ в Санкт-Петербурге (HSCC) запускает студенческий кейс-чемпионат сезона 2026.",
       "summary_ru": "Делимся подготовительной информацией заранее, чтобы команды успели подготовиться к старту."
+    },
+    {
+      "id": "94b587489ab40a17",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/moreno-aba-opposes-clarity-act-stablecoin-bill/",
+      "title_en": "Bernie Moreno claims American Bankers Association is lobbying against crypto stablecoin bill",
+      "summary_en": "The clash highlights the tension between traditional banks and emerging crypto markets, potentially reshaping financial power dynamics. The post Bernie Moreno claims American Bankers Association is lobbying against crypto stablecoin bill appeared first on Crypto Briefing .",
+      "published_at": "2026-05-12T06:51:39+00:00",
+      "topic": "Regulations",
+      "title_ru": "Берни Морино утверждает, что Американская ассоциация банкиров лоббирует против законопроекта о крипто-стейблкоинах.",
+      "summary_ru": "Конфликт подчеркивает напряженность между традиционными банками и развивающимися крипторынками, что может изменить финансовую динамику власти. Публикация Берни Морено утверждает, что Американская ассоциация банкиров лоббирует против законопроекта о крипто-стейблкоинах.",
+      "duplicates": [
+        {
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/aba-lobbying-clarity-act-stablecoin-yield/",
+          "title_en": "American Bankers Association escalates lobbying against CLARITY Act stablecoin provisions",
+          "title_ru": "Американская ассоциация банкиров усиливает лоббирование против положений о стейблкоинах в законе CLARITY.",
+          "published_at": "2026-05-12T07:40:33+00:00"
+        }
+      ]
     },
     {
       "id": "d52673649d3c8ab0",
@@ -157,6 +406,18 @@
       "summary_ru": ""
     },
     {
+      "id": "bff0644a0f10c50f",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/uk-gambling-commission-posts-65000-job-to-hunt-16-6b-black-market/",
+      "title_en": "UK Gambling Commission Posts £65,000 Job to Hunt £16.6B Black Market",
+      "summary_en": "The Gambling Commission posted a new senior “Head of Illegal Markets” role, with a £65,000 salary, as research surfaced by the Betting and Gaming Council confirmed the UK black market has grown to £16.6 billion in 2025, more than tripling from 2019. The hire arrives during a CEO transition period at the regulator and amid [&#8230;]",
+      "published_at": "2026-05-12T06:30:32+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Комиссия по азартным играм Великобритании объявила о вакансии с зарплатой £65,000 для борьбы с черным рынком объемом £16.6 миллиардов.",
+      "summary_ru": "Гемблинг-комиссия объявила о новой должности старшего \"Руководителя нелегальных рынков\" с зарплатой в £65,000, так как исследования, проведенные Советом по ставкам и играм, подтвердили, что черный рынок в Великобритании вырастет до £16.6 миллиардов в 2025 году, более чем утроившись по сравнению с 2019 годом. Найм происходит в период перехода CEO в регуляторе и на фоне [...]"
+    },
+    {
       "id": "79ecdb6796d3fb2a",
       "source": "BeInCrypto RU",
       "category": "crypto",
@@ -181,6 +442,54 @@
       "summary_ru": "Числовая оценка идеальна для закрытых задач. Аморфная нужна для открытых. AI за пятнадцать лет переехал из первого класса во второй — а инструмент оценки остался прежним. В условиях высокого темпа этот разрыв не нейтрален. Команды, которые оптимизируют правильный класс свойств, накапливают то, что конкурент не измеряет — а значит, не строит. Преимущество аккумулируется асимметрично, в категориях, которых ещё нет в сравнительных таблицах. Почему бенчмарки в AI сломались, и что с этим делать в следующий понедельник. Читать полностью"
     },
     {
+      "id": "d273b7e5e963c588",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.club/eksperty-uoll-strit-povysili-czelevuyu-czenu-akczij-kompanii-tesla/",
+      "title_en": "Эксперты Уолл-стрит повысили целевую цену акций компании Tesla",
+      "summary_en": "Аналитики Piper Sandler сохранили рекомендацию «Покупать» по акциям Tesla и подтвердили целевую цену в $500 за акцию производителя электромобилей. Позиция инвестиционного банка состоит в том, что новая цена, предполагающая рост примерно на 17% относительно текущей цены акций, отражает значительно более широкий бизнес-портфель Tesla и развивающуюся долгосрочную стратегию роста. В отчёте организации также представлены прогнозы выручки [&#8230;] Источник",
+      "published_at": "2026-05-12T06:00:21+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Эксперты Уолл-стрит повысили целевую цену акций компании Tesla",
+      "summary_ru": "Аналитики Piper Sandler сохранили рекомендацию «Покупать» по акциям Tesla и подтвердили целевую цену в $500 за акцию производителя электромобилей. Позиция инвестиционного банка состоит в том, что новая цена, предполагающая рост примерно на 17% относительно текущей цены акций, отражает значительно более широкий бизнес-портфель Tesla и развивающуюся долгосрочную стратегию роста. В отчёте организации также представлены прогнозы выручки [&#8230;] Источник"
+    },
+    {
+      "id": "da9b8d76d4824ffc",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/news/shiba-inu-bullish-momentum-explodes-as-buying-pressure-intensifies/",
+      "title_en": "Shiba Inu Bullish Momentum Explodes As Buying Pressure Intensifies",
+      "summary_en": "Trader sentiment in Shiba Inu derivatives market has done a complete 180 over the past week. Net positions — which sat at around -200 million just days ago, reflecting a market tilted toward short bets — have swung to more than +400 million in net longs as of May 11. That kind of shift in a short window is not common. Related Reading: Nearly 80% Of Bitcoin Supply Hasn’t Moved As Long-Term Holders Tighten Grip From Short To Long: A Full Reversal The turnaround began around May 6, when net positions started climbing out of negative territory. By May 9, the indicator had crossed into positive ground, and it kept climbing. According to market watcher CW, buying pressure has grown sharply and is now dominating the market. &#8220;The upward momentum of $SHIB is increasing explosively,&#8221; he said. The upward momentum of $SHIB is increasing explosively. Upward pressure is very strong. pic.twitter.com/krXs9zhcM7 — CW (@CW8900) May 10, 2026 That momentum shows up clearly on the price chart. SHIB has been rising steadily from the $0.00000615 range, forming a pattern of higher lows and higher highs since May 10 — a sign that buyers have held control without the market getting sloppy or erratic. The price reached above $0.00000660 by May 11, a gain of roughly 6.50% over the past week. Open Interest Climbs Past 6 Billion The derivatives market is also pulling in fresh participants. Open Interest — which tracks the total value of outstanding contracts — rose from just above 5 billion on May 5 to over 6 billion at the time of reporting. That increase suggests traders are opening new positions rather than simply closing old ones. When prices rise alongside growing Open Interest, it typically points to sustained demand rather than a technical bounce driven by short sellers getting squeezed out. Reports indicate that this combination is what analysts often look for when assessing whether a rally has legs. Leverage Cuts Both Ways Still, the same buildup that has driven prices higher carries risk. With Open Interest elevated and long positions stacked up, a slowdown in price movement could set off a chain of forced liquidations. If SHIB struggles to push higher while leverage stays elevated, a quick drop becomes more likely — even if the broader direction has not changed. Related Reading: XRP Market Now Controlled By Whales? Dominance Reaches 91% On Binance For the upside to continue, reports say SHIB needs to hold above the $0.00000665 to $0.00000670 range. That zone now acts as a key level. If buyers defend it, the next leg higher remains on the table. If they don&#8217;t, the market may correct sharply before finding its footing again. Featured image from Anne Arundel County Government, chart from TradingView",
+      "published_at": "2026-05-12T06:00:00+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Бычий импульс Shiba Inu усиливается на фоне растущего покупательского давления.",
+      "summary_ru": "Настроение трейдеров на рынке деривативов Shiba Inu за последнюю неделю изменилось на 180 градусов. Чистые позиции, которые находились на уровне около -200 миллионов всего несколько дней назад, отражая рынок, склонный к коротким ставкам, выросли до более чем +400 миллионов чистых длин по состоянию на 11 мая. Подобный сдвиг за короткий промежуток времени не является обычным. Поворот начался около 6 мая, когда чистые позиции начали выходить из отрицательной зоны. К 9 мая индикатор пересек в положительную область и продолжил расти. По словам наблюдателя за рынком CW, покупательское давление резко возросло и теперь доминирует на рынке. \"Восходящий импульс $SHIB увеличивается экспоненциально,\" — сказал он. Этот импульс четко отображается на графике цен. SHIB стабильно рос с диапазона $0.00000615, формируя паттерн более высоких минимумов и максимумов с 10 мая — признак того, что покупатели удерживают контроль, не позволяя рынку стать неуправляемым или хаотичным. К 11 мая цена превысила $0.00000660, что составляет прирост примерно 6.50% за последнюю неделю. Открытый интерес превышает 6 миллиардов Деривативный рынок также привлекает новых участников. Открытый интерес — который отслеживает общую стоимость непогашенных контрактов — вырос с чуть выше 5 миллиардов 5 мая до более 6 миллиардов на момент отчета. Этот рост указывает на то, что трейдеры открывают новые позиции, а не просто закрывают старые. Когда цены растут наряду с увеличением открытого интереса, это обычно указывает на устойчивый спрос, а не на технический отскок, вызванный вынужденными закрытиями коротких позиций. Сообщения указывают на то, что эта комбинация является тем, что аналитики часто ищут при оценке, имеет ли ралли перспективы. Плечо работает в обе стороны Тем не менее, тот же самый рост, который привел к повышению цен, несет в себе риски. С высоким уровнем открытого интереса и накопленными длинными позициями замедление ценового движения может вызвать цепочку принудительных ликвидаций. Если SHIB не сможет подняться выше при высоком уровне плеча, быстрое падение становится более вероятным — даже если общий тренд не изменился. Для продолжения роста, по сообщениям, SHIB необходимо удерживаться выше диапазона $0.00000665 до $0.00000670. Эта зона теперь является ключевым уровнем. Если покупатели защитят"
+    },
+    {
+      "id": "272587d974aef095",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/us-cpi-preview-april-inflation-three-year-high/",
+      "title_en": "US Inflation Set for Another Sharp Jump as US-Iran Conflict Lifts Oil Prices",
+      "summary_en": "The US Bureau of Labor Statistics (BLS) will publish the April Consumer Price Index (CPI) data on Tuesday.&#160; The report is expected to show another significant leap in consumer inflation after March&#8217;s sharp increase, driven by the elevated Oil prices due to the ongoing conflict between the United States (US) and Iran. The monthly CPI The post US Inflation Set for Another Sharp Jump as US-Iran Conflict Lifts Oil Prices appeared first on BeInCrypto .",
+      "published_at": "2026-05-12T05:58:14+00:00",
+      "topic": "DeFi",
+      "title_ru": "Инфляция в США ожидает резкого роста из-за конфликта США и Ирана, который поднимает цены на нефть.",
+      "summary_ru": "Бюро трудовой статистики США (BLS) опубликует данные по индексу потребительских цен (CPI) за апрель во вторник. Ожидается, что отчет покажет еще один значительный скачок потребительской инфляции после резкого увеличения в марте, вызванного высокими ценами на нефть из-за продолжающегося конфликта между США и Ираном."
+    },
+    {
+      "id": "9d361131141fd5a2",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/sui-price-cools-weekly-rally/",
+      "title_en": "SUI Drops 10% From Sunday’s High: What’s Behind the Pullback?",
+      "summary_en": "Sui (SUI) has slipped nearly 10% from Sunday&#8217;s high, raising questions about whether the altcoin&#8217;s recent rally is beginning to lose momentum.&#160; The decline follows a sharp breakout that saw SUI surge almost 40% over the past week, making it one of the market&#8217;s top-performing altcoins. SUI Staking Powered the Rally Market data revealed that The post SUI Drops 10% From Sunday&#8217;s High: What&#8217;s Behind the Pullback? appeared first on BeInCrypto .",
+      "published_at": "2026-05-12T05:54:42+00:00",
+      "topic": "Altcoins",
+      "title_ru": "SUI упал на 10% с воскресного максимума: что стоит за откатом?",
+      "summary_ru": "Sui (SUI) упал почти на 10% с воскресного максимума, что вызывает вопросы о том, не начинает ли недавний рост альткоина терять импульс. Падение произошло после резкого роста, в ходе которого SUI подскочил почти на 40% за последнюю неделю, став одним из лучших альткоинов на рынке. Данные рынка показали, что SUI Staking способствовал этому росту."
+    },
+    {
       "id": "bab7cf950ea41665",
       "source": "CoinDesk",
       "category": "crypto",
@@ -193,6 +502,18 @@
       "summary_ru": ""
     },
     {
+      "id": "fdd64448f7d7209b",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/draftkings-flutter-grab-market-maker-role-undercut-peer-to-peer-prediction-claim/",
+      "title_en": "Draftkings, Flutter Grab Market-Maker Role, Undercut Peer-to-Peer Prediction Claim",
+      "summary_en": "Draftkings and Flutter Entertainment have both moved into market-making on prediction-market platforms, escalating from consumer-facing products into the financial infrastructure of an industry that built its identity on peer-to-peer trading. The Q1 2026 earnings disclosures establish that the sportsbook industry’s bet on prediction markets has moved well beyond app launches. Sportsbooks Move From Prediction-Market Products [&#8230;]",
+      "published_at": "2026-05-12T05:30:30+00:00",
+      "topic": "DeFi",
+      "title_ru": "Draftkings и Flutter заняли роль маркет-мейкера, подрывая утверждения о пиринговом прогнозировании.",
+      "summary_ru": "Draftkings и Flutter Entertainment начали заниматься маркет-мейкингом на платформах предсказательных рынков, переходя от продуктов, ориентированных на потребителей, к финансовой инфраструктуре отрасли, которая сформировала свою идентичность на основе пиринговой торговли. Отчеты о доходах за первый квартал 2026 года показывают, что ставка букмекерской индустрии на предсказательные рынки значительно вышла за рамки запуска приложений. Букмекерские конторы переходят от продуктов предсказательных рынков."
+    },
+    {
       "id": "035e4abd19d4fc29",
       "source": "Habr AI",
       "category": "ai",
@@ -203,6 +524,18 @@
       "topic": "AI Agents",
       "title_ru": "Эра персональных приложений",
       "summary_ru": "*Ирония, но не совсем В последнее время складывается ощущение, что холивар вокруг \"вайбкодинга\" уже не имеет никакого смысла. Я про эти жаркие споры между охранителями \"чистого программирования\" и неофитами вайбкодинга. Одни - устало посмеиваются: \"Мы без работы не останемся, ибо ваш вайбанутый код кому-то надо будет разгребать\" . Другие - взвизгивают фальцетом: \"Если вы сегодня не освоите ИИ, то завтра останетесь за бортом!!! (пройдите мои курсы)\". Нет, с технической точки зрения, всё прекрасно. Классы, паттерны, лямбды, mcp, агенты... Думаете проблема в чистоте кода и виртуозности программирования? Или может в выборе правильной модели? А вот и нет"
+    },
+    {
+      "id": "ded532025979bf8c",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/bitcoin-market-structure-continues-to-improve-as-bullish-undertones-build-glassnode/",
+      "title_en": "Bitcoin Market Structure Continues to Improve as Bullish Undertones Build: Glassnode",
+      "summary_en": "Bitcoin momentum above $80,000 is slowly building as its market structure improves, according to Glassnode analysis.",
+      "published_at": "2026-05-12T05:13:43+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Структура рынка Bitcoin продолжает улучшаться на фоне нарастающих бычьих настроений: Glassnode",
+      "summary_ru": "Согласно анализу Glassnode,Momentum биткойна выше $80,000 медленно накапливается по мере улучшения его рыночной структуры."
     },
     {
       "id": "29b9e41aeda68dd0",
@@ -229,6 +562,30 @@
       "summary_ru": "Harvard Business Review опубликовал в марте 2026 исследование на 1488 сотрудников - пользователи ИИ получают острый brain fry от oversight’а. Я держу 4 Claude-инструмента и думаю добавить пятый. Был уверен что у меня “архитектура другая”. Перечитал и все таки нет. Три случая где меня ловило, чек лист на 7 пунктов где я падаю, и почему добавление Codex ровно то, что HBR ругает. Я в этих 14%. Разбираю."
     },
     {
+      "id": "0c9a9165c08730f4",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/news/solana/solana-500-bulls-think-ai-change-sol-story/",
+      "title_en": "Solana To $500? Why Bulls Think AI Could Change The SOL Story",
+      "summary_en": "Solana’s AI narrative is gaining fresh support from crypto investors who argue that SOL may be positioned as a core financial infrastructure asset in an agent-driven economy. Parker White, COO of DeFiDevCorp, and Delphi Ventures founding partner Tom Shaughnessy both pointed to Solana’s speed, liquidity and developer ecosystem as reasons the market may be underpricing the asset. Solana’s AI Thesis Is Heating Up White, known on X as @TheOtherParker_, said on May 9 that he remains bullish on SOL because Solana combines “s-tier technology, user adoption, and liquidity.” He pushed back on the common argument that Ethereum’s larger DeFi liquidity and TVL base gives it an unassailable lead, arguing that the comparison looks different once traditional finance enters the market. “Some people will counter with ‘Yes, but ETH has such a huge DeFi liquidity/TVL lead.’ Huge is relative though and compared to TradFi liquidity, all DeFi liquidity is a drop in the bucket,” White wrote. “So when TradFi capital allocators enter the space, SOL and ETH are effectively on the same, level playing field. In this environment, technology/UX plays a giant role on adoption and SOL wins hands down.” Related Reading: Solana Sees Rising Social Hype, Yet Network Activity Is Falling White also argued that SOL’s relative valuation leaves room for a larger repricing if investors begin to treat Solana as a serious competitor to Ethereum. “Couple all of this with the 5x relative value differential, and it’s really hard not to be bullish,” he wrote. “If SOL just catches up to ETH, SOL is at roughly $500 without ETH even moving. Good odds of a good outcome.” The more novel part of White’s thesis is not simply that Solana can compete with Ethereum on throughput or user experience. It is that AI could make Solana more strategically relevant, not less. In his view, many software businesses face uncertainty as AI compresses margins or disrupts established cash-flow models. Solana, by contrast, could benefit if autonomous agents require fast, low-cost and globally accessible financial rails. “As future software cashflows continue to be repriced with increased uncertainty, investors will look to diversify, bc diversification is the best way to combat uncertainty,” White wrote. “As this diversification occurs, rationale investors will look at SOL as a financial software infrastructure play that has a ‘high degree of positive AI convexity.’” White’s argument rests on the assumption that agentic activity will require cheap, high-frequency settlement. He described Solana as “second to none” for micropayments and said token-to-token value transfer between non-human agents “makes sense on SOL, but nowhere else.” Other networks, he argued, are either too expensive or lack the infrastructure and liquidity needed for that use case. He also said Solana’s network effects would be strengthened rather than weakened by AI usage. “Second, the network effects and liquidity cannot be replicated by a fresh AI-built system,” White wrote. “More AI usage actually strengthens the network effects and liquidity, not weakens. This is where the positive convexity comes in.” He added that crypto networks are “global, permissionless, and composible,” making them a natural operating environment for agents that need to interact, collaborate, pay and build across borders. Related Reading: Solana (SOL) Breakout Setup Strengthens As Bulls Regain Full Control Shaughnessy, writing separately on X, made a similar case. He said his SOL thesis is that it is “the best chain for AI,” citing cheap and fast infrastructure alongside what he called the strongest engineering base. He also argued that AI will make it easier to build new crypto applications, potentially accelerating sector formation through “easy capital formation,” global communities and rapid app creation. In a follow-up post, Shaughnessy contrasted Solana with Bitcoin in the context of AI agents. “I don’t think AI and agents interplay with BTC directly since it’s not a programmable chain they can interact on,” he wrote. “I do think BTC is a massive beneficiary of AI as AGI will want to own assets humans can’t manipulate and mass money printing to deal with AGI benefits BTC.” For Solana, Shaughnessy summarized the thesis as “legitimate AI sector ownership,” faster chain performance through Alpenglow, under-ownership after investors sold SOL for other assets, and the potential for pre-IPO stocks to trade around the clock. At press time, SOL traded at $94.51. Featured image created with DALL.E, chart from TradingView.com",
+      "published_at": "2026-05-12T05:00:41+00:00",
+      "topic": "DeFi",
+      "title_ru": "Solana до $500? Почему быки считают, что ИИ может изменить историю SOL.",
+      "summary_ru": "Наратив о Solana в контексте ИИ получает новую поддержку от криптоинвесторов, которые утверждают, что SOL может занять позицию основного финансового инфраструктурного актива в экономике, управляемой агентами. Паркер Уайт, COO DeFiDevCorp, и партнер Delphi Ventures Том Шонесси указали на скорость, ликвидность и экосистему разработчиков Solana как на причины, по которым рынок может недооценивать этот актив. \n\nУайт, известный в X как @TheOtherParker_, заявил 9 мая, что остается оптимистом по поводу SOL, поскольку Solana сочетает в себе «технологию уровня S, пользовательское принятие и ликвидность». Он опроверг распространенный аргумент о том, что большая ликвидность DeFi и база TVL Ethereum дают ему непреодолимое преимущество, утверждая, что сравнение выглядит иначе, когда традиционные финансы входят на рынок. «Некоторые могут возразить: ‘Да, но ETH имеет такое огромное преимущество по ликвидности/TVL в DeFi.’ Огромное — это относительное понятие, и по сравнению с ликвидностью TradFi вся ликвидность DeFi — капля в море», — написал Уайт. «Поэтому, когда капитал традиционных финансов входит в пространство, SOL и ETH фактически находятся на одном уровне. В этой среде технологии и пользовательский опыт играют огромную роль в принятии, и SOL однозначно выигрывает».\n\nУайт также утверждал, что относительная оценка SOL оставляет пространство для более значительного переоценивания, если инвесторы начнут рассматривать Solana как серьезного конкурента Ethereum. «С учетом всего этого и 5-кратной разницы в относительной стоимости, действительно трудно не быть оптимистом», — написал он. «Если SOL просто догонит ETH, SOL будет стоить примерно $500, даже если ETH не изменится. Хорошие шансы на положительный исход».\n\nБолее новаторская часть тезиса Уайта заключается не просто в том, что Solana может конкурировать с Ethereum по пропускной способности или пользовательскому опыту. Это то, что ИИ может сделать Solana более стратегически значимой, а не менее. По его мнению, многие программные компании сталкиваются с неопределенностью, поскольку ИИ сжимает маржи или нарушает устоявшиеся модели денежного потока. Напротив, Solana может извлечь выгоду, если автономные агенты потребуют быстрых, недорогих и глобально доступных финансовых путей. \n\n«Поскольку будущие денежные потоки программного обеспечения продолжают переоцениваться с увеличением неопределенности, инвесторы будут стремиться к диверсификации, потому что диверсификация — лучший способ бороться"
+    },
+    {
+      "id": "470803dd8e898c5c",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.club/strategys-bitcoin-reserve-surged-to-818869-btc-after-buying-535-coins/",
+      "title_en": "Биткоин-резерв компании Strategy вырос до 818,869 после покупки 535 BTC",
+      "summary_en": "Майкл Сэйлор объявил, что 10 мая компания Strategy приобрела дополнительные 535 BTC. После последней покупки доходность BTC для Strategy с начала 2026 года составила 9,4%. Председатель совета директоров Strategy Майкл Сэйлор сообщил о пополнении биткоин-резерва компании. По его словам, после покупки 535 BTC 10 мая портфель биткоинов Strategy увеличился до 818,869 BTC. По словам Сэйлора, [&#8230;] Источник",
+      "published_at": "2026-05-12T05:00:37+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Биткоин-резерв компании Strategy вырос до 818,869 после покупки 535 BTC",
+      "summary_ru": "Майкл Сэйлор объявил, что 10 мая компания Strategy приобрела дополнительные 535 BTC. После последней покупки доходность BTC для Strategy с начала 2026 года составила 9,4%. Председатель совета директоров Strategy Майкл Сэйлор сообщил о пополнении биткоин-резерва компании. По его словам, после покупки 535 BTC 10 мая портфель биткоинов Strategy увеличился до 818,869 BTC. По словам Сэйлора, [&#8230;] Источник"
+    },
+    {
       "id": "ed939a2ea41289a1",
       "source": "The Block",
       "category": "crypto",
@@ -251,6 +608,18 @@
       "topic": "Altcoins",
       "title_ru": "Связанный с Ripple XRP держится около $1.46, так как попытка прорыва ослабевает, несмотря на привлечение $200 миллионов.",
       "summary_ru": ""
+    },
+    {
+      "id": "1107408541d31e87",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/why-is-the-crypto-market-down-today/",
+      "title_en": "Why Is The Crypto Market Down Today?",
+      "summary_en": "The crypto market dropped 0.86% to $2.67 trillion as Trump&#8217;s rejection of Iran&#8217;s peace proposal continues to weigh on risk appetite. Bitcoin (BTC) fell 0.87% to $81,012, trapped near the top of an ascending channel. Zcash (ZEC) dropped 4.4% to $556, but a bull flag is forming after a 102% rally. In the news today:- The post Why Is The Crypto Market Down Today? appeared first on BeInCrypto .",
+      "published_at": "2026-05-12T04:55:46+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Почему сегодня рынок криптовалют в минусе?",
+      "summary_ru": "Крипторынок упал на 0.86% до $2.67 триллиона, так как отказ Трампа от мирного предложения Ирана продолжает сказываться на аппетите к риску. Bitcoin (BTC) снизился на 0.87% до $81,012, застряв вблизи верхней границы восходящего канала. Zcash (ZEC) упал на 4.4% до $556, но формируется бычий флаг после роста на 102%. В новостях сегодня: - Пост \"Почему крипторынок сегодня падает?\" появился на BeInCrypto."
     },
     {
       "id": "7c534a582fcb0dd6",
@@ -277,6 +646,42 @@
       "summary_ru": "В настоящее время все AI-модели, которые вы когда-либо использовали, работают одинаково. Вы говорите, он слушает. Он отвечает, вы слушаете. Компания Thinking Machines пытается изменить это, создавая модель, которая обрабатывает ваш ввод и генерирует ответ одновременно, что делает взаимодействие более похожим на телефонный разговор, чем на текстовую переписку."
     },
     {
+      "id": "f44bdbec5ed7cb30",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/pi-network-price-crash-to-0-or-jump-to-1-3-ais-speculate-what-is-more-likely-for-pi-this-year/",
+      "title_en": "Pi Network Price Crash to $0 or Jump to $1: 3 AIs Speculate What Is More Likely for PI This Year",
+      "summary_en": "\"A crash to $0 is mathematically and socially unlikely for Pi Network in 2026,\" Gemini stated.",
+      "published_at": "2026-05-12T04:50:04+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Падение цены Pi Network до $0 или рост до $1: 3 ИИ предполагают, что более вероятно для PI в этом году.",
+      "summary_ru": "\"Снижение до $0 математически и социально маловероятно для Pi Network в 2026 году,\" заявила компания Gemini."
+    },
+    {
+      "id": "cc03de1dc7b120e8",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/analysis/doge/dogecoin-doge-slows-near-0-1120/",
+      "title_en": "Dogecoin (DOGE) Slows Near $0.1120, Bulls Face Crucial Test",
+      "summary_en": "Dogecoin started a fresh increase from the $0.1050 zone against the US Dollar. DOGE is now facing hurdles near $0.1120 and might aim for a larger rally. DOGE price started a decent upward move above $0.1080 and $0.1085. The price is trading above the $0.1090 level and the 100-hourly simple moving average. There is a key contracting triangle forming with support at $0.1090 on the hourly chart of the DOGE/USD pair (data source from Kraken). The price could continue to move up if it stays above $0.1080. Dogecoin Price Faces Hurdles Dogecoin price remained supported above the $0.1020 zone and started a fresh increase, like Bitcoin and Ethereum. DOGE climbed above the $0.1080 and $0.1085 resistance levels. The price gained over 5% and tested the $0.1125 zone. There was a move above the 50% Fib retracement level of the downward move from the $0.1172 swing high to the $0.1058 low. Besides, there is a key contracting triangle forming with support at $0.1090 on the hourly chart of the DOGE/USD pair. Dogecoin price is now trading above the $0.110 level and the 100-hourly simple moving average. If the bulls remain active, the price could attempt another increase. Immediate resistance on the upside is near the $0.1120 level. The first major resistance for the bulls could be near the $0.1128 level or the 61.8% Fib retracement level of the downward move from the $0.1172 swing high to the $0.1058 low. The next major resistance is near the $0.1145 level. A close above the $0.1145 resistance might send the price toward the $0.1170 resistance. Any more gains might send the price toward the $0.120 level. The next major stop for the bulls might be $0.1250. Another Decline In DOGE? If DOGE’s price fails to climb above the $0.1128 level, it could continue to move down. Initial support on the downside is near the $0.1090 level. The next major support is near the $0.1080 level. The main support sits at $0.1050. If there is a downside break below the $0.1050 support, the price could decline further. In the stated case, the price might slide toward the $0.1020 level or even $0.10 in the near term. Technical Indicators Hourly MACD – The MACD for DOGE/USD is now losing momentum in the bullish zone. Hourly RSI (Relative Strength Index) – The RSI for DOGE/USD is now above the 50 level. Major Support Levels – $0.1090 and $0.1080. Major Resistance Levels – $0.1120 and $0.1128.",
+      "published_at": "2026-05-12T04:48:56+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Dogecoin (DOGE) замедляется около $0.1120, быкам предстает важное испытание.",
+      "summary_ru": "Dogecoin начал новое увеличение с зоны $0.1050 по отношению к доллару США. DOGE сейчас сталкивается с препятствиями около $0.1120 и может нацелиться на более крупный рост. Цена DOGE начала достойное восходящее движение выше $0.1080 и $0.1085. Цена торгуется выше уровня $0.1090 и 100-часовой простой скользящей средней. На часовом графике пары DOGE/USD формируется ключевой сужающийся треугольник с поддержкой на уровне $0.1090. Цена может продолжить расти, если останется выше $0.1080. Цена Dogecoin сталкивается с препятствиями. Цена Dogecoin оставалась поддержанной выше зоны $0.1020 и начала новое увеличение, как Bitcoin и Ethereum. DOGE поднялся выше уровней сопротивления $0.1080 и $0.1085. Цена выросла более чем на 5% и протестировала зону $0.1125. Произошло движение выше 50% уровня Фибоначчи коррекции нисходящего движения от максимума $0.1172 до минимума $0.1058. Кроме того, на часовом графике пары DOGE/USD формируется ключевой сужающийся треугольник с поддержкой на уровне $0.1090. Цена Dogecoin сейчас торгуется выше уровня $0.110 и 100-часовой простой скользящей средней. Если быки останутся активными, цена может попытаться снова вырасти. Непосредственное сопротивление на восходящем движении находится около уровня $0.1120. Первое значительное сопротивление для быков может находиться около уровня $0.1128 или 61.8% уровня Фибоначчи коррекции нисходящего движения от максимума $0.1172 до минимума $0.1058. Следующее значительное сопротивление находится около уровня $0.1145. Закрытие выше сопротивления $0.1145 может отправить цену к сопротивлению $0.1170. Любые дополнительные приросты могут отправить цену к уровню $0.120. Следующая значительная цель для быков может быть $0.1250. Еще одно снижение DOGE? Если цена DOGE не сможет подняться выше уровня $0.1128, она может продолжить движение вниз. Начальная поддержка на нисходящем движении находится около уровня $0.1090. Следующая значительная поддержка находится около уровня $0.1080. Основная поддержка расположена на уровне $0.1050. Если произойдет пробой вниз ниже уровня поддержки $0.1050, цена может снизиться еще больше. В этом случае цена может опуститься к уровню $0.1020"
+    },
+    {
+      "id": "d4e3c84954bb4eed",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/multibank-groups-crypto-arm-mb-io-brings-ghana-gold-on-chain-with-kings-orbis-eon3-mavryk/",
+      "title_en": "MultiBank Group’s Crypto Arm mb.io Brings Ghana Gold On-chain with Kings Orbis, EON3 & Mavryk",
+      "summary_en": "[PRESS RELEASE &#8211; Dubai, U.A.E, May 11th, 2026] MultiBank Group’s crypto arm mb.io, brings African gold on-chain by partnering with Kings Orbis, EON3 Group, and Mavryk. Institutional gold tokenisation programme to be powered by mb.io RWA, with vaulting in Dubai under LBMA-approved custody, dedicated supply from EON3 Group, and Mavryk as the Layer 1 blockchain [&#8230;]",
+      "published_at": "2026-05-12T04:47:36+00:00",
+      "topic": "DeFi",
+      "title_ru": "Криптовое подразделение MultiBank Group mb.io выводит золото Ганы на блокчейн с помощью Kings Orbis, EON3 и Mavryk.",
+      "summary_ru": "[ПРЕСС-РЕЛИЗ – Дубай, ОАЭ, 11 мая 2026 года] Криптовое подразделение MultiBank Group mb.io выводит африканское золото на блокчейн, сотрудничая с Kings Orbis, EON3 Group и Mavryk. Программа токенизации институционального золота будет поддерживаться mb.io RWA, с хранением в Дубае под одобренным LBMA контролем, с выделенным предложением от EON3 Group и Mavryk в качестве блокчейна уровня 1."
+    },
+    {
       "id": "512e8ba26e866572",
       "source": "CoinDesk",
       "category": "crypto",
@@ -287,6 +692,46 @@
       "topic": "Bitcoin",
       "title_ru": "Биткойн на короткое время достиг $82,000, SOL и DOGE выросли, в то время как Майкл Бьюри предупреждает о падении фондового рынка.",
       "summary_ru": ""
+    },
+    {
+      "id": "19430fda6d37e71e",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/crypto-com-lands-uae-license-opening-crypto-payments-for-dubai-government-fees/",
+      "title_en": "Crypto.com Lands UAE License, Opening Crypto Payments for Dubai Government Fees",
+      "summary_en": "Crypto exchange Crypto.com announced that its United Arab Emirates entity has been granted a stored value facilities license, enabling payment of government fees with cryptocurrencies. Regulatory Milestone Crypto exchange Crypto.com has announced on May 11 that its United Arab Emirates (UAE) entity, Foris DAX Middle East FZE, has been granted a stored value facilities (SVF) [&#8230;]",
+      "published_at": "2026-05-12T04:30:28+00:00",
+      "topic": "Regulations",
+      "title_ru": "Crypto.com получил лицензию в ОАЭ, что позволит использовать криптоплатежи для уплаты государственных сборов в Дубае.",
+      "summary_ru": "Криптобиржа Crypto.com объявила, что её подразделение в Объединённых Арабских Эмиратах получило лицензию на хранение средств, что позволяет оплачивать государственные сборы с помощью криптовалют. Регуляторный этап Криптобиржа Crypto.com сообщила 11 мая, что её подразделение в ОАЭ, Foris DAX Middle East FZE, получило лицензию на хранение средств (SVF).",
+      "duplicates": [
+        {
+          "source": "HappyCoin",
+          "url": "https://happycoin.club/crypto-com-exchange-receives-dubai-tax-license/",
+          "title_en": "Жители Дубая смогут оплачивать госпошлины через Crypto.com",
+          "title_ru": "Жители Дубая смогут оплачивать госпошлины через Crypto.com",
+          "published_at": "2026-05-12T04:30:56+00:00"
+        },
+        {
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/dubai-crypto-tax-payments-bitcoin/",
+          "title_en": "Dubai government allows residents to pay taxes with Bitcoin via Crypto.com",
+          "title_ru": "Правительство Дубая разрешило жителям оплачивать налоги с помощью Bitcoin через Crypto.com.",
+          "published_at": "2026-05-12T06:29:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "bf889d4d57535479",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/chainlink-address-activity-layerzero-ccip/",
+      "title_en": "Chainlink Network Activity Surges to 8-Month High as CCIP Wins DeFi Migration",
+      "summary_en": "Chainlink (LINK) network activity has jumped to levels last seen eight months ago. The surge coincided with the migration of decentralized finance (DeFi) protocols from LayerZero to Chainlink&#8217;s Cross-Chain Interoperability Protocol (CCIP). Why is Chainlink Address Activity Surging? On-chain analytics firm Santiment recorded 282,170 active addresses on May 9. This was followed by 264,090 active The post Chainlink Network Activity Surges to 8-Month High as CCIP Wins DeFi Migration appeared first on BeInCrypto .",
+      "published_at": "2026-05-12T04:24:04+00:00",
+      "topic": "DeFi",
+      "title_ru": "Активность сети Chainlink достигла восьмимесячного максимума на фоне успешной миграции DeFi с использованием CCIP.",
+      "summary_ru": "Сеть Chainlink (LINK) демонстрирует активность на уровне, не наблюдавшемся последние восемь месяцев. Увеличение активности совпало с миграцией протоколов децентрализованных финансов (DeFi) с LayerZero на Протокол межсетевой совместимости Chainlink (CCIP). Почему активность адресов Chainlink растет? Аналитическая компания Santiment зафиксировала 282,170 активных адресов 9 мая. Это было последовано 264,090 активными адресами."
     },
     {
       "id": "f948d8d611f662a8",
@@ -313,6 +758,63 @@
       "summary_ru": "Браузер Bitcoin Ordinals Ord.io и связанное с ним потребительское приложение Zap прекратят свою работу 1 июня, согласно объявлениям, опубликованным в X."
     },
     {
+      "id": "db5e1eaadc889407",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/altcoin/xrp-funding-rates-hint-at-repeat-of-3-6-surge-scenario/",
+      "title_en": "XRP Funding Rates Hint At Repeat Of $3.6 Surge Scenario",
+      "summary_en": "A 126% price surge that pushed XRP to an all-time high of $3.6 last July started with a pattern that looks a lot like what is happening right now. Related Reading: Swiss Bitcoin Reserve Effort Withdrawn After Resistance From Central Bank Shorts Dominating Despite Rising Prices Funding rates on Binance have stayed negative since February 2026, even as XRP climbed roughly 27% from a low of $1.10. That gap between trader sentiment and actual price movement is what caught the attention of CryptoQuant analyst Darkfost, who flagged the setup in a recent market commentary. Short positions have been dominant across a 30-day period, data shows, and that stretch of negativity marks the longest such run in recent history for the token. The broader altcoin market had a rough start to the year. The TOTAL3 index, which tracks global crypto market capitalization excluding Bitcoin, Ethereum, and stablecoins, shed more than $540 billion during the correction. Global uncertainty hit altcoins harder than most other asset classes. Since early February, however, roughly $125 billion has flowed back into the index, pointing to a slow but steady return of investor interest. XRP dropped as low as $1.10 in February before beginning its recovery. Prices have climbed since then, but funding rates have not followed. According to Darkfost, this kind of divergence carries weight. When the majority of traders are positioned negatively after a drop of more than 60%, history suggests a reversal may be building beneath the surface. A Pattern That Already Played Out Once The same set of conditions appeared in April 2025. XRP was trading near $1.25 following a sharp decline, and funding rates had just turned negative for the first time in over 16 months. They stayed negative well into June 2025. During that time, the price was quietly recovering. By the time funding rates flipped positive again, XRP was already deep into an uptrend. The rally that followed brought the token to $3.6 in July 2025. That move, from roughly $1.25 to $3.6, represented a gain of 126% and set a new all-time high for the asset. Related Reading: Nearly 80% Of Bitcoin Supply Hasn’t Moved As Long-Term Holders Tighten Grip Capital Returning As Bearish Bets Hold What makes the current setup similar, based on Darkfost&#8217;s analysis, is not just the negative funding rates. It is the combination of those rates holding steady while prices recover and capital slowly returns to the altcoin market. Short sellers have held their positions even as the price contradicts their outlook. If the 2025 pattern holds any predictive value, the continued buildup of short positions against a recovering price could eventually produce the kind of squeeze that accelerates a breakout. Featured image from Unsplash, chart from TradingView",
+      "published_at": "2026-05-12T04:00:41+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Курсы финансирования XRP указывают на возможность повторения сценария с ростом до $3.6.",
+      "summary_ru": "Ценовой рост на 126%, который поднял XRP до рекордного уровня в $3.6 в прошлом июле, начался с паттерна, который очень похож на то, что происходит сейчас. Финансирование на Binance оставалось отрицательным с февраля 2026 года, даже несмотря на то, что XRP вырос примерно на 27% с минимума в $1.10. Этот разрыв между настроением трейдеров и фактическим движением цен привлек внимание аналитика CryptoQuant Darkfost, который отметил эту ситуацию в недавнем рыночном комментарии. Данные показывают, что короткие позиции доминировали на протяжении 30 дней, и этот период негативного настроения стал самым длительным в недавней истории токена. Более широкий рынок альткоинов начал год с трудностями. Индекс TOTAL3, который отслеживает глобальную капитализацию крипторынка, исключая Bitcoin, Ethereum и стейблкоины, потерял более $540 миллиардов во время коррекции. Глобальная неопределенность ударила по альткоинам сильнее, чем по большинству других классов активов. Однако с начала февраля в индекс вернулось примерно $125 миллиардов, что указывает на медленное, но стабильное возвращение интереса инвесторов. XRP упал до $1.10 в феврале, прежде чем начать восстановление. С тех пор цены выросли, но ставки по финансированию не последовали за этим. Согласно Darkfost, такая дивергенция имеет значение. Когда большинство трейдеров занимает негативные позиции после падения более чем на 60%, история предполагает, что под поверхностью может формироваться разворот. Паттерн, который уже сработал однажды, появился в апреле 2025 года. XRP торговался около $1.25 после резкого падения, и ставки по финансированию впервые за более чем 16 месяцев стали отрицательными. Они оставались отрицательными до июня 2025 года. В это время цена тихо восстанавливалась. К моменту, когда ставки по финансированию снова стали положительными, XRP уже находился в глубоком восходящем тренде. Следующий ралли поднял токен до $3.6 в июле 2025 года. Этот рост с примерно $1.25 до $3.6 составил 126% и установил новый рекорд для актива. Что делает текущую ситуацию похожей, согласно анализу Darkfost, так это не только отрицательные ставки по финансированию. Это сочетание этих ставок, которые остаются стабильными, пока цены восстанавливаются, и капитала, который медленно возвращается на рынок альткоинов. Шортисты удерживали свои позиции, даже когда цена противоречила их прогнозам. Если"
+    },
+    {
+      "id": "2bde80b99a461575",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.club/bitcoins-chart-shows-first-golden-cross-since-2023/",
+      "title_en": "На графике биткоина впервые с 2023 года появился «золотой крест». Как это повлияет на курс?",
+      "summary_en": "Золотой крест MVRV биткоина сигнализирует о бычьем тренде, который исторически предшествует продолжительному росту цен. По мнению криптоаналитиков, биткоин может настроиться на продолжительный восходящий тренд. Впервые с 2023 года соотношение рыночной стоимости биткоина к реализованной стоимости (MVRV), индикатор, который измеряет, переоценён ли актив, вот-вот покажет «золотой крест». Это событие, которое ранее предшествовало массовым скачкам цен, считает [&#8230;] Источник",
+      "published_at": "2026-05-12T04:00:18+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "На графике биткоина впервые с 2023 года появился «золотой крест». Как это повлияет на курс?",
+      "summary_ru": "Золотой крест MVRV биткоина сигнализирует о бычьем тренде, который исторически предшествует продолжительному росту цен. По мнению криптоаналитиков, биткоин может настроиться на продолжительный восходящий тренд. Впервые с 2023 года соотношение рыночной стоимости биткоина к реализованной стоимости (MVRV), индикатор, который измеряет, переоценён ли актив, вот-вот покажет «золотой крест». Это событие, которое ранее предшествовало массовым скачкам цен, считает [&#8230;] Источник"
+    },
+    {
+      "id": "c4ef74a8cb43c02b",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/analysis/xrp/xrp-price-stays-firm-above-1-45/",
+      "title_en": "XRP Price Stays Firm Above $1.45, Upside Momentum Remains Strong",
+      "summary_en": "XRP price started a downside correction from the $1.5050 zone. The price is now consolidating and might aim for another increase if it stays above the $1.4450 zone. XRP price started a downside correction after it failed to stay above the $1.50 zone. The price is now trading above $1.4450 and the 100-hourly Simple Moving Average. There is a bullish trend line forming with support at $1.4450 on the hourly chart of the XRP/USD pair (data source from Kraken). The pair could start a fresh increase if it settles above $1.480. XRP Price Holds Key Support XRP price started a decent upward move above $1.4350 and $1.4550, outperforming Bitcoin and Ethereum. The price gained pace for a clear move above the $1.480 resistance. A high was formed at $1.5074, and the price started a downside correction. There was a move below $1.4750 and $1.4650. The price dipped below the 38.2% Fib retracement level of the upward move from the $1.3785 swing low to the $1.5074 high. The price is now trading above $1.4450 and the 100-hourly Simple Moving Average. There is also a bullish trend line forming with support at $1.4450 on the hourly chart of the XRP/USD pair. If there is a fresh upward move, the price might face resistance near the $1.4720 level. The first major resistance is near the $1.480 level, above which the price could rise and test $1.4880. A clear move above the $1.4880 resistance might send the price toward the $1.50 resistance. Any more gains might send the price toward the $1.520 resistance. The next major hurdle for the bulls might be near $1.550. Downside Continuation? If XRP fails to clear the $1.4720 resistance zone, it could start a fresh decline. Initial support on the downside is near the $1.4450 level. The next major support is near the $1.4430 level and the trend line or the 50% Fib retracement level of the upward move from the $1.3785 swing low to the $1.5074 high. If there is a downside break and a close below the $1.4430 level, the price might continue to decline toward $1.4280. The next major support sits near the $1.4280 zone, below which the price could continue lower toward $1.4120. Any more losses might call for a test of $1.4050. Technical Indicators Hourly MACD – The MACD for XRP/USD is now gaining pace in the bearish zone. Hourly RSI (Relative Strength Index) – The RSI for XRP/USD is now above the 50 level. Major Support Levels – $1.4450 and $1.4280. Major Resistance Levels – $1.4720 and $1.4880.",
+      "published_at": "2026-05-12T03:48:52+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Цена XRP остается стабильной выше $1.45, восходящий импульс сохраняется сильным.",
+      "summary_ru": "Цена XRP начала коррекцию вниз из зоны $1.5050. В настоящее время цена консолидируется и может нацелиться на дальнейший рост, если останется выше зоны $1.4450. Цена XRP начала коррекцию вниз после того, как не смогла удержаться выше зоны $1.50. В настоящее время цена торгуется выше $1.4450 и 100-часовой простой скользящей средней. На часовом графике пары XRP/USD формируется восходящая трендовая линия с поддержкой на уровне $1.4450 (источник данных — Kraken). Пара может начать новый рост, если установится выше $1.480. \n\nЦена XRP удерживает ключевую поддержку. Она начала значительное восходящее движение выше $1.4350 и $1.4550, опережая Bitcoin и Ethereum. Цена набрала темп для четкого движения выше сопротивления $1.480. Максимум был зафиксирован на уровне $1.5074, после чего цена начала коррекцию вниз. Произошло движение ниже $1.4750 и $1.4650. Цена опустилась ниже уровня 38.2% Фибоначчи от восходящего движения от минимума $1.3785 до максимума $1.5074. В настоящее время цена торгуется выше $1.4450 и 100-часовой простой скользящей средней. Также на часовом графике пары XRP/USD формируется восходящая трендовая линия с поддержкой на уровне $1.4450. Если произойдет новое восходящее движение, цена может столкнуться с сопротивлением около уровня $1.4720. Первое значительное сопротивление находится около уровня $1.480, выше которого цена может вырасти и протестировать $1.4880. Четкое движение выше сопротивления $1.4880 может подтолкнуть цену к сопротивлению $1.50. Любые дополнительные приросты могут привести к тестированию уровня $1.520. Следующее значительное препятствие для быков может находиться около $1.550. \n\nПродолжение снижения? Если XRP не сможет преодолеть зону сопротивления $1.4720, это может привести к новому снижению. Начальная поддержка на понижении находится около уровня $1.4450. Следующая значительная поддержка расположена около уровня $1.4430 и трендовой линии или уровня 50% Фибоначчи от восходящего движения от минимума $1.3785 до максимума $1.5074. Если произойдет пробой вниз и закрытие ниже уровня $1.4430, цена может продолжить снижение к $1.4280. Следующая значительная поддержка находится около зоны $1.4280, ниже которой цена может"
+    },
+    {
+      "id": "cc5e7204679e36e1",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/bitcoin-miner-cleanspark-posts-378m-loss-in-q2/",
+      "title_en": "Bitcoin Miner Cleanspark Posts $378M Loss in Q2",
+      "summary_en": "Cleanspark reported a $378.3 million net loss for its second fiscal quarter ended March 31, 2026, as a $224.1 million non-cash loss on bitcoin fair value weighed heavily on results even as the company expanded its hashrate and power capacity. Cleanspark Posts $378M Loss in Q2 as Bitcoin Fair Value Swing Hits Results Cleanspark’s (Nasdaq: [&#8230;]",
+      "published_at": "2026-05-12T03:30:37+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Биткойн-майнер Cleanspark зафиксировал убыток в $378 миллионов во втором квартале.",
+      "summary_ru": "Cleanspark сообщила о чистом убытке в размере 378,3 миллиона долларов за второй финансовый квартал, завершившийся 31 марта 2026 года, так как не денежный убыток от справедливой стоимости биткойна в размере 224,1 миллиона долларов оказал значительное влияние на результаты, несмотря на то, что компания увеличила свою хешрейт и мощность.",
+      "duplicates": [
+        {
+          "source": "BeInCrypto EN",
+          "url": "https://beincrypto.com/mara-cleanspark-q1-loss-bitcoin/",
+          "title_en": "MARA and CleanSpark Stocks Slide as Bitcoin Losses Sink Quarterly Results",
+          "title_ru": "Акции MARA и CleanSpark падают на фоне убытков от Bitcoin, которые негативно сказались на квартальных результатах.",
+          "published_at": "2026-05-12T04:07:44+00:00"
+        }
+      ]
+    },
+    {
       "id": "c3529024f2bb6436",
       "source": "vc.ru AI",
       "category": "ai",
@@ -325,6 +827,18 @@
       "summary_ru": "Запустить AI-голосового агента сегодня - проект на выходные. Поднимаете Vapi или Retell, прописываете промпт, привязываете SIP - и бот звонит. А вот распознать, кто реально взял трубку, и подключиться достаточно быстро, чтобы не упустить живого человека - это та часть, на которой ломается каждый outbound-стек."
     },
     {
+      "id": "ccaba5cfb32f960e",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/analysis/eth/ethereum-price-rejected-near-2400-again/",
+      "title_en": "Ethereum Price Rejected Near $2,400 Again, Sellers Defend Key Barrier",
+      "summary_en": "Ethereum price started a downside correction from $2,380. ETH is now showing a few bearish signs and might decline further if it trades below $2,300. Ethereum started a downside correction below the $2,360 zone. The price is trading below $2,350 and the 100-hourly Simple Moving Average. There was a break below a bullish trend line with support at $2,340 on the hourly chart of ETH/USD (data feed via Kraken). The pair could continue to move down if it stays below the $2,350 zone. Ethereum Price Dips Again Ethereum price failed to stay above the $2,365 zone and extended its decline, like Bitcoin. ETH price gained pace for a move below the $2,350 and $2,340 levels. There was a break below a bullish trend line with support at $2,340 on the hourly chart of ETH/USD. The bears pushed the price below the 50% Fib retracement level of the upward move from the $2,265 swing low to the $2,382 high. Finally, the bulls appeared near $2,300. Ethereum price is now trading below $2,340 and the 100-hourly Simple Moving Average. If the bulls remain in action above $2,300, the price could attempt another increase. Immediate resistance is seen near the $2,340 level. The first key resistance is near the $2,365 level. The next major resistance is near the $2,380 level. A clear move above the $2,380 resistance might send the price toward the $2,400 resistance. An upside break above the $2,400 region might call for more gains in the coming days. In the stated case, Ether could rise toward the $2,440 resistance zone or even $2,450 in the near term. More Downside In ETH? If Ethereum fails to clear the $2,350 resistance, it could start a fresh decline. Initial support on the downside is near the $2,300 level and the 76.4% Fib retracement level of the upward move from the $2,265 swing low to the $2,382 high. The first major support sits near the $2,265 zone. A clear move below the $2,265 support might push the price toward the $2,220 support. Any more losses might send the price toward the $2,200 region. The main support could be $2,150. Technical Indicators Hourly MACD – The MACD for ETH/USD is gaining momentum in the bearish zone. Hourly RSI &#8211; The RSI for ETH/USD is now below the 50 zone. Major Support Level – $2,300 Major Resistance Level – $2,380",
+      "published_at": "2026-05-12T03:08:09+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Цена Ethereum снова отклонилась около $2,400, продавцы защищают ключевой уровень.",
+      "summary_ru": "Цена Ethereum начала коррекцию вниз от уровня $2,380. ETH сейчас демонстрирует несколько медвежьих сигналов и может снизиться еще больше, если будет торговаться ниже $2,300. Ethereum начал коррекцию ниже зоны $2,360. Цена торгуется ниже $2,350 и 100-часовой простой скользящей средней. Произошел пробой ниже восходящей трендовой линии с поддержкой на уровне $2,340 на часовом графике ETH/USD (данные с Kraken). Пара может продолжить движение вниз, если останется ниже зоны $2,350. \n\nЦена Ethereum снова снизилась. Цена Ethereum не смогла удержаться выше зоны $2,365 и продолжила снижение, как и Bitcoin. Цена ETH ускорила движение ниже уровней $2,350 и $2,340. Произошел пробой ниже восходящей трендовой линии с поддержкой на уровне $2,340 на часовом графике ETH/USD. Медведи толкнули цену ниже уровня 50% Фибоначчи от восходящего движения от минимума $2,265 до максимума $2,382. В конце концов, быки появились около $2,300. Цена Ethereum сейчас торгуется ниже $2,340 и 100-часовой простой скользящей средней. Если быки останутся активными выше $2,300, цена может попытаться снова вырасти. Непосредственное сопротивление наблюдается около уровня $2,340. Первое ключевое сопротивление находится около уровня $2,365. Следующее значительное сопротивление расположено около уровня $2,380. Ясное движение выше сопротивления $2,380 может подтолкнуть цену к сопротивлению $2,400. Пробой вверх выше зоны $2,400 может привести к дальнейшему росту в ближайшие дни. В этом случае Ether может вырасти к зоне сопротивления $2,440 или даже $2,450 в краткосрочной перспективе. \n\nБольше снижения для ETH? Если Ethereum не сможет преодолеть сопротивление $2,350, это может привести к новому снижению. Начальная поддержка на понижении находится около уровня $2,300 и уровня 76.4% Фибоначчи от восходящего движения от минимума $2,265 до максимума $2,382. Первоначальная значительная поддержка расположена около зоны $2,265. Ясное движение ниже поддержки $2,265 может толкнуть цену к поддержке $2,220. Любые дополнительные потери могут отправить цену к зоне $2,200. Основная поддержка может составлять $2,150. \n\nТехнические индикаторы: \nЧасовой MACD – MACD для ETH/USD набирает силу в медв"
+    },
+    {
       "id": "e22a5469677ddc7e",
       "source": "Cointelegraph",
       "category": "crypto",
@@ -335,6 +849,54 @@
       "topic": "Bitcoin",
       "title_ru": "Финансирование биткойна стало положительным: ждет ли BTC ралли до $85K?",
       "summary_ru": "Финансирование Bitcoin стало положительным, так как криптовалюта удерживала уровень в $80,000. Приведет ли рост притока средств в спотовые ETF к ралли до $85,000?"
+    },
+    {
+      "id": "9aafff8954c7e966",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/analysis/btc/bitcoin-price-eyes-82k-break/",
+      "title_en": "Bitcoin Price Eyes $82K Break, Bulls Prepare For Bigger Rally",
+      "summary_en": "Bitcoin price started a downside correction from the $82,000 zone. BTC is consolidating and might aim for a fresh increase if it clears $82,000. Bitcoin failed to stay above $81,500 and extended losses. The price is trading above $80,500 and the 100 hourly simple moving average. There is a key contracting triangle forming with support at $80,800 on the hourly chart of the BTC/USD pair (data feed from Kraken). The pair might extend losses if it stays below the $81,800 and $82,000 levels. Bitcoin Price Dips Again Bitcoin price failed to clear the $82,000 resistance zone. BTC started a downside correction below the $81,500 and $81,200 levels to enter a short-term bearish zone. There was a move below the 50% Fib retracement level of the upward move from the $80,421 swing low to the $82,100 high. However, the bulls were active above $80,500. There is also a key contracting triangle forming with support at $80,800 on the hourly chart of the BTC/USD pair. Bitcoin is now trading above $80,500 and the 100 hourly simple moving average. If the price remains stable above $80,500, it could attempt a fresh increase. Immediate resistance is near the $81,500 level. The first key resistance is near the $81,800 level. A close above the $81,800 resistance might send the price further higher. In the stated case, the price could rise and test the $82,250 resistance. Any more gains might send the price toward the $82,500 level. The next barrier for the bulls could be $83,500. Downside Extension In BTC? If Bitcoin fails to rise above the $81,800 resistance zone, it could start another decline. Immediate support is near the $80,800 level or the 76.4% Fib retracement level of the upward move from the $80,421 swing low to the $82,100 high. The first major support is near the $80,400 level. The next support is now near the $79,400 zone. Any more losses might send the price toward the $79,000 support in the near term. The main support now sits at $78,500, below which BTC might struggle to recover in the near term. Technical indicators: Hourly MACD – The MACD is now gaining pace in the bearish zone. Hourly RSI (Relative Strength Index) – The RSI for BTC/USD is now below the 50 level. Major Support Levels – $80,800, followed by $80,400. Major Resistance Levels – $81,800 and $82,000.",
+      "published_at": "2026-05-12T02:35:43+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Цена Биткойна стремится к прорыву на уровне $82K, быки готовятся к большему ралли.",
+      "summary_ru": "Цена Bitcoin начала коррекцию вниз из зоны $82,000. BTC консолидируется и может нацелиться на новое увеличение, если преодолеет уровень $82,000. Bitcoin не смог удержаться выше $81,500 и продолжил падение. Цена торгуется выше $80,500 и 100-часовой простой скользящей средней. На часовом графике пары BTC/USD формируется ключевой сжимающийся треугольник с поддержкой на уровне $80,800 (данные с Kraken). Пара может продолжить падение, если останется ниже уровней $81,800 и $82,000. \n\nЦена Bitcoin снова снижается. Bitcoin не смог преодолеть зону сопротивления $82,000. BTC начал коррекцию вниз ниже уровней $81,500 и $81,200, войдя в краткосрочную медвежью зону. Произошло движение ниже 50% уровня Фибоначчи от восходящего движения от минимума $80,421 до максимума $82,100. Тем не менее, быки активны выше $80,500. На часовом графике пары BTC/USD также формируется ключевой сжимающийся треугольник с поддержкой на уровне $80,800. Bitcoin сейчас торгуется выше $80,500 и 100-часовой простой скользящей средней. Если цена останется стабильной выше $80,500, она может попытаться нарастить рост. Непосредственное сопротивление находится около уровня $81,500. Первое ключевое сопротивление находится около уровня $81,800. Закрытие выше уровня $81,800 может привести к дальнейшему росту цены. В этом случае цена может вырасти и протестировать сопротивление на уровне $82,250. Любые дополнительные gains могут отправить цену к уровню $82,500. Следующее препятствие для быков может составить $83,500. \n\nРасширение вниз для BTC? Если Bitcoin не сможет подняться выше зоны сопротивления $81,800, он может начать новое снижение. Непосредственная поддержка находится около уровня $80,800 или 76.4% уровня Фибоначчи от восходящего движения от минимума $80,421 до максимума $82,100. Первоначальная основная поддержка находится около уровня $80,400. Следующая поддержка теперь находится около зоны $79,400. Любые дополнительные потери могут отправить цену к поддержке $79,000 в краткосрочной перспективе. Основная поддержка теперь находится на уровне $78,500, ниже которого BTC может испытывать трудности с восстановлением в краткосрочной перспективе. \n\nТехнические индикаторы: Часовой MACD – MACD сейчас набирает темп в медвежь"
+    },
+    {
+      "id": "843a16c15a966664",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/24-finance-giants-push-deeper-into-crypto-across-regulated-markets/",
+      "title_en": "24 Finance Giants Push Deeper Into Crypto Across Regulated Markets",
+      "summary_en": "Major financial institutions are expanding crypto services across regulated finance, with Bitwise data showing 24 firms active in trading, custody, funds, payments, tokenization, or exchange-traded products. The activity points to wider use of regulated crypto access. Banks Move Crypto Deeper Into Regulated Finance Wall Street’s crypto footprint is expanding across the financial system. Asset management [&#8230;]",
+      "published_at": "2026-05-12T02:30:00+00:00",
+      "topic": "Regulations",
+      "title_ru": "24 финансовых гиганта углубляют свои инвестиции в криптовалюту на регулируемых рынках.",
+      "summary_ru": "Крупные финансовые учреждения расширяют криптоуслуги в рамках регулируемого финансирования. Данные Bitwise показывают, что 24 компании активно занимаются торговлей, хранением, фондами, платежами, токенизацией или биржевыми продуктами. Эта активность указывает на более широкое использование регулируемого доступа к криптовалютам. Банки углубляют криптоинтеграцию в регулируемое финансирование. Крипто-присутствие Уолл-Стрит расширяется по всей финансовой системе. Управление активами [...]"
+    },
+    {
+      "id": "50ff7ceed80b07b7",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/strategys-bitcoin-sale-comment-puts-treasury-risk-in-focus/",
+      "title_en": "Strategy’s Bitcoin Sale Comment Puts Treasury Risk in Focus",
+      "summary_en": "Strategy’s potential BTC sale has sharpened debate over its bitcoin treasury model after a roughly $12.5 billion quarterly net loss. The company holds 818,869 bitcoin, worth about $67 billion, as investors assess dividends, liquidity, and preferred obligations. Strategy’s Potential BTC Sale Changes the Treasury Debate Strategy (Nasdaq: MSTR) reported first-quarter 2026 results that drew fresh [&#8230;]",
+      "published_at": "2026-05-12T01:30:49+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Комментарий о продаже Bitcoin от Strategy акцентирует внимание на рисках казначейства.",
+      "summary_ru": "Потенциальная продажа BTC компанией Strategy обострила дискуссию о модели биткойн-казначейства после квартального чистого убытка в размере примерно 12,5 миллиарда долларов. Компания владеет 818,869 биткойнами, стоимость которых составляет около 67 миллиардов долларов, в то время как инвесторы оценивают дивиденды, ликвидность и приоритетные обязательства. Потенциальная продажа BTC изменяет дебаты о казначействе. Strategy (Nasdaq: MSTR) опубликовала результаты первого квартала 2026 года, которые вызвали новые [...]"
+    },
+    {
+      "id": "873a48ed1131af32",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/xrp-ledger-foundation-names-ripples-david-schwartz-honorary-board-member/",
+      "title_en": "XRP Ledger Foundation Names Ripple’s David Schwartz Honorary Board Member",
+      "summary_en": "Ripple CTO Emeritus David Schwartz joined the XRP Ledger Foundation as an honorary board member, adding technical guidance from one of the ledger’s original architects. The role comes as the Foundation expands leadership across engineering, operations, and community work. XRP Ledger Foundation Adds Schwartz to Honorary Board Role The XRP Ledger Foundation announced on X [&#8230;]",
+      "published_at": "2026-05-12T00:30:58+00:00",
+      "topic": "Altcoins",
+      "title_ru": "XRP Ledger Foundation назначила Дэвида Шварца из Ripple почетным членом правления.",
+      "summary_ru": "CTO Emeritus компании Ripple Дэвид Шварц присоединился к Фонду XRP Ledger в качестве почетного члена правления, предоставляя технические рекомендации от одного из оригинальных архитекторов реестра. Эта роль появилась в то время, когда Фонд расширяет руководство в области инженерии, операций и работы с сообществом. Фонд XRP Ledger добавляет Шварца в почетное правление."
     },
     {
       "id": "c2e6ca3e854f832d",
@@ -371,6 +933,18 @@
       "topic": "Research",
       "title_ru": "Илья Сутскевер подтверждает свою роль в отстранении Сэма Альтмана из OpenAI: «Я не хотел, чтобы это было разрушено».",
       "summary_ru": "Бывший главный научный сотрудник OpenAI может быть в разрыве с компанией, но все же выступил в ее защиту во время своих показаний в понедельник."
+    },
+    {
+      "id": "89f4e967fb331af6",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/best-crypto-corporate-governance-2026/",
+      "title_en": "BeInCrypto Institutional Research: 15 Firms Setting the Standard for Crypto Corporate Governance",
+      "summary_en": "Best Crypto Corporate Governance is a category within the BeInCrypto Institutional 100 awards, covering firms whose public-market discipline, banking charters, board structure, audit maturity, and crisis-response record set governance standards for digital assets.&#160; The 15 firms below are listed alphabetically and are not ranked. A shortlist will be named in May 2026, with the winner The post BeInCrypto Institutional Research: 15 Firms Setting the Standard for Crypto Corporate Governance appeared first on BeInCrypto .",
+      "published_at": "2026-05-11T23:32:27+00:00",
+      "topic": "Regulations",
+      "title_ru": "BeInCrypto Институциональные Исследования: 15 компаний, устанавливающих стандарты корпоративного управления в криптоиндустрии",
+      "summary_ru": "Лучшее корпоративное управление в криптоиндустрии — это категория в рамках наград BeInCrypto Institutional 100, охватывающая компании, чья дисциплина на публичных рынках, банковские лицензии, структура совета директоров, зрелость аудита и история реагирования на кризисы устанавливают стандарты управления для цифровых активов. 15 компаний, перечисленных ниже, указаны в алфавитном порядке и не имеют ранжирования. Шорт-лист будет объявлен в мае 2026 года, а победитель..."
     },
     {
       "id": "ce49fe8e0cb4aba7",
@@ -442,6 +1016,55 @@
       "summary_ru": "OpenAI сообщила, что ее новая инициатива Daybreak использует ИИ для помощи компаниям в выявлении уязвимостей программного обеспечения и ускорении киберзащиты."
     },
     {
+      "id": "6bebb59c59506233",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/circle-stock-rallies-wall-street-further-upside-stablecoin-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Circle stock rallies 15% as Wall Street sees further upside in stablecoin adoption",
+      "summary_en": "Circle shares surged as analysts pointed to expanding stablecoin use cases and forecast significant upside as USDC adoption continues to gain traction.",
+      "published_at": "2026-05-11T22:25:00+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Акции Circle выросли на 15%, так как Уолл-Стрит ожидает дальнейшего роста в принятии стейблкоинов.",
+      "summary_ru": "Акции Circle выросли, так как аналитики отметили расширяющиеся случаи использования стейблкоинов и прогнозируют значительный рост по мере того, как принятие USDC продолжает набирать популярность.",
+      "duplicates": [
+        {
+          "source": "The Block",
+          "url": "https://www.theblock.co/post/400850/ark-invest-buys-circle-shares-stock-jumps?utm_source=rss&utm_medium=rss",
+          "title_en": "Ark Invest buys $5.5 million worth of Circle shares as stock jumps 16% on Q1 earnings",
+          "title_ru": "Ark Invest приобрела акции Circle на сумму 5,5 миллиона долларов, так как акции выросли на 16% после публикации отчетности за первый квартал.",
+          "published_at": "2026-05-12T03:16:23+00:00"
+        }
+      ]
+    },
+    {
+      "id": "db75ec07b9f021a8",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/ethics-democrats-market-structure-clarity-bill-markup?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Ethics remain sticking point as crypto market structure bill goes to markup",
+      "summary_en": "After months of delays, the Senate Banking Committee has set a Thursday markup for the CLARITY Act, but it would still need some Democrats’ support to pass on the Senate floor.",
+      "published_at": "2026-05-11T22:20:00+00:00",
+      "topic": "Regulations",
+      "title_ru": "Этика остается проблемным вопросом, поскольку законопроект о структуре крипторынка переходит к этапу доработки.",
+      "summary_ru": "После месяцев задержек Комитет по банковскому делу Сената назначил обсуждение законопроекта CLARITY Act на четверг, однако для его принятия на пленарном заседании Сената все еще потребуется поддержка некоторых демократов.",
+      "duplicates": [
+        {
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/11/clarity-act-in-the-flesh-unveiled-by-u-s-senate-banking-committee-before-hearing",
+          "title_en": "Clarity Act, in the flesh, unveiled by U.S. Senate Banking Committee before hearing",
+          "title_ru": "Законопроект Clarity Act был представлен Комитетом по банковскому делу Сената США перед слушанием.",
+          "published_at": "2026-05-12T04:25:26+00:00"
+        },
+        {
+          "source": "InCrypted",
+          "url": "https://incrypted.com/bankovskyj-komytet-opublykoval-tekst-novoj-versyy-clarity-act/",
+          "title_en": "Банковский комитет опубликовал текст новой версии CLARITY Act",
+          "title_ru": "Банковский комитет опубликовал текст новой версии CLARITY Act",
+          "published_at": "2026-05-12T07:26:41+00:00"
+        }
+      ]
+    },
+    {
       "id": "7be23ac9118dc59e",
       "source": "The Verge AI",
       "category": "ai",
@@ -452,6 +1075,18 @@
       "topic": "Regulations",
       "title_ru": "Вот чем занимается компания Mira Murati в области ИИ.",
       "summary_ru": "Компания Thinking Machines, основанная бывшим CTO OpenAI Мира Мурати, объявила в понедельник о разработке так называемых \"моделей взаимодействия\". По словам Thinking Machines, идея моделей взаимодействия заключается в том, что они позволят людям \"сотрудничать с ИИ так, как мы естественно сотрудничаем друг с другом - они постоянно принимают аудио, видео, [...]"
+    },
+    {
+      "id": "ffcc1339273cd9ae",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/roaring-kitty-x-account-hacked-pumpfun/",
+      "title_en": "RKC Price Rallies 25% As Roaring Kitty Returns After 16 Months",
+      "summary_en": "Roaring Kitty's X account posted a Pump.fun token after a 16-month silence, prompting traders to call the handle hacked. The post RKC Price Rallies 25% As Roaring Kitty Returns After 16 Months appeared first on BeInCrypto .",
+      "published_at": "2026-05-11T21:51:35+00:00",
+      "topic": "Hacks",
+      "title_ru": "RKC подорожал на 25% после возвращения Roaring Kitty спустя 16 месяцев.",
+      "summary_ru": "Аккаунт Roaring Kitty в X опубликовал токен Pump.fun после 16 месяцев молчания, что вызвало у трейдеров подозрения о взломе аккаунта. Пост RKC Price Rallies 25% As Roaring Kitty Returns After 16 Months впервые появился на BeInCrypto."
     },
     {
       "id": "9a3eca05822e97d9",
@@ -476,6 +1111,18 @@
       "topic": "Altcoins",
       "title_ru": "Новый ИИ от Baidu уже обходит лучшие модели и стоит на 94% дешевле в разработке.",
       "summary_ru": "ERNIE 5.1 занимает верхние позиции в китайских рейтингах ИИ, тратя при этом лишь небольшую часть ресурсов по сравнению с конкурентами. Baidu называет это \"прыжком в параметрической эффективности\"."
+    },
+    {
+      "id": "a35c2fe0bcba2454",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/bitcoin-pulls-in-706m-as-traders-abandon-short-positions-in-massive-sentiment-shift/",
+      "title_en": "Bitcoin Pulls In $706M as Traders Abandon Short Positions in Massive Sentiment Shift",
+      "summary_en": "While Bitcoin dominated headlines, Solana and XRP investment products also recorded sharp increases in activity.",
+      "published_at": "2026-05-11T21:43:40+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Биткойн привлек $706 млн, так как трейдеры покидают короткие позиции на фоне значительного изменения настроений.",
+      "summary_ru": "Пока Bitcoin занимал заголовки, инвестиционные продукты Solana и XRP также показали резкий рост активности."
     },
     {
       "id": "fe4dfba2d388d1a9",
@@ -7394,6 +8041,6 @@
       "summary_ru": "За&nbsp;последний год появилось множество видеороликов и статей по&nbsp;использованию нейросетей для&nbsp;изучения английского языка. Очень часто авторы, среди которых попадаются и «дипломированные» учителя, в&nbsp;очень немногочисленных и расплывчатых промптах‑инструкциях просят ИИ ограничиваться каким‑то уровнем CEFR, от&nbsp;A1&nbsp;до&nbsp;С2. Как&nbsp;ни странно, никто из&nbsp;этих авторов даже не&nbsp;потрудился изучить, понимают&nbsp;ли ChatGPT, Gemini, Claude, Grok, что&nbsp;входит в&nbsp;конкретный уровень, а&nbsp;что&nbsp;— нет. Как&nbsp;это можно проверить? Читать далее"
     }
   ],
-  "updated_at": "2026-05-12T07:41:46.672542+00:00",
-  "total": 633
+  "updated_at": "2026-05-12T07:45:54.514425+00:00",
+  "total": 682
 }
