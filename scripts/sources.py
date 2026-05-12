@@ -58,28 +58,30 @@ CRYPTO_RSS_FEEDS = [
     {"name": "The Block",       "url": "https://www.theblock.co/rss.xml"},
     {"name": "Decrypt",         "url": "https://decrypt.co/feed"},
     {"name": "CryptoSlate",     "url": "https://cryptoslate.com/feed/"},
-    {"name": "Bankless",        "url": "https://newsletter.banklesshq.com/feed"},
     {"name": "Blockworks",      "url": "https://blockworks.co/feed"},
-    {"name": "DL News",         "url": "https://www.dlnews.com/arc/outboundfeeds/rss/"},
+    {"name": "The Defiant",     "url": "https://thedefiant.io/feed"},
+    {"name": "Crypto Briefing", "url": "https://cryptobriefing.com/feed/"},
+    {"name": "Bitcoin.com",     "url": "https://news.bitcoin.com/feed/"},
+    {"name": "Bitcoin Magazine","url": "https://bitcoinmagazine.com/.rss/full/"},
+    {"name": "CryptoPotato",    "url": "https://cryptopotato.com/feed/"},
+    {"name": "NewsBTC",         "url": "https://www.newsbtc.com/feed/"},
+    {"name": "BeInCrypto EN",   "url": "https://beincrypto.com/feed/"},
+    {"name": "Protos",          "url": "https://protos.com/feed/"},
 
-    # Английские — research / аналитика
-    {"name": "Messari",         "url": "https://messari.io/rss"},
-    {"name": "a16z crypto",     "url": "https://a16zcrypto.com/feed/"},
-    {"name": "DefiLlama Blog",  "url": "https://defillama.com/blog/feed.xml"},
-
-    # Биржи и L1
-    {"name": "Binance Blog",    "url": "https://www.binance.com/en/blog/rss/all"},
-    {"name": "Coinbase Blog",   "url": "https://www.coinbase.com/blog/rss"},
+    # Биржи и L1/L2
     {"name": "Ethereum Blog",   "url": "https://blog.ethereum.org/feed.xml"},
     {"name": "Solana Blog",     "url": "https://solana.com/news/rss.xml"},
+    {"name": "Arbitrum Blog",   "url": "https://blog.arbitrum.io/rss/"},
+    {"name": "Kraken Blog",     "url": "https://blog.kraken.com/feed/"},
+    {"name": "Vitalik",         "url": "https://vitalik.eth.limo/feed.xml"},
 
     # Русскоязычные
     {"name": "Forklog",         "url": "https://forklog.com/feed"},
     {"name": "BeInCrypto RU",   "url": "https://ru.beincrypto.com/feed/"},
-    {"name": "Bits.media",      "url": "https://bits.media/rss/news/"},
-    {"name": "Cointelegraph RU","url": "https://ru.cointelegraph.com/rss"},
+    {"name": "RBC Crypto",      "url": "https://rssexport.rbc.ru/rbcnews/news/30/full.rss"},
+    {"name": "InCrypted",       "url": "https://incrypted.com/feed/"},
+    {"name": "HappyCoin",       "url": "https://happycoin.club/feed/"},
     {"name": "Habr Crypto",     "url": "https://habr.com/ru/rss/hub/cryptocurrency/all/?fl=ru"},
-    {"name": "Habr Blockchain", "url": "https://habr.com/ru/rss/hub/blockchain/all/?fl=ru"},
 ]
 
 # Объединённый список (для обратной совместимости и общего fetch)
@@ -96,8 +98,8 @@ SOURCE_CATEGORY = {
 RUSSIAN_SOURCES = {
     "Habr AI", "Habr ML", "Habr NLP", "Habr CV",
     "vc.ru AI", "vc.ru GPT",
-    "Forklog", "BeInCrypto RU", "Bits.media", "Cointelegraph RU",
-    "Habr Crypto", "Habr Blockchain",
+    "Forklog", "BeInCrypto RU", "RBC Crypto", "InCrypted", "HappyCoin",
+    "Habr Crypto",
 }
 
 ARXIV_CATEGORIES = ["cs.AI", "cs.LG", "cs.CL"]
