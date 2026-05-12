@@ -32,6 +32,38 @@ def _is_promo(title: str, url: str) -> bool:
     return any(p in haystack for p in _PROMO_PATTERNS)
 
 
+# Крипто-релевантные маркеры. Если новость идёт из crypto-источника, но
+# в её заголовке/URL нет НИ ОДНОГО из этих слов — значит это оффтоп
+# (политика, спорт, общие новости с РБК-подобных лент) и её надо отбросить.
+_CRYPTO_MARKERS = [
+    # EN
+    "crypto", "bitcoin", "btc", "ethereum", "eth", "defi", "nft", "web3",
+    "blockchain", "token", "stablecoin", "solana", "sol ", "xrp",
+    "binance", "coinbase", "kraken", "okx", "bybit", "bitfinex",
+    "altcoin", "sec ", "etf", "halving", "satoshi", "vitalik",
+    "layer 2", "l2", "rollup", "arbitrum", "optimism", "polygon", "base",
+    "airdrop", "staking", "validator", "hodl", "dao", "dex", "cex",
+    "memecoin", "meme coin", "shitcoin", "miner", "mining", "hashrate",
+    "wallet", "hyperliquid", "chainlink", "avalanche", "cardano", "ada ",
+    "polkadot", "cosmos", "sui ", "aptos", "near ", "dogecoin", "doge",
+    "pepe", "shib", "wif", "bonk", "uniswap", "aave", "curve", "maker",
+    "compound", "lido", "tron", "trx", "litecoin", "ltc", "monero", "xmr",
+    "hack", "exploit", "rug", "phishing",
+    # RU
+    "крипт", "биткоин", "биткойн", "эфир", "эфириум", "альткоин",
+    "блокчейн", "токен", "стейблкоин", "майнинг", "майнер", "халвинг",
+    "виталик", "сатоши", "кошел", "стейкинг", "эирдроп", "эйрдроп",
+    "мем-коин", "мемкоин", "децентрализован", "смарт-контракт",
+    "бинанс", "коинбейс", "бирж", "децентрализованн", "defi",
+]
+
+
+def _is_crypto_relevant(title: str, summary: str, url: str) -> bool:
+    """True если в тексте есть хотя бы один крипто-маркер."""
+    haystack = f"{title} {summary} {url}".lower()
+    return any(m in haystack for m in _CRYPTO_MARKERS)
+
+
 def _clean_html(text: str) -> str:
     """Убираем HTML-теги и лишние пробелы."""
     if not text:
@@ -86,13 +118,19 @@ def fetch_rss() -> list[dict]:
             title = _clean_html(entry.get("title", ""))
             if _is_promo(title, url):
                 continue
+            summary = _clean_html(entry.get("summary", ""))
+            category = SOURCE_CATEGORY.get(feed["name"], "ai")
+            # Защита от оффтопа в крипто-категории (политика, спорт и пр.
+            # подмешиваются с общих RU-лент вроде РБК)
+            if category == "crypto" and not _is_crypto_relevant(title, summary, url):
+                continue
             items.append({
                 "id": _stable_id(url),
                 "source": feed["name"],
-                "category": SOURCE_CATEGORY.get(feed["name"], "ai"),
+                "category": category,
                 "url": url,
                 "title_en": title,
-                "summary_en": _clean_html(entry.get("summary", "")),
+                "summary_en": summary,
                 "published_at": dt.isoformat(),
             })
     if failed:

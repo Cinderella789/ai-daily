@@ -78,7 +78,7 @@ CRYPTO_RSS_FEEDS = [
     # Русскоязычные
     {"name": "Forklog",         "url": "https://forklog.com/feed"},
     {"name": "BeInCrypto RU",   "url": "https://ru.beincrypto.com/feed/"},
-    {"name": "RBC Crypto",      "url": "https://rssexport.rbc.ru/rbcnews/news/30/full.rss"},
+    {"name": "CoinSpot",        "url": "https://coinspot.io/feed/"},
     {"name": "InCrypted",       "url": "https://incrypted.com/feed/"},
     {"name": "HappyCoin",       "url": "https://happycoin.club/feed/"},
     {"name": "Habr Crypto",     "url": "https://habr.com/ru/rss/hub/cryptocurrency/all/?fl=ru"},
@@ -98,7 +98,7 @@ SOURCE_CATEGORY = {
 RUSSIAN_SOURCES = {
     "Habr AI", "Habr ML", "Habr NLP", "Habr CV",
     "vc.ru AI", "vc.ru GPT",
-    "Forklog", "BeInCrypto RU", "RBC Crypto", "InCrypted", "HappyCoin",
+    "Forklog", "BeInCrypto RU", "CoinSpot", "InCrypted", "HappyCoin",
     "Habr Crypto",
 }
 
