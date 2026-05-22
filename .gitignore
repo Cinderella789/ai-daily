@@ -33,3 +33,6 @@ logs/
 # Local cache (translation cache коммитится осознанно — он часть продукта)
 .cache/
 *.tmp
+
+# Кэш эмбеддингов — не должен попадать в репо (превышает лимит GitHub 100MB)
+cache/
