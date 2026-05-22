@@ -52,6 +52,7 @@ jobs:
         run: |
           git config user.name  "ai-daily-bot"
           git config user.email "ai-daily-bot@users.noreply.github.com"
-          git add data/latest.json site/data/latest.json data/archive.json site/data/archive.json cache/.translation-cache.json cache/.embeddings-cache.json
+          # ВАЖНО: cache/ НЕ добавляем — там может вырасти > 100MB blob и сломать push (см. инцидент 20-22.05.2026)
+          git add data/latest.json site/data/latest.json data/archive.json site/data/archive.json
           git diff --cached --quiet || git commit -m "chore: refresh news $(date -u +%FT%TZ)"
           git push
