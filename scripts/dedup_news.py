@@ -59,19 +59,18 @@ def _embed_text(item: dict) -> str:
 
 
 def get_embeddings(items: list[dict], cache: dict) -> dict[str, list[float]]:
-    """Возвращает {id: embedding}, использует кэш и батч-запрос для новых."""
+    """Возвращает {id: embedding}. Использует кэш и батч-запросы к OpenAI API.
+
+    Запросы делаются через urllib (стандартная библиотека), чтобы не грузить
+    тяжёлый openai SDK — на сервере с 1 GB RAM это критично.
+    """
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         print("[dedup] OPENAI_API_KEY не задан — пропускаю дедупликацию", file=sys.stderr)
         return {}
 
-    try:
-        from openai import OpenAI
-    except ImportError:
-        print("[dedup] openai SDK не установлен — пропускаю", file=sys.stderr)
-        return {}
-
-    client = OpenAI(api_key=api_key)
+    import urllib.request
+    import urllib.error
 
     result: dict[str, list[float]] = {}
     to_fetch: list[tuple[str, str]] = []  # [(id, text)]
@@ -85,21 +84,37 @@ def get_embeddings(items: list[dict], cache: dict) -> dict[str, list[float]]:
             if text:
                 to_fetch.append((iid, text))
 
-    # Батч-запрос (OpenAI поддерживает массив input)
-    if to_fetch:
-        BATCH = 100
-        for i in range(0, len(to_fetch), BATCH):
-            chunk = to_fetch[i : i + BATCH]
-            try:
-                resp = client.embeddings.create(
-                    model=EMBED_MODEL,
-                    input=[t for _, t in chunk],
-                )
-                for (iid, _), data in zip(chunk, resp.data):
-                    result[iid] = data.embedding
-                    cache[iid] = data.embedding
-            except Exception as e:
-                print(f"[dedup] ошибка embeddings: {e}", file=sys.stderr)
+    if not to_fetch:
+        return result
+
+    # Мелкие батчи по 20 — экономим память (большие ответы JSON парсятся быстро,
+    # но матрица 100x1536 float = 1.5 MB на один ответ, плюс HTTP-буферы).
+    BATCH = 20
+    url = "https://api.openai.com/v1/embeddings"
+    headers_base = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
+
+    for i in range(0, len(to_fetch), BATCH):
+        chunk = to_fetch[i : i + BATCH]
+        payload = json.dumps({
+            "model": EMBED_MODEL,
+            "input": [t for _, t in chunk],
+        }).encode("utf-8")
+        req = urllib.request.Request(url, data=payload, headers=headers_base, method="POST")
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            for (iid, _), entry in zip(chunk, data.get("data", [])):
+                emb = entry["embedding"]
+                result[iid] = emb
+                cache[iid] = emb
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8", errors="replace")[:300]
+            print(f"[dedup] HTTP {e.code}: {body}", file=sys.stderr)
+        except Exception as e:
+            print(f"[dedup] ошибка embeddings: {e}", file=sys.stderr)
 
     return result
 
