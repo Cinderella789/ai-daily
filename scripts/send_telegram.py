@@ -20,9 +20,12 @@ _MONTHS = ["янв", "фев", "мар", "апр", "мая", "июн",
            "июл", "авг", "сен", "окт", "ноя", "дек"]
 _NUM_EMOJI = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
 _TOPIC_EMOJI = {
-    "Research": "🔬", "LLMs": "🤖", "Agents": "🕵️", "Computer Vision": "👁",
-    "Robotics": "🦾", "Industry": "🏭", "Policy": "📜",
-    "Bitcoin": "₿", "Altcoins": "🪙", "DeFi": "💸", "Macro": "📈",
+    # AI
+    "Models": "🤖", "Research": "🔬", "AI Agents": "🕵️", "Hardware": "🖥️",
+    "Startups": "🚀", "Regulations": "📜", "Corporate AI": "🏢",
+    # Crypto
+    "Bitcoin": "₿", "Ethereum": "⟠", "Altcoins": "🪙",
+    "DeFi": "💸", "Macro": "📈", "Hacks": "🔓", "NFT & Gaming": "🎮",
 }
 
 
@@ -45,19 +48,25 @@ def _esc(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def pick_top(items: list[dict], n: int = 5) -> list[dict]:
+def _diverse(pool: list[dict], n: int) -> list[dict]:
     by_topic: dict[str, list[dict]] = {}
-    for it in items:
-        by_topic.setdefault(it.get("topic", "Research"), []).append(it)
-    top: list[dict] = []
-    while len(top) < n and any(by_topic.values()):
-        for topic, lst in list(by_topic.items()):
+    for it in pool:
+        by_topic.setdefault(it.get("topic", "Other"), []).append(it)
+    result: list[dict] = []
+    while len(result) < n and any(by_topic.values()):
+        for lst in list(by_topic.values()):
             if not lst:
                 continue
-            top.append(lst.pop(0))
-            if len(top) >= n:
+            result.append(lst.pop(0))
+            if len(result) >= n:
                 break
-    return top
+    return result
+
+
+def pick_top(items: list[dict], n_ai: int = 3, n_crypto: int = 2) -> list[dict]:
+    ai = [it for it in items if it.get("category") == "ai"]
+    crypto = [it for it in items if it.get("category") == "crypto"]
+    return _diverse(ai, n_ai) + _diverse(crypto, n_crypto)
 
 
 def render(items: list[dict]) -> str:
@@ -113,7 +122,7 @@ def main() -> None:
         return
 
     payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
-    top = pick_top(payload["items"], n=5)
+    top = pick_top(payload["items"])
     if not top:
         print("[send_telegram] нет новостей — пропускаю")
         return
