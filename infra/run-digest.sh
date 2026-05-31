@@ -28,12 +28,10 @@ send_alert() {
 
   .venv/bin/python scripts/build_digest.py || { send_alert "[ai-daily] build_digest FAILED"; exit 1; }
 
-  .venv/bin/python scripts/send_telegram.py || { send_alert "[ai-daily] send_telegram FAILED"; echo "[tg] WARN: не отправлено, продолжаем"; }
-
   echo "--- commit & push ---"
   git config user.name "ai-daily-bot"
   git config user.email "ai-daily-bot@users.noreply.github.com"
-  git add data/.last-digest-date.txt data/.last-tg-date.txt 2>/dev/null || true
+  git add data/.last-digest-date.txt 2>/dev/null || true
   if git diff --cached --quiet; then
     echo "[commit] нечего коммитить (защёлка не изменилась)"
   else

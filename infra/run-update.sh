@@ -76,6 +76,9 @@ send_alert() {
     fi
   fi
 
+  echo "--- telegram ---"
+  .venv/bin/python scripts/send_telegram.py || { send_alert "[ai-daily] send_telegram FAILED"; echo "[tg] WARN: не отправлено, продолжаем"; }
+
   echo "=== done: $(date -Iseconds)"
 } 2>&1 | tee "$LOG"
 

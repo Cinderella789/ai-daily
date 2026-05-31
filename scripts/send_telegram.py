@@ -29,19 +29,21 @@ _TOPIC_EMOJI = {
 }
 
 
-def _today_msk() -> str:
-    msk = timezone(timedelta(hours=3))
-    return datetime.now(msk).strftime("%Y-%m-%d")
+_COOLDOWN_HOURS = 3  # минимум между отправками
 
 
-def _already_sent_today() -> bool:
+def _sent_recently() -> bool:
     if not LOCK_PATH.exists():
         return False
-    return LOCK_PATH.read_text(encoding="utf-8").strip() == _today_msk()
+    try:
+        last = datetime.fromisoformat(LOCK_PATH.read_text(encoding="utf-8").strip())
+        return (datetime.now(timezone.utc) - last).total_seconds() < _COOLDOWN_HOURS * 3600
+    except Exception:
+        return False
 
 
-def _mark_sent_today() -> None:
-    LOCK_PATH.write_text(_today_msk(), encoding="utf-8")
+def _mark_sent() -> None:
+    LOCK_PATH.write_text(datetime.now(timezone.utc).isoformat(), encoding="utf-8")
 
 
 def _esc(s: str) -> str:
@@ -73,8 +75,9 @@ def render(items: list[dict]) -> str:
     msk = timezone(timedelta(hours=3))
     now = datetime.now(msk)
     date_str = f"{now.day} {_MONTHS[now.month - 1]}"
+    time_str = now.strftime("%H:%M")
 
-    parts = [f"🗞 <b>AI Daily · {date_str} · топ-5</b>"]
+    parts = [f"🗞 <b>AI Daily · {date_str} · {time_str} МСК</b>"]
 
     for i, it in enumerate(items):
         title = _esc(it.get("title_ru") or it.get("title_en", ""))
@@ -117,8 +120,8 @@ def send(text: str) -> None:
 
 def main() -> None:
     force = "--force" in sys.argv
-    if not force and _already_sent_today():
-        print(f"[send_telegram] сегодня ({_today_msk()}) уже отправляли — пропускаю")
+    if not force and _sent_recently():
+        print(f"[send_telegram] последняя отправка была менее {_COOLDOWN_HOURS}ч назад — пропускаю")
         return
 
     payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
@@ -135,8 +138,8 @@ def main() -> None:
         return
 
     send(text)
-    _mark_sent_today()
-    print(f"[send_telegram] отправлено {len(top)} новостей, защёлка на {_today_msk()}")
+    _mark_sent()
+    print(f"[send_telegram] отправлено {len(top)} новостей")
 
 
 if __name__ == "__main__":
