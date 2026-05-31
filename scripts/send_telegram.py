@@ -90,7 +90,7 @@ def render(items: list[dict]) -> str:
 
 
 def send(text: str) -> None:
-    token = os.environ["TELEGRAM_BOT_TOKEN"]
+    token = os.environ["TELEGRAM_DIGEST_BOT_TOKEN"]
     channel = os.environ["TELEGRAM_CHANNEL_ID"]
     resp = requests.post(
         f"https://api.telegram.org/bot{token}/sendMessage",
@@ -120,7 +120,7 @@ def main() -> None:
 
     text = render(top)
 
-    if "--dry-run" in sys.argv or not os.environ.get("TELEGRAM_BOT_TOKEN"):
+    if "--dry-run" in sys.argv or not os.environ.get("TELEGRAM_DIGEST_BOT_TOKEN"):
         print("[send_telegram] dry-run:")
         print(text)
         return
