@@ -58,10 +58,33 @@ _CRYPTO_MARKERS = [
 ]
 
 
-def _is_crypto_relevant(title: str, summary: str, url: str) -> bool:
-    """True если в тексте есть хотя бы один крипто-маркер."""
-    haystack = f"{title} {summary} {url}".lower()
-    return any(m in haystack for m in _CRYPTO_MARKERS)
+# WordPress-лента дописывает в summary "The post <title> appeared first on <Site>".
+# Имя сайта (Crypto Briefing, CryptoSlate…) содержит крипто-маркер → любой оффтоп
+# ложно проходит фильтр. Вырезаем этот хвост перед проверкой релевантности.
+_WP_BOILERPLATE_RE = re.compile(r"the post\b.*?appeared first on.*", re.I)
+
+# Поиск маркеров с границей слова слева (\b), чтобы "defi" не ловил "redefine",
+# "base" — "database", "maker" — "filmmaker". Префиксы (крипт, майнинг) при этом
+# работают: \b стоит перед маркером, а конец остаётся открытым. Хвостовые пробелы
+# в самих маркерах ("sec ", "eth ") сохраняют границу справа.
+_MARKER_RE = re.compile(
+    r"\b(?:" + "|".join(re.escape(m) for m in _CRYPTO_MARKERS) + r")",
+    re.IGNORECASE,
+)
+
+
+def _is_crypto_relevant(title: str, summary: str, source_name: str = "") -> bool:
+    """True если в ЗАГОЛОВКЕ или ОПИСАНИИ есть крипто-маркер.
+
+    URL НЕ учитываем: домен крипто-сайтов (cryptobriefing.com, cryptoslate.com)
+    содержит маркеры и пропускал любой оффтоп — политику, подкасты, спорт.
+    Имя источника тоже вырезаем (оно может содержать маркер).
+    """
+    clean_summary = _WP_BOILERPLATE_RE.sub(" ", summary)
+    haystack = f"{title} {clean_summary}".lower()
+    if source_name:
+        haystack = haystack.replace(source_name.lower(), " ")
+    return bool(_MARKER_RE.search(haystack))
 
 
 def _clean_html(text: str) -> str:
@@ -122,7 +145,7 @@ def fetch_rss() -> list[dict]:
             category = SOURCE_CATEGORY.get(feed["name"], "ai")
             # Защита от оффтопа в крипто-категории (политика, спорт и пр.
             # подмешиваются с общих RU-лент вроде РБК)
-            if category == "crypto" and not _is_crypto_relevant(title, summary, url):
+            if category == "crypto" and not _is_crypto_relevant(title, summary, feed["name"]):
                 continue
             items.append({
                 "id": _stable_id(url),
