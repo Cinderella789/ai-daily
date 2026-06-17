@@ -91,13 +91,23 @@ def _is_crypto_relevant(title: str, summary: str, source_name: str = "") -> bool
     статьи про спорт/политику с одиночным упоминанием крипты.
     """
     clean_summary = _WP_BOILERPLATE_RE.sub(" ", summary)
-    haystack = f"{title} {clean_summary}".lower()
+    title_l = title.lower()
+    summary_l = clean_summary.lower()
     if source_name:
-        haystack = haystack.replace(source_name.lower(), " ")
+        src = source_name.lower()
+        title_l = title_l.replace(src, " ")
+        summary_l = summary_l.replace(src, " ")
+    haystack = f"{title_l} {summary_l}"
     matches = _MARKER_RE.findall(haystack)
     if not matches:
         return False
     if any(n in source_name.lower() for n in _NOISY_CRYPTO_SOURCES):
+        # Шумный источник: его summary авто-генерится с крипто-уклоном даже для
+        # спорта/политики («...fan token market... for crypto investors» в
+        # новости про футбол), поэтому тему честно отражает только ЗАГОЛОВОК.
+        # Требуем маркер в заголовке + >=2 РАЗНЫХ маркера суммарно.
+        if not _MARKER_RE.search(title_l):
+            return False
         return len({m.lower() for m in matches}) >= 2
     return True
 
