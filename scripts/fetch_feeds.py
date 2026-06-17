@@ -72,19 +72,34 @@ _MARKER_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Источники, которые подмешивают в крипто-ленту общий оффтоп (спорт, политику,
+# знаменитостей) с ЕДИНСТВЕННЫМ случайным упоминанием крипты — напр. "Bitcoin
+# rallies" в новости про США/Иран или "and crypto" в заметке про Роналду.
+# Для них требуем больше сигнала: не один маркер, а >=2 РАЗНЫХ. У остальных
+# (CoinDesk, Bitcoin Magazine и пр.) оставляем мягкое правило — иначе режутся
+# нормальные одно-монетные заголовки (XRP, UNI, OM, SBF-кейсы и т.п.).
+_NOISY_CRYPTO_SOURCES = ("crypto briefing",)
+
 
 def _is_crypto_relevant(title: str, summary: str, source_name: str = "") -> bool:
-    """True если в ЗАГОЛОВКЕ или ОПИСАНИИ есть крипто-маркер.
+    """True если новость про крипту.
 
-    URL НЕ учитываем: домен крипто-сайтов (cryptobriefing.com, cryptoslate.com)
-    содержит маркеры и пропускал любой оффтоп — политику, подкасты, спорт.
-    Имя источника тоже вырезаем (оно может содержать маркер).
+    Базово: в ЗАГОЛОВКЕ или ОПИСАНИИ есть хотя бы один крипто-маркер. URL НЕ
+    учитываем (домен крипто-сайтов содержит маркеры и пропускал любой оффтоп).
+    Имя источника вырезаем (оно может содержать маркер). Для «шумных» источников
+    (_NOISY_CRYPTO_SOURCES) порог выше — >=2 разных маркера, чтобы отсеять
+    статьи про спорт/политику с одиночным упоминанием крипты.
     """
     clean_summary = _WP_BOILERPLATE_RE.sub(" ", summary)
     haystack = f"{title} {clean_summary}".lower()
     if source_name:
         haystack = haystack.replace(source_name.lower(), " ")
-    return bool(_MARKER_RE.search(haystack))
+    matches = _MARKER_RE.findall(haystack)
+    if not matches:
+        return False
+    if any(n in source_name.lower() for n in _NOISY_CRYPTO_SOURCES):
+        return len({m.lower() for m in matches}) >= 2
+    return True
 
 
 def _clean_html(text: str) -> str:
