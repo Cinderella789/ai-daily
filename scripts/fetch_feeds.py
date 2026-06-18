@@ -112,6 +112,64 @@ def _is_crypto_relevant(title: str, summary: str, source_name: str = "") -> bool
     return True
 
 
+# ── Жёсткий отсев НЕ-технологического контента ──────────────────────────────
+# Канал про технологии: убираем политику, рынки/цены/макро и спорт ПОЛНОСТЬЮ,
+# в обеих категориях (ai/crypto), даже если упомянута крипта/ИИ. Ловим по
+# ЗАГОЛОВКУ (там тема статьи; summary бывает с искусственным крипто-уклоном).
+
+_POLITICS_RE = re.compile(r"""(?ix)\b(
+  trump|biden|putin|zelensky\w*|netanyahu|kim\ jong|xi\ jinping|maga|
+  white\ house|kremlin|senate|senators?|congress\w*|lawmakers?|parliament|
+  primaries|presidential|elections?|governor|politburo|geopolit\w*|
+  peace\ deal|ceasefire|world\ leaders|strait\ of\ hormuz|airstrikes?|
+  missile|troops|diplomat\w*|treaty|tariffs?|nuclear\ deal|sanctions\ on|
+  asylum|deport\w*|immigration|g7|g20|united\ nations|
+  трамп|байден|путин|зеленск\w*|нетаньяху|белый\ дом|кремл\w*|сенат|
+  конгресс|парламент|депутат|госдум\w*|выбор[ыа]|президент\w*|экс-премьер\w*|
+  премьер-министр\w*|геополит\w*|перемири\w*|войн[аеуы]|санкции\ против|
+  убежищ\w*|мигрант\w*|саммит\w*|оон
+)\b""")
+
+_MARKETS_RE = re.compile(r"""(?ix)(
+  \bprice\ (analysis|prediction|target)|\brall(y|ies|ied)\b|\bplunge\w*|
+  \bsurge\w*|\bsoars?\b|\bsoaring\b|\btumbl\w*|\bslump\w*|\bplummet\w*|
+  \bsell-?off\b|\bcrash\w*|\bdump\w*|\bpump\w*|\bbullish\b|\bbearish\b|
+  \ball-?time\ high\b|\bath\b|\bliquidat\w*|\bshorts?\b|\blongs?\b|
+  \beyes\ \$|\btargets?\ \$|\bhits\ \$|\bholds\ (above|below)|\$\d|
+  \bmarket\ cap\b|\bsupport\ level|\bresistance\b|\bforecast\w*|
+  \boutperform\w*|\d+\s*%|\bfomc\b|\bfed\b|\brate\ cut|\binflation\b|
+  \binterest\ rate|\btreasury\ yield|\boil\ price|\bstock\ market|
+  \bnasdaq\b|\bs&p\b|\bdow\ jones|\brecession\b|\bopen\ interest\b|
+  \bmoving\ average|\d+-?(week|day)\ (average|moving)|dollar\ index|
+  \bbreakout\b|after\ the\ fed|fed\ decision|wall\ street|
+  цен[аыу]|ралли|обвал\w*|рухнул\w*|взлет\w*|подорожал\w*|подешевел\w*|
+  рост\ цен|прогноз\ цен|ликвидаци\w*|открыт\w*\ интерес|индекс\ доллара|
+  \d+-?недельн\w*|скользящ\w*\ средн|прорыв\w*|после\ решения\ фрс|уолл-стрит|
+  лонг\w*|шорт\w*|рыно?к|рыночн\w*|инфляци\w*|ставк[аеу]\ (цб|фрс)|решени\w*\ фрс
+)""")
+
+_SPORTS_RE = re.compile(r"""(?ix)\b(
+  football|soccer|world\ cup|premier\ league|champions\ league|la\ liga|
+  ronaldo|messi|grealish|outfield|goalkeeper|striker|midfielder|
+  nba|nfl|mlb|nhl|olympics?|tennis|golf|athlete|transfer\ window|
+  injury\ layoff|on\ the\ pitch|world\ series|grand\ slam|
+  футбол\w*|спорт\w*|чемпионат|роналду|месси|матч|лиг[аеи]\ чемпион
+)\b""")
+
+
+def _offtopic_reason(title: str) -> str | None:
+    """Возвращает причину отсева НЕ-тех контента или None. Канал про технологии:
+    политика/рынки/спорт вырезаются полностью в обеих категориях."""
+    t = title or ""
+    if _POLITICS_RE.search(t):
+        return "politics"
+    if _SPORTS_RE.search(t):
+        return "sports"
+    if _MARKETS_RE.search(t):
+        return "markets"
+    return None
+
+
 def _clean_html(text: str) -> str:
     """Убираем HTML-теги и лишние пробелы."""
     if not text:
@@ -171,6 +229,11 @@ def fetch_rss() -> list[dict]:
             # Защита от оффтопа в крипто-категории (политика, спорт и пр.
             # подмешиваются с общих RU-лент вроде РБК)
             if category == "crypto" and not _is_crypto_relevant(title, summary, feed["name"]):
+                continue
+            # Канал про технологии: жёстко выкидываем политику/рынки/спорт
+            # в ОБЕИХ категориях (даже если упомянута крипта/ИИ).
+            off = _offtopic_reason(title)
+            if off:
                 continue
             items.append({
                 "id": _stable_id(url),
