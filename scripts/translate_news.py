@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from sources import RUSSIAN_SOURCES  # noqa: E402
+from fetch_feeds import _offtopic_reason  # noqa: E402
 
 DATA_PATH = ROOT / "data" / "latest.json"
 CACHE_PATH = ROOT / "cache" / ".translation-cache.json"
@@ -95,11 +96,23 @@ def main() -> None:
         item["title_ru"] = cache[key_t]
         item["summary_ru"] = cache[key_s]
 
+    # Финальный отсев НЕ-тех контента по РУССКОМУ заголовку: рыночность/политика
+    # часто проявляется только после перевода (англ. фильтр на фетче не ловит
+    # «бычий рынок» / «Трампа», когда источник англоязычный, а вылезает в ru).
+    before = len(payload["items"])
+    payload["items"] = [
+        it for it in payload["items"]
+        if not (_offtopic_reason(it.get("title_en", ""))
+                or _offtopic_reason(it.get("title_ru", "")))
+    ]
+    pruned = before - len(payload["items"])
+
     DATA_PATH.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     _save_cache(cache)
-    print(f"[translate_news] new: {new_count}, skipped(ru): {skipped_ru}, cached: {len(cache)}")
+    print(f"[translate_news] new: {new_count}, skipped(ru): {skipped_ru}, "
+          f"cached: {len(cache)}, отсеяно НЕ-тех: {pruned}")
 
 
 if __name__ == "__main__":
