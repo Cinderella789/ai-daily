@@ -123,11 +123,11 @@ _POLITICS_RE = re.compile(r"""(?ix)\b(
   primaries|presidential|elections?|governor|politburo|geopolit\w*|
   peace\ deal|ceasefire|world\ leaders|strait\ of\ hormuz|airstrikes?|
   missile|troops|diplomat\w*|treaty|tariffs?|nuclear\ deal|sanctions\ on|
-  asylum|deport\w*|immigration|g7|g20|united\ nations|
-  трамп|байден|путин|зеленск\w*|нетаньяху|белый\ дом|кремл\w*|сенат|
-  конгресс|парламент|депутат|госдум\w*|выбор[ыа]|президент\w*|экс-премьер\w*|
-  премьер-министр\w*|геополит\w*|перемири\w*|войн[аеуы]|санкции\ против|
-  убежищ\w*|мигрант\w*|саммит\w*|оон
+  asylum|deport\w*|immigration|g7|g20|united\ nations|iran|irani\w*|
+  трамп\w*|байден\w*|путин\w*|зеленск\w*|нетаньяху|иран\w*|
+  белый\ дом|кремл\w*|сенат\w*|конгресс\w*|парламент\w*|депутат\w*|госдум\w*|
+  выбор[ыа]|президент\w*|экс-премьер\w*|премьер-министр\w*|геополит\w*|
+  перемири\w*|войн[аеуы]|санкции\ против|убежищ\w*|мигрант\w*|саммит\w*|оон
 )\b""")
 
 _MARKETS_RE = re.compile(r"""(?ix)(
