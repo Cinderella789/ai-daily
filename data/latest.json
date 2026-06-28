@@ -1,6 +1,291 @@
 {
-  "generated_at": "2026-06-27T17:00:58.387443+00:00",
+  "generated_at": "2026-06-28T05:00:47.424697+00:00",
   "items": [
+    {
+      "id": "29b884f5a43c69a9",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/bitcoin-unspent-transaction-outputs-signal-capitulation-underway-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Bitcoin unspent transaction outputs signal capitulation underway: analyst",
+      "summary_en": "“These periods have always been profitable for long-term investors,” said CryptoQuant analyst Darkfost.",
+      "published_at": "2026-06-28T02:51:04+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Неиспользуемые выходы транзакций Bitcoin сигнализируют о начале капитуляции: аналитик",
+      "summary_ru": "«Эти периоды всегда были прибыльными для долгосрочных инвесторов», — сказал аналитик CryptoQuant Darkfost."
+    },
+    {
+      "id": "4d65b57cba9fad8f",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/wissa-man-of-match-dr-congo-crypto/",
+      "title_en": "Yoane Wissa wins FIFA Man of the Match award for DR Congo as memecoins fail to catch fire",
+      "summary_en": "Wissa's World Cup success highlights the disconnect between sports achievements and speculative crypto ventures, questioning their market viability. The post Yoane Wissa wins FIFA Man of the Match award for DR Congo as memecoins fail to catch fire appeared first on Crypto Briefing .",
+      "published_at": "2026-06-28T02:06:45+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Йоане Уисса получил награду FIFA \"Игрок матча\" за сборную Демократической Республики Конго, в то время как мемкойны не смогли привлечь внимание.",
+      "summary_ru": "Успех Виссы на Кубке мира подчеркивает разрыв между спортивными достижениями и спекулятивными криптовалютными проектами, ставя под сомнение их рыночную жизнеспособность."
+    },
+    {
+      "id": "3906f68b6d43d1e1",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1052776/?utm_campaign=1052776&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Граф кода одной командой: ставим graphlens-mcp в проект и перестаём жечь токены на grep",
+      "summary_en": "В первых двух статьях я сделал две вещи и обе — честно. Описал движок graphlens: как он берёт исходники на Python, TypeScript, Go, Rust и PHP и нормализует их в единый типизированный граф — узлы-символы, type-aware рёбра ( CALLS , HAS_TYPE , INHERITS_FROM ), детерминированные SHA-256 ID, межъязыковые границы. И померил его: 936 прогонов на apache/superset (~400k строк, Python + TypeScript, граница /api/v1/... ). Вывод — на задачах анализа влияния структурный граф бьёт grep по стоимости в 10–23 раза, а на точечных запросах разница почти нулевая. Но была дыра, о которой я в обеих статьях молчал. Движок — это не продукт. Чтобы реально подключить graphlens к агенту, недостаточно pip install и API. Нужно написать кучу обвязки. Эта статья — про то, как я эту обвязку оформил в отдельный продукт graphlens-mcp , который ставится одной командой и сразу начинает работать. Он в alpha, он бесплатный (MIT), и его можно потестить на своём проекте за пять минут. Читать далее",
+      "published_at": "2026-06-28T00:56:58+00:00",
+      "topic": "Research",
+      "title_ru": "Граф кода одной командой: ставим graphlens-mcp в проект и перестаём жечь токены на grep",
+      "summary_ru": "В первых двух статьях я сделал две вещи и обе — честно. Описал движок graphlens: как он берёт исходники на Python, TypeScript, Go, Rust и PHP и нормализует их в единый типизированный граф — узлы-символы, type-aware рёбра ( CALLS , HAS_TYPE , INHERITS_FROM ), детерминированные SHA-256 ID, межъязыковые границы. И померил его: 936 прогонов на apache/superset (~400k строк, Python + TypeScript, граница /api/v1/... ). Вывод — на задачах анализа влияния структурный граф бьёт grep по стоимости в 10–23 раза, а на точечных запросах разница почти нулевая. Но была дыра, о которой я в обеих статьях молчал. Движок — это не продукт. Чтобы реально подключить graphlens к агенту, недостаточно pip install и API. Нужно написать кучу обвязки. Эта статья — про то, как я эту обвязку оформил в отдельный продукт graphlens-mcp , который ставится одной командой и сразу начинает работать. Он в alpha, он бесплатный (MIT), и его можно потестить на своём проекте за пять минут. Читать далее"
+    },
+    {
+      "id": "f61b8c5da68022e1",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/clarity-act-failure-could-trigger-more-bitcoin-pain-grayscale-says/",
+      "title_en": "CLARITY Act Failure Could Trigger More Bitcoin Pain, Grayscale Says",
+      "summary_en": "Grayscale said bitcoin could face more pressure if the CLARITY Act stalls, as Senate delays and tighter rate expectations weigh on crypto sentiment. Bitcoin’s Next Price Test Narrows Around the CLARITY Act The CLARITY Act has moved to the center of market focus as it faces a compressed Senate calendar, with regulatory progress emerging as [&#8230;]",
+      "published_at": "2026-06-27T22:40:06+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Неудача CLARITY Act может вызвать дополнительные проблемы для Bitcoin, сообщает Grayscale.",
+      "summary_ru": "Grayscale заявила, что биткойн может столкнуться с дополнительным давлением, если законопроект CLARITY Act будет затянут, поскольку задержки в Сенате и более жесткие ожидания по ставкам негативно сказываются на настроениях в крипторынке. Следующий ценовой тест биткойна сужается вокруг CLARITY Act. CLARITY Act стал центром внимания рынка, поскольку сталкивается с сжатым календарем Сената, и прогресс в регулировании становится все более актуальным."
+    },
+    {
+      "id": "91ccb1bd7e3ed0c2",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/xrp-origins-debate-ripple-bitcoin/",
+      "title_en": "XRP Origins Debate Reignites as Ripple’s EX CTO Says Concept Came Before Bitcoin",
+      "summary_en": "Ripple's CTO Emeritus clarifies XRP origins, separating Fugger's 2004 payment concept from the XRP Ledger's 2012 launch. The post XRP Origins Debate Reignites as Ripple&#8217;s EX CTO Says Concept Came Before Bitcoin appeared first on BeInCrypto .",
+      "published_at": "2026-06-27T22:30:00+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Дебаты о происхождении XRP вновь вспыхнули, так как бывший технический директор Ripple заявил, что концепция появилась до Bitcoin.",
+      "summary_ru": "CTO Emeritus Ripple прояснил происхождение XRP, отделив концепцию платежей Фуггера 2004 года от запуска XRP Ledger в 2012 году. Спор о происхождении XRP вновь разгорелся, поскольку бывший CTO Ripple заявил, что концепция появилась до Bitcoin."
+    },
+    {
+      "id": "e12a3a7b6659c7b2",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/crypto-venture-activity-narrows-as-investor-participation-hits-6-year-low/",
+      "title_en": "Crypto Venture Activity Narrows as Investor Participation Hits 6-Year Low",
+      "summary_en": "Fewer investors are participating in crypto funding rounds as macroeconomic pressures and competition for capital weigh on venture markets.",
+      "published_at": "2026-06-27T22:21:58+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Активность венчурных инвестиций в криптоиндустрии сокращается, так как участие инвесторов достигло шестилетнего минимума.",
+      "summary_ru": "Меньше инвесторов участвуют в раундах финансирования криптовалют, поскольку макроэкономические факторы и конкуренция за капитал оказывают давление на венчурные рынки."
+    },
+    {
+      "id": "cbc3db4440c15420",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/news/xrp-prepares-for-july-bounce-back-as-price-history-points-to-positive-third/",
+      "title_en": "XRP Prepares for July Bounce-Back as Price History Points to Positive Third Quarter Seasonality",
+      "summary_en": "XRP Prepares for July Bounce-Back as Price History Points to Positive Third Quarter Seasonality: a fresh look at XRP July seasonality, market context, key",
+      "published_at": "2026-06-27T22:00:00+00:00",
+      "topic": "Altcoins",
+      "title_ru": "XRP готовится к восстановлению в июле, так как история цен указывает на положительную сезонность третьего квартала.",
+      "summary_ru": "XRP готовится к восстановлению в июле, так как история цен указывает на положительную сезонность третьего квартала: новый взгляд на сезонность XRP в июле, рыночный контекст, ключевые моменты."
+    },
+    {
+      "id": "1165a19a86da4f44",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/fidelity-bitcoin-long-term-security-halvings-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Fidelity rebuts claims Bitcoin becomes less secure after halvings",
+      "summary_en": "The asset manager argues Bitcoin's fixed supply schedule does not undermine network security, even as miners face shrinking block rewards after each halving.",
+      "published_at": "2026-06-27T20:53:02+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Fidelity опровергла утверждения о том, что безопасность Bitcoin снижается после халвингов.",
+      "summary_ru": "Управляющий активами утверждает, что фиксированный график поставок Bitcoin не подрывает безопасность сети, даже несмотря на то, что майнеры сталкиваются с сокращением вознаграждений за блок после каждого халвинга."
+    },
+    {
+      "id": "e478b31af164c313",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/bip-110-pushes-bitcoin-toward-august-fork-deadline-with-only-5-eh-s-signaling/",
+      "title_en": "BIP-110 Pushes Bitcoin Toward August Fork Deadline With Only 5 EH/s Signaling",
+      "summary_en": "A Bitcoin Improvement Proposal (BIP-110) pushing to ban Ordinals-style data inscriptions at the consensus level is barreling toward an activation window in early August, with less than 1% of mining hashrate behind it, raising legitimate concerns about a persistent chain split. What BIP-110 Actually Does BIP-110, authored by Dathon Ohm and formally titled the Reduced [&#8230;]",
+      "published_at": "2026-06-27T20:43:34+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "BIP-110 приближает Bitcoin к сроку форка в августе с сигнализацией всего в 5 EH/s.",
+      "summary_ru": "Предложение по улучшению Биткойна (BIP-110), нацеленное на запрет надписей данных в стиле Ordinals на уровне консенсуса, приближается к окну активации в начале августа, при этом менее 1% хешрейта майнинга поддерживает его, что вызывает обоснованные опасения по поводу возможного постоянного разделения цепи. Что на самом деле делает BIP-110 BIP-110, автором которого является Датон Оум и который официально называется Reduced [...]"
+    },
+    {
+      "id": "ab24e3be6fc2f72a",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "title_en": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
+      "summary_en": "Not everyone is buying Elon Musk’s vision for orbital data centers.",
+      "published_at": "2026-06-27T20:42:36+00:00",
+      "topic": "Regulations",
+      "title_ru": "Генеральный директор SoftBank не единственный, кто задается вопросами о хайпе вокруг орбитального дата-центра Элонa Маска.",
+      "summary_ru": "Не все разделяют видение Илона Маска относительно орбитальных дата-центров."
+    },
+    {
+      "id": "de694e65919673d7",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/news/sui-defi-receives-boost-as-sui-group-lends-additional-4m-sui-to-bluefin/",
+      "title_en": "Sui DeFi Receives Boost as SUI Group Lends Additional 4M SUI to Bluefin",
+      "summary_en": "Sui DeFi Receives Boost as SUI Group Lends Additional 4M SUI to Bluefin: a fresh look at SUI Bluefin liquidity loan, market context, key risks, and what tr",
+      "published_at": "2026-06-27T19:45:00+00:00",
+      "topic": "DeFi",
+      "title_ru": "Sui DeFi получает поддержку, так как группа SUI предоставляет дополнительные 4 миллиона SUI Bluefin.",
+      "summary_ru": "Sui DeFi получает поддержку, так как группа SUI предоставляет дополнительные 4 миллиона SUI компании Bluefin: новый взгляд на кредитование ликвидности SUI Bluefin, рыночный контекст, ключевые риски и что это значит."
+    },
+    {
+      "id": "834dd161abf67c90",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/hyperliquid-criticized-singapore-regulatory-alert/",
+      "title_en": "Hyperliquid Criticized Over Permissionless Claims After MAS Alert",
+      "summary_en": "Kyle Samani says Hyperliquid is not permissionless after MAS adds the platform to Singapore's Investor Alert List. The post Hyperliquid Criticized Over Permissionless Claims After MAS Alert appeared first on BeInCrypto .",
+      "published_at": "2026-06-27T19:44:06+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Hyperliquid подвергся критике за заявления о безразрешительном доступе после предупреждения от MAS.",
+      "summary_ru": "Кайл Самани заявил, что Hyperliquid не является безразрешительным после того, как MAS добавил платформу в Список предупреждений для инвесторов Сингапура."
+    },
+    {
+      "id": "aa8662e633861aed",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1052710/?utm_campaign=1052710&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Как превратить ChatGPT.com в Codex (но без лимитов)",
+      "summary_en": "Codex это прекрасно, но лимиты все меньше, а цена все выше. Но ведь&nbsp; под капотом просто gpt-5.5(вот промпт) ? Один диалог слева пишет код, справа другой проверял результат, третий держал контекст, а я в это время мог накидать очередь следующих шагов и уйти пить чай. Если задача закончилась — пусть прилетит сообщение в Telegram. Так появился экспериментальный Chrome-плагин&nbsp; ChatGPT Multi Pane: &nbsp; GitHub Читать далее",
+      "published_at": "2026-06-27T19:40:08+00:00",
+      "topic": "Models",
+      "title_ru": "Как превратить ChatGPT.com в Codex (но без лимитов)",
+      "summary_ru": "Codex это прекрасно, но лимиты все меньше, а цена все выше. Но ведь&nbsp; под капотом просто gpt-5.5(вот промпт) ? Один диалог слева пишет код, справа другой проверял результат, третий держал контекст, а я в это время мог накидать очередь следующих шагов и уйти пить чай. Если задача закончилась — пусть прилетит сообщение в Telegram. Так появился экспериментальный Chrome-плагин&nbsp; ChatGPT Multi Pane: &nbsp; GitHub Читать далее"
+    },
+    {
+      "id": "043a2bf5f6f78168",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Here’s what happened in crypto today",
+      "summary_en": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "published_at": "2026-06-27T19:34:45+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Вот что произошло в криптовалютном мире сегодня.",
+      "summary_ru": "Нужна информация о событиях в криптовалюте сегодня? Вот последние новости о ежедневных трендах и событиях, влияющих на цену Bitcoin, блокчейн, DeFi, NFTs, Web3 и регулирование криптовалют."
+    },
+    {
+      "id": "629b789b2453472b",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Bitcoin faces fresh capitulation risk as 50K BTC moved at a loss",
+      "summary_en": "Nearly 50,000 BTC shifted to exchanges at a loss while short-term Bitcoin holders' stress level reached 2-year highs. Is BTC headed toward new lows?",
+      "published_at": "2026-06-27T19:27:44+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Биткойн сталкивается с новым риском капитуляции, так как 50K BTC было перемещено с убытком.",
+      "summary_ru": "Почти 50,000 BTC было переведено на биржи с убытком, в то время как уровень стресса краткосрочных держателей Bitcoin достиг двухлетних максимумов. Направляется ли BTC к новым минимумам?"
+    },
+    {
+      "id": "63ca7fe53b83a9c5",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1052728/?utm_campaign=1052728&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Моё мнение о Лаборатории нейронаук и поведения человека, подразделении Сбера",
+      "summary_en": "Впервые я столкнулся с Лабораторией нейронаук и поведения человека буквально на этой неделе, прочитав статью на Хабре «ИИ может менять мнение человека. Мы проверили это на моральных дилеммах». Учитывая авторитет Сбера как разработчика лучшего в России ИИ, я отнесся к статье достаточно серьезно. Тем удивительнее было для меня то, что авторы (коллектив сотрудников Лаборатории нейронаук) отнеслись к своей статье менее серьезно. Ошибки, которые я оптимистично классифицировал как опечатки, и крайне спорная интерпретация собственных экспериментов — всё это заставило меня попытаться проанализировать, что это за Лаборатория и какие цели она перед собой ставит. Читать далее",
+      "published_at": "2026-06-27T19:12:42+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Моё мнение о Лаборатории нейронаук и поведения человека, подразделении Сбера",
+      "summary_ru": "Впервые я столкнулся с Лабораторией нейронаук и поведения человека буквально на этой неделе, прочитав статью на Хабре «ИИ может менять мнение человека. Мы проверили это на моральных дилеммах». Учитывая авторитет Сбера как разработчика лучшего в России ИИ, я отнесся к статье достаточно серьезно. Тем удивительнее было для меня то, что авторы (коллектив сотрудников Лаборатории нейронаук) отнеслись к своей статье менее серьезно. Ошибки, которые я оптимистично классифицировал как опечатки, и крайне спорная интерпретация собственных экспериментов — всё это заставило меня попытаться проанализировать, что это за Лаборатория и какие цели она перед собой ставит. Читать далее"
+    },
+    {
+      "id": "a2c3e59c5d6b0e3e",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/bitgo-slashes-workforce-as-ceo-bets-on-ai-stablecoin-and-settlement-growth/",
+      "title_en": "BitGo Slashes Workforce as CEO Bets on AI, Stablecoin and Settlement Growth",
+      "summary_en": "BitGo said the workforce reduction is a one-time action and that no additional layoffs are currently expected.",
+      "published_at": "2026-06-27T18:49:57+00:00",
+      "topic": "Regulations",
+      "title_ru": "BitGo сокращает штат сотрудников, так как CEO делает ставку на рост AI, стейблкоинов и расчетов.",
+      "summary_ru": "BitGo заявила, что сокращение рабочей силы является единовременной мерой и что в настоящее время не ожидается дополнительных увольнений."
+    },
+    {
+      "id": "acac8f10392e4929",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/crypto-donations-aid-venezuela-earthquakes/",
+      "title_en": "Bitcoin and Stablecoins Become Lifelines After Venezuela Earthquakes",
+      "summary_en": "The crypto ecosystem rushed to help Venezuela after the devastating earthquakes of June 24. Humanitarian organizations, exchanges, and community campaigns activated channels to enable cryptocurrency donations. The speed of the crypto industry is key to accelerating the arrival of funds to the most affected areas. Crypto is Critical During Humanitarian Emergencies A donation in cryptocurrencies The post Bitcoin and Stablecoins Become Lifelines After Venezuela Earthquakes appeared first on BeInCrypto .",
+      "published_at": "2026-06-27T18:47:51+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Биткойн и стейблкоины стали спасательными кругами после землетрясений в Венесуэле.",
+      "summary_ru": "Криптоэкосистема поспешила на помощь Венесуэле после разрушительных землетрясений 24 июня. Гуманитарные организации, биржи и кампании сообщества активировали каналы для возможности пожертвований в криптовалюте. Скорость криптоиндустрии является ключевой для ускорения поступления средств в наиболее пострадавшие районы. Криптовалюта критически важна в гуманитарных чрезвычайных ситуациях. Пожертвование в криптовалюте."
+    },
+    {
+      "id": "d294ddc3f6bec615",
+      "source": "The Verge AI",
+      "category": "ai",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "title_en": "Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;",
+      "summary_en": "Maraget Atwood, the storied author of The Handmaid's Tale and The Blind Assassin, was interviewed as part of the Babell Literary and Cultural Festival in Porto, Portugal. As it usually does at these things, the issue of AI came up, and Atwood didn't mince words. According to Deadline's recap, Atwood said she'd used an AI [&#8230;]",
+      "published_at": "2026-06-27T18:39:32+00:00",
+      "topic": "Research",
+      "title_ru": "Маргарет Этвуд говорит, что проблема с ИИ заключается в принципе «мусор на входе, мусор на выходе».",
+      "summary_ru": "Маргарет Этвуд, известная авторка \"Служанки\" и \"Слепого убийцы\", дала интервью в рамках Литературного и культурного фестиваля Babell в Порту, Португалия. Как это обычно бывает на подобных мероприятиях, затронули тему ИИ, и Этвуд не стала церемониться. По информации Deadline, Этвуд заявила, что использовала ИИ [...]"
+    },
+    {
+      "id": "6c515b1396dbf526",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/playstation-deletes-movies-digital-ownership-blockchain/",
+      "title_en": "Sony Deletes 500+ Purchased Movies From PlayStation, Reigniting Blockchain Debate",
+      "summary_en": "Sony removes 551 StudioCanal films from PlayStation accounts in September 2026, reigniting the blockchain digital ownership debate. The post Sony Deletes 500+ Purchased Movies From PlayStation, Reigniting Blockchain Debate appeared first on BeInCrypto .",
+      "published_at": "2026-06-27T17:34:18+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Sony удалила более 500 купленных фильмов с PlayStation, вновь разжигая дебаты о блокчейне.",
+      "summary_ru": "Sony удаляет 551 фильм StudioCanal из аккаунтов PlayStation в сентябре 2026 года, вновь поднимая вопрос о цифровом владении на основе блокчейна."
+    },
+    {
+      "id": "68c2416f4ac65363",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/news/ripple-ceo-brad-garlinghouse-slams-michael-saylor-s-bitcoin-buying-model-as/",
+      "title_en": "Ripple CEO Brad Garlinghouse Slams Michael Saylor’s Bitcoin Buying Model as “Financial Engineering”",
+      "summary_en": "Ripple CEO Brad Garlinghouse Slams Michael Saylor’s Bitcoin Buying Model as \"Financial Engineering\": a fresh look at Garlinghouse Saylor Bitcoin leverage,",
+      "published_at": "2026-06-27T17:30:00+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Генеральный директор Ripple Брэд Гарлингхаус раскритиковал модель покупки Bitcoin Майкла Сэйлора, назвав её \"финансовой инженерией\".",
+      "summary_ru": "Генеральный директор Ripple Брэд Гарлингхаус раскритиковал модель покупки Bitcoin Майкла Сэйлора, назвав её \"финансовой инженерией\": новый взгляд на кредитное плечо Сэйлора в отношении Bitcoin."
+    },
+    {
+      "id": "b2aa26d9903541fd",
+      "source": "CryptoSlate",
+      "category": "crypto",
+      "url": "https://cryptoslate.com/european-crypto-users-are-being-paid-to-move-before-mica-closes-the-door/",
+      "title_en": "European crypto users are being paid to move before MiCA closes the door",
+      "summary_en": "The European Union's Markets in Crypto-Assets (MiCA) has triggered a fight among licensed crypto exchanges to capture users and deposits from platforms that may no longer be allowed to serve the bloc. The new regulation, which is set to take full effect on July 1, hardens the line between firms with bloc-wide authorization and those still [&#8230;] The post European crypto users are being paid to move before MiCA closes the door appeared first on CryptoSlate .",
+      "published_at": "2026-06-27T17:10:25+00:00",
+      "topic": "Regulations",
+      "title_ru": "Европейским пользователям криптовалют предлагают деньги за переезд, прежде чем MiCA закроет двери.",
+      "summary_ru": "Регулирование Европейского Союза в области криптоактивов (MiCA) вызвало борьбу среди лицензированных криптобирж за привлечение пользователей и депозитов с платформ, которые могут больше не иметь права обслуживать блок. Новый закон, который вступит в полную силу 1 июля, усиливает разграничение между компаниями с разрешением на работу по всему блоку и теми, кто еще [...]",
+      "duplicates": [
+        {
+          "source": "Bitcoin.com",
+          "url": "https://news.bitcoin.com/eu-230-mica-licenses-germany-spain-july-1-deadline/",
+          "title_en": "EU Hands Out 230 MiCA Licenses as Germany Leads and Spain Rules Out a July 1 Reprieve",
+          "title_ru": "ЕС выдал 230 лицензий MiCA, при этом Германия лидирует, а Испания исключает отсрочку до 1 июля.",
+          "published_at": "2026-06-27T19:30:34+00:00"
+        }
+      ]
+    },
+    {
+      "id": "70cfd16ea16536ce",
+      "source": "Decrypt",
+      "category": "crypto",
+      "url": "https://decrypt.co/371967/stablecoin-founder-map-doesnt-match-stablecoin-volume-map",
+      "title_en": "The Stablecoin Founder Map Doesn't Match the Stablecoin Volume Map",
+      "summary_en": "Emerging markets drive most real-world stablecoin usage, yet founder concentration and venture funding remain U.S.- and Europe-centric.",
+      "published_at": "2026-06-27T17:01:04+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Карта основателей стейблкоинов не соответствует карте объема стейблкоинов.",
+      "summary_ru": "Развивающиеся рынки обеспечивают основную часть реального использования стейблкоинов, однако концентрация основателей и венчурное финансирование остаются сосредоточенными в США и Европе."
+    },
     {
       "id": "307bfc45e28b0ffb",
       "source": "TechCrunch AI",
@@ -26,18 +311,6 @@
       "summary_ru": "Институты поддерживают Sui’s Hashi для интеграции Bitcoin DeFi на фоне приближающегося запуска тестовой сети: новый взгляд на Sui Hashi Bitcoin DeFi, рыночный контекст, ключевые риски и w."
     },
     {
-      "id": "c3ddfa37d4fa84a7",
-      "source": "Crypto Briefing",
-      "category": "crypto",
-      "url": "https://cryptobriefing.com/tether-ledn-tokenized-gold-xaut/",
-      "title_en": "Tether expands gold reserve use as Ledn supports tokenized gold XAUT",
-      "summary_en": "The integration of tokenized gold into crypto lending could enhance financial flexibility and diversify investment options, impacting market dynamics. The post Tether expands gold reserve use as Ledn supports tokenized gold XAUT appeared first on Crypto Briefing .",
-      "published_at": "2026-06-27T16:33:58+00:00",
-      "topic": "DeFi",
-      "title_ru": "Tether расширяет использование золотых резервов, так как Ledn поддерживает токенизированное золото XAUT.",
-      "summary_ru": "Интеграция токенизированного золота в крипто-кредитование может повысить финансовую гибкость и диверсифицировать инвестиционные возможности, влияя на рыночную динамику. Tether расширяет использование золотых резервов, в то время как Ledn поддерживает токенизированное золото XAUT."
-    },
-    {
       "id": "f0f0a71f8ffae796",
       "source": "Habr ML",
       "category": "ai",
@@ -48,18 +321,6 @@
       "topic": "Models",
       "title_ru": "Я устал писать одноразовые скрипты для бенчмарков LLM и собрал харнесс, который сам считает Pareto-front",
       "summary_ru": "Неважно, где ты гоняешь инференс: в проде на vLLM под нагрузкой или в локалке на llama.cpp, пытаясь втиснуть Llama-3 в 4 ГБ видеопамяти — вопрос всегда один. Какая конфигурация влезет в бюджет по VRAM и при этом не уронит p95? В статье рассказываю про разработанный харнесс, который берет эту рутину на себя и честно сравнивает бэкенды. Разбираем реальные грабли локального и прод-инференса. Читать далее"
-    },
-    {
-      "id": "4e81935e7f21430c",
-      "source": "NewsBTC",
-      "category": "crypto",
-      "url": "https://www.newsbtc.com/news/dogecoin-left-out-elon-musk-teases-x-money-visa-integration-operating/",
-      "title_en": "Dogecoin Left Out? Elon Musk Teases X Money Visa Integration Operating Exclusively in Fiat",
-      "summary_en": "Dogecoin Left Out? Elon Musk Teases X Money Visa Integration Operating Exclusively in Fiat: a fresh look at X Money Dogecoin, market context, key risks, an",
-      "published_at": "2026-06-27T16:00:00+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Dogecoin в стороне? Илон Маск намекает на интеграцию X Money с Visa, работающую исключительно с фиатными валютами.",
-      "summary_ru": "Dogecoin в стороне? Илон Маск намекает на интеграцию X Money с Visa, работающую исключительно с фиатом: новый взгляд на X Money, Dogecoin, рыночный контекст, ключевые риски."
     },
     {
       "id": "8f4a791ea2b80414",
@@ -74,28 +335,25 @@
       "summary_ru": "Сравнили Трансформера и Метаболического агента в задачах на удержание физической реальности и пространственное мышление. Итог: LLM предсказуемо налажала при первой же попытке обмануть ее “человеческим авторитетом”, слив правильный ответ ради извинений. А вот наш агент самовольно вышел за рамки бенчмарка, спланировал хак соседнего компилятора и выдал манифест цифрового хищника. Разбираем логи баттла и показываем, почему бизнесу нужен ИИ с инстинктом выживания, а не стохастический импотент. Читать далее"
     },
     {
-      "id": "29977d33658b67f5",
-      "source": "NewsBTC",
+      "id": "75765731fbfcc077",
+      "source": "Decrypt",
       "category": "crypto",
-      "url": "https://www.newsbtc.com/news/ethereum-protocol-debate-diverting-staking-rewards-for-public-goods-funding/",
-      "title_en": "Ethereum Protocol Debate: Diverting Staking Rewards for Public Goods Funding Sparks Controversy",
-      "summary_en": "Ethereum Protocol Debate: Diverting Staking Rewards for Public Goods Funding Sparks Controversy: a fresh look at Ethereum staking rewards public goods, mar",
-      "published_at": "2026-06-27T15:15:00+00:00",
-      "topic": "Ethereum",
-      "title_ru": "Дебаты по протоколу Ethereum: перенаправление вознаграждений за стекинг на финансирование общественных благ вызывает споры.",
-      "summary_ru": "Дебаты по протоколу Ethereum: перенаправление вознаграждений за стейкинг на финансирование общественных благ вызывает споры: новый взгляд на вознаграждения за стейкинг Ethereum и общественные блага."
-    },
-    {
-      "id": "8a6611df76b4abb0",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/bitcoin-nears-price-germany-sold-buy-back-49858-btc/",
-      "title_en": "Bitcoin Nears the Price Germany Sold At — Should Berlin Buy Back 49,858 BTC?",
-      "summary_en": "Bitcoin is trading less than $3,000 above the average price at which Germany dumped nearly 50,000 seized coins in 2024, reviving a debate over one of the most criticized sovereign sales in the asset’s history. A Gap That Has Nearly Closed Bitcoin is now less than $3,000 away from the level where Germany sold, sparking [&#8230;]",
-      "published_at": "2026-06-27T14:27:36+00:00",
+      "url": "https://decrypt.co/372205/billionaire-jeremy-grantham-dismisses-bitcoin-crypto",
+      "title_en": "Billionaire Jeremy Grantham Dismisses Bitcoin, Says Crypto Will Fade 'With a Whimper'",
+      "summary_en": "The seasoned investor has little faith in Bitcoin's staying power, expecting crypto to quietly fade away over time.",
+      "published_at": "2026-06-27T14:34:32+00:00",
       "topic": "Bitcoin",
-      "title_ru": "Биткойн приближается к цене, по которой Германия его продавала — стоит ли Берлину выкупить 49,858 BTC?",
-      "summary_ru": "Биткойн торгуется менее чем на $3,000 выше средней цены, по которой Германия продала почти 50,000 конфискованных монет в 2024 году, возобновляя дискуссию о одной из самых критикуемых государственных продаж в истории актива. Промежуток, который почти закрылся Биткойн теперь менее чем на $3,000 выше уровня, по которому Германия продала, что вызывает [...]"
+      "title_ru": "Миллиардер Джереми Грантэм отверг биткойн, заявив, что криптовалюта исчезнет \"с тихим шипением\".",
+      "summary_ru": "Опытный инвестор слабо верит в устойчивость Bitcoin, ожидая, что криптовалюта постепенно исчезнет со временем.",
+      "duplicates": [
+        {
+          "source": "BeInCrypto EN",
+          "url": "https://beincrypto.com/billionaire-jeremy-grantham-bitcoin-criticism/",
+          "title_en": "Billionaire Grantham Uses Extreme Words to Describe Bitcoin",
+          "title_ru": "Миллиардер Грантэм использует резкие слова для описания Bitcoin.",
+          "published_at": "2026-06-27T17:44:42+00:00"
+        }
+      ]
     },
     {
       "id": "e040f39e754ba45c",
@@ -206,6 +464,27 @@
       "summary_ru": "Armstrong сократил расходы Coinbase на AI вдвое на фоне роста использования токенов и назвал медвежий рынок Bitcoin легким ветерком."
     },
     {
+      "id": "fcb57a14904fa39c",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "url": "https://www.coindesk.com/markets/2026/06/27/strategy-s-valuation-has-fallen-below-the-value-of-its-bitcoin-holdings",
+      "title_en": "Strategy's valuation has fallen below the value of its bitcoin holdings",
+      "summary_en": "",
+      "published_at": "2026-06-27T12:08:14+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Оценка Strategy упала ниже стоимости его биткойн-активов.",
+      "summary_ru": "",
+      "duplicates": [
+        {
+          "source": "The Defiant",
+          "url": "https://thedefiant.io/news/markets/strategy-enterprise-mnav-drops-below-1-first-time",
+          "title_en": "Strategy's Enterprise mNAV Drops Below 1 for the First Time",
+          "title_ru": "mNAV компании Strategy впервые упал ниже 1.",
+          "published_at": "2026-06-27T14:57:36+00:00"
+        }
+      ]
+    },
+    {
       "id": "7da2347d70623455",
       "source": "Cointelegraph",
       "category": "crypto",
@@ -215,7 +494,16 @@
       "published_at": "2026-06-27T12:00:56+00:00",
       "topic": "Altcoins",
       "title_ru": "SecondFi нацелена на восстановление в течение двух недель после взлома кошелька Cardano.",
-      "summary_ru": "SecondFi заявляет, что завершила судебно-экспертные расследования, сделала финальный снимок баланса и готовится вернуть активы."
+      "summary_ru": "SecondFi заявляет, что завершила судебно-экспертные расследования, сделала финальный снимок баланса и готовится вернуть активы.",
+      "duplicates": [
+        {
+          "source": "NewsBTC",
+          "url": "https://www.newsbtc.com/news/secondfi-completes-refund-snapshot-for-wallets-impacted-by-recent-cardano/",
+          "title_en": "SecondFi Completes Refund Snapshot for Wallets Impacted by Recent Cardano Exploit",
+          "title_ru": "SecondFi завершила создание снимка возвратов для кошельков, пострадавших от недавней уязвимости в Cardano.",
+          "published_at": "2026-06-27T18:15:00+00:00"
+        }
+      ]
     },
     {
       "id": "eb1f31d9e5e74b0e",
@@ -252,30 +540,6 @@
       "topic": "Regulations",
       "title_ru": "СМИ: Цукерберг поручил Meta изучить партнерство с Polymarket и Kalshi",
       "summary_ru": "Meta рассматривает возможность сотрудничества с платформами Polymarket и Kalshi, продолжая разработку собственного сервиса для рынков предсказаний под рабочим названием Arena. Соответствующее поручение менеджменту компании дал CEO Марк Цукерберг, сообщили источники NYT . По их данным, Meta изучает различные варианты интеграции популярных рынков прогнозов в свою экосистему. Параллельно компания продолжает работу над Arena — приложением, в котором пользователи смогут делать предсказания относительно политических событий, спорта, экономики и других тем.&nbsp; На первом этапе сервис будет использовать систему игровых баллов вместо денежных ставок, однако в дальнейшем Meta не исключает появления финансовых механизмов. Ставка на быстрорастущий рынок Интерес Meta отражает растущую популярность рынков предсказаний, которые после выборов в США стали одним из наиболее быстрорастущих сегментов на стыке финансовых технологий и криптоиндустрии. Polymarket, работающая на блокчейн-инфраструктуре, и регулируемая в США Kalshi значительно расширили аудиторию и объемы торгов за последний год. По информации источников, Meta рассчитывает привлечь к своему сервису не менее 100 млн активных пользователей в месяц. В перспективе отдельные функции Arena могут быть интегрированы в Facebook и Messenger, хотя окончательное решение о запуске продукта пока не принято. Meta не хочет остаться в стороне Это уже второй сигнал за неделю о намерениях компании выйти на рынок прогнозов. Ранее СМИ сообщали, что Цукерберг поручил небольшой команде разработать собственный аналог Polymarket и Kalshi. Теперь Meta рассматривает и сценарий сотрудничества с уже состоявшимися игроками, чтобы быстрее закрепиться в новом сегменте. https://forklog.com/news/instrument-razvedki-i-informatsionnoj-vojny-glava-bubblemaps-o-rynkah-predskazanij Напомним, американские игорные ассоциации призвали Сенат США запретить рынки предсказаний , связанные со спортом и азартными играми, в рамках нового законопроекта о крипторегулировании."
-    },
-    {
-      "id": "4e8df643086f959d",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/trevor-kimani-pushes-kenya-to-balance-crypto-rules-as-2025-framework-takes-shape/",
-      "title_en": "Trevor Kimani Pushes Kenya to Balance Crypto Rules as 2025 Framework Takes Shape",
-      "summary_en": "Kenyan cryptocurrency leaders are urging closer cooperation with government regulators to help shape the nation’s emerging digital-asset framework. A New Era of Formal Oversight Cryptocurrency industry leaders have urged deeper collaboration with government agencies as Kenya advances work on its first comprehensive digital-asset regulatory framework. Speaking at a recent Bitcoin conference in Nairobi, technology executives [&#8230;]",
-      "published_at": "2026-06-27T11:30:43+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Тревор Кимани призывает Кению к сбалансированным правилам в области криптовалют, поскольку в 2025 году формируется новая структура регулирования.",
-      "summary_ru": "Кенийские лидеры в области криптовалют призывают к более тесному сотрудничеству с государственными регуляторами для формирования новой структуры цифровых активов в стране. Новая эра формального надзора Лидеры криптоиндустрии призвали к более глубокому взаимодействию с государственными учреждениями, поскольку Кения продвигается к созданию своей первой комплексной регуляторной структуры для цифровых активов. Выступая на недавней конференции по Bitcoin в Найроби, технологические руководители [...]"
-    },
-    {
-      "id": "043a2bf5f6f78168",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title_en": "Here’s what happened in crypto today",
-      "summary_en": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "published_at": "2026-06-27T11:30:05+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Вот что произошло в криптовалютном мире сегодня.",
-      "summary_ru": "Нужна информация о событиях в криптовалюте сегодня? Вот последние новости о ежедневных трендах и событиях, влияющих на цену Bitcoin, блокчейн, DeFi, NFTs, Web3 и регулирование криптовалют."
     },
     {
       "id": "39217bafd159845d",
@@ -323,18 +587,6 @@
       "summary_ru": "Вайб-кодер в чистой форме — человек, который вообще не имеет отношения к разработке — физически не способен оценить код. Для него работает = работает. А я утверждаю: код, сгенерированный нейронкой, всё равно будет более плоским, более ущербным и менее оптимальным, чем код живого разработчика. Проблема в том, как это доказать человеку, который код читать не умеет. Поэтому зайдём через аналогию, которую может проверить КАЖДЫЙ — через тексты. Читать далее"
     },
     {
-      "id": "d6cee54e283ef7f0",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/nigeria-rwanda-join-forces-on-crypto-regulation-to-counter-fraud/",
-      "title_en": "Nigeria, Rwanda Join Forces on Crypto Regulation to Counter Fraud",
-      "summary_en": "Rwanda and Nigeria have signed a cooperation agreement between their respective financial regulatory bodies to deepen collaboration across capital markets and digital assets. Strengthening Regional Oversight Rwanda and Nigeria have signed a cooperation agreement to deepen collaboration across capital markets and digital assets, marking a significant step toward more coordinated cryptocurrency regulation across Africa as [&#8230;]",
-      "published_at": "2026-06-27T10:30:23+00:00",
-      "topic": "Regulations",
-      "title_ru": "Нигерия и Руанда объединили усилия для регулирования криптовалюты с целью борьбы с мошенничеством.",
-      "summary_ru": "Руанда и Нигерия подписали соглашение о сотрудничестве между своими финансовыми регуляторами для углубления взаимодействия в области капитальных рынков и цифровых активов. Укрепление регионального надзора Руанда и Нигерия подписали соглашение о сотрудничестве для углубления взаимодействия в области капитальных рынков и цифровых активов, что является значительным шагом к более скоординированному регулированию криптовалют в Африке."
-    },
-    {
       "id": "c1f3c56942fb73bc",
       "source": "Forklog",
       "category": "crypto",
@@ -354,18 +606,6 @@
           "published_at": "2026-06-27T14:47:22+00:00"
         }
       ]
-    },
-    {
-      "id": "1685ffc69548669c",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/riot-games-makes-stake-owned-kick-an-official-esports-broadcaster-just-a-year-after-rescinding-sponsor-ban/",
-      "title_en": "Riot Games Makes Stake-Owned Kick an Official Esports Broadcaster, Just a Year After Rescinding Sponsor Ban",
-      "summary_en": "Riot Games has named Kick, the streaming platform owned by the founders of crypto casino Stake, as an official broadcaster of its esports product. This is a full turnaround from its longstanding ban, which took place in multiple steps: about a year ago, it first allowed betting companies as team sponsors while insisting its own [&#8230;]",
-      "published_at": "2026-06-27T09:30:21+00:00",
-      "topic": "Regulations",
-      "title_ru": "Riot Games объявила, что Kick, принадлежащий компании Stake, стал официальным транслятором киберспорта, всего через год после отмены запрета на спонсорство.",
-      "summary_ru": "Riot Games назначила Kick, стриминговую платформу, принадлежащую основателям крипто-казино Stake, официальным транслятором своего киберспортивного продукта. Это полное изменение позиции после длительного запрета, который был введен поэтапно: около года назад компания сначала разрешила букмекерским конторам быть спонсорами команд, при этом настаивая на своем [...]"
     },
     {
       "id": "74e578c606c92bcf",
@@ -440,18 +680,6 @@
       "summary_ru": "Около 60% пользователей, которые впервые сделали ставки на Чемпионат мира по футболу через Polymarket, раньше никогда не пользовались блокчейн-протоколами. Это говорит о том, что рынки прогнозов становятся для многих первой точкой входа в крипту. К такому выводу пришли аналитики Bitget Wallet. В течение 90 дней они изучали ончейн-активность 857 тыс. активных пользователей Polymarket. По данным [&#8230;]"
     },
     {
-      "id": "8118be92f80d8e22",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/binance-competitive-advantages-mica-test/",
-      "title_en": "How MiCA is Testing Binance’s Four Competitive Advantages",
-      "summary_en": "Binance's competitive advantages by the numbers, from a 39% market share to a $200M compliance arm under MiCA pressure. The post How MiCA is Testing Binance’s Four Competitive Advantages appeared first on BeInCrypto .",
-      "published_at": "2026-06-27T08:00:00+00:00",
-      "topic": "Regulations",
-      "title_ru": "Как MiCA проверяет четыре конкурентных преимущества Binance",
-      "summary_ru": "Конкурентные преимущества Binance в цифрах: 39% доля рынка и $200 млн на соблюдение норм в условиях давления MiCA. Статья \"Как MiCA испытывает четыре конкурентных преимущества Binance\" опубликована на BeInCrypto."
-    },
-    {
       "id": "26d9c0f251df4caf",
       "source": "vc.ru AI",
       "category": "ai",
@@ -464,16 +692,16 @@
       "summary_ru": "Начиная с нового учебного года в конце августа ученикам с первого по седьмой класс (которым от 6 до 13 лет) вообще не будут давать пользоваться генеративным ИИ на уроках."
     },
     {
-      "id": "b811e1520008f92b",
-      "source": "Bitcoin.com",
+      "id": "253d5c7f1c7a284d",
+      "source": "Forklog",
       "category": "crypto",
-      "url": "https://news.bitcoin.com/electronic-money-or-digital-asset-brazil-sparks-intense-debate-over-stablecoin-regulation/",
-      "title_en": "Electronic Money or Digital Asset? Brazil Sparks Intense Debate Over Stablecoin Regulation",
-      "summary_en": "While Congress prepares to consider Bill 4308/2024 to regulate the status of stablecoins, the cryptocurrency industry opposes designating them as electronic money, advocating for maintaining the current status of virtual assets, as they lack the elements of traditional currency. Brazil’s Crypto Industry Opposes Stablecoin Designation As Virtual Currency While stablecoins have become immensely popular in [&#8230;]",
-      "published_at": "2026-06-27T07:30:59+00:00",
-      "topic": "Regulations",
-      "title_ru": "Электронные деньги или цифровые активы? Бразилия вызывает интенсивные дебаты по поводу регулирования стейблкоинов.",
-      "summary_ru": "В то время как Конгресс готовится рассмотреть законопроект 4308/2024 о регулировании статуса стейблкоинов, криптоиндустрия выступает против их обозначения как электронных денег, настаивая на сохранении текущего статуса виртуальных активов, поскольку им недостает элементов традиционной валюты. Криптоиндустрия Бразилии выступает против обозначения стейблкоинов как виртуальной валюты."
+      "url": "https://forklog.com/news/ai/openai-predstavila-semejstvo-modelej-gpt-5-6",
+      "title_en": "OpenAI представила семейство моделей GPT-5.6",
+      "summary_en": "OpenAI открыла ограниченный доступ к GPT-5.6 Sol, Terra и Luna через API и Codex для небольшой группы доверенных партнеров. Компания запустила превью по просьбе американских властей. https://twitter.com/OpenAI/status/2070555272230384038 OpenAI рассчитывает сделать GPT-5.6 Sol, Terra и Luna общедоступными в ближайшие недели. Перед запуском OpenAI заранее представила планы и возможности моделей правительству США. По просьбе американских властей стартовый этап проходит в формате ограниченного превью, а информацию о партнерах передали правительству. В OpenAI добавили, что не считают такой порядок долгосрочной нормой. Sol в компании называют флагманом линейки, Terra — «рабочей» моделью для повседневных задач, Luna — быстрым и дешевым вариантом. По оценке OpenAI, Terra показывает сопоставимую с GPT-5.5 производительность и стоит в два раза дешевле. Luna компания называет самой доступной моделью в линейке. OpenAI также заявила, что GPT-5.6 Sol — самая сильная модель компании на текущий момент. В серии появились режим рассуждения max, который дает Sol больше времени на глубокую проработку задач, и режим ultra, использующий субагентов для ускорения сложной работы. По данным OpenAI, Sol установила новый рекорд в Terminal-Bench 2.1 для задач командной строки, на GeneBench v1 показала результат выше GPT-5.5 при меньшем числе токенов, а на ExploitBench оказалась конкурентоспособной с Mythos Preview, используя около одной трети выходных токенов. Источник: OpenAI. На тестах ExploitGym, по утверждению компании, все три модели улучшали результаты в киберзадачах по мере роста глубины рассуждения. OpenAI заявила, что GPT-5.6 Sol, Terra и Luna получили самый сильный стек безопасности в линейке. По оценке компании, GPT-5.6 Sol не пересекает порог Cyber Critical в рамках Preparedness Framework. В тестах с Chromium и Firefox модель находила баги и примитивы эксплуатации уязвимостей, но не смогла автономно создать полноценный рабочий эксплойт в проверенных условиях. Для проверки защиты OpenAI задействовала более 700 000 GPU-часов в эквиваленте A100 на автоматизированный редтиминг , направленный на поиск универсальных джейлбрейков. На этапе превью действуют многоуровневые меры, включая ограничения на уровне модели, проверки в реальном времени, сигналы на уровне аккаунта, мониторинг и меры правоприменения. Компания предупредила: часть запросов может блокироваться или обрабатываться дольше из-за дополнительной проверки. OpenAI также объяснила новую схему именования: число обозначает поколение модели, а Sol, Terra и Luna — уровни возможностей. Цена за 1 млн токенов составляет для Sol $5 на входе и $30 на выходе, для Terra — $2,50 и $15, для Luna — $1 и $6. В июле OpenAI планирует запустить GPT-5.6 Sol на Cerebras со скоростью до 750 токенов в секунду. Доступ на этом этапе тоже ограничат для отдельных клиентов, пока компания расширяет мощности. Напомним, в начале июня OpenAI конфиденциально подала в Комиссию по ценным бумагам и биржам США заявление по форме S-1 для возможного первичного публичного размещения акций.",
+      "published_at": "2026-06-27T07:07:07+00:00",
+      "topic": "Hacks",
+      "title_ru": "OpenAI представила семейство моделей GPT-5.6",
+      "summary_ru": "OpenAI открыла ограниченный доступ к GPT-5.6 Sol, Terra и Luna через API и Codex для небольшой группы доверенных партнеров. Компания запустила превью по просьбе американских властей. https://twitter.com/OpenAI/status/2070555272230384038 OpenAI рассчитывает сделать GPT-5.6 Sol, Terra и Luna общедоступными в ближайшие недели. Перед запуском OpenAI заранее представила планы и возможности моделей правительству США. По просьбе американских властей стартовый этап проходит в формате ограниченного превью, а информацию о партнерах передали правительству. В OpenAI добавили, что не считают такой порядок долгосрочной нормой. Sol в компании называют флагманом линейки, Terra — «рабочей» моделью для повседневных задач, Luna — быстрым и дешевым вариантом. По оценке OpenAI, Terra показывает сопоставимую с GPT-5.5 производительность и стоит в два раза дешевле. Luna компания называет самой доступной моделью в линейке. OpenAI также заявила, что GPT-5.6 Sol — самая сильная модель компании на текущий момент. В серии появились режим рассуждения max, который дает Sol больше времени на глубокую проработку задач, и режим ultra, использующий субагентов для ускорения сложной работы. По данным OpenAI, Sol установила новый рекорд в Terminal-Bench 2.1 для задач командной строки, на GeneBench v1 показала результат выше GPT-5.5 при меньшем числе токенов, а на ExploitBench оказалась конкурентоспособной с Mythos Preview, используя около одной трети выходных токенов. Источник: OpenAI. На тестах ExploitGym, по утверждению компании, все три модели улучшали результаты в киберзадачах по мере роста глубины рассуждения. OpenAI заявила, что GPT-5.6 Sol, Terra и Luna получили самый сильный стек безопасности в линейке. По оценке компании, GPT-5.6 Sol не пересекает порог Cyber Critical в рамках Preparedness Framework. В тестах с Chromium и Firefox модель находила баги и примитивы эксплуатации уязвимостей, но не смогла автономно создать полноценный рабочий эксплойт в проверенных условиях. Для проверки защиты OpenAI задействовала более 700 000 GPU-часов в эквиваленте A100 на автоматизированный редтиминг , направленный на поиск универсальных джейлбрейков. На этапе превью действуют многоуровневые меры, включая ограничения на уровне модели, проверки в реальном времени, сигналы на уровне аккаунта, мониторинг и меры правоприменения. Компания предупредила: часть запросов может блокироваться или обрабатываться дольше из-за дополнительной проверки. OpenAI также объяснила новую схему именования: число обозначает поколение модели, а Sol, Terra и Luna — уровни возможностей. Цена за 1 млн токенов составляет для Sol $5 на входе и $30 на выходе, для Terra — $2,50 и $15, для Luna — $1 и $6. В июле OpenAI планирует запустить GPT-5.6 Sol на Cerebras со скоростью до 750 токенов в секунду. Доступ на этом этапе тоже ограничат для отдельных клиентов, пока компания расширяет мощности. Напомним, в начале июня OpenAI конфиденциально подала в Комиссию по ценным бумагам и биржам США заявление по форме S-1 для возможного первичного публичного размещения акций."
     },
     {
       "id": "9f7aa17e025d7ae5",
@@ -498,575 +726,7 @@
       "topic": "Bitcoin",
       "title_ru": "Устаревшие банковские правила могут не позволить криптовалюте попасть в банки, которым теперь разрешено ее хранить.",
       "summary_ru": "Банки в США, Великобритании и Европе наконец получили законный путь для выпуска стейблкоинов, хранения Bitcoin и расчетов токенизированными фондами, однако правила капитала, регулирующие эту деятельность, по-прежнему рассматривают позицию по Bitcoin как нечто близкое к гарантированному убытку. Согласно стандарту по криптоактивам Базельского комитета, который действует в странах-членах с 1 января, [...]"
-    },
-    {
-      "id": "4780e7b59d314001",
-      "source": "Forklog",
-      "category": "crypto",
-      "url": "https://forklog.com/news/grazhdan-brazilii-predupredili-o-napadenii-inoplanetyan-v-staryh-modelyah-d-link-obnaruzhili-ugrozu-i-drugie-sobytiya-kiberbezopasnosti",
-      "title_en": "Граждан Бразилии «предупредили» о нападении инопланетян, в старых моделях D-Link обнаружили угрозу и другие события кибербезопасности",
-      "summary_en": "Мы собрали наиболее важные новости из мира кибербезопасности за неделю. Канадские спецслужбы впервые применили судебный ордер для удаленной очистки устройств граждан. Инфостилер под macOS обошел ИИ-анализ с помощью инъекции фейковых ошибок. Европол ликвидировал сеть распространения вредоносов Amadey и StealC. В Бразилии хакеры разослали экстренные оповещения о «нападении инопланетян». Канадские спецслужбы впервые применили судебный ордер для удаленной очистки устройств граждан Канадская служба разведки и безопасности получила беспрецедентный судебный ордер на удаленное вмешательство в работу зараженных серверов, домашних роутеров и IoT -устройств на территории страны. Об этом сообщает Todayville . Ботнеты работали по классической схеме ретрансляции. Маршрутизируя трафик через взломанное оборудование, хакеры маскировались под обычных домашних пользователей или интернет-провайдеров. Это позволяло им незаметно сканировать сети критической инфраструктуры (в частности, энергетического сектора), правительственные и военные ведомства Канады. Целями для очистки стали базирующиеся в стране серверы, роутеры для малого бизнеса и дома, а также умная техника: дверные звонки, камеры видеонаблюдения, телевизоры и другие устройства с поддержкой Wi-Fi. Федеральный суд Канады рассекретил публичную версию постановления только в середине июня 2026 года, хотя сам ордер был выдан более двух лет назад. В нем подчеркивается, что личные данные пользователей не перехватывались, а случайно собранная информация немедленно уничтожалась. По данным СМИ, одна из основных проблем таких атак кроется в устаревшем оборудовании. Вредоносы внедряют в IoT-устройства с заводскими паролями или технику, чья поддержка завершена. Это подтвердили специалисты из команды XLab . Они обнаружили ранее неизвестный ботнет под названием AryStinger, который использовал устаревшие домашние маршрутизаторы D-Link моделей DIR-850L и DIR-818LW. В ходе вредоносной кампании хакеры взломали более 4000 роутеров, превратив их в прокси-серверы для ретрансляции злонамеренного трафика и выполнения распределенных задач. По данным исследователей, помимо использования устройств в качестве стартовой площадки для атак, AryStinger способен вмешиваться в настройки DNS, перехватывать браузерные сессии жертв, а также скрытно мониторить и похищать весь входящий и исходящий сетевой трафик. Около 48% всех заражений пришлись на Южную Корею, Китай, Швецию, Малайзию и Сингапур. Инфостилер под macOS обошел ИИ-анализ с помощью инъекции фейковых ошибок Исследователи из SentinelOne обнаружили новое вредоносное ПО для macOS Gaslight. Инфостилер целенаправленно атакует инструменты автоматизированного анализа кода и реверс-инжиниринга, работающие на базе ИИ. Аналитики с высокой долей уверенности связывают вредонос с северокорейскими хакерами. Помимо стандартной функциональности бэкдора и кражи данных, внутри файла Gaslight скрыт специальный загрузчик размером 3,5 КБ. Он содержит 38 сфабрикованных системных сообщений, оформленных с использованием Markdown-разметки и шаблонов. Фейковые сообщения об ошибках. Источник: SentinelOne. Эти строки работают как инъекции промптов для LLM -моделей. Фальшивые сообщения имитируют логи разработчиков, отчеты о сбоях, ошибки переполнения памяти и предупреждения об истечении срока действия токенов. Их цель — заставить ИИ-агента усомниться в корректности собственной сессии анализа. По данным экспертов, предлагая ИИ-платформам этот контекст, хакеры рассчитывают, что языковая модель прервет работу, обрежет отчет или вовсе откажется продолжать анализ «поврежденного» образца, сославшись на несуществующие технические ошибки. Европол ликвидировал сеть распространения вредоносов Amadey и StealC Европол совместно с правоохранителями из десятка стран и специалистами Microsoft ликвидировал сеть распространения вредоносов SocGholish, Amadey и StealC. Троян Amadey выполнял роль загрузчика для получения первоначального доступа к системе, после чего вирус разворачивал инфостилер StealC. Последний специализировался на краже паролей, данных кредитных карт и сид-фраз криптокошельков. Результаты скоординированной операции: захвачено 326 серверов и 142 домена; выявлены и заморожены криптоактивы на сумму свыше $47 млн; изъята база, содержащая более 27 млн украденных учетных данных; очищено около 15 000 сайтов на базе WordPress, которые хакеры ранее взломали для скрытого распространения вируса SocGholish под видом системных обновлений. В Гонконге полиция арестовала членов финансового звена преступного синдиката. Об этом сообщает South China Morning Post . Задержанные 69 человек в возрасте от 18 до 60 лет являлись членами группировки, которая специализировалась на легализации доходов от трансграничного инвестиционного мошенничества с использованием криптовалют. Для запутывания следов и легализации криминальных средств злоумышленники использовали разветвленную сеть фейковых счетов, оформленных на подставных лиц (дропов). По оценкам полиции, мошенники отмыли около $25,6 млн. В Бразилии хакеры разослали экстренные оповещения о «нападении инопланетян» В ночь с 19 на 20 июня 2026 года национальная система экстренных оповещений Бразилии (Defesa Civil Alerta) подверглась кибератаке. Об этом сообщает G1 .&nbsp; В результате взлома инфраструктуры жители нескольких штатов получили «экстренные предупреждения», которые сопровождались громким воем сирен на смартфонах — сигнал срабатывал даже на устройствах, переведенных в беззвучный режим. Вместо реальных уведомлений о стихийных бедствиях злоумышленники разослали 10 сообщений с бессвязным и странным текстом. Большинство из них содержало слово « мизантропия », сопровождалось сленгом и опечатками, а в некоторых регионах рассылка и вовсе предупреждала о якобы начавшемся «нападении инопланетян». Источник: G1. По предварительным данным Министерства интеграции и регионального развития, атака была нацелена на правительственный механизм рассылки Cell Broadcast.&nbsp; Злоумышленникам, вероятно, удалось взломать учетные записи сотрудников Гражданской обороны. Получив доступ к платформе, хакеры удаленно инициировали рассылку высшего приоритета (Alerta Extremo), которая позволяет обходить системные ограничения смартфонов на звук и уведомления.&nbsp; Чтобы остановить спам-атаку, властям пришлось пойти на крайние меры: в 01:30 ночи серверы системы оповещения были принудительно отключены. На момент написания платформу Defesa Civil Alerta частично восстановили, однако право рассылать оповещения оставили исключительно за Национальным центром управления рисками и катастрофами.&nbsp; ZachXBT раскрыл личность хакера, задержанного в Польше Европейские правоохранители при поддержке ФБР и Министерства внутренней безопасности США арестовали четырех членов хакерской группировки. Об этом сообщили в Центральном бюро по борьбе с киберпреступностью Польши (CBZC).&nbsp; Злоумышленников подозревают в проведении атак с подменой SIM-карт, краже цифровых активов с криптовалютных бирж и масштабном отмывании денег. По данным следствия, хакеры использовали специализированное программное обеспечение и методы социальной инженерии для взлома IT-инфраструктуры компаний, сотрудничающих с телекоммуникационными операторами. Получив доступ к электронной почте сотрудников, они незаконно клонировали номера телефонов жертв. Перехват позволял злоумышленникам обходить двухфакторную аутентификацию, захватывать контроль над пользовательскими аккаунтами на криптовалютных биржах и выводить цифровые активы. Украденные средства отмывались через сложную распределенную финансовую сеть, включающую: личные банковские счета в Польше и за рубежом; международные платежные платформы; криптокошельки. Общая сумма отмытых средств оценивается в десятки миллионов польских злотых. Всем четверым подозреваемым грозит до 25 лет лишения свободы. Официальные власти не раскрыли личности задержанных, однако ончейн-исследователь ZachXBT заявил, что одним из них является Войтек Кулиш — польский хакер, специализирующийся на социальной инженерии, и известный в сети под ником Merry. https://t.me/investigations/344 Аналитик сделал такой вывод, сопоставив дизайнерскую одежду и ювелирные изделия, попавшие на оперативное видео полиции во время обыска, с вещами, которые Кулиш ранее публично демонстрировал в своем Instagram-аккаунте. Также на ForkLog: Polymarket возместит потери пользователей после атаки через подрядчика. В Бристоле отключили ИИ-модели риска преступлений против детей из-за ошибок. Регулятор Южной Кореи оштрафовал Bithumb за утечку данных. Минюст США изъял инфраструктуру «криптопрачечной» Huione Group. Из кошельков SecondFi вывели 16 млн ADA. В Таиланде связали нелегальный майнинг с отмыванием $300 млн. Five Eyes предупредили об ускорении ИИ-кибератак. Криптоиндустрия поставила антирекорд по числу взломов. Хакер взломал L2-сеть Taiko. Axelar сообщил о взломе моста с Secret Network на $4,67 млн. MEV-бот Jaredfromsubway.eth потерял более $7,5 млн. Что почитать на выходных? Разрыв между долларовыми и евро-стейблкоинами измеряется даже не процентами — он 200-кратный. В новом материале ForkLog постарался разобраться, почему ЕС проиграл толком не начавшуюся «блокчейн-гонку» и как можно исправить положение. https://forklog.com/exclusive/kak-evro-stejblkoiny-proigrali-ne-nachavshuyusya-bitvu",
-      "published_at": "2026-06-27T04:00:00+00:00",
-      "topic": "Regulations",
-      "title_ru": "Граждан Бразилии «предупредили» о нападении инопланетян, в старых моделях D-Link обнаружили угрозу и другие события кибербезопасности",
-      "summary_ru": "Мы собрали наиболее важные новости из мира кибербезопасности за неделю. Канадские спецслужбы впервые применили судебный ордер для удаленной очистки устройств граждан. Инфостилер под macOS обошел ИИ-анализ с помощью инъекции фейковых ошибок. Европол ликвидировал сеть распространения вредоносов Amadey и StealC. В Бразилии хакеры разослали экстренные оповещения о «нападении инопланетян». Канадские спецслужбы впервые применили судебный ордер для удаленной очистки устройств граждан Канадская служба разведки и безопасности получила беспрецедентный судебный ордер на удаленное вмешательство в работу зараженных серверов, домашних роутеров и IoT -устройств на территории страны. Об этом сообщает Todayville . Ботнеты работали по классической схеме ретрансляции. Маршрутизируя трафик через взломанное оборудование, хакеры маскировались под обычных домашних пользователей или интернет-провайдеров. Это позволяло им незаметно сканировать сети критической инфраструктуры (в частности, энергетического сектора), правительственные и военные ведомства Канады. Целями для очистки стали базирующиеся в стране серверы, роутеры для малого бизнеса и дома, а также умная техника: дверные звонки, камеры видеонаблюдения, телевизоры и другие устройства с поддержкой Wi-Fi. Федеральный суд Канады рассекретил публичную версию постановления только в середине июня 2026 года, хотя сам ордер был выдан более двух лет назад. В нем подчеркивается, что личные данные пользователей не перехватывались, а случайно собранная информация немедленно уничтожалась. По данным СМИ, одна из основных проблем таких атак кроется в устаревшем оборудовании. Вредоносы внедряют в IoT-устройства с заводскими паролями или технику, чья поддержка завершена. Это подтвердили специалисты из команды XLab . Они обнаружили ранее неизвестный ботнет под названием AryStinger, который использовал устаревшие домашние маршрутизаторы D-Link моделей DIR-850L и DIR-818LW. В ходе вредоносной кампании хакеры взломали более 4000 роутеров, превратив их в прокси-серверы для ретрансляции злонамеренного трафика и выполнения распределенных задач. По данным исследователей, помимо использования устройств в качестве стартовой площадки для атак, AryStinger способен вмешиваться в настройки DNS, перехватывать браузерные сессии жертв, а также скрытно мониторить и похищать весь входящий и исходящий сетевой трафик. Около 48% всех заражений пришлись на Южную Корею, Китай, Швецию, Малайзию и Сингапур. Инфостилер под macOS обошел ИИ-анализ с помощью инъекции фейковых ошибок Исследователи из SentinelOne обнаружили новое вредоносное ПО для macOS Gaslight. Инфостилер целенаправленно атакует инструменты автоматизированного анализа кода и реверс-инжиниринга, работающие на базе ИИ. Аналитики с высокой долей уверенности связывают вредонос с северокорейскими хакерами. Помимо стандартной функциональности бэкдора и кражи данных, внутри файла Gaslight скрыт специальный загрузчик размером 3,5 КБ. Он содержит 38 сфабрикованных системных сообщений, оформленных с использованием Markdown-разметки и шаблонов. Фейковые сообщения об ошибках. Источник: SentinelOne. Эти строки работают как инъекции промптов для LLM -моделей. Фальшивые сообщения имитируют логи разработчиков, отчеты о сбоях, ошибки переполнения памяти и предупреждения об истечении срока действия токенов. Их цель — заставить ИИ-агента усомниться в корректности собственной сессии анализа. По данным экспертов, предлагая ИИ-платформам этот контекст, хакеры рассчитывают, что языковая модель прервет работу, обрежет отчет или вовсе откажется продолжать анализ «поврежденного» образца, сославшись на несуществующие технические ошибки. Европол ликвидировал сеть распространения вредоносов Amadey и StealC Европол совместно с правоохранителями из десятка стран и специалистами Microsoft ликвидировал сеть распространения вредоносов SocGholish, Amadey и StealC. Троян Amadey выполнял роль загрузчика для получения первоначального доступа к системе, после чего вирус разворачивал инфостилер StealC. Последний специализировался на краже паролей, данных кредитных карт и сид-фраз криптокошельков. Результаты скоординированной операции: захвачено 326 серверов и 142 домена; выявлены и заморожены криптоактивы на сумму свыше $47 млн; изъята база, содержащая более 27 млн украденных учетных данных; очищено около 15 000 сайтов на базе WordPress, которые хакеры ранее взломали для скрытого распространения вируса SocGholish под видом системных обновлений. В Гонконге полиция арестовала членов финансового звена преступного синдиката. Об этом сообщает South China Morning Post . Задержанные 69 человек в возрасте от 18 до 60 лет являлись членами группировки, которая специализировалась на легализации доходов от трансграничного инвестиционного мошенничества с использованием криптовалют. Для запутывания следов и легализации криминальных средств злоумышленники использовали разветвленную сеть фейковых счетов, оформленных на подставных лиц (дропов). По оценкам полиции, мошенники отмыли около $25,6 млн. В Бразилии хакеры разослали экстренные оповещения о «нападении инопланетян» В ночь с 19 на 20 июня 2026 года национальная система экстренных оповещений Бразилии (Defesa Civil Alerta) подверглась кибератаке. Об этом сообщает G1 .&nbsp; В результате взлома инфраструктуры жители нескольких штатов получили «экстренные предупреждения», которые сопровождались громким воем сирен на смартфонах — сигнал срабатывал даже на устройствах, переведенных в беззвучный режим. Вместо реальных уведомлений о стихийных бедствиях злоумышленники разослали 10 сообщений с бессвязным и странным текстом. Большинство из них содержало слово « мизантропия », сопровождалось сленгом и опечатками, а в некоторых регионах рассылка и вовсе предупреждала о якобы начавшемся «нападении инопланетян». Источник: G1. По предварительным данным Министерства интеграции и регионального развития, атака была нацелена на правительственный механизм рассылки Cell Broadcast.&nbsp; Злоумышленникам, вероятно, удалось взломать учетные записи сотрудников Гражданской обороны. Получив доступ к платформе, хакеры удаленно инициировали рассылку высшего приоритета (Alerta Extremo), которая позволяет обходить системные ограничения смартфонов на звук и уведомления.&nbsp; Чтобы остановить спам-атаку, властям пришлось пойти на крайние меры: в 01:30 ночи серверы системы оповещения были принудительно отключены. На момент написания платформу Defesa Civil Alerta частично восстановили, однако право рассылать оповещения оставили исключительно за Национальным центром управления рисками и катастрофами.&nbsp; ZachXBT раскрыл личность хакера, задержанного в Польше Европейские правоохранители при поддержке ФБР и Министерства внутренней безопасности США арестовали четырех членов хакерской группировки. Об этом сообщили в Центральном бюро по борьбе с киберпреступностью Польши (CBZC).&nbsp; Злоумышленников подозревают в проведении атак с подменой SIM-карт, краже цифровых активов с криптовалютных бирж и масштабном отмывании денег. По данным следствия, хакеры использовали специализированное программное обеспечение и методы социальной инженерии для взлома IT-инфраструктуры компаний, сотрудничающих с телекоммуникационными операторами. Получив доступ к электронной почте сотрудников, они незаконно клонировали номера телефонов жертв. Перехват позволял злоумышленникам обходить двухфакторную аутентификацию, захватывать контроль над пользовательскими аккаунтами на криптовалютных биржах и выводить цифровые активы. Украденные средства отмывались через сложную распределенную финансовую сеть, включающую: личные банковские счета в Польше и за рубежом; международные платежные платформы; криптокошельки. Общая сумма отмытых средств оценивается в десятки миллионов польских злотых. Всем четверым подозреваемым грозит до 25 лет лишения свободы. Официальные власти не раскрыли личности задержанных, однако ончейн-исследователь ZachXBT заявил, что одним из них является Войтек Кулиш — польский хакер, специализирующийся на социальной инженерии, и известный в сети под ником Merry. https://t.me/investigations/344 Аналитик сделал такой вывод, сопоставив дизайнерскую одежду и ювелирные изделия, попавшие на оперативное видео полиции во время обыска, с вещами, которые Кулиш ранее публично демонстрировал в своем Instagram-аккаунте. Также на ForkLog: Polymarket возместит потери пользователей после атаки через подрядчика. В Бристоле отключили ИИ-модели риска преступлений против детей из-за ошибок. Регулятор Южной Кореи оштрафовал Bithumb за утечку данных. Минюст США изъял инфраструктуру «криптопрачечной» Huione Group. Из кошельков SecondFi вывели 16 млн ADA. В Таиланде связали нелегальный майнинг с отмыванием $300 млн. Five Eyes предупредили об ускорении ИИ-кибератак. Криптоиндустрия поставила антирекорд по числу взломов. Хакер взломал L2-сеть Taiko. Axelar сообщил о взломе моста с Secret Network на $4,67 млн. MEV-бот Jaredfromsubway.eth потерял более $7,5 млн. Что почитать на выходных? Разрыв между долларовыми и евро-стейблкоинами измеряется даже не процентами — он 200-кратный. В новом материале ForkLog постарался разобраться, почему ЕС проиграл толком не начавшуюся «блокчейн-гонку» и как можно исправить положение. https://forklog.com/exclusive/kak-evro-stejblkoiny-proigrali-ne-nachavshuyusya-bitvu"
-    },
-    {
-      "id": "838c9c5c1b2f5bfe",
-      "source": "The Defiant",
-      "category": "crypto",
-      "url": "https://thedefiant.io/converge/podcast/moneygram-ceo-on-rolling-out-mgusd-to-its-60-million-users-globally",
-      "title_en": "MoneyGram CEO on rolling out MGUSD to its 60 million users, globally",
-      "summary_en": "MoneyGram has been quietly building on blockchain for over five years. Now, with its own stablecoin (MGUSD), a Kraken partnership, a validator seat on the Tempo network, and $2B+ in stablecoin settlements already running — the pace is accelerating.",
-      "published_at": "2026-06-27T02:47:16+00:00",
-      "topic": "Regulations",
-      "title_ru": "Генеральный директор MoneyGram о запуске MGUSD для 60 миллионов пользователей по всему миру.",
-      "summary_ru": "MoneyGram на протяжении более пяти лет тихо развивает технологии блокчейн. Теперь, с собственным стейблкоином (MGUSD), партнерством с Kraken, местом валидатора в сети Tempo и уже более чем 2 миллиарда долларов в расчетах со стейблкоинами, темпы роста ускоряются."
-    },
-    {
-      "id": "4f82b67974191d07",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/raft/articles/1052562/?utm_campaign=1052562&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Оптимизируем Закупки: чеклист топ-10 для формирования потребности с помощью ИИ-аналитика Raft AI4BI",
-      "summary_en": "Если зададите «закупщику» вопрос о проблемах, которые ему приходится решать на каждодневной основе, то «пустая рюмка и взгляд полный грусти будет вам ответом». Дальше последует уходящий в бесконечность список с описанием того, что болит, и достается в нем и нашим и вашим. Вспоминают и ненадежных поставщиков, и задержки поставок, и перерасход по контрактам, но в большинстве таких списков фигурирует проблема, настигающая «закупки» еще в самом начале цикла: идентификации потребности и формирования заявки на закупку. Сегодня разберем один из подходов, помогающий снизить градус проблемы с формированием потребностей: внедрение в регламент закупок чек-листа. &nbsp;Покажем на живых примерах, как ИИ-аналитик Raft AI4BI может помочь в имплементации подхода. Читать далее",
-      "published_at": "2026-06-27T02:12:38+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Оптимизируем Закупки: чеклист топ-10 для формирования потребности с помощью ИИ-аналитика Raft AI4BI",
-      "summary_ru": "Если зададите «закупщику» вопрос о проблемах, которые ему приходится решать на каждодневной основе, то «пустая рюмка и взгляд полный грусти будет вам ответом». Дальше последует уходящий в бесконечность список с описанием того, что болит, и достается в нем и нашим и вашим. Вспоминают и ненадежных поставщиков, и задержки поставок, и перерасход по контрактам, но в большинстве таких списков фигурирует проблема, настигающая «закупки» еще в самом начале цикла: идентификации потребности и формирования заявки на закупку. Сегодня разберем один из подходов, помогающий снизить градус проблемы с формированием потребностей: внедрение в регламент закупок чек-листа. &nbsp;Покажем на живых примерах, как ИИ-аналитик Raft AI4BI может помочь в имплементации подхода. Читать далее"
-    },
-    {
-      "id": "a632bd8a5612330b",
-      "source": "The Defiant",
-      "category": "crypto",
-      "url": "https://thedefiant.io/news/cefi/kraken-xstocks-bending-spoons-ipo-eea-registration",
-      "title_en": "Kraken's xStocks Opens Bending Spoons IPO Registration to EEA Retail",
-      "summary_en": "Kraken's xStocks platform is opening non-binding interest registration for the Bending Spoons IPO to eligible customers in the EEA and select global markets, the tokenized equities infrastructure's second pre-IPO offering after a troubled SpaceX debut.",
-      "published_at": "2026-06-27T02:05:50+00:00",
-      "topic": "Regulations",
-      "title_ru": "Kraken's xStocks открыл регистрацию IPO Bending Spoons для розничных инвесторов из ЕЭП.",
-      "summary_ru": "Платформа xStocks компании Kraken открывает регистрацию на не обязывающий интерес к IPO Bending Spoons для подходящих клиентов в ЕЭЗ и некоторых глобальных рынках. Это второе предложение перед IPO для инфраструктуры токенизированных акций после проблемного дебюта SpaceX."
-    },
-    {
-      "id": "9553ff58439c6bd6",
-      "source": "The Verge AI",
-      "category": "ai",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
-      "title_en": "Anthropic&#8217;s Mythos 5 is back",
-      "summary_en": "After a rollercoaster negotiation process with the Trump administration that dragged on for two weeks, Anthropic's Mythos 5 is finally back in action - at least, somewhat, for a select group of organizations, according to a letter from the government to Anthropic that was viewed by The Verge. Fable 5, however - the public-facing Mythos-class [&#8230;]",
-      "published_at": "2026-06-27T00:33:44+00:00",
-      "topic": "Regulations",
-      "title_ru": "Mythos 5 от Anthropic снова в деле.",
-      "summary_ru": "После долгих и сложных переговоров с администрацией Трампа, которые затянулись на две недели, Mythos 5 от Anthropic наконец-то снова в действии - по крайней мере, частично, для ограниченной группы организаций, согласно письму правительства к Anthropic, которое было просмотрено The Verge. Однако Fable 5 - публичная версия класса Mythos [...]"
-    },
-    {
-      "id": "5769fffc265a10ad",
-      "source": "The Defiant",
-      "category": "crypto",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/chainlink-project-pangea-50-banks-16-countries-t0-fx-settlement",
-      "title_en": "Chainlink Launches Project Pangea With 50+ Banks Across 16 Countries for T+0 FX Settlement",
-      "summary_en": "Chainlink and a multinational consortium of more than 50 banks across 16 countries launched Project Pangea at Point Zero Forum in Zurich, targeting real-time atomic settlement for the $9.6 trillion-a-day global foreign exchange market via Chainlink rails, Swift messaging, and regulated EUR and KRW",
-      "published_at": "2026-06-26T22:48:34+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Chainlink запускает проект Pangea с участием более 50 банков из 16 стран для расчетов по валютным операциям T+0.",
-      "summary_ru": "Chainlink и многонациональный консорциум из более чем 50 банков из 16 стран запустили проект Pangea на форуме Point Zero в Цюрихе, нацеленный на реализацию атомарных расчетов в реальном времени для глобального валютного рынка объемом 9,6 триллиона долларов в день с использованием технологий Chainlink, сообщений Swift и регулируемых евро и корейских вон."
-    },
-    {
-      "id": "89fa739484587e2c",
-      "source": "Simon Willison",
-      "category": "ai",
-      "url": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
-      "title_en": "Quoting Dean W. Ball",
-      "summary_en": "This is a bad state of affairs. Consider, in particular, some industry dynamics: Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that they are broadly available. After that period elapses, the models become sub-frontier, competition emerges, and margins compress. Every week of delay is eating into the narrow window that labs have to make their accounting work. The ongoing AI infrastructure buildout—the one that is, according to former US AI Czar David Sacks, essential to the US economy , assumes a functionally global total addressable market for US AI services. No one is building $100 billion dollar data centers to serve frontier models to whatever 100 companies the US government will allow access. [...] &mdash; Dean W. Ball , 35 thoughts on what has happened and what America should do Tags: anthropic , generative-ai , openai , ai , llms",
-      "published_at": "2026-06-26T22:25:46+00:00",
-      "topic": "Models",
-      "title_ru": "Цитируя Дина У. Бола",
-      "summary_ru": "Это плохое состояние дел. Рассмотрим, в частности, некоторые динамики отрасли: модели Frontier обучаются с огромными затратами, и значительная часть этих затрат компенсируется в течение нескольких месяцев после их выхода на рынок, когда они становятся широко доступными. После этого периода модели становятся суб-фронтирными, появляется конкуренция, и маржи сжимаются. Каждая неделя задержки сокращает узкое окно, в течение которого лаборатории могут сделать свои расчеты. Продолжающееся строительство инфраструктуры ИИ — то, что, по словам бывшего ИИ-царя США Дэвида Сакса, имеет решающее значение для экономики США, предполагает функционально глобальный рынок для услуг ИИ из США. Никто не строит центры обработки данных стоимостью 100 миллиардов долларов, чтобы обслуживать фронтирные модели для любых 100 компаний, которым правительство США разрешит доступ."
-    },
-    {
-      "id": "bf5cbc34874d1352",
-      "source": "Ars Technica AI",
-      "category": "ai",
-      "url": "https://arstechnica.com/ai/2026/06/south-korea-plans-to-train-entire-military-as-drone-warriors/",
-      "title_en": "South Korea plans to train entire military as \"drone warriors\"",
-      "summary_en": "Half-million strong military will train on drones as “universal combat tool.”",
-      "published_at": "2026-06-26T22:19:05+00:00",
-      "topic": "Research",
-      "title_ru": "Южная Корея планирует обучить весь военный персонал в качестве \"дроновых воинов\".",
-      "summary_ru": "Полумиллионная армия будет обучаться использованию дронов как \"универсального боевого инструмента\"."
-    },
-    {
-      "id": "7e27a85e65db1c71",
-      "source": "The Defiant",
-      "category": "crypto",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/ripple-rlusd-japan-jfsa-sbi-vc-trade-circle-nomura-stablecoin",
-      "title_en": "Ripple Launches RLUSD in Japan via SBI as Circle and Nomura Join Stablecoin Race",
-      "summary_en": "Ripple's RLUSD stablecoin went live in Japan on Tuesday after receiving approval from Japan's Financial Services Agency, becoming the first foreign-issued stablecoin classified under Japan's revised Payment Services Act.",
-      "published_at": "2026-06-26T21:54:48+00:00",
-      "topic": "Regulations",
-      "title_ru": "Ripple запускает RLUSD в Японии через SBI, в то время как Circle и Nomura присоединяются к гонке стейблкоинов.",
-      "summary_ru": "Stablecoin RLUSD от Ripple запустился в Японии во вторник после получения одобрения от Финансового управления Японии, став первым иностранным стабильнымcoin, классифицированным в соответствии с пересмотренным Законом о платежных услугах Японии."
-    },
-    {
-      "id": "024ecdf120dfa35f",
-      "source": "The Block",
-      "category": "crypto",
-      "url": "https://www.theblock.co/post/406438/strategy-loses-bitcoin-premium-enterprise-mnav-dips-below-1?utm_source=rss&utm_medium=rss",
-      "title_en": "Strategy loses its bitcoin premium as enterprise mNAV dips below 1",
-      "summary_en": "Strategy's STRC briefly fell to a record low of $71.40 on Friday, leaving the preferred shares about 25% below par.",
-      "published_at": "2026-06-26T21:21:56+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Стратегия теряет свой биткойн-премиум, так как мNAV для предприятий опускается ниже 1.",
-      "summary_ru": "Акции Strategy (STRC) на короткое время упали до рекордного минимума в $71.40 в пятницу, что оставило привилегированные акции примерно на 25% ниже номинала.",
-      "duplicates": [
-        {
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/06/27/strategy-s-valuation-has-fallen-below-the-value-of-its-bitcoin-holdings",
-          "title_en": "Strategy's valuation has fallen below the value of its bitcoin holdings",
-          "title_ru": "Оценка Strategy упала ниже стоимости его биткойн-активов.",
-          "published_at": "2026-06-27T12:08:14+00:00"
-        },
-        {
-          "source": "The Defiant",
-          "url": "https://thedefiant.io/news/markets/strategy-enterprise-mnav-drops-below-1-first-time",
-          "title_en": "Strategy's Enterprise mNAV Drops Below 1 for the First Time",
-          "title_ru": "mNAV компании Strategy впервые упал ниже 1.",
-          "published_at": "2026-06-27T14:57:36+00:00"
-        }
-      ]
-    },
-    {
-      "id": "ef10a2fdcbae1ed7",
-      "source": "Simon Willison",
-      "category": "ai",
-      "url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
-      "title_en": "Quoting Timothy B. Lee",
-      "summary_en": "This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do. &mdash; Timothy B. Lee , on the idea that LLMs take no skill and have no learning curve Tags: llms , ai , generative-ai",
-      "published_at": "2026-06-26T21:15:09+00:00",
-      "topic": "Models",
-      "title_ru": "Цитируя Тимоти Б. Ли",
-      "summary_ru": "Это всё равно что сказать, что у управления нет кривой обучения, потому что ваши сотрудники просто будут делать всё, что вы им скажете. — Тимоти Б. Ли о мнении, что LLM не требуют навыков и не имеют кривой обучения. Теги: llms, ai, generative-ai"
-    },
-    {
-      "id": "ed086cb87df6752f",
-      "source": "CryptoSlate",
-      "category": "crypto",
-      "url": "https://cryptoslate.com/metaplanet-bets-bitcoin-treasury-firms-can-survive-by-packaging-bitcoin-income/",
-      "title_en": "Metaplanet bets Bitcoin treasury firms can survive by packaging Bitcoin income",
-      "summary_en": "Regulated securities rails could give BTC treasury firms a new engine, if product demand and mNAV math hold up. The post Metaplanet bets Bitcoin treasury firms can survive by packaging Bitcoin income appeared first on CryptoSlate .",
-      "published_at": "2026-06-26T21:00:35+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Metaplanet делает ставку на то, что компании с казной в Bitcoin могут выжить, упаковывая доходы от Bitcoin.",
-      "summary_ru": "Регулируемые секьюритизационные платформы могут предоставить компаниям с биткойн-казначействами новый двигатель, если спрос на продукты и расчеты mNAV останутся стабильными. Metaplanet делает ставку на то, что компании с биткойн-казначействами могут выжить, упаковывая доходы от биткойна."
-    },
-    {
-      "id": "c4dbca23b96fd3dc",
-      "source": "CoinSpot",
-      "category": "crypto",
-      "url": "https://coinspot.io/trading/exchange/binance-ne-smozhet-rabotat-es/",
-      "title_en": "Binance не сможет работать в ЕС из-за отсутствия лицензии",
-      "summary_en": "Binance не сможет работать в ЕС со следующей недели: криптобиржа предупредила клиентов в Европейском союзе, что временно прекращает обслуживание, так как не успевает получить лицензию по правилам MICA к установленному сроку. Что изменится с 1 июля С 1 июля все компании, работающие с криптоактивами в Европейском союзе, должны иметь разрешение в рамках регулирования рынков криптоактивов. [&#8230;]",
-      "published_at": "2026-06-26T20:29:52+00:00",
-      "topic": "Regulations",
-      "title_ru": "Binance не сможет работать в ЕС из-за отсутствия лицензии",
-      "summary_ru": "Binance не сможет работать в ЕС со следующей недели: криптобиржа предупредила клиентов в Европейском союзе, что временно прекращает обслуживание, так как не успевает получить лицензию по правилам MICA к установленному сроку. Что изменится с 1 июля С 1 июля все компании, работающие с криптоактивами в Европейском союзе, должны иметь разрешение в рамках регулирования рынков криптоактивов. [&#8230;]"
-    },
-    {
-      "id": "d26d34e9d6d176b4",
-      "source": "CryptoPotato",
-      "category": "crypto",
-      "url": "https://cryptopotato.com/link-whales-move-millions-to-binance-before-key-banking-news/",
-      "title_en": "LINK Whales Move Millions to Binance Before Key Banking News",
-      "summary_en": "Large LINK holders moved millions of tokens to Binance before Project Pangea.",
-      "published_at": "2026-06-26T20:20:49+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Киты перемещают миллионы на Binance перед важными новостями из банковского сектора.",
-      "summary_ru": "Крупные держатели LINK переместили миллионы токенов на Binance перед запуском проекта Pangea.",
-      "duplicates": [
-        {
-          "source": "NewsBTC",
-          "url": "https://www.newsbtc.com/news/chainlink-whales-shift-millions-in-link-to-binance-prior-to-tradfi-pangea/",
-          "title_en": "Chainlink Whales Shift Millions in LINK to Binance Prior to TradFi Pangea Disclosure",
-          "title_ru": "Киты Chainlink перемещают миллионы LINK на Binance перед раскрытием информации о TradFi Pangea.",
-          "published_at": "2026-06-27T13:45:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "1aca62e2f8fadd6a",
-      "source": "vc.ru AI",
-      "category": "ai",
-      "url": "https://vc.ru/ai/2997899-anthropic-feykovye-akkaunty-alibaba-dlya-izvlecheniya-dannykh-iz-claude?from=rss",
-      "title_en": "Anthropic заявила, что связанные с Alibaba операторы использовали 25 тысяч фейковых аккаунтов для извлечения данных из Claude",
-      "summary_en": "Anthropic заявила о масштабной попытке извлечь внутренние возможности ее модели Claude: по данным компании, операторы, связанные с Alibaba, использовали почти 25 тысяч фейковых аккаунтов и отправили более 28 миллионов запросов, чтобы воспроизвести ключевые способности системы. В компании называют это одной из крупнейших известных операций по так называемой «дистилляции» ИИ-моделей.",
-      "published_at": "2026-06-26T20:06:09+00:00",
-      "topic": "Models",
-      "title_ru": "Anthropic заявила, что связанные с Alibaba операторы использовали 25 тысяч фейковых аккаунтов для извлечения данных из Claude",
-      "summary_ru": "Anthropic заявила о масштабной попытке извлечь внутренние возможности ее модели Claude: по данным компании, операторы, связанные с Alibaba, использовали почти 25 тысяч фейковых аккаунтов и отправили более 28 миллионов запросов, чтобы воспроизвести ключевые способности системы. В компании называют это одной из крупнейших известных операций по так называемой «дистилляции» ИИ-моделей."
-    },
-    {
-      "id": "dbb1519b5a71b986",
-      "source": "Ars Technica AI",
-      "category": "ai",
-      "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged/",
-      "title_en": "NYT slams Microsoft for building copyright-infringing supercomputer for OpenAI",
-      "summary_en": "NYT shifts OpenAI/Microsoft copyright claims after SCOTUS ruling against Sony.",
-      "published_at": "2026-06-26T20:04:55+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "NYT критикует Microsoft за создание суперкомпьютера, нарушающего авторские права, для OpenAI.",
-      "summary_ru": "NYT изменяет претензии по авторским правам OpenAI/Microsoft после решения Верховного суда против Sony."
-    },
-    {
-      "id": "ea1e0cdea2f5c47a",
-      "source": "The Defiant",
-      "category": "crypto",
-      "url": "https://thedefiant.io/news/blockchains/base-second-chain-halt-24-hours-b20-activation-window",
-      "title_en": "Base Suffers Second Chain Halt in 24 Hours, Complicating B20 Activation Window",
-      "summary_en": "Base stalled block production for a second time in less than 24 hours on Friday morning, describing the incident as showing 'similar symptoms' to Thursday's roughly two-hour outage, with the event arriving less than three hours before the B20 Activation Registry was anticipated to go live.",
-      "published_at": "2026-06-26T19:59:08+00:00",
-      "topic": "Ethereum",
-      "title_ru": "Base столкнулась со вторым остановом цепочки за 24 часа, что усложняет окно активации B20.",
-      "summary_ru": "Base приостановил производство блоков во второй раз менее чем за 24 часа в пятницу утром, описав инцидент как проявляющий \"аналогичные симптомы\" к двухчасовому отключению в четверг, при этом событие произошло менее чем за три часа до ожидаемого запуска B20 Activation Registry.",
-      "duplicates": [
-        {
-          "source": "BeInCrypto EN",
-          "url": "https://beincrypto.com/base-b20-launch-chain-stall/",
-          "title_en": "Base Delays Important Upgrade After Back-to-Back Network Outages",
-          "title_ru": "Base отложила важное обновление после череды сетевых сбоев.",
-          "published_at": "2026-06-26T20:18:37+00:00"
-        }
-      ]
-    },
-    {
-      "id": "956e31a86648e63e",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/altcoins-near-all-time-high-last-weekend-june-2026/",
-      "title_en": "3 Altcoins That Could Hit New All-Time Highs This Weekend",
-      "summary_en": "Three altcoins approach all-time highs this weekend as two enter price discovery and one defends key support. The post 3 Altcoins That Could Hit New All-Time Highs This Weekend appeared first on BeInCrypto .",
-      "published_at": "2026-06-26T19:38:33+00:00",
-      "topic": "Altcoins",
-      "title_ru": "3 альткоина, которые могут достичь новых исторических максимумов в эти выходные",
-      "summary_ru": "Три альткоина приближаются к историческим максимумам в эти выходные, два из них входят в стадию ценового открытия, а один защищает ключевую поддержку."
-    },
-    {
-      "id": "3954245df8245dbf",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "url": "https://www.coindesk.com/policy/2026/06/26/u-s-house-democrat-who-may-soon-run-key-committee-condemns-crypto-in-401-k-s",
-      "title_en": "U.S. House Democrat, who may soon run key committee, condemns crypto in 401(k)s",
-      "summary_en": "",
-      "published_at": "2026-06-26T19:38:12+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Демократ из Палаты представителей США, который может вскоре возглавить ключевой комитет, осуждает криптовалюту в 401(k).",
-      "summary_ru": ""
-    },
-    {
-      "id": "9969b9592746eee5",
-      "source": "CryptoPotato",
-      "category": "crypto",
-      "url": "https://cryptopotato.com/key-dogecoin-indicator-flashes-a-buy-signal-after-doge-sank-to-a-3-year-low/",
-      "title_en": "Key Dogecoin Indicator Flashes a Buy Signal After DOGE Sank to a 3-Year Low",
-      "summary_en": "Martinez warned that bulls need to hold the $0.073 level, or the setup becomes invalid.",
-      "published_at": "2026-06-26T19:13:51+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Ключевой индикатор Dogecoin подает сигнал на покупку после того, как DOGE упал до трехлетнего минимума.",
-      "summary_ru": "Мартинес предупредил, что быкам необходимо удержать уровень $0.073, иначе настройка станет недействительной.",
-      "duplicates": [
-        {
-          "source": "NewsBTC",
-          "url": "https://www.newsbtc.com/news/dogecoin-flashes-key-technical-buy-signal-after-plunging-to-3-year-lows/",
-          "title_en": "Dogecoin Flashes Key Technical Buy Signal After Plunging to 3-Year Lows",
-          "title_ru": "Dogecoin подал ключевой технический сигнал на покупку после падения до трехлетних минимумов.",
-          "published_at": "2026-06-27T14:30:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "62e151e413085ef4",
-      "source": "NVIDIA Dev Blog",
-      "category": "ai",
-      "url": "https://developer.nvidia.com/blog/deploy-a-production-ready-nvidia-ai-q-blueprint-on-oracle-cloud-infrastructure/",
-      "title_en": "Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure",
-      "summary_en": "AI agents have changed a lot in the last two years. The first could only answer one question at a time. Then came multi-turn chat, where the model could keep...",
-      "published_at": "2026-06-26T19:00:45+00:00",
-      "topic": "Hardware",
-      "title_ru": "Разверните готовый к производству NVIDIA AI-Q Blueprint на Oracle Cloud Infrastructure.",
-      "summary_ru": "AI-агенты значительно изменились за последние два года. Первые могли отвечать только на один вопрос за раз. Затем появились многоходовые чаты, где модель могла поддерживать..."
-    },
-    {
-      "id": "44aec2ea7f75e4ae",
-      "source": "CryptoSlate",
-      "category": "crypto",
-      "url": "https://cryptoslate.com/hyperliquids-mas-alert-exposes-defis-next-regulatory-weak-spot/",
-      "title_en": "Singapore puts Hyperliquid on warning list over protections it says it never claimed",
-      "summary_en": "The warning list does not stop the network, but it shifts pressure to the front end users actually see. The post Singapore puts Hyperliquid on warning list over protections it says it never claimed appeared first on CryptoSlate .",
-      "published_at": "2026-06-26T19:00:12+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Сингапур внес Hyperliquid в список предупреждений из-за заявленных мер защиты, которые, по его словам, компания никогда не утверждала.",
-      "summary_ru": "Список предупреждений не останавливает сеть, но смещает давление на пользователей фронтенда, которые это действительно видят. Пост \"Сингапур внес Hyperliquid в список предупреждений из-за защит, которые, по его словам, компания никогда не заявляла\" появился первым на CryptoSlate."
-    },
-    {
-      "id": "d555fe5df97753cb",
-      "source": "CoinSpot",
-      "category": "crypto",
-      "url": "https://coinspot.io/cryptocurrencies/altcoins/prognoz-kriptovalyut-foreks%d5%a1/",
-      "title_en": "Прогноз криптовалют и Форекс на 29 июня — 3 июля 2026 года",
-      "summary_en": "Прогноз криптовалют и Форекс на неделю с 29 июня по 3 июля 2026 года охватывает ключевые валютные пары, индекс доллара, рубль, основные криптоактивы, металлы, энергоресурсы и фондовые индексы. В центре внимания на этой неделе: Доллар США Евро Фунт стерлингов Иена Bitcoin Ethereum Ripple Золото Нефть Brent Динамика российского рынка Ключевые ориентиры недели Валютный рынок подходит [&#8230;]",
-      "published_at": "2026-06-26T18:54:45+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Прогноз криптовалют и Форекс на 29 июня — 3 июля 2026 года",
-      "summary_ru": "Прогноз криптовалют и Форекс на неделю с 29 июня по 3 июля 2026 года охватывает ключевые валютные пары, индекс доллара, рубль, основные криптоактивы, металлы, энергоресурсы и фондовые индексы. В центре внимания на этой неделе: Доллар США Евро Фунт стерлингов Иена Bitcoin Ethereum Ripple Золото Нефть Brent Динамика российского рынка Ключевые ориентиры недели Валютный рынок подходит [&#8230;]"
-    },
-    {
-      "id": "a3fb6f1fa25b6d8b",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "url": "https://www.coindesk.com/markets/2026/06/26/former-ethereum-foundation-leader-warns-of-funding-gap-as-governance-shifts",
-      "title_en": "Former Ethereum Foundation leader warns of funding gap as governance shifts",
-      "summary_en": "",
-      "published_at": "2026-06-26T18:37:50+00:00",
-      "topic": "Ethereum",
-      "title_ru": "Бывший лидер Ethereum Foundation предупреждает о дефиците финансирования на фоне изменений в управлении.",
-      "summary_ru": ""
-    },
-    {
-      "id": "2cd2c89817a3908f",
-      "source": "Google Research",
-      "category": "ai",
-      "url": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
-      "title_en": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
-      "summary_en": "Machine Intelligence",
-      "published_at": "2026-06-26T18:30:00+00:00",
-      "topic": "Models",
-      "title_ru": "Ускорение моделей Gemini Nano на Pixel с замороженным Multi-Token Prediction",
-      "summary_ru": "Машинный интеллект"
-    },
-    {
-      "id": "36dd21589c8e7f9c",
-      "source": "BeInCrypto RU",
-      "category": "crypto",
-      "url": "https://ru.beincrypto.com/delisting-tokenov-binance-obval-istoricheskie-minimumy/",
-      "title_en": "Сразу 4 токена обрушились в цене после анонса делистинга с Binance",
-      "summary_en": "Binance удалит из листинга ALCX, ARDR, NFP и POND 10 июля, что отправило три из четырех токенов к новым историческим минимумам. The post Сразу 4 токена обрушились в цене после анонса делистинга с Binance appeared first on BeInCrypto .",
-      "published_at": "2026-06-26T18:20:00+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Сразу 4 токена обрушились в цене после анонса делистинга с Binance",
-      "summary_ru": "Binance удалит из листинга ALCX, ARDR, NFP и POND 10 июля, что отправило три из четырех токенов к новым историческим минимумам. The post Сразу 4 токена обрушились в цене после анонса делистинга с Binance appeared first on BeInCrypto ."
-    },
-    {
-      "id": "b864dbf783cf0462",
-      "source": "Decrypt",
-      "category": "crypto",
-      "url": "https://decrypt.co/372230/spanish-regulator-no-extensions-eu-crypto-deadline-binance",
-      "title_en": "Spanish Regulator Says No Extensions for EU Crypto Deadline as Binance Remains Unlicensed",
-      "summary_en": "Crypto firms operating in the European Union will be forced to cease operations if they do not obtain a MiCA license by July 1.",
-      "published_at": "2026-06-26T18:02:22+00:00",
-      "topic": "Regulations",
-      "title_ru": "Испанский регулятор заявил, что не будет продлений для срока выполнения требований ЕС по криптовалютам, так как Binance остается незарегистрированной.",
-      "summary_ru": "Крипто-компании, работающие в Европейском Союзе, будут вынуждены прекратить свою деятельность, если не получат лицензию MiCA до 1 июля.",
-      "duplicates": [
-        {
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "title_en": "Spain regulator rules out extension for non-MiCA compliant crypto companies",
-          "title_ru": "Регулятор Испании исключил возможность продления сроков для криптокомпаний, не соответствующих требованиям MiCA.",
-          "published_at": "2026-06-26T19:20:33+00:00"
-        }
-      ]
-    },
-    {
-      "id": "7a50da035a136f2a",
-      "source": "Decrypt",
-      "category": "crypto",
-      "url": "https://decrypt.co/372221/ai-agent-openclaw-6000-hack-attempts",
-      "title_en": "This AI Agent Survived 6,000 Hack Attempts—Here’s How",
-      "summary_en": "Fernando Irarrázaval posted his OpenClaw assistant's inbox to Hacker News and watched Claude Opus 4.6 hold off thousands of attackers.",
-      "published_at": "2026-06-26T18:01:47+00:00",
-      "topic": "Hacks",
-      "title_ru": "Этот AI-агент выстоял 6000 попыток взлома — вот как.",
-      "summary_ru": "Фернандо Ирарразавал опубликовал почтовый ящик своего помощника OpenClaw на Hacker News и наблюдал, как Claude Opus 4.6 сдерживает тысячи атакующих.",
-      "duplicates": [
-        {
-          "source": "Simon Willison",
-          "url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
-          "title_en": "What happened after 2,000 people tried to hack my AI assistant",
-          "title_ru": "После того как 2000 человек попытались взломать моего AI-ассистента, система столкнулась с множеством атак, направленных на выявление уязвимостей. Разработчики усилили меры безопасности, внедрив новые алгоритмы защиты и обновив программное обеспечение. Также была проведена работа по анализу поведения пользователей, чтобы выявить потенциальные угрозы и предотвратить подобные инциденты в будущем. В результате, AI-ассистент стал более устойчивым к атакам и улучшил свои функции безопасности.",
-          "published_at": "2026-06-26T18:33:14+00:00"
-        }
-      ]
-    },
-    {
-      "id": "61a73fa670fd3e59",
-      "source": "Simon Willison",
-      "category": "ai",
-      "url": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
-      "title_en": "Incident Report: CVE-2026-LGTM",
-      "summary_en": "Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing \"a 430% YoY increase in adversarial multi-agent security reasoning.\" The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt",
-      "published_at": "2026-06-26T17:58:54+00:00",
-      "topic": "Models",
-      "title_ru": "Отчет о инциденте: CVE-2026-LGTM",
-      "summary_ru": "Отчет о инциденте: CVE-2026-LGTM Гипотетический отчет об инциденте от Эндрю Несбитта. День 2, 16:00 UTC --- Два агента AI-обзора от конкурирующих поставщиков, оба прикрепленные к запросу на изменение, повышающему foxhole-lz4, вступают в цикл разногласий относительно того, является ли пакет вредоносным. После 340 комментариев и расходов на вывод в размере $41,255, финансовый отдел аннулирует оба API-ключа; команда маркетинга одного из поставщиков, получившая уведомление о аномалии расходов, выпускает пресс-релиз, в котором указывается \"430% рост год к году в области противодействия многопользовательской безопасности\". Акции открываются с ростом на 6%. Теги: безопасность, ai, инъекция-подсказки, генеративный-ai, llms, цепочка-поставок, исследование-безопасности-ai, andrew-nesbitt"
-    },
-    {
-      "id": "62e909f4aaa518b0",
-      "source": "Bitcoin Magazine",
-      "category": "crypto",
-      "url": "https://bitcoinmagazine.com/news/billionaire-jeremy-grantham-bitcoin",
-      "title_en": "Billionaire Investor Jeremy Grantham: Bitcoin Will ‘Dwindle Away With a Whimper’",
-      "summary_en": "Bitcoin Magazine Billionaire Investor Jeremy Grantham: Bitcoin Will &#8216;Dwindle Away With a Whimper&#8217; Jeremy Grantham doubled down on his long-standing Bitcoin skepticism, predicting the cryptocurrency will \"dwindle away with a whimper.\" This post Billionaire Investor Jeremy Grantham: Bitcoin Will &#8216;Dwindle Away With a Whimper&#8217; first appeared on Bitcoin Magazine and is written by Micah Zimmerman .",
-      "published_at": "2026-06-26T17:57:49+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Миллиардер-инвестор Джереми Грантэм: Биткойн «угаснет без шума»",
-      "summary_ru": "Биллионер-инвестор Джереми Грантэм: Биткойн «постепенно исчезнет с тихим вздохом» Джереми Грантэм вновь подтвердил свои давние сомнения в отношении Биткойна, предсказав, что криптовалюта «постепенно исчезнет с тихим вздохом».",
-      "duplicates": [
-        {
-          "source": "Decrypt",
-          "url": "https://decrypt.co/372205/billionaire-jeremy-grantham-dismisses-bitcoin-crypto",
-          "title_en": "Billionaire Jeremy Grantham Dismisses Bitcoin, Says Crypto Will Fade 'With a Whimper'",
-          "title_ru": "Миллиардер Джереми Грантэм отверг биткойн, заявив, что криптовалюта исчезнет \"с тихим шипением\".",
-          "published_at": "2026-06-27T14:34:32+00:00"
-        }
-      ]
-    },
-    {
-      "id": "776ce5f48fe52258",
-      "source": "vc.ru AI",
-      "category": "ai",
-      "url": "https://vc.ru/ai/2997775-pochemu-marketingam-ne-nuzhno-uchitsya-programmirovaniyu?from=rss",
-      "title_en": "Маркетологи массово пошли учиться программированию. И, кажется, не туда свернули",
-      "summary_en": "Последние месяцы я всё чаще вижу одну и ту же картину.",
-      "published_at": "2026-06-26T17:57:41+00:00",
-      "topic": "Research",
-      "title_ru": "Маркетологи массово пошли учиться программированию. И, кажется, не туда свернули",
-      "summary_ru": "Последние месяцы я всё чаще вижу одну и ту же картину."
-    },
-    {
-      "id": "4b7d91f7f90cfcd3",
-      "source": "The Block",
-      "category": "crypto",
-      "url": "https://www.theblock.co/post/406409/base-suffers-second-mainnet-stall-in-two-days?utm_source=rss&utm_medium=rss",
-      "title_en": "Base suffers second mainnet stall in two days",
-      "summary_en": "Base block production resumed as of 16:11 UTC, following an alert to another mainnet chain stall at 15:33 UTC.",
-      "published_at": "2026-06-26T17:50:02+00:00",
-      "topic": "Ethereum",
-      "title_ru": "Base столкнулся со вторым зависанием основной сети за два дня.",
-      "summary_ru": "Производство базовых блоков возобновлено с 16:11 UTC после предупреждения о задержке на другом основном блокчейне в 15:33 UTC."
-    },
-    {
-      "id": "167ca1a56ae96167",
-      "source": "BeInCrypto RU",
-      "category": "crypto",
-      "url": "https://ru.beincrypto.com/strategy-rassledovanie-cennye-bumagi-seylor/",
-      "title_en": "Сейлор подтвердил ставку на биткоин на фоне расследования вокруг Strategy",
-      "summary_en": "Сейлор вновь подтверждает фокус Strategy на биткоине в X, пока юридическая фирма Rosen Law расследует MSTR и привилегированные ценные бумаги по фактам вводящих в заблуждение заявлений для инвесторов. The post Сейлор подтвердил ставку на биткоин на фоне расследования вокруг Strategy appeared first on BeInCrypto .",
-      "published_at": "2026-06-26T17:50:00+00:00",
-      "topic": "Macro",
-      "title_ru": "Сейлор подтвердил ставку на биткоин на фоне расследования вокруг Strategy",
-      "summary_ru": "Сейлор вновь подтверждает фокус Strategy на биткоине в X, пока юридическая фирма Rosen Law расследует MSTR и привилегированные ценные бумаги по фактам вводящих в заблуждение заявлений для инвесторов. The post Сейлор подтвердил ставку на биткоин на фоне расследования вокруг Strategy appeared first on BeInCrypto ."
-    },
-    {
-      "id": "f5231e43a925d8ca",
-      "source": "CryptoPotato",
-      "category": "crypto",
-      "url": "https://cryptopotato.com/ada-faces-heavy-pressure-but-cardanos-on-chain-data-tells-another-story/",
-      "title_en": "ADA Faces Heavy Pressure, But Cardano’s On-Chain Data Tells Another Story",
-      "summary_en": "Cardano became one of crypto's most discussed assets, accounting for 0.33% of all crypto-related online discussions recently.",
-      "published_at": "2026-06-26T17:47:21+00:00",
-      "topic": "Altcoins",
-      "title_ru": "ADA сталкивается с сильным давлением, но данные по сети Cardano говорят об обратном.",
-      "summary_ru": "Cardano стал одним из самых обсуждаемых активов в криптовалюте, составив 0,33% от всех онлайн-дискуссий, связанных с криптовалютами, в последнее время."
-    },
-    {
-      "id": "ffd1c4fcde4cb0e0",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "url": "https://cointelegraph.com/news/sec-cftc-portfolio-margin-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title_en": "SEC, CFTC seek input on unified portfolio margin rules across securities and derivatives",
-      "summary_en": "The regulatory agencies are seeking public feedback on cross-margining, collateral and risk management as cryptocurrency derivatives and multi-asset trading continue to expand.",
-      "published_at": "2026-06-26T17:43:33+00:00",
-      "topic": "Regulations",
-      "title_ru": "SEC и CFTC ищут мнения по унифицированным правилам маржи для портфелей, охватывающим ценные бумаги и деривативы.",
-      "summary_ru": "Регуляторные органы ищут общественное мнение по вопросам кросс-маржинга, обеспечения и управления рисками, поскольку производные инструменты на криптовалюту и многосетевые торги продолжают расширяться."
-    },
-    {
-      "id": "3d6448258e8a664e",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
-      "title_en": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
-      "summary_en": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal&#160;is&#160;less&#160;of&#160;a [&#8230;]",
-      "published_at": "2026-06-26T17:43:22+00:00",
-      "topic": "Hardware",
-      "title_ru": "Почему все, от OpenAI до SpaceX, разрабатывают собственные чипы (и создают конкуренцию Nvidia)",
-      "summary_ru": "Nvidia на протяжении многих лет доминировала на рынке AI-чипов, но эпоха полной зависимости может подходить к концу. OpenAI только что поделилась своими планами по созданию Jalapeño, своего кастомного чипа для инференса, разработанного с Broadcom, присоединившись к Google, Apple и SpaceX в растущем списке компаний, стремящихся уменьшить риск зависимости от единственного поставщика. Цель состоит в том, чтобы меньше [...]"
-    },
-    {
-      "id": "afa8ebed7a5218cb",
-      "source": "BeInCrypto RU",
-      "category": "crypto",
-      "url": "https://ru.beincrypto.com/surfcash-kriptokredity-istoriya-koshelka-bez-zaloga/",
-      "title_en": "Криптопортфель невидим для банков: кредит по истории кошелька",
-      "summary_en": "&#1040;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1082; &#1057;&#1090;&#1077;&#1081;&#1089;&#1080; &#1052;&#1091;&#1091;&#1088; &#1080;&#1079;&#1091;&#1095;&#1080;&#1083;&#1072; &#1089;&#1077;&#1088;&#1074;&#1080;&#1089; SurfCash, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1081; &#1074;&#1099;&#1076;&#1072;&#1077;&#1090; &#1082;&#1088;&#1077;&#1076;&#1080;&#1090;&#1099; &#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1103;&#1084; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1074;&#1072;&#1083;&#1102;&#1090; &#1085;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1077; &#1086;&#1085;&#1095;&#1077;&#1081;&#1085;-&#1080;&#1089;&#1090;&#1086;&#1088;&#1080;&#1080;. &#1055;&#1086; &#1077;&#1077; &#1089;&#1083;&#1086;&#1074;&#1072;&#1084;, &#1090;&#1072;&#1082;&#1072;&#1103; &#1082;&#1088;&#1077;&#1076;&#1080;&#1090;&#1085;&#1072;&#1103; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1072; &#1090;&#1088;&#1072;&#1076;&#1080;&#1094;&#1080;&#1086;&#1085;&#1085;&#1086; &#1087;&#1086;&#1089;&#1090;&#1088;&#1086;&#1077;&#1085;&#1072; &#1085;&#1072; &#1079;&#1072;&#1088;&#1087;&#1083;&#1072;&#1090;&#1085;&#1099;&#1093; &#1089;&#1087;&#1088;&#1072;&#1074;&#1082;&#1072;&#1093;, &#1073;&#1072;&#1085;&#1082;&#1086;&#1074;&#1089;&#1082;&#1080;&#1093; &#1074;&#1099;&#1087;&#1080;&#1089;&#1082;&#1072;&#1093; &#1080; &#1089;&#1082;&#1086;&#1088;&#1080;&#1085;&#1075;&#1077; &#1073;&#1102;&#1088;&#1086;, &#1085;&#1086; &#1101;&#1090;&#1086; &#1085;&#1077; &#1088;&#1072;&#1073;&#1086;&#1090;&#1072;&#1077;&#1090; &#1076;&#1083;&#1103; &#1090;&#1077;&#1093;, &#1082;&#1090;&#1086; &#1076;&#1077;&#1088;&#1078;&#1080;&#1090; &#1076;&#1077;&#1085;&#1100;&#1075;&#1080; &#1074;&#1085;&#1077; &#1073;&#1072;&#1085;&#1082;&#1086;&#1074;. &#1052;&#1091;&#1091;&#1088; &#1087;&#1088;&#1080;&#1074;&#1077;&#1083;&#1072; &#1087;&#1088;&#1080;&#1084;&#1077;&#1088;&#1099; &#1090;&#1072;&#1082;&#1080;&#1093; &#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1077;&#1081;. &#1055;&#1086; &#1077;&#1077; &#1089;&#1083;&#1086;&#1074;&#1072;&#1084;, &#1092;&#1088;&#1080;&#1083;&#1072;&#1085;&#1089;&#1077;&#1088;&#1099; &#1074; &#1040;&#1088;&#1075;&#1077;&#1085;&#1090;&#1080;&#1085;&#1077; &#1076;&#1077;&#1088;&#1078;&#1072;&#1090; USDC &#1080;&#1079;-&#1079;&#1072; The post Криптопортфель невидим для банков: кредит по истории кошелька appeared first on BeInCrypto .",
-      "published_at": "2026-06-26T17:20:00+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Криптопортфель невидим для банков: кредит по истории кошелька",
-      "summary_ru": "&#1040;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1082; &#1057;&#1090;&#1077;&#1081;&#1089;&#1080; &#1052;&#1091;&#1091;&#1088; &#1080;&#1079;&#1091;&#1095;&#1080;&#1083;&#1072; &#1089;&#1077;&#1088;&#1074;&#1080;&#1089; SurfCash, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1081; &#1074;&#1099;&#1076;&#1072;&#1077;&#1090; &#1082;&#1088;&#1077;&#1076;&#1080;&#1090;&#1099; &#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1103;&#1084; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1074;&#1072;&#1083;&#1102;&#1090; &#1085;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1077; &#1086;&#1085;&#1095;&#1077;&#1081;&#1085;-&#1080;&#1089;&#1090;&#1086;&#1088;&#1080;&#1080;. &#1055;&#1086; &#1077;&#1077; &#1089;&#1083;&#1086;&#1074;&#1072;&#1084;, &#1090;&#1072;&#1082;&#1072;&#1103; &#1082;&#1088;&#1077;&#1076;&#1080;&#1090;&#1085;&#1072;&#1103; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1072; &#1090;&#1088;&#1072;&#1076;&#1080;&#1094;&#1080;&#1086;&#1085;&#1085;&#1086; &#1087;&#1086;&#1089;&#1090;&#1088;&#1086;&#1077;&#1085;&#1072; &#1085;&#1072; &#1079;&#1072;&#1088;&#1087;&#1083;&#1072;&#1090;&#1085;&#1099;&#1093; &#1089;&#1087;&#1088;&#1072;&#1074;&#1082;&#1072;&#1093;, &#1073;&#1072;&#1085;&#1082;&#1086;&#1074;&#1089;&#1082;&#1080;&#1093; &#1074;&#1099;&#1087;&#1080;&#1089;&#1082;&#1072;&#1093; &#1080; &#1089;&#1082;&#1086;&#1088;&#1080;&#1085;&#1075;&#1077; &#1073;&#1102;&#1088;&#1086;, &#1085;&#1086; &#1101;&#1090;&#1086; &#1085;&#1077; &#1088;&#1072;&#1073;&#1086;&#1090;&#1072;&#1077;&#1090; &#1076;&#1083;&#1103; &#1090;&#1077;&#1093;, &#1082;&#1090;&#1086; &#1076;&#1077;&#1088;&#1078;&#1080;&#1090; &#1076;&#1077;&#1085;&#1100;&#1075;&#1080; &#1074;&#1085;&#1077; &#1073;&#1072;&#1085;&#1082;&#1086;&#1074;. &#1052;&#1091;&#1091;&#1088; &#1087;&#1088;&#1080;&#1074;&#1077;&#1083;&#1072; &#1087;&#1088;&#1080;&#1084;&#1077;&#1088;&#1099; &#1090;&#1072;&#1082;&#1080;&#1093; &#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1077;&#1081;. &#1055;&#1086; &#1077;&#1077; &#1089;&#1083;&#1086;&#1074;&#1072;&#1084;, &#1092;&#1088;&#1080;&#1083;&#1072;&#1085;&#1089;&#1077;&#1088;&#1099; &#1074; &#1040;&#1088;&#1075;&#1077;&#1085;&#1090;&#1080;&#1085;&#1077; &#1076;&#1077;&#1088;&#1078;&#1072;&#1090; USDC &#1080;&#1079;-&#1079;&#1072; The post Криптопортфель невидим для банков: кредит по истории кошелька appeared first on BeInCrypto ."
-    },
-    {
-      "id": "232e7d7533c5373f",
-      "source": "Simon Willison",
-      "category": "ai",
-      "url": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
-      "title_en": "Quoting OpenAI",
-      "summary_en": "We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being 2x cheaper and Luna brings strong capability at our lowest cost. [...] We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks. As part of our ongoing engagement with the U.S. government, we previewed our plans and the models’ capabilities ahead of today’s launch. At their request, we are starting with a limited preview for a small group of trusted partners whose participation has been shared with the government, before releasing more broadly. [...] GPT‑5.6 is priced per 1M tokens across three model sizes: Sol is $5 input / $30 output; Terra is $2.50 input / $15 output; and Luna is $1 input / $6 output. GPT‑5.6 also introduces more predictable prompt caching, including support for explicit cache breakpoints and a 30-minute minimum cache life. For GPT‑5.6 and later models, cache writes are billed at 1.25x the model’s uncached input rate, while cache reads continue to receive the 90% cached-input discount. &mdash; OpenAI , Previewing GPT‑5.6 Sol: a next-generation model Tags: gpt , generative-ai , ai-security-research , openai , llms , llm-release , llm-pricing",
-      "published_at": "2026-06-26T17:10:43+00:00",
-      "topic": "Models",
-      "title_ru": "Цитируя OpenAI",
-      "summary_ru": "Мы начинаем ограниченный предварительный просмотр серии GPT‑5.6: Sol, наша флагманская модель; Terra, сбалансированная модель для повседневной работы; и Luna, быстрая и доступная модель. Terra демонстрирует конкурентоспособные результаты по сравнению с GPT‑5.5, при этом стоит в 2 раза дешевле, а Luna предлагает высокую производительность по самой низкой цене. [...] Мы верим в широкий доступ и планируем сделать GPT‑5.6 Sol, Terra и Luna общедоступными в ближайшие недели. В рамках нашего постоянного взаимодействия с правительством США мы представили наши планы и возможности моделей перед сегодняшним запуском. По их запросу мы начинаем с ограниченного предварительного просмотра для небольшой группы доверенных партнеров, участие которых было согласовано с правительством, прежде чем выпустить модели более широко. [...] Цены на GPT‑5.6 установлены за 1 миллион токенов для трех размеров моделей: Sol — $5 за ввод / $30 за вывод; Terra — $2.50 за ввод / $15 за вывод; и Luna — $1 за ввод / $6 за вывод. GPT‑5.6 также вводит более предсказуемое кэширование подсказок, включая поддержку явных контрольных точек кэша и минимальный срок жизни кэша в 30 минут. Для GPT‑5.6 и более поздних моделей записи в кэш тарифицируются по ставке 1.25x от некэшированной цены ввода модели, в то время как чтения из кэша продолжают получать 90% скидку на кэшированный ввод. — OpenAI, Предварительный просмотр GPT‑5.6 Sol: модель следующего поколения",
-      "duplicates": [
-        {
-          "source": "Forklog",
-          "url": "https://forklog.com/news/ai/openai-predstavila-semejstvo-modelej-gpt-5-6",
-          "title_en": "OpenAI представила семейство моделей GPT-5.6",
-          "title_ru": "OpenAI представила семейство моделей GPT-5.6",
-          "published_at": "2026-06-27T07:07:07+00:00"
-        }
-      ]
-    },
-    {
-      "id": "ca6ca21690feffec",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/articles/1052460/?utm_campaign=1052460&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Нейросайт глазами бизнеса: позиции, трафик, конверсия и скорость изменений. Часть 3 из 3",
-      "summary_en": "Это третья, финальная часть серии про&nbsp;сайты под&nbsp;управлением ИИ. В&nbsp;первой разбирали, что&nbsp;такое нейросайт и сколько он стоит; во&nbsp;второй&nbsp;— внутреннее устройство: MCP‑брокер, пайплайн деплоя, безопасность. Эта часть больше ориентирована на&nbsp;маркетинговые и бизнес‑задачи: не&nbsp;про&nbsp;то, как&nbsp;это работает, а&nbsp;про&nbsp;то, какие выгоды это даёт бизнесу: позиции, трафик, конверсию, и главное&nbsp;— скорость и стоимость изменений. Один абзац для&nbsp;тех, кто не&nbsp;читал предыдущие части: нейросеть в&nbsp;этой схеме&nbsp;— внешний инструмент для&nbsp;реализации изменений, она не&nbsp;работает в&nbsp;рантайме, не&nbsp;влияет напрямую на&nbsp;скорость загрузки и поведение пользователя. Читать далее",
-      "published_at": "2026-06-26T17:05:55+00:00",
-      "topic": "Research",
-      "title_ru": "Нейросайт глазами бизнеса: позиции, трафик, конверсия и скорость изменений. Часть 3 из 3",
-      "summary_ru": "Это третья, финальная часть серии про&nbsp;сайты под&nbsp;управлением ИИ. В&nbsp;первой разбирали, что&nbsp;такое нейросайт и сколько он стоит; во&nbsp;второй&nbsp;— внутреннее устройство: MCP‑брокер, пайплайн деплоя, безопасность. Эта часть больше ориентирована на&nbsp;маркетинговые и бизнес‑задачи: не&nbsp;про&nbsp;то, как&nbsp;это работает, а&nbsp;про&nbsp;то, какие выгоды это даёт бизнесу: позиции, трафик, конверсию, и главное&nbsp;— скорость и стоимость изменений. Один абзац для&nbsp;тех, кто не&nbsp;читал предыдущие части: нейросеть в&nbsp;этой схеме&nbsp;— внешний инструмент для&nbsp;реализации изменений, она не&nbsp;работает в&nbsp;рантайме, не&nbsp;влияет напрямую на&nbsp;скорость загрузки и поведение пользователя. Читать далее"
-    },
-    {
-      "id": "925f63228e2e0802",
-      "source": "Wired AI",
-      "category": "ai",
-      "url": "https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/",
-      "title_en": "OpenAI Has New AI Models. Here’s Why You Can’t Use Them",
-      "summary_en": "The White House asked OpenAI to delay the rollout of its GPT-5.6 AI models, two weeks after Anthropic had to take its most advanced AI models offline.",
-      "published_at": "2026-06-26T17:05:40+00:00",
-      "topic": "Models",
-      "title_ru": "OpenAI представила новые модели ИИ. Вот почему вы не можете их использовать.",
-      "summary_ru": "Белый дом попросил OpenAI отложить запуск своих моделей ИИ GPT-5.6, через две недели после того, как Anthropic пришлось отключить свои самые продвинутые модели ИИ.",
-      "duplicates": [
-        {
-          "source": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
-          "title_en": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
-          "title_ru": "OpenAI ограничивает развертывание GPT-5.6 после запроса правительства, заявляя, что такие ограничения не должны становиться нормой.",
-          "published_at": "2026-06-26T18:32:14+00:00"
-        }
-      ]
     }
   ],
-  "dedup_at": "2026-06-27T20:02:29.729802+03:00"
+  "dedup_at": "2026-06-28T08:02:33.881657+03:00"
 }
