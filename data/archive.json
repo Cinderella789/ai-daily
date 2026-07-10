@@ -1,6 +1,186 @@
 {
   "items": [
     {
+      "id": "abaa17dba95b351e",
+      "source": "Habr ML",
+      "category": "ai",
+      "url": "https://habr.com/ru/companies/yadro/articles/1056332/?utm_campaign=1056332&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Ускоряем обработку изображений в OpenCV на RISC-V: алгоритмическая, низкоуровневая и компиляторная оптимизация",
+      "summary_en": "Привет, Хабр! Меня зовут Роман Кузьмин, я занимаюсь развитием фреймворков искусственного интеллекта в YADRO. В этой статье я расскажу о работе по оптимизации алгоритма компьютерного зрения — детекторе углов, основанном на глобальных и локальных свойствах кривизны, который реализован с помощью библиотеки OpenCV под архитектуру RISC-V.&nbsp; С коллегами из НГТУ им. Р. Е. Алексеева мы добились лучшей эффективности алгоритма за счет подхода, включающего алгоритмические оптимизации и ручную векторизацию с использованием RVV. Я подробно опишу, что и где мы изменили, а в конце статьи оценю прогресс с помощью тестов на плате Lichee Pi 4a. Читать далее",
+      "published_at": "2026-07-10T08:43:51+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Ускоряем обработку изображений в OpenCV на RISC-V: алгоритмическая, низкоуровневая и компиляторная оптимизация",
+      "summary_ru": "Привет, Хабр! Меня зовут Роман Кузьмин, я занимаюсь развитием фреймворков искусственного интеллекта в YADRO. В этой статье я расскажу о работе по оптимизации алгоритма компьютерного зрения — детекторе углов, основанном на глобальных и локальных свойствах кривизны, который реализован с помощью библиотеки OpenCV под архитектуру RISC-V.&nbsp; С коллегами из НГТУ им. Р. Е. Алексеева мы добились лучшей эффективности алгоритма за счет подхода, включающего алгоритмические оптимизации и ручную векторизацию с использованием RVV. Я подробно опишу, что и где мы изменили, а в конце статьи оценю прогресс с помощью тестов на плате Lichee Pi 4a. Читать далее"
+    },
+    {
+      "id": "78ef2e94d261f740",
+      "source": "CoinSpot",
+      "category": "crypto",
+      "url": "https://coinspot.io/cryptocurrencies/altcoins/krupnejshij-defi-protokol-vypustil-hranilishha-dlya-finteh-startapov/",
+      "title_en": "Крупнейший DeFi-протокол выпустил хранилища для финтех-стартапов",
+      "summary_en": "Ведущая платформа децентрализованного кредитования дала рынку инструмент, который позволяет практически любому финансовому сервису подключить начисление процентов на цифровые доллары одной интеграцией, минуя многомесячную стройку собственной блокчейн-инфраструктуры. В чем заключается новинка Организация, разрабатывающая протокол Aave, представила Stable Vaults — своего рода контейнеры, куда финтех-компании могут направлять клиентские остатки в стейблкоинах, получая взамен процентный доход, притом что [&#8230;]",
+      "published_at": "2026-07-10T08:37:36+00:00",
+      "topic": "DeFi",
+      "title_ru": "Крупнейший DeFi-протокол выпустил хранилища для финтех-стартапов",
+      "summary_ru": "Ведущая платформа децентрализованного кредитования дала рынку инструмент, который позволяет практически любому финансовому сервису подключить начисление процентов на цифровые доллары одной интеграцией, минуя многомесячную стройку собственной блокчейн-инфраструктуры. В чем заключается новинка Организация, разрабатывающая протокол Aave, представила Stable Vaults — своего рода контейнеры, куда финтех-компании могут направлять клиентские остатки в стейблкоинах, получая взамен процентный доход, притом что [&#8230;]"
+    },
+    {
+      "id": "1297989eb0dee646",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/interpol-crypto-romance-scam-122m/",
+      "title_en": "Global INTERPOL Crackdown Exposes Crypto Laundering Behind Romance Scams",
+      "summary_en": "Thai police uncovered a crypto-laundering scheme in which one suspect&#8217;s wallet processed more than $122.5 million in proceeds from romance scams, as part of a global INTERPOL sweep.&#160; The international police organization&#8217;s Operation First Light 2026 ran from January 15 to April 30. It targeted social engineering scams and the money laundering that sustains them. The post Global INTERPOL Crackdown Exposes Crypto Laundering Behind Romance Scams appeared first on BeInCrypto .",
+      "published_at": "2026-07-10T08:22:21+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Глобальная операция INTERPOL выявила отмывание криптовалюты, связанное с романтическими мошенничествами.",
+      "summary_ru": "Тайская полиция раскрыла схему отмывания криптовалюты, в рамках которой кошелек одного из подозреваемых обработал более 122,5 миллиона долларов, полученных от мошенничеств в сфере знакомств, в ходе глобальной операции INTERPOL. Операция First Light 2026, проводимая международной полицейской организацией, проходила с 15 января по 30 апреля. Она была нацелена на мошенничества с социальной инженерией и отмывание денег, которые их поддерживают."
+    },
+    {
+      "id": "6a1f89343cc054e2",
+      "source": "InCrypted",
+      "category": "crypto",
+      "url": "https://incrypted.com/v-ethereum-nashly-novyj-sposob/",
+      "title_en": "В Ethereum нашли новый способ усилить безопасность сети с помощью ИИ",
+      "summary_en": "Организация Ethereum Foundation рассказала о результатах использования координированных ИИ-агентов для аудита критически важного кода экосистемы Ethereum. Команда безопасности Protocol Security заявила, что инструменты уже помогли выявить реальные уязвимости, однако главным вызовом оказался не их поиск, а проверка достоверности результатов.&#160; Одним из подтвержденных результатов стала уязвимость в компоненте libp2p gossipsub, который используется клиентами консенсусного уровня Ethereum [&#8230;] Сообщение В Ethereum нашли новый способ усилить безопасность сети с помощью ИИ появились сначала на INCRYPTED .",
+      "published_at": "2026-07-10T08:20:20+00:00",
+      "topic": "Regulations",
+      "title_ru": "В Ethereum нашли новый способ усилить безопасность сети с помощью ИИ",
+      "summary_ru": "Организация Ethereum Foundation рассказала о результатах использования координированных ИИ-агентов для аудита критически важного кода экосистемы Ethereum. Команда безопасности Protocol Security заявила, что инструменты уже помогли выявить реальные уязвимости, однако главным вызовом оказался не их поиск, а проверка достоверности результатов.&#160; Одним из подтвержденных результатов стала уязвимость в компоненте libp2p gossipsub, который используется клиентами консенсусного уровня Ethereum [&#8230;] Сообщение В Ethereum нашли новый способ усилить безопасность сети с помощью ИИ появились сначала на INCRYPTED ."
+    },
+    {
+      "id": "7a579748ec0391a1",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/jpmorgan-earnings-july-14-nii-bitcoin-etf/",
+      "title_en": "JPMorgan earnings on July 14 put net interest income and Bitcoin ETF bets in the spotlight",
+      "summary_en": "JPMorgan's crypto ventures signal a shift in traditional finance, potentially accelerating institutional adoption and blockchain integration. The post JPMorgan earnings on July 14 put net interest income and Bitcoin ETF bets in the spotlight appeared first on Crypto Briefing .",
+      "published_at": "2026-07-10T08:05:07+00:00",
+      "topic": "Macro",
+      "title_ru": "Прибыль JPMorgan 14 июля привлекла внимание к чистым процентным доходам и ставкам на Bitcoin ETF.",
+      "summary_ru": "Криптовалютные инициативы JPMorgan сигнализируют о сдвиге в традиционных финансах, что может ускорить институциональное принятие и интеграцию блокчейна. Публикация о доходах JPMorgan 14 июля акцентировала внимание на чистом процентном доходе и ставках на Bitcoin ETF."
+    },
+    {
+      "id": "21954899db53e765",
+      "source": "Forklog",
+      "category": "crypto",
+      "url": "https://forklog.com/v-britanii-predlozhili-navsegda-zapretit-kriptodonaty-politikam",
+      "title_en": "В Британии предложили навсегда запретить криптодонаты политикам",
+      "summary_en": "Депутаты правящей Лейбористской партии Великобритании рассматривают постоянный запрет на пожертвования в цифровых активах для политиков, пишет The Guardian. Инициатива связана со скандалом вокруг Найджела Фараджа, который, по данным СМИ, получил миллионы фунтов в виде «подарков» от представителей криптоиндустрии. В марте власти уже ввели мораторий на криптодонаты. Лейбористы хотят сделать его постоянным через поправки к законопроекту о выборах. Сам Фарадж заявил, что не нарушал правил, и ушел из парламента на фоне проверки.",
+      "published_at": "2026-07-10T08:00:00+00:00",
+      "topic": "Regulations",
+      "title_ru": "В Британии предложили навсегда запретить криптодонаты политикам",
+      "summary_ru": "Депутаты правящей Лейбористской партии Великобритании рассматривают постоянный запрет на пожертвования в цифровых активах для политиков, пишет The Guardian. Инициатива связана со скандалом вокруг Найджела Фараджа, который, по данным СМИ, получил миллионы фунтов в виде «подарков» от представителей криптоиндустрии. В марте власти уже ввели мораторий на криптодонаты. Лейбористы хотят сделать его постоянным через поправки к законопроекту о выборах. Сам Фарадж заявил, что не нарушал правил, и ушел из парламента на фоне проверки."
+    },
+    {
+      "id": "256953262a56c7ef",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/metaplanet-jpyc-progmat-bitcoin-credit-products/",
+      "title_en": "Metaplanet, JPYC and Progmat launch study on Bitcoin-backed credit products",
+      "summary_en": "The study could reshape Japan's financial landscape by integrating Bitcoin into mainstream credit markets, potentially influencing global crypto finance. The post Metaplanet, JPYC and Progmat launch study on Bitcoin-backed credit products appeared first on Crypto Briefing .",
+      "published_at": "2026-07-10T07:51:26+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Metaplanet, JPYC и Progmat запускают исследование кредитных продуктов, обеспеченных биткойном.",
+      "summary_ru": "Исследование может изменить финансовый ландшафт Японии, интегрируя Bitcoin в основные кредитные рынки, что потенциально повлияет на глобальные криптофинансы. Публикация Metaplanet, JPYC и Progmat о запуске исследования по кредитным продуктам, обеспеченным Bitcoin."
+    },
+    {
+      "id": "5640d629acb2bf4b",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/operation-veil-of-maya-brazilian-police-dismantle-massive-illegal-betting-and-crypto-money-laundering-ring/",
+      "title_en": "Operation Veil of Maya: Brazilian Police Dismantle Massive Illegal Betting and Crypto Money Laundering Ring",
+      "summary_en": "With information from the Ministry of Finance and the Prizes and Betting Secretariat (SPA), the Police executed nine search warrants in São Paulo, Ribeirão Preto, Porto Alegre, and Canoas, targeting 87 companies suspected of facilitating money laundering in betting operations. Brazilian Police Target Cryptocurrency Usage in Illegal Betting Operations Brazil is increasing its oversight over [&#8230;]",
+      "published_at": "2026-07-10T07:30:34+00:00",
+      "topic": "Regulations",
+      "title_ru": "Операция \"Завеса Майи\": бразильская полиция ликвидировала крупную сеть незаконных ставок и отмывания денег с использованием криптовалюты.",
+      "summary_ru": "Согласно информации Министерства финансов и Секретариата по призам и ставкам (SPA), полиция провела девять обысков в Сан-Паулу, Рибейран-Прету, Порту-Алегри и Каноасе, нацелившись на 87 компаний, подозреваемых в содействии отмыванию денег в ставочных операциях. Бразильская полиция усиливает контроль за использованием криптовалют в незаконных ставках."
+    },
+    {
+      "id": "f7e34fb1cfc1862d",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/hong-kong-otp-ban-crypto-platforms/",
+      "title_en": "Hong Kong Bans SMS and Email Logins for Crypto Platforms: Will Other Regulators Follow?",
+      "summary_en": "Hong Kong&#8217;s securities regulator has banned one-time password logins for crypto trading platforms. The rule targets phishing scams behind a surge in the region&#8217;s cybersecurity incidents. The Securities and Futures Commission issued a circular. It orders internet brokers and crypto trading platforms to drop SMS, email, and app-based OTPs. Platforms must switch client logins and The post Hong Kong Bans SMS and Email Logins for Crypto Platforms: Will Other Regulators Follow? appeared first on BeInCrypto .",
+      "published_at": "2026-07-10T07:30:26+00:00",
+      "topic": "Regulations",
+      "title_ru": "Гонконг запретил вход в криптоплатформы через SMS и электронную почту: последуют ли за этим другие регуляторы?",
+      "summary_ru": "Регулятор ценных бумаг Гонконга запретил вход по одноразовым паролям для криптовалютных торговых платформ. Правило направлено против фишинговых атак, стоящих за ростом инцидентов в области кибербезопасности в регионе. Комиссия по ценным бумагам и фьючерсам выпустила циркуляр, в котором требует от интернет-брокеров и криптовалютных платформ отказаться от SMS, email и приложенческих OTP. Платформы должны перейти на другие методы входа для клиентов."
+    },
+    {
+      "id": "f42ef73e799042df",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1057612/?utm_campaign=1057612&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Метод, которого не существовало: как я собрал локальный RAG для CAD API",
+      "summary_en": "Последние годы инжиниринг живёт под одним лозунгом: то же самое, но дешевле и быстрее. Заказчики сокращают бюджеты и сроки, подрядчики ищут, какие процессы можно оптимизировать, и автоматизация проектирования становится одним из первых кандидатов. Рутинных операций в проектировании много, и значительную часть из них можно передать скриптам и небольшим программным утилитам. Читать далее",
+      "published_at": "2026-07-10T07:00:17+00:00",
+      "topic": "Research",
+      "title_ru": "Метод, которого не существовало: как я собрал локальный RAG для CAD API",
+      "summary_ru": "Последние годы инжиниринг живёт под одним лозунгом: то же самое, но дешевле и быстрее. Заказчики сокращают бюджеты и сроки, подрядчики ищут, какие процессы можно оптимизировать, и автоматизация проектирования становится одним из первых кандидатов. Рутинных операций в проектировании много, и значительную часть из них можно передать скриптам и небольшим программным утилитам. Читать далее"
+    },
+    {
+      "id": "325223b2a44e4a9c",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-gets-a-green-light-from-a-reliable-momentum-gauge-here-are-key-levels-to-watch",
+      "title_en": "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
+      "summary_en": "",
+      "published_at": "2026-07-10T06:49:13+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Биткойн получил зеленый свет от надежного индикатора импульса. Вот ключевые уровни, за которыми стоит следить.",
+      "summary_ru": ""
+    },
+    {
+      "id": "bca4bc8d32cbe7f5",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1054452/?utm_campaign=1054452&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "[Перевод] Теория мёртвой экономики",
+      "summary_en": "Вероятно, вам знакома теория мёртвого Интернета, гласящая, что бóльшая часть того, с чем мы сталкиваемся онлайн, сгенерировано ботами и для ботов, а роль людей редуцировалась до скукожившейся аудитории создаваемого машинами шума. В прошлом году больше половины нового контента Интернета было сгенерировано ИИ. Люди всё ещё есть в сети, они скроллят страницы, но эти страницы превратились в представление, срежиссированное машинами для аудитории, ещё не осознавшей, что это шоу не для неё. Ужасно утомляет, когда в поисках живых умов, с которыми можно полемизировать и размышлять, мы находим бесконечный поток слопа. Вняв обещаниям эпохи сверхсвязности людей, мы допустили увядание наших совместных физических пространств, в результате обнаружив, что обетованные цифровые общества превратились в один большой рекламный щит, который всё в большей мере читают и создают боты. Это само по себе печально, но я бы хотел поговорить кое о чём ещё более прискорбном: назовём это теорией мёртвой экономики. Читать далее",
+      "published_at": "2026-07-10T06:40:53+00:00",
+      "topic": "Research",
+      "title_ru": "[Перевод] Теория мёртвой экономики",
+      "summary_ru": "Вероятно, вам знакома теория мёртвого Интернета, гласящая, что бóльшая часть того, с чем мы сталкиваемся онлайн, сгенерировано ботами и для ботов, а роль людей редуцировалась до скукожившейся аудитории создаваемого машинами шума. В прошлом году больше половины нового контента Интернета было сгенерировано ИИ. Люди всё ещё есть в сети, они скроллят страницы, но эти страницы превратились в представление, срежиссированное машинами для аудитории, ещё не осознавшей, что это шоу не для неё. Ужасно утомляет, когда в поисках живых умов, с которыми можно полемизировать и размышлять, мы находим бесконечный поток слопа. Вняв обещаниям эпохи сверхсвязности людей, мы допустили увядание наших совместных физических пространств, в результате обнаружив, что обетованные цифровые общества превратились в один большой рекламный щит, который всё в большей мере читают и создают боты. Это само по себе печально, но я бы хотел поговорить кое о чём ещё более прискорбном: назовём это теорией мёртвой экономики. Читать далее"
+    },
+    {
+      "id": "409fc3046790eea7",
+      "source": "vc.ru AI",
+      "category": "ai",
+      "url": "https://vc.ru/tech/3021045-priroda-kak-servis-alternativy-televizoram-v-premialnykh-intererakh?from=rss",
+      "title_en": "Природа как сервис: что заменит телевизоры в премиальных домах",
+      "summary_en": "Вечер. Усталость после рабочего дня. Сил нет даже дойти до кухни. Ты знаешь, что после еды будет лучше, но нет сил, нет сил… Хочется только сидеть, чтобы тебя никто не трогал.",
+      "published_at": "2026-07-10T06:14:51+00:00",
+      "topic": "Research",
+      "title_ru": "Природа как сервис: что заменит телевизоры в премиальных домах",
+      "summary_ru": "Вечер. Усталость после рабочего дня. Сил нет даже дойти до кухни. Ты знаешь, что после еды будет лучше, но нет сил, нет сил… Хочется только сидеть, чтобы тебя никто не трогал."
+    },
+    {
+      "id": "b7af592b28ec93d7",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.news/kalshi-dobivaetsya-razresheniya-regulyatorov-na-zapusk-fyuchersov-na-zoloto-energonositeli-i-valyutu/",
+      "title_en": "Kalshi добивается разрешения на запуск фьючерсов на золото, энергоносители и валюту",
+      "summary_en": "Kalshi добивается разрешения регуляторов на запуск бессрочных фьючерсов на золото, валюту и энергоносители. Планы компании Kalshi встречают противодействие со стороны отраслевых игроков. Kalshi стремится расширить ассортимент своих продуктов и получить разрешение регулирующих органов на торговлю бессрочными фьючерсами на золото, валюту и энергоносители. Это следующий шаг компании после запуска в мае бессрочных криптовалютных фьючерсов, которые регулируются [&#8230;] Источник",
+      "published_at": "2026-07-10T06:00:52+00:00",
+      "topic": "Macro",
+      "title_ru": "Kalshi добивается разрешения на запуск фьючерсов на золото, энергоносители и валюту",
+      "summary_ru": "Kalshi добивается разрешения регуляторов на запуск бессрочных фьючерсов на золото, валюту и энергоносители. Планы компании Kalshi встречают противодействие со стороны отраслевых игроков. Kalshi стремится расширить ассортимент своих продуктов и получить разрешение регулирующих органов на торговлю бессрочными фьючерсами на золото, валюту и энергоносители. Это следующий шаг компании после запуска в мае бессрочных криптовалютных фьючерсов, которые регулируются [&#8230;] Источник"
+    },
+    {
+      "id": "8dcd0fbf40cc7085",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1057716/?utm_campaign=1057716&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Усталость от напарника-машины. Изнанка работы с ИИ-код-агентами",
+      "summary_en": "Есть у&nbsp;меня образ, который родился в&nbsp;одной из&nbsp;бесед с&nbsp;коллегами. Ты&nbsp;— партизан, тащащий через лес на&nbsp;себе тяжеленного андроида с&nbsp;деменцией. В&nbsp;одни моменты он&nbsp;за&nbsp;секунды изучает местность и&nbsp;расчищает поляну под лагерь. В&nbsp;другие&nbsp;— часами не&nbsp;может сварить кашу нужной температуры и&nbsp;солёности. И&nbsp;тяжесть груза на&nbsp;твоих плечах реальна, и&nbsp;существенная помощь тоже, но&nbsp;она никогда не&nbsp;приходит равномерно, и&nbsp;заранее невозможно угадать, в&nbsp;какой момент получишь мастера, а&nbsp;в&nbsp;какой дегенерата. Важно оговориться, что я&nbsp;пишу из&nbsp;состояния временного разочарования, что может накладывать эмоциональный отпечаток на&nbsp;все мысли и&nbsp;выводы. Помимо этого, в&nbsp;последнее время я&nbsp;решал очень разные задачи с&nbsp;ИИ. Писал код на&nbsp;узкие участки, строил полностью ИТ-систему с&nbsp;нуля, верстал, собирал дизайн страниц и&nbsp;презентаций и&nbsp;даже разбирался с&nbsp;бытовыми задачами. И&nbsp;в&nbsp;процессе я&nbsp;заметил, что со&nbsp;временем накапливаю усталость какого-то нового типа. Эта усталость идёт с&nbsp;оттенком отвращения к&nbsp;инструменту, предсказуемость которого пока далека от&nbsp;совершенства, а&nbsp;детерминированностью он&nbsp;вообще не&nbsp;обладает. А&nbsp;так как всем нам по&nbsp;природе очень важна определённость, то я&nbsp;и&nbsp;пытался разобраться, где её&nbsp;стоит ждать, а&nbsp;где нет. Забегая вперёд, скажу, что в&nbsp;тех областях, где знания и&nbsp;навыки слабо структурированы&nbsp;— например, дизайн, без спецсредств мы&nbsp;получаем «курсор мыши» вместо автоматизатора, двигать который дороже, чем делать самому. В&nbsp;остальных&nbsp;же сферах, таких, например, как программирование, где человечество за&nbsp;последние полвека всё разложило по&nbsp;полочкам, результаты впечатляющие, но&nbsp;тоже с&nbsp;оговорками. Читать далее",
+      "published_at": "2026-07-10T05:53:14+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Усталость от напарника-машины. Изнанка работы с ИИ-код-агентами",
+      "summary_ru": "Есть у&nbsp;меня образ, который родился в&nbsp;одной из&nbsp;бесед с&nbsp;коллегами. Ты&nbsp;— партизан, тащащий через лес на&nbsp;себе тяжеленного андроида с&nbsp;деменцией. В&nbsp;одни моменты он&nbsp;за&nbsp;секунды изучает местность и&nbsp;расчищает поляну под лагерь. В&nbsp;другие&nbsp;— часами не&nbsp;может сварить кашу нужной температуры и&nbsp;солёности. И&nbsp;тяжесть груза на&nbsp;твоих плечах реальна, и&nbsp;существенная помощь тоже, но&nbsp;она никогда не&nbsp;приходит равномерно, и&nbsp;заранее невозможно угадать, в&nbsp;какой момент получишь мастера, а&nbsp;в&nbsp;какой дегенерата. Важно оговориться, что я&nbsp;пишу из&nbsp;состояния временного разочарования, что может накладывать эмоциональный отпечаток на&nbsp;все мысли и&nbsp;выводы. Помимо этого, в&nbsp;последнее время я&nbsp;решал очень разные задачи с&nbsp;ИИ. Писал код на&nbsp;узкие участки, строил полностью ИТ-систему с&nbsp;нуля, верстал, собирал дизайн страниц и&nbsp;презентаций и&nbsp;даже разбирался с&nbsp;бытовыми задачами. И&nbsp;в&nbsp;процессе я&nbsp;заметил, что со&nbsp;временем накапливаю усталость какого-то нового типа. Эта усталость идёт с&nbsp;оттенком отвращения к&nbsp;инструменту, предсказуемость которого пока далека от&nbsp;совершенства, а&nbsp;детерминированностью он&nbsp;вообще не&nbsp;обладает. А&nbsp;так как всем нам по&nbsp;природе очень важна определённость, то я&nbsp;и&nbsp;пытался разобраться, где её&nbsp;стоит ждать, а&nbsp;где нет. Забегая вперёд, скажу, что в&nbsp;тех областях, где знания и&nbsp;навыки слабо структурированы&nbsp;— например, дизайн, без спецсредств мы&nbsp;получаем «курсор мыши» вместо автоматизатора, двигать который дороже, чем делать самому. В&nbsp;остальных&nbsp;же сферах, таких, например, как программирование, где человечество за&nbsp;последние полвека всё разложило по&nbsp;полочкам, результаты впечатляющие, но&nbsp;тоже с&nbsp;оговорками. Читать далее"
+    },
+    {
       "id": "261f1a744f6816d7",
       "source": "HappyCoin",
       "category": "crypto",
@@ -184,6 +364,18 @@
       "summary_ru": "Microsoft, возможно, снова испытывает трудности с выполнением собственных климатических целей, согласно её отчету о устойчивом развитии за 2026 год. Как сообщает GeekWire, в отчете говорится, что углеродные выбросы Microsoft увеличились на 25 процентов в 2025 году, составив 34 миллиона метрических тонн \"без определенных вмешательств\". Microsoft утверждает, что это было \"вызвано, прежде всего, расширением нашего [...]\"."
     },
     {
+      "id": "145fbd552c757009",
+      "source": "Hugging Face",
+      "category": "ai",
+      "url": "https://huggingface.co/blog/torch-attention-profile",
+      "title_en": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "summary_en": "",
+      "published_at": "2026-07-10T00:00:00+00:00",
+      "topic": "Research",
+      "title_ru": "Профилирование в PyTorch (Часть 3): Внимание — это всё, что вам нужно для профилирования",
+      "summary_ru": ""
+    },
+    {
       "id": "bb81b2d3c7457262",
       "source": "Habr AI",
       "category": "ai",
@@ -341,6 +533,27 @@
       "summary_ru": "Переименованный Codex обещает независимые рабочие процессы, которые могут работать \"в течение нескольких часов, если это необходимо\"."
     },
     {
+      "id": "ec6a71f8dfe910b9",
+      "source": "The Block",
+      "category": "crypto",
+      "url": "https://www.theblock.co/post/407809/coinbase-chief-legal-officer-paul-grewal-steps-down?utm_source=rss&utm_medium=rss",
+      "title_en": "Coinbase Chief Legal Officer Paul Grewal steps down, remains in advisory role",
+      "summary_en": "Coinbase Chief Legal Officer Paul Grewal joined the firm in mid-2020 to lead its legal, compliance and government relations operations.",
+      "published_at": "2026-07-09T21:13:44+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Главный юридический директор Coinbase Пол Гревал уходит с поста, оставаясь в консультативной роли.",
+      "summary_ru": "Главный юридический директор Coinbase Пол Гревал присоединился к компании в середине 2020 года, чтобы возглавить ее юридические, комплаенс и государственные отношения.",
+      "duplicates": [
+        {
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinbase-chief-legal-officer-stepping-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title_en": "Coinbase chief legal officer to transition to advisory role on July 31",
+          "title_ru": "Главный юридический директор Coinbase перейдет на консультативную должность 31 июля.",
+          "published_at": "2026-07-09T21:35:12+00:00"
+        }
+      ]
+    },
+    {
       "id": "e861ea5d109b6245",
       "source": "BeInCrypto EN",
       "category": "crypto",
@@ -448,6 +661,18 @@
       "topic": "Models",
       "title_ru": "Anthropic обнаружил скрытое пространство, где Claude размышляет над концепциями.",
       "summary_ru": "AI-компания Anthropic разработала методику, которая позволила ей получить наиболее четкое представление о том, что на самом деле происходит внутри больших языковых моделей во время ответов на вопросы или выполнения задач. Результаты варьируются от обыденного до тревожного. Исследователи компании создали инструмент под названием Jacobian lens."
+    },
+    {
+      "id": "a7b4de6526c02fdd",
+      "source": "The Defiant",
+      "category": "crypto",
+      "url": "https://thedefiant.io/news/regulation/hyperliquid-phantom-ask-cftc-to-exempt-defi-from-broker-rules",
+      "title_en": "Hyperliquid, Phantom Ask CFTC to Exempt DeFi From Broker Rules",
+      "summary_en": "The joint filing asks regulators to turn Phantom's March no-action relief into a formal rule covering all non-custodial wallet providers.",
+      "published_at": "2026-07-09T19:53:58+00:00",
+      "topic": "DeFi",
+      "title_ru": "Hyperliquid и Phantom просят CFTC освободить DeFi от правил для брокеров.",
+      "summary_ru": "Совместная подача документов просит регуляторов превратить мартовское решение о бездействии Phantom в официальное правило, охватывающее всех провайдеров некустодиальных кошельков."
     },
     {
       "id": "312b0de66ce01f7e",
@@ -1746,6 +1971,34 @@
       "summary_ru": "В прошлом году компания Image Line представила Gopher для FL Studio, чат-бота на основе ИИ, который по сути являлся улучшенной инструкцией. Вы задавали ему вопрос о том, как что-то сделать, и он предоставлял соответствующие инструкции. Это тот случай, когда я действительно использую ИИ на полупостоянной основе. Но в новом релизе Gopher может [...]"
     },
     {
+      "id": "e799563c0958e055",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "title_en": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary_en": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "published_at": "2026-07-09T13:00:00+00:00",
+      "topic": "Models",
+      "title_ru": "GPT-5.6 теперь является предпочтительной моделью в Microsoft 365 Copilot.",
+      "summary_ru": "Узнайте, как GPT-5.6 усиливает Microsoft 365 Copilot, предоставляя более мощные возможности ИИ в Word, Excel, PowerPoint, Chat и Cowork для более быстрой и качественной работы.",
+      "duplicates": [
+        {
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+          "title_en": "OpenAI launches its new family of models with GPT-5.6",
+          "title_ru": "OpenAI запускает новую семью моделей с GPT-5.6.",
+          "published_at": "2026-07-09T22:24:24+00:00"
+        },
+        {
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+          "title_en": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
+          "title_ru": "OpenAI заявила, что GPT 5.6 является «предпочитаемой моделью» для Microsoft Copilot 365 на фоне слухов о разрыве.",
+          "published_at": "2026-07-10T00:16:54+00:00"
+        }
+      ]
+    },
+    {
       "id": "2706cfcbf136a1c0",
       "source": "NewsBTC",
       "category": "crypto",
@@ -2341,6 +2594,42 @@
       "topic": "Corporate AI",
       "title_ru": "Muse Image представила обновление Grok 4.5, а Алекс Карп дал интервью на CNBC.",
       "summary_ru": "Баттл за проверяемые данные все больше определяет гонку в области ИИ, от Meta до Grok и фронтальных лабораторий."
+    },
+    {
+      "id": "5941cef110c0f469",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "title_en": "ChatGPT is now a partner for your most ambitious work",
+      "summary_en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "topic": "Models",
+      "title_ru": "ChatGPT теперь является партнером для ваших самых амбициозных проектов.",
+      "summary_ru": "ChatGPT Work — это агент, который может выполнять действия в ваших приложениях и файлах, оставаться с проектом на протяжении нескольких часов, если это необходимо, и превращать цель в завершённую работу."
+    },
+    {
+      "id": "8fd74bd3f51991b5",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "title_en": "GPT-5.5 Bio Bug Bounty",
+      "summary_en": "Details about the OpenAI Bio Bounty program",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "topic": "Models",
+      "title_ru": "GPT-5.5 Bio Bug Bounty",
+      "summary_ru": "OpenAI запустила программу Bio Bounty, направленную на привлечение исследователей и разработчиков для выявления уязвимостей и проблем в своих биомедицинских моделях. Участники программы могут сообщать о найденных недостатках и получать вознаграждения за свои усилия. Программа охватывает различные аспекты, включая безопасность, этику и потенциальные риски использования моделей в биомедицинских приложениях. OpenAI стремится улучшить свои технологии, обеспечивая их безопасность и надежность в критически важных областях."
+    },
+    {
+      "id": "54ee76ae9206d639",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "url": "https://openai.com/index/gpt-5-6",
+      "title_en": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "summary_en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "topic": "Models",
+      "title_ru": "GPT-5.6: Передовой интеллект, который масштабируется в соответствии с вашими амбициями.",
+      "summary_ru": "Больше интеллекта из каждого токена, более высокая производительность за доллар и больше возможностей по запросу для вашей самой сложной работы."
     },
     {
       "id": "190f755bf8d95dc6",
@@ -65319,290 +65608,8 @@
       "topic": "DeFi",
       "title_ru": "Делавэр и Нью-Джерси продвигают законопроекты о запрете крипто-банкоматов.",
       "summary_ru": "Законодатели Делавэра и Нью-Джерси продвинули законы, которые полностью запрещают крипто-банкоматы, мера, которая была принята только в трех штатах США."
-    },
-    {
-      "id": "f530039ea3fe541b",
-      "source": "Wired AI",
-      "category": "ai",
-      "url": "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
-      "title_en": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
-      "summary_en": "The company changed course after researchers spoke out against the policy, which would have covertly limited Claude’s ability to develop competing AI models.",
-      "published_at": "2026-06-11T03:11:22+00:00",
-      "topic": "Models",
-      "title_ru": "Anthropic отменила политику, которая могла «саботировать» исследователей ИИ, использующих Claude.",
-      "summary_ru": "Компания изменила курс после того, как исследователи высказались против политики, которая скрытно ограничивала бы способность Claude разрабатывать конкурирующие модели ИИ.",
-      "duplicates": [
-        {
-          "source": "Simon Willison",
-          "url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
-          "title_en": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
-          "title_ru": "Anthropic отменила политику, которая могла «саботировать» исследователей ИИ, использующих Claude.",
-          "published_at": "2026-06-11T03:45:49+00:00"
-        }
-      ]
-    },
-    {
-      "id": "928742232365edf7",
-      "source": "The Block",
-      "category": "crypto",
-      "url": "https://www.theblock.co/post/404352/tom-lees-bitmine-buys-41-million-worth-eth?utm_source=rss&utm_medium=rss",
-      "title_en": "Tom Lee’s Bitmine buys $41 million worth of ETH, continuing aggressive treasury expansion: onchain data",
-      "summary_en": "The firm continues to buy ETH at an accelerated pace despite a reported paper loss of nearly $10 billion on its holdings.",
-      "published_at": "2026-06-11T03:10:50+00:00",
-      "topic": "Ethereum",
-      "title_ru": "Bitmine Тома Ли приобрела ETH на сумму 41 миллион долларов, продолжая агрессивное расширение казны: данные onchain.",
-      "summary_ru": "Компания продолжает активно приобретать ETH, несмотря на сообщенные бумажные убытки почти в 10 миллиардов долларов по своим активам."
-    },
-    {
-      "id": "79f31a25df0f25f4",
-      "source": "NewsBTC",
-      "category": "crypto",
-      "url": "https://www.newsbtc.com/analysis/btc/bitcoin-price-hovers-above-60k/",
-      "title_en": "Bitcoin Price Hovers Above $60K As Traders Search For Direction",
-      "summary_en": "Bitcoin price started a fresh decline below the $62,500 zone. BTC is showing bearish signs and might continue to move down if it dips below $61,200. Bitcoin failed to stay above $63,200 and extended losses. The price is trading below $62,500 and the 100 hourly simple moving average. There is a bearish trend line forming with resistance near $62,400 on the hourly chart of the BTC/USD pair (data feed from Kraken). The pair might extend losses if it stays below the $62,500 and $63,500 levels. Bitcoin Price Dips Toward Support Bitcoin price failed to stay above the $63,500 support zone. BTC remained in a bearish zone and extended losses below the $63,200 level. There was a move below the $62,500 level. The price even dipped below $61,200. A low was formed at $60,746 and the price is still showing many bearish signs. There was a minor increase above the 23.6% Fib retracement level of the downward move from the $64,613 swing high to the $60,746 low. Bitcoin is now trading below $62,500 and the 100 hourly simple moving average. There is also a bearish trend line forming with resistance near $62,400 on the hourly chart of the BTC/USD pair. If the price remains stable above $60,750, it could attempt a fresh increase. Immediate resistance is near the $62,500 level and the trend line. The first key resistance is near the $63,200 level or the 61.8% Fib retracement level of the downward move from the $64,613 swing high to the $60,746 low. A close above the $63,200 resistance might send the price further higher. In the stated case, the price could rise and test the $63,500 resistance. Any more gains might send the price toward the $64,500 level. The next barrier for the bulls could be $65,000. More Losses In BTC? If Bitcoin fails to rise above the $63,200 resistance zone, it could start another decline. Immediate support is near the $61,650 level. The first major support is near the $61,200 level. The next support is now near the $60,750 zone. Any more losses might send the price toward the $60,200 support in the near term. The main support now sits at $60,000, below which BTC might struggle to recover in the near term. Technical indicators: Hourly MACD – The MACD is now losing pace in the bearish zone. Hourly RSI (Relative Strength Index) – The RSI for BTC/USD is now above the 50 level. Major Support Levels – $61,650, followed by $61,200. Major Resistance Levels – $62,500 and $63,500.",
-      "published_at": "2026-06-11T03:09:33+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Цена Биткойна колеблется выше $60K, пока трейдеры ищут направление.",
-      "summary_ru": "Цена Биткойна начала новое снижение ниже зоны $62,500. BTC демонстрирует медвежьи сигналы и может продолжить падение, если опустится ниже $61,200. Биткойн не смог удержаться выше $63,200 и продолжил терять в стоимости. Цена торгуется ниже $62,500 и 100-часовой простой скользящей средней. На часовом графике пары BTC/USD формируется медвежья трендовая линия с сопротивлением около $62,400. Пара может продолжить терять в стоимости, если останется ниже уровней $62,500 и $63,500. \n\nЦена Биткойна опустилась к поддержке. Биткойн не смог удержаться выше зоны поддержки $63,500. BTC остался в медвежьей зоне и продолжил падение ниже уровня $63,200. Произошло снижение ниже уровня $62,500. Цена даже опустилась ниже $61,200. Минимум был зафиксирован на уровне $60,746, и цена по-прежнему показывает множество медвежьих сигналов. Произошло незначительное увеличение выше уровня 23,6% Фибоначчи от нисходящего движения от максимума $64,613 до минимума $60,746. Биткойн сейчас торгуется ниже $62,500 и 100-часовой простой скользящей средней. Также формируется медвежья трендовая линия с сопротивлением около $62,400 на часовом графике пары BTC/USD. Если цена останется стабильной выше $60,750, она может попытаться совершить новое увеличение. Непосредственное сопротивление находится около уровня $62,500 и трендовой линии. Первое ключевое сопротивление находится около уровня $63,200 или уровня 61,8% Фибоначчи от нисходящего движения от максимума $64,613 до минимума $60,746. Закрытие выше сопротивления $63,200 может привести к дальнейшему росту цены. В этом случае цена может вырасти и протестировать сопротивление $63,500. Любые дополнительные gains могут отправить цену к уровню $64,500. Следующее препятствие для быков может составить $65,000. \n\nДополнительные потери для BTC? Если Биткойн не сможет подняться выше зоны сопротивления $63,200, он может начать новое снижение. Непосредственная поддержка находится около уровня $61,650. Первичная значимая поддержка находится около уровня $61,200. Следующая поддержка теперь находится около зоны $60,750. Любые дополнительные потери могут отправить цену к поддержке $60,200 в краткосрочной перспективе. Основная поддержка теперь находится на уровне $60,000"
-    },
-    {
-      "id": "92d1dd0d7940d795",
-      "source": "NewsBTC",
-      "category": "crypto",
-      "url": "https://www.newsbtc.com/news/crypto-hackers-drain-over-36m-from-protocols-using-unverified-contracts/",
-      "title_en": "Crypto Hackers Drain Over $36M From Protocols Using Unverified Contracts",
-      "summary_en": "A crypto hacker who drained $26 million from Ethereum-based protocol Truebit in January had likely practiced the technique on smaller targets first, according to blockchain analytics firm Chainalysis. Related Reading: The Bitcoin Rally Has A Problem: Demand Is Drying Up A Contract Left Exposed For Years The Truebit exploit was the largest of four incidents Chainalysis identified in a new report covering the past six months. Together, those attacks — targeting Truebit, Trusted Volumes, Aperture Finance, and Ekubo — account for roughly $37 million in losses, all traced back to contracts whose source code had never been publicly verified on blockchain explorers. The Truebit contract had been sitting on Ethereum since 2021. It was compiled using Solidity v0.5.3, a version released before automatic overflow protections became standard. An attacker found an integer overflow flaw inside its bonding curve mechanism and used it to mint large quantities of tokens at minimal cost before converting them to ETH. Why Closed Code Creates Open Risk Verified contracts get reviewed. Bug bounty hunters read them. Independent researchers flag problems before attackers do. Unverified contracts get none of that scrutiny, and many bug bounty programs specifically exclude them from coverage — meaning vulnerabilities can sit untouched for years while millions of dollars flow through the affected code. That gap is what Chainalysis says attackers are now exploiting. Each of the four compromised contracts lacked publicly available source code. Attackers worked instead from decompiled bytecode, converting raw on-chain code into readable output using tools like Dedaub, Heimdall, and Panoramix. Once decompiled, the code can be fed into AI systems capable of spotting reentrancy flaws, arithmetic errors, and access-control weaknesses at a scale no human reviewer could match. The $36.7 million figure is a fraction of total DeFi losses during the same period — Chainalysis puts the broader six-month theft total above $1 billion. But the firm argues the unverified contract problem could grow as automated analysis tools become cheaper and easier to use, allowing attackers to scan large numbers of dormant contracts and rank them by exploitability. The Vulnerabilities Varied, But The Pattern Did Not Across the four incidents, the specific bugs differed. Reports indicate weaknesses ranged from integer overflow and access-control failures to input-validation errors and identity verification flaws. Related Reading: A 400 Billion Shiba Inu Surprise: Whale Wallet Springs Back To Life What they shared was the same protection gap: no public source code, no external review, and no real-time monitoring in place to catch abnormal activity before the funds were gone. Chainalysis is recommending that protocols treat source-code verification as a baseline requirement for any contract holding user assets. The firm also says audits and bug bounty coverage should extend to implementation contracts sitting behind proxy structures — components that often go unreviewed even when the front-facing contract is verified. Featured image from CybersecAsia, chart from TradingView",
-      "published_at": "2026-06-11T03:00:44+00:00",
-      "topic": "Hacks",
-      "title_ru": "Крипто-хакеры вывели более $36 миллионов из протоколов, используя непроверенные контракты.",
-      "summary_ru": "Хакер, который в январе похитил $26 миллионов из протокола Truebit на базе Ethereum, вероятно, сначала отработал свою технику на меньших целях, согласно данным аналитической компании Chainalysis. Эксплуатация Truebit стала крупнейшим из четырех инцидентов, выявленных Chainalysis в новом отчете за последние шесть месяцев. В совокупности эти атаки — на Truebit, Trusted Volumes, Aperture Finance и Ekubo — составляют примерно $37 миллионов убытков, все они связаны с контрактами, исходный код которых никогда не был публично проверен на блокчейн-эксплорерах. Контракт Truebit находился в сети Ethereum с 2021 года. Он был скомпилирован с использованием Solidity v0.5.3, версии, выпущенной до того, как автоматические защиты от переполнения стали стандартом. Злоумышленник обнаружил уязвимость переполнения целого числа в механизме его связующей кривой и использовал ее для создания большого количества токенов с минимальными затратами, прежде чем конвертировать их в ETH. Почему закрытый код создает открытые риски Проверенные контракты проходят ревью. Охотники за уязвимостями изучают их. Независимые исследователи выявляют проблемы до того, как это сделают злоумышленники. Непроверенные контракты не получают такого контроля, и многие программы по поиску уязвимостей специально исключают их из охвата — это означает, что уязвимости могут оставаться неразрешенными в течение многих лет, пока миллионы долларов проходят через затронутый код. Именно этот пробел, по мнению Chainalysis, сейчас используют злоумышленники. Каждый из четырех скомпрометированных контрактов не имел публично доступного исходного кода. Злоумышленники работали с декомпилированным байт-кодом, преобразуя сырой код в читаемый формат с помощью инструментов, таких как Dedaub, Heimdall и Panoramix. После декомпиляции код можно передать в системы ИИ, способные выявлять уязвимости повторного входа, арифметические ошибки и слабости контроля доступа на масштабе, который не может сопоставить ни один человек. Сумма в $36.7 миллионов — это лишь часть общих убытков DeFi за тот же период — Chainalysis оценивает общий объем краж за шесть месяцев выше $1 миллиарда. Однако компания утверждает, что проблема непроверенных контрактов может усугубиться по мере того, как инструменты автоматического анализа становятся дешевле и проще в использовании, позволяя злоумышленникам сканировать большое количество неактив"
-    },
-    {
-      "id": "c05386aad3524936",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/trump-inflation-cpi-rate-hike-bitcoin/",
-      "title_en": "President Trump Loves Inflation, and Bitcoin Could Feel the Impact",
-      "summary_en": "US President Donald Trump told reporters he &#8220;loves&#8221; inflation on Wednesday after government data showed consumer prices rising at the fastest annual pace in three years. The Consumer Price Index (CPI) climbed 4.2% from a year earlier. The reading lands one week before the Federal Reserve&#8217;s June policy meeting under new Chair Kevin Warsh. Traders The post President Trump Loves Inflation, and Bitcoin Could Feel the Impact appeared first on BeInCrypto .",
-      "published_at": "2026-06-11T02:37:20+00:00",
-      "topic": "Macro",
-      "title_ru": "Президент Трамп любит инфляцию, и это может повлиять на Bitcoin.",
-      "summary_ru": "Президент США Дональд Трамп заявил репортерам, что он \"любит\" инфляцию в среду после того, как правительственные данные показали, что потребительские цены растут с самой быстрой годовой скоростью за три года. Индекс потребительских цен (CPI) увеличился на 4,2% по сравнению с прошлым годом. Эти данные публикуются за неделю до заседания Федеральной резервной системы в июне под руководством нового председателя Кевина Уорша. Трейдеры"
-    },
-    {
-      "id": "7ff963df32fba1cd",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/tim-draper-says-quantum-will-crack-banks-before-bitcoin/",
-      "title_en": "Tim Draper Says Quantum Will Crack Banks Before Bitcoin",
-      "summary_en": "Tim Draper argued bitcoin faces less quantum risk than banks, comparing its security to Fort Knox. His comments shifted attention from blockchain vulnerabilities to legacy financial systems, as debate grows over quantum computing’s threat to modern cryptography. Tim Draper Revives Bitcoin Security Thesis as Quantum Fears Shift Toward Banks Venture capitalist and longtime bitcoin investor [&#8230;]",
-      "published_at": "2026-06-11T02:30:15+00:00",
-      "topic": "Regulations",
-      "title_ru": "Тим Дрейпер заявил, что квантовые технологии взломают банки раньше, чем Bitcoin.",
-      "summary_ru": "Тим Дрейпер утверждал, что биткойн подвержен меньшему риску от квантовых вычислений, чем банки, сравнивая его безопасность с Форт-Нокс. Его комментарии сместили внимание с уязвимостей блокчейна на устаревшие финансовые системы, поскольку растет обсуждение угрозы квантовых вычислений для современной криптографии. Тим Дрейпер возобновляет тезис о безопасности биткойна на фоне опасений по поводу банков. Венчурный капиталист и давний инвестор в биткойн [...]"
-    },
-    {
-      "id": "84b735cace597c4d",
-      "source": "AI Snake Oil",
-      "category": "ai",
-      "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
-      "title_en": "Why AI hasn’t replaced software engineers, and won’t",
-      "summary_en": "Coding agents as normal technology",
-      "published_at": "2026-06-11T02:29:51+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Почему ИИ не заменил программистов и не заменит в будущем",
-      "summary_ru": "Кодирующие агенты как обычная технология"
-    },
-    {
-      "id": "9755771eec92a128",
-      "source": "NewsBTC",
-      "category": "crypto",
-      "url": "https://www.newsbtc.com/ethereum-news/three-wallets-withdraw-122m-in-ethereum-from-falconx-and-kraken-is-tom-lee-buying-again/",
-      "title_en": "Three Wallets Withdraw $122M In Ethereum From FalconX And Kraken: Is Tom Lee Buying Again?",
-      "summary_en": "Ethereum is struggling below $1,700 as the market faces a combination of apathy and uncertainty that has made sustained directional movement difficult to produce in either direction. The price is grinding — not breaking down aggressively but equally failing to generate the momentum needed to reclaim higher levels — and data from Arkham Intelligence has identified a cluster of large institutional withdrawals that adds a structural layer to the current setup worth examining carefully. Related Reading: XRP Leverage Flush Hits Bybit While Binance Holds The Line – Analyst Explains Rare Setup Three whale addresses — two of them freshly created wallets with no prior transaction history — have withdrawn a combined $122.29 million in Ethereum from FalconX and Kraken. The scale of the withdrawal is significant. The venue combination is notable. FalconX is a regulated institutional prime brokerage serving some of the most sophisticated participants in digital asset markets, while Kraken is one of the most established and most scrutinized exchanges in the ecosystem. Ethereum Whale Transfers &#124; Source: Arkham The creation of fresh wallets for withdrawals of this scale is the behavioral detail that carries the most analytical weight. Institutional participants creating new addresses specifically for large withdrawals typically do so to maintain operational security, separate treasury positions from trading activity, or establish dedicated holding infrastructure for assets intended for long-term custody rather than near-term trading. $122 million in Ethereum leaving institutional venues and moving into freshly created wallets during a period of market apathy does not describe participants preparing to sell. It describes participants who have made a decision about Ethereum at current prices — and have created the infrastructure to hold that decision for an extended period. Down 9 Million and Still Withdrawing The Arkham data adds a layer that transforms the withdrawal from a routine institutional movement into a statement about conviction under pressure. One of the addresses involved in the current withdrawal cluster previously purchased Ethereum and is currently sitting on an unrealized loss of approximately $9.1 million on that position. The market has moved against the trade — and the response is not to reduce exposure or exit at a smaller loss. The response is to withdraw more ETH from exchanges into custody. Ethereum Whale position &#124; Source: Arkham Arkham has raised the question of whether the address is connected to Tom Lee — and the behavioral profile is consistent with what Bitmine has been executing publicly. The company has been systematically building toward a 5% Ethereum supply target, currently holding approximately $9.32 billion worth of ETH at 4.59% of circulating supply, with approximately $819.86 million in additional purchases still required to reach that threshold. A participant sitting on a $9.1 million unrealized loss who responds by withdrawing more ETH from institutional venues rather than cutting the position is expressing the same long-term thesis that Bitmine&#8217;s entire treasury strategy represents. The loss is present and acknowledged. The direction of the next action is unchanged. For Ethereum below $1,700 under market apathy, that behavioral pattern — institutional-scale participants absorbing unrealized losses and continuing to accumulate rather than capitulating — is the structural signal that the price chart is not yet reflecting but that the on-chain data is documenting in real time. Related Reading: Bitcoin Flashes One Of Its Rarest Demand Signals In Six Years – Details Ethereum Breaks Below February Support As Bears Extend Control Ethereum remains under heavy selling pressure after decisively breaking below the February support zone near $1,800-$1,900, a level that had previously served as the foundation for multiple recovery attempts throughout 2026. The breakdown has fundamentally altered the market structure, with ETH now trading near $1,620 after briefly plunging toward the $1,500 region. More importantly, the recent rebound has been weak and unable to reclaim any meaningful resistance, highlighting the absence of aggressive buyers despite growing institutional accumulation narratives. Ethereum testing critical demand &#124; Source: ETHUSDT chart on TradingView From a technical perspective, the chart shows a clear sequence of lower highs and lower lows since the May peak around $2,400. The failure at that resistance zone marked the completion of a distribution range that ultimately resolved to the downside. Once ETH lost the $1,850 support area, selling accelerated sharply, producing a high-volume breakdown that pushed price well below all major moving averages. Related Reading: XRP Just Printed A Rare Binance Signal As Market Volatility Accelerates The 50-day and 100-day moving averages continue trending lower above the current price, while the 200-day moving average near $2,450 remains far out of reach. This alignment confirms that momentum remains firmly bearish across all major timeframes. The key level to watch is the recent low near $1,500. Bulls have managed to defend that area so far, but unless ETH can reclaim the former support zone around $1,850, the current bounce looks more like a relief rally inside a broader downtrend than the start of a sustainable recovery. Featured image from ChatGPT, chart from TradingView.com",
-      "published_at": "2026-06-11T02:00:57+00:00",
-      "topic": "Ethereum",
-      "title_ru": "Три кошелька вывели $122 млн в Ethereum из FalconX и Kraken: снова ли покупает Том Ли?",
-      "summary_ru": "Ethereum испытывает трудности ниже $1,700, так как рынок сталкивается с сочетанием апатии и неопределенности, что затрудняет устойчивое движение в любом направлении. Цена колеблется — не падает резко, но также не генерирует необходимый импульс для восстановления более высоких уровней. Данные от Arkham Intelligence выявили кластер крупных институциональных выводов, который добавляет структурный слой к текущей ситуации, заслуживающий внимательного изучения. Три адреса китов — два из них недавно созданные кошельки без предыдущей истории транзакций — вывели в общей сложности $122.29 миллиона в Ethereum с FalconX и Kraken. Масштаб вывода значителен. Комбинация площадок примечательна. FalconX — это регулируемая институциональная первичная брокерская компания, обслуживающая одних из самых сложных участников рынка цифровых активов, в то время как Kraken является одной из самых устоявшихся и наиболее проверяемых бирж в экосистеме. Создание новых кошельков для выводов такого масштаба является поведенческой деталью, которая имеет наибольшее аналитическое значение. Институциональные участники, создающие новые адреса специально для крупных выводов, обычно делают это для поддержания операционной безопасности, отделения казначейских позиций от торговой активности или создания специализированной инфраструктуры для хранения активов, предназначенных для долгосрочного хранения, а не для краткосрочной торговли. Вывод $122 миллионов в Ethereum из институциональных площадок и перемещение в недавно созданные кошельки в период рыночной апатии не описывает участников, готовящихся к продаже. Это описывает участников, которые приняли решение о Ethereum по текущим ценам — и создали инфраструктуру для удержания этого решения на длительный срок. \n\nДанные Arkham добавляют слой, который трансформирует вывод из рутинного институционального движения в заявление о убежденности под давлением. Один из адресов, участвующих в текущем кластере выводов, ранее покупал Ethereum и в настоящее время находится на нереализованной потере примерно $9.1 миллиона по этой позиции. Рынок движется против сделки — и реакция не заключается в снижении экспозиции или выходе с меньшими потерями. Реакция заключается в выводе большего количества ETH с бирж в хранение. Arkham поднял вопрос о том, связан ли адрес с Tom Lee — и поведенческий профиль соответствует тому, что Bitmine выполняет публично. Компания систематически наращивает запасы Ethereum до целевого уровня в 5%, в настоящее время удерживая активы на сумму примерно $9.32 миллиарда, что составляет 4.59% от обращающегося предложения,"
-    },
-    {
-      "id": "834b6fa41291dec1",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/tesla-spacex-merger-big-short-investor-steve-eisman-says-he-wouldnt-doubt-it/",
-      "title_en": "Tesla–SpaceX Merger? ‘Big Short’ Investor Steve Eisman Says He Wouldn’t Doubt It",
-      "summary_en": "Big Short investor Steve Eisman said he would not be surprised by a Tesla-SpaceX deal, fueling speculation about Elon Musk’s next major move. The comments come as SpaceX IPO demand reportedly tops $250 billion. SpaceX IPO Demand Puts Tesla Deal Speculation Under Pressure SpaceX’s intense IPO demand has fueled investor interest in any potential deal [&#8230;]",
-      "published_at": "2026-06-11T01:30:32+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Слияние Tesla и SpaceX? Инвестор \"Большой короткой продажи\" Стив Эйзман говорит, что не удивится этому.",
-      "summary_ru": "Инвестор из \"Большого короткого\" Стив Эйзман заявил, что не удивится сделке между Tesla и SpaceX, подогревая спекуляции о следующем крупном шаге Илона Маска. Комментарии прозвучали на фоне того, что спрос на IPO SpaceX, по сообщениям, превышает 250 миллиардов долларов. Интенсивный спрос на IPO SpaceX усиливает интерес инвесторов к любой потенциальной сделке."
-    },
-    {
-      "id": "83059a1fcb96a2ab",
-      "source": "NewsBTC",
-      "category": "crypto",
-      "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-suppressed-like-gold-luke-gromen/",
-      "title_en": "Bitcoin Suppressed Like Gold? Luke Gromen Says It Can’t Last Forever",
-      "summary_en": "Luke Gromen says Bitcoin’s failure to break decisively higher may reflect more than weak spot demand, arguing that paper instruments can temporarily absorb buying pressure in the same way derivatives have shaped the gold market for years. Speaking with Nathalie Brunell in a June 6 interview, the macro analyst said he has not materially rebuilt the Bitcoin position he previously reduced. “I nibbled a little bit,” Gromen said, but added that he has “not really bought back in in any real way.” The reason, he suggested, is that Bitcoin’s recent price action may be signaling something important about liquidity, market structure and the political sensitivity of hard-asset signals. Paper Bitcoin And The $58K-$72K Frustration Zone Brunell asked Gromen about his prior remark that Bitcoin could remain stuck in what she described as a “$58K to $72K gang for a while,” and whether BTC and gold prices could be suppressed. Gromen clarified that the comment was partly “tongue-in-cheek,” but said there is a serious mechanism behind the idea. Related Reading: Bitcoin At A Discount? Coinbase Exec Says Institutions And Govts Are Buying “I think the way they would do it is the expansion of derivatives, the way they’ve done it with gold historically,” he said. “I think you can in the long run. I don’t think you can do it with Bitcoin, but to the extent that you can expand derivatives, in the short run they can matter.” Gromen’s argument is not that Bitcoin’s supply can be changed, but that demand can be diverted. A buyer that otherwise would need to purchase spot BTC can instead buy a call option or another synthetic instrument. That still expresses bullish exposure, but it does not necessarily remove coins from the market in the same way self-custodied spot accumulation would. “Somebody wants to own Bitcoin, but they’re not buying Bitcoin. They’re buying a call on Bitcoin,” Gromen said. “If you didn’t have those derivatives there, then if you want to own Bitcoin, you got to own Bitcoin. Now, you can buy a derivative on Bitcoin, and it starts to get sloppier, looser.” For Gromen, that distinction matters most over shorter windows. He argued that policymakers can manage optics “to a lot of things” in the near term, even if they cannot do so indefinitely. Luke Gromen on why Bitcoin might keep stalling around $58k-72K: big players can satisfy demand with paper bets instead of buying real #Bitcoin, which holds the price back. It&#8217;s worked on #gold for years, but he doesn&#8217;t think it lasts forever with Bitcoin… https://t.co/yPAuJA3dKI pic.twitter.com/CwZ2cGwwW6 — Natalie Brunell ⚡️ (@natbrunell) June 9, 2026 Bitcoin As A Liquidity Smoke Alarm The derivative-suppression thesis sits inside a broader macro framework. Gromen described Bitcoin as “one of, if not the last functioning smoke alarm of liquidity,” and said its recent weakness is “telling us not good things.” In his view, liquidity is being absorbed elsewhere, most visibly by AI-related equities and by energy and commodities after the Iran war. “AI is sucking all the oxygen out of the room, all the liquidity out of the room, and it’s all in one area,” Gromen said. “And I think that’s happening to Bitcoin as well. I think it’s a victim of that as well.” He argued that the equity rally is narrower than headline indices suggest, with AI-linked names carrying much of the move. That makes Bitcoin’s lag more relevant to him: if BTC is a liquidity-sensitive asset and it is not confirming the strength in stocks, the market may be less healthy than the index level implies. Related Reading: Bitcoin Stablecoin Ratio Drops To Extreme Low—What It Means For BTC Gromen linked the issue to the US effort to run the economy hot, weaken the dollar and reshore production. Those forces, he said, should be positive for gold and Bitcoin in a freer market. But they also risk sending an uncomfortable message. “There are elements in the US that don’t want to see that because those things will be communicating to the world, hey, you’re just inflating,” he said. “Hey, you’re just inflating. And that creates some issues on the financing side with the Treasury market.” His base case is not a conventional crash, but a shift in the measuring stick. He expects equities to rise in dollar terms while falling when priced in gold and Bitcoin. In that scenario, hard assets outperform nominal claims, while 10-year Treasury yields remain broadly contained in the 4% to 4.5% area. That is why Gromen does not see any potential suppression of Bitcoin as permanent. Paper markets can delay a move. They can blur the signal. But in his framework, they cannot eliminate the underlying macro pressure. “In the short run, they can manage the optics,” he said. “In the long run, they can’t.” At press time, BTC traded at $60,966. Featured image created with DALL.E, chart from TradingView.com",
-      "published_at": "2026-06-11T01:00:16+00:00",
-      "topic": "DeFi",
-      "title_ru": "Биткойн подавляется, как золото? Люк Громен утверждает, что это не может длиться вечно.",
-      "summary_ru": "Люк Громен утверждает, что неспособность Биткойна уверенно подняться выше может отражать не только слабый спотовый спрос, но и то, что бумажные инструменты могут временно поглощать покупательское давление так же, как деривативы формировали рынок золота на протяжении многих лет. В интервью с Натали Брунелл 6 июня макроаналитик отметил, что он не восстановил свою позицию по Биткойну, которую ранее сократил. \"Я немного купил,\" сказал Громен, добавив, что \"на самом деле не вернулся к покупкам в каком-либо значительном объеме.\" Причина, по его словам, заключается в том, что недавние ценовые движения Биткойна могут сигнализировать о чем-то важном в отношении ликвидности, структуры рынка и политической чувствительности сигналов по твердым активам.\n\nНатали спросила Громена о его предыдущем замечании, что Биткойн может оставаться в диапазоне \"58K-72K\" некоторое время, и о том, могут ли цены BTC и золота быть подавлены. Громен уточнил, что это замечание было отчасти \"в шутку\", но добавил, что за этой идеей стоит серьезный механизм. \"Я думаю, что они будут делать это через расширение деривативов, как это делали с золотом исторически,\" сказал он. \"Я думаю, что в долгосрочной перспективе это возможно. Я не думаю, что это возможно с Биткойном, но в краткосрочной перспективе расширение деривативов может иметь значение.\" Аргумент Громена заключается не в том, что предложение Биткойна может быть изменено, а в том, что спрос может быть перенаправлен. Покупатель, который в противном случае должен был бы купить спотовый BTC, может вместо этого купить опцион колл или другой синтетический инструмент. Это все еще выражает бычью экспозицию, но не обязательно убирает монеты с рынка так, как это сделало бы накопление спотовых активов. \"Кто-то хочет владеть Биткойном, но они не покупают Биткойн. Они покупают опцион на Биткойн,\" сказал Громен. \"Если бы этих деривативов не было, тогда, если вы хотите владеть Биткойном, вам нужно было бы владеть Биткойном. Теперь вы можете купить дериватив на Биткойн, и это начинает становиться менее четким.\" Для Громена это различие имеет наибольшее значение в краткосрочной перспективе. Он утверждал, что политики могут управлять оптикой \"по многим вещам\" в ближайшей перспективе,"
-    },
-    {
-      "id": "0f2f87125fe9bdb2",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/xrpl-and-rlusd-take-center-stage-as-ripple-joins-mastercards-ai-payments-push/",
-      "title_en": "XRPL and RLUSD Take Center Stage as Ripple Joins Mastercard’s AI Payments Push",
-      "summary_en": "Ripple is participating in Mastercard’s Agent Pay for Machines effort, placing XRPL and RLUSD in a wider push to support AI-driven payments. Mastercard is working with more than 30 partners as autonomous transactions raise new demands for controls, permissioning, and settlement. Mastercard’s AI Payments Plan Puts Ripple’s Enterprise Role in Focus Ripple’s role in Mastercard’s [&#8230;]",
-      "published_at": "2026-06-11T00:20:40+00:00",
-      "topic": "Regulations",
-      "title_ru": "XRPL и RLUSD выходят на передний план, так как Ripple присоединяется к инициативе Mastercard по AI-платежам.",
-      "summary_ru": "Ripple участвует в инициативе Mastercard по Agent Pay for Machines, внедряя XRPL и RLUSD в более широкий проект по поддержке платежей на основе ИИ. Mastercard сотрудничает с более чем 30 партнерами, поскольку автономные транзакции создают новые требования к контролю, разрешениям и расчетам. Платежный план Mastercard с использованием ИИ акцентирует внимание на роли Ripple в корпоративном секторе."
-    },
-    {
-      "id": "0afaefd6ab5d4235",
-      "source": "Hacker News AI",
-      "category": "ai",
-      "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
-      "title_en": "AI agent runs amok in Fedora and elsewhere",
-      "summary_en": "Article URL: https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/ Comments URL: https://news.ycombinator.com/item?id=48484584 Points: 239 # Comments: 59",
-      "published_at": "2026-06-11T00:10:08+00:00",
-      "topic": "Startups",
-      "title_ru": "AI-агент вышел из-под контроля в Fedora и других системах.",
-      "summary_ru": "Статья недоступна для перевода."
-    },
-    {
-      "id": "0872a33527fad6bc",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "url": "https://cointelegraph.com/markets/xrp-transaction-demand-drops-915-as-063-support-zone-draws-focus?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title_en": "XRP transaction demand falls 91.5% as traders focus on $0.65 support",
-      "summary_en": "XRP network activity and investor profitability fall to record lows, leading traders to focus on the $1 to $0.65 zone.",
-      "published_at": "2026-06-11T00:08:21+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Спрос на транзакции XRP упал на 91,5%, так как трейдеры сосредоточились на поддержке на уровне $0,65.",
-      "summary_ru": "Активность сети XRP и прибыльность инвесторов упали до рекордно низких уровней, что заставило трейдеров сосредоточиться на зоне от $1 до $0.65."
-    },
-    {
-      "id": "fa72235fd786e1bf",
-      "source": "NewsBTC",
-      "category": "crypto",
-      "url": "https://www.newsbtc.com/news/dogecoin/the-dogecoin-perfect-bottom/",
-      "title_en": "Here’s The Dogecoin Perfect Bottom And The Top Target; Analyst",
-      "summary_en": "According to a crypto analyst, Dogecoin (DOGE) has returned to a key trendline that has repeatedly marked major cycle bottoms in past market phases. The setup comes alongside low sentiment and weakness, conditions that previously aligned with strong price recoveries. The analyst noted that this lower line could now form a potential base for Dogecoin’s next upside move to the top. Analyst Forecasts Dogecoin Perfect Price Bottom Market expert Cryptollica has announced that Dogecoin may have formed a cycle bottom after revisiting a long-term support trendline that has been building since 2021. The analyst noted that every previous market bottom since 2021 began at this same lower support line. Related Reading: Dogecoin Will ‘Pump Hard’ After This Happens, Analyst Clocks Generational Entry In his X post, Cryptollica pointed to psychological conditions that have historically aligned with this lower trendline. He noted that each time Dogecoin approaches this area, demand and interest in the meme coin plummets to low levels, with sentiment turning extremely negative and fearful. This area has also marked major reversal points for Dogecoin, allowing the cryptocurrency to begin a fresh recovery after a severe downtrend. Past movements from Cryptollica 2021 to 2024 price chart support this view. In 2021, Dogecoin touched this trendline around $0.095 before surging to new highs that marked its historical bull run. A year later, in 2022, the same trendline held at $0.045, again marking the bottom before a sharp rebound. The cryptocurrency also established a fresh bottom near $0.055 in 2024 before starting an uptrend that eventually pushed its price above $0.225. In the current market cycle, Dogecoin has revisited this lower trendline once again. The first time this happened was in early 2026 when its price crashed to roughly $0.085, and the second occurred just recently. Cryptollica has described this latest retest as the “perfect bottom” for Dogecoin, noting that the same structure and negative psychological conditions in 2021 are also present in the current cycle. With chart patterns and broader sentiment aligning almost perfectly, the analyst believes that a market reset may have already occurred or is nearing completion. If this view proves correct, he expects Dogecoin to enter a recovery phase soon, with potential upside targets near $1.6. Analyst Urges To Wait For Confirmation Before Calling Bottom In a separate analysis, market expert Erick Crypto revealed that Dogecoin has recently lost a major support zone. He said the key demand area near $0.085 failed to hold as market sellers took control, adding more pressure on the meme coin’s price. Related Reading: Dogecoin Price Just Entered A Critical Level, But Analyst Says It’s Not Time To Buy The analyst added that the latest move raises questions about whether it was a liquidity sweep ahead of a potential recovery or the beginning of a deeper price correction. As Dogecoin continues its downtrend, Erick Crypto noted that its trading volume is still increasing, signaling strong market participation. He urged traders to closely watch price movements and wait for a clear confirmation before calling a final cycle bottom. Featured image from iStock, chart from Tradingview.com",
-      "published_at": "2026-06-11T00:00:35+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Вот идеальное дно для Dogecoin и целевой уровень; аналитик",
-      "summary_ru": "Согласно криптоаналитику, Dogecoin (DOGE) вернулся к ключевой трендовой линии, которая неоднократно отмечала основные дно циклов на прошлых рыночных фазах. Эта ситуация совпадает с низким настроением и слабостью, условиями, которые ранее соответствовали сильным восстановлением цен. Аналитик отметил, что эта нижняя линия теперь может стать потенциальной базой для следующего восходящего движения Dogecoin. \n\nАналитик прогнозирует идеальное ценовое дно Dogecoin. Рыночный эксперт Cryptollica объявил, что Dogecoin мог сформировать дно цикла после повторного обращения к долгосрочной поддержке, которая формируется с 2021 года. Аналитик отметил, что каждое предыдущее рыночное дно с 2021 года начиналось на этой же нижней линии поддержки. \n\nВ своем посте в X Cryptollica указал на психологические условия, которые исторически совпадали с этой нижней трендовой линией. Он отметил, что каждый раз, когда Dogecoin приближается к этой области, спрос и интерес к мем-коину падают до низких уровней, а настроение становится крайне негативным и тревожным. Эта область также отмечала основные точки разворота для Dogecoin, позволяя криптовалюте начать новое восстановление после резкого падения. Прошлые движения на графике Cryptollica с 2021 по 2024 год подтверждают эту точку зрения. В 2021 году Dogecoin коснулся этой трендовой линии около $0.095, прежде чем резко вырасти до новых максимумов, отмечающих его исторический бычий рынок. Год спустя, в 2022 году, та же трендовая линия удерживалась на уровне $0.045, снова отмечая дно перед резким отскоком. Криптовалюта также установила новое дно около $0.055 в 2024 году, прежде чем начать восходящий тренд, который в конечном итоге поднял ее цену выше $0.225. \n\nВ текущем рыночном цикле Dogecoin снова вернулся к этой нижней трендовой линии. Первый раз это произошло в начале 2026 года, когда его цена упала до примерно $0.085, а второй раз — совсем недавно. Cryptollica описал этот последний тест как \"идеальное дно\" для Dogecoin, отметив, что та же структура и негативные психологические условия 2021 года также присутствуют в текущем цикле. С учетом почти идеального совпадения графических паттернов и более широкого настроения аналитик считает, что рыночная перезагрузка могла уже произойти или близка к завершению. Если это мнение подтвердится, он ожидает, что Dogecoin вскоре вой"
-    },
-    {
-      "id": "436a674e3bf2eef7",
-      "source": "OpenAI Blog",
-      "category": "ai",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "title_en": "How an astrophysicist uses Codex to help simulate black holes",
-      "summary_en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-      "published_at": "2026-06-11T00:00:00+00:00",
-      "topic": "Research",
-      "title_ru": "Как астрофизик использует Codex для моделирования черных дыр",
-      "summary_ru": "Узнайте, как астрофизик Чи-куан Чан использует Codex для создания симуляций черных дыр, что помогает ученым изучать экстремальную физику и проверять теорию относительности Эйнштейна."
-    },
-    {
-      "id": "8875a0080daca525",
-      "source": "OpenAI Blog",
-      "category": "ai",
-      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "title_en": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "summary_en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-      "published_at": "2026-06-11T00:00:00+00:00",
-      "topic": "Regulations",
-      "title_ru": "Поддержка работы Европы по обеспечению надежной экосистемы ИИ",
-      "summary_ru": "OpenAI поддерживает Кодекс практики ЕС по прозрачности контента, созданного с помощью ИИ, продвигая стандарты и инструменты происхождения, которые помогают людям понимать контент, сгенерированный ИИ."
-    },
-    {
-      "id": "47d05adaf3b5567b",
-      "source": "Hugging Face",
-      "category": "ai",
-      "url": "https://huggingface.co/blog/torch-mlp-fusion",
-      "title_en": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "summary_en": "",
-      "published_at": "2026-06-11T00:00:00+00:00",
-      "topic": "Research",
-      "title_ru": "Профилирование в PyTorch (Часть 2): От nn.Linear к объединенному MLP",
-      "summary_ru": ""
-    },
-    {
-      "id": "6600f3e4b9646c4b",
-      "source": "OpenAI Blog",
-      "category": "ai",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "title_en": "OpenAI to acquire Ona",
-      "summary_en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "published_at": "2026-06-11T00:00:00+00:00",
-      "topic": "AI Agents",
-      "title_ru": "OpenAI приобретает Ona.",
-      "summary_ru": "OpenAI планирует приобрести Ona для расширения Codex с помощью безопасных, постоянных облачных сред, что позволит создавать долгосрочные AI-агенты в рамках корпоративных рабочих процессов."
-    },
-    {
-      "id": "7d511aa8d99683ee",
-      "source": "Simon Willison",
-      "category": "ai",
-      "url": "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
-      "title_en": "datasette-agent 0.2a0",
-      "summary_en": "Release: datasette-agent 0.2a0 Highlights from the release notes: Tools can now ask the user questions mid-execution. Tools that declare a context parameter receive a ToolContext object, and await context.ask_user(...) can ask a yes/no, multiple-choice ( options=[...] ) or free-text ( free_text=True ) question. While a question is unanswered the agent turn suspends: the question renders as a form in the chat UI and persists to the internal database, so suspended conversations survive a server restart. Once answered, the tool re-executes from the top with stored answers replayed, so call ask_user() before performing side effects. #20 New built-in save_query tool: the agent can save SQL it has written as a Datasette stored query . Saving always requires human approval - the agent shows the full SQL plus the proposed name, database and visibility, and nothing is stored until you click Yes. #20 The ask_user() feature was enabled by the new LLM alpha I built yesterday with the help of Claude Fable 5. Tags: ai , datasette , generative-ai , llms , datasette-agent",
-      "published_at": "2026-06-10T23:57:27+00:00",
-      "topic": "Models",
-      "title_ru": "datasette-agent 0.2a0",
-      "summary_ru": "Выпуск: datasette-agent 0.2a0 Основные моменты из примечаний к выпуску: Инструменты теперь могут задавать пользователю вопросы во время выполнения. Инструменты, которые объявляют параметр контекста, получают объект ToolContext, и await context.ask_user(...) может задать вопрос с ответом \"да/нет\", множественным выбором ( options=[...] ) или свободным текстом ( free_text=True ). Пока вопрос не будет отвечен, ход агента приостанавливается: вопрос отображается в виде формы в интерфейсе чата и сохраняется в внутренней базе данных, так что приостановленные разговоры сохраняются после перезапуска сервера. После ответа инструмент повторно выполняется с самого начала, используя сохраненные ответы, поэтому вызывайте ask_user() перед выполнением побочных эффектов. #20 Новый встроенный инструмент save_query: агент может сохранить написанный SQL как сохраненный запрос Datasette. Сохранение всегда требует одобрения человека - агент показывает полный SQL, а также предложенное имя, базу данных и видимость, и ничего не сохраняется, пока вы не нажмете \"Да\". #20 Функция ask_user() была активирована новым LLM alpha, который я создал вчера с помощью Claude Fable 5. Теги: ai, datasette, generative-ai, llms, datasette-agent"
-    },
-    {
-      "id": "4a76b316a283e609",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/is-bitcoin-cheap-yet-grayscale-flags-2-catalysts-that-could-decide-btcs-next-move/",
-      "title_en": "Is Bitcoin Cheap Yet? Grayscale Flags 2 Catalysts That Could Decide BTC’s Next Move",
-      "summary_en": "Grayscale has weighed in on whether bitcoin is cheap after BTC’s recent decline below $60,000. The firm points investors to two key factors that could determine whether the market has found a bottom. Bitcoin Valuation Metrics Suggest BTC May Be Undervalued Bitcoin’s recent drop to a new cycle low below $60,000 has sparked a key [&#8230;]",
-      "published_at": "2026-06-10T23:17:30+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Дешев ли уже Биткойн? Grayscale указывает на 2 катализатора, которые могут определить следующий шаг BTC.",
-      "summary_ru": "Grayscale высказалась о том, является ли биткойн дешевым после недавнего падения BTC ниже $60,000. Компания указывает инвесторам на два ключевых фактора, которые могут определить, нашел ли рынок дно. Метрики оценки биткойна предполагают, что BTC может быть недооценен. Недавнее падение биткойна до нового цикла ниже $60,000 вызвало важные [...]"
-    },
-    {
-      "id": "77660257b747dd05",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
-      "title_en": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
-      "summary_en": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic IPO.",
-      "published_at": "2026-06-10T22:31:19+00:00",
-      "topic": "Regulations",
-      "title_ru": "xAI уволила инженера, который поднял вопросы о безопасности Grok, утверждает новый иск.",
-      "summary_ru": "Бывший инженер xAI подал в суд на компанию и SpaceX, утверждая, что его уволили за поднятие вопросов безопасности ИИ касательно Grok за несколько дней до исторического IPO SpaceX.",
-      "duplicates": [
-        {
-          "source": "Forklog",
-          "url": "https://forklog.com/eks-inzhener-xai-podal-isk-iz-za-uvolneniya-posle-zhalob-na-grok",
-          "title_en": "Экс-инженер xAI подал иск из-за увольнения после жалоб на Grok",
-          "title_ru": "Экс-инженер xAI подал иск из-за увольнения после жалоб на Grok",
-          "published_at": "2026-06-11T02:10:18+00:00"
-        }
-      ]
-    },
-    {
-      "id": "f363b7a79ed68497",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/cme-group-launches-crypto-index-futures-tracking-bitcoin-solana-and-xrp/",
-      "title_en": "CME Group Launches Crypto Index Futures Tracking Bitcoin, Solana and XRP",
-      "summary_en": "CME Group has launched Nasdaq CME Crypto Index futures, giving investors a regulated way to trade and hedge broad exposure to major digital assets. The contracts settle against a Nasdaq-CME benchmark covering some of the largest and most actively traded cryptocurrencies. Nasdaq and CME Launch Crypto Index Futures Tied to 8 Leading Tokens CME Group [&#8230;]",
-      "published_at": "2026-06-10T22:30:16+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "CME Group запускает фьючерсы на криптоиндексы, отслеживающие Bitcoin, Solana и XRP.",
-      "summary_ru": "CME Group запустила фьючерсы на Nasdaq CME Crypto Index, предоставляя инвесторам регулируемый способ торговли и хеджирования широкого экспозиции к основным цифровым активам. Контракты рассчитываются по бенчмарку Nasdaq-CME, охватывающему некоторые из крупнейших и наиболее активно торгуемых криптовалют."
     }
   ],
-  "updated_at": "2026-07-10T05:05:14.246224+00:00",
+  "updated_at": "2026-07-10T09:02:24.945750+00:00",
   "total": 5000
 }
