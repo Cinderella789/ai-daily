@@ -1,6 +1,186 @@
 {
   "items": [
     {
+      "id": "85cd5bae1b8501b9",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.news/amerikanskij-bank-morgan-stanley-popolnil-svoj-bitkoin-balans-na-1000-monet/",
+      "title_en": "Американский банк Morgan Stanley пополнил свой биткоин-баланс на 1,000 монет",
+      "summary_en": "Крупный американский банк Morgan Stanley приобрёл на Coinbase Prime 1000 биткоинов. Теперь на отслеживаемом балансе организации хранится 5761 BTC. Один из ведущих инвестиционных банков в мире Morgan Stanley продолжает наращивать запасы биткоинов. За последние две недели американский финансовый холдинг увеличил свои резервы почти на 1,000 BTC, доведя отслеживаемый баланс до 5761 BTC. Согласно данным аналитической платформы [&#8230;] Источник",
+      "published_at": "2026-07-12T05:00:12+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Американский банк Morgan Stanley пополнил свой биткоин-баланс на 1,000 монет",
+      "summary_ru": "Крупный американский банк Morgan Stanley приобрёл на Coinbase Prime 1000 биткоинов. Теперь на отслеживаемом балансе организации хранится 5761 BTC. Один из ведущих инвестиционных банков в мире Morgan Stanley продолжает наращивать запасы биткоинов. За последние две недели американский финансовый холдинг увеличил свои резервы почти на 1,000 BTC, доведя отслеживаемый баланс до 5761 BTC. Согласно данным аналитической платформы [&#8230;] Источник"
+    },
+    {
+      "id": "01335ccdc10b1401",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/bitcoin-leaders-michael-saylor-and-adam-back-rebuff-bip-110-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Bitcoin bulls Michael Saylor, Adam Back slam BIP-110 Ordinals proposal",
+      "summary_en": "The ongoing debate comes despite a broad downturn in Ordinals transaction activity over the last two years.",
+      "published_at": "2026-07-12T04:24:36+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Бычьи сторонники Биткойна Майкл Сейлор и Адам Бэк раскритиковали предложение BIP-110 Ordinals.",
+      "summary_ru": "Текущие дебаты продолжаются, несмотря на общий спад активности транзакций Ordinals за последние два года."
+    },
+    {
+      "id": "b9b58e4bcbf60baa",
+      "source": "NVIDIA Dev Blog",
+      "category": "ai",
+      "url": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/",
+      "title_en": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
+      "summary_en": "Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a...",
+      "published_at": "2026-07-12T01:08:17+00:00",
+      "topic": "Models",
+      "title_ru": "Как оценивать политики общего назначения для роботов при развертывании в реальном мире",
+      "summary_ru": "Модели основанных на робототехнике достигли значительного прогресса. Лучшие системы сегодня могут следовать инструкциям на естественном языке для выбора, размещения, сортировки и манипуляции..."
+    },
+    {
+      "id": "03499c68059edb51",
+      "source": "Simon Willison",
+      "category": "ai",
+      "url": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+      "title_en": "sqlite-utils 4.1",
+      "summary_en": "Release: sqlite-utils 4.1 The first dot-release since 4.0 a few days ago , introducing a number of minor new features. sqlite-utils insert and sqlite-utils upsert now accept a --code option for providing a block of Python code (or a path to a .py file) that defines a rows() function or rows iterable of rows to insert, as an alternative to importing from a file. ( #684 ) sqlite-utils already had features that allow you to pass blocks of Python code as CLI arguments, for example this one for the sqlite-utils convert command: sqlite - utils convert content . db articles headline ' def convert ( value ): return value . upper ()' Allowing blocks of code to generate new rows directly was on obvious extension of that pattern: sqlite - utils insert data . db creatures - - code ' def rows (): yield { \"id\" : 1 , \"name\" : \"Cleo\" } yield { \"id\" : 2 , \"name\" : \"Suna\" } ' - - pk id sqlite-utils insert and sqlite-utils upsert now accept --type column-name type to override the type automatically chosen when the table is created . This is useful for CSV or TSV columns such as ZIP codes that look like integers but should be stored as TEXT to preserve leading zeros. ( #131 ) A long-standing feature request which turned out to be a simple implementation . New table.drop_index(name) method and sqlite-utils drop-index command for dropping an index by name. Both accept ignore=True / --ignore to ignore a missing index. ( #626 ) sqlite-utils query can now read the SQL query from standard input by passing - in place of the query, for example echo \"select * from dogs\" | sqlite-utils query dogs.db - . ( #765 ) Two more small features. I had Codex review all open issues and highlight the easiest ones! sqlite-utils upsert can now infer the primary key of an existing table, so --pk can be omitted when upserting into a table that already has a primary key. Another Codex suggestion, an obvious missing CLI feature from a Python library improvement that shipped in the 4.0 release. table.transform() and table.transform_sql() now accept strict=True or strict=False to change a table’s SQLite strict mode . Omitting the option preserves the existing mode. ( #787 ) The sqlite-utils transform command now accepts --strict and --no-strict to change a table’s strict mode. ( #787 ) These two were inspired by Prefer STRICT tables in SQLite by Evan Hahn, which did the rounds on Hacker News today. Evan pointed out that: Unfortunately, I don’t think there’s a way to ALTER a table to make it strict. I think you have to copy the data out of the non-strict table into the strict one. That's exactly what the sqlite-utils transform mechanism does, so I extended it to add the ability to switch tables from strict to non-strict and vice-versa. Here's the GPT-5.6 Sol xhigh Codex transcript I used to implement those new strict table features. One of the most useful prompts I ran was this one: use uv run python -c and manually exercise the new .transform(strict=) option, see if you can find any edge-cases or bugs Effectively telling the model to manually test its work, outside of the automated tests it had already written. This turned up two minor issues that we then fixed. Tags: projects , python , sqlite , sqlite-utils , annotated-release-notes , ai-assisted-programming",
+      "published_at": "2026-07-11T23:50:20+00:00",
+      "topic": "Models",
+      "title_ru": "Вышла версия 4.1 sqlite-utils. Обновление включает улучшения производительности и новые функции для работы с базами данных SQLite. Пользователи могут ожидать более удобный интерфейс и расширенные возможности для обработки данных.",
+      "summary_ru": "Выпуск: sqlite-utils 4.1. Первый минорный релиз после 4.0, выпущенного несколько дней назад, который вводит ряд небольших новых функций. Команды sqlite-utils insert и sqlite-utils upsert теперь принимают опцию --code для предоставления блока кода на Python (или пути к .py файлу), который определяет функцию rows() или итерируемый объект строк для вставки, в качестве альтернативы импорту из файла. sqlite-utils уже имел функции, позволяющие передавать блоки кода на Python в качестве аргументов CLI, например, для команды sqlite-utils convert: sqlite-utils convert content.db articles headline 'def convert(value): return value.upper()'. Возможность генерировать новые строки напрямую была очевидным продолжением этой схемы: sqlite-utils insert data.db creatures --code 'def rows(): yield {\"id\": 1, \"name\": \"Cleo\"} yield {\"id\": 2, \"name\": \"Suna\"}' --pk id. Команды sqlite-utils insert и sqlite-utils upsert теперь принимают --type column-name type для переопределения типа, автоматически выбранного при создании таблицы. Это полезно для столбцов CSV или TSV, таких как почтовые индексы, которые выглядят как целые числа, но должны храниться как TEXT для сохранения ведущих нулей. Долгожданный запрос функции, который оказался простой реализацией. Новый метод table.drop_index(name) и команда sqlite-utils drop-index для удаления индекса по имени. Оба принимают ignore=True / --ignore для игнорирования отсутствующего индекса. Команда sqlite-utils query теперь может читать SQL-запрос из стандартного ввода, передавая - вместо запроса, например, echo \"select * from dogs\" | sqlite-utils query dogs.db -. Две небольшие функции. Я попросил Codex просмотреть все открытые вопросы и выделить самые простые! Команда sqlite-utils upsert теперь может выводить первичный ключ существующей таблицы, поэтому --pk можно опустить при вставке в таблицу, которая уже имеет первичный ключ. Еще одно предложение от Codex, очевидная недостающая функция CLI из улучшения библиотеки Python, которое было выпущено в релизе 4.0. Методы table.transform() и table.transform_sql() теперь принимают strict=True или strict=False для изменения строгого режима SQLite таблицы. Пропуск опции сохраняет существующий режим. Команда sqlite-utils transform теперь принимает --strict и --no-strict для изменения строгого режима таблицы. Эти две функции были вдохновлены статьей Prefer STRICT tables in SQLite Эвана Хана, которая сегодня обсуждалась на Hacker News. Эван отметил, что: К сожалению, я не думаю, что есть способ изменить таблицу на строгую. Я думаю, что вам нужно скоп"
+    },
+    {
+      "id": "9c42376bd822ed7f",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/grayscale-identifies-5-crypto-networks-positioned-to-benefit-from-tokenized-equities/",
+      "title_en": "Grayscale Identifies 5 Crypto Networks Positioned to Benefit From Tokenized Equities",
+      "summary_en": "Grayscale identified Ethereum, Solana, BNB Chain, Avalanche, and Canton Network as blockchain networks positioned to benefit from equity tokenization, highlighting how different ownership models could shape digital securities markets. Grayscale’s Tokenization Outlook Depends on Which Ownership Model Wins Crypto asset manager Grayscale published research on July 9 outlining three phases of equity tokenization. Head of [&#8230;]",
+      "published_at": "2026-07-11T23:30:42+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Grayscale выделяет 5 криптовалютных сетей, которые могут извлечь выгоду из токенизированных акций.",
+      "summary_ru": "Grayscale выделила Ethereum, Solana, BNB Chain, Avalanche и Canton Network как блокчейн-сети, которые могут извлечь выгоду из токенизации акций, подчеркивая, как различные модели собственности могут повлиять на рынок цифровых ценных бумаг. Перспективы токенизации от Grayscale зависят от того, какая модель собственности победит. Крипто-менеджер активов Grayscale опубликовал исследование 9 июля, в котором описаны три фазы токенизации акций. Руководитель [...]"
+    },
+    {
+      "id": "eec944302fa38f9d",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1058206/?utm_campaign=1058206&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Свой AI-прокси на Java: как я пытался подключиться к Gemini",
+      "summary_en": "Для разработки одного из моих проектов: документа BDoc (Book Document альтернатива устаревшим закрытым бинарным форматами такими как IDML, INDD или Scribus SLA) потребовалась нейросеть, которая может держать контекст очень долго. На данный момент для это цели идеально подходит Gemini, так как контекстное окно у Gemini в 1 миллион токенов. Но есть одна загвоздка, компания Google заблокировала некоторые регионы. То есть запросы от этих регионов не будут доходить до google. Рассмотрев все за и против, было принято решение написать небольшую программу на java - ai-proxy. То есть прокси для нейросетей. Читать далее",
+      "published_at": "2026-07-11T23:03:01+00:00",
+      "topic": "Models",
+      "title_ru": "Свой AI-прокси на Java: как я пытался подключиться к Gemini",
+      "summary_ru": "Для разработки одного из моих проектов: документа BDoc (Book Document альтернатива устаревшим закрытым бинарным форматами такими как IDML, INDD или Scribus SLA) потребовалась нейросеть, которая может держать контекст очень долго. На данный момент для это цели идеально подходит Gemini, так как контекстное окно у Gemini в 1 миллион токенов. Но есть одна загвоздка, компания Google заблокировала некоторые регионы. То есть запросы от этих регионов не будут доходить до google. Рассмотрев все за и против, было принято решение написать небольшую программу на java - ai-proxy. То есть прокси для нейросетей. Читать далее"
+    },
+    {
+      "id": "3822e0e0e383c981",
+      "source": "Hacker News AI",
+      "category": "ai",
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "title_en": "Mesh LLM: distributed AI computing on iroh",
+      "summary_en": "Article URL: https://www.iroh.computer/blog/mesh-llm Comments URL: https://news.ycombinator.com/item?id=48876505 Points: 163 # Comments: 37",
+      "published_at": "2026-07-11T22:38:57+00:00",
+      "topic": "Models",
+      "title_ru": "Mesh LLM: распределенные вычисления ИИ на iroh",
+      "summary_ru": "Статья недоступна для перевода."
+    },
+    {
+      "id": "9efe1373724b401d",
+      "source": "Hacker News AI",
+      "category": "ai",
+      "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
+      "title_en": "Stop Telling Me to Ask an LLM",
+      "summary_en": "Article URL: https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/ Comments URL: https://news.ycombinator.com/item?id=48876441 Points: 172 # Comments: 98",
+      "published_at": "2026-07-11T22:28:48+00:00",
+      "topic": "Models",
+      "title_ru": "Перестаньте говорить мне спрашивать LLM.",
+      "summary_ru": "Статья обсуждает проблему, связанную с использованием языковых моделей (LLM) в качестве решения для различных задач. Автор подчеркивает, что часто пользователи сталкиваются с рекомендациями обращаться к LLM, но это не всегда является оптимальным решением. В статье рассматриваются ограничения LLM, такие как отсутствие контекста, возможность генерации неверной информации и сложности в интерпретации ответов. Автор призывает к более критическому подходу к использованию LLM и предлагает рассмотреть альтернативные методы решения проблем, которые могут быть более эффективными в определенных ситуациях."
+    },
+    {
+      "id": "603e6780d0ad0ae5",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/ripple-swell-2026-nears-with-expanded-event-bringing-together-finance-and-xrp-ecosystem/",
+      "title_en": "Ripple Swell 2026 Nears With Expanded Event Bringing Together Finance and XRP Ecosystem",
+      "summary_en": "Ripple Swell 2026 is approaching this fall, bringing financial executives, developers and the XRP community to New York for an expanded conference examining the growing connection between traditional finance, XRP and blockchain-based markets. Why Ripple Swell 2026 Will Be Different As Ripple Swell 2026 moves closer, Ripple shared on July 10 that early bird pricing [&#8230;]",
+      "published_at": "2026-07-11T20:50:35+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Ripple Swell 2026 приближается с расширенным мероприятием, объединяющим финансовый сектор и экосистему XRP.",
+      "summary_ru": "Ripple Swell 2026 приближается этой осенью, собирая финансовых руководителей, разработчиков и сообщество XRP в Нью-Йорке для расширенной конференции, посвященной растущей связи между традиционными финансами, XRP и рынками на основе блокчейна. Почему Ripple Swell 2026 будет отличаться. По мере приближения Ripple Swell 2026 компания Ripple 10 июля сообщила о раннем бронировании билетов [...]"
+    },
+    {
+      "id": "da8c06c4506fbb62",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1058194/?utm_campaign=1058194&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Слишком просто, чтобы быть правдой? GPT-5.6 выдал доказательство 50-летней математической гипотезы",
+      "summary_en": "10 июля, на следующий день после публичного запуска GPT-5.6 Sol Ultra, OpenAI&nbsp; заявила , что ее флагманская модель нашла доказательство гипотезы о двойном покрытии циклами — одной из самых известных открытых задач теории графов, стоявшей около полувека. По словам сотрудника OpenAI Итана Найта, модель справилась меньше чем за час, задействовав 64 параллельных сабагента. Сразу стоит отметить, что пока доказательство только проходит проверку математиками — и на данном этапе больше интересен подход, который OpenAI применила при решении задачи. Читать далее",
+      "published_at": "2026-07-11T20:05:51+00:00",
+      "topic": "Models",
+      "title_ru": "Слишком просто, чтобы быть правдой? GPT-5.6 выдал доказательство 50-летней математической гипотезы",
+      "summary_ru": "10 июля, на следующий день после публичного запуска GPT-5.6 Sol Ultra, OpenAI&nbsp; заявила , что ее флагманская модель нашла доказательство гипотезы о двойном покрытии циклами — одной из самых известных открытых задач теории графов, стоявшей около полувека. По словам сотрудника OpenAI Итана Найта, модель справилась меньше чем за час, задействовав 64 параллельных сабагента. Сразу стоит отметить, что пока доказательство только проходит проверку математиками — и на данном этапе больше интересен подход, который OpenAI применила при решении задачи. Читать далее"
+    },
+    {
+      "id": "65a8c374837d229a",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/bitcoin-chain-splits-explained-why-every-btc-holder-gets-a-new-11-asset/",
+      "title_en": "Bitcoin Chain Splits Explained: Why Every BTC Holder Gets a New 1:1 Asset",
+      "summary_en": "Bitcoin has two forks on the calendar for 2026. Developer Paul Sztorc plans a deliberate hard fork called eCash, activating at block height 964,000, expected around August 21. Separately, a contested soft fork proposal called BIP-110 carries the chance of splitting the chain by accident during its August signaling window. Both events raise the same [&#8230;]",
+      "published_at": "2026-07-11T19:38:48+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Объяснение цепных разделений Bitcoin: почему каждый держатель BTC получает новый актив 1:1.",
+      "summary_ru": "В 2026 году у Bitcoin запланированы два форка. Разработчик Пол Сztorc планирует преднамеренный хард-форк под названием eCash, который активируется на высоте блока 964 000, ожидаемом около 21 августа. Отдельно существует спорное предложение о софт-форке BIP-110, которое может случайно разделить цепь в ходе своего сигнального окна в августе. Оба события поднимают одни и те же [...]"
+    },
+    {
+      "id": "0bdb1cbb83a14fb4",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1058190/?utm_campaign=1058190&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Два движка, два разных веба: почему ChatGPT-search и Яндекс-нейропоиск цитируют из 174 доменов только 7 общих",
+      "summary_en": "Я гоняю один и тот же пул из 60 промптов через шесть ИИ-движков раз в месяц — это часть мониторинга, который я веду для одной ниши. В какой-то момент решил не просто читать ответы, а посчитать, откуда движки берут источники. Ожидал разную выдачу по одной теме — обычное дело для поисковиков. Получил другое: два практически несвязанных множества доменов. Из 174 уникальных источников за последний срез общих оказалось 7. Расскажу, как я это посчитал, почему дело не в шуме прогона, а в архитектуре, и почему первый вывод оказался не там, где я его искал. Читать далее",
+      "published_at": "2026-07-11T19:22:16+00:00",
+      "topic": "Models",
+      "title_ru": "Два движка, два разных веба: почему ChatGPT-search и Яндекс-нейропоиск цитируют из 174 доменов только 7 общих",
+      "summary_ru": "Я гоняю один и тот же пул из 60 промптов через шесть ИИ-движков раз в месяц — это часть мониторинга, который я веду для одной ниши. В какой-то момент решил не просто читать ответы, а посчитать, откуда движки берут источники. Ожидал разную выдачу по одной теме — обычное дело для поисковиков. Получил другое: два практически несвязанных множества доменов. Из 174 уникальных источников за последний срез общих оказалось 7. Расскажу, как я это посчитал, почему дело не в шуме прогона, а в архитектуре, и почему первый вывод оказался не там, где я его искал. Читать далее"
+    },
+    {
+      "id": "449bab95bac1c361",
+      "source": "CryptoSlate",
+      "category": "crypto",
+      "url": "https://cryptoslate.com/crypto-won-the-etf-fight-but-now-the-sec-is-questioning-if-things-have-gone-too-far/",
+      "title_en": "Crypto won the ETF fight but now the SEC is questioning if things have gone too far",
+      "summary_en": "The ETF became one of Wall Street’s most powerful distribution tools because it turned market exposure into an easy-to-use and easy-to-understand retail product. Investors could buy an index, a basket of bonds, a commodity thesis, or a tightly packaged theme from the same account they use for blue-chip stocks. This was so convenient that it [&#8230;] The post Crypto won the ETF fight but now the SEC is questioning if things have gone too far appeared first on CryptoSlate .",
+      "published_at": "2026-07-11T19:05:51+00:00",
+      "topic": "DeFi",
+      "title_ru": "Криптовалюты выиграли битву за ETF, но теперь SEC ставит под сомнение, не зашли ли дела слишком далеко.",
+      "summary_ru": "ETF стал одним из самых мощных инструментов распределения на Уолл-Стрит, так как превратил рыночную экспозицию в удобный и понятный розничный продукт. Инвесторы могли покупать индекс, корзину облигаций, товарную стратегию или компактную тему из того же счета, который они используют для акций голубых фишек. Это было настолько удобно, что [...]"
+    },
+    {
+      "id": "b5d19d55b6017623",
+      "source": "Hacker News AI",
+      "category": "ai",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+      "title_en": "AI 2040 and the cult of intelligence",
+      "summary_en": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html Comments URL: https://news.ycombinator.com/item?id=48874200 Points: 191 # Comments: 224",
+      "published_at": "2026-07-11T18:04:01+00:00",
+      "topic": "Startups",
+      "title_ru": "AI 2040 и культ интеллекта",
+      "summary_ru": "Статья недоступна для перевода."
+    },
+    {
+      "id": "baa8fbb15d1d4bf1",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/these-3-missing-pieces-are-holding-bitcoin-back-says-analyst/",
+      "title_en": "These 3 Missing Pieces Are Holding Bitcoin Back, Says Analyst",
+      "summary_en": "Another analyst outlined the significance of $82,000 as a trend-changer.",
+      "published_at": "2026-07-11T18:04:00+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Эти три недостающие составляющие сдерживают Bitcoin, утверждает аналитик.",
+      "summary_ru": "Другой аналитик отметил значимость уровня в $82,000 как изменяющего тренд."
+    },
+    {
       "id": "84a75c7915515d46",
       "source": "Habr AI",
       "category": "ai",
@@ -265,6 +445,30 @@
       "summary_ru": "Минюст США планирует снять обвинения с предполагаемого организатора финансовой пирамиды BitClub Network Мэтью Гетче. Три его партнёра признали себя виновными в мошенничестве. По данным Bloomberg, после многолетней судебной тяжбы Министерство юстиции США планирует снять обвинения с организатора криптовалютной финансовой пирамиды. Офис заместителя генерального прокурора в Вашингтоне недавно распорядился, чтобы прокуратура США в Нью-Джерси прекратила уголовное [&#8230;] Источник"
     },
     {
+      "id": "f716fd39f1acaede",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/robinhood-crypto-ai-trading-us-customers/",
+      "title_en": "Robinhood Plans to Let AI Agents Trade Crypto for US Customers",
+      "summary_en": "Robinhood will soon let eligible US customers connect an artificial intelligence (AI) agent to a dedicated account and trade crypto on their behalf. The broker announced the expansion during a recent presentation, adding crypto to a product it first opened to equities in May.&#160; Agentic Trading Moves Into Crypto Robinhood launched Agentic Trading on May The post Robinhood Plans to Let AI Agents Trade Crypto for US Customers appeared first on BeInCrypto .",
+      "published_at": "2026-07-11T10:50:53+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Robinhood планирует разрешить AI-агентам торговать криптовалютой для клиентов из США.",
+      "summary_ru": "Robinhood вскоре позволит подходящим клиентам из США подключать искусственного интеллекта (AI) к специальному счету и торговать криптовалютой от их имени. Брокер объявил о расширении на недавней презентации, добавив криптовалюту к продукту, который впервые был открыт для акций в мае. Agentic Trading переходит в криптовалюту. Robinhood запустил Agentic Trading в мае."
+    },
+    {
+      "id": "efb87be84a7c8d2a",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1058106/?utm_campaign=1058106&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Apple подала иск к OpenAI за кражу промышленных секретов. Год назад они были главными ИИ-партнёрами",
+      "summary_en": "В ответчиках — не Альтман и не Джони Айв, а два бывших инженера Apple, но цель атаки — устройства OpenAI и её IPO. Читать далее",
+      "published_at": "2026-07-11T10:44:34+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Apple подала иск к OpenAI за кражу промышленных секретов. Год назад они были главными ИИ-партнёрами",
+      "summary_ru": "В ответчиках — не Альтман и не Джони Айв, а два бывших инженера Apple, но цель атаки — устройства OpenAI и её IPO. Читать далее"
+    },
+    {
       "id": "df3eb34b41ee430b",
       "source": "BeInCrypto EN",
       "category": "crypto",
@@ -289,6 +493,18 @@
       "summary_ru": "Платежное подразделение автопроизводителя Hyundai Motor Group — Hyundai Card — объявило об успешном завершении первого практического теста международных переводов в стейблкоинах между дочерними компаниями Hyundai Motor America и Hyundai Motor Mexico, пишут местные СМИ.&#160; Пилотный проект реализовали на блокчейне Avalanche при участии Tether и платежной инфраструктуры Axiym.&#160; Перевод за семь минут вместо нескольких часов В [&#8230;] Сообщение Hyundai протестировал международные переводы в стейблкоинах между подразделениями появились сначала на INCRYPTED ."
     },
     {
+      "id": "9c885636aaf20ccc",
+      "source": "Hacker News AI",
+      "category": "ai",
+      "url": "https://www.mixfont.com/ghost-font",
+      "title_en": "Ghost Font: A font that humans can read but AI cannot",
+      "summary_en": "Article URL: https://www.mixfont.com/ghost-font Comments URL: https://news.ycombinator.com/item?id=48870381 Points: 202 # Comments: 149",
+      "published_at": "2026-07-11T09:36:53+00:00",
+      "topic": "Startups",
+      "title_ru": "Ghost Font: Шрифт, который могут читать люди, но не могут распознать ИИ.",
+      "summary_ru": "Статья недоступна для перевода."
+    },
+    {
       "id": "4fedcf8822753f45",
       "source": "vc.ru AI",
       "category": "ai",
@@ -299,6 +515,18 @@
       "topic": "Research",
       "title_ru": "Виртуальная актриса Тилли Норвуд получила первую главную роль в полнометражном фильме «Несовпадение»",
       "summary_ru": "Виртуальная актриса Тилли Норвуд (Tilly Norwood), созданная с помощью ИИ, получила первую главную роль в полнометражном фильме «Несовпадение» (Misaligned). Проект разрабатывает британская студия Particle 6, которая специализируется на контенте с использованием ИИ. О запуске фильма студия объявила 6 июля 2026 года."
+    },
+    {
+      "id": "e69aceb8974459ff",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.news/kriptobirzha-kraken-zapustila-ii-pomoshhnikov-po-investirovaniyu/",
+      "title_en": "Криптобиржа Kraken запустила ИИ-помощников по инвестированию",
+      "summary_en": "Kraken запустила помощника по инвестированию на основе искусственного интеллекта. Kraken присоединилась к Gemini, Coinbase, Binance и OKX в гонке за внедрение ИИ в криптотрейдинг. Kraken запустила помощника по инвестированию на основе искусственного интеллекта. Новый сервис даёт пользователям персонализированные рекомендации по формированию портфеля и аналитику рынка, но при этом оставляет за ними право принимать окончательные торговые [&#8230;] Источник",
+      "published_at": "2026-07-11T08:46:45+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Криптобиржа Kraken запустила ИИ-помощников по инвестированию",
+      "summary_ru": "Kraken запустила помощника по инвестированию на основе искусственного интеллекта. Kraken присоединилась к Gemini, Coinbase, Binance и OKX в гонке за внедрение ИИ в криптотрейдинг. Kraken запустила помощника по инвестированию на основе искусственного интеллекта. Новый сервис даёт пользователям персонализированные рекомендации по формированию портфеля и аналитику рынка, но при этом оставляет за ними право принимать окончательные торговые [&#8230;] Источник"
     },
     {
       "id": "b03b45cb2bd8754f",
@@ -65379,254 +65607,8 @@
       "topic": "Regulations",
       "title_ru": "Новый проект Activeloop превращает следы работы ИИ-агентов в навыки, которые можно использовать между сессиями",
       "summary_ru": "Компания Activeloop представила Hivemind — открытый слой памяти для ИИ-агентов, которые используются в разработке программного обеспечения. Система подключается к инструментам вроде Claude Code, Codex, Cursor, OpenClaw, Hermes и pi, сохраняет следы их работы и превращает повторяющиеся решения в навыки, доступные следующим запускам. Разработчики описывают Hivemind как «общий мозг» для агентов команды."
-    },
-    {
-      "id": "07eb036ff876de6f",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/contentai/articles/1045272/?utm_campaign=1045272&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Как мы за 3 дня сделали ИИ-ревьюер кода и что поняли месяц спустя",
-      "summary_en": "С код-ревью есть такой парадокс: все согласны, что он важен, но времени на него обычно ни у кого нет. В результате ревью часто превращается в формальность. Очевидные баги при этом ловятся, а мелкие, вроде пропуска в условиях, перепутанные знаки, забытые edge cases и т.д., могут спокойно уехать в мердж и вернуться уже в виде задач в багтрекере.&nbsp; В Content AI мы активно внедряем ИИ в разработку, и одна из задач, которую мы решали в этом году, — автоматизация код-ревью. В этой статье рассказываем, как одна из наших команд собрала ИИ-ревьюера, встроенного в Pull Request, и что мы поняли спустя месяц использования.&nbsp; Читать далее",
-      "published_at": "2026-06-11T13:43:26+00:00",
-      "topic": "Research",
-      "title_ru": "Как мы за 3 дня сделали ИИ-ревьюер кода и что поняли месяц спустя",
-      "summary_ru": "С код-ревью есть такой парадокс: все согласны, что он важен, но времени на него обычно ни у кого нет. В результате ревью часто превращается в формальность. Очевидные баги при этом ловятся, а мелкие, вроде пропуска в условиях, перепутанные знаки, забытые edge cases и т.д., могут спокойно уехать в мердж и вернуться уже в виде задач в багтрекере.&nbsp; В Content AI мы активно внедряем ИИ в разработку, и одна из задач, которую мы решали в этом году, — автоматизация код-ревью. В этой статье рассказываем, как одна из наших команд собрала ИИ-ревьюера, встроенного в Pull Request, и что мы поняли спустя месяц использования.&nbsp; Читать далее"
-    },
-    {
-      "id": "45647abc398c0d5a",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/articles/1046582/?utm_campaign=1046582&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Модели почти год, а она всё ещё №1 по цене/качеству. Прогнал свежий батл-тест — и опять не сдвинул",
-      "summary_en": "Я собрал четыре модели в один батч — две Gemma, DeepSeek V4 Flash и Qwen3-235B — потому что не поверил кросс-сессионным данным: выходило, что маленькая Gemma обошла большую. В честной очной ставке сюрприз развеялся, обе Gemma оказались вровень. Зато всплыло другое. DeepSeek V4 Flash, который у меня числился на 83, выдал 89 — был недооценён на 6 баллов. А Qwen3-235B-A22B-2507 — модель, вышедшая 21 июля 2025 года, — снова взяла первое место по цене/качеству. Почти год прошёл: Gemini прыгнул с 57 до 97, DeepSeek я перетестировал трижды, MiniMax все хвалят как ровню Opus. А этот июльский чекпойнт просто держит трон, и я уже почти обижаюсь за прогресс. В статье: разбор очной ставки, хронология ретестов одной модели за год, новый критерий — скорость генерации, ещё восемь моделей июня, непопулярное мнение про раскрутку MiniMax и две новые колонки на лидерборде. Читать далее",
-      "published_at": "2026-06-11T13:43:05+00:00",
-      "topic": "Models",
-      "title_ru": "Модели почти год, а она всё ещё №1 по цене/качеству. Прогнал свежий батл-тест — и опять не сдвинул",
-      "summary_ru": "Я собрал четыре модели в один батч — две Gemma, DeepSeek V4 Flash и Qwen3-235B — потому что не поверил кросс-сессионным данным: выходило, что маленькая Gemma обошла большую. В честной очной ставке сюрприз развеялся, обе Gemma оказались вровень. Зато всплыло другое. DeepSeek V4 Flash, который у меня числился на 83, выдал 89 — был недооценён на 6 баллов. А Qwen3-235B-A22B-2507 — модель, вышедшая 21 июля 2025 года, — снова взяла первое место по цене/качеству. Почти год прошёл: Gemini прыгнул с 57 до 97, DeepSeek я перетестировал трижды, MiniMax все хвалят как ровню Opus. А этот июльский чекпойнт просто держит трон, и я уже почти обижаюсь за прогресс. В статье: разбор очной ставки, хронология ретестов одной модели за год, новый критерий — скорость генерации, ещё восемь моделей июня, непопулярное мнение про раскрутку MiniMax и две новые колонки на лидерборде. Читать далее"
-    },
-    {
-      "id": "b4c46808a7f47ea9",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/tether-neura-robotics-funding-round/",
-      "title_en": "Tether Leads $1.4 Billion Funding Round for NEURA Robotics",
-      "summary_en": "Tether leads a $1.4 billion Series C for NEURA Robotics, adding wallets and edge AI to power a machine economy. The post Tether Leads $1.4 Billion Funding Round for NEURA Robotics appeared first on BeInCrypto .",
-      "published_at": "2026-06-11T13:42:51+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Tether возглавила раунд финансирования в размере 1,4 миллиарда долларов для NEURA Robotics.",
-      "summary_ru": "Tether возглавила раунд финансирования Series C на сумму 1,4 миллиарда долларов для NEURA Robotics, добавляя кошельки и edge AI для поддержки машинной экономики.",
-      "duplicates": [
-        {
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/06/11/tether-leads-usd1-4-billion-funding-round-in-german-robotics-company-neura",
-          "title_en": "Tether leads $1.4 billion funding round in German robotics company Neura",
-          "title_ru": "Tether возглавила раунд финансирования в размере 1,4 миллиарда долларов в немецкой робототехнической компании Neura.",
-          "published_at": "2026-06-11T13:49:27+00:00"
-        }
-      ]
-    },
-    {
-      "id": "247bb78a0fd4622c",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "url": "https://cointelegraph.com/markets/bitcoin-tags-632k-as-btc-price-action-ignores-new-iran-hormuz-closure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title_en": "Bitcoin tags $63.2K as BTC price action ignores inflation, Iran Hormuz closure",
-      "summary_en": "Bitcoin mostly preserved a recent rebound despite the highest US PPI inflation since October 2022 and Iran closing the Strait of Hormuz oil route.",
-      "published_at": "2026-06-11T13:41:47+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Биткойн достиг $63,2K, несмотря на инфляцию и закрытие Ормузского пролива в Иране.",
-      "summary_ru": "Биткойн в основном сохранил недавний рост, несмотря на самый высокий уровень инфляции PPI в США с октября 2022 года и закрытие Ираном нефтяного маршрута в Ормузском проливе."
-    },
-    {
-      "id": "a746acc609b2fc1a",
-      "source": "CryptoSlate",
-      "category": "crypto",
-      "url": "https://cryptoslate.com/bitcoin-60000-support-dxy-yields/",
-      "title_en": "Bitcoin’s $60,000 support is still a bet on the dollar breaking",
-      "summary_en": "Glassnode's latest Week On-chain report says Bitcoin has entered a deep discount phase, with over 95% of short-term holders underwater and realized losses approaching levels associated with severe capitulation. The report also notes that a durable Bitcoin recovery is likely to require either the dollar index breaking below 99 or the 10-year Treasury yield compressing [&#8230;] The post Bitcoin’s $60,000 support is still a bet on the dollar breaking appeared first on CryptoSlate .",
-      "published_at": "2026-06-11T13:30:56+00:00",
-      "topic": "DeFi",
-      "title_ru": "Поддержка Bitcoin на уровне $60,000 по-прежнему является ставкой на падение доллара.",
-      "summary_ru": "Последний отчет Glassnode \"Week On-chain\" сообщает, что Биткойн вошел в фазу глубоких скидок, при этом более 95% краткосрочных держателей находятся в убытке, а реализованные потери приближаются к уровням, связанным с серьезной капитуляцией. В отчете также отмечается, что для устойчивого восстановления Биткойна, вероятно, потребуется либо индекс доллара, опустившийся ниже 99, либо сжатие доходности 10-летних казначейских облигаций."
-    },
-    {
-      "id": "0a1f9588cd769f15",
-      "source": "InCrypted",
-      "category": "crypto",
-      "url": "https://incrypted.com/gendirektora-bithumb-podozrevayut-vo-vzyatke-mog-pomoch-synu-deputata-ustroitsya-na-rabotu/",
-      "title_en": "Гендиректора Bithumb подозревают во взятке: он мог помочь сыну депутата устроиться на работу",
-      "summary_en": "Полиция Южной Кореи расследует генерального директора криптобиржи Bithumb Ли Дже Вона (Lee Jae-won) по подозрению в возможном содействии трудоустройству младшего сына независимого депутата Ким Бен Ги. Об этом сообщают местные СМИ. По данным следствия, Сеульское управление полиции по расследованию финансовых преступлений рассматривает дело о возможной даче взятки и других правонарушениях. Следователи считают, что Ли Дже [&#8230;] Сообщение Гендиректора Bithumb подозревают во взятке: он мог помочь сыну депутата устроиться на работу появились сначала на INCRYPTED .",
-      "published_at": "2026-06-11T13:30:33+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Гендиректора Bithumb подозревают во взятке: он мог помочь сыну депутата устроиться на работу",
-      "summary_ru": "Полиция Южной Кореи расследует генерального директора криптобиржи Bithumb Ли Дже Вона (Lee Jae-won) по подозрению в возможном содействии трудоустройству младшего сына независимого депутата Ким Бен Ги. Об этом сообщают местные СМИ. По данным следствия, Сеульское управление полиции по расследованию финансовых преступлений рассматривает дело о возможной даче взятки и других правонарушениях. Следователи считают, что Ли Дже [&#8230;] Сообщение Гендиректора Bithumb подозревают во взятке: он мог помочь сыну депутата устроиться на работу появились сначала на INCRYPTED ."
-    },
-    {
-      "id": "c71da3790c594f8e",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/trending-fifa-world-cup-tokens-dex-analysis/",
-      "title_en": "What World Cup Tokens are Hot on DEXs as FIFA Fever Kicks Off?",
-      "summary_en": "The 2026 World Cup kicks off today as Mexico meets South Africa at Estadio Azteca. The on-chain tournament started early. World Cup tokens turned over $49.4 million on decentralized exchanges in 24 hours. Social feeds carry the promotion. The flows below show who actually bought. Peak World Cup Hype Before the First Whistle X timelines The post What World Cup Tokens are Hot on DEXs as FIFA Fever Kicks Off? appeared first on BeInCrypto .",
-      "published_at": "2026-06-11T13:28:51+00:00",
-      "topic": "DeFi",
-      "title_ru": "Какие токены Кубка мира популярны на DEX в преддверии начала чемпионата FIFA?",
-      "summary_ru": "Чемпионат мира 2026 года начинается сегодня, когда Мексика встречается с Южной Африкой на стадионе Эстадио Азтека. Турнир на блокчейне стартовал раньше. Токены чемпионата мира обошлись в более чем 49,4 миллиона долларов на децентрализованных биржах за 24 часа. Социальные сети активно продвигают это событие. Ниже представлены данные о том, кто на самом деле совершал покупки. Пик ажиотажа вокруг чемпионата мира перед первым свистком."
-    },
-    {
-      "id": "5f7536dd1e824543",
-      "source": "CryptoPotato",
-      "category": "crypto",
-      "url": "https://cryptopotato.com/ethereum-eth-could-crash-to-this-level-before-next-bull-run-says-analyst/",
-      "title_en": "Ethereum (ETH) Could Crash to This Level Before Next Bull Run, Says Analyst",
-      "summary_en": "ETH's next major bullish phase could begin only after the crypto revisits historically important accumulation levels.",
-      "published_at": "2026-06-11T13:27:11+00:00",
-      "topic": "Ethereum",
-      "title_ru": "Аналитик: Ethereum (ETH) может упасть до этого уровня перед следующим бычьим рынком.",
-      "summary_ru": "Следующая крупная бычья фаза ETH может начаться только после того, как криптовалюта вернется к исторически важным уровням накопления."
-    },
-    {
-      "id": "bea24aa7eac50d2d",
-      "source": "Hacker News AI",
-      "category": "ai",
-      "url": "https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6",
-      "title_en": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
-      "summary_en": "Article URL: https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6 Comments URL: https://news.ycombinator.com/item?id=48490057 Points: 221 # Comments: 186",
-      "published_at": "2026-06-11T13:26:59+00:00",
-      "topic": "Startups",
-      "title_ru": "Работники тратят более 6 часов в неделю на присмотр за ИИ-ботами, что вызывает недовольство на работе.",
-      "summary_ru": "На рабочем месте все чаще используются боты, однако за их действиями может скрываться человеческий труд. Это явление, известное как \"botsitting\", подразумевает, что люди контролируют и управляют автоматизированными системами, чтобы обеспечить их эффективное функционирование. Несмотря на то, что такие технологии обещают повысить производительность и снизить затраты, они также могут привести к неочевидным формам эксплуатации труда. Работники, занимающиеся \"botsitting\", могут получать низкую оплату и работать в условиях, которые не всегда соответствуют стандартам. Это поднимает важные вопросы о прозрачности и этике в использовании AI-технологий на рабочем месте."
-    },
-    {
-      "id": "5ac184fb0e0804f0",
-      "source": "CoinSpot",
-      "category": "crypto",
-      "url": "https://coinspot.io/analysis/boj-rate-decision-bitcoin-whales-pressure-btc/",
-      "title_en": "Трейдеры следят за решением Банка Японии: ждёт ли биткоин новый импульс?",
-      "summary_en": "16 июня Банк Японии проведёт очередное заседание по процентной ставке. На рынке криптовалют к этому событию относятся настороженно: в четырёх предыдущих случаях после повышения ставки биткоин терял от 18% до 28%. Впрочем, сейчас инвесторов беспокоит не только японский регулятор. Ончейн-данные показывают рост переводов BTC на биржи со стороны крупных держателей, а такие движения нередко предшествуют [&#8230;]",
-      "published_at": "2026-06-11T13:23:45+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Трейдеры следят за решением Банка Японии: ждёт ли биткоин новый импульс?",
-      "summary_ru": "16 июня Банк Японии проведёт очередное заседание по процентной ставке. На рынке криптовалют к этому событию относятся настороженно: в четырёх предыдущих случаях после повышения ставки биткоин терял от 18% до 28%. Впрочем, сейчас инвесторов беспокоит не только японский регулятор. Ончейн-данные показывают рост переводов BTC на биржи со стороны крупных держателей, а такие движения нередко предшествуют [&#8230;]"
-    },
-    {
-      "id": "03414517e8c3c8fd",
-      "source": "Forklog",
-      "category": "crypto",
-      "url": "https://forklog.com/nizhnyaya-palata-yaponii-odobrila-priznanie-kriptoaktivov-fininstrumentami",
-      "title_en": "Нижняя палата Японии одобрила признание криптоактивов фининструментами",
-      "summary_en": "Нижняя палата парламента Японии одобрила законопроект, который переносит регулирование криптоактивов из Закона о платежных услугах в Закон о финансовых инструментах и биржах. Документ вводит для рынка более строгие правила торговли, включая запрет инсайдерских сделок. После прохождения верхней палаты закон, как ожидается, вступит в силу в 2027 году. Изменения также могут открыть путь к снижению налога на доходы от операций с криптоактивами до 20% и запуску ETF.",
-      "published_at": "2026-06-11T13:23:11+00:00",
-      "topic": "Regulations",
-      "title_ru": "Нижняя палата Японии одобрила признание криптоактивов фининструментами",
-      "summary_ru": "Нижняя палата парламента Японии одобрила законопроект, который переносит регулирование криптоактивов из Закона о платежных услугах в Закон о финансовых инструментах и биржах. Документ вводит для рынка более строгие правила торговли, включая запрет инсайдерских сделок. После прохождения верхней палаты закон, как ожидается, вступит в силу в 2027 году. Изменения также могут открыть путь к снижению налога на доходы от операций с криптоактивами до 20% и запуску ETF."
-    },
-    {
-      "id": "d6ffa8b6c571c99b",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/infera_security/articles/1046568/?utm_campaign=1046568&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Влияние ИИ на кибербезопасность: MITRE ATLAS и новый ландшафт угроз",
-      "summary_en": "Сегодня искусственный интеллект кардинально меняет как подходы к защите, так и методы атак. С развитием технологий ИИ-модели могут обрабатывать и анализировать огромные объемы данных в реальном времени. Это активно использует не только бизнес, но и злоумышленники. В статье рассмотрим современные методы атак на AI и ML-системы, расскажем про практическое применение MITRE ATLAS для моделирования угроз и выстраивания защиты через четыре системных элемента: AI Среда, AI Платформа, AI Модель и AI Данные. Читать далее",
-      "published_at": "2026-06-11T13:22:34+00:00",
-      "topic": "Research",
-      "title_ru": "Влияние ИИ на кибербезопасность: MITRE ATLAS и новый ландшафт угроз",
-      "summary_ru": "Сегодня искусственный интеллект кардинально меняет как подходы к защите, так и методы атак. С развитием технологий ИИ-модели могут обрабатывать и анализировать огромные объемы данных в реальном времени. Это активно использует не только бизнес, но и злоумышленники. В статье рассмотрим современные методы атак на AI и ML-системы, расскажем про практическое применение MITRE ATLAS для моделирования угроз и выстраивания защиты через четыре системных элемента: AI Среда, AI Платформа, AI Модель и AI Данные. Читать далее"
-    },
-    {
-      "id": "76d9cca6b9e641a4",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/bitcoin-traders-eye-64k-resistance-as-rsi-hangs-at-the-lowest-level-since-november-2018/",
-      "title_en": "Bitcoin Traders Eye $64K Resistance as RSI Hangs at the Lowest Level Since November 2018",
-      "summary_en": "Bitcoin rebounded 2.3% on June 11, 2026, climbing from a session low of $60,914 to a high of $63,200, but technical indicators present a divided picture that traders are watching closely. Intraday Recovery Holds Above $62K The 24-hour gain brought bitcoin’s price to approximately $62,780 at the time of analysis, with a market capitalization near [&#8230;]",
-      "published_at": "2026-06-11T13:18:00+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Трейдеры Биткойна обращают внимание на уровень сопротивления в $64K, так как RSI находится на самом низком уровне с ноября 2018 года.",
-      "summary_ru": "Биткойн вырос на 2,3% 11 июня 2026 года, поднявшись с минимального уровня сессии в $60,914 до максимума в $63,200, однако технические индикаторы показывают разрозненную картину, за которой трейдеры внимательно следят. Внутридневное восстановление держится выше $62K. Суточный прирост привел к тому, что цена биткойна составила примерно $62,780 на момент анализа, с рыночной капитализацией около [...]"
-    },
-    {
-      "id": "75f5c2fdd9a2b6ec",
-      "source": "The Block",
-      "category": "crypto",
-      "url": "https://www.theblock.co/post/402943/the-incentive-dynamic-engine-io-nets-shift-to-sustainable-tokenomics?utm_source=rss&utm_medium=rss",
-      "title_en": "The Incentive Dynamic Engine: io.net’s Shift to Sustainable Tokenomics",
-      "summary_en": "DePIN Needs a Tokenomics Reset In recent years, DePINs have surged in prominence, offering a revolutionary model for scaling physical infrastructure through community-driven participation. By leveraging blockchain to coordinate resources like compute power and storage, these protocols promise a future where essential services are provided by a global collective rather than a handful of centralized [&hellip;]",
-      "published_at": "2026-06-11T13:14:52+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Динамический двигатель стимулов: переход io.net к устойчивой токеномике",
-      "summary_ru": "DePIN нуждается в пересмотре токеномики В последние годы DePIN стали набирать популярность, предлагая революционную модель масштабирования физической инфраструктуры через участие сообщества. Используя блокчейн для координации ресурсов, таких как вычислительная мощность и хранилище, эти протоколы обещают будущее, в котором основные услуги будут предоставляться глобальным коллективом, а не несколькими централизованными [...]"
-    },
-    {
-      "id": "02552cb81427bcd6",
-      "source": "NVIDIA AI Blog",
-      "category": "ai",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-summer-sale-2026/",
-      "title_en": "Save Big and Play Bigger: GeForce NOW Summer Sale Brings Major Membership Savings",
-      "summary_en": "The GeForce NOW summer sale kicked off today with limited-time savings of up to $70 off a 12-month membership, making now the perfect time to upgrade to get the best of the cloud and see just how far Ultimate gaming can go. PC gamers are driven by one thing: the love of the game. But [&#8230;]",
-      "published_at": "2026-06-11T13:00:17+00:00",
-      "topic": "Research",
-      "title_ru": "Сэкономьте много и играйте больше: летняя распродажа GeForce NOW предлагает значительные скидки на подписки.",
-      "summary_ru": "Сегодня стартовала летняя распродажа GeForce NOW с ограниченными по времени скидками до $70 на 12-месячную подписку, что делает сейчас идеальным временем для обновления и получения максимума от облачного гейминга, чтобы увидеть, насколько далеко может зайти Ultimate gaming. ПК-геймеров движет одно: любовь к игре. Но [...]"
-    },
-    {
-      "id": "4a8b2ce901d16750",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "url": "https://cointelegraph.com/news/digital-asset-355m-16z-wall-street-blockchain-rails?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title_en": "Digital Asset lands $355M as a16z doubles down on Wall Street blockchain rails",
-      "summary_en": "Digital Asset raised $355M in an a16z‑led round at a $2B valuation, extending a Wall Street‑backed funding run as banks ramp up pilots on its Canton Network blockchain.",
-      "published_at": "2026-06-11T12:59:11+00:00",
-      "topic": "Regulations",
-      "title_ru": "Digital Asset привлекла $355 млн, так как a16z усиливает свои позиции на блокчейн-рынке Уолл-стрита.",
-      "summary_ru": "Digital Asset привлекла $355 млн в раунде финансирования, возглавляемом a16z, при оценке в $2 млрд, продолжая финансирование, поддерживаемое Уолл-стритом, на фоне увеличения пилотных проектов банков на блокчейне Canton Network.",
-      "duplicates": [
-        {
-          "source": "Bitcoin.com",
-          "url": "https://news.bitcoin.com/institutional-giants-back-355m-canton-network-round-as-dtcc-treasury-deal-nears/",
-          "title_en": "Institutional Giants Back $355M Canton Network Round as DTCC Treasury Deal Nears",
-          "title_ru": "Институциональные гиганты поддержали раунд финансирования Canton Network на сумму 355 миллионов долларов, поскольку сделка с казначейством DTCC близка к завершению.",
-          "published_at": "2026-06-11T14:05:32+00:00"
-        }
-      ]
-    },
-    {
-      "id": "d8d01e8cd1eae84d",
-      "source": "Crypto Briefing",
-      "category": "crypto",
-      "url": "https://cryptobriefing.com/newcastle-bid-victor-munoz-osasuna/",
-      "title_en": "Newcastle submits official bid for Victor Muñoz from Osasuna",
-      "summary_en": "Newcastle's strategic bid for Muoz highlights their ambition to strengthen the squad, potentially reshaping their competitive edge in the league. The post Newcastle submits official bid for Victor Muñoz from Osasuna appeared first on Crypto Briefing .",
-      "published_at": "2026-06-11T12:58:56+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Ньюкасл подал официальное предложение за Виктора Муньоса из Осасуны.",
-      "summary_ru": "Стратегическая ставка Ньюкасла на Муноса подчеркивает их амбиции укрепить состав, что может изменить их конкурентные позиции в лиге."
-    },
-    {
-      "id": "f0e11262994b79a7",
-      "source": "Crypto Briefing",
-      "category": "crypto",
-      "url": "https://cryptobriefing.com/us-ppi-rises-exceeds-expectations-crypto/",
-      "title_en": "US PPI rises to 6.5%, exceeding expectations and raising fresh inflation concerns for crypto markets",
-      "summary_en": "Rising PPI complicates Fed's rate decisions, potentially dampening crypto appeal as investors favor safer, yield-bearing assets. The post US PPI rises to 6.5%, exceeding expectations and raising fresh inflation concerns for crypto markets appeared first on Crypto Briefing .",
-      "published_at": "2026-06-11T12:58:53+00:00",
-      "topic": "Macro",
-      "title_ru": "Индекс цен производителей (PPI) в США вырос до 6,5%, превысив ожидания и вызвав новые опасения по поводу инфляции на крипторынках.",
-      "summary_ru": "Рост PPI усложняет решения ФРС по ставкам, что может снизить привлекательность криптовалют, так как инвесторы предпочитают более безопасные активы с доходностью. Показатель PPI в США вырос до 6,5%, превысив ожидания и вызвав новые опасения по поводу инфляции на крипторынках."
-    },
-    {
-      "id": "64c1ef834a7e3267",
-      "source": "CoinDesk",
-      "category": "crypto",
-      "url": "https://www.coindesk.com/business/2026/06/10/ondo-finance-hires-former-invesco-etf-chief-to-build-onchain-investment-products",
-      "title_en": "Ondo Finance hires former Invesco ETF chief to build onchain investment products",
-      "summary_en": "",
-      "published_at": "2026-06-11T12:57:56+00:00",
-      "topic": "Macro",
-      "title_ru": "Ondo Finance нанимает бывшего руководителя ETF Invesco для разработки инвестиционных продуктов на блокчейне.",
-      "summary_ru": ""
     }
   ],
-  "updated_at": "2026-07-11T17:02:15.625440+00:00",
+  "updated_at": "2026-07-12T05:02:18.312325+00:00",
   "total": 5000
 }
