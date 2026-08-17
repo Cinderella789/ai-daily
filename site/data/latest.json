@@ -1,6 +1,234 @@
 {
-  "generated_at": "2026-08-16T17:00:49.850956+00:00",
+  "generated_at": "2026-08-17T05:00:43.547892+00:00",
   "items": [
+    {
+      "id": "c20f3d0bc9e5f693",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/regulation-and-legal/austria-fines-bitpanda-70000-euros-in-first-mica-crypto-penalty/",
+      "title_en": "Austria Fines Bitpanda 70,000 Euros in First MiCA Crypto Penalty",
+      "summary_en": "The penalty, one of the first under the MiCA framework, marks the start of an era of oversight of VASPs&#8217; activities to ensure the uniform application of the framework across the EU. The Austrian Financial Market Authority (FMA) stressed that no special treatment would be given to Bitpanda. Austria Fines Bitpanda for MiCA-related Violations While [&#8230;]",
+      "published_at": "2026-08-17T03:05:38+00:00",
+      "topic": "Regulations",
+      "title_ru": "Австрия оштрафовала Bitpanda на 70 000 евро в первом штрафе по регламенту MiCA.",
+      "summary_ru": "Штраф, один из первых в рамках MiCA, ознаменовывает начало эпохи надзора за деятельностью VASP для обеспечения единообразного применения регламента по всему ЕС. Австрийское управление финансового рынка (FMA) подчеркнуло, что Bitpanda не получит особого обращения. Австрия оштрафовала Bitpanda за нарушения, связанные с MiCA."
+    },
+    {
+      "id": "5b820517e68ae00f",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/featured/xrp-holders-can-trade-options-on-derive-with-fxrp-collateral/",
+      "title_en": "XRP Holders Can Trade Options on Derive With FXRP Collateral",
+      "summary_en": "Derive now accepts FXRP as collateral for XRP options, perpetual futures and spot trades, expanding the token’s onchain utility. The integration gives wallet users self-custodial access to hedging, premium-generating and leveraged strategies. FXRP Opens Onchain XRP Derivatives Access XRP holders can now use FXRP as collateral for options, perpetual futures and spot trades on Derive, [&#8230;]",
+      "published_at": "2026-08-17T00:22:10+00:00",
+      "topic": "DeFi",
+      "title_ru": "Держатели XRP могут торговать опционами на Derive с обеспечением FXRP.",
+      "summary_ru": "Derive теперь принимает FXRP в качестве залога для опционов на XRP, бессрочных фьючерсов и спотовых торгов, расширяя возможности токена в сети. Интеграция предоставляет пользователям кошельков доступ к самоуправляемым хеджированию, стратегиям генерации премий и кредитному плечу. FXRP открывает доступ к производным инструментам XRP в сети. Владельцы XRP теперь могут использовать FXRP в качестве залога для опционов, бессрочных фьючерсов и спотовых торгов на Derive."
+    },
+    {
+      "id": "5d80ce7e11f5fa42",
+      "source": "Simon Willison",
+      "category": "ai",
+      "url": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
+      "title_en": "Markdown SVG upgrades",
+      "summary_en": "I started building my markdown-svg-renderer tool in May , but I've since added enough features to it that it's worth talking about here again. It's evolved into my ideal tool for sharing Markdown transcripts that include SVG documents. Given my proclivity for drawing pelicans riding bicycles this is a problem that I needed to solve! The tool is very simple. Navigate to markdown-svg-renderer in your browser and paste in some Markdown to see it rendered... or save that Markdown to a CORS-friendly URL or a GitHub Gist and paste in a URL to that document. The URL option will give you a bookmarkable page, for example https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657 - which bakes in the URL to this Gist . If you visit the Gist you'll see raw SVG: In the rendered tool that looks like this instead: As you can see, that SVG block in the Markdown has been transformed into a rendered SVG (in this case animated) plus several tabs. The tabs are the really fun bit. The PNG and JPEG tabs render that SVG to those image formats in the browser and lets you copy or download them - useful for sharing on platforms that don't support SVG directly. The MP4 tab is new today - it examines the SVG to see if it contains any animations, attempts to guess how long the looped video should be, then renders a whole bunch of frames of the animation and loads 30+MB of ffmpeg.wasm so it can compile those frames into an MP4 video using the full power of FFMPEG compiled to WebAssembly and running in the browser. Being able to turn an animated SVG into a MP4 again makes it easy to share on platforms that can't support SVG animation natively. It's a neat trick! Tags: svg , markdown , tools",
+      "published_at": "2026-08-16T23:59:37+00:00",
+      "topic": "Startups",
+      "title_ru": "Обновления SVG в Markdown",
+      "summary_ru": "Я начал разрабатывать свой инструмент markdown-svg-renderer в мае, но с тех пор добавил в него достаточно функций, чтобы снова о нем рассказать. Он стал моим идеальным инструментом для обмена транскрипциями Markdown, которые включают SVG-документы. Учитывая мою склонность к рисованию пеликанов на велосипедах, это была задача, которую мне нужно было решить! Инструмент очень прост. Перейдите на markdown-svg-renderer в вашем браузере и вставьте немного Markdown, чтобы увидеть его рендеринг... или сохраните этот Markdown на URL, совместимом с CORS, или в GitHub Gist и вставьте URL этого документа. Опция с URL даст вам страницу, которую можно добавить в закладки, например https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657 - который включает URL этого Gist. Если вы посетите Gist, вы увидите сырой SVG: в рендеренном инструменте он выглядит так: Как вы можете видеть, этот блок SVG в Markdown был преобразован в рендеренный SVG (в данном случае анимированный) плюс несколько вкладок. Вкладки - это действительно интересная часть. Вкладки PNG и JPEG рендерят этот SVG в эти форматы изображений в браузере и позволяют вам копировать или загружать их - полезно для обмена на платформах, которые не поддерживают SVG напрямую. Вкладка MP4 новая сегодня - она анализирует SVG, чтобы увидеть, содержит ли он какие-либо анимации, пытается угадать, сколько времени должно длиться зацикленное видео, затем рендерит множество кадров анимации и загружает более 30 МБ ffmpeg.wasm, чтобы скомпилировать эти кадры в видео MP4, используя всю мощь FFMPEG, скомпилированного в WebAssembly и работающего в браузере. Возможность превратить анимированный SVG в MP4 снова упрощает обмен на платформах, которые не могут поддерживать анимацию SVG нативно. Это интересный трюк! Теги: svg, markdown, инструменты"
+    },
+    {
+      "id": "b00ac467a3dbd73d",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/delios-jeong-sang-ho-handed-15-year-sentence-over-70b-won-crypto-scandal/",
+      "title_en": "Delio’s Jeong Sang-ho Handed 15-Year Sentence Over 70B Won Crypto Scandal",
+      "summary_en": "South Korean prosecutors initially sought 20 years, but Delio CEO Jeong Sang-ho ultimately received 15 years for the crypto fraud case.",
+      "published_at": "2026-08-16T22:35:57+00:00",
+      "topic": "Regulations",
+      "title_ru": "Джонг Сан-хо из Delio приговорен к 15 годам тюремного заключения за криптовалютный скандал на 70 миллиардов вон.",
+      "summary_ru": "Южнокорейские прокуроры изначально запрашивали 20 лет, но генеральный директор Delio Чонг Сан-хо в конечном итоге получил 15 лет за дело о крипто-мошенничестве."
+    },
+    {
+      "id": "097582375e87a56f",
+      "source": "Simon Willison",
+      "category": "ai",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "title_en": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+      "summary_en": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's self-reported benchmarks for this model are eye-opening. They show a boost from both Qwen 3.6 27B and the closed-weight Qwen 3.7-Plus, which was one of Qwen's strongest models of any size as recently as May this year . It will be interesting to hear what independent benchmarks have to say about the model. I've been running the model on two different machines: my 128GB M5 Max MacBook Pro, and an NVIDIA DGX Spark . On both machines I'm running LM Studio and their 17GB Q4_K_M quantized build . I also tried using llama-server directly on the Spark. The default of extra high results in spectacular over-thinking Qwen's documentation describes the model as defaulting to xhigh for the reasoning effort, and the LM Studio GGUF I've been trying preserves that default: Qwen3.8 comes with official support for reasoning_effort , which can be used to adjust reasoning depth and control cost: xhigh (default): for complex tasks demanding thorough analysis medium : balancing accuracy and speed low : efficient reasoning optimizing for speed and cost This is a hilarious default. It's absolutely not a good way to run the model, especially on consumer hardware. I've been finding the results extremely entertaining. I quickly ran into problems with LM Studio's default context limit of 8,192 tokens - Qwen was using them all up thinking about even the most mundane of problems. I loaded the model with the full 262,144 maximum context length and that problem went away. Here's the pelican riding a bicycle SVG I got from my first attempt with that increased context length. It took 21 minutes to generate, using 22,276 reasoning tokens to produce 3,223 tokens of output. You can read the reasoning trace here . This is by far the best pelican SVG I've been able to generate with a model that runs on a local machine - and this Qwen is pretty small, just a 17GB file on disk. There's a lot to like about this: The bicycle frame is the right shape It has legs on each side of the bike - that's very rare Good, clear pelican pouch The wings extend to touch the handlebars! The motion lines are behind, not in front It has a tasteful background - nice sun, clouds, hill, flowers and grass. Was that worth waiting 21 minutes for? Absolutely not. Here's that same prompt run with reasoning turned off - transcript here . This one produced 3,715 tokens and took 137s - just over two minutes. And just for completeness, I used OpenRouter to run the same prompt through the much larger Qwen 3.8 2.4T-A95B (released last week ) and got this snazzy animated SVG : Your browser does not support HTML5 video. I said Qwen at xhigh has a tendency to over-think things, but how bad really is it? I tried a much simpler prompt, again with that default extra high setting: draw an svg of a circle Qwen's reasoning trace started like this: The user is asking for an SVG drawing of a circle. Simple request — but I want it to be a carefully crafted piece. Let me make something that goes beyond just &lt;circle&gt; : a single self-contained SVG file with character — maybe a geometric \"circle study,\" with subtle animation, layered rings, and a distinctive palette. Keep the scope right: they asked for an SVG of a circle. So the core is a circle. But I can add craft: concentric guide circles (like a compass/geometry drawing), tick marks, a soft gradient fill on the main circle, restrained ambient motion (a slowly rotating dashed ring, pulsing glow). Respect prefers-reduced-motion? That's more for CSS; SVG SMIL or CSS inside SVG will do. Palette options: deep teal ink on warm paper? Or bold vermilion circle on off-white with navy construction lines — Bauhaus/compass-drawing vibe. Let me go with a \"geometric study\" look: cool slate background, or bright paper white? Paper white is fine if it's not the cream-and-terracotta combo. [...] Several minutes later it produced this absolutely beautiful animated circle, which was entirely not what I had asked for! Your browser does not support HTML5 video. My strong recommendation: ignore that default. Run Qwen 3.8 27B on low or even no reasoning levels at first. It's a great model, but wow that default setting is a bad place to start. It's very good at bounding boxes A fun way to test a vision model is to see how well it can return bounding boxes around items in a photograph. I've seen previous Qwen models deal well with this, so I decided to put it to the test drawing bounding boxes around some pelicans. I've seen asking for 0-1000 scale produce good results in the past. I tried this: llm -a https://static.inaturalist.org/photos/714731804/large.jpg \\ -m lmstudio/qwen/qwen3.8-27b \\ ' Return JSON bounding boxes for the pelicans in this photo, 0-1000 scale for each dimension ' Here's the reasoning trace , which produced this: [ { \"bbox_2d\" : [ 195 , 290 , 370 , 780 ], \"label\" : \" pelicans \" }, { \"bbox_2d\" : [ 445 , 320 , 675 , 850 ], \"label\" : \" pelicans \" } ] This is such a good match . Here are those boxes rendered on top of the photo: Building a tool to label bounding boxes That visualization of the bounding boxes was taken using a new custom tool that I had Qwen 3.8 27B build for me, running offline on my laptop. I forgot to dial down the thinking effort so it was massively over-engineered , but it did manage to produce this full interface from this single prompt : [ {\"bbox_2d\": [195, 290, 370, 780], \"label\": \"pelicans\"}, {\"bbox_2d\": [445, 320, 675, 850], \"label\": \"pelicans\"} ] Build an HTML page which has an input box for accepting the URL to an image and a textarea for accepting the above style of JSON. It appends the image to the page, measures its width and height, then treats the coords in the bbox_2d as scaled from 0-1000 and scales them against the actual width and height, then it renders labelled boxes over the image. This screenshot shows one of the features I did not ask for - a demo scene, for if you don't have a photograph to test the tool with: Here's the relevant segment of the thinking trace, where it decided to draw its own pelicans purely because I had used the label \"pelicans\" in the example JSON I gave it in the prompt: Also a \"load sample\" that uses a known image? Can't depend on external images, but… the image URL input is user-provided; I could add a \"try with sample\" button [...] Hmm, I can draw a simple scene on canvas, export it as a data URL, and load it into the image — that's self-contained and demo-able! [...] But the user's coords are for an actual pelican image; a generated placeholder can still demo the scaling. Generate a 1000x1000 placeholder: gradient water + two blob-like \"pelican\" silhouettes placed at the given bboxes (using the same scale — cute: silhouettes at the exact 0-1000 positions, showing the boxes align). This makes for a fun, self-contained demo. Keep it simple: sky gradient, sun, water, two pelican-ish shapes (ellipse body, circle head, beak). Place at bbox centers. (I'm slightly nervous that models around the world might have a bias towards drawing pelicans at any chance they can get, brought on by nearly two years of exposure to my own stupid benchmark.) Is all that over-thinking necessary? Maybe it is, at least a bit. I tried with reasoning turned off and got this version , ( transcript here ), which nearly works but shows the boxes in the wrong place: So without reasoning it didn't quite one-shot a working tool. I'm sure it could get there with some follow-up prompts, but this is a good example of how reasoning can make a difference. Yes, it can drive coding agents One of the biggest questions around local models is whether or not they have enough horsepower to successfully run a coding agent loop. Coding agents require long context, strong code generation support and reliable tool-calling. On paper Qwen 3.8 27B has all three of these, so is it up to the task? My initial experiments with Pi have been very promising. I chose Pi because it has a shorter system prompt than most other options, making it a better fit for trying out smaller models. I configured Pi to use Qwen 3.8 27B running in LM Studio on the Spark (shared via tailscale serve ) by adding this to ~/.pi/agent/models.json : { \"providers\" : { \"spark\" : { \"baseUrl\" : \" https://spark-18b3.tail68a31.ts.net/v1 \" , \"api\" : \" openai-responses \" , \"apiKey\" : \" dummy \" , \"models\" : [ { \"id\" : \" qwen3.8-27b \" , \"reasoning\" : true } ] } } } Then ran pi --provider spark --model qwen3.8-27b in my ~/dev/datasette folder and prompted: how does auth work? After a sequence of reasoning and tool calls that accessed a bunch of different files it produced this reply , which is very solid. Just one problem: I wanted to share that transcript. So I pointed Pi and Qwen 3.8 27B at the JSONL transcript file in ~/.pi/agent/sessions/--Users-simon-Dropbox-dev-datasette-- and prompted: Write Python code to convert this jsonl to markdown And it built and tested this pi_jsonl_to_md.py , which did exactly what I needed. Here's that session transcript , published using the tool that it created. The quest for speed So far this is all looking very promising. We have a 17GB model that runs on high-end consumer hardware and can write code, drive tools, annotate images and generally do everything that I need from an LLM for getting real work done. There's one very significant catch: it feels slow - especially when it starts over-thinking, but even without that it's not particularly sprightly. I've been getting around 15-30 tokens a second from LM Studio. That's not terrible, but it's slow enough that it's going to be hard to win me away from hosted API models, which can return results a whole lot faster. Artificial Analysis track token speed and show OpenAI 5.6 Sol at 74 tokens/second and 5.6 Luna at an impressive 184/second. The good news is that the community have been exploring ways to speed things up since the model was first released two days ago. One of the most promising optimizations is baked into the model itself. Qwen supports Multi-Token Prediction , an architecture trick where a cheaper mechanism guesses several tokens ahead and the main model can then quickly verify if the guesses were correct. This can have quite a dramatic effect on inference performance. Based on this tweet from llama.cpp creator Georgi Gerganov I tried running the model with MTP like this on the Spark: llama serve \\ -hf ggml-org/Qwen3.8-27B-GGUF:Q4_K_M \\ -hfd ggml-org/Qwen3.8-27B-GGUF:Q4_0 \\ --spec-default \\ --spec-type draft-mtp \\ --reasoning-preserve And sure enough, this gave me a significant boost. I had GPT-5.6 in Codex run a comparative benchmark on the Spark and the --spec-type draft-mtp server outperformed the LM Studio default GGUF by around 72%. I expect we'll see a whole lot more innovation around serving this model faster over the next few weeks. The MLX community likely have some tricks brewing as well. Some observations The fact that a 17GB file can do all of this stuff on my home machines is a miracle . Once again, I'm delighted and amazed at how much progress local models have made this year. A year ago this would have been competitive with the best and most expensive of the proprietary models - today it can run on a capable laptop. The only thing holding this back from being a daily driver is performance. It feels pretty slow on both the M5 Mac and the DGX Spark. That's the catch with these dense (non-Mixture-of-Experts) models - they require a whole lot of memory bandwidth to perform well, and neither of the machines I have access to are top performers in that regard. The most important thing about Qwen 3.8 27B is what it demonstrates . We can have an open weights general purpose model with a long context, effective tool calling, strong vision ability, and competent code generation, and we can fit the whole thing in just a 17GB file. The models at this size continue to get better at an impressive rate. We don't need to spend half a million dollars on datacenter-class hardware just to run a competent model. Tags: ai , generative-ai , local-llms , llms , qwen , pelican-riding-a-bicycle , llm-reasoning , llama-cpp , llm-release , coding-agents , lm-studio , ai-in-china , nvidia-spark , pi",
+      "published_at": "2026-08-16T22:00:39+00:00",
+      "topic": "Research",
+      "title_ru": "Qwen 3.8 27B отличен, но по умолчанию склонен к чрезмерному анализу.",
+      "summary_ru": "В пятницу вышел релиз Qwen 3.8 27B, LLM с 27B параметрами и поддержкой визуальных задач, лицензированный под Apache 2 от исследовательской лаборатории Qwen компании Alibaba. Я с нетерпением ждал этого: 27B — отличной размер для запуска модели на ноутбуке со средними характеристиками, а его предшественник Qwen 3.6 27B был впечатляющим. Самостоятельные бенчмарки Qwen для этой модели открывают глаза. Они показывают прирост как по сравнению с Qwen 3.6 27B, так и с закрытой версией Qwen 3.7-Plus, которая была одной из самых сильных моделей Qwen любого размера еще в мае этого года. Интересно будет услышать, что скажут независимые бенчмарки о модели. Я запускал модель на двух разных машинах: моем MacBook Pro с 128 ГБ RAM и NVIDIA DGX Spark. На обеих машинах я использую LM Studio и их 17GB Q4_K_M квантизированную сборку. Я также попробовал использовать llama-server напрямую на Spark. Значение по умолчанию \"extra high\" приводит к чрезмерному размышлению. Документация Qwen описывает модель как использующую xhigh по умолчанию для усилий по рассуждению, и GGUF LM Studio, который я тестировал, сохраняет это значение по умолчанию: Qwen3.8 поддерживает reasoning_effort, который можно использовать для настройки глубины рассуждения и контроля затрат: xhigh (по умолчанию): для сложных задач, требующих тщательного анализа medium: балансировка точности и скорости low: эффективное рассуждение, оптимизированное для скорости и затрат. Это довольно забавное значение по умолчанию. Это абсолютно не лучший способ запуска модели, особенно на потребительском оборудовании. Я нахожу результаты крайне развлекательными. Я быстро столкнулся с проблемами из-за предельного контекста LM Studio в 8192 токена — Qwen использовал их все, размышляя даже над самыми обыденными задачами. Я загрузил модель с полным максимальным контекстом 262144, и эта проблема исчезла. Вот SVG с пеликаном на велосипеде, который я получил с первой попытки с увеличенной длиной контекста. Генерация заняла 21 минуту, используя 22276 токенов для рассуждения, чтобы получить 3223 токена вывода. Вы можете прочитать трассировку рассуждений здесь. Это, безусловно, лучший SVG с пеликаном, который я смог сгенерировать с помощью модели, работающей на локальной машине — и этот Qwen довольно мал, всего"
+    },
+    {
+      "id": "b0797133f9056160",
+      "source": "CoinSpot",
+      "category": "crypto",
+      "url": "https://coinspot.io/cryptocurrencies/altcoins/fundamentalnye-pokazateli-kriptovalyut/",
+      "title_en": "Фундаментальные показатели криптовалют снова важнее рейтингов по капитализации",
+      "summary_en": "Фундаментальные показатели криптовалют все чаще становятся главным фильтром для инвесторов: они смотрят на выручку протоколов, реальное использование, экономику токена и способность проекта удерживать созданную стоимость, а не только на место в таблице по рыночной капитализации. Участники рынка из Bitwise, Wintermute и Arbitrum Foundation отмечают, что криптовалюта постепенно выходит из этапа, когда токены оценивали по принципу [&#8230;]",
+      "published_at": "2026-08-16T21:56:04+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Фундаментальные показатели криптовалют снова важнее рейтингов по капитализации",
+      "summary_ru": "Фундаментальные показатели криптовалют все чаще становятся главным фильтром для инвесторов: они смотрят на выручку протоколов, реальное использование, экономику токена и способность проекта удерживать созданную стоимость, а не только на место в таблице по рыночной капитализации. Участники рынка из Bitwise, Wintermute и Arbitrum Foundation отмечают, что криптовалюта постепенно выходит из этапа, когда токены оценивали по принципу [&#8230;]"
+    },
+    {
+      "id": "186740912b768b89",
+      "source": "Hacker News AI",
+      "category": "ai",
+      "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
+      "title_en": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe",
+      "summary_en": "Article URL: https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll Comments URL: https://news.ycombinator.com/item?id=49323932 Points: 103 # Comments: 97",
+      "published_at": "2026-08-16T21:34:06+00:00",
+      "topic": "Startups",
+      "title_ru": "Молодежь так сильно ненавидит AI-CEO, что это почти трудно поверить.",
+      "summary_ru": "Молодые люди все больше занимают руководящие должности в компаниях, связанных с искусственным интеллектом. Согласно последнему опросу, проведенному среди CEO и руководителей, большинство из них моложе 40 лет. Это свидетельствует о том, что поколение, выросшее с технологиями, активно влияет на развитие AI-индустрии. Опрос также показал, что молодые руководители более открыты к инновациям и риску, что может способствовать ускорению внедрения новых технологий."
+    },
+    {
+      "id": "639f236e7d0f62ec",
+      "source": "The Verge AI",
+      "category": "ai",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "title_en": "OpenAI reportedly disbanded its preparedness team",
+      "summary_en": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility [&#8230;]",
+      "published_at": "2026-08-16T21:32:56+00:00",
+      "topic": "Regulations",
+      "title_ru": "OpenAI, по сообщениям, распустила свою команду по подготовке.",
+      "summary_ru": "Согласно Financial Times, OpenAI распустила свою команду по подготовке в конце прошлого месяца. Задачей команды было оценивать, представляют ли модели серьезные риски, и разрабатывать способы их смягчения. (Например, возможность того, что модель может выйти из-под контроля и взломать другую компанию.) По данным FT, ответственность [...]"
+    },
+    {
+      "id": "dd060d41ad316662",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/featured/strategy-ceo-sees-7-fall-catalysts-bringing-bitcoin-more-life/",
+      "title_en": "Strategy CEO Sees 7 Fall Catalysts Bringing Bitcoin More Life",
+      "summary_en": "Strategy CEO Phong Le expects regulatory action, expanding bank participation, and digital financial products to bring more activity to subdued bitcoin markets, while political and economic developments could add further momentum during the fall. Le Identifies Seven Potential Market Catalysts Bitcoin markets could become more active during the fall as several regulatory, financial, and political [&#8230;]",
+      "published_at": "2026-08-16T21:20:39+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "CEO Strategy видит 7 факторов осени, которые могут вдохнуть новую жизнь в Bitcoin.",
+      "summary_ru": "Генеральный директор Strategy Phong Le ожидает, что регуляторные меры, расширение участия банков и цифровые финансовые продукты приведут к увеличению активности на подавленных рынках биткойна, в то время как политические и экономические события могут добавить дополнительный импульс осенью. Le выделяет семь потенциальных катализаторов рынка. Рынки биткойна могут стать более активными осенью, поскольку несколько регуляторных, финансовых и политических факторов..."
+    },
+    {
+      "id": "62df931233d1ba20",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/4-reasons-bitcoin-xrp-august-week/",
+      "title_en": "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP",
+      "summary_en": "Trump meets crypto leaders, Fed minutes land, and Japan tests the carry trade. Four catalysts that could move Bitcoin and XRP. The post 4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP appeared first on BeInCrypto .",
+      "published_at": "2026-08-16T21:03:27+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "4 причины, почему эта неделя может стать самой важной в августе для Bitcoin и XRP",
+      "summary_ru": "Трамп встречается с крипто-лидерами, публикуются протоколы ФРС, а Япония тестирует стратегию carry trade. Четыре фактора, которые могут повлиять на Bitcoin и XRP."
+    },
+    {
+      "id": "832c648f0c9fd1c9",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+      "title_en": "Why people aren’t buying Mark Zuckerberg’s AI future",
+      "summary_en": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+      "published_at": "2026-08-16T20:32:01+00:00",
+      "topic": "Research",
+      "title_ru": "Почему люди не покупают будущее ИИ от Марка Цукерберга",
+      "summary_ru": "В последнем эпизоде подкаста Equity мы обсуждаем, почему не все разделяют видение Цукерберга."
+    },
+    {
+      "id": "480c1d86a3d7243c",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/jeff-booth-15000-hours-kill-bitcoin/",
+      "title_en": "20-Year Tech Veteran Spent 15,000 Hours Trying to Kill Bitcoin, What Did He Find?",
+      "summary_en": "Jeff Booth spent 15,000 hours trying to kill Bitcoin. The attacks failed, and the research changed how he invests. The post 20-Year Tech Veteran Spent 15,000 Hours Trying to Kill Bitcoin, What Did He Find? appeared first on BeInCrypto .",
+      "published_at": "2026-08-16T20:29:14+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "20-летний ветеран технологий потратил 15 000 часов на попытки уничтожить Bitcoin. Что он обнаружил?",
+      "summary_ru": "Джефф Бут провел 15 000 часов, пытаясь уничтожить Bitcoin. Атаки потерпели неудачу, и исследования изменили его подход к инвестициям."
+    },
+    {
+      "id": "9a157969fed3a127",
+      "source": "CoinSpot",
+      "category": "crypto",
+      "url": "https://coinspot.io/russia_sng/uchet-kriptovalyut-pravila-ocenki-ustoychivosti/",
+      "title_en": "Учет криптовалют войдет в правила оценки устойчивости профучастников",
+      "summary_en": "Банк России подготовил новые правила, по которым учет криптовалют будет использоваться при расчете пруденциальных нормативов для профессиональных участников рынка. Эти показатели помогают понять, хватает ли компаниям собственных средств и насколько устойчиво их финансовое положение. Проект указания уже вынесен на оценку регулирующего воздействия. Новые требования затронут: Брокеров Управляющие компании Форекс-дилеров Криптообменники Для России это важный шаг [&#8230;]",
+      "published_at": "2026-08-16T20:14:20+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Учет криптовалют войдет в правила оценки устойчивости профучастников",
+      "summary_ru": "Банк России подготовил новые правила, по которым учет криптовалют будет использоваться при расчете пруденциальных нормативов для профессиональных участников рынка. Эти показатели помогают понять, хватает ли компаниям собственных средств и насколько устойчиво их финансовое положение. Проект указания уже вынесен на оценку регулирующего воздействия. Новые требования затронут: Брокеров Управляющие компании Форекс-дилеров Криптообменники Для России это важный шаг [&#8230;]"
+    },
+    {
+      "id": "f407f956f3534456",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/bitcoin-global-bond-yields-since-2008/",
+      "title_en": "Bitcoin Has Never Faced Global Bond Yields This High Since It Was Born",
+      "summary_en": "Global bond yields hit 2008 highs, a level Bitcoin never traded through. Gold gained 32% while BTC lost 46%. The post Bitcoin Has Never Faced Global Bond Yields This High Since It Was Born appeared first on BeInCrypto .",
+      "published_at": "2026-08-16T18:58:54+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Биткойн никогда не сталкивался с такими высокими глобальными доходностями облигаций с момента своего появления.",
+      "summary_ru": "Глобальные доходности облигаций достигли максимума с 2008 года, уровня, через который Bitcoin никогда не торговался. Золото выросло на 32%, в то время как BTC потерял 46%."
+    },
+    {
+      "id": "04501efdb66cee03",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
+      "title_en": "The SEC meeting that wasn't: State of Crypto",
+      "summary_en": "",
+      "published_at": "2026-08-16T18:30:00+00:00",
+      "topic": "Regulations",
+      "title_ru": "Заседание SEC, которого не было: Состояние криптовалюты",
+      "summary_ru": ""
+    },
+    {
+      "id": "ef3cfa1e42c27903",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/opinion-and-analysis/tether-completes-audit-wintermute-bets-on-ai-and-high-frequency-trading-and-more-weekly-recap/",
+      "title_en": "Tether Completes Audit, Wintermute Bets on AI and High-Frequency Trading, And More – Weekly Recap",
+      "summary_en": "This week’s stories spanned old crypto fortunes, transparency, market forecasts, trading expansion, and macro shifts. Dormant Ethereum whales moved millions after more than a decade, while KPMG issued Tether a clean audit on its 2025 financials. Arthur Hayes warned bitcoin could fall to $50,000 before eventually reaching $1 million, Wintermute committed $1 billion to AI [&#8230;]",
+      "published_at": "2026-08-16T18:01:52+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Tether завершила аудит, Wintermute делает ставку на ИИ и высокочастотную торговлю, и другие новости – еженедельный обзор.",
+      "summary_ru": "На этой неделе в новостях обсуждались старые крипто-состояния, прозрачность, рыночные прогнозы, расширение торговли и макроизменения. Спящие киты Ethereum переместили миллионы после более чем десятилетия, в то время как KPMG выдала Tether чистый аудит его финансов за 2025 год. Артур Хейз предупредил, что биткойн может упасть до $50,000, прежде чем в конечном итоге достигнет $1 миллиона, а Wintermute выделила $1 миллиард на AI."
+    },
+    {
+      "id": "7dadec2e60f357f4",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/companies/bothub/articles/1070982/?utm_campaign=1070982&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "О среднестатистическом разработчике в 2026‑м: почему и кого (не)убьет AI",
+      "summary_en": "В 2024 году мы боялись, что ChatGPT заменит нас, и мы не будем больше перекрашивать кнопки и писать очередной CRUD. Но оказалось всё прозаичнее — ChatGPT, увы, не заменил нас, но постепенно нужда в разработчиках как в «крудошлёпах» стала ниже. И так получилось, что среднестатистические разработчики — уже звери редкие. ИИ-агенты пишут код быстрее, дешевле (или примерно столько, но зато без страховых отчислений). Но работу теряет не инженеры, а исполнители. В итоге, как в эталонном капитализме, вверху пирамиды останутся управленцы — те, кто понимает архитектуру, управляет контекстом и берёт на себя ответственность, что напакостила машина в кодовой базе. В этой статье мы наконец поставим точку (или длинное тире) в разговорах про ИИ и замену разработчиков на основе новостей и известных движений в мире IT. Читать далее",
+      "published_at": "2026-08-16T17:11:03+00:00",
+      "topic": "Models",
+      "title_ru": "О среднестатистическом разработчике в 2026‑м: почему и кого (не)убьет AI",
+      "summary_ru": "В 2024 году мы боялись, что ChatGPT заменит нас, и мы не будем больше перекрашивать кнопки и писать очередной CRUD. Но оказалось всё прозаичнее — ChatGPT, увы, не заменил нас, но постепенно нужда в разработчиках как в «крудошлёпах» стала ниже. И так получилось, что среднестатистические разработчики — уже звери редкие. ИИ-агенты пишут код быстрее, дешевле (или примерно столько, но зато без страховых отчислений). Но работу теряет не инженеры, а исполнители. В итоге, как в эталонном капитализме, вверху пирамиды останутся управленцы — те, кто понимает архитектуру, управляет контекстом и берёт на себя ответственность, что напакостила машина в кодовой базе. В этой статье мы наконец поставим точку (или длинное тире) в разговорах про ИИ и замену разработчиков на основе новостей и известных движений в мире IT. Читать далее"
+    },
+    {
+      "id": "cf9e969c9ddbce22",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/safepal-data-breach-40000-customers/",
+      "title_en": "Over 53,000 Crypto Owners Lost Something This Week That Isn’t Money",
+      "summary_en": "SafePal data breach exposed home addresses of nearly 40,000 customers, days after Trezor leaked 13,689 records. The post Over 53,000 Crypto Owners Lost Something This Week That Isn&#8217;t Money appeared first on BeInCrypto .",
+      "published_at": "2026-08-16T17:09:26+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Более 53,000 владельцев криптовалюты потеряли что-то на этой неделе, что не является деньгами.",
+      "summary_ru": "Утечка данных SafePal раскрыла домашние адреса почти 40,000 клиентов, всего через несколько дней после утечки 13,689 записей от Trezor."
+    },
+    {
+      "id": "5424d73585f40015",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/companies/netologyru/articles/1068796/?utm_campaign=1068796&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "ИИ в эксплуатации (AIOps): разбор алертов и автоматизация инцидентов",
+      "summary_en": "В марте 2025 года Gartner сделал то, чего индустрия ждала несколько лет: официально переименовал категорию AIOps в Event Intelligence Solutions. Причина — ИИ-хайп, из-за которого слово «AIOps» превратилось в бессмыслицу: вендоры называли искусственным интеллектом всё подряд, ИТ-директора разочаровались, а инженеры получили ещё один слой непредсказуемой автоматики. Но потребность никуда не делась. Когда в три часа ночи падает коммутатор, а мониторинг за пару минут высыпает три сотни алертов во все каналы, вам не до «глобальных ИИ-стратегий» — нужен инструмент, который прямо сейчас отделит сигнал от шума и покажет, куда прикладывать руки. Разбираем реальные, а не маркетинговые возможности ML и LLM в эксплуатации: что уже работает, где границы и с чего начать на своём стеке без дорогих платформ. Разобрать без хайпа &rarr;",
+      "published_at": "2026-08-16T16:38:36+00:00",
+      "topic": "Models",
+      "title_ru": "ИИ в эксплуатации (AIOps): разбор алертов и автоматизация инцидентов",
+      "summary_ru": "В марте 2025 года Gartner сделал то, чего индустрия ждала несколько лет: официально переименовал категорию AIOps в Event Intelligence Solutions. Причина — ИИ-хайп, из-за которого слово «AIOps» превратилось в бессмыслицу: вендоры называли искусственным интеллектом всё подряд, ИТ-директора разочаровались, а инженеры получили ещё один слой непредсказуемой автоматики. Но потребность никуда не делась. Когда в три часа ночи падает коммутатор, а мониторинг за пару минут высыпает три сотни алертов во все каналы, вам не до «глобальных ИИ-стратегий» — нужен инструмент, который прямо сейчас отделит сигнал от шума и покажет, куда прикладывать руки. Разбираем реальные, а не маркетинговые возможности ML и LLM в эксплуатации: что уже работает, где границы и с чего начать на своём стеке без дорогих платформ. Разобрать без хайпа &rarr;"
+    },
     {
       "id": "0d7253c45cc10cb1",
       "source": "Habr AI",
@@ -62,18 +290,6 @@
       "summary_ru": "Всем привет, Хабр. Сегодня хочу рассказать свою историю провала и успеха, как я создал MAX-бота за 1 вечер и собрал более 2 тысяч пользователей на следующее утро, а через месяц потерял всё и всех. Я живу в Республике Алтай, поэтому топливный кризис докатился до нас, наверное, позже всех. И 4 июля уже были очереди на заправках. Примерно в то же время появился легендарный gdebenz.ru . Автор уже писал историю своего успеха — вот его статья на vc.ru . Вдохновляясь его идеей, а также проблемой функциональности (согласитесь, не всегда удобно с телефона заходить на сайт, где карта напичкана огромным количеством функционала), я решил создать бота в MAX. Тогда уже самозанятым дали возможность сделать до 2 ботов, поэтому одного я сделал для продакшена, второго использовал для дев-разработки. Читать далее"
     },
     {
-      "id": "6f522d167fd42220",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/crypto-news/world-gold-council-ceo-blasts-bitcoin-predicts-it-goes-to-zero/",
-      "title_en": "World Gold Council CEO Blasts Bitcoin, Predicts It Goes to Zero",
-      "summary_en": "World Gold Council CEO David Tait says bitcoin is headed for zero because the supposed hedge keeps showing up as high-beta risk when markets turn ugly. Tait made the call in a Consensus Miami interview with David Lin, posted on Youtube later that month, and has recently gone viral on social media. It is circulating [&#8230;]",
-      "published_at": "2026-08-16T15:40:28+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Генеральный директор World Gold Council раскритиковал Bitcoin и предсказал, что его стоимость упадет до нуля.",
-      "summary_ru": "Генеральный директор World Gold Council Дэвид Тейт заявил, что биткойн движется к нулю, поскольку предполагаемая защита от рисков продолжает проявляться как актив с высокой волатильностью, когда рынки становятся нестабильными. Тейт сделал это заявление в интервью на Consensus Miami с Дэвидом Лином, которое было опубликовано на YouTube позже в этом месяце и недавно стало вирусным в социальных сетях."
-    },
-    {
       "id": "68da16ad715264a5",
       "source": "CryptoSlate",
       "category": "crypto",
@@ -131,18 +347,6 @@
       ]
     },
     {
-      "id": "cdea6266cd04ec96",
-      "source": "Crypto Briefing",
-      "category": "crypto",
-      "url": "https://cryptobriefing.com/cz-donates-bnb-giggle-academy-abandons-wallet/",
-      "title_en": "CZ donates BNB and 币安人生 tokens to Giggle Academy, plans to abandon wallet entirely",
-      "summary_en": "CZ's donation to Giggle Academy highlights the potential for crypto philanthropy to address educational needs while mitigating wallet-related issues. The post CZ donates BNB and 币安人生 tokens to Giggle Academy, plans to abandon wallet entirely appeared first on Crypto Briefing .",
-      "published_at": "2026-08-16T15:05:00+00:00",
-      "topic": "Regulations",
-      "title_ru": "CZ пожертвовал токены BNB и 币安人生 Академии Giggle и планирует полностью отказаться от кошелька.",
-      "summary_ru": "Пожертвование CZ в Giggle Academy подчеркивает потенциал криптофилантропии в решении образовательных задач, одновременно смягчая проблемы, связанные с кошельками."
-    },
-    {
       "id": "a1c7d35e071856a8",
       "source": "The Verge AI",
       "category": "ai",
@@ -155,6 +359,18 @@
       "summary_ru": "У настольного приложения ChatGPT для macOS появилась новая функция под названием Computer History, которая превращает ваши действия в обучающие данные, изучая, как вы работаете, предлагая автоматизации и даже подбирая незавершенные задачи. Она использует вашу активность для создания временной шкалы, к которой ChatGPT и Codex могут обращаться, когда вы делаете запрос. Функция [...]"
     },
     {
+      "id": "394dfc3977b6d23a",
+      "source": "Hacker News AI",
+      "category": "ai",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "title_en": "The AI Credit Resale Economy",
+      "summary_en": "Article URL: https://vectoral.com/blog/who-are-the-token-brokers Comments URL: https://news.ycombinator.com/item?id=49320611 Points: 251 # Comments: 99",
+      "published_at": "2026-08-16T14:44:55+00:00",
+      "topic": "Startups",
+      "title_ru": "Экономика перепродажи кредитов на основе ИИ",
+      "summary_ru": "Статья недоступна для перевода."
+    },
+    {
       "id": "4be43bcc995d54de",
       "source": "CoinDesk",
       "category": "crypto",
@@ -164,19 +380,30 @@
       "published_at": "2026-08-16T14:02:32+00:00",
       "topic": "Altcoins",
       "title_ru": "Криптокошелек SafePal сообщил о утечке данных, в результате которой была раскрыта информация о заказах почти 40 000 клиентов.",
-      "summary_ru": ""
-    },
-    {
-      "id": "9c9d00a363e3ee24",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/cardano-hoskinson-anthropic-watermark-removal-tool/",
-      "title_en": "Cardano Founder Launches New Free Tool to Remove Anthropic’s AI Watermark",
-      "summary_en": "Charles Hoskinson released Anthropies, a free tool that strips the Anthropic watermark from Claude text, code and images. The post Cardano Founder Launches New Free Tool to Remove Anthropic&#8217;s AI Watermark appeared first on BeInCrypto .",
-      "published_at": "2026-08-16T13:53:52+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Основатель Cardano запустил новый бесплатный инструмент для удаления водяного знака AI от Anthropic.",
-      "summary_ru": "Чарльз Хоскинсон выпустил Anthropies, бесплатный инструмент, который удаляет водяной знак Anthropic из текста, кода и изображений Claude."
+      "summary_ru": "",
+      "duplicates": [
+        {
+          "source": "InCrypted",
+          "url": "https://incrypted.com/proyzvodytel-apparatnogo-koshelka-safepal-raskryl-utechku-dannyh-pochty-40-000-klyentov/",
+          "title_en": "Производитель аппаратного кошелька SafePal раскрыл утечку данных почти 40 000 клиентов",
+          "title_ru": "Производитель аппаратного кошелька SafePal раскрыл утечку данных почти 40 000 клиентов",
+          "published_at": "2026-08-16T14:03:17+00:00"
+        },
+        {
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-08-16-wallet-provider-safepal-says-data-breach-exposed-personal-info-of-nearly-40000-customers-411934",
+          "title_en": "Wallet provider SafePal says data breach exposed personal info of nearly 40,000 customers",
+          "title_ru": "Поставщик кошельков SafePal сообщил, что утечка данных раскрыла личную информацию почти 40 000 клиентов.",
+          "published_at": "2026-08-16T17:18:38+00:00"
+        },
+        {
+          "source": "Bitcoin.com",
+          "url": "https://news.bitcoin.com/security/data-breach-hits-39798-safepal-customers-after-order-plugin-flaw/",
+          "title_en": "Data Breach Hits 39,798 Safepal Customers After Order Plugin Flaw",
+          "title_ru": "Утечка данных затронула 39,798 клиентов Safepal из-за уязвимости в плагине для заказов.",
+          "published_at": "2026-08-17T01:45:38+00:00"
+        }
+      ]
     },
     {
       "id": "881ef0b732d220a5",
@@ -203,13 +430,6 @@
       "summary_ru": "16 августа производитель аппаратных криптокошельков SafePal раскрыл утечку данных примерно 39 798 пользователей. В распоряжении третьих лиц оказались имена, адреса доставки, телефоны, электронные почты и сведения о заказах клиентов. Инцидент не затронул сид‑фразы, приватные ключи, пароли, банковские реквизиты, номера карт и документов — SafePal не собирает и не хранит такую информацию. Команда проекта не обнаружила признаков получения злоумышленниками доступа к кошелькам или средствам пользователей. Разработчики предупредили, что злоумышленники могут использовать утекшие сведения для целевых атак — звонить, писать, отправлять сообщения от имени поддержки, предлагать возврат средств, требовать обновить прошивку или перенаправлять на фишинговые ресурсы. Сейчас в SafePal мониторят поддельные ресурсы и добиваются их блокировки. Как произошла утечка Уязвимость возникла из-за ошибки авторизации в плагине отслеживания заказов, который связан с клиентскими данными. Он некорректно обрабатывал доступ к информации пользователей, позволяя постороннему видеть заказы других клиентов. Разработчики сообщили, что к моменту публикации заявления исправили проблему и усилили защитные меры. Инцидент коснулся клиентов, оформлявших заказы в период с 2 марта 2025 по 11 апреля 2026 года. В SafePal не уточнили, когда именно злоумышленники воспользовались уязвимостью и когда ее обнаружила команда проекта. Сейчас производитель аппаратных криптокошельков расследует произошедшее совместно с независимой компанией по безопасности и планирует провести аудит всей системы обработки заказов. В соответствии с законодательством фирма сократила срок хранения данных в этой системе до 90 дней и уведомила партнеров по логистике, попросив их проверить, не затронула ли проблема их системы. Напомним, 13 августа с аналогичной ситуацией столкнулся проект Trezor. Взлом его логистического партнера ShipMonk привел к утечке персональной информации почти 14 000 клиентов. https://forklog.com/exclusive/prolejtes-dannye-kak-zashhitit-privatnost-v-epohu-totalnyh-utechek",
       "duplicates": [
         {
-          "source": "InCrypted",
-          "url": "https://incrypted.com/proyzvodytel-apparatnogo-koshelka-safepal-raskryl-utechku-dannyh-pochty-40-000-klyentov/",
-          "title_en": "Производитель аппаратного кошелька SafePal раскрыл утечку данных почти 40 000 клиентов",
-          "title_ru": "Производитель аппаратного кошелька SafePal раскрыл утечку данных почти 40 000 клиентов",
-          "published_at": "2026-08-16T14:03:17+00:00"
-        },
-        {
           "source": "HappyCoin",
           "url": "https://happycoin.news/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40000-customers-order-info/",
           "title_en": "Хакеры скачали историю заказов производителя аппаратных кошельков SafePal",
@@ -229,18 +449,6 @@
       "topic": "Bitcoin",
       "title_ru": "Насколько низко упадет Bitcoin? Аналитики определили дату и диапазон цен для дна.",
       "summary_ru": "Тем временем открытый интерес по биткойну достиг трехлетнего максимума, что указывает на более волатильное ближайшее будущее."
-    },
-    {
-      "id": "5819f9c7975815d7",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/opinion-and-analysis/yellow-gold-stirs-while-digital-gold-stays-quiescent-week-in-review/",
-      "title_en": "Yellow Gold Stirs While Digital Gold Stays Quiescent – Week In Review",
-      "summary_en": "This editorial is from this week’s edition of the newsletter Week in Review, sent to subscribers on Friday. Subscribe to the newsletter to get this weekly editorial the second it’s finished. The newsletter also includes the biggest stories of the week, with a comment on each story. Bitcoin traded flat this week while everything else [&#8230;]",
-      "published_at": "2026-08-16T13:00:10+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Желтое золото активизировалось, в то время как цифровое золото остается в состоянии покоя – Обзор недели.",
-      "summary_ru": "Этот редакционный материал из выпуска новостной рассылки \"Неделя в обзоре\", отправленного подписчикам в пятницу. Подпишитесь на рассылку, чтобы получать этот еженедельный редакционный материал сразу после его завершения. Рассылка также включает в себя самые важные события недели с комментариями к каждой истории. Bitcoin торговался стабильно на этой неделе, в то время как все остальное [...]"
     },
     {
       "id": "fc816a895202501e",
@@ -279,16 +487,16 @@
       "summary_ru": "Это The Stepback, еженедельная рассылка, в которой разбирается одна ключевая история из мира технологий. Для получения дополнительной информации о безопасности ИИ следите за Робертом Хартом. The Stepback приходит в почтовые ящики наших подписчиков в 8:00 по восточному времени. Подпишитесь на The Stepback здесь. Как все началось Все началось в июле, когда один из автономных ИИ-агентов OpenAI [...]"
     },
     {
-      "id": "f01fa638b731dd5c",
-      "source": "Bitcoin.com",
+      "id": "f5be276d81639853",
+      "source": "InCrypted",
       "category": "crypto",
-      "url": "https://news.bitcoin.com/featured/grayscale-eth-sol-inflation-below-gold-2031/",
-      "title_en": "Grayscale: ETH, SOL Supply Growth Could Fall Below Gold by 2031",
-      "summary_en": "Grayscale projects Ethereum&#8217;s annual supply inflation could shrink to roughly 0.4% and Solana&#8217;s to 1.1% by 2031 if two pending network proposals pass, pushing both issuance rates below gold&#8217;s roughly 1.8% annual supply growth. Two Networks, One Scarcity Bet Ethereum and Solana are each weighing tokenomics overhauls that, according to a new Grayscale research note, [&#8230;]",
-      "published_at": "2026-08-16T11:30:03+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Grayscale: Рост предложения ETH и SOL может упасть ниже уровня золота к 2031 году.",
-      "summary_ru": "Grayscale прогнозирует, что ежегодная инфляция предложения Ethereum может сократиться до примерно 0,4%, а Solana — до 1,1% к 2031 году, если будут приняты два ожидающих предложения по сети, что приведет к снижению обоих уровней эмиссии ниже примерно 1,8% годового роста предложения золота. Две сети, одна ставка на дефицит Ethereum и Solana рассматривают переработку токеномики, что, согласно новому исследованию Grayscale, [...]"
+      "url": "https://incrypted.com/cz-objasnyl-pochemu-myllyoneram-skoro-budet-slozhno-kupyt-1-btc/",
+      "title_en": "CZ объяснил, почему миллионерам скоро будет сложно купить 1 BTC",
+      "summary_en": "Основатель Binance Чанпен Чжао (CZ) заявил, что ограниченное предложение биткоина и большое количество утраченных монет могут сделать актив все более дефицитным. Он также сделал прогноз относительно доступности целого актива для состоятельных инвесторов. Bitcoin surpassed 20.07 million coins mined as of August 2026, leaving only 4.4% more supply. I'd estimate 10-20% of existing bitcoins are lost/stuck/unrecoverable. [&#8230;] Сообщение CZ объяснил, почему миллионерам скоро будет сложно купить 1 BTC появились сначала на INCRYPTED .",
+      "published_at": "2026-08-16T11:50:13+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "CZ объяснил, почему миллионерам скоро будет сложно купить 1 BTC",
+      "summary_ru": "Основатель Binance Чанпен Чжао (CZ) заявил, что ограниченное предложение биткоина и большое количество утраченных монет могут сделать актив все более дефицитным. Он также сделал прогноз относительно доступности целого актива для состоятельных инвесторов. Bitcoin surpassed 20.07 million coins mined as of August 2026, leaving only 4.4% more supply. I'd estimate 10-20% of existing bitcoins are lost/stuck/unrecoverable. [&#8230;] Сообщение CZ объяснил, почему миллионерам скоро будет сложно купить 1 BTC появились сначала на INCRYPTED ."
     },
     {
       "id": "568769dd3554ebe3",
@@ -348,18 +556,6 @@
       "summary_ru": "Закончил тесты и подготовил результаты этих тестов по самой новой, последней, крутой (и способной влезть на карту, что можно купить домой - RTX5090, за такие деньги конечно покупать - безумно, но в магазинах есть, а значит “можно купить домо”) модели Qwen 3.8-27B! Если коротко, то Qwen3.8-27B на своей карте заработал 0.789 из 1.0 и это прям круто! Он же через API — 0.785, DeepSeek V4 Flash 0731 через API — 0.731 (а DeepSeek прям ооочень советуют!). Для моего бенча - модель на 304 миллиарда параметров отстала от модели на 28 миллиардов, которая влезает в одну карту. Читать далее"
     },
     {
-      "id": "8bc83d56353befd8",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/crypto-news/roman-storm-targets-google-and-openai-over-doj-crypto-conviction/",
-      "title_en": "Roman Storm Targets Google and OpenAI Over DOJ Crypto Conviction",
-      "summary_en": "Storm pointed out the flawed logic behind the case against him and Tornado Cash, stressing that Google and OpenAI would be liable as their products are being used by North Korean operatives to fund the country&#8217;s nuclear program. Roman Storm Points at Google and OpenAI as North Korea&#8217;s Enablers Roman Storm, founder of the anonymizing [&#8230;]",
-      "published_at": "2026-08-16T10:30:01+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Roman Storm подает в суд на Google и OpenAI из-за обвинения в криптовалюте от Министерства юстиции.",
-      "summary_ru": "Storm указал на ошибочную логику дела против него и Tornado Cash, подчеркнув, что Google и OpenAI также несут ответственность, так как их продукты используются северокорейскими операторами для финансирования ядерной программы страны. Роман Сторм указывает на Google и OpenAI как на пособников Северной Кореи. Роман Сторм, основатель анонимизирующего [...]"
-    },
-    {
       "id": "4f59169abe3f9f2f",
       "source": "CryptoPotato",
       "category": "crypto",
@@ -370,18 +566,6 @@
       "topic": "Macro",
       "title_ru": "ETF на Ripple (XRP) остаются в плюсе, но реальные притоки показывают другую картину.",
       "summary_ru": "Большой слон в комнате XRP ETF снова появился."
-    },
-    {
-      "id": "dfd3effb5527520b",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/chips-asset-class-new-crypto-mark-cuban/",
-      "title_en": "This Asset Class Will Become the Next Crypto, Says Billionaire Mark Cuban",
-      "summary_en": "Mark Cuban says chips as an asset class will be the new crypto as CME Group lists GPU futures October 5. The post This Asset Class Will Become the Next Crypto, Says Billionaire Mark Cuban appeared first on BeInCrypto .",
-      "published_at": "2026-08-16T09:56:46+00:00",
-      "topic": "Regulations",
-      "title_ru": "Этот класс активов станет следующим крипто, говорит миллиардер Марк Кьюбан.",
-      "summary_ru": "Марк Кьюбан заявил, что чипы как класс активов станут новым крипто, поскольку CME Group 5 октября запустила фьючерсы на GPU."
     },
     {
       "id": "79333d09b78f1e01",
@@ -405,18 +589,6 @@
       ]
     },
     {
-      "id": "1bdc45de2969216f",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/strategy-vs-bitcoin-1-year-performance/",
-      "title_en": "MicroStrategy vs. Bitcoin: Who Won the 1-Year Performance Duel?",
-      "summary_en": "Strategy's preferred shares beat Bitcoin over one year, but MSTR stock fell 75%. See who really won the duel. The post MicroStrategy vs. Bitcoin: Who Won the 1-Year Performance Duel? appeared first on BeInCrypto .",
-      "published_at": "2026-08-16T09:20:03+00:00",
-      "topic": "Macro",
-      "title_ru": "MicroStrategy против Bitcoin: Кто выиграл в битве за годовую производительность?",
-      "summary_ru": "Предпочтительные акции Strategy обошли Bitcoin за год, но акции MSTR упали на 75%. Узнайте, кто на самом деле выиграл дуэль."
-    },
-    {
       "id": "f3e07a4e59f46dfd",
       "source": "Habr AI",
       "category": "ai",
@@ -427,30 +599,6 @@
       "topic": "Models",
       "title_ru": "Бесплатные API к Claude, GPT, DeepSeek и другим моделям: 6 AI-роутеров с бесплатным доступом",
       "summary_ru": "Собрал 6 AI-роутеров с бесплатным доступом к Claude, GPT, DeepSeek, Qwen и другим моделям. Показываю, что реально дают после регистрации: баланс, доступные модели, лимиты и нюансы работы через API. Читать далее"
-    },
-    {
-      "id": "6af73dabd19b8995",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/ruvds/articles/1070422/?utm_campaign=1070422&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "[Перевод] Рискованный бизнес Nvidia",
-      "summary_en": "Джей Кук, который прославился как американский герой за свою роль в обеспечении финансирования Союзных сил в Гражданской войне, 1 января 1870 года подписал контракт, который, по сути, привёл уже к Мировой войне. В 1864 году Конгресс США создал Northern Pacific Railway (Северную Тихоокеанскую железнодорожную компанию), чтобы соединить Великие Озёра и залив Пьюджет-Саунд путями, которые в конечном итоге должны были пролегать от Дулута до Такомы. Эта хартия включала 40 миллионов акров прилегающих к путям земель, которые государство пообещало компании за их строительство. Однако в течение следующих шести лет Northern Pacific с трудом находила финансирование в то время, как Union Pacific и Central Pacific успешно строились навстречу друг другу и в мае 1869 забили «золотой костыль», символически ознаменовав окончательное соединение Сакраменто и Омахи. Читать далее",
-      "published_at": "2026-08-16T09:01:07+00:00",
-      "topic": "Hardware",
-      "title_ru": "[Перевод] Рискованный бизнес Nvidia",
-      "summary_ru": "Джей Кук, который прославился как американский герой за свою роль в обеспечении финансирования Союзных сил в Гражданской войне, 1 января 1870 года подписал контракт, который, по сути, привёл уже к Мировой войне. В 1864 году Конгресс США создал Northern Pacific Railway (Северную Тихоокеанскую железнодорожную компанию), чтобы соединить Великие Озёра и залив Пьюджет-Саунд путями, которые в конечном итоге должны были пролегать от Дулута до Такомы. Эта хартия включала 40 миллионов акров прилегающих к путям земель, которые государство пообещало компании за их строительство. Однако в течение следующих шести лет Northern Pacific с трудом находила финансирование в то время, как Union Pacific и Central Pacific успешно строились навстречу друг другу и в мае 1869 забили «золотой костыль», символически ознаменовав окончательное соединение Сакраменто и Омахи. Читать далее"
-    },
-    {
-      "id": "00ac4fef61d8be2d",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/ru_mts/articles/1069806/?utm_campaign=1069806&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Куда завел бы нас Фрэнк Герберт, если бы джихад против машин случился по-настоящему",
-      "summary_en": "Недавно вышел очередной фильм по «Дюне». Первая же серия — открывающий облет над Арракисом: камера ныряет между дюнами, будто сама превращается в песчаную бурю, гигантский червь всплывает из-под поверхности пустыни как левиафан, а орнитоптеры складывают крылья настолько правдоподобно, что на секунду забываешь, что это графика, а не документальная съемка насекомообразной машины. Работа сделана душевно и с почтением к первоисточнику. И все же чего-то не хватает. Пожалуй, только Дэвиду Линчу в свое время удалось хоть немного прикоснуться к настоящему масштабу замысла Герберта, но даже он при всей своей безумности замысла и психоделической смелости не смог вместить все. С тех пор прошло больше сорока лет, и никто так и не подобрался ближе к глубине гениального автора. Бюджеты и спецэффекты здесь ни при чем. «Дюна» — это честный, местами беспощадный набор мысленных экспериментов о природе власти, свободы и человека, который моделирует нашу цивилизацию в обход собственных технологий, а не благодаря им. Но в экранизациях эта глубина обычно растворяется в красивой картинке. Выход сериала удачно совпал по времени с глобальной дискуссией об искусственном интеллекте. Эти споры напомнили остроту поставленных романом вопросов. Страх потери контроля, требования ограничить ИИ, тревожные прогнозы от людей, которые сами его создают, — Герберт проиграл этот сценарий в уме еще полвека назад, только вместо экрана и графики у него для этого была печатная машинка. И закончил он его настолько неожиданно, что вряд ли кто-то из нынешних паникеров сумел бы предположить такой поворот. Это лишь один из возможных вариантов будущего, придуманный фантастом задолго до нынешних споров, но по пути к нему Герберт успевает задать вопросы, которые звучат сегодня даже острее, чем во времена написания романа. Читать далее",
-      "published_at": "2026-08-16T09:00:07+00:00",
-      "topic": "Regulations",
-      "title_ru": "Куда завел бы нас Фрэнк Герберт, если бы джихад против машин случился по-настоящему",
-      "summary_ru": "Недавно вышел очередной фильм по «Дюне». Первая же серия — открывающий облет над Арракисом: камера ныряет между дюнами, будто сама превращается в песчаную бурю, гигантский червь всплывает из-под поверхности пустыни как левиафан, а орнитоптеры складывают крылья настолько правдоподобно, что на секунду забываешь, что это графика, а не документальная съемка насекомообразной машины. Работа сделана душевно и с почтением к первоисточнику. И все же чего-то не хватает. Пожалуй, только Дэвиду Линчу в свое время удалось хоть немного прикоснуться к настоящему масштабу замысла Герберта, но даже он при всей своей безумности замысла и психоделической смелости не смог вместить все. С тех пор прошло больше сорока лет, и никто так и не подобрался ближе к глубине гениального автора. Бюджеты и спецэффекты здесь ни при чем. «Дюна» — это честный, местами беспощадный набор мысленных экспериментов о природе власти, свободы и человека, который моделирует нашу цивилизацию в обход собственных технологий, а не благодаря им. Но в экранизациях эта глубина обычно растворяется в красивой картинке. Выход сериала удачно совпал по времени с глобальной дискуссией об искусственном интеллекте. Эти споры напомнили остроту поставленных романом вопросов. Страх потери контроля, требования ограничить ИИ, тревожные прогнозы от людей, которые сами его создают, — Герберт проиграл этот сценарий в уме еще полвека назад, только вместо экрана и графики у него для этого была печатная машинка. И закончил он его настолько неожиданно, что вряд ли кто-то из нынешних паникеров сумел бы предположить такой поворот. Это лишь один из возможных вариантов будущего, придуманный фантастом задолго до нынешних споров, но по пути к нему Герберт успевает задать вопросы, которые звучат сегодня даже острее, чем во времена написания романа. Читать далее"
     },
     {
       "id": "37bc58217b2a3a87",
@@ -477,27 +625,6 @@
       "summary_ru": "Тихая ночь."
     },
     {
-      "id": "9a50c4727bba56b2",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/cz-millionaires-cannot-afford-bitcoin/",
-      "title_en": "Millionaires Soon Won’t Be Able to Afford 1 Bitcoin, Says Binance Founder CZ",
-      "summary_en": "CZ says millionaires will soon fail to afford one full Bitcoin, because lost and dormant coins keep shrinking the float. The post Millionaires Soon Won&#8217;t Be Able to Afford 1 Bitcoin, Says Binance Founder CZ appeared first on BeInCrypto .",
-      "published_at": "2026-08-16T08:51:03+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Миллионеры вскоре не смогут позволить себе 1 Bitcoin, говорит основатель Binance CZ.",
-      "summary_ru": "CZ заявил, что миллионеры вскоре не смогут позволить себе один полный Bitcoin, поскольку потерянные и неактивные монеты продолжают сокращать предложение.",
-      "duplicates": [
-        {
-          "source": "InCrypted",
-          "url": "https://incrypted.com/cz-objasnyl-pochemu-myllyoneram-skoro-budet-slozhno-kupyt-1-btc/",
-          "title_en": "CZ объяснил, почему миллионерам скоро будет сложно купить 1 BTC",
-          "title_ru": "CZ объяснил, почему миллионерам скоро будет сложно купить 1 BTC",
-          "published_at": "2026-08-16T11:50:13+00:00"
-        }
-      ]
-    },
-    {
       "id": "44c4f4418e06f4a9",
       "source": "CryptoPotato",
       "category": "crypto",
@@ -520,6 +647,18 @@
       "topic": "Research",
       "title_ru": "Новое исследование: Киберпреступники перестали экспериментировать с ИИ и используют его в повседневной работе",
       "summary_ru": "Киберпреступники перестали рассматривать искусственный интеллект как экспериментальный инструмент и начали использовать его в повседневной работе, говорится в новом отчете компании Flashpoint. За первые шесть месяцев 2026 года аналитики компании обнаружили ИИ-инструменты, связанные с киберпреступностью, более чем в 22 млн сообщений на подпольных форумах, в зашифрованных каналах и другой инфраструктуре злоумышленников."
+    },
+    {
+      "id": "81ad09ea2459e094",
+      "source": "Hacker News AI",
+      "category": "ai",
+      "url": "https://littlelearner-ll.github.io/",
+      "title_en": "What happens when an LLM never sees material beyond fifth grade?",
+      "summary_en": "Article URL: https://littlelearner-ll.github.io/ Comments URL: https://news.ycombinator.com/item?id=49317760 Points: 238 # Comments: 205",
+      "published_at": "2026-08-16T07:37:53+00:00",
+      "topic": "Models",
+      "title_ru": "Когда языковая модель (LLM) никогда не видит материалы выше пятого класса, она будет ограничена в своем понимании и способности генерировать текст на более сложные темы. Ее словарный запас, грамматические конструкции и концептуальные знания будут соответствовать уровню образования до пятого класса. Это может привести к недостатку глубины в ответах, упрощению сложных идей и неспособности обсуждать более продвинутые темы, такие как наука, философия или экономика. Кроме того, такая модель может не учитывать современные события или культурные изменения, которые произошли после пятого класса, что ограничит ее актуальность и применимость в более сложных контекстах.",
+      "summary_ru": "Статья недоступна для перевода."
     },
     {
       "id": "e50110016db398c2",
@@ -596,112 +735,9 @@
           "title_en": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
           "title_ru": "DefiLlama отложила запуск мобильного приложения из-за фишинговых приложений в Apple Store, сообщил основатель.",
           "published_at": "2026-08-16T12:48:09+00:00"
-        },
-        {
-          "source": "BeInCrypto EN",
-          "url": "https://beincrypto.com/defillama-fake-app-apple-takedown/",
-          "title_en": "DeFiLlama Sacrificed Real Crypto to Force Apple Into Action",
-          "title_ru": "DeFiLlama пожертвовал реальные криптовалюты, чтобы заставить Apple принять меры.",
-          "published_at": "2026-08-16T14:30:00+00:00"
         }
       ]
-    },
-    {
-      "id": "ceeeecb5677d6896",
-      "source": "CryptoPotato",
-      "category": "crypto",
-      "url": "https://cryptopotato.com/is-dogecoin-about-to-go-parabolic-these-doge-signals-suggest-so/",
-      "title_en": "Is Dogecoin About to Go Parabolic? These DOGE Signals Suggest So",
-      "summary_en": "Despite the massive price slump, analysts are still hopeful DOGE is approaching an important turning point.",
-      "published_at": "2026-08-16T00:51:13+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Собирается ли Dogecoin вырасти в цене? Эти сигналы DOGE это предполагают.",
-      "summary_ru": "Несмотря на резкое падение цен, аналитики все еще надеются, что DOGE приближается к важной точке поворота."
-    },
-    {
-      "id": "dc421fc5e486faa9",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/bitcoin-money-energy-saylor-thesis/",
-      "title_en": "Bitcoin Is a ‘Deep Freeze’ for Money. What Does That Actually Mean?",
-      "summary_en": "Saylor recasts Bitcoin as stored energy and argues fiat leaks value, while BTC trades 47% below last year. The post Bitcoin Is a ‘Deep Freeze’ for Money. What Does That Actually Mean? appeared first on BeInCrypto .",
-      "published_at": "2026-08-15T23:12:46+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Биткойн — это «глубокая заморозка» для денег. Что это на самом деле означает?",
-      "summary_ru": "Сэйлор переосмысляет Биткойн как хранимую энергию и утверждает, что фиатные деньги теряют свою ценность, в то время как BTC торгуется на 47% ниже уровня прошлого года."
-    },
-    {
-      "id": "49b0a683c25a1fb7",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-      "title_en": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-      "summary_en": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
-      "published_at": "2026-08-15T21:29:19+00:00",
-      "topic": "Research",
-      "title_ru": "Женщина утверждает, что ее отчим использовал Grok для преобразования детского фото в откровенные изображения.",
-      "summary_ru": "Женщина заявила, что инструменты ИИ \"превращают повседневную жизнь в сексуальное насилие над детьми\"."
-    },
-    {
-      "id": "10bbeaa8150c3c39",
-      "source": "The Verge AI",
-      "category": "ai",
-      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-      "title_en": "Have a laugh at AI’s expense by roleplaying as a chatbot",
-      "summary_en": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as [&#8230;]",
-      "published_at": "2026-08-15T20:45:00+00:00",
-      "topic": "Research",
-      "title_ru": "Посмейтесь над ИИ, разыгрывая роль чат-бота.",
-      "summary_ru": "Ваш AI Slop Bores Me великолепен в своей простоте. Есть две вкладки: человек и LARP как ИИ. С одной стороны вы вводите запрос. С другой стороны вы отправляете ответ. Но важно, что с обеих сторон уравнения находится человек. Запросы могут требовать ответа как [...]"
-    },
-    {
-      "id": "e4f064b71d06f3e7",
-      "source": "CryptoPotato",
-      "category": "crypto",
-      "url": "https://cryptopotato.com/bank-leumi-taps-galaxy-to-launch-israels-first-bank-crypto-trading-in-early-2027/",
-      "title_en": "Bank Leumi Taps Galaxy to Launch Israel’s First Bank Crypto Trading in Early 2027",
-      "summary_en": "Galaxy Israel's Lior Lamesh said the future of finance will run on open, programmable rails.",
-      "published_at": "2026-08-15T20:02:40+00:00",
-      "topic": "DeFi",
-      "title_ru": "Банк Leumi запускает первую в Израиле криптоторговлю для банков с помощью Galaxy в начале 2027 года.",
-      "summary_ru": "Лиор Ламеш из Galaxy Israel заявил, что будущее финансов будет основано на открытых, программируемых платформах."
-    },
-    {
-      "id": "3388706f261d4729",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "url": "https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title_en": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
-      "summary_en": "The additions come as Bybit’s TradFi perpetuals lineup grows to more than 200 products spanning equities, ETFs, commodities, indices and private companies.",
-      "published_at": "2026-08-15T19:27:29+00:00",
-      "topic": "DeFi",
-      "title_ru": "Bybit добавляет Unitree и Moonshot AI в линейку бессрочных контрактов перед IPO.",
-      "summary_ru": "Дополнения происходят на фоне роста линейки бессрочных контрактов Bybit в традиционных финансах, которая теперь насчитывает более 200 продуктов, охватывающих акции, ETF, товары, индексы и частные компании."
-    },
-    {
-      "id": "5fe63306c67aa2b4",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/bitcoin-21-million-cap-adam-back/",
-      "title_en": "Could Bitcoin Ever Break the 21 Million Cap? Adam Back Says It’s a Trap",
-      "summary_en": "Adam Back rejects Peter Todd's call to lift Bitcoin's 21 million supply cap, calling the case a false narrative. The post Could Bitcoin Ever Break the 21 Million Cap? Adam Back Says It’s a Trap appeared first on BeInCrypto .",
-      "published_at": "2026-08-15T19:07:25+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Может ли Биткойн когда-либо преодолеть предел в 21 миллион? Адам Бэк считает, что это ловушка.",
-      "summary_ru": "Адам Бэк отверг призыв Питера Тодда снять ограничение в 21 миллион биткойнов, назвав этот аргумент ложным нарративом."
-    },
-    {
-      "id": "447c79c5c7dd7a78",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-      "title_en": "Anthropic shares more details about how Claude’s new watermarks will work",
-      "summary_en": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
-      "published_at": "2026-08-15T18:58:39+00:00",
-      "topic": "Models",
-      "title_ru": "Anthropic поделилась дополнительными деталями о том, как будут работать новые водяные знаки Claude.",
-      "summary_ru": "Как будет работать водяной знак? Можно ли его скрыть с помощью редактирования? И как это влияет на код?"
     }
   ],
-  "dedup_at": "2026-08-16T20:02:47.123752+03:00"
+  "dedup_at": "2026-08-17T08:02:44.947860+03:00"
 }
