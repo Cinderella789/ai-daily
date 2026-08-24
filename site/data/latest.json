@@ -1,6 +1,476 @@
 {
-  "generated_at": "2026-08-24T13:01:04.705572+00:00",
+  "generated_at": "2026-08-24T17:00:47.760296+00:00",
   "items": [
+    {
+      "id": "3de342e40fa484a7",
+      "source": "Habr ML",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1073954/?utm_campaign=1073954&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Распределённые вычисления: гарантия завершения на исполнителях, которые вам ничего не должны",
+      "summary_en": "Если вы ведете pet‑проекты, требующие большого количества вычислений, то наверняка сталкивались с проблемой их - вычислений - оркестрации. Содержать&nbsp;личный кластер позволить себе могут далеко не&nbsp;все, а&nbsp;каждая арендная платформа имеет свой специфический инструментарий интеграции и свои ограничения, а хуже всего, что ни одна из них не имеет гарантий полного выполнения. Вдобавок к этому, еще и не хотелось бы завязываться на одну конкретную площадку, как минимум потому, что некоторые провайдеры дают бесплатные возобновляемые квоты, и тратить их, вместо своих кровно заработанных, гораздо приятнее. В данной статье будет рассматриваться пример с арендными GPU , однако все основные тезисы полностью переносимы и на другие сценарии использования. У&nbsp;вас, скорее всего, уже открыт десяток разнообразных вкладок: какая‑нибудь платформа с&nbsp;бесплатными недельными&nbsp;лимитами, вроде Kaggle ; что‑нибудь с&nbsp;бесплатными возобновляемыми кредитами, на&nbsp;подобии Lightning AI ; возможно, пара площадок со спотовыми машинами по&nbsp;цене чашки кофе, например Vast , но&nbsp;с&nbsp;оговоркой&nbsp;— никто не&nbsp;обещает, что&nbsp;машину не&nbsp;заберут, или&nbsp;у&nbsp;ее владельца не&nbsp;отвалится сеть. Каждый вариант в&nbsp;отдельности выглядит как «ну, на&nbsp;пару экспериментов может&nbsp;быть и хватит» с&nbsp;различной долей допущения. Все вместе они выглядят как&nbsp;кластер. Нюанс в&nbsp;том, что&nbsp;кластером они становятся не&nbsp;сами: между « у&nbsp;меня есть пяток площадок » и « моя задача точно доедет до&nbsp;конца и не&nbsp;ляжет в&nbsp;непредсказуемый момент » находится довольно много инженерной работы, и почти вся она&nbsp;— не&nbsp;про&nbsp;площадку, а про грамотную оркестрацию. Эту работу я выполнил для&nbsp;своего проекта и хочу поделиться тем, из&nbsp;чего она состояла. Многие решения оказались неочевидными, а&nbsp;добрая половина появилась&nbsp;лишь после того, как&nbsp;самый явный вариант сломался. Итак, приступаем... Где взять гарантию, которая не существует?",
+      "published_at": "2026-08-24T16:44:45+00:00",
+      "topic": "Hardware",
+      "title_ru": "Распределённые вычисления: гарантия завершения на исполнителях, которые вам ничего не должны",
+      "summary_ru": "Если вы ведете pet‑проекты, требующие большого количества вычислений, то наверняка сталкивались с проблемой их - вычислений - оркестрации. Содержать&nbsp;личный кластер позволить себе могут далеко не&nbsp;все, а&nbsp;каждая арендная платформа имеет свой специфический инструментарий интеграции и свои ограничения, а хуже всего, что ни одна из них не имеет гарантий полного выполнения. Вдобавок к этому, еще и не хотелось бы завязываться на одну конкретную площадку, как минимум потому, что некоторые провайдеры дают бесплатные возобновляемые квоты, и тратить их, вместо своих кровно заработанных, гораздо приятнее. В данной статье будет рассматриваться пример с арендными GPU , однако все основные тезисы полностью переносимы и на другие сценарии использования. У&nbsp;вас, скорее всего, уже открыт десяток разнообразных вкладок: какая‑нибудь платформа с&nbsp;бесплатными недельными&nbsp;лимитами, вроде Kaggle ; что‑нибудь с&nbsp;бесплатными возобновляемыми кредитами, на&nbsp;подобии Lightning AI ; возможно, пара площадок со спотовыми машинами по&nbsp;цене чашки кофе, например Vast , но&nbsp;с&nbsp;оговоркой&nbsp;— никто не&nbsp;обещает, что&nbsp;машину не&nbsp;заберут, или&nbsp;у&nbsp;ее владельца не&nbsp;отвалится сеть. Каждый вариант в&nbsp;отдельности выглядит как «ну, на&nbsp;пару экспериментов может&nbsp;быть и хватит» с&nbsp;различной долей допущения. Все вместе они выглядят как&nbsp;кластер. Нюанс в&nbsp;том, что&nbsp;кластером они становятся не&nbsp;сами: между « у&nbsp;меня есть пяток площадок » и « моя задача точно доедет до&nbsp;конца и не&nbsp;ляжет в&nbsp;непредсказуемый момент » находится довольно много инженерной работы, и почти вся она&nbsp;— не&nbsp;про&nbsp;площадку, а про грамотную оркестрацию. Эту работу я выполнил для&nbsp;своего проекта и хочу поделиться тем, из&nbsp;чего она состояла. Многие решения оказались неочевидными, а&nbsp;добрая половина появилась&nbsp;лишь после того, как&nbsp;самый явный вариант сломался. Итак, приступаем... Где взять гарантию, которая не существует?"
+    },
+    {
+      "id": "3de1560a7afaa842",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
+      "title_en": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
+      "summary_en": "Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling.",
+      "published_at": "2026-08-24T16:41:45+00:00",
+      "topic": "Hardware",
+      "title_ru": "Старший менеджер Nvidia связан со схемой Supermicro по контрабанде AI-серверов в Китай.",
+      "summary_ru": "Сотрудник Nvidia обвинен в преступлении после того, как Дженсен Хуанг сделал выговор Supermicro за контрабанду серверов для ИИ."
+    },
+    {
+      "id": "3f0b798b9d1a2afd",
+      "source": "CoinSpot",
+      "category": "crypto",
+      "url": "https://coinspot.io/trading/exchange/utechka-dannyh-trezor-klientov/",
+      "title_en": "Утечка данных Trezor затронула около 14 000 клиентов аппаратных кошельков",
+      "summary_en": "Компания подтвердила: утечка данных Trezor произошла после взлома системы стороннего логистического партнера ShipMonk. В результате злоумышленники получили полные или частичные сведения примерно о 14 000 пользователях аппаратных криптокошельков. Как Trezor отреагировал на инцидент Trezor подтвердила источник утечки — систему стороннего логистического партнера ShipMonk. Компания также подчеркнула, что внутренние системы Trezor не пострадали, а сами аппаратные [&#8230;]",
+      "published_at": "2026-08-24T16:34:29+00:00",
+      "topic": "Hacks",
+      "title_ru": "Утечка данных Trezor затронула около 14 000 клиентов аппаратных кошельков",
+      "summary_ru": "Компания подтвердила: утечка данных Trezor произошла после взлома системы стороннего логистического партнера ShipMonk. В результате злоумышленники получили полные или частичные сведения примерно о 14 000 пользователях аппаратных криптокошельков. Как Trezor отреагировал на инцидент Trezor подтвердила источник утечки — систему стороннего логистического партнера ShipMonk. Компания также подчеркнула, что внутренние системы Trezor не пострадали, а сами аппаратные [&#8230;]"
+    },
+    {
+      "id": "9f2502bd00d8d015",
+      "source": "The Block",
+      "category": "crypto",
+      "url": "https://www.theblock.co/news/regulation/2026-08-24-hyperliquid-policy-center-urges-sec-cftc-harmonize-rules-perpetual-contracts-412601",
+      "title_en": "Hyperliquid Policy Center urges SEC, CFTC to harmonize rules for perpetual contracts",
+      "summary_en": "The push comes as Hyperliquid's multi-asset perpetuals gain scale and draw scrutiny from traditional exchanges.",
+      "published_at": "2026-08-24T16:18:24+00:00",
+      "topic": "DeFi",
+      "title_ru": "Hyperliquid Policy Center призывает SEC и CFTC согласовать правила для бессрочных контрактов.",
+      "summary_ru": "Толчок происходит на фоне роста масштабов многоресурсных perpetual-контрактов Hyperliquid и их внимания со стороны традиционных бирж."
+    },
+    {
+      "id": "2a094f64bf623822",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/coinbase-launches-tokenized-stocks-on-base-boosting-future-token-prospects/",
+      "title_en": "Coinbase launches tokenized stocks on Base, boosting future token prospects",
+      "summary_en": "Coinbase's tokenized stocks launch on Base may accelerate DeFi growth and increase the likelihood of a future Base token release. The post Coinbase launches tokenized stocks on Base, boosting future token prospects appeared first on Crypto Briefing .",
+      "published_at": "2026-08-24T16:09:51+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Coinbase запускает токенизированные акции на платформе Base, что повышает перспективы токенов в будущем.",
+      "summary_ru": "Запуск токенизированных акций Coinbase на платформе Base может ускорить рост DeFi и увеличить вероятность выпуска токена Base в будущем.",
+      "duplicates": [
+        {
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/coinbase-selects-chainlink-for-tokenized-us-stocks-on-base-platform/",
+          "title_en": "Coinbase selects Chainlink for tokenized US stocks on Base platform",
+          "title_ru": "Coinbase выбрала Chainlink для токенизированных акций США на платформе Base.",
+          "published_at": "2026-08-24T16:20:47+00:00"
+        },
+        {
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/coinbase-issued-tokenized-stocks-go-live-on-base-as-onchain-equities-expand/",
+          "title_en": "Coinbase-issued tokenized stocks go live on Base as onchain equities expand",
+          "title_ru": "Токенизированные акции, выпущенные Coinbase, запущены на платформе Base, что свидетельствует о расширении ончейн-акций.",
+          "published_at": "2026-08-24T16:24:10+00:00"
+        }
+      ]
+    },
+    {
+      "id": "33e25dac17a165af",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/cryptocurrency-organizations-oppose-illinois-digital-asset-tax-court?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Crypto advocacy groups oppose Illinois digital asset tax in court",
+      "summary_en": "Following a similar lawsuit filed by the Digital Chamber in July, two digital asset advocacy groups challenged Illinois’ 0.2% crypto tax on constitutional and due process grounds.",
+      "published_at": "2026-08-24T16:05:48+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Группы по защите интересов криптовалюты выступают против налога на цифровые активы в Иллинойсе в суде.",
+      "summary_ru": "После аналогичного иска, поданного Digital Chamber в июле, две группы по защите цифровых активов оспорили 0,2% налог на криптовалюту в Иллинойсе на основании конституционных норм и соблюдения процессуальных прав."
+    },
+    {
+      "id": "3cf5306c3522791a",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/bitcoin-ira-itrustcapital-data-breaches-tiffanny/",
+      "title_en": "Bitcoin IRA and iTrustCapital suffer data breaches linked to threat actor Tiffanny Milanovich",
+      "summary_en": "The breaches highlight the urgent need for enhanced cybersecurity measures and transparency in crypto platforms to protect investors' assets. The post Bitcoin IRA and iTrustCapital suffer data breaches linked to threat actor Tiffanny Milanovich appeared first on Crypto Briefing .",
+      "published_at": "2026-08-24T15:58:59+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Bitcoin IRA и iTrustCapital стали жертвами утечек данных, связанных с угрозой от актера Тиффани Миланович.",
+      "summary_ru": "Утечки данных подчеркивают настоятельную необходимость в усилении мер кибербезопасности и прозрачности на криптоплатформах для защиты активов инвесторов. Bitcoin IRA и iTrustCapital стали жертвами утечек данных, связанных с угрозой от актера Tiffanny Milanovich."
+    },
+    {
+      "id": "0f8a1941b6b952cc",
+      "source": "Habr Crypto",
+      "category": "crypto",
+      "url": "https://habr.com/ru/articles/1073942/?utm_campaign=1073942&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Как криптовалюты подкосили иену, и какого ИИ‑агента России нужно срочно выводить на мировой уровень",
+      "summary_en": "Как-то незаметно прошла новость, что иена упала до минимального за 40 лет значения к доллару. Ну, казалось бы: упала, так упала. Тем более что объяснение везде одно и то же. Мол, ставка Банка Японии — 1%, а у ФРС США — 3,5–3,75%, и значит, делают вывод: глобальные инвесторы занимают в иенах, потом их продают, меняют на доллары и вкладываются в долларовые активы — акции и облигации на Уолл-стрит. Называется эта игра на ставках, или кэрри-трейд. Ну, а раз иену сбрасывают, вот она и катится по наклонной. Читать далее",
+      "published_at": "2026-08-24T15:58:20+00:00",
+      "topic": "Macro",
+      "title_ru": "Как криптовалюты подкосили иену, и какого ИИ‑агента России нужно срочно выводить на мировой уровень",
+      "summary_ru": "Как-то незаметно прошла новость, что иена упала до минимального за 40 лет значения к доллару. Ну, казалось бы: упала, так упала. Тем более что объяснение везде одно и то же. Мол, ставка Банка Японии — 1%, а у ФРС США — 3,5–3,75%, и значит, делают вывод: глобальные инвесторы занимают в иенах, потом их продают, меняют на доллары и вкладываются в долларовые активы — акции и облигации на Уолл-стрит. Называется эта игра на ставках, или кэрри-трейд. Ну, а раз иену сбрасывают, вот она и катится по наклонной. Читать далее"
+    },
+    {
+      "id": "638a15c155b1517c",
+      "source": "The Block",
+      "category": "crypto",
+      "url": "https://www.theblock.co/news/regulation/2026-08-24-stand-with-crypto-ramps-up-midterm-push-with-32-house-endorsements-412616",
+      "title_en": "Stand With Crypto ramps up midterm push with 32 House endorsements",
+      "summary_en": "Stand With Crypto is backing more than 30 House candidates as it looks to flex its political influence once more in the upcoming elections.",
+      "published_at": "2026-08-24T15:57:45+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Stand With Crypto усиливает свои усилия перед промежуточными выборами, получив поддержку от 32 членов Палаты представителей.",
+      "summary_ru": "Stand With Crypto поддерживает более 30 кандидатов в Палату представителей, стремясь вновь продемонстрировать свое политическое влияние на предстоящих выборах."
+    },
+    {
+      "id": "8bad27756c85dd2e",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/companies/bothub/articles/1073936/?utm_campaign=1073936&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "«Один нип осторожно замифрил», или как лингвисты разбирают язык внутри LLM",
+      "summary_en": "Неважно, что делает LLM. Задача все равно приходит словами, и одно пропущенное не может испортить уже вполне материальное действие. Смотрю на LLM глазами лингвиста и разбираюсь, как языковед проверяет LLM от токенизации до прагматики и что разработчик может превратить из этого филологического занудства в код, метрики и тесты. Читать далее",
+      "published_at": "2026-08-24T15:38:23+00:00",
+      "topic": "Models",
+      "title_ru": "«Один нип осторожно замифрил», или как лингвисты разбирают язык внутри LLM",
+      "summary_ru": "Неважно, что делает LLM. Задача все равно приходит словами, и одно пропущенное не может испортить уже вполне материальное действие. Смотрю на LLM глазами лингвиста и разбираюсь, как языковед проверяет LLM от токенизации до прагматики и что разработчик может превратить из этого филологического занудства в код, метрики и тесты. Читать далее"
+    },
+    {
+      "id": "d8ea2344b7bd05e8",
+      "source": "CoinSpot",
+      "category": "crypto",
+      "url": "https://coinspot.io/cryptocurrencies/altcoins/kriptovalyuta-konsultantov-finansovyh-sovetnikov/",
+      "title_en": "Криптовалюта для консультантов: почему клиенты уже опередили своих финансовых советников",
+      "summary_en": "Тема «криптовалюта для консультантов» становится все острее: клиенты уже держат цифровые активы годами, включают их в наследственные планы и ждут от советников не общих разговоров, а реальной помощи с хранением, налогами, отчетностью и передачей капитала следующему поколению. Цифровые активы и блокчейн все глубже входят в привычную финансовую систему. Для многих инвесторов криптовалюта перестала быть краткосрочной [&#8230;]",
+      "published_at": "2026-08-24T15:35:43+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Криптовалюта для консультантов: почему клиенты уже опередили своих финансовых советников",
+      "summary_ru": "Тема «криптовалюта для консультантов» становится все острее: клиенты уже держат цифровые активы годами, включают их в наследственные планы и ждут от советников не общих разговоров, а реальной помощи с хранением, налогами, отчетностью и передачей капитала следующему поколению. Цифровые активы и блокчейн все глубже входят в привычную финансовую систему. Для многих инвесторов криптовалюта перестала быть краткосрочной [&#8230;]"
+    },
+    {
+      "id": "4c9db9d9303f7330",
+      "source": "Protos",
+      "category": "crypto",
+      "url": "https://protos.com/crypto-bros-are-harassing-wnba-players-again/",
+      "title_en": "Crypto bros are harassing WNBA players… again",
+      "summary_en": "One year ago, a group of \"crypto entrepreneurs\" repeatedly threw sex toys onto WNBA courts to promote a memecoin. They at it again. The post Crypto bros are harassing WNBA players… again appeared first on Protos .",
+      "published_at": "2026-08-24T15:28:02+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Криптоэнтузиасты снова преследуют игроков WNBA.",
+      "summary_ru": "Год назад группа \"крипто-предпринимателей\" неоднократно бросала секс-игрушки на площадки WNBA, чтобы продвигать мемкойн. Они снова это делают."
+    },
+    {
+      "id": "44cc2d2d841f005f",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1073918/?utm_campaign=1073918&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Приложение упало в закрытом контуре: скрытые загрузки в Python‑библиотеках для ML",
+      "summary_en": "Меня зовут Павел, я разработчик в R77.AI. В статье расскажу, почему Python-библиотеки для ML могут незаметно ходить в интернет, как находить такие скрытые загрузки и что с ними делать в закрытом контуре. Читать далее",
+      "published_at": "2026-08-24T15:14:17+00:00",
+      "topic": "Research",
+      "title_ru": "Приложение упало в закрытом контуре: скрытые загрузки в Python‑библиотеках для ML",
+      "summary_ru": "Меня зовут Павел, я разработчик в R77.AI. В статье расскажу, почему Python-библиотеки для ML могут незаметно ходить в интернет, как находить такие скрытые загрузки и что с ними делать в закрытом контуре. Читать далее"
+    },
+    {
+      "id": "6d2b1182e711d3a4",
+      "source": "NVIDIA Dev Blog",
+      "category": "ai",
+      "url": "https://developer.nvidia.com/blog/giga-scale-ai-ethernet-evolution-spectrum-x-ethernet-rewrites-rules/",
+      "title_en": "Giga-Scale AI and the Ethernet Evolution: How Spectrum-X Ethernet Rewrites the Rules",
+      "summary_en": "The massive growth of generative AI has fundamentally altered data center design. As distributed model training scales to span hundreds of thousands of GPUs,...",
+      "published_at": "2026-08-24T15:08:39+00:00",
+      "topic": "Hardware",
+      "title_ru": "Гига-масштабный ИИ и эволюция Ethernet: как Spectrum-X Ethernet переписывает правила.",
+      "summary_ru": "Масштабный рост генеративного ИИ кардинально изменил проектирование дата-центров. Поскольку распределенное обучение моделей охватывает сотни тысяч GPU,..."
+    },
+    {
+      "id": "f1a6e9cad0abdf99",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/companies/finam_broker/articles/1073908/?utm_campaign=1073908&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Сергей Брин: от московского эмигранта до создателя Google",
+      "summary_en": "В пятницу, 21 августа, миллиардеру Сергею Брину исполнилось 53 года. Он известен как сооснователь компании Google. По данным Forbes, в 2026 году состояние Брина оценивается в $260 млрд, что делает его четвёртым богатейшим человеком мира. История Брина выделяется на фоне других сверхбогатых предпринимателей, поскольку он стал самым успешным в бизнесе и технологиях выходцем из СССР. Читать далее",
+      "published_at": "2026-08-24T15:05:25+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Сергей Брин: от московского эмигранта до создателя Google",
+      "summary_ru": "В пятницу, 21 августа, миллиардеру Сергею Брину исполнилось 53 года. Он известен как сооснователь компании Google. По данным Forbes, в 2026 году состояние Брина оценивается в $260 млрд, что делает его четвёртым богатейшим человеком мира. История Брина выделяется на фоне других сверхбогатых предпринимателей, поскольку он стал самым успешным в бизнесе и технологиях выходцем из СССР. Читать далее"
+    },
+    {
+      "id": "8c476d21c2eef469",
+      "source": "NVIDIA AI Blog",
+      "category": "ai",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "title_en": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "summary_en": "According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request. Why? Consider what happens when an AI agent researches a company for an investment decision. The agent queries financial databases, searches news and filings, invokes a sub-agent to run peer comparisons and model valuations, then synthesizes everything into a [&#8230;]",
+      "published_at": "2026-08-24T15:00:19+00:00",
+      "topic": "AI Agents",
+      "title_ru": "До 30 раз больше работы на ватт: NVIDIA Vera Rubin NVL72 устанавливает новый стандарт эффективности для AI-агентов.",
+      "summary_ru": "Согласно данным OpenRouter, агентные AI-работы потребляют в 15 раз больше токенов, чем простые запросы в чате. Почему? Рассмотрим, что происходит, когда AI-агент исследует компанию для инвестиционного решения. Агент запрашивает финансовые базы данных, ищет новости и отчеты, вызывает суб-агента для проведения сравнений с аналогами и оценки моделей, а затем синтезирует все это в [...]"
+    },
+    {
+      "id": "1539ad47d9366eb1",
+      "source": "NVIDIA Dev Blog",
+      "category": "ai",
+      "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt/",
+      "title_en": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
+      "summary_en": "AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing...",
+      "published_at": "2026-08-24T15:00:05+00:00",
+      "topic": "Hardware",
+      "title_ru": "NVIDIA Vera Rubin и Blackwell устанавливают новый стандарт для производительности агентного ИИ на ватт.",
+      "summary_ru": "AI-агенты расширили возможности вывода от одноразовых взаимодействий до многоэтапных рабочих процессов, которые могут рассуждать, вызывать инструменты, координировать подагентов и выполнять все более сложные задачи.",
+      "duplicates": [
+        {
+          "source": "NVIDIA AI Blog",
+          "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+          "title_en": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+          "title_ru": "С началом массового производства Groq 3 LPX NVIDIA расширяет возможности Vera Rubin для инференса агентов.",
+          "published_at": "2026-08-24T15:00:41+00:00"
+        }
+      ]
+    },
+    {
+      "id": "07423739d052ca52",
+      "source": "NVIDIA Dev Blog",
+      "category": "ai",
+      "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
+      "title_en": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
+      "summary_en": "AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available...",
+      "published_at": "2026-08-24T15:00:00+00:00",
+      "topic": "Hardware",
+      "title_ru": "Максимизация производительности AI-фабрики на ватт с помощью NVIDIA DSX MaxLPS",
+      "summary_ru": "AI-фабрики — это промышленные системы с ограниченной мощностью. Теперь вопрос стоит не в том, сколько GPU помещается в дата-центр, а в том, сколько AI-выхода может обеспечить каждый доступный...",
+      "duplicates": [
+        {
+          "source": "NVIDIA AI Blog",
+          "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
+          "title_en": "How XPUs Meet a World-Class AI Factory",
+          "title_ru": "Как XPUs соответствуют мировому классу AI-фабрики",
+          "published_at": "2026-08-24T15:00:54+00:00"
+        }
+      ]
+    },
+    {
+      "id": "25d39522dc75ee5f",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+      "title_en": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "summary_en": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
+      "published_at": "2026-08-24T15:00:00+00:00",
+      "topic": "AI Agents",
+      "title_ru": "OpenAI разрабатывает AI-агентов для различных задач. Будут ли они использоваться всеми?",
+      "summary_ru": "Внутри усилий Frontier Lab по внедрению AI-агентов от программистов к широкой аудитории."
+    },
+    {
+      "id": "ce382861d5b186a7",
+      "source": "NVIDIA Dev Blog",
+      "category": "ai",
+      "url": "https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories/",
+      "title_en": "NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
+      "summary_en": "Traditional cloud infrastructure was designed for predictable, general-purpose workloads and standard interfaces. Agentic AI factories connect diverse users,...",
+      "published_at": "2026-08-24T15:00:00+00:00",
+      "topic": "AI Agents",
+      "title_ru": "NVIDIA BlueField-4 обеспечивает новую сетевую инфраструктуру Scale-In для агентных AI-фабрик.",
+      "summary_ru": "Традиционная облачная инфраструктура была разработана для предсказуемых, универсальных рабочих нагрузок и стандартных интерфейсов. Агентные AI-фабрики соединяют различных пользователей,..."
+    },
+    {
+      "id": "34798306fe6e6a56",
+      "source": "NVIDIA Dev Blog",
+      "category": "ai",
+      "url": "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu/",
+      "title_en": "Solving Agentic AI Fleet Challenges with NVIDIA Vera CPU",
+      "summary_en": "AI factories are interconnected systems where fleet economics depend on how efficiently the entire stack converts power and capital into completed agent tasks....",
+      "published_at": "2026-08-24T15:00:00+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Решение проблем агентного ИИ-автопарка с помощью процессора NVIDIA Vera",
+      "summary_ru": "AI-фабрики — это взаимосвязанные системы, в которых экономика флота зависит от того, насколько эффективно весь стек преобразует энергию и капитал в завершенные задачи агентов."
+    },
+    {
+      "id": "137a3d746a02316c",
+      "source": "Bitcoin Magazine",
+      "category": "crypto",
+      "url": "https://bitcoinmagazine.com/news/strategy-establishes-new-usd-cash-reserve",
+      "title_en": "Strategy Again Skips Bitcoin Buy And Establishes USD Cash Dollar Reserve",
+      "summary_en": "Bitcoin Magazine Strategy Again Skips Bitcoin Buy And Establishes USD Cash Dollar Reserve Strategy went another week without buying or selling bitcoin but has a new pool of cash. This post Strategy Again Skips Bitcoin Buy And Establishes USD Cash Dollar Reserve first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
+      "published_at": "2026-08-24T14:48:17+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Strategy снова пропускает покупку Bitcoin и создает резерв в долларах США.",
+      "summary_ru": "Bitcoin Magazine снова пропустил покупку биткойнов и установил стратегию резервирования наличных долларов США. На этой неделе не было ни покупок, ни продаж биткойнов, но появилась новая наличная резервная база. Этот пост \"Стратегия снова пропускает покупку биткойнов и устанавливает резерв наличных долларов США\" впервые появился на Bitcoin Magazine и написан Мэтью Ди Сальво."
+    },
+    {
+      "id": "1a705d3e20b8cb1c",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.news/bitcoin-etfs-had-their-best-week-in-nearly-a-year-as-crypto-rally-holds-firm/",
+      "title_en": "Прошлая неделя стала лучшей для биткоин-ETF за год, бычий тренд сохраняется",
+      "summary_en": "За прошлую неделю американские спотовые биткоин-ETF привлекли капитал в размере $1,92 млрд. Это самый высокий показатель за последние десять месяцев. На прошлой неделе спотовые биткоин-ETF показали самый сильный недельный приток средств за последние 10 месяцев. 13 фондов, котирующихся на американских биржах, привлекли $1,92 млрд, что стало крупнейшим недельным притоком с начала октября 2025 года. Как [&#8230;] Источник",
+      "published_at": "2026-08-24T14:39:21+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Прошлая неделя стала лучшей для биткоин-ETF за год, бычий тренд сохраняется",
+      "summary_ru": "За прошлую неделю американские спотовые биткоин-ETF привлекли капитал в размере $1,92 млрд. Это самый высокий показатель за последние десять месяцев. На прошлой неделе спотовые биткоин-ETF показали самый сильный недельный приток средств за последние 10 месяцев. 13 фондов, котирующихся на американских биржах, привлекли $1,92 млрд, что стало крупнейшим недельным притоком с начала октября 2025 года. Как [&#8230;] Источник"
+    },
+    {
+      "id": "159f21af1173daf7",
+      "source": "CoinSpot",
+      "category": "crypto",
+      "url": "https://coinspot.io/russia_sng/perevod-kriptovalyuty-rubezh-3/",
+      "title_en": "Как будет устроен перевод криптовалюты за рубеж с 1 сентября",
+      "summary_en": "С 1 сентября перевод криптовалюты за рубеж станет доступен физическим лицам, индивидуальным предпринимателям и компаниям при внешнеэкономических сделках, сообщил исполнительный директор криптоброкера Cifra Markets Алексей Короленко. При этом внутри России расчеты в криптовалюте по-прежнему останутся под запретом. Кому разрешат переводить цифровую валюту за границу Контролировать новый порядок будет Банк России. Переводы смогут проводить как квалифицированные, [&#8230;]",
+      "published_at": "2026-08-24T14:38:10+00:00",
+      "topic": "Regulations",
+      "title_ru": "Как будет устроен перевод криптовалюты за рубеж с 1 сентября",
+      "summary_ru": "С 1 сентября перевод криптовалюты за рубеж станет доступен физическим лицам, индивидуальным предпринимателям и компаниям при внешнеэкономических сделках, сообщил исполнительный директор криптоброкера Cifra Markets Алексей Короленко. При этом внутри России расчеты в криптовалюте по-прежнему останутся под запретом. Кому разрешат переводить цифровую валюту за границу Контролировать новый порядок будет Банк России. Переводы смогут проводить как квалифицированные, [&#8230;]"
+    },
+    {
+      "id": "c7a849edd52196ab",
+      "source": "Habr ML",
+      "category": "ai",
+      "url": "https://habr.com/ru/companies/cloud_ru/articles/1069028/?utm_campaign=1069028&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Unlimited-OCR от Baidu: читает страницу как картинку",
+      "summary_en": "Как вы себе представляете работу OCR? Страничка сканируется, программа находит области с буквами, распознает их и выдает текст. Старый добрый Tesseract так и пашет. А вот новый baidu/Unlimited-OCR делает финт ушами: он вообще не ищет буквы. Он берет всю страницу как картинку , жмет ее в горстку визуальных токенов и скармливает языковой модели, которая разворачивает их обратно в структурированный текст. Звучит как извращение, но… работает. Это прямой наследник идеи DeepSeek-OCR . Сегодня коротко разложу: что это, как устроено, что умеет и как запустить у себя. Будет полезно всем, кто хочет распознавать многостраничные документы за одну проходку или вписать такую функцию в свой проект. Читать далее",
+      "published_at": "2026-08-24T14:34:23+00:00",
+      "topic": "Models",
+      "title_ru": "Unlimited-OCR от Baidu: читает страницу как картинку",
+      "summary_ru": "Как вы себе представляете работу OCR? Страничка сканируется, программа находит области с буквами, распознает их и выдает текст. Старый добрый Tesseract так и пашет. А вот новый baidu/Unlimited-OCR делает финт ушами: он вообще не ищет буквы. Он берет всю страницу как картинку , жмет ее в горстку визуальных токенов и скармливает языковой модели, которая разворачивает их обратно в структурированный текст. Звучит как извращение, но… работает. Это прямой наследник идеи DeepSeek-OCR . Сегодня коротко разложу: что это, как устроено, что умеет и как запустить у себя. Будет полезно всем, кто хочет распознавать многостраничные документы за одну проходку или вписать такую функцию в свой проект. Читать далее"
+    },
+    {
+      "id": "b09e26ca9fd0792d",
+      "source": "MIT Tech Review",
+      "category": "ai",
+      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "title_en": "How to encourage smarter AI use in the classroom",
+      "summary_en": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any&#8230;",
+      "published_at": "2026-08-24T14:20:19+00:00",
+      "topic": "Models",
+      "title_ru": "Как способствовать более разумному использованию ИИ в классе",
+      "summary_ru": "Эта статья из Making AI Work, ограниченного выпуска новостной рассылки MIT Technology Review, посвященной применению LLM в различных отраслях. Чтобы получать её на почту, подпишитесь здесь. Чат-боты стали неожиданностью для многих школ, когда они появились несколько лет назад. Внезапно у студентов в телефонах оказалось приложение, которое могло волшебным образом отвечать почти на любые вопросы..."
+    },
+    {
+      "id": "77b7308e6b0650e0",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/companies/ru_mts/articles/1073872/?utm_campaign=1073872&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "«Он 10 из 10, но… »: обсудили грабли внедрения ИИ-агентов на фестивале True Tech Friends",
+      "summary_en": "Сегодня компании все чаще используют нейросети не только для отдельных запросов, но и для выполнения целых цепочек задач. ИИ-агент может самостоятельно найти информацию, написать код, обратиться к внутренней системе и подготовить результат. Чем больше таких действий система выполняет без участия человека, тем важнее становится контроль за ее работой и тем выше цена ошибки. На третьем фестивале True Tech Friends эксперты обсудили реальные случаи внедрения ИИ-агентов и ситуации, в которых автоматизация начинала работать не так, как от нее ожидали. В центре дискуссии оказался практический вопрос: где агенту действительно нужна автономность, а какие задачи лучше оставить обычным алгоритмам. В обсуждении приняли участие Ярослав Лосев, руководитель команды фронтенд-разработки «Яндекс Путешествий», Сергей Курбанов, руководитель исследований и разработок MWS, и Даниил Слюсарь, руководитель разработки PT Application Inspector в Positive Technologies. Читать далее",
+      "published_at": "2026-08-24T14:08:20+00:00",
+      "topic": "AI Agents",
+      "title_ru": "«Он 10 из 10, но… »: обсудили грабли внедрения ИИ-агентов на фестивале True Tech Friends",
+      "summary_ru": "Сегодня компании все чаще используют нейросети не только для отдельных запросов, но и для выполнения целых цепочек задач. ИИ-агент может самостоятельно найти информацию, написать код, обратиться к внутренней системе и подготовить результат. Чем больше таких действий система выполняет без участия человека, тем важнее становится контроль за ее работой и тем выше цена ошибки. На третьем фестивале True Tech Friends эксперты обсудили реальные случаи внедрения ИИ-агентов и ситуации, в которых автоматизация начинала работать не так, как от нее ожидали. В центре дискуссии оказался практический вопрос: где агенту действительно нужна автономность, а какие задачи лучше оставить обычным алгоритмам. В обсуждении приняли участие Ярослав Лосев, руководитель команды фронтенд-разработки «Яндекс Путешествий», Сергей Курбанов, руководитель исследований и разработок MWS, и Даниил Слюсарь, руководитель разработки PT Application Inspector в Positive Technologies. Читать далее"
+    },
+    {
+      "id": "da1fe8fe183cfd16",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1073842/?utm_campaign=1073842&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Вы внедряете AI неправильно и что такое контекстный долг",
+      "summary_en": "AI-агента сегодня можно собрать за несколько часов. Но это не значит, что бизнес понимает, где его действительно стоит внедрять. Компании часто начинают с Build: выбирают модель, подключают Jira, GitHub, MCP, собирают workflow. А уже потом пытаются понять, какую проблему они вообще решили. В статье разбираю другой подход: сначала найти места, где команда теряет время на восстановление контекста, ручную координацию и переключение между системами. Для этого мы используем Context Audit и понятие контекстного долга. Поговорим о том, как увидеть такие проблемы в Jira, Confluence и GitHub, почему не каждую из них стоит автоматизировать и что делать после аудита. Читать далее",
+      "published_at": "2026-08-24T13:30:54+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Вы внедряете AI неправильно и что такое контекстный долг",
+      "summary_ru": "AI-агента сегодня можно собрать за несколько часов. Но это не значит, что бизнес понимает, где его действительно стоит внедрять. Компании часто начинают с Build: выбирают модель, подключают Jira, GitHub, MCP, собирают workflow. А уже потом пытаются понять, какую проблему они вообще решили. В статье разбираю другой подход: сначала найти места, где команда теряет время на восстановление контекста, ручную координацию и переключение между системами. Для этого мы используем Context Audit и понятие контекстного долга. Поговорим о том, как увидеть такие проблемы в Jira, Confluence и GitHub, почему не каждую из них стоит автоматизировать и что делать после аудита. Читать далее"
+    },
+    {
+      "id": "fa688f050d94a634",
+      "source": "Protos",
+      "category": "crypto",
+      "url": "https://protos.com/bitmart-suggests-restructuring-weeks-after-closure-announcement/",
+      "title_en": "BitMart suggests restructuring weeks after closure announcement",
+      "summary_en": "Crypto exchange BitMart says it's exploring continuing some operations despite previously announcing a complete closure. The post BitMart suggests restructuring weeks after closure announcement appeared first on Protos .",
+      "published_at": "2026-08-24T13:20:52+00:00",
+      "topic": "Altcoins",
+      "title_ru": "BitMart предлагает реструктуризацию через несколько недель после объявления о закрытии.",
+      "summary_ru": "Криптобиржа BitMart сообщает, что рассматривает возможность продолжения некоторых операций, несмотря на ранее объявленное полное закрытие."
+    },
+    {
+      "id": "e5b745d0b14cce60",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1073828/?utm_campaign=1073828&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Xiaomi AI Cube — всё, что известно об ИИ‑компьютере на трёх чипах XRing",
+      "summary_en": "В середине августа 2026 года в китайском закрытом сегменте появились подробности закрытого показа кремниевого подразделения Xiaomi. Компания привезла рабочий инженерный прототип под названием Xiaomi AI Cube. И это уже не очередной неттоп на мобильном процессоре Intel или AMD. Перед нами компактная рабочая станция, собранная, собственно, под вполне конкретную задачу - локальный запуск открытых нейросетей размером до 120 миллиардов параметров без подключения к облаку и без видеокарт Nvidia. Читать далее",
+      "published_at": "2026-08-24T13:18:41+00:00",
+      "topic": "Hardware",
+      "title_ru": "Xiaomi AI Cube — всё, что известно об ИИ‑компьютере на трёх чипах XRing",
+      "summary_ru": "В середине августа 2026 года в китайском закрытом сегменте появились подробности закрытого показа кремниевого подразделения Xiaomi. Компания привезла рабочий инженерный прототип под названием Xiaomi AI Cube. И это уже не очередной неттоп на мобильном процессоре Intel или AMD. Перед нами компактная рабочая станция, собранная, собственно, под вполне конкретную задачу - локальный запуск открытых нейросетей размером до 120 миллиардов параметров без подключения к облаку и без видеокарт Nvidia. Читать далее"
+    },
+    {
+      "id": "16dd486cb9e74bcc",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.news/depozity-v-rwa-utroilis-pochemu-tradiczionnye-finansy-vybirayut-blokchejn/",
+      "title_en": "Депозиты в RWA утроились — традиционные финансы выбирают блокчейн",
+      "summary_en": "Токенизированные реальные активы зарегистрировали рост объёма депозитов в 2026 году более чем в три раза. За второй квартал 2025 года по второй квартал 2026 года эта цифра выросла с $2,3 млрд до $7,4 млрд. Сектор децентрализованных финансов (DeFi) переживает структурную трансформацию, в которой токенизированные реальные активы (RWA) стремительно выходят на первый план. Согласно отчёту аналитической [&#8230;] Источник",
+      "published_at": "2026-08-24T13:17:50+00:00",
+      "topic": "DeFi",
+      "title_ru": "Депозиты в RWA утроились — традиционные финансы выбирают блокчейн",
+      "summary_ru": "Токенизированные реальные активы зарегистрировали рост объёма депозитов в 2026 году более чем в три раза. За второй квартал 2025 года по второй квартал 2026 года эта цифра выросла с $2,3 млрд до $7,4 млрд. Сектор децентрализованных финансов (DeFi) переживает структурную трансформацию, в которой токенизированные реальные активы (RWA) стремительно выходят на первый план. Согласно отчёту аналитической [&#8230;] Источник"
+    },
+    {
+      "id": "66430811617fd7dc",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1073830/?utm_campaign=1073830&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "RAG‑система для анализа новостей с позиций исторической личности на основе литературных источников «АЙ_Ленин»",
+      "summary_en": "Широкое распространение СМИ в&nbsp;сети привело к&nbsp;формированию группы тематических экспертов&nbsp;—&nbsp;лидеров общественного мнения&nbsp;— блогеров. Их задача&nbsp;— оценка и анализ фактов, подача информации через призму собственного мнения. Закономерно, мысленное упражнение, как&nbsp;человек, оставивший след в&nbsp;истории, оценил&nbsp;бы тот или&nbsp;иной современный факт. Читать далее",
+      "published_at": "2026-08-24T13:17:33+00:00",
+      "topic": "Regulations",
+      "title_ru": "RAG‑система для анализа новостей с позиций исторической личности на основе литературных источников «АЙ_Ленин»",
+      "summary_ru": "Широкое распространение СМИ в&nbsp;сети привело к&nbsp;формированию группы тематических экспертов&nbsp;—&nbsp;лидеров общественного мнения&nbsp;— блогеров. Их задача&nbsp;— оценка и анализ фактов, подача информации через призму собственного мнения. Закономерно, мысленное упражнение, как&nbsp;человек, оставивший след в&nbsp;истории, оценил&nbsp;бы тот или&nbsp;иной современный факт. Читать далее"
+    },
+    {
+      "id": "b68305563f29fc51",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/bitmine-nears-massive-ethereum-milestone-as-eth-holdings-reach-5-85-million/",
+      "title_en": "BitMine Nears Massive Ethereum Milestone as ETH Holdings Reach 5.85 Million",
+      "summary_en": "The company is now just 3% away from its ambitious target set just over a year ago.",
+      "published_at": "2026-08-24T13:09:58+00:00",
+      "topic": "Ethereum",
+      "title_ru": "BitMine приближается к значительной вехе в Ethereum, так как запасы ETH достигли 5,85 миллиона.",
+      "summary_ru": "Компания теперь всего на 3% ближе к своей амбициозной цели, установленной чуть более года назад.",
+      "duplicates": [
+        {
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-08-24-upside-move-eth-was-overdue-tom-lee-says-bitmine-buys-more-ether-412589",
+          "title_en": "‘Upside move in ETH was overdue,’ Tom Lee says as Bitmine buys another 32,447 ether",
+          "title_ru": "«Рост ETH был назревшим», — говорит Том Ли, так как Bitmine покупает еще 32 447 эфиров.",
+          "published_at": "2026-08-24T13:36:31+00:00"
+        },
+        {
+          "source": "Forklog",
+          "url": "https://forklog.com/bitmine-uvelichila-zapasy-ethereum-do-5-85-mln-eth",
+          "title_en": "BitMine за неделю купила 32 447 ETH",
+          "title_ru": "BitMine за неделю купила 32 447 ETH",
+          "published_at": "2026-08-24T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6604d15d848a421c",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/bitcoin-warsh-jackson-hole-debut-2022/",
+      "title_en": "Bitcoin Braces for Warsh's Jackson Hole Debut: Will 2022 Repeat?",
+      "summary_en": "Warsh's Jackson Hole debut lands Friday. See whether Bitcoin repeats the sharp 2022 slide Powell triggered. The post Bitcoin Braces for Warsh&#039;s Jackson Hole Debut: Will 2022 Repeat? appeared first on BeInCrypto .",
+      "published_at": "2026-08-24T13:02:36+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Биткойн готовится к дебюту Уорша в Джексон-Хоуле: повторится ли 2022 год?",
+      "summary_ru": "Дебют Уорша в Джексон-Хоуле состоится в пятницу. Посмотрим, повторит ли Биткойн резкое падение 2022 года, вызванное Пауэллом."
+    },
+    {
+      "id": "55f0535cc339f975",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/press-releases/digital-sovereignty-alliance-concludes-digital-asset-case-study-course-at-st-andrews-episcopal-school/",
+      "title_en": "Digital Sovereignty Alliance Concludes Digital Asset Case Study Course at St. Andrew’s Episcopal School",
+      "summary_en": "Washington, D.C., August 24, 2026 — The Digital Sovereignty Alliance (DSA), a nonprofit organization dedicated to advancing clear and ethical public policy, research, and education surrounding emerging technologies, today announced the completion of its inaugural Digital Asset Case Study Course at St. Andrew’s Episcopal School. Developed by DSA in collaboration with Professor Charles C.Y. Wang, [&#8230;]",
+      "published_at": "2026-08-24T13:00:27+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Digital Sovereignty Alliance завершила курс по исследованию случаев цифровых активов в школе Святого Андрея.",
+      "summary_ru": "Вашингтон, округ Колумбия, 24 августа 2026 года — Альянс цифрового суверенитета (DSA), некоммерческая организация, посвященная продвижению четкой и этичной государственной политики, исследований и образования в области новых технологий, сегодня объявил о завершении своего первого курса по кейс-стадиям цифровых активов в школе епископа Святого Андрея. Курс был разработан DSA в сотрудничестве с профессором Чарльзом Ч.Й. Вангом."
+    },
     {
       "id": "fb1f4757046140f5",
       "source": "Habr ML",
@@ -14,16 +484,28 @@
       "summary_ru": "Привет, Хабр! Меня зовут Писарев Андрей, я руковожу отделом машинного обучения в департаменте технологий искусственного интеллекта. Мы с командой разрабатываем и внедряем ML-решения на производственных площадках компании различной направленности. РУСАЛ – геораспределённая компания: десятки производственных площадок по всему миру. А дата-сайентистов в команде – единицы. Если бы для каждого объекта мы строили ML-продукт с нуля, мы бы не вывезли. Поэтому главный фокус этой статьи – не модель и не метрики, а типовой подход к разработке ИИ-продуктов , который позволяет одной командой закрывать много объектов. Печь спекания на Пикалевском глинозёмном заводе (ПГЛЗ) – это кейс, на котором я покажу, как подход работает вживую. TL;DR: Решение – системный подход к ML-продуктам на базе SinaraML и корпоративной ИИ-платформы. Показываю, как подход работает на конкретном кейсе – ML-сервис для управления 150-метровой печью спекания на ПГЛЗ. 3 месяца от PoC до закрытого тестирования. CatBoost: MAE = 225, R² = 0.48, RMSE = 330. Ожидаемый порядок экономического эффекта – десятки миллионов рублей в год. Читать далее"
     },
     {
-      "id": "ed5833cd13e8c32f",
+      "id": "043a2bf5f6f78168",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Here’s what happened in crypto today",
+      "summary_en": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "published_at": "2026-08-24T12:55:25+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Вот что произошло в криптовалютном мире сегодня.",
+      "summary_ru": "Нужна информация о событиях в криптовалюте сегодня? Вот последние новости о ежедневных трендах и событиях, влияющих на цену Bitcoin, блокчейн, DeFi, NFTs, Web3 и регулирование криптовалют."
+    },
+    {
+      "id": "00bb18c20655dd5f",
       "source": "BeInCrypto EN",
       "category": "crypto",
-      "url": "https://beincrypto.com/microstrategy-bought-dollars-august-not-bitcoin/",
-      "title_en": "MicroStrategy Bought US Dollar in August, Not Bitcoin",
-      "summary_en": "Strategy raised $3.28 billion in August, spent none on Bitcoin, and built its dollar pools to $6.69 billion. The post MicroStrategy Bought US Dollar in August, Not Bitcoin appeared first on BeInCrypto .",
-      "published_at": "2026-08-24T12:36:59+00:00",
-      "topic": "Macro",
-      "title_ru": "MicroStrategy купила доллары США в августе, а не биткойны.",
-      "summary_ru": "Strategy привлекла 3,28 миллиарда долларов в августе, не потратила ни цента на Bitcoin и увеличила свои долларовые фонды до 6,69 миллиарда долларов."
+      "url": "https://beincrypto.com/latam-stablecoins-capital-flight/",
+      "title_en": "Stablecoins Made It Easier for LATAM Money to Leave. Can It Return?",
+      "summary_en": "$544. That is the average withdrawal on Argentine retail crypto rails such as Lemon Wallet. The median transfer is between $150 and $270&#8212;closer to rent money than a portfolio shift. That figure changes the familiar image of capital flight. Money once moved offshore through private bankers and complex accounts. Across Latin America, workers and small The post Stablecoins Made It Easier for LATAM Money to Leave. Can It Return? appeared first on BeInCrypto .",
+      "published_at": "2026-08-24T12:47:58+00:00",
+      "topic": "Regulations",
+      "title_ru": "Стейблкоины упростили вывод денег из Латинской Америки. Могут ли они вернуться?",
+      "summary_ru": "$544 — это средняя сумма вывода на аргентинских розничных криптоплатформах, таких как Lemon Wallet. Медианная сумма перевода составляет от $150 до $270 — ближе к деньгам на аренду, чем к изменению инвестиционного портфеля. Эта цифра меняет привычное представление о выводе капитала. Ранее деньги выводились за границу через частных банкиров и сложные счета. По всей Латинской Америке работники и малые предприятия..."
     },
     {
       "id": "fc458e3bdec166fb",
@@ -50,18 +532,6 @@
       "summary_ru": "Более трети англоязычных веб-страниц, опубликованных после выхода ChatGPT, содержат тексты, которые, вероятно, были написаны или существенно отредактированы с помощью ИИ. К такому выводу пришёл Pew Research Center — американский исследовательский центр, проанализировавший около 490 тысяч текстов из веб-архива Common Crawl. Исследователи также обнаружили, что вместе с ростом доли ИИ-текстов в интернете стали чаще встречаться характерные слова, обороты и знаки препинания."
     },
     {
-      "id": "f6f517161fbf5a77",
-      "source": "CoinSpot",
-      "category": "crypto",
-      "url": "https://coinspot.io/trading/exchange/gemini-kriptovalyutnye-prognozy-brokeram/",
-      "title_en": "Gemini криптовалютные прогнозы: сделка с Apex откроет брокерам доступ к контрактам на события",
-      "summary_en": "Gemini криптовалютные прогнозы выводит на более широкий рынок: компания договорилась с Apex Fintech Solutions о распространении регулируемых контрактов на криптособытия среди клиентов брокерских фирм. Кэмерон Уинклвосс и Тайлер Уинклвосс в Белом доме. Главное в сделке Gemini и Apex Gemini и Apex подписали письмо о намерениях, чтобы расширить доступ брокеров к криптовалютным рынкам прогнозов. Gemini берет [&#8230;]",
-      "published_at": "2026-08-24T12:11:46+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Gemini криптовалютные прогнозы: сделка с Apex откроет брокерам доступ к контрактам на события",
-      "summary_ru": "Gemini криптовалютные прогнозы выводит на более широкий рынок: компания договорилась с Apex Fintech Solutions о распространении регулируемых контрактов на криптособытия среди клиентов брокерских фирм. Кэмерон Уинклвосс и Тайлер Уинклвосс в Белом доме. Главное в сделке Gemini и Apex Gemini и Apex подписали письмо о намерениях, чтобы расширить доступ брокеров к криптовалютным рынкам прогнозов. Gemini берет [&#8230;]"
-    },
-    {
       "id": "b335f25a459fa699",
       "source": "Protos",
       "category": "crypto",
@@ -78,24 +548,12 @@
       "source": "Habr AI",
       "category": "ai",
       "url": "https://habr.com/ru/articles/1073224/?utm_campaign=1073224&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "CLAUDE CODE ANTIFRAUD, ЧАСТЬ 2: крысы-биссектрисы и обезьяны-медианы на детской олимпиаде",
-      "summary_en": "В прошлой серии знакомый принёс мне импортное за триста и попросил посмотреть результаты московской олимпиады по геометрии. Пока публиковал статью, пришёл второй заказ. В этот раз питерская олимпиада для 4-11 классов: 6 сезонов, 40+ площадок проведения, устный формат. Устный – это когда участник рассказывает решение, жюри кивает или не кивает, черновиков нет, перепроверить нельзя. И снова импортное за триста. Что ж, триста так триста. Погнали. Читать далее",
+      "title_en": "Claude Code Antifraud, часть 2: крысы‑биссектрисы и обезьяны‑медианы на детской олимпиаде",
+      "summary_en": "В&nbsp;прошлой серии знакомый принёс мне импортное за&nbsp;триста и попросил посмотреть результаты московской олимпиады по&nbsp;геометрии. Пока публиковал статью, пришёл второй заказ. В&nbsp;этот раз питерская олимпиада для 4–11&nbsp;классов: 6&nbsp;сезонов, 40+ площадок проведения, устный формат. Устный&nbsp;— это когда участник рассказывает решение, жюри кивает или&nbsp;не&nbsp;кивает, черновиков нет, перепроверить нельзя. И снова импортное за&nbsp;триста. Что&nbsp;ж, триста так триста. Погнали. Читать далее",
       "published_at": "2026-08-24T11:56:57+00:00",
       "topic": "Models",
-      "title_ru": "CLAUDE CODE ANTIFRAUD, ЧАСТЬ 2: крысы-биссектрисы и обезьяны-медианы на детской олимпиаде",
-      "summary_ru": "В прошлой серии знакомый принёс мне импортное за триста и попросил посмотреть результаты московской олимпиады по геометрии. Пока публиковал статью, пришёл второй заказ. В этот раз питерская олимпиада для 4-11 классов: 6 сезонов, 40+ площадок проведения, устный формат. Устный – это когда участник рассказывает решение, жюри кивает или не кивает, черновиков нет, перепроверить нельзя. И снова импортное за триста. Что ж, триста так триста. Погнали. Читать далее"
-    },
-    {
-      "id": "eba1daaa497394a6",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/articles/1073776/?utm_campaign=1073776&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Хватит с меня отвалившихся VPN: как я раз и навсегда решил вопрос с доступом к ChatGPT из РФ",
-      "summary_en": "В четверг я допоздна сидел над рабочей задачей и рассчитывал на помощь ChatGPT, чтобы закончить побыстрее. Открываю чат — о, привет, «This model's response is unavailable». VPN, который до этого честно работал полгода, решил лечь именно в этот момент. Перезапуск, смена сервера, ещё один перезапуск — тридцать потерянных минут и задача, которую пришлось доделывать до трёх ночи. На следующий день сел разбираться, как сделать так, чтобы это не повторилось.&nbsp; Пошел на принцип: никогда, вот именно НИКОГДА больше я не потеряю доступ к ChatGPT из-за VPN. Ошибка сервера OpenAI, погасший в доме свет, метеорит, ударивший в системный блок — ок, тут я бессилен. Но вот сломанный VPN больше не будет мне преградой. Получился довольно кривой и неудобный путь в обход, но результат — есть. Если вдруг вы читаете этот в текст, находясь в той же ситуации, что я — в четверг, буду рад помочь. Читать далее",
-      "published_at": "2026-08-24T11:53:14+00:00",
-      "topic": "Models",
-      "title_ru": "Хватит с меня отвалившихся VPN: как я раз и навсегда решил вопрос с доступом к ChatGPT из РФ",
-      "summary_ru": "В четверг я допоздна сидел над рабочей задачей и рассчитывал на помощь ChatGPT, чтобы закончить побыстрее. Открываю чат — о, привет, «This model's response is unavailable». VPN, который до этого честно работал полгода, решил лечь именно в этот момент. Перезапуск, смена сервера, ещё один перезапуск — тридцать потерянных минут и задача, которую пришлось доделывать до трёх ночи. На следующий день сел разбираться, как сделать так, чтобы это не повторилось.&nbsp; Пошел на принцип: никогда, вот именно НИКОГДА больше я не потеряю доступ к ChatGPT из-за VPN. Ошибка сервера OpenAI, погасший в доме свет, метеорит, ударивший в системный блок — ок, тут я бессилен. Но вот сломанный VPN больше не будет мне преградой. Получился довольно кривой и неудобный путь в обход, но результат — есть. Если вдруг вы читаете этот в текст, находясь в той же ситуации, что я — в четверг, буду рад помочь. Читать далее"
+      "title_ru": "Claude Code Antifraud, часть 2: крысы‑биссектрисы и обезьяны‑медианы на детской олимпиаде",
+      "summary_ru": "В&nbsp;прошлой серии знакомый принёс мне импортное за&nbsp;триста и попросил посмотреть результаты московской олимпиады по&nbsp;геометрии. Пока публиковал статью, пришёл второй заказ. В&nbsp;этот раз питерская олимпиада для 4–11&nbsp;классов: 6&nbsp;сезонов, 40+ площадок проведения, устный формат. Устный&nbsp;— это когда участник рассказывает решение, жюри кивает или&nbsp;не&nbsp;кивает, черновиков нет, перепроверить нельзя. И снова импортное за&nbsp;триста. Что&nbsp;ж, триста так триста. Погнали. Читать далее"
     },
     {
       "id": "821e92199c842f5f",
@@ -158,6 +616,27 @@
       "summary_ru": "Проектировать интерфейс теперь можно до написания кода - в терминале или в десктопном приложении."
     },
     {
+      "id": "4805534dc84efe7a",
+      "source": "CoinDesk",
+      "category": "crypto",
+      "url": "https://www.coindesk.com/policy/2026/08/24/pakistan-kicks-off-crypto-licensing-regime-with-sept-5-registration-deadline",
+      "title_en": "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
+      "summary_en": "",
+      "published_at": "2026-08-24T11:19:16+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Пакистан запускает режим лицензирования криптовалют с дедлайном для регистрации 5 сентября.",
+      "summary_ru": "",
+      "duplicates": [
+        {
+          "source": "Decrypt",
+          "url": "https://decrypt.co/376318/pakistan-sets-september-5-deadline-for-crypto-firms-to-register",
+          "title_en": "Pakistan Sets September 5 Deadline for Crypto Firms to Register",
+          "title_ru": "Пакистан установил срок до 5 сентября для регистрации криптовалютных компаний.",
+          "published_at": "2026-08-24T12:14:27+00:00"
+        }
+      ]
+    },
+    {
       "id": "f9ceaafb9406dfd5",
       "source": "CoinDesk",
       "category": "crypto",
@@ -168,42 +647,6 @@
       "topic": "Bitcoin",
       "title_ru": "Финансовая репрессия: новое модное слово для быков биткойна",
       "summary_ru": ""
-    },
-    {
-      "id": "34b860fcc20c379e",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/articles/1073544/?utm_campaign=1073544&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "[Перевод] Во сколько обойдётся крах искусственного интеллекта",
-      "summary_en": "В мае 17&nbsp;% совокупного прироста всего мирового рынка акций пришлось лишь на две компании&nbsp;— Micron и SK Hynix, производителей микросхем памяти. Не 17&nbsp;% прироста полупроводникового сектора, а 17&nbsp;% вообще всего рынка, то есть всех публичных компаний во всех странах, вместе взятых. Такие данные приводит Acadian Asset Management. Под мировым рынком в отчёте компании понимается индекс MSCI All Country World Index, в который входят тысячи акций из десятков стран. При этом Micron и SK Hynix вместе весят в нём около 1&nbsp;%. Иными словами, из каждого доллара, на который мировой рынок вырос в мае, примерно 17&nbsp;центов принесли всего две эти акции. Отсюда напрашивается неприятный вопрос: если весь мировой рынок акций способны тянуть вверх бумаги всего двух производителей чипов, о которых большинство людей даже не слышало (речь всё-таки не об Apple или Google), что будет с вашим портфелем, когда рынок развернётся вниз? Поэтому сегодня мы разберёмся, насколько обычные инвесторы завязаны на ставку на искусственный интеллект, почему привычные тихие гавани могут не защитить, и сколько примерно денег исчезнет, если вся эта конструкция развалится. Читать далее",
-      "published_at": "2026-08-24T11:11:57+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "[Перевод] Во сколько обойдётся крах искусственного интеллекта",
-      "summary_ru": "В мае 17&nbsp;% совокупного прироста всего мирового рынка акций пришлось лишь на две компании&nbsp;— Micron и SK Hynix, производителей микросхем памяти. Не 17&nbsp;% прироста полупроводникового сектора, а 17&nbsp;% вообще всего рынка, то есть всех публичных компаний во всех странах, вместе взятых. Такие данные приводит Acadian Asset Management. Под мировым рынком в отчёте компании понимается индекс MSCI All Country World Index, в который входят тысячи акций из десятков стран. При этом Micron и SK Hynix вместе весят в нём около 1&nbsp;%. Иными словами, из каждого доллара, на который мировой рынок вырос в мае, примерно 17&nbsp;центов принесли всего две эти акции. Отсюда напрашивается неприятный вопрос: если весь мировой рынок акций способны тянуть вверх бумаги всего двух производителей чипов, о которых большинство людей даже не слышало (речь всё-таки не об Apple или Google), что будет с вашим портфелем, когда рынок развернётся вниз? Поэтому сегодня мы разберёмся, насколько обычные инвесторы завязаны на ставку на искусственный интеллект, почему привычные тихие гавани могут не защитить, и сколько примерно денег исчезнет, если вся эта конструкция развалится. Читать далее"
-    },
-    {
-      "id": "56a5c21010731d96",
-      "source": "CoinSpot",
-      "category": "crypto",
-      "url": "https://coinspot.io/russia_sng/kurs-xrp-padaet-bystree-rynka/",
-      "title_en": "Почему курс XRP падает быстрее других крупных криптовалют",
-      "summary_en": "Курс XRP просел примерно на 67% от исторического максимума, и это худшая динамика среди крупнейших криптовалют, если не учитывать стейблкоины. Давление на токен усиливается из-за перекоса в маржинальных позициях и постепенного выхода крупных держателей. Токен XRP показал самое сильное падение среди ведущих цифровых активов Переполненные лонги с плечом лишили рынок запаса новых покупателей Крупные держатели [&#8230;]",
-      "published_at": "2026-08-24T11:00:37+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Почему курс XRP падает быстрее других крупных криптовалют",
-      "summary_ru": "Курс XRP просел примерно на 67% от исторического максимума, и это худшая динамика среди крупнейших криптовалют, если не учитывать стейблкоины. Давление на токен усиливается из-за перекоса в маржинальных позициях и постепенного выхода крупных держателей. Токен XRP показал самое сильное падение среди ведущих цифровых активов Переполненные лонги с плечом лишили рынок запаса новых покупателей Крупные держатели [&#8230;]"
-    },
-    {
-      "id": "2fc3785dce2e1c30",
-      "source": "CoinSpot",
-      "category": "crypto",
-      "url": "https://coinspot.io/russia_sng/mayning-kriptovalyut-rossii-obvineniya-bitriver/",
-      "title_en": "Майнинг криптовалют в России: основателя BitRiver обвиняют в мошенничестве на 12,5 миллиона долларов",
-      "summary_en": "майнинг криптовалют в России оказался в центре нового громкого дела: суд отправил основателя BitRiver Игоря Рунца из-под домашнего ареста в следственный изолятор, где он будет ожидать дальнейшего разбирательства по обвинению в крупном мошенничестве. Главное Российский суд изменил меру пресечения Игорю Рунцу: вместо домашнего ареста основатель BitRiver помещен в СИЗО. Следствие связывает дело с невыполнением контракта [&#8230;]",
-      "published_at": "2026-08-24T11:00:27+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Майнинг криптовалют в России: основателя BitRiver обвиняют в мошенничестве на 12,5 миллиона долларов",
-      "summary_ru": "майнинг криптовалют в России оказался в центре нового громкого дела: суд отправил основателя BitRiver Игоря Рунца из-под домашнего ареста в следственный изолятор, где он будет ожидать дальнейшего разбирательства по обвинению в крупном мошенничестве. Главное Российский суд изменил меру пресечения Игорю Рунцу: вместо домашнего ареста основатель BitRiver помещен в СИЗО. Следствие связывает дело с невыполнением контракта [&#8230;]"
     },
     {
       "id": "f448f71be28b481e",
@@ -251,30 +694,6 @@
       "summary_ru": "Эта неделя пополнит крипторынок значительным количеством токенов SOSO, H, XPL, HUMA, FF, CARDS и KMNO. В случае продаж разблокированных токенов их цена может резко упасть в цене. С 24 по 30 августа произойдёт разблокировка семи токенов, и в сообществе всегда отслеживают такие события, так как поступление дополнительно количества токенов в оборот как минимум вызывает волатильность. [&#8230;] Источник"
     },
     {
-      "id": "a7f9b906c92ebcb2",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/otus/articles/1067756/?utm_campaign=1067756&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Код‑ревью в эпоху ИИ: 7 ошибок, ведущих к инцидентам",
-      "summary_en": "ИИ уже умеет за&nbsp;минуты генерировать сотни строк кода, но&nbsp;скорость ревью от&nbsp;этого не&nbsp;выросла. Разбираем семь ошибок, из‑за которых AI Code Review пропускает реальные дефекты, создаёт ложное чувство безопасности и постепенно превращает проверку кода в&nbsp;формальность. Разобрать ошибки",
-      "published_at": "2026-08-24T10:40:41+00:00",
-      "topic": "Research",
-      "title_ru": "Код‑ревью в эпоху ИИ: 7 ошибок, ведущих к инцидентам",
-      "summary_ru": "ИИ уже умеет за&nbsp;минуты генерировать сотни строк кода, но&nbsp;скорость ревью от&nbsp;этого не&nbsp;выросла. Разбираем семь ошибок, из‑за которых AI Code Review пропускает реальные дефекты, создаёт ложное чувство безопасности и постепенно превращает проверку кода в&nbsp;формальность. Разобрать ошибки"
-    },
-    {
-      "id": "02470e88d09ea783",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/haulmont/articles/1073034/?utm_campaign=1073034&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Вход в SpecDriven Development: OpenSpec vs SpecKit",
-      "summary_en": "Агенты пишут код быстрее, чем любой человек способен его проверять — поэтому знания, которые раньше хранились в головах разработчиков, теперь должны жить где-то ещё. Практический разбор двух ключевых подходов к spec-driven development: как устроены их рабочие процессы, насколько они расширяемы и в каких местах и OpenSpec, и Spec Kit всё ещё оставляют вас один на один с агентом. Читать далее",
-      "published_at": "2026-08-24T10:34:45+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Вход в SpecDriven Development: OpenSpec vs SpecKit",
-      "summary_ru": "Агенты пишут код быстрее, чем любой человек способен его проверять — поэтому знания, которые раньше хранились в головах разработчиков, теперь должны жить где-то ещё. Практический разбор двух ключевых подходов к spec-driven development: как устроены их рабочие процессы, насколько они расширяемы и в каких местах и OpenSpec, и Spec Kit всё ещё оставляют вас один на один с агентом. Читать далее"
-    },
-    {
       "id": "97f1933a66554b89",
       "source": "Bitcoin.com",
       "category": "crypto",
@@ -285,18 +704,6 @@
       "topic": "Altcoins",
       "title_ru": "Валидаторы Solana открыли голосование по Конституции.",
       "summary_ru": "Solana начала свое первое официальное голосование по управлению 22 августа 2026 года, предложив валидаторам три предложения, включая план удвоить ежегодную дисинфляцию до 30%, до 27 августа. Три предложения, один голос В этом месяце сеть Solana продолжила свою проактивную работу на бэкенде, открыв вчера первое голосование по управлению для валидаторов."
-    },
-    {
-      "id": "56fc06dedafdee00",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/articles/1073712/?utm_campaign=1073712&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "[Перевод] Из-за ИИ я обленился. Или уже давно стал лентяем, а теперь это стало невозможно скрывать?",
-      "summary_en": "Стоит ли прямо сейчас перестать пользоваться ИИ? Я ненавижу ИИ-инструменты. Что довольно смешно, потому что я буквально зарабатываю на том, что строю AI-автоматизации. Это моя работа. Но недавно я пережил кое-что, что заставило меня полностью пересмотреть отношения с этими инструментами. Я потерял ощущение цели, потерял интерес к работе и долго не мог понять почему. А потом случайно посмотрел видео о греческом слове, которого раньше никогда не слышал, — и наконец понял, что происходит. Читать далее",
-      "published_at": "2026-08-24T10:28:47+00:00",
-      "topic": "Research",
-      "title_ru": "[Перевод] Из-за ИИ я обленился. Или уже давно стал лентяем, а теперь это стало невозможно скрывать?",
-      "summary_ru": "Стоит ли прямо сейчас перестать пользоваться ИИ? Я ненавижу ИИ-инструменты. Что довольно смешно, потому что я буквально зарабатываю на том, что строю AI-автоматизации. Это моя работа. Но недавно я пережил кое-что, что заставило меня полностью пересмотреть отношения с этими инструментами. Я потерял ощущение цели, потерял интерес к работе и долго не мог понять почему. А потом случайно посмотрел видео о греческом слове, которого раньше никогда не слышал, — и наконец понял, что происходит. Читать далее"
     },
     {
       "id": "bc303184cec6eb3d",
@@ -323,18 +730,6 @@
       "summary_ru": "В качестве одного из глобальных майнинг-пулов, ViaBTC обновила свою программу амбассадоров, предлагая пожизненные реферальные вознаграждения для майнеров. Утвержденные амбассадоры получают 20% пожизненной комиссии за каждого нового пользователя, которого они привлекут, в то время как привлеченные пользователи получают купон на скидку 50% на сборы, действующий в течение 30 дней. Для тех, кто имеет устоявшееся майнинг-сообщество, контентную аудиторию или"
     },
     {
-      "id": "9fd9ae0dc15ab082",
-      "source": "CoinSpot",
-      "category": "crypto",
-      "url": "https://coinspot.io/cryptocurrencies/altcoins/postkvantovaya-zashchita-bitkoina-riski/",
-      "title_en": "Ии и постквантовая защита: новая атака на HAWK и возможные риски для биткоина",
-      "summary_en": "Постквантовая защита снова оказалась в центре внимания после заявления Anthropic: модель Claude Mythos Preview нашла новый способ атаки на алгоритм цифровой подписи HAWK, который рассматривают как один из вариантов для будущей постквантовой криптографии. В Anthropic сообщили, что исследование заняло около 60 часов, а стоимость необходимых вычислений приблизилась к $100 тыс. По сути, компьютер с помощью [&#8230;]",
-      "published_at": "2026-08-24T10:00:40+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Ии и постквантовая защита: новая атака на HAWK и возможные риски для биткоина",
-      "summary_ru": "Постквантовая защита снова оказалась в центре внимания после заявления Anthropic: модель Claude Mythos Preview нашла новый способ атаки на алгоритм цифровой подписи HAWK, который рассматривают как один из вариантов для будущей постквантовой криптографии. В Anthropic сообщили, что исследование заняло около 60 часов, а стоимость необходимых вычислений приблизилась к $100 тыс. По сути, компьютер с помощью [&#8230;]"
-    },
-    {
       "id": "abf6c4e15f4ae859",
       "source": "Stratechery",
       "category": "ai",
@@ -345,30 +740,6 @@
       "topic": "AI Agents",
       "title_ru": "Автономия и инновации",
       "summary_ru": "Стимулы способствуют атакующим в области агентной кибербезопасности; это та же динамика, которая в долгосрочной перспективе ограничит действующих игроков и будет способствовать развитию стартапов."
-    },
-    {
-      "id": "b77a43f563c7d0a0",
-      "source": "Forklog",
-      "category": "crypto",
-      "url": "https://forklog.com/pakistan-zapustil-litsenzirovanie-kriptobiznesa",
-      "title_en": "Пакистан запустил лицензирование криптобизнеса",
-      "summary_en": "Управление по регулированию виртуальных активов Пакистана запустило систему лицензирования криптобизнеса. Компании, работавшие в стране на 5 марта 2026 года, должны до 5 сентября подать заявку на сертификат об отсутствии возражений или прекратить деятельность. Регулятор предусмотрел десять категорий лицензий для бирж, кастодиальных и брокерских сервисов, кредитных платформ, деривативных площадок, управляющих активами компаний и майнинговых предприятий.",
-      "published_at": "2026-08-24T10:00:00+00:00",
-      "topic": "Regulations",
-      "title_ru": "Пакистан запустил лицензирование криптобизнеса",
-      "summary_ru": "Управление по регулированию виртуальных активов Пакистана запустило систему лицензирования криптобизнеса. Компании, работавшие в стране на 5 марта 2026 года, должны до 5 сентября подать заявку на сертификат об отсутствии возражений или прекратить деятельность. Регулятор предусмотрел десять категорий лицензий для бирж, кастодиальных и брокерских сервисов, кредитных платформ, деривативных площадок, управляющих активами компаний и майнинговых предприятий."
-    },
-    {
-      "id": "c9a6d6fa4dcfaa3d",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/aurorium/articles/1072446/?utm_campaign=1072446&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Ботовый трафик против человеческого — кто победит в этой схватке?",
-      "summary_en": "Идея так называемого «мертвого интернета» витает в воздухе довольно давно (если мне не изменяет память, уже в 2014 году были робкие высказывания в поддержку этой теории), но с каждым годом голоса тех, кто считает ее реальной, становятся громче. И действительно, развитие ИИ, автоматизации, парсинга ресурсов способствует наводнению интернета ботами. Но так ли все критично, как кажется на первый взгляд? Мы решили изучить, что происходит в современном интернете с точки зрения человеческого и ботового трафика и разобраться, так ли близок «мертвый интернет» или это все еще напоминает теорию заговора. Что же стало с интернетом?",
-      "published_at": "2026-08-24T09:55:07+00:00",
-      "topic": "Research",
-      "title_ru": "Ботовый трафик против человеческого — кто победит в этой схватке?",
-      "summary_ru": "Идея так называемого «мертвого интернета» витает в воздухе довольно давно (если мне не изменяет память, уже в 2014 году были робкие высказывания в поддержку этой теории), но с каждым годом голоса тех, кто считает ее реальной, становятся громче. И действительно, развитие ИИ, автоматизации, парсинга ресурсов способствует наводнению интернета ботами. Но так ли все критично, как кажется на первый взгляд? Мы решили изучить, что происходит в современном интернете с точки зрения человеческого и ботового трафика и разобраться, так ли близок «мертвый интернет» или это все еще напоминает теорию заговора. Что же стало с интернетом?"
     },
     {
       "id": "bcac6effbe5253d5",
@@ -395,6 +766,18 @@
       "summary_ru": "Рынок акций уже отыграл заявление ФРС, но аналитики не сошлись во мнениях, как на это отреагирует биткоин. The post Биткоин ждет отчета Nvidia и выступления главы ФРС appeared first on BeInCrypto ."
     },
     {
+      "id": "be5c64ad7b21a3d2",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.news/ledger-says-ethereum-signing-flaw-was-already-fixed/",
+      "title_en": "Технический директор Ledger сообщил об исправлении ошибок с прозрачной подписью",
+      "summary_en": "Ошибка в процессе прозрачной подписи в приложении Ledger для Ethereum устранена. По словам технического директора Ledger, уязвимости устранена за две недели. Технический директор Ledger Чарльз Гийеме сообщил, что компания устранила уязвимость, затрагивающую процессы прозрачной подписи в своём приложении Ethereum. По словам Гийеме, внутренняя группа по исследованию безопасности Ledger Donjon обнаружила ошибку с помощью системы поиска [&#8230;] Источник",
+      "published_at": "2026-08-24T09:03:08+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Технический директор Ledger сообщил об исправлении ошибок с прозрачной подписью",
+      "summary_ru": "Ошибка в процессе прозрачной подписи в приложении Ledger для Ethereum устранена. По словам технического директора Ledger, уязвимости устранена за две недели. Технический директор Ledger Чарльз Гийеме сообщил, что компания устранила уязвимость, затрагивающую процессы прозрачной подписи в своём приложении Ethereum. По словам Гийеме, внутренняя группа по исследованию безопасности Ledger Donjon обнаружила ошибку с помощью системы поиска [&#8230;] Источник"
+    },
+    {
       "id": "edb3d929bbda2ead",
       "source": "Habr ML",
       "category": "ai",
@@ -405,6 +788,27 @@
       "topic": "Research",
       "title_ru": "DML против PSM: как оценивать нерандомизированные эксперименты быстрее и надёжнее?",
       "summary_ru": "Привет, Хабр! Давайте на примере кейса с рекламой в ПВЗ Wildberries разберемся в двойном машинном обучении (DML) и методе псевдорандомизации (PSM). Вы в деле? Меня зовут Платон Попов , я дата-аналитик в команде A/B-платформы RWB. В нашей команде я занимаюсь задачами из области причинно-следственного анализа (Causal Inference) и методами понижения дисперсии.&nbsp; В этой статье расскажу о самом кейсе и объясню, почему для него не подошёл классический t-тест. Покажу, как мы учитывали спутывающие факторы с помощью Propensity Score Matching (PSM), почему этого оказалось недостаточно и почему в итоге перешли к Double Machine Learning (DML). В конце сравним результаты и обсудим наш план выкатки метода оценки нерандомизированных экспериментов в промышленный масштаб. Читать далее"
+    },
+    {
+      "id": "fa6592e07597fda6",
+      "source": "Forklog",
+      "category": "crypto",
+      "url": "https://forklog.com/banki-i-regulyatory-protestiruyut-zashhitu-kriptokoshelkov-ot-kvantovyh-atak",
+      "title_en": "Банки и регуляторы протестируют защиту криптокошельков от квантовых атак",
+      "summary_en": "Организация Responsible Fintech Institute и провайдер криптохранилищ Safeheron запустили международный пилотный проект по защите цифровых операций от квантовых угроз. К инициативе присоединились Bison Bank и DK Bank, а регуляторы Абу-Даби, Бутана и Мальты на начальном этапе выступят в роли наблюдателей. Участники протестируют создание кошельков и ончейн-переводы в тестовой сети NEAR с примением MPC и постквантового алгоритм цифровой подписи ML-DSA-65 от NIST . По завершении пилота организаторы опубликуют технический отчет и впоследствии откроют исходный код протокола.",
+      "published_at": "2026-08-24T09:00:00+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Банки и регуляторы протестируют защиту криптокошельков от квантовых атак",
+      "summary_ru": "Организация Responsible Fintech Institute и провайдер криптохранилищ Safeheron запустили международный пилотный проект по защите цифровых операций от квантовых угроз. К инициативе присоединились Bison Bank и DK Bank, а регуляторы Абу-Даби, Бутана и Мальты на начальном этапе выступят в роли наблюдателей. Участники протестируют создание кошельков и ончейн-переводы в тестовой сети NEAR с примением MPC и постквантового алгоритм цифровой подписи ML-DSA-65 от NIST . По завершении пилота организаторы опубликуют технический отчет и впоследствии откроют исходный код протокола.",
+      "duplicates": [
+        {
+          "source": "Forklog",
+          "url": "https://forklog.com/news/safeheron-i-rfi-protestiruyut-postkvantovuyu-zashhitu-s-uchastiem-bankov-i-regulyatorov",
+          "title_en": "Safeheron и RFI протестируют постквантовую защиту с участием банков и регуляторов",
+          "title_ru": "Safeheron и RFI протестируют постквантовую защиту с участием банков и регуляторов",
+          "published_at": "2026-08-24T14:43:11+00:00"
+        }
+      ]
     },
     {
       "id": "3d1f34a6b2eeef1a",
@@ -419,18 +823,6 @@
       "summary_ru": "люди общаются друг с другом как минимум 100 000 лет, насколько мы можем судить. И за всё это время только одно существо в мире могло выучить человеческий язык до совершенства: человеческий ребёнок. Теперь их два. Четыре коротких года после выпуска ChatGPT…"
     },
     {
-      "id": "fa6592e07597fda6",
-      "source": "Forklog",
-      "category": "crypto",
-      "url": "https://forklog.com/banki-i-regulyatory-protestiruyut-zashhitu-kriptokoshelkov-ot-kvantovyh-atak",
-      "title_en": "Банки и регуляторы протестируют защиту криптокошельков от квантовых атак",
-      "summary_en": "Организация Responsible Fintech Institute и провайдер криптохранилищ Safeheron запустили международный пилотный проект по защите цифровых операций от квантовых угроз. К инициативе присоединились Bison Bank и DK Bank, а регуляторы Абу-Даби, Бутана и Мальты на начальном этапе выступят в роли наблюдателей. Участники протестируют создание кошельков и ончейн-переводы в тестовой сети NEAR с примением MPC и постквантового алгоритм цифровой подписи ML-DSA-65 от NIST . По завершении пилота организаторы опубликуют технический отчет и впоследствии откроют исходный код протокола.",
-      "published_at": "2026-08-24T09:00:00+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Банки и регуляторы протестируют защиту криптокошельков от квантовых атак",
-      "summary_ru": "Организация Responsible Fintech Institute и провайдер криптохранилищ Safeheron запустили международный пилотный проект по защите цифровых операций от квантовых угроз. К инициативе присоединились Bison Bank и DK Bank, а регуляторы Абу-Даби, Бутана и Мальты на начальном этапе выступят в роли наблюдателей. Участники протестируют создание кошельков и ончейн-переводы в тестовой сети NEAR с примением MPC и постквантового алгоритм цифровой подписи ML-DSA-65 от NIST . По завершении пилота организаторы опубликуют технический отчет и впоследствии откроют исходный код протокола."
-    },
-    {
       "id": "9056dc0dc6e321b6",
       "source": "CryptoSlate",
       "category": "crypto",
@@ -441,30 +833,6 @@
       "topic": "Hacks",
       "title_ru": "Сеть EVM приостановила производство блоков после эксплуатации уязвимости в поставках, в то время как связь с TON остается неясной.",
       "summary_ru": "Ответ, координируемый валидатором, шире, чем меры по сдерживанию TAC в мае, однако проект не раскрыл информацию о затронутых поставках или графике перезапуска."
-    },
-    {
-      "id": "18e06ce74c7b2d0c",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/thorwallet-card-live/",
-      "title_en": "Swap Anything. Spend Anywhere. The THORWallet Card Is Live",
-      "summary_en": "Some credentials first, because they explain why this launch matters.THORWallet was one of the first crypto wallets to execute native BTC-to-ETH swaps, and continued breaking new ground with XRP-to-BTC and other pairs that were previously considered impossible without a centralized exchange. Since 2021, more than $2.5 billion has been swapped natively through the app across The post Swap Anything. Spend Anywhere. The THORWallet Card Is Live appeared first on BeInCrypto .",
-      "published_at": "2026-08-24T08:47:35+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Swap Anything. Spend Anywhere. Картa THORWallet теперь доступна.",
-      "summary_ru": "Некоторые данные о компании, так как они объясняют важность этого запуска. THORWallet был одним из первых криптокошельков, который осуществил нативные обмены BTC на ETH, и продолжил прокладывать новые пути с обменами XRP на BTC и другими парами, которые ранее считались невозможными без централизованной биржи. С 2021 года через приложение было осуществлено более 2,5 миллиарда долларов нативных обменов."
-    },
-    {
-      "id": "79763db12007ed43",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/testops_tms/articles/1073560/?utm_campaign=1073560&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Агентная правка багов, ч. 2: ловим издержки",
-      "summary_en": "Соавтор статьи — Сергей Левенец , CTO в команде ТестОпс. Искусственный интеллект заметно ускорил разработку, и очевидных выгод от этого много. Оборотная сторона — выросли издержки на поддержку кода, прежде всего на работу с багами. И ложатся они в первую очередь на тестирование. В прошлой статье мы рассказали про то, как в команде ТестОпс написали и отлаживали агента по правке багов. Но чуть ли не важнее самого агента оказалось справиться с теми изменениями, которые он принёс в рабочие процессы. А для этого нужно было научиться измерять издержки работы агента. В этой статье мы расскажем о том, как это оказалось непросто, какие инструменты мы создали, и что ещё планируем сделать, чтобы агент лучше интегрировался в команду. Читать далее",
-      "published_at": "2026-08-24T08:45:48+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Агентная правка багов, ч. 2: ловим издержки",
-      "summary_ru": "Соавтор статьи — Сергей Левенец , CTO в команде ТестОпс. Искусственный интеллект заметно ускорил разработку, и очевидных выгод от этого много. Оборотная сторона — выросли издержки на поддержку кода, прежде всего на работу с багами. И ложатся они в первую очередь на тестирование. В прошлой статье мы рассказали про то, как в команде ТестОпс написали и отлаживали агента по правке багов. Но чуть ли не важнее самого агента оказалось справиться с теми изменениями, которые он принёс в рабочие процессы. А для этого нужно было научиться измерять издержки работы агента. В этой статье мы расскажем о том, как это оказалось непросто, какие инструменты мы создали, и что ещё планируем сделать, чтобы агент лучше интегрировался в команду. Читать далее"
     },
     {
       "id": "8248f39ec83017d5",
@@ -527,18 +895,6 @@
       "summary_ru": "Председатель китайской ACE Robotics Ван Сяоган ожидает прорыв в сфере воплощенного ИИ к концу 2027 года. Ключевыми драйверами станут более совершенные модели управления роботами и значительное расширение массивов данных о реальном физическом взаимодействии, заявил он в комментарии Reuters . «Мы ожидаем “момент ChatGPT” для воплощенного интеллекта к концу следующего года», — сказал Ван. При этом широкое коммерческое внедрение технологии, по его оценке, займет еще четыре-пять лет. Роботам не хватает «мозгов» Современные гуманоиды уже умеют бегать, танцевать и выполнять отдельные запрограммированные действия. Однако они хуже справляются с широким набором задач в незнакомой среде. https://forklog.com/news/ai/skorost-12-66-m-s-i-pryzhok-na-2-metra-unitree-prodemonstrirovala-supermena В ACE Robotics основным ограничением считают не аппаратную часть, а ИИ-модели. Системы воплощенного интеллекта должны в реальном времени воспринимать окружающий мир, понимать инструкции, прогнозировать последствия своих действий и выбирать дальнейшие движения. Для этого стартап разрабатывает модель Kairos. Она объединяет восприятие, мультимодальное понимание, моделирование физической среды и планирование поведения. В июле компания сообщила, что Kairos заняла первое место в четырех тестах для воплощенного ИИ, включая задачи на управление двумя руками, долгосрочное планирование и физическое взаимодействие. По данным Reuters, открытая версия Kairos-4B также обошла в публичных бенчмарках Nvidia Cosmos 3 и Lingbot от Ant Group, несмотря на сравнительно небольшой объем в 4 млрд параметров. Главным дефицитом стали данные Дополнительной проблемой стало количество информации о взаимодействии с реальным миром, отметил Ван. По его словам, за последние годы вся индустрия собрала около 100 000 часов таких данных. Этого «далеко недостаточно» для обучения фундаментальных моделей воплощенного ИИ. Обычно компании собирают информацию с помощью телеуправления. Человек в экзоскелете или с контроллерами многократно выполняет нужное движение, а робот фиксирует траекторию. ACE Robotics использует другой подход. Компания оснащает легкими датчиками людей, которые уже работают на реальных производственных линиях, и записывает их действия. В течение двух лет стартап рассчитывает накопить десятки миллионов часов данных. ACE нацелилась на 10 000 магазинов Фирма тестирует свои модели в сферах беспилотной розницы, гостиничного сервиса и складов быстрой доставки. Аппаратной базой служат гуманоидные роботы китайских производителей — Unitree, AgiBot и Fourier. В течение следующего года ACE планирует внедрить технологию как минимум в 1000 магазинов, а к концу второго года довести показатель до 10 000. Для обучения моделей стартап задействует ускорители Nvidia, а также китайские чипы Rhino Tech и Digua Robotics. Такую диверсификацию Ван объяснил стремлением снизить стоимость оборудования и уменьшить зависимость от отдельных поставщиков. ACE Robotics появилась в июле 2025 года. Среди ее инвесторов — Ant Group и SenseTime. В первой половине 2026 года компания привлекла более $100 млн и планирует выйти на биржу, как только позволит китайское законодательство. Напомним, в июне аналитики банка Morgan Stanley повысили прогноз поставок китайских гуманоидов в 2026 году с 28 000 до 50 000 устройств. Среди причин они назвали коммерциализацию, господдержку и масштабные развертывания для сбора данных. https://forklog.com/news/ai/robotov-nauchili-chuvstvovat-prikosnoveniya-vsem-telom"
     },
     {
-      "id": "02a2461dc4e5fb12",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/3-token-unlocks-to-watch-in-the-final-week-of-august-2026/",
-      "title_en": "3 Token Unlocks to Watch in the Final Week of August 2026",
-      "summary_en": "The crypto market will welcome tokens worth more than $705 million in the final week of August 2026. Three major projects, Humanity (H), Huma Finance (HUMA), and Plasma (XPL), will release previously restricted tokens into circulation. Token unlocks are key events in the crypto market, influencing liquidity, price volatility, and overall investor sentiment. So, here&#8217;s The post 3 Token Unlocks to Watch in the Final Week of August 2026 appeared first on BeInCrypto .",
-      "published_at": "2026-08-24T07:19:23+00:00",
-      "topic": "DeFi",
-      "title_ru": "3 разблокировки токенов, за которыми стоит следить в последнюю неделю августа 2026 года",
-      "summary_ru": "Крипторынок встретит токены на сумму более 705 миллионов долларов в последнюю неделю августа 2026 года. Три крупных проекта, Humanity (H), Huma Finance (HUMA) и Plasma (XPL), выпустят ранее ограниченные токены в обращение. Разблокировка токенов — это ключевые события на крипторынке, влияющие на ликвидность, волатильность цен и общее настроение инвесторов."
-    },
-    {
       "id": "7ef63c272611f08b",
       "source": "BeInCrypto RU",
       "category": "crypto",
@@ -563,27 +919,6 @@
       "summary_ru": "Основатель Bridgewater Associates Рэй Далио рекомендовал инвесторам держать «немного биткоина» и направлять 10-15% портфеля в золото на фоне растущего госдолга США. По его оценке, долговой кризис в стране может разразиться примерно через три года. Далио считает, что ослабление спроса на американские облигации вынудит власти повышать доходности или стимулировать выкуп долга за счет эмиссии. Последний сценарий способен усилить инфляцию и ослабить доллар, что поддержит золото и биткоин."
     },
     {
-      "id": "eb6ac66be7f64800",
-      "source": "Forklog",
-      "category": "crypto",
-      "url": "https://forklog.com/news/ledger-ustranila-uyazvimost-v-ethereum-prilozhenii",
-      "title_en": "Ledger устранила уязвимость в Ethereum-приложении",
-      "summary_en": "Компания Ledger исправила баг в некоторых сценариях прозрачного подписания транзакций в приложении Ethereum. Об этом сообщил технический директор фирмы Шарль Гийме.&nbsp; There's some FUD circulating about Ledger signers, pushed by a &quot;smart contract security&quot; company claiming a vulnerability in the Ledger Ethereum app. There was a bug concerning certain clear signing flows. It was found by the @DonjonLedger using their AI-powered vulnerability… &mdash; Charles Guillemet (@P3b7_) August 23, 2026 Топ-менеджер уточнил, что проблему обнаружило подразделение Donjon с помощью набора ИИ-инструментов для поиска уязвимостей. Исправление уже развернули в версии 1.22.2. По словам Гийме, пользователи с актуальными патчами прошивки и приложений полностью защищены. Уязвимость была связана с обработкой потоков в APDU -командах приложения Ethereum. В таком сценарии вредоносный смарт-контракт теоретически мог подменить данные транзакции в момент подписания. Например, пользователь мог думать, что подтверждает небольшой перевод, хотя фактически одобрял неограниченный доступ для адреса атакующего. Гийме отдельно раскритиковал публичное раскрытие проблемы. По его словам, внешняя компания обратилась за вознаграждением уже после релиза исправления, не обсудила кейс с командой программы и затем опубликовала тред, из которого можно было сделать вывод, что проблема не решена.&nbsp; Так, пользователь X под псевдонимом TestMachine подробно описал потенциальную механику подмены транзакций. CTO Ledger назвал ситуацию «нарушением принципов ответственного раскрытия уязвимостей». Напомним, 13 августа производитель аппаратных кошельков Trezor рассказал об утечке персональных данных 13 689 пользователей. Причиной стал взлом его логистического партнера ShipMonk.&nbsp;",
-      "published_at": "2026-08-24T07:00:52+00:00",
-      "topic": "Hacks",
-      "title_ru": "Ledger устранила уязвимость в Ethereum-приложении",
-      "summary_ru": "Компания Ledger исправила баг в некоторых сценариях прозрачного подписания транзакций в приложении Ethereum. Об этом сообщил технический директор фирмы Шарль Гийме.&nbsp; There's some FUD circulating about Ledger signers, pushed by a &quot;smart contract security&quot; company claiming a vulnerability in the Ledger Ethereum app. There was a bug concerning certain clear signing flows. It was found by the @DonjonLedger using their AI-powered vulnerability… &mdash; Charles Guillemet (@P3b7_) August 23, 2026 Топ-менеджер уточнил, что проблему обнаружило подразделение Donjon с помощью набора ИИ-инструментов для поиска уязвимостей. Исправление уже развернули в версии 1.22.2. По словам Гийме, пользователи с актуальными патчами прошивки и приложений полностью защищены. Уязвимость была связана с обработкой потоков в APDU -командах приложения Ethereum. В таком сценарии вредоносный смарт-контракт теоретически мог подменить данные транзакции в момент подписания. Например, пользователь мог думать, что подтверждает небольшой перевод, хотя фактически одобрял неограниченный доступ для адреса атакующего. Гийме отдельно раскритиковал публичное раскрытие проблемы. По его словам, внешняя компания обратилась за вознаграждением уже после релиза исправления, не обсудила кейс с командой программы и затем опубликовала тред, из которого можно было сделать вывод, что проблема не решена.&nbsp; Так, пользователь X под псевдонимом TestMachine подробно описал потенциальную механику подмены транзакций. CTO Ledger назвал ситуацию «нарушением принципов ответственного раскрытия уязвимостей». Напомним, 13 августа производитель аппаратных кошельков Trezor рассказал об утечке персональных данных 13 689 пользователей. Причиной стал взлом его логистического партнера ShipMonk.&nbsp;",
-      "duplicates": [
-        {
-          "source": "HappyCoin",
-          "url": "https://happycoin.news/ledger-says-ethereum-signing-flaw-was-already-fixed/",
-          "title_en": "Технический директор Ledger сообщил об исправлении ошибок с прозрачной подписью",
-          "title_ru": "Технический директор Ledger сообщил об исправлении ошибок с прозрачной подписью",
-          "published_at": "2026-08-24T09:03:08+00:00"
-        }
-      ]
-    },
-    {
       "id": "22ff1ececd13842a",
       "source": "CoinDesk",
       "category": "crypto",
@@ -594,30 +929,6 @@
       "topic": "Bitcoin",
       "title_ru": "Эфир обходит биткойн, и \"золотой крест\" указывает на то, что это может быть не конец.",
       "summary_ru": ""
-    },
-    {
-      "id": "15cc444ae48bbf21",
-      "source": "Forklog",
-      "category": "crypto",
-      "url": "https://forklog.com/news/smi-raskryli-detali-zakrytiya-majning-proekta-tether-v-urugvae",
-      "title_en": "СМИ раскрыли детали закрытия майнинг-проекта Tether в Уругвае",
-      "summary_en": "Одной из ключевых причин закрытия майнинг-проекта Tether в Уругвае стал спор с государственной энергетической компанией UTE об объемах поставляемой электроэнергии, пишет Reuters. Ранее эмитент стейблкоина USDT объяснял решение неконкурентоспособными тарифами. Спор возник из-за условий энергоснабжения Tether развернула добычу биткоина в Уругвае в 2023 году. Две площадки общей стоимостью в $120 млн находились в департаменте Флорида. По словам бывших подрядчиков, сначала объекты работали стабильно и приносили доход. Проблемы начались после роста энергопотребления. Стороны по-разному трактовали договор: Tether считала согласованный объем электричества минимальным и рассчитывала увеличивать его по мере развития проекта. UTE рассматривала указанную мощность как максимальный лимит. Следствием стали регулярные перебои с электричеством на объектах, длившиеся до нескольких суток. Tether и UTE планировали подписать новое соглашение, но представители эмитента USDT не явились на встречу, о чем свидетельствуют изученные Reuters протоколы. Источники агентства отметили, что спор обострился после смены руководства энергокомпании. В марте 2025 года президентом Уругвая стал Яманду Орси, после чего в UTE назначили новых директоров. При этом журналисты не нашли доказательств тому, что проект провалился именно из-за политических изменений. Площадки отключили в июле 2025 года Примерно через два месяца после смены правительства местное юрлицо Tether — Microfin — перестало оплачивать счета за электричество. В июне 2025 года компания уведомила UTE о намерении расторгнуть договоры. 25 июля энергокомпания отключила обе площадки от сети. К этому моменту новое соглашение так и не подписали, а счета оставались неоплаченными. 25 ноября Tether уведомила трудовые органы Уругвая о прекращении деятельности и увольнении большинства сотрудников. Двумя месяцами ранее местные СМИ сообщали о задолженности эмитента за электроэнергию и сопутствующие услуги примерно на $4,8 млн. Уругвай должен был стать первым этапом экспансии Один из бывших подрядчиков рассказал Reuters, что Tether рассматривала Уругвай как испытательную площадку перед расширением биткоин-майнинга в Бразилии, Парагвае и Аргентине. Остановленные мощности не исчерпывали уругвайских планов компании — руководство намеревалось вложить в страну до $500 млн, включая три дата-центра суммарной мощностью 165 МВт и 300 МВт объектов возобновляемой генерации. При этом добыча первой криптовалюты остается для Tether одним из приоритетов. В июне 2025 года гендиректор фирмы Паоло Ардоино прогнозировал лидерство компании в этом направлении. На тот момент эмитент оценивал свои инвестиции в энергетическую и майнинговую инфраструктуру более чем в $2 млрд и сообщала о 15 площадках в нескольких странах Южной Америки. Напомним, в начале 2026 года Tether выпустила открытую операционную систему для добычи биткоина.",
-      "published_at": "2026-08-24T06:40:26+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "СМИ раскрыли детали закрытия майнинг-проекта Tether в Уругвае",
-      "summary_ru": "Одной из ключевых причин закрытия майнинг-проекта Tether в Уругвае стал спор с государственной энергетической компанией UTE об объемах поставляемой электроэнергии, пишет Reuters. Ранее эмитент стейблкоина USDT объяснял решение неконкурентоспособными тарифами. Спор возник из-за условий энергоснабжения Tether развернула добычу биткоина в Уругвае в 2023 году. Две площадки общей стоимостью в $120 млн находились в департаменте Флорида. По словам бывших подрядчиков, сначала объекты работали стабильно и приносили доход. Проблемы начались после роста энергопотребления. Стороны по-разному трактовали договор: Tether считала согласованный объем электричества минимальным и рассчитывала увеличивать его по мере развития проекта. UTE рассматривала указанную мощность как максимальный лимит. Следствием стали регулярные перебои с электричеством на объектах, длившиеся до нескольких суток. Tether и UTE планировали подписать новое соглашение, но представители эмитента USDT не явились на встречу, о чем свидетельствуют изученные Reuters протоколы. Источники агентства отметили, что спор обострился после смены руководства энергокомпании. В марте 2025 года президентом Уругвая стал Яманду Орси, после чего в UTE назначили новых директоров. При этом журналисты не нашли доказательств тому, что проект провалился именно из-за политических изменений. Площадки отключили в июле 2025 года Примерно через два месяца после смены правительства местное юрлицо Tether — Microfin — перестало оплачивать счета за электричество. В июне 2025 года компания уведомила UTE о намерении расторгнуть договоры. 25 июля энергокомпания отключила обе площадки от сети. К этому моменту новое соглашение так и не подписали, а счета оставались неоплаченными. 25 ноября Tether уведомила трудовые органы Уругвая о прекращении деятельности и увольнении большинства сотрудников. Двумя месяцами ранее местные СМИ сообщали о задолженности эмитента за электроэнергию и сопутствующие услуги примерно на $4,8 млн. Уругвай должен был стать первым этапом экспансии Один из бывших подрядчиков рассказал Reuters, что Tether рассматривала Уругвай как испытательную площадку перед расширением биткоин-майнинга в Бразилии, Парагвае и Аргентине. Остановленные мощности не исчерпывали уругвайских планов компании — руководство намеревалось вложить в страну до $500 млн, включая три дата-центра суммарной мощностью 165 МВт и 300 МВт объектов возобновляемой генерации. При этом добыча первой криптовалюты остается для Tether одним из приоритетов. В июне 2025 года гендиректор фирмы Паоло Ардоино прогнозировал лидерство компании в этом направлении. На тот момент эмитент оценивал свои инвестиции в энергетическую и майнинговую инфраструктуру более чем в $2 млрд и сообщала о 15 площадках в нескольких странах Южной Америки. Напомним, в начале 2026 года Tether выпустила открытую операционную систему для добычи биткоина."
-    },
-    {
-      "id": "bdcedc50514a70df",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/security/besu-patches-5-node-vulnerabilities-what-operators-must-know/",
-      "title_en": "Besu Patches 5 Node Vulnerabilities: What Operators Must Know",
-      "summary_en": "Ethereum client Besu remediated five security vulnerabilities discovered by Certik in version 26.7.1, released July 27. Certik&#8217;s Jialiang Chang highlighted that the &#8220;patch-first, details-later&#8221; model protects node operators against immediate N-day exploits by allowing staging and rollout before attack details become public. A &#8216;Patch-First&#8217; Approach to Defender Advantage Developers behind the open-source Ethereum client Besu [&#8230;]",
-      "published_at": "2026-08-24T06:30:42+00:00",
-      "topic": "Hacks",
-      "title_ru": "Besu устраняет 5 уязвимостей узлов: что должны знать операторы",
-      "summary_ru": "Клиент Ethereum Besu устранил пять уязвимостей безопасности, обнаруженных компанией Certik, в версии 26.7.1, выпущенной 27 июля. Жиалианг Чанг из Certik отметил, что модель «сначала патч, потом детали» защищает операторов узлов от немедленных N-дневных атак, позволяя проводить тестирование и развертывание до того, как детали атак станут известны."
     },
     {
       "id": "200d627107c022df",
@@ -644,18 +955,6 @@
       "summary_ru": "Приложение слушает разговоры продавца с клиентами и превращает их в текст. Человек на той стороне трубки не подписывался на то, чтобы его голос уехал на чей-то сервер, и это решило архитектуру раньше, чем я написал первую строчку: наружу не уходит ничего. Дальше идёт счёт, который за это пришёл, и он вполне конкретный: шесть с половиной минут работы на десятиминутный разговор и половина возможностей, которые в приложении с сервером есть по умолчанию. Читать далее"
     },
     {
-      "id": "043a2bf5f6f78168",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title_en": "Here’s what happened in crypto today",
-      "summary_en": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "published_at": "2026-08-24T05:55:54+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Вот что произошло в криптовалютном мире сегодня.",
-      "summary_ru": "Нужна информация о событиях в криптовалюте сегодня? Вот последние новости о ежедневных трендах и событиях, влияющих на цену Bitcoin, блокчейн, DeFi, NFTs, Web3 и регулирование криптовалют."
-    },
-    {
       "id": "595d8ebbdfe48230",
       "source": "Cointelegraph",
       "category": "crypto",
@@ -680,18 +979,25 @@
       "summary_ru": "Существующие поставщики виртуальных активов должны подать заявку на получение NOC до 5 сентября или прекратить свою деятельность в соответствии с новым регуляторным框架ом Пакистана.",
       "duplicates": [
         {
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/policy/2026/08/24/pakistan-kicks-off-crypto-licensing-regime-with-sept-5-registration-deadline",
-          "title_en": "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
-          "title_ru": "Пакистан запускает режим лицензирования криптовалют с дедлайном для регистрации 5 сентября.",
-          "published_at": "2026-08-24T11:19:16+00:00"
+          "source": "Forklog",
+          "url": "https://forklog.com/pakistan-zapustil-litsenzirovanie-kriptobiznesa",
+          "title_en": "Пакистан запустил лицензирование криптобизнеса",
+          "title_ru": "Пакистан запустил лицензирование криптобизнеса",
+          "published_at": "2026-08-24T10:00:00+00:00"
         },
         {
-          "source": "Decrypt",
-          "url": "https://decrypt.co/376318/pakistan-sets-september-5-deadline-for-crypto-firms-to-register",
-          "title_en": "Pakistan Sets September 5 Deadline for Crypto Firms to Register",
-          "title_ru": "Пакистан установил срок до 5 сентября для регистрации криптовалютных компаний.",
-          "published_at": "2026-08-24T12:14:27+00:00"
+          "source": "Bitcoin.com",
+          "url": "https://news.bitcoin.com/regulation-and-legal/pakistan-puts-crypto-firms-on-notice-as-sept-5-deadline-looms/",
+          "title_en": "Pakistan Puts Crypto Firms on Notice as Sept. 5 Deadline Looms",
+          "title_ru": "Пакистан предупреждает крипто-компании в связи с приближающимся сроком 5 сентября.",
+          "published_at": "2026-08-24T13:52:53+00:00"
+        },
+        {
+          "source": "CoinSpot",
+          "url": "https://coinspot.io/investors/licenzirovanie-kriptovalyut-pakistane/",
+          "title_en": "Лицензирование криптовалют в Пакистане стартовало с дедлайном регистрации 5 сентября",
+          "title_ru": "Лицензирование криптовалют в Пакистане стартовало с дедлайном регистрации 5 сентября",
+          "published_at": "2026-08-24T15:11:50+00:00"
         }
       ]
     },
@@ -732,18 +1038,6 @@
       "summary_ru": "Обратите внимание на момент, когда рука пересекает световой поток — свечение мгновенно исчезает за ней, без единой задержки, в точности как настоящее освещение."
     },
     {
-      "id": "f3bb1c8b0df867c7",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/learning-insights/bitcoin-to-solana-how-8-crypto-networks-reach-consensus/",
-      "title_en": "Bitcoin to Solana: How 8 Crypto Networks Reach Consensus",
-      "summary_en": "Every blockchain eventually hits a hard wall: thousands of independent computers have to settle on one history without a central referee deciding which version wins. That process is called a consensus algorithm, and the design determines who can add transactions, how rival versions of the ledger get settled, and when a payment is effectively locked [&#8230;]",
-      "published_at": "2026-08-24T04:30:17+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Биткойн и Солана: как 8 криптовалютных сетей достигают консенсуса",
-      "summary_ru": "Каждый блокчейн в конечном итоге сталкивается с жестким ограничением: тысячи независимых компьютеров должны согласовать одну историю без центрального арбитра, который решает, какая версия выигрывает. Этот процесс называется алгоритмом консенсуса, и его дизайн определяет, кто может добавлять транзакции, как разрешаются конкурирующие версии реестра и когда платеж фактически блокируется."
-    },
-    {
       "id": "086d1f8293fbd17b",
       "source": "The Block",
       "category": "crypto",
@@ -756,11 +1050,11 @@
       "summary_ru": "Генеральный директор Strive заявил, что следующий цикл биткойна будет самым сильным за всю историю, ссылаясь на его хорошую динамику как по отношению к доллару, так и к золоту.",
       "duplicates": [
         {
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/strive-buys-1110-bitcoin-21356-btc-total/",
-          "title_en": "Strive buys additional 1,110 Bitcoin, increasing total holdings to 21,356 BTC",
-          "title_ru": "Strive приобрела дополнительные 1,110 Bitcoin, увеличив общие запасы до 21,356 BTC.",
-          "published_at": "2026-08-24T12:14:42+00:00"
+          "source": "Bitcoin.com",
+          "url": "https://news.bitcoin.com/crypto-news/strive-scoops-1110-bitcoin-as-its-btc-treasury-blasts-higher/",
+          "title_en": "Strive Scoops 1,110 Bitcoin as Its BTC Treasury Blasts Higher",
+          "title_ru": "Strive приобрела 1,110 Bitcoin, так как ее BTC-казна значительно увеличилась.",
+          "published_at": "2026-08-24T15:01:15+00:00"
         }
       ]
     },
@@ -775,18 +1069,6 @@
       "topic": "Altcoins",
       "title_ru": "Исправляем интерфейс криптокошелька. Как не заставлять пользователя считать в уме",
       "summary_ru": "Разбор интерфейса Телеграм Кошелька. Исправляю ошибки в UX на странице токенов, чиню логику баланса портфеля и делаю историю транзакций понятной без калькулятора Читать далее"
-    },
-    {
-      "id": "4f693872a0a996ec",
-      "source": "CryptoSlate",
-      "category": "crypto",
-      "url": "https://cryptoslate.com/the-next-phase-of-tokenization-is-utility/",
-      "title_en": "The next phase of tokenization is utility",
-      "summary_en": "The following is a guest post and opinion from Vincent Maliepaard, VP of Marketing at Sentora. Tokenized funds have stopped being a novelty. Tokenized US Treasury funds alone now hold roughly $16 billion in distributed value and the list of issuers includes most of the largest names in traditional asset management. Issuance is a solved [&#8230;] The post The next phase of tokenization is utility appeared first on CryptoSlate .",
-      "published_at": "2026-08-23T22:30:23+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Следующая фаза токенизации — утилита.",
-      "summary_ru": "Следующий этап токенизации — это утилита. Токенизированные фонды перестали быть новинкой. Токенизированные фонды США сейчас имеют примерно 16 миллиардов долларов распределенной стоимости, а список эмитентов включает большинство крупнейших имен в традиционном управлении активами. Эмиссия является решенной задачей."
     },
     {
       "id": "49bce1a78bea3142",
@@ -811,18 +1093,6 @@
       "topic": "Models",
       "title_ru": "Лучшая модель AI компании Anthropic испытывает трудности с привлечением пользователей на фоне успеха более дешевых инструментов.",
       "summary_ru": "Лучшая модель AI компании Anthropic испытывает трудности с привлечением пользователей на фоне успеха более дешевых инструментов. По данным FT, \"годовой доход\" Anthropic за июль составил 65 миллиардов долларов, что выше 47 миллиардов в мае. Компания ожидает, что третий квартал будет прибыльным, используя ту же модель, что и для объявления о прибыли во втором квартале. \"Она также сообщила инвесторам, что у нее 6000 клиентов, которые тратят 100000 долларов в год или более.\" Что касается OpenAI, \"годовой доход за текущий квартал вырос на 35 процентов и теперь превышает 40 миллиардов долларов, благодаря запуску GPT 5.6 в июле, который оживил показатели компании после вялого начала года\". В статье также представлен индекс Ramp AI, который использует данные о выставленных счетах от 70000 компаний, использующих кредитные карты Ramp, для оценки принятия моделей. Вот разбивка расходов на модели Anthropic за июль 2026 года от Ramp, которая выглядит разумной, учитывая, что Opus 5 был выпущен только 24 июля, и подтверждает идею о том, что высокая стоимость Fable сделала его менее популярной моделью: Opus 4.8: 28.0% Sonnet 4.6: 8.3% Fable 5: 8.0% Opus 4.6: 6.9% Sonnet 5: 3.6% Opus 5: 3.5% Opus 4.7: 1.7% Sonnet 4.5: 1.3% Haiku 4.5: 1.0% Opus 4.5: 0.7%"
-    },
-    {
-      "id": "7850d7ee8c89a37a",
-      "source": "CryptoSlate",
-      "category": "crypto",
-      "url": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
-      "title_en": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
-      "summary_en": "US spot Bitcoin and Ethereum ETFs recorded their strongest inflow week of 2026 as a sharp crypto rally pulled investors back into funds that had struggled to attract sustained demand for much of the year. Bitcoin ETFs drew $1.918 billion in the five trading sessions through Aug. 21, while funds holding Ethereum attracted $697.2 million, [&#8230;] The post Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher appeared first on CryptoSlate .",
-      "published_at": "2026-08-23T20:05:10+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Bitcoin и Ethereum ETF только что пережили свою самую успешную неделю 2026 года, так как криптовалюта резко выросла.",
-      "summary_ru": "Спотовые ETF на Bitcoin и Ethereum в США зафиксировали свою самую сильную неделю притока средств в 2026 году, поскольку резкий рост криптовалюты вернул инвесторов в фонды, которые испытывали трудности с привлечением устойчивого спроса большую часть года. Bitcoin ETF привлекли $1.918 миллиарда за пять торговых сессий до 21 августа, в то время как фонды, владеющие Ethereum, собрали $697.2 миллиона."
     },
     {
       "id": "bab230b853cb2058",
@@ -861,18 +1131,6 @@
       "summary_ru": "Умный цифровой календарь Linkdaze выделяется тем, что не скрывает свои функции за платным доступом, включая инструмент планирования питания на основе ИИ."
     },
     {
-      "id": "9f4e685e18593437",
-      "source": "CryptoSlate",
-      "category": "crypto",
-      "url": "https://cryptoslate.com/bitcoin-core-considers-dropping-encrypted-routing-support-as-poor-node-health-exposes-users-to-eclipse-attacks/",
-      "title_en": "Bitcoin Core considers dropping encrypted routing support as poor node health exposes users to eclipse attacks",
-      "summary_en": "The 32.x warning and 33.x removal sequence remains a proposal as maintainers test whether sparse fallback routes add resilience. The post Bitcoin Core considers dropping encrypted routing support as poor node health exposes users to eclipse attacks appeared first on CryptoSlate .",
-      "published_at": "2026-08-23T19:10:29+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Bitcoin Core рассматривает возможность отказа от поддержки зашифрованной маршрутизации, так как плохое состояние узлов подвергает пользователей риску атак затмения.",
-      "summary_ru": "Последовательность предупреждения 32.x и удаления 33.x остается предложением, поскольку разработчики тестируют, добавляют ли редкие резервные маршруты устойчивость. Пост Bitcoin Core рассматривает возможность отказа от поддержки зашифрованной маршрутизации, так как плохое состояние узлов подвергает пользователей риску атак затмения."
-    },
-    {
       "id": "9796a5734d34ca6b",
       "source": "CoinDesk",
       "category": "crypto",
@@ -883,55 +1141,7 @@
       "topic": "Regulations",
       "title_ru": "Регулирование криптовалют пришло: Состояние криптовалюты",
       "summary_ru": ""
-    },
-    {
-      "id": "49d8c4ce92b8fd9e",
-      "source": "vc.ru AI",
-      "category": "ai",
-      "url": "https://vc.ru/marketing/3093248-kak-sozdat-kontent-dlya-neyropoiska?from=rss",
-      "title_en": "Как попасть в AI‑ответы: гайд от маркетолога по контенту под нейропоиск",
-      "summary_en": "За последние пару лет я трижды наблюдала одну и ту же картину: крутые статьи моих коллег не набирают и сотни просмотров, а какой‑нибудь лаконичный разбор на 1200 знаков улетает в топы нейровыдач и приносит по 20–30 заявок в неделю. Секрет не в магии, а в том, что контент теперь должен быть «удобным» для нейросетей.",
-      "published_at": "2026-08-23T15:50:58+00:00",
-      "topic": "Research",
-      "title_ru": "Как попасть в AI‑ответы: гайд от маркетолога по контенту под нейропоиск",
-      "summary_ru": "За последние пару лет я трижды наблюдала одну и ту же картину: крутые статьи моих коллег не набирают и сотни просмотров, а какой‑нибудь лаконичный разбор на 1200 знаков улетает в топы нейровыдач и приносит по 20–30 заявок в неделю. Секрет не в магии, а в том, что контент теперь должен быть «удобным» для нейросетей."
-    },
-    {
-      "id": "80d039e631a921e8",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "url": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
-      "title_en": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
-      "summary_en": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
-      "published_at": "2026-08-23T15:30:00+00:00",
-      "topic": "Research",
-      "title_ru": "Генеральный директор Flock призывает к «компромиссу» на фоне растущей критики компании по вопросам слежки.",
-      "summary_ru": "Flock Safety сталкивается с нарастающим общественным недовольством из-за опасений, что его технологии наблюдения могут быть использованы неправомерно."
-    },
-    {
-      "id": "badce92339778deb",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-      "title_en": "Is it legal to train AI models on copyrighted books? It’s complicated",
-      "summary_en": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
-      "published_at": "2026-08-23T15:00:00+00:00",
-      "topic": "Research",
-      "title_ru": "Законно ли обучать модели ИИ на защищенных авторским правом книгах? Ситуация сложная.",
-      "summary_ru": "Большинство опубликованных авторов, не зная об этом и не давая согласия, внесли вклад в разработку тех же AI-инструментов, которые угрожают подорвать их средства к существованию. Это кажется незаконным, не так ли?"
-    },
-    {
-      "id": "fe4987e1551cfc81",
-      "source": "BeInCrypto RU",
-      "category": "crypto",
-      "url": "https://ru.beincrypto.com/rakib-brazhnikov-reydy-kriptoobmenniki-effekt/",
-      "title_en": "Обыски на «Горбушке» и в «Сити» не убьют теневые криптообменники",
-      "summary_en": "&#1056;&#1077;&#1081;&#1076;&#1099; &#1080; &#1086;&#1073;&#1099;&#1089;&#1082;&#1080; &#1085;&#1072; &#1085;&#1077;&#1083;&#1077;&#1075;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1086;&#1073;&#1084;&#1077;&#1085;&#1085;&#1080;&#1082;&#1072;&#1093; &#1088;&#1072;&#1079;&#1088;&#1099;&#1074;&#1072;&#1102;&#1090; &#1082;&#1086;&#1085;&#1082;&#1088;&#1077;&#1090;&#1085;&#1099;&#1077; &#1094;&#1077;&#1087;&#1086;&#1095;&#1082;&#1080;, &#1085;&#1086; &#1085;&#1077; &#1091;&#1089;&#1090;&#1088;&#1072;&#1085;&#1103;&#1102;&#1090; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1085;&#1091;&#1102; &#1087;&#1088;&#1080;&#1095;&#1080;&#1085;&#1091; &#1089;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1090;&#1072;&#1082;&#1086;&#1075;&#1086; &#1088;&#1099;&#1085;&#1082;&#1072; &#1074; &#1056;&#1086;&#1089;&#1089;&#1080;&#1080;. &#1054;&#1073; &#1101;&#1090;&#1086;&#1084; &#1079;&#1072;&#1103;&#1074;&#1080;&#1083; &#1076;&#1080;&#1088;&#1077;&#1082;&#1090;&#1086;&#1088; &#1056;&#1086;&#1089;&#1089;&#1080;&#1081;&#1089;&#1082;&#1086;&#1081; &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1072;&#1094;&#1080;&#1080; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1101;&#1082;&#1086;&#1085;&#1086;&#1084;&#1080;&#1082;&#1080;, &#1080;&#1089;&#1082;&#1091;&#1089;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086; &#1080;&#1085;&#1090;&#1077;&#1083;&#1083;&#1077;&#1082;&#1090;&#1072; &#1080; &#1073;&#1083;&#1086;&#1082;&#1095;&#1077;&#1081;&#1085;&#1072; (&#1056;&#1040;&#1050;&#1048;&#1041;) &#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088; &#1041;&#1088;&#1072;&#1078;&#1085;&#1080;&#1082;&#1086;&#1074;, &#1082;&#1086;&#1084;&#1084;&#1077;&#1085;&#1090;&#1080;&#1088;&#1091;&#1103; &#1086;&#1073;&#1099;&#1089;&#1082;&#1080; &#1085;&#1072; &#171;&#1053;&#1086;&#1074;&#1086;&#1081; &#1043;&#1086;&#1088;&#1073;&#1091;&#1096;&#1082;&#1077;&#187; &#1080; &#1079;&#1072;&#1076;&#1077;&#1088;&#1078;&#1072;&#1085;&#1080;&#1103; &#1074; &#171;&#1052;&#1086;&#1089;&#1082;&#1074;&#1072;-&#1057;&#1080;&#1090;&#1080;&#187;. &#1055;&#1086; &#1089;&#1083;&#1086;&#1074;&#1072;&#1084; &#1101;&#1082;&#1089;&#1087;&#1077;&#1088;&#1090;&#1072;, &#1101;&#1092;&#1092;&#1077;&#1082;&#1090; &#1086;&#1090; &#1087;&#1086;&#1076;&#1086;&#1073;&#1085;&#1099;&#1093; &#1084;&#1077;&#1088; &#1077;&#1089;&#1090;&#1100;, &#1085;&#1086; &#1086;&#1085; &#1090;&#1086;&#1095;&#1077;&#1095;&#1085;&#1099;&#1081; &#1080; &#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1099;&#1081;. The post Обыски на «Горбушке» и в «Сити» не убьют теневые криптообменники appeared first on BeInCrypto .",
-      "published_at": "2026-08-23T14:00:00+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Обыски на «Горбушке» и в «Сити» не убьют теневые криптообменники",
-      "summary_ru": "&#1056;&#1077;&#1081;&#1076;&#1099; &#1080; &#1086;&#1073;&#1099;&#1089;&#1082;&#1080; &#1085;&#1072; &#1085;&#1077;&#1083;&#1077;&#1075;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1086;&#1073;&#1084;&#1077;&#1085;&#1085;&#1080;&#1082;&#1072;&#1093; &#1088;&#1072;&#1079;&#1088;&#1099;&#1074;&#1072;&#1102;&#1090; &#1082;&#1086;&#1085;&#1082;&#1088;&#1077;&#1090;&#1085;&#1099;&#1077; &#1094;&#1077;&#1087;&#1086;&#1095;&#1082;&#1080;, &#1085;&#1086; &#1085;&#1077; &#1091;&#1089;&#1090;&#1088;&#1072;&#1085;&#1103;&#1102;&#1090; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1085;&#1091;&#1102; &#1087;&#1088;&#1080;&#1095;&#1080;&#1085;&#1091; &#1089;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1090;&#1072;&#1082;&#1086;&#1075;&#1086; &#1088;&#1099;&#1085;&#1082;&#1072; &#1074; &#1056;&#1086;&#1089;&#1089;&#1080;&#1080;. &#1054;&#1073; &#1101;&#1090;&#1086;&#1084; &#1079;&#1072;&#1103;&#1074;&#1080;&#1083; &#1076;&#1080;&#1088;&#1077;&#1082;&#1090;&#1086;&#1088; &#1056;&#1086;&#1089;&#1089;&#1080;&#1081;&#1089;&#1082;&#1086;&#1081; &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1072;&#1094;&#1080;&#1080; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1101;&#1082;&#1086;&#1085;&#1086;&#1084;&#1080;&#1082;&#1080;, &#1080;&#1089;&#1082;&#1091;&#1089;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086; &#1080;&#1085;&#1090;&#1077;&#1083;&#1083;&#1077;&#1082;&#1090;&#1072; &#1080; &#1073;&#1083;&#1086;&#1082;&#1095;&#1077;&#1081;&#1085;&#1072; (&#1056;&#1040;&#1050;&#1048;&#1041;) &#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088; &#1041;&#1088;&#1072;&#1078;&#1085;&#1080;&#1082;&#1086;&#1074;, &#1082;&#1086;&#1084;&#1084;&#1077;&#1085;&#1090;&#1080;&#1088;&#1091;&#1103; &#1086;&#1073;&#1099;&#1089;&#1082;&#1080; &#1085;&#1072; &#171;&#1053;&#1086;&#1074;&#1086;&#1081; &#1043;&#1086;&#1088;&#1073;&#1091;&#1096;&#1082;&#1077;&#187; &#1080; &#1079;&#1072;&#1076;&#1077;&#1088;&#1078;&#1072;&#1085;&#1080;&#1103; &#1074; &#171;&#1052;&#1086;&#1089;&#1082;&#1074;&#1072;-&#1057;&#1080;&#1090;&#1080;&#187;. &#1055;&#1086; &#1089;&#1083;&#1086;&#1074;&#1072;&#1084; &#1101;&#1082;&#1089;&#1087;&#1077;&#1088;&#1090;&#1072;, &#1101;&#1092;&#1092;&#1077;&#1082;&#1090; &#1086;&#1090; &#1087;&#1086;&#1076;&#1086;&#1073;&#1085;&#1099;&#1093; &#1084;&#1077;&#1088; &#1077;&#1089;&#1090;&#1100;, &#1085;&#1086; &#1086;&#1085; &#1090;&#1086;&#1095;&#1077;&#1095;&#1085;&#1099;&#1081; &#1080; &#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1099;&#1081;. The post Обыски на «Горбушке» и в «Сити» не убьют теневые криптообменники appeared first on BeInCrypto ."
     }
   ],
-  "dedup_at": "2026-08-24T16:03:14.568005+03:00"
+  "dedup_at": "2026-08-24T20:03:24.887168+03:00"
 }
