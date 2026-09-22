@@ -58,7 +58,8 @@ mkdir -p $HOME/ai-daily/logs
   # push — на 500 от GitHub. Не валим cron.
   set +e
   git add data/latest.json site/data/latest.json data/archive.json site/data/archive.json 2>/dev/null
-  git add cache/.translation-cache.json cache/.embeddings-cache.json 2>/dev/null
+  # cache/ в .gitignore с инцидента 20-22.05 (кэш эмбеддингов перерос лимит GitHub 100 МБ).
+  # Строка `git add cache/...` здесь оставалась и молча ничего не делала — убрана 21.09.
   if ! git diff --cached --quiet; then
     git commit -m "chore: refresh news $(date -u +%FT%TZ)"
     # retry push: GitHub иногда отвечает 500

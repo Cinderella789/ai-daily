@@ -59,6 +59,12 @@ ai-daily/
     └── email-digest.yml     # cron 09:00 MSK — утренний digest
 ```
 
+## Эксплуатация
+
+Прод крутится на VPS по cron — как устроено, как деплоить и что сторожит мониторинг: **[OPS.md](OPS.md)**.
+Рабочие скрипты (`run-update.sh`, `run-digest.sh`, `health-watch.sh`, `notify.sh`) лежат в корне;
+workflows в `.github/` с 10.05.2026 только ручные.
+
 ## Локальный запуск
 
 ```bash
