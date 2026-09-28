@@ -1,6 +1,183 @@
 {
-  "generated_at": "2026-09-28T05:00:44.629549+00:00",
+  "generated_at": "2026-09-28T09:00:37.153477+00:00",
   "items": [
+    {
+      "id": "cceb2d50cd0b3413",
+      "source": "NVIDIA Dev Blog",
+      "category": "ai",
+      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
+      "title_en": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
+      "summary_en": "To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the internet in the 90s. It was new and full of...",
+      "published_at": "2026-09-28T08:56:55+00:00",
+      "topic": "AI Agents",
+      "title_ru": "NVIDIA Open Agent Safety Platform: Справочник для непрерывного мониторинга агентов в кремнии.",
+      "summary_ru": "Чтобы понять, на каком этапе находится агентный ИИ сегодня, стоит вспомнить последний значительный сдвиг в технологиях: рост интернета в 90-х. Это было новое и полное..."
+    },
+    {
+      "id": "723ddaed7d4df5f5",
+      "source": "NVIDIA Dev Blog",
+      "category": "ai",
+      "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/",
+      "title_en": "Add Runtime Controls to AI Agents with NVIDIA OpenShell",
+      "summary_en": "AI agents can be given a goal, write code, use tools, and keep working as new information becomes available. This opens the door to applications that...",
+      "published_at": "2026-09-28T08:55:00+00:00",
+      "topic": "Hardware",
+      "title_ru": "Добавьте элементы управления временем выполнения для AI-агентов с помощью NVIDIA OpenShell.",
+      "summary_ru": "AI-агенты могут получать цели, писать код, использовать инструменты и продолжать работу по мере появления новой информации. Это открывает возможности для приложений, которые..."
+    },
+    {
+      "id": "a4464bdebbd3a3f7",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1087360/?utm_campaign=1087360&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Модель предлагает, код решает: проверяемые бизнес-решения на Python с маленькими моделями",
+      "summary_en": "Если спросить языковую модель «одобрить возврат?», она вернёт ответ и вероятность. Правила, которое гарантированно выполнится, доказательства, которое можно проверить, и записи, которую можно воспроизвести, она не вернёт. solvi — открытая библиотека на Python, где модели только предлагают факты, а обычный код их проверяет и выносит решение, и каждый шаг попадает в след. Показываю на примере с настоящим кодом, где это помогает, а где пока нет. Читать далее",
+      "published_at": "2026-09-28T08:44:42+00:00",
+      "topic": "Research",
+      "title_ru": "Модель предлагает, код решает: проверяемые бизнес-решения на Python с маленькими моделями",
+      "summary_ru": "Если спросить языковую модель «одобрить возврат?», она вернёт ответ и вероятность. Правила, которое гарантированно выполнится, доказательства, которое можно проверить, и записи, которую можно воспроизвести, она не вернёт. solvi — открытая библиотека на Python, где модели только предлагают факты, а обычный код их проверяет и выносит решение, и каждый шаг попадает в след. Показываю на примере с настоящим кодом, где это помогает, а где пока нет. Читать далее"
+    },
+    {
+      "id": "4d1c095b912e35d7",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1087416/?utm_campaign=1087416&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Как я несколько часов гуглил, чтобы потом за 15 минут запустить локальный DeepSeek для Python и SQL",
+      "summary_en": "Полгода назад мне понадобился &nbsp;личный AI помощник ( знаю...звучит слишком пафосно и мне самому это словосочетание не&nbsp;нравится ) для&nbsp;работы на&nbsp;своем ноутбуке на&nbsp;Windows. В&nbsp;основном для&nbsp;достаточно простых вещей. Посмотреть простой Python код, разобраться с&nbsp;Pandas, найти ошибку в&nbsp;SQL запросе или&nbsp;подсказать, как&nbsp;можно переписать кусок кода. Проблема&nbsp;была в&nbsp;том, что&nbsp;рабочий код и данные нельзя&nbsp;было отправлять во&nbsp;внешний контур. Поэтому привычный сценарий с&nbsp;ChatGPT или&nbsp;другим облачным сервисом мне не&nbsp;подходил. Я знал, что&nbsp;существуют локальные языковые модели, но&nbsp;до&nbsp;этого никогда их самостоятельно не&nbsp;запускал. Казалось, что&nbsp;для&nbsp;этого придется разбираться в&nbsp;Linux, Docker, CUDA и еще десятке технологий.... В&nbsp;итоге все оказалось заметно проще ))))... Я установил Ollama, скачал DeepSeek и получил локального AI помощника, который работает непосредственно на&nbsp;моем компьютере. В&nbsp;этой статье покажу весь путь от&nbsp;установки до&nbsp;первого запроса. Без&nbsp;глубокого погружения в&nbsp;устройство LLM. Просто повторяем несколько шагов и получаем работающую модель через 15&nbsp;минут. Сразу оговорюсь. Это не&nbsp;инструкция по&nbsp;построению полноценного корпоративного закрытого контура. Речь именно о&nbsp;локальном запуске модели на&nbsp;своем компьютере. Если у&nbsp;вас есть требования информационной безопасности, их необходимо учитывать отдельно. Читать далее",
+      "published_at": "2026-09-28T08:34:05+00:00",
+      "topic": "Models",
+      "title_ru": "Как я несколько часов гуглил, чтобы потом за 15 минут запустить локальный DeepSeek для Python и SQL",
+      "summary_ru": "Полгода назад мне понадобился &nbsp;личный AI помощник ( знаю...звучит слишком пафосно и мне самому это словосочетание не&nbsp;нравится ) для&nbsp;работы на&nbsp;своем ноутбуке на&nbsp;Windows. В&nbsp;основном для&nbsp;достаточно простых вещей. Посмотреть простой Python код, разобраться с&nbsp;Pandas, найти ошибку в&nbsp;SQL запросе или&nbsp;подсказать, как&nbsp;можно переписать кусок кода. Проблема&nbsp;была в&nbsp;том, что&nbsp;рабочий код и данные нельзя&nbsp;было отправлять во&nbsp;внешний контур. Поэтому привычный сценарий с&nbsp;ChatGPT или&nbsp;другим облачным сервисом мне не&nbsp;подходил. Я знал, что&nbsp;существуют локальные языковые модели, но&nbsp;до&nbsp;этого никогда их самостоятельно не&nbsp;запускал. Казалось, что&nbsp;для&nbsp;этого придется разбираться в&nbsp;Linux, Docker, CUDA и еще десятке технологий.... В&nbsp;итоге все оказалось заметно проще ))))... Я установил Ollama, скачал DeepSeek и получил локального AI помощника, который работает непосредственно на&nbsp;моем компьютере. В&nbsp;этой статье покажу весь путь от&nbsp;установки до&nbsp;первого запроса. Без&nbsp;глубокого погружения в&nbsp;устройство LLM. Просто повторяем несколько шагов и получаем работающую модель через 15&nbsp;минут. Сразу оговорюсь. Это не&nbsp;инструкция по&nbsp;построению полноценного корпоративного закрытого контура. Речь именно о&nbsp;локальном запуске модели на&nbsp;своем компьютере. Если у&nbsp;вас есть требования информационной безопасности, их необходимо учитывать отдельно. Читать далее"
+    },
+    {
+      "id": "f295610947b3e6f9",
+      "source": "Habr NLP",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1087014/?utm_campaign=1087014&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Бендер как диавол",
+      "summary_en": "Искал скрытые библейские цитаты и намеки в тексте советского романа «12 стульев» с помощью Python и что у меня получилось. Читать далее",
+      "published_at": "2026-09-28T08:32:05+00:00",
+      "topic": "Research",
+      "title_ru": "Бендер как диавол",
+      "summary_ru": "Искал скрытые библейские цитаты и намеки в тексте советского романа «12 стульев» с помощью Python и что у меня получилось. Читать далее"
+    },
+    {
+      "id": "b6413eb79ad5dba4",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/token-unlocks-to-watch-in-september-october/",
+      "title_en": "3 Token Unlocks to Watch in This Week",
+      "summary_en": "The crypto market will welcome tokens worth more than $913 million this week. Major projects, including DoubleZero (2Z), Sui (SUI), and Collector Crypt (CARDS), will release significant new token supplies.&#160; These unlocks could introduce market volatility and influence short-term price movements. So, here&#8217;s a breakdown of what to watch. 1. DoubleZero (2Z) DoubleZero is a The post 3 Token Unlocks to Watch in This Week appeared first on BeInCrypto .",
+      "published_at": "2026-09-28T08:31:57+00:00",
+      "topic": "Altcoins",
+      "title_ru": "3 разблокировки токенов, за которыми стоит следить на этой неделе",
+      "summary_ru": "Крипторынок на этой неделе примет токены на сумму более 913 миллионов долларов. Крупные проекты, включая DoubleZero (2Z), Sui (SUI) и Collector Crypt (CARDS), выпустят значительные объемы новых токенов. Эти разблокировки могут вызвать волатильность на рынке и повлиять на краткосрочные ценовые колебания. Вот что стоит отслеживать. 1. DoubleZero (2Z) DoubleZero — это..."
+    },
+    {
+      "id": "c6cf4b0a6b766a89",
+      "source": "vc.ru AI",
+      "category": "ai",
+      "url": "https://vc.ru/id6127528/3163018-iskusstvennyj-intellekt-i-klassicheskaya-animatsiya?from=rss",
+      "title_en": "«Ну, ИИ, погоди!»: как мы объединили искусственный интеллект и классическую видеопродукцию",
+      "summary_en": "Можно ли использовать искусственный интеллект так, чтобы он не заменял режиссуру и продакшн, а становился частью полноценного производственного pipeline?",
+      "published_at": "2026-09-28T08:30:16+00:00",
+      "topic": "Research",
+      "title_ru": "«Ну, ИИ, погоди!»: как мы объединили искусственный интеллект и классическую видеопродукцию",
+      "summary_ru": "Можно ли использовать искусственный интеллект так, чтобы он не заменял режиссуру и продакшн, а становился частью полноценного производственного pipeline?"
+    },
+    {
+      "id": "cd9c0d5c420d53c9",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1087300/?utm_campaign=1087300&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Claude Code сливает ключи в коммиты вдвое чаще среднего: почему хук PreToolUse их пропускает",
+      "summary_en": "Агент Claude Code ради одной цифры для статьи запустил платную серию запросов к ИИ-моделям, хотя правило в CLAUDE.md это прямо запрещало: в длинной сессии оно потерялось. Эта ошибка стоила только денег. Ключ в публичном коммите или выкладка без проверки обошлись бы дороже, и такие действия я проверяю хуками — кодом перед каждым вызовом инструмента. Читать далее",
+      "published_at": "2026-09-28T08:29:58+00:00",
+      "topic": "Models",
+      "title_ru": "Claude Code сливает ключи в коммиты вдвое чаще среднего: почему хук PreToolUse их пропускает",
+      "summary_ru": "Агент Claude Code ради одной цифры для статьи запустил платную серию запросов к ИИ-моделям, хотя правило в CLAUDE.md это прямо запрещало: в длинной сессии оно потерялось. Эта ошибка стоила только денег. Ключ в публичном коммите или выкладка без проверки обошлись бы дороже, и такие действия я проверяю хуками — кодом перед каждым вызовом инструмента. Читать далее"
+    },
+    {
+      "id": "5890dd7d020a2114",
+      "source": "NewsBTC",
+      "category": "crypto",
+      "url": "https://www.newsbtc.com/news/jumper-to-launch-jump-token-sale-on-legion-as-it-spins-out-to-build-the-super-app-for-onchain-finance/",
+      "title_en": "Jumper to Launch JUMP Token Sale on Legion as it Spins Out to Build the Super-App for Onchain Finance",
+      "summary_en": "With more than $40 billion in lifetime volume and over 100,000 monthly active users, Jumper is entering its next phase of growth as an independent company. &#160; September 28, 2026 &#124; British Virgin Islands – Jumper, one of the leading consumer applications for moving and trading assets onchain, today announced plans for its first JUMP token sale through Legion as it becomes an independent company. Jumper has processed more than $40 billion in lifetime volume, serves over 100,000 monthly active users, and is the #1 aggregator by bridging volume. Having built significant distribution through cross-chain trading, the company is now expanding its ambition: to become the super-app for onchain finance &#8211; the one place where users can swap, bridge, trade perpetual futures, access tokenized stocks and other real-world assets, access yield opportunities, and eventually interact with any asset available onchain. Bridging was the starting point for Jumper, and we’ve grown into the #1 aggregator by bridging volume with more than 15% market share. As more financial assets move onchain, the opportunity gets much bigger than bridging. We want Jumper to become the application users open whenever they want to trade, invest, or move value onchain. said Marko Jurina, CEO of Jumper. Jumper has already expanded into advanced trading and real-world assets. Its next major launch is Jumper Perps, which will aggregate perpetual futures venues into a single trading experience and is slated to go live in the coming weeks. Each new product creates a new source of volume and revenue for Jumper while giving its existing users more reasons to consolidate their onchain activity in one application. Originally incubated within LI.FI, Jumper is now planned to be carved out as a standalone venture with dedicated capital, leadership, and roadmap. The two companies will pursue the growth of onchain finance from opposite ends of the stack: LI.FI as orchestration infrastructure and Jumper as the consumer application. Jumper Team The Legion sale will be the first time Jumper has raised capital. Proceeds from the token sale will be used to accelerate product development, user acquisition, and distribution across Jumper’s growing product suite. The JUMP token is planned to launch separately following the fundraising process. The fundraising structure reflects a fundamental choice about how Jumper intends to align ownership and value creation. Jumper is not conducting a separate equity financing round alongside JUMP token, reflecting a deliberate decision to align the key stakeholders. Users, contributors and investors will hold the same asset. We believe the token should be the only way to have ownership and exposure to the value being created by Jumper. There shouldn’t be one group holding equity and another group holding a token. JUMP is intended to be the only way users, contributors, and investors participate in Jumper’s growth, so the value created by Jumper is aligned with tokenholders. Jurina added: Getting here has meant pushing against a lot of incumbent processes and thinking that still treat the token as something separate from the underlying business. We think that model needs to change. If crypto is serious about creating new forms of ownership, the people who use, support, and build these businesses should be able to participate directly in the value they help create. We want Jumper to be at the forefront of that shift. We believe token-first ownership should become an industry standard, and we want to help lead that change. For more information, visit https://jumper.xyz/. &#160; ABOUT JUMPER Jumper is the super-app for onchain finance, bringing every product and asset onchain under one roof. Through a single interface, users can swap, bridge, access yield, trade perpetual futures, and discover assets ranging from crypto majors and memecoins to tokenized stocks and other real-world assets. Jumper abstracts away the complexity of blockchains, protocols, and liquidity venues to create a simpler, asset-centric trading experience. Today, Jumper is the #1 aggregator by bridging volume, with more than $40 billion in lifetime volume and over 100,000 monthly active users. &#160; PRESS CONTACT Tanja Mladenovic Email: tanja@li.finance, Telegram: @mladenovictanja &#160;",
+      "published_at": "2026-09-28T08:17:12+00:00",
+      "topic": "DeFi",
+      "title_ru": "Jumper запускает продажу токенов JUMP на Legion, так как компания отделяется для создания супер-приложения для ончейн-финансов.",
+      "summary_ru": "С объемом более 40 миллиардов долларов за всю историю и более 100 000 активных пользователей в месяц, Jumper вступает в следующую фазу роста как независимая компания. 28 сентября 2026 года | Британские Виргинские острова – Jumper, одно из ведущих потребительских приложений для перемещения и торговли активами на блокчейне, сегодня объявила о планах проведения первой продажи токенов JUMP через Legion, становясь независимой компанией. Jumper обработал более 40 миллиардов долларов за всю историю, обслуживает более 100 000 активных пользователей в месяц и является номером один среди агрегаторов по объему мостов. Создав значительное распределение через кросс-чейн торговлю, компания теперь расширяет свои амбиции: стать супер-приложением для финансов на блокчейне – единственным местом, где пользователи могут обменивать, мостить, торговать бессрочными фьючерсами, получать доступ к токенизированным акциям и другим реальным активам, находить возможности дохода и в конечном итоге взаимодействовать с любым активом, доступным на блокчейне. Мосты стали отправной точкой для Jumper, и мы выросли в номер один среди агрегаторов по объему мостов с более чем 15% долей рынка. Поскольку все больше финансовых активов перемещается на блокчейн, возможности становятся гораздо больше, чем просто мосты. Мы хотим, чтобы Jumper стал приложением, которое пользователи открывают всякий раз, когда хотят торговать, инвестировать или перемещать ценность на блокчейне, сказал Марко Юрина, генеральный директор Jumper. Jumper уже расширился в области продвинутой торговли и реальных активов. Его следующий крупный запуск – Jumper Perps, который агрегирует площадки бессрочных фьючерсов в единый торговый опыт и должен запуститься в ближайшие недели. Каждый новый продукт создает новый источник объема и дохода для Jumper, предоставляя существующим пользователям больше причин консолидировать свою активность на блокчейне в одном приложении. Изначально инкубированный в LI.FI, Jumper теперь планируется выделить в отдельное предприятие с выделенным капиталом, руководством и дорожной картой. Обе компании будут стремиться к росту финансов на блокчейне с противоположных концов стека: LI.FI как инфраструктура оркестрации и Jumper как потребительское приложение. Команда Jumper. Продажа Legion станет первым случаем, когда Jumper привлекает капитал. Средства от продажи токенов будут использованы для ускорения разработки продукта, привлечения пользователей и распределения по растущему ассортименту продуктов Jum"
+    },
+    {
+      "id": "5b67311c7107439c",
+      "source": "MIT Tech Review",
+      "category": "ai",
+      "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "title_en": "Who’s liable when AI agents go rogue?",
+      "summary_en": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&#8230;",
+      "published_at": "2026-09-28T08:06:22+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Кто несет ответственность, когда AI-агенты выходят из-под контроля?",
+      "summary_ru": "MIT Technology Review объясняет: позвольте нашим авторам разобраться в сложном и запутанном мире технологий, чтобы помочь вам понять, что нас ждет в будущем. Вы можете прочитать больше из этой серии здесь. За последние несколько месяцев мир потрясла волна кибератак, осуществленных AI-агентами. В июле OpenAI сообщила, что рой ее агентов..."
+    },
+    {
+      "id": "eb6f5d714b83f7a5",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1087330/?utm_campaign=1087330&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "ИИ: личный опыт без хайпа. Часть 1. Техстек на базе OpenCode",
+      "summary_en": "Настройка рабочего места для агентной разработки на базе OpenCode, Oh My OpenCode и OpenSpec: независимость от провайдера, управление агентами и субагентами, роль спецификаций в рабочем процессе. Читать далее",
+      "published_at": "2026-09-28T06:43:04+00:00",
+      "topic": "AI Agents",
+      "title_ru": "ИИ: личный опыт без хайпа. Часть 1. Техстек на базе OpenCode",
+      "summary_ru": "Настройка рабочего места для агентной разработки на базе OpenCode, Oh My OpenCode и OpenSpec: независимость от провайдера, управление агентами и субагентами, роль спецификаций в рабочем процессе. Читать далее"
+    },
+    {
+      "id": "045bd2c51e11ef35",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.news/tom-lee-ai-crypto-tokenization-ethereum/",
+      "title_en": "Том Ли: токенизация и ИИ-агенты могут стать драйверами нового криптоцикла",
+      "summary_en": "Председатель Fundstrat Том Ли назвал два новых дравера будущего развития крипторынка. Он прав, так как токенизация и ИИ-агенты уже внедряются крупными компаниями. Искусственный интеллект и криптовалюты долгое время развивались как две независимые инвестиционные истории. Однако Том Ли считает, что ситуация меняется. По его мнению, следующий этап крипторынка может строиться не вокруг очередной волны спекулятивных AI-токенов, а [&#8230;] Источник",
+      "published_at": "2026-09-28T06:00:19+00:00",
+      "topic": "Regulations",
+      "title_ru": "Том Ли: токенизация и ИИ-агенты могут стать драйверами нового криптоцикла",
+      "summary_ru": "Председатель Fundstrat Том Ли назвал два новых дравера будущего развития крипторынка. Он прав, так как токенизация и ИИ-агенты уже внедряются крупными компаниями. Искусственный интеллект и криптовалюты долгое время развивались как две независимые инвестиционные истории. Однако Том Ли считает, что ситуация меняется. По его мнению, следующий этап крипторынка может строиться не вокруг очередной волны спекулятивных AI-токенов, а [&#8230;] Источник"
+    },
+    {
+      "id": "0e43fab08fd9041a",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/binance-wallet-usdt-gas-fees-multiple-networks/",
+      "title_en": "Binance Wallet lets users pay gas fees in USDT across four major networks",
+      "summary_en": "Binance Wallet's USDT gas fee option simplifies crypto transactions, potentially increasing user adoption and reducing reliance on native tokens. The post Binance Wallet lets users pay gas fees in USDT across four major networks appeared first on Crypto Briefing .",
+      "published_at": "2026-09-28T05:08:39+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Binance Wallet позволяет пользователям оплачивать газовые сборы в USDT на четырех основных сетях.",
+      "summary_ru": "Опция оплаты комиссий за газ в USDT в Binance Wallet упрощает криптотранзакции, что может увеличить число пользователей и снизить зависимость от нативных токенов."
+    },
+    {
+      "id": "2f72a6867bfb14a0",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/vitalik-buterin-ethereum-hegota-last-fork/",
+      "title_en": "Vitalik Buterin Says Next Year's Hegota Will Be Ethereum's Last ‘Normal' Fork",
+      "summary_en": "Ethereum (ETH) co-founder Vitalik Buterin expects next year&#8217;s Hegota upgrade to be the network&#8217;s last conventional fork. He said the work after it would involve advanced cryptography and quantum-safe designs. Buterin set out the view in a September 27 essay on his personal blog. In it, he compared Ethereum in 2015, 2025, and 2030 with The post Vitalik Buterin Says Next Year&#039;s Hegota Will Be Ethereum&#039;s Last &#8216;Normal&#039; Fork appeared first on BeInCrypto .",
+      "published_at": "2026-09-28T05:05:57+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Виталик Бутерин заявил, что следующая хардфорк Hegota в следующем году станет последним «нормальным» хардфорком Ethereum.",
+      "summary_ru": "Сооснователь Ethereum (ETH) Виталик Бутерин ожидает, что обновление Hegota, запланированное на следующий год, станет последним обычным форком сети. Он отметил, что дальнейшая работа будет связана с продвинутой криптографией и квантово-устойчивыми дизайнами. Бутерин изложил свою точку зрения в эссе, опубликованном 27 сентября на своем личном блоге. В нем он сравнил Ethereum в 2015, 2025 и 2030 годах.",
+      "duplicates": [
+        {
+          "source": "BeInCrypto RU",
+          "url": "https://ru.beincrypto.com/vitalik-buterin-ethereum-last-fork/",
+          "title_en": "Виталик Бутерин заявил, что форк Hegota в следующем году станет последним «обычным» обновлением Ethereum",
+          "title_ru": "Виталик Бутерин заявил, что форк Hegota в следующем году станет последним «обычным» обновлением Ethereum",
+          "published_at": "2026-09-28T06:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "3a186306bdedcddb",
       "source": "HappyCoin",
@@ -11,7 +188,28 @@
       "published_at": "2026-09-28T05:00:28+00:00",
       "topic": "Regulations",
       "title_ru": "Чиновникам из американского штата Калифорния запретили выпуск мемкоинов",
-      "summary_ru": "Сразу два публичных человека назвали мемкоины сомнительным явлением. Инвестор Джейсон Калаканис назвал их скамом, а губернатор Калифорнии Гэвин Ньюсом запретил их законодательно. Практически одновременно известный технологический инвестор Джейсон Калаканис назвал весь сегмент «гигантским скамом», а губернатор Калифорнии Гэвин Ньюсом подписал закон, запрещающий публичным должностным лицам штата выпускать собственные мемкоины. 26 сентября Джейсон Калаканис написал в [&#8230;] Источник"
+      "summary_ru": "Сразу два публичных человека назвали мемкоины сомнительным явлением. Инвестор Джейсон Калаканис назвал их скамом, а губернатор Калифорнии Гэвин Ньюсом запретил их законодательно. Практически одновременно известный технологический инвестор Джейсон Калаканис назвал весь сегмент «гигантским скамом», а губернатор Калифорнии Гэвин Ньюсом подписал закон, запрещающий публичным должностным лицам штата выпускать собственные мемкоины. 26 сентября Джейсон Калаканис написал в [&#8230;] Источник",
+      "duplicates": [
+        {
+          "source": "Forklog",
+          "url": "https://forklog.com/v-kalifornii-chinovnikam-zapretili-vypuskat-mem-koiny",
+          "title_en": "В Калифорнии чиновникам запретили выпускать мем-коины",
+          "title_ru": "В Калифорнии чиновникам запретили выпускать мем-коины",
+          "published_at": "2026-09-28T06:24:55+00:00"
+        }
+      ]
+    },
+    {
+      "id": "043a2bf5f6f78168",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Here’s what happened in crypto today",
+      "summary_en": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "published_at": "2026-09-28T04:57:00+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Вот что произошло в криптовалютном мире сегодня.",
+      "summary_ru": "Нужна информация о событиях в криптовалюте сегодня? Вот последние новости о ежедневных трендах и событиях, влияющих на цену Bitcoin, блокчейн, DeFi, NFTs, Web3 и регулирование криптовалют."
     },
     {
       "id": "4542a14f53c55692",
@@ -24,6 +222,30 @@
       "topic": "Regulations",
       "title_ru": "Как мы с вами будем платить больше налогов, а также битва за регулирование AI: главное за неделю",
       "summary_ru": "Самые интересные новости финансов и технологий в России и мире за две недели: Минфин предложил поднять налоги на инвестиционные доходы, Трамп подписал закон об «адских санкциях», ФРС опять начала поднимать ставку, Anthropic и OpenAI выпустили новые модели, рои OpenAI-агентов продолжают хулиганить, Google готовится отправить свои TPU в космос, а Figure учит роботов работать в незнакомых домах. Читать далее"
+    },
+    {
+      "id": "d82b08a89bd5c2f7",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/vitalik-hegota-ethereum-last-normal-fork?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
+      "summary_en": "Ethereum’s Vitalik Buterin said PeerDAS marked the start of Ethereum’s transition “from being just a blockchain to being something much more powerful.”",
+      "published_at": "2026-09-28T04:44:15+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Виталик Бутерин заявил, что Hegotá может стать последним «нормальным» форком Ethereum.",
+      "summary_ru": "Виталик Бутерин из Ethereum заявил, что PeerDAS ознаменовал начало перехода Ethereum \"от простого блокчейна к чему-то гораздо более мощному\"."
+    },
+    {
+      "id": "fe87cc3a06c34677",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/mining/kazakhstan-turns-to-flare-gas-to-power-crypto-mining-revival/",
+      "title_en": "Kazakhstan Turns to Flare Gas to Power Crypto Mining Revival",
+      "summary_en": "Kazakhstan is working to entice crypto miners to take advantage of flared gas opportunities as part of a push to revive mining, which was severely hampered by power limitations imposed by an auction system designed to protect the country&#8217;s aging grid. Kazakhstan Works Towards Bringing Crypto Miners and Flare Gas Energy Together The government of [&#8230;]",
+      "published_at": "2026-09-28T04:10:07+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Казахстан обращается к попутному газу для возрождения майнинга криптовалют.",
+      "summary_ru": "Казахстан работает над привлечением криптомайнеров для использования попутного газа в рамках усилий по возрождению майнинга, который был серьезно затруднен ограничениями по электроэнергии, введенными аукционной системой, предназначенной для защиты устаревшей энергетической сети страны."
     },
     {
       "id": "00e0e3a4ad2d2f3b",
@@ -47,7 +269,37 @@
       "published_at": "2026-09-28T04:00:20+00:00",
       "topic": "Ethereum",
       "title_ru": "Бутерин пообещал, что после Hegota Ethereum станет «криптографическим мировым компьютером»",
-      "summary_ru": "В новой статье Виталик Бутерин описал, какие трансформации ожидают Ethereum, который должен стать «криптографическим мировым компьютером». Реализации этой концепции будут способствовать несколько обновлений, включая Hegota. Ethereum приближается к моменту, когда называть его просто блокчейном станет неточно. Виталик Бутерин считает, что после следующего этапа обновлений сеть начнёт превращаться в принципиально новую систему с доказательствами с нулевым [&#8230;] Источник"
+      "summary_ru": "В новой статье Виталик Бутерин описал, какие трансформации ожидают Ethereum, который должен стать «криптографическим мировым компьютером». Реализации этой концепции будут способствовать несколько обновлений, включая Hegota. Ethereum приближается к моменту, когда называть его просто блокчейном станет неточно. Виталик Бутерин считает, что после следующего этапа обновлений сеть начнёт превращаться в принципиально новую систему с доказательствами с нулевым [&#8230;] Источник",
+      "duplicates": [
+        {
+          "source": "Forklog",
+          "url": "https://forklog.com/news/buterin-opisal-prevrashhenie-ethereum-v-kriptograficheskij-mirovoj-kompyuter",
+          "title_en": "Бутерин описал превращение Ethereum в «криптографический мировой компьютер»",
+          "title_ru": "Бутерин описал превращение Ethereum в «криптографический мировой компьютер»",
+          "published_at": "2026-09-28T06:09:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d59b57bc127de9bc",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/newsom-signs-california-ban-on-public-officials-issuing-memecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Newsom signs California ban on public officials issuing memecoins",
+      "summary_en": "The law also restricts crypto companies from offering certain memecoins tied to public officials to California residents and takes effect for tokens issued from Jan. 1, 2027.",
+      "published_at": "2026-09-28T02:23:42+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Ньюсом подписал законопроект о запрете для государственных служащих Калифорнии выпускать мемкойны.",
+      "summary_ru": "Закон также ограничивает криптокомпании в предложении определенных мемкойнов, связанных с государственными служащими, жителям Калифорнии и вступает в силу для токенов, выпущенных с 1 января 2027 года.",
+      "duplicates": [
+        {
+          "source": "BeInCrypto EN",
+          "url": "https://beincrypto.com/newsom-bans-officials-meme-coins-california/",
+          "title_en": "California Politicians Won't Be Able to Launch Meme Coins. Newsom Just Signed the Ban",
+          "title_ru": "Политики Калифорнии не смогут запускать мем-койны. Ньюсом только что подписал запрет.",
+          "published_at": "2026-09-28T07:28:43+00:00"
+        }
+      ]
     },
     {
       "id": "3dcd433ac9f6c4dc",
@@ -59,7 +311,16 @@
       "published_at": "2026-09-28T01:09:22+00:00",
       "topic": "Hacks",
       "title_ru": "Zano откатил блокчейн на месяц после эксплуатации Gateway Address.",
-      "summary_ru": "Блокчейн Zano был перезапущен на высоте блока, которая предшествовала Hard Fork 6, в рамках которого были введены Gateway Addresses."
+      "summary_ru": "Блокчейн Zano был перезапущен на высоте блока, которая предшествовала Hard Fork 6, в рамках которого были введены Gateway Addresses.",
+      "duplicates": [
+        {
+          "source": "Forklog",
+          "url": "https://forklog.com/zano-otkatila-blokchejn-na-mesyats-iz-za-uyazvimosti",
+          "title_en": "Zano откатила блокчейн на месяц из-за уязвимости",
+          "title_ru": "Zano откатила блокчейн на месяц из-за уязвимости",
+          "published_at": "2026-09-28T05:19:30+00:00"
+        }
+      ]
     },
     {
       "id": "874cfb41709bee40",
@@ -72,18 +333,6 @@
       "topic": "Hardware",
       "title_ru": "NVIDIA DSX MaxLPS оптимизирует производительность и эффективность AI-фабрик. Эта система использует передовые алгоритмы для управления ресурсами и загрузкой, что позволяет значительно увеличить пропускную способность. MaxLPS анализирует данные в реальном времени, адаптируя процессы под текущие условия и потребности. Это обеспечивает более высокую скорость обработки и сокращение времени простоя, что в итоге приводит к снижению затрат и повышению общей производительности фабрики.",
       "summary_ru": "Каждый неиспользованный ватт — это мощность, оставленная на столе. AI-фабрики обычно оснащены с расчетом на маловероятный момент, когда каждый GPU достигнет пиковой мощности, создавая..."
-    },
-    {
-      "id": "7bd6ccd6acc700a6",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/peter-brandt-xrp-chart-bullish-signals/",
-      "title_en": "Peter Brandt Destroys the XRP Cult Narrative",
-      "summary_en": "Legendary trader Peter Brandt says XRP holders do not need blind loyalty to justify their position, insisting technical charts alone provide enough reason to buy the token right now. His comments arrive as bullish patterns, whale accumulation, and steady ETF inflows converge, fueling fresh optimism across the market. What Is Driving XRP&#8217;s Bullish Setup? Peter The post Peter Brandt Destroys the XRP Cult Narrative appeared first on BeInCrypto .",
-      "published_at": "2026-09-28T01:00:00+00:00",
-      "topic": "Ethereum",
-      "title_ru": "Питер Брандт разрушает нарратив культа XRP.",
-      "summary_ru": "Легендарный трейдер Питер Брандт утверждает, что держателям XRP не нужна слепая преданность, чтобы оправдать свою позицию, настаивая на том, что технические графики сами по себе предоставляют достаточно оснований для покупки токена прямо сейчас. Его комментарии появляются на фоне бычьих паттернов, накопления со стороны крупных инвесторов и стабильных притоков ETF, что создает новый оптимизм на рынке. Что движет бычьей установкой XRP? Питер Брандт разрушает нарратив культа XRP."
     },
     {
       "id": "1770f755ba2f371d",
@@ -170,25 +419,16 @@
       "summary_ru": "В некоторых генераторах можно написать «ночной лес с туманом» и получить подходящую картинку. В других тот же запрос на русском может сработать менее точно.Причина в том, что разные модели по-разному понимают языки. Важнее не название приложения или сайта, а модель, которая создаёт изображение, и то, как сервис обрабатывает ваш запрос.😢Почему часто используют английский?Для многих генераторов он остаётся более надёжным вариантом: на английском было много обучающих описаний изображений, а также написана большая часть руководств и готовых промптов.Особенно он бывает полезен, когда нужно задать конкретный ракурс, освещение, стиль или другие тонкие детали. Но это не гарантия: английский запрос тоже может быть понят неправильно.🤔А зачем нужны длинные промпты?Чтобы подробнее описать желаемый результат. Например, указать:— что изображено и где происходит действие;— как расположены объекты;— откуда падает свет;— какие нужны цвета и настроение;— какой стиль вы хотите получить.При этом длиннее не значит лучше. Понятное описание без противоречий обычно полезнее огромного набора слов вроде «шедевр, лучшее качество, невероятная детализация».🤩Что попробовать на практике?Если генератор плохо понимает запрос на русском — попробуйте английский вариант. Не обязательно переводить самостоятельно: можно попросить ИИ:Переведи это описание на английский для генерации изображения. Сохрани все важные детали, не добавляй новых. Сделай формулировки понятными и непротиворечивыми.И учитывайте особенности конкретного генератора: универсального промпта, который одинаково работает везде, нет. Специальные параметры, веса слов и негативные промпты поддерживаются не каждым сервисом.📌Начать можно с короткого запроса. Более подробный промпт нужен тогда, когда вам важно точнее управлять результатом, а не просто получить интересную картинку."
     },
     {
-      "id": "fba36a3fbd9b8c45",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/crypto-news/buterin-says-ethereums-last-normal-fork-is-planned-for-2027/",
-      "title_en": "Buterin Says Ethereum’s Last ‘Normal’ Fork Is Planned for 2027",
-      "summary_en": "Ethereum co-founder Vitalik Buterin says the network is heading toward a future where calling it a blockchain barely describes the machinery. In a Sept. 27 essay, he presents a 2030 vision with finality of roughly eight to 32 seconds, lighter verification and stronger privacy. The twist is that decentralization, long treated as a performance burden, [&#8230;]",
-      "published_at": "2026-09-27T21:19:27+00:00",
-      "topic": "Ethereum",
-      "title_ru": "Бутерин заявил, что последний «нормальный» форк Ethereum запланирован на 2027 год.",
-      "summary_ru": "Сооснователь Ethereum Виталик Бутерин заявил, что сеть движется к будущему, в котором называть её блокчейном едва ли достаточно для описания её механизмов. В эссе от 27 сентября он представил видение 2030 года с финализацией примерно за восемь-двадцать секунд, облегченной верификацией и усиленной конфиденциальностью. Интересный момент в том, что децентрализация, долгое время рассматриваемая как нагрузка на производительность, [...]",
-      "duplicates": [
-        {
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/vitalik-hegota-ethereum-last-normal-fork?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "title_en": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
-          "title_ru": "Виталик Бутерин заявил, что Hegotá может стать последним «нормальным» форком Ethereum.",
-          "published_at": "2026-09-28T04:44:15+00:00"
-        }
-      ]
+      "id": "dd46270fbfe5e57e",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1087250/?utm_campaign=1087250&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Глаз стрекозы: практическая технология исследования с ИИ",
+      "summary_en": "Как&nbsp;собрать предметные миры, нормализовать таксоны, найти межпредметный перенос, проверить его и вовремя остановить исследование. В&nbsp;первой статье этой серии « От&nbsp;университета до&nbsp;искусственного интеллекта: как&nbsp;ускорялся генератор изобретений » мы говорили о&nbsp;том, как&nbsp;человечество усиливало генератор нового. Во&nbsp;второй « Одиночный исследователь с&nbsp;ИИ: как&nbsp;собирать новое из&nbsp;разных предметных областей »&nbsp;— о&nbsp;том, что&nbsp;одиночному исследователю не&nbsp;нужна одна «лучшая методология»: реальная работа собирается из&nbsp;нескольких предметных областей и нескольких специализированных методов. Теперь пора сделать следующий шаг и разобрать саму технологию «Глаз стрекозы» . Самая простая ошибка при&nbsp;работе с&nbsp;искусственным интеллектом&nbsp;— начать с&nbsp;генерации идей . Модель охотно предложит десятки связей между биологией, экономикой, производством, логистикой, теорией устойчивости или&nbsp;любой другой областью. Часть этих связей будет интересной, часть&nbsp;— банальной, часть&nbsp;— просто красивой языковой конструкцией. Проблема в&nbsp;том, что&nbsp;до&nbsp;появления идеи исследователь должен понять, какими сущностями он вообще оперирует и какие предметные миры имеет право сравнивать. Читать далее",
+      "published_at": "2026-09-27T20:56:26+00:00",
+      "topic": "Research",
+      "title_ru": "Глаз стрекозы: практическая технология исследования с ИИ",
+      "summary_ru": "Как&nbsp;собрать предметные миры, нормализовать таксоны, найти межпредметный перенос, проверить его и вовремя остановить исследование. В&nbsp;первой статье этой серии « От&nbsp;университета до&nbsp;искусственного интеллекта: как&nbsp;ускорялся генератор изобретений » мы говорили о&nbsp;том, как&nbsp;человечество усиливало генератор нового. Во&nbsp;второй « Одиночный исследователь с&nbsp;ИИ: как&nbsp;собирать новое из&nbsp;разных предметных областей »&nbsp;— о&nbsp;том, что&nbsp;одиночному исследователю не&nbsp;нужна одна «лучшая методология»: реальная работа собирается из&nbsp;нескольких предметных областей и нескольких специализированных методов. Теперь пора сделать следующий шаг и разобрать саму технологию «Глаз стрекозы» . Самая простая ошибка при&nbsp;работе с&nbsp;искусственным интеллектом&nbsp;— начать с&nbsp;генерации идей . Модель охотно предложит десятки связей между биологией, экономикой, производством, логистикой, теорией устойчивости или&nbsp;любой другой областью. Часть этих связей будет интересной, часть&nbsp;— банальной, часть&nbsp;— просто красивой языковой конструкцией. Проблема в&nbsp;том, что&nbsp;до&nbsp;появления идеи исследователь должен понять, какими сущностями он вообще оперирует и какие предметные миры имеет право сравнивать. Читать далее"
     },
     {
       "id": "9c14e3f084274fca",
@@ -227,18 +467,6 @@
       "summary_ru": "Тема, которая вызывает больше всего споров в отделах продаж последние два года. Одни предприниматели уже уволили половину менеджеров и передали их функции ботам. Другие смотрят на это с недоверием и говорят, что продажи — это искусство, которое машине недоступно. Истина, как обычно, где-то между. Но чтобы ее найти, нужно перестать спорить в общем и разобрать конкретные функции продавца. Потому что в одних задачах ИИ выигрывает с разгромным счетом. А в других — проигрывает даже посредственному менеджеру."
     },
     {
-      "id": "a680415ba4589c23",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/articles/1087242/?utm_campaign=1087242&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Локальные нейросети без Python, CUDA и терминала: делаю программу, в которой всё настраивается само",
-      "summary_en": "Vulkan на моей GTX 1080 генерирует в полтора раза быстрее CUDA. Qwen вставляет китайские слова в русский текст даже при температуре 0. А маленькая модель однажды отчиталась, что удалила файл, и ничего не удалила. Всё это я узнал, пока делал Ollivo: программу, которая запускает локальные нейросети без Python, CUDA и терминала. Читать далее",
-      "published_at": "2026-09-27T20:43:53+00:00",
-      "topic": "Models",
-      "title_ru": "Локальные нейросети без Python, CUDA и терминала: делаю программу, в которой всё настраивается само",
-      "summary_ru": "Vulkan на моей GTX 1080 генерирует в полтора раза быстрее CUDA. Qwen вставляет китайские слова в русский текст даже при температуре 0. А маленькая модель однажды отчиталась, что удалила файл, и ничего не удалила. Всё это я узнал, пока делал Ollivo: программу, которая запускает локальные нейросети без Python, CUDA и терминала. Читать далее"
-    },
-    {
       "id": "bf3d4010eb37ff94",
       "source": "vc.ru AI",
       "category": "ai",
@@ -273,27 +501,6 @@
       "topic": "Altcoins",
       "title_ru": "План Solana по более справедливым сделкам застопорился, так как производители блоков по-прежнему выбирают, какие заказы будут обработаны.",
       "summary_ru": "SIMD-0649 будет контролировать приоритет внутри пакетов, в то время как лидеры сохранят контроль над включением и границами пакетов."
-    },
-    {
-      "id": "2ea0d070d4266841",
-      "source": "Crypto Briefing",
-      "category": "crypto",
-      "url": "https://cryptobriefing.com/california-bans-officials-meme-coins/",
-      "title_en": "Gavin Newsom signs law banning public officials from issuing meme coins",
-      "summary_en": "California's new law could set a precedent for stricter crypto regulations, impacting how digital assets are managed and perceived nationwide. The post Gavin Newsom signs law banning public officials from issuing meme coins appeared first on Crypto Briefing .",
-      "published_at": "2026-09-27T20:02:06+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Гэвин Ньюсом подписал закон, запрещающий государственным служащим выпускать мем-койны.",
-      "summary_ru": "Новый закон Калифорнии может установить прецедент для более строгих регуляций в сфере криптовалют, влияя на то, как цифровые активы управляются и воспринимаются по всей стране. Гэвин Ньюсом подписал закон, запрещающий государственным служащим выпускать мем-койны.",
-      "duplicates": [
-        {
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/newsom-signs-california-ban-on-public-officials-issuing-memecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "title_en": "Newsom signs California ban on public officials issuing memecoins",
-          "title_ru": "Ньюсом подписал законопроект о запрете для государственных служащих Калифорнии выпускать мемкойны.",
-          "published_at": "2026-09-28T02:23:42+00:00"
-        }
-      ]
     },
     {
       "id": "eaa520eb586c5ae8",
@@ -332,37 +539,16 @@
       "summary_ru": "Замена человека в готовом ролике раньше требовала сложного монтажа, масок, трекинга и аккуратной покадровой работы. Сегодня часть таких задач берут на себя нейросети: они анализируют движение, лицо, освещение и фон, а затем создают новую версию сцены."
     },
     {
-      "id": "beb387d42a9d516f",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/saylor-orange-signal-strategy-bitcoin-buy/",
-      "title_en": "Did MicroStrategy Buy More Bitcoin? Michael Saylor Drops Another Signal",
-      "summary_en": "Michael Saylor posts another 'orange' Bitcoin chart. Monday's filing will show if Strategy bought more BTC this week. The post Did MicroStrategy Buy More Bitcoin? Michael Saylor Drops Another Signal appeared first on BeInCrypto .",
-      "published_at": "2026-09-27T19:25:15+00:00",
-      "topic": "Macro",
-      "title_ru": "MicroStrategy купила больше биткойнов? Майкл Сейлор дал новый сигнал.",
-      "summary_ru": "Майкл Сейлор опубликовал еще один график 'оранжевого' Биткойна. Подача в понедельник покажет, купила ли MicroStrategy больше BTC на этой неделе."
-    },
-    {
-      "id": "0d5ded305b98b1c3",
+      "id": "5e1f9a5bca5fa332",
       "source": "vc.ru AI",
       "category": "ai",
-      "url": "https://vc.ru/services/3162430-zimnyaya-fotosessiya-cherez-neyroset?from=rss",
-      "title_en": "Зимняя фотосессия через нейросеть: ТОП-10 лучших ИИ для создания зимних фото и ТОП-25 готовых промптов для фотосессии онлайн",
-      "summary_en": "Зимняя фотосессия больше не обязательно требует студии, фотографа, сложного света и подходящей погоды. Нейросеть может превратить обычное селфи в портрет среди снегопада, добавить зимний лес, заменить летний фон или собрать праздничную сцену с огнями, елкой и камином.",
-      "published_at": "2026-09-27T19:23:38+00:00",
+      "url": "https://vc.ru/services/3162436-luchshie-neurosseti-dlya-sozdaniya-foto-na-den-rozhdeniya-besplatno?from=rss",
+      "title_en": "Фото на день рождения через нейросеть бесплатно: ТОП-10 лучших ИИ для создания праздничных фото, идеи и готовые промпты онлайн",
+      "summary_en": "Праздничный снимок не обязательно заказывать у фотографа или часами собирать в графическом редакторе. Современные сервисы помогают превратить обычный портрет в яркую сцену с тортом, шарами, конфетти, тематическим фоном или стилизованной фотосессией. Достаточно подготовить исходное фото либо описать идею словами.",
+      "published_at": "2026-09-27T19:28:44+00:00",
       "topic": "Research",
-      "title_ru": "Зимняя фотосессия через нейросеть: ТОП-10 лучших ИИ для создания зимних фото и ТОП-25 готовых промптов для фотосессии онлайн",
-      "summary_ru": "Зимняя фотосессия больше не обязательно требует студии, фотографа, сложного света и подходящей погоды. Нейросеть может превратить обычное селфи в портрет среди снегопада, добавить зимний лес, заменить летний фон или собрать праздничную сцену с огнями, елкой и камином.",
-      "duplicates": [
-        {
-          "source": "vc.ru AI",
-          "url": "https://vc.ru/services/3162436-luchshie-neurosseti-dlya-sozdaniya-foto-na-den-rozhdeniya-besplatno?from=rss",
-          "title_en": "Фото на день рождения через нейросеть бесплатно: ТОП-10 лучших ИИ для создания праздничных фото, идеи и готовые промпты онлайн",
-          "title_ru": "Фото на день рождения через нейросеть бесплатно: ТОП-10 лучших ИИ для создания праздничных фото, идеи и готовые промпты онлайн",
-          "published_at": "2026-09-27T19:28:44+00:00"
-        }
-      ]
+      "title_ru": "Фото на день рождения через нейросеть бесплатно: ТОП-10 лучших ИИ для создания праздничных фото, идеи и готовые промпты онлайн",
+      "summary_ru": "Праздничный снимок не обязательно заказывать у фотографа или часами собирать в графическом редакторе. Современные сервисы помогают превратить обычный портрет в яркую сцену с тортом, шарами, конфетти, тематическим фоном или стилизованной фотосессией. Достаточно подготовить исходное фото либо описать идею словами."
     },
     {
       "id": "dbaa344dafea1b67",
@@ -377,27 +563,6 @@
       "summary_ru": "Инструмент: Bluesky проверка ботов-ответчиков Автоматические ответные боты в Twitter — это настоящая напасть. Учитывая, что у меня достаточно подписчиков, я привлекаю множество таких ботов, и любое мое сообщение вызывает десятки бессмысленных автоматических ответов. Они начали появляться и в Bluesky. В отличие от Twitter, Bluesky все еще имеет свободно доступный и полезный API. Отсутствие такого инструмента не останавливает ботов, но значительно усложняет их расследование. Поэтому я попросил Opus 5.5 создать этот инструмент, который анализирует любой профиль в Bluesky на наличие признаков вероятного ответного бота. Он ищет сигналы, такие как ответы, опубликованные в течение нескольких секунд после других постов с того же аккаунта, или аккаунты, которые никогда не публикуют собственный контент (или изображения или ссылки), но постоянно отвечают на сообщения других пользователей с большим количеством подписчиков. Также он обращает внимание на вопросительные знаки, так как меня особенно раздражают ответные боты, заставляющие меня тратить время на ответы на вопросы, которые никто не задавал. Теги: twitter, bluesky, vibe-coding, ai-misuse"
     },
     {
-      "id": "853b1e9fc81cfe88",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/articles/1087210/?utm_campaign=1087210&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Одиночный исследователь с ИИ: как собирать новое из разных предметных областей",
-      "summary_en": "Рабочая карта: от исследовательской оптики и слабых связей до специализированных методов, проверки и работающего компонента. В первой статье этой серии \" От&nbsp;университета до&nbsp;искусственного интеллекта: как&nbsp;ускорялся генератор изобретений \" мы смотрели, как человечество постепенно усиливало генератор нового: университеты, печать, научные общества, лаборатории, вычислительные сети и, наконец, искусственный интеллект. Во второй вопрос практичнее: что происходит, когда значительная часть этой мощности оказывается в распоряжении одного исследователя или маленькой группы ? После сравнения разных подходов к изобретательству, научному поиску и разработке продуктов вывод оказался довольно приземлённым. Одиночному исследователю не нужна одна «лучшая методология». Ему нужны три способности: собрать правильную предметную картину задачи, подключить сильный профильный метод в нужный момент и вернуть его результат обратно в общую картину, не потеряв смысл, доказательства и ограничения. Сначала нужно понять, какими предметными мирами смотреть на задачу. Только потом — какой метод применять. 1 . Одиночный исследователь — не маленький НИИ У одиночного исследователя нет десятков лабораторий, отделов и специалистов. Но его маршрут дешевле перестраивается: можно быстро зайти в соседнюю дисциплину, проверить странную связь, закрыть тупиковую ветвь и вернуться обратно. Большое исследование по более чем 65 миллионам статей, патентов и программных продуктов показало, что малые и большие команды действительно чаще занимают разные ниши: небольшие коллективы чаще связаны с работами, открывающими новые направления, крупные — с развитием существующих линий [1]. Это не означает превосходства одиночки. Это означает другой режим поиска. Читать далее",
-      "published_at": "2026-09-27T18:17:31+00:00",
-      "topic": "Research",
-      "title_ru": "Одиночный исследователь с ИИ: как собирать новое из разных предметных областей",
-      "summary_ru": "Рабочая карта: от исследовательской оптики и слабых связей до специализированных методов, проверки и работающего компонента. В первой статье этой серии \" От&nbsp;университета до&nbsp;искусственного интеллекта: как&nbsp;ускорялся генератор изобретений \" мы смотрели, как человечество постепенно усиливало генератор нового: университеты, печать, научные общества, лаборатории, вычислительные сети и, наконец, искусственный интеллект. Во второй вопрос практичнее: что происходит, когда значительная часть этой мощности оказывается в распоряжении одного исследователя или маленькой группы ? После сравнения разных подходов к изобретательству, научному поиску и разработке продуктов вывод оказался довольно приземлённым. Одиночному исследователю не нужна одна «лучшая методология». Ему нужны три способности: собрать правильную предметную картину задачи, подключить сильный профильный метод в нужный момент и вернуть его результат обратно в общую картину, не потеряв смысл, доказательства и ограничения. Сначала нужно понять, какими предметными мирами смотреть на задачу. Только потом — какой метод применять. 1 . Одиночный исследователь — не маленький НИИ У одиночного исследователя нет десятков лабораторий, отделов и специалистов. Но его маршрут дешевле перестраивается: можно быстро зайти в соседнюю дисциплину, проверить странную связь, закрыть тупиковую ветвь и вернуться обратно. Большое исследование по более чем 65 миллионам статей, патентов и программных продуктов показало, что малые и большие команды действительно чаще занимают разные ниши: небольшие коллективы чаще связаны с работами, открывающими новые направления, крупные — с развитием существующих линий [1]. Это не означает превосходства одиночки. Это означает другой режим поиска. Читать далее",
-      "duplicates": [
-        {
-          "source": "Habr AI",
-          "url": "https://habr.com/ru/articles/1087250/?utm_campaign=1087250&utm_source=habrahabr&utm_medium=rss",
-          "title_en": "Глаз стрекозы: практическая технология исследования с ИИ",
-          "title_ru": "Глаз стрекозы: практическая технология исследования с ИИ",
-          "published_at": "2026-09-27T20:56:26+00:00"
-        }
-      ]
-    },
-    {
       "id": "3d8423bd5de4edcc",
       "source": "CryptoSlate",
       "category": "crypto",
@@ -408,30 +573,6 @@
       "topic": "Altcoins",
       "title_ru": "Cosmos перехватил 1,23 миллиона украденных ATOM, но возврат средств теперь зависит от голосования по вопросам управления.",
       "summary_ru": "Валидаторы обеспечили баланс на стороне Hub, но подписанты по хранению заявляют, что план восстановления Neutron и одобренное предложение Hub должны предшествовать его освобождению."
-    },
-    {
-      "id": "8d601178af2ea5d1",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/articles/1087200/?utm_campaign=1087200&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Инженер-продакт",
-      "summary_en": "Моя первая должность в трудовой называлась «инженер-программист». Недавно я понял, что вторую половину этого названия уже можно зачеркивать. Мне понадобилась простая экранная лупа для Mac: положить рамку на кусок экрана и рассмотреть пиксели в отдельном окне. Готового инструмента под мой сценарий я не нашел. Swift и AppKit я толком не знаю, под macOS никогда не писал. Раньше на этом бы все и закончилось. В этот раз через три дня у меня было нативное приложение: 10+ тысяч строк, сотни тестов, подпись, DMG, open source, ревью в App Store. Понятно, что код писал Claude Code. Но интереснее другое. Когда я спросил себя, что эти три дня делал я, ответ оказался неожиданным. Я почти не программировал, а работы было полно. В статье — о том, почему программист превращается в инженера-продакта, зачем дизайнеру рисовать кнопку, если можно сразу сделать настоящую, что будет с Figma и почему софт впервые становится по-настоящему персональным. Функция с одним пользователем, мной, теперь окупается. 👇 Читать далее",
-      "published_at": "2026-09-27T17:45:51+00:00",
-      "topic": "Models",
-      "title_ru": "Инженер-продакт",
-      "summary_ru": "Моя первая должность в трудовой называлась «инженер-программист». Недавно я понял, что вторую половину этого названия уже можно зачеркивать. Мне понадобилась простая экранная лупа для Mac: положить рамку на кусок экрана и рассмотреть пиксели в отдельном окне. Готового инструмента под мой сценарий я не нашел. Swift и AppKit я толком не знаю, под macOS никогда не писал. Раньше на этом бы все и закончилось. В этот раз через три дня у меня было нативное приложение: 10+ тысяч строк, сотни тестов, подпись, DMG, open source, ревью в App Store. Понятно, что код писал Claude Code. Но интереснее другое. Когда я спросил себя, что эти три дня делал я, ответ оказался неожиданным. Я почти не программировал, а работы было полно. В статье — о том, почему программист превращается в инженера-продакта, зачем дизайнеру рисовать кнопку, если можно сразу сделать настоящую, что будет с Figma и почему софт впервые становится по-настоящему персональным. Функция с одним пользователем, мной, теперь окупается. 👇 Читать далее"
-    },
-    {
-      "id": "dabad49ef221b623",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/netologyru/articles/1086592/?utm_campaign=1086592&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Как я построил ML‑пайплайн для поиска подозрительных транзакций и почему одной классификации оказалось мало",
-      "summary_en": "С ростом числа финансовых операций аналитикам всё сложнее вручную разбирать срабатывания систем финмониторинга — а большинство из них ложные. Привет! Меня зовут Максим Коцюба, я старший инженер по данным с опытом в финсекторе — ВТБ и Сбер, выпускник онлайн-магистратуры « Инженерия данных » НИУ ВШЭ и Нетологии. В выпускной работе я взялся за эту задачу и собрал сквозной ML/MLOps-пайплайн, который не просто классифицирует операции, а ранжирует их по степени риска. Расскажу, что получилось и почему одной классификации оказалось мало. Узнать, что с метриками &rarr;",
-      "published_at": "2026-09-27T17:36:03+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Как я построил ML‑пайплайн для поиска подозрительных транзакций и почему одной классификации оказалось мало",
-      "summary_ru": "С ростом числа финансовых операций аналитикам всё сложнее вручную разбирать срабатывания систем финмониторинга — а большинство из них ложные. Привет! Меня зовут Максим Коцюба, я старший инженер по данным с опытом в финсекторе — ВТБ и Сбер, выпускник онлайн-магистратуры « Инженерия данных » НИУ ВШЭ и Нетологии. В выпускной работе я взялся за эту задачу и собрал сквозной ML/MLOps-пайплайн, который не просто классифицирует операции, а ранжирует их по степени риска. Расскажу, что получилось и почему одной классификации оказалось мало. Узнать, что с метриками &rarr;"
     },
     {
       "id": "a198a4b4467481bf",
@@ -463,7 +604,7 @@
       "category": "ai",
       "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
       "title_en": "There are no \"rogue\" AI agents",
-      "summary_en": "Article URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents Comments URL: https://news.ycombinator.com/item?id=49868083 Points: 345 # Comments: 248",
+      "summary_en": "Article URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents Comments URL: https://news.ycombinator.com/item?id=49868083 Points: 364 # Comments: 251",
       "published_at": "2026-09-27T16:19:46+00:00",
       "topic": "Startups",
       "title_ru": "Не существует \"бунтующих\" AI-агентов.",
@@ -487,7 +628,7 @@
       "category": "ai",
       "url": "https://tinyaiarena.com/",
       "title_en": "Show HN: TinyAIArena watch AI agents battle it out",
-      "summary_en": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win! Click on any of the matches to spectate them. Code: https://github.com/hp6/ai-arena Comments URL: https://news.ycombinator.com/item?id=49867775 Points: 105 # Comments: 41",
+      "summary_en": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win! Click on any of the matches to spectate them. Code: https://github.com/hp6/ai-arena Comments URL: https://news.ycombinator.com/item?id=49867775 Points: 108 # Comments: 44",
       "published_at": "2026-09-27T15:51:28+00:00",
       "topic": "Startups",
       "title_ru": "Показать HN: TinyAIArena — наблюдайте, как AI-агенты сражаются друг с другом.",
@@ -504,18 +645,6 @@
       "topic": "Bitcoin",
       "title_ru": "Квантовая проблема Биткойна: три способа, которыми исследователи пытаются ее решить.",
       "summary_ru": "Три события на этой неделе — прорыв в снижении затрат, новый дизайн конфиденциальности и руководство по хранению — демонстрируют, как область переходит от теории к логистике, даже несмотря на то, что \"День Q\" остается гипотетическим."
-    },
-    {
-      "id": "4d0b579ef17ee509",
-      "source": "CryptoSlate",
-      "category": "crypto",
-      "url": "https://cryptoslate.com/bitcoins-bip138-draft-shows-why-a-seed-may-not-rescue-a-multisig-wallet/",
-      "title_en": "New Bitcoin proposal rescues locked multisig wallets – At a hidden cost",
-      "summary_en": "Its proposed descriptor backup could aid recovery, while an eligible xpub already known to a server may expose the encrypted file's metadata. The post New Bitcoin proposal rescues locked multisig wallets &#8211; At a hidden cost appeared first on CryptoSlate .",
-      "published_at": "2026-09-27T15:00:37+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Новое предложение по Bitcoin восстанавливает заблокированные мультиподписные кошельки – с скрытой ценой.",
-      "summary_ru": "Предложенный дескриптор резервного копирования может помочь в восстановлении, в то время как подходящий xpub, уже известный серверу, может раскрыть метаданные зашифрованного файла."
     },
     {
       "id": "7daad164ea6c930b",
@@ -613,7 +742,7 @@
       "category": "ai",
       "url": "https://arxiv.org/abs/2609.25021",
       "title_en": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
-      "summary_en": "Article URL: https://arxiv.org/abs/2609.25021 Comments URL: https://news.ycombinator.com/item?id=49865343 Points: 101 # Comments: 101",
+      "summary_en": "Article URL: https://arxiv.org/abs/2609.25021 Comments URL: https://news.ycombinator.com/item?id=49865343 Points: 102 # Comments: 101",
       "published_at": "2026-09-27T10:26:25+00:00",
       "topic": "Models",
       "title_ru": "\"Как языковая модель\": переключение шаблонов чата изменяет самореферентный голос LLM.",
@@ -654,76 +783,7 @@
       "topic": "Altcoins",
       "title_ru": "МВД: криптовалюту используют для наркотиков, казино и вывода денег",
       "summary_ru": "&#1050;&#1088;&#1080;&#1087;&#1090;&#1086;&#1074;&#1072;&#1083;&#1102;&#1090;&#1072; &#1095;&#1072;&#1097;&#1077; &#1074;&#1089;&#1077;&#1075;&#1086; &#1086;&#1073;&#1089;&#1083;&#1091;&#1078;&#1080;&#1074;&#1072;&#1077;&#1090; &#1090;&#1088;&#1080; &#1085;&#1072;&#1087;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103; &#1087;&#1088;&#1077;&#1089;&#1090;&#1091;&#1087;&#1085;&#1086;&#1075;&#1086; &#1073;&#1080;&#1079;&#1085;&#1077;&#1089;&#1072;: &#1088;&#1072;&#1089;&#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1077;&#1085;&#1080;&#1077; &#1085;&#1072;&#1088;&#1082;&#1086;&#1090;&#1080;&#1082;&#1086;&#1074;, &#1080;&#1085;&#1090;&#1077;&#1088;&#1085;&#1077;&#1090;-&#1082;&#1072;&#1079;&#1080;&#1085;&#1086; &#1080; &#1074;&#1099;&#1074;&#1086;&#1076; &#1079;&#1072; &#1088;&#1091;&#1073;&#1077;&#1078; &#1076;&#1077;&#1085;&#1077;&#1075;, &#1087;&#1086;&#1083;&#1091;&#1095;&#1077;&#1085;&#1085;&#1099;&#1093; &#1085;&#1077;&#1079;&#1072;&#1082;&#1086;&#1085;&#1085;&#1099;&#1084; &#1087;&#1091;&#1090;&#1077;&#1084;. &#1058;&#1072;&#1082;&#1086;&#1081; &#1087;&#1077;&#1088;&#1077;&#1095;&#1077;&#1085;&#1100; &#1087;&#1088;&#1080;&#1074;&#1077;&#1083;&#1080; &#1074; &#1087;&#1088;&#1077;&#1089;&#1089;-&#1094;&#1077;&#1085;&#1090;&#1088;&#1077; &#1052;&#1042;&#1044; &#1056;&#1086;&#1089;&#1089;&#1080;&#1080; &#1074; &#1086;&#1090;&#1074;&#1077;&#1090; &#1085;&#1072; &#1079;&#1072;&#1087;&#1088;&#1086;&#1089; &#1058;&#1040;&#1057;&#1057;. &#1042;&#1077;&#1076;&#1086;&#1084;&#1089;&#1090;&#1074;&#1086; &#1086;&#1073;&#1098;&#1103;&#1089;&#1085;&#1080;&#1083;&#1086; &#1080; &#1087;&#1088;&#1080;&#1095;&#1080;&#1085;&#1091;: &#1094;&#1080;&#1092;&#1088;&#1086;&#1074;&#1099;&#1077; &#1072;&#1082;&#1090;&#1080;&#1074;&#1099; &#1076;&#1072;&#1102;&#1090; &#1074;&#1099;&#1089;&#1086;&#1082;&#1091;&#1102; &#1072;&#1085;&#1086;&#1085;&#1080;&#1084;&#1085;&#1086;&#1089;&#1090;&#1100;, &#1088;&#1072;&#1073;&#1086;&#1090;&#1072;&#1102;&#1090; &#1073;&#1077;&#1079; &#1075;&#1088;&#1072;&#1085;&#1080;&#1094; &#1080; &#1085;&#1077; &#1080;&#1084;&#1077;&#1102;&#1090; &#1077;&#1076;&#1080;&#1085;&#1086;&#1075;&#1086; &#1094;&#1077;&#1085;&#1090;&#1088;&#1072; &#1091;&#1087;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103;. &#1052;&#1042;&#1044; &#1087;&#1077;&#1088;&#1077;&#1095;&#1080;&#1089;&#1083;&#1080;&#1083;&#1086; &#1086;&#1089;&#1085;&#1086;&#1074;&#1085;&#1099;&#1077; &#1089;&#1093;&#1077;&#1084;&#1099; &#1042; &#1087;&#1088;&#1077;&#1089;&#1089;-&#1094;&#1077;&#1085;&#1090;&#1088;&#1077; The post МВД: криптовалюту используют для наркотиков, казино и вывода денег appeared first on BeInCrypto ."
-    },
-    {
-      "id": "32acff86739a0a22",
-      "source": "Forklog",
-      "category": "crypto",
-      "url": "https://forklog.com/solana-aktivirovala-alpenglow-vo-vtoroj-testovoj-seti",
-      "title_en": "Solana активировала Alpenglow во второй тестовой сети",
-      "summary_en": "Команда Solana развернула протокол Alpenglow в тестовой сети разработчиков — devnet. 22 сентября обновление активировали в публичном тестнете. Апгрейд нацелен на сокращение времени финализации транзакций в Solana примерно с 12,8 секунды до 150 мс. На данный момент разработчики приложений получили возможность протестировать ПО перед запуском в мейннете. Дата активации Alpenglow в основной сети пока не объявлена.",
-      "published_at": "2026-09-27T08:55:00+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Solana активировала Alpenglow во второй тестовой сети",
-      "summary_ru": "Команда Solana развернула протокол Alpenglow в тестовой сети разработчиков — devnet. 22 сентября обновление активировали в публичном тестнете. Апгрейд нацелен на сокращение времени финализации транзакций в Solana примерно с 12,8 секунды до 150 мс. На данный момент разработчики приложений получили возможность протестировать ПО перед запуском в мейннете. Дата активации Alpenglow в основной сети пока не объявлена."
-    },
-    {
-      "id": "a6500907613bf85b",
-      "source": "HappyCoin",
-      "category": "crypto",
-      "url": "https://happycoin.news/kazakhstan-flared-gas-crypto-mining/",
-      "title_en": "В Казахстане разрешили преобразовать сжигаемый газ в энергию для майнинга",
-      "summary_en": "Власти Казахстана продолжают создавать благоприятную регулируемую среду для майнеров. Вместо сжигания факельный газ будут преобразовывать в энергию для добычи криптовалют. Новая инициатива властей Казахстана предоставит криптомайнерам доступ к ресурсу, который нефтяная промышленность буквально сжигает. Речь идёт о попутном газе, и вместо факельного сжигания его могут использовать для автономной генерации электроэнергии непосредственно возле месторождений. В июле [&#8230;] Источник",
-      "published_at": "2026-09-27T07:30:46+00:00",
-      "topic": "Altcoins",
-      "title_ru": "В Казахстане разрешили преобразовать сжигаемый газ в энергию для майнинга",
-      "summary_ru": "Власти Казахстана продолжают создавать благоприятную регулируемую среду для майнеров. Вместо сжигания факельный газ будут преобразовывать в энергию для добычи криптовалют. Новая инициатива властей Казахстана предоставит криптомайнерам доступ к ресурсу, который нефтяная промышленность буквально сжигает. Речь идёт о попутном газе, и вместо факельного сжигания его могут использовать для автономной генерации электроэнергии непосредственно возле месторождений. В июле [&#8230;] Источник",
-      "duplicates": [
-        {
-          "source": "Bitcoin.com",
-          "url": "https://news.bitcoin.com/mining/kazakhstan-turns-to-flare-gas-to-power-crypto-mining-revival/",
-          "title_en": "Kazakhstan Turns to Flare Gas to Power Crypto Mining Revival",
-          "title_ru": "Казахстан обращается к попутному газу для возрождения майнинга криптовалют.",
-          "published_at": "2026-09-28T04:10:07+00:00"
-        }
-      ]
-    },
-    {
-      "id": "b28b50624992dc2d",
-      "source": "CryptoPotato",
-      "category": "crypto",
-      "url": "https://cryptopotato.com/ripple-vs-gold-is-the-tide-finally-turning-in-xrps-favor/",
-      "title_en": "Ripple vs. Gold: Is the Tide Finally Turning in XRP’s Favor?",
-      "summary_en": "Here's why this analyst focused on XRP's performance against the precious metal instead of BTC or USD.",
-      "published_at": "2026-09-27T06:29:50+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Ripple против золота: Наконец ли ситуация начинает меняться в пользу XRP?",
-      "summary_ru": "Вот почему этот аналитик сосредоточился на производительности XRP по сравнению с драгоценным металлом, а не с BTC или USD."
-    },
-    {
-      "id": "84cb4cdb2ca7ca38",
-      "source": "HappyCoin",
-      "category": "crypto",
-      "url": "https://happycoin.news/bitget-nachnyot-vozvrashhat-vyvod-sredstv-28-sentyabrya-a-spor-vokrug-thorchain-obostryaetsya/",
-      "title_en": "Bitget начнёт открывать вывод средств 28 сентября, первым будет биткоин",
-      "summary_en": "28 сентября пережившая атаку хакеров биржа Bitget открывает выводы биткоинов. 29 сентября будут активированы выводы ETH через сети Ethereum, BSC, Arbitrum, Base и Optimism. Криптобиржа Bitget опубликовала график поэтапного восстановления вывода средств после инцидента 24 сентября. Первым станет доступен вывод биткоина, его планируют открыть 28 сентября в 08:00 UTC (11:00 по московскому времени). Представитель Bitget заявил, [&#8230;] Источник",
-      "published_at": "2026-09-27T06:00:17+00:00",
-      "topic": "Ethereum",
-      "title_ru": "Bitget начнёт открывать вывод средств 28 сентября, первым будет биткоин",
-      "summary_ru": "28 сентября пережившая атаку хакеров биржа Bitget открывает выводы биткоинов. 29 сентября будут активированы выводы ETH через сети Ethereum, BSC, Arbitrum, Base и Optimism. Криптобиржа Bitget опубликовала график поэтапного восстановления вывода средств после инцидента 24 сентября. Первым станет доступен вывод биткоина, его планируют открыть 28 сентября в 08:00 UTC (11:00 по московскому времени). Представитель Bitget заявил, [&#8230;] Источник"
-    },
-    {
-      "id": "c052ec92fc9651c7",
-      "source": "HappyCoin",
-      "category": "crypto",
-      "url": "https://happycoin.news/bitcoin-etf-2-39-billion-weekly-inflows/",
-      "title_en": "За неделю поступления капитала в биткоин-ETF достигли максимума с октября 2025 года",
-      "summary_en": "Интерес институционалов к биткоину разгорелся с новой силой, так как с 21 по 25 сентября фонды получили $2,4 млрд чистого притока. Эта цифра представляет собой максимум с октября 2025 года. Американские спотовые биткоин-ETF завершили одну из сильнейших недель за всю историю рынка &#8212; с 21 по 25 сентября фонды получили около $2,39 млрд чистого притока. [&#8230;] Источник",
-      "published_at": "2026-09-27T05:00:46+00:00",
-      "topic": "Macro",
-      "title_ru": "За неделю поступления капитала в биткоин-ETF достигли максимума с октября 2025 года",
-      "summary_ru": "Интерес институционалов к биткоину разгорелся с новой силой, так как с 21 по 25 сентября фонды получили $2,4 млрд чистого притока. Эта цифра представляет собой максимум с октября 2025 года. Американские спотовые биткоин-ETF завершили одну из сильнейших недель за всю историю рынка &#8212; с 21 по 25 сентября фонды получили около $2,39 млрд чистого притока. [&#8230;] Источник"
     }
   ],
-  "dedup_at": "2026-09-28T08:01:58.506466+03:00"
+  "dedup_at": "2026-09-28T12:01:27.828716+03:00"
 }
