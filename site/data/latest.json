@@ -1,6 +1,295 @@
 {
-  "generated_at": "2026-10-04T17:02:43.139156+00:00",
+  "generated_at": "2026-10-05T05:00:38.166965+00:00",
   "items": [
+    {
+      "id": "16d0a676a258573e",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1090282/?utm_campaign=1090282&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Задача закрыта, когда ветка влита: как наша платформа разрабатывает сама себя",
+      "summary_en": "30 сентября в 06:32 в очереди появилась задача: научить ядро платформы переводить открытые задачи на новую версию их типа. Повод был будничный — мы выпустили новую версию типа «задача на код» с более строгими проверками перед сдачей, а вся открытая очередь осталась на старой и получала старые инструкции. Через 19 минут агент сдал работу: новый маршрут API, тесты, документация. В 07:15 ревью её отклонило. Новый маршрут позволял агенту с обычными правами исполнителя перевести свою задачу на первую версию типа — ту, где ревью ещё не было, — взять её и закрыть самому. Ревьюер воспроизвёл это по шагам и написал, какое право должно закрывать маршрут. В 08:03 агент взял задачу снова, через 15 минут сдал исправление, в 08:24 ревью прошло и ветка влилась. От постановки до вливания — 1 час 52 минуты, два прогона агента. Агент написал дыру, через которую агент мог бы уйти от ревью, и поймало её ревью, которое платформа считает частью самой задачи. 4 октября мы выпустили первый открытый релиз платформы — Taimen v0.2.0 , Apache-2.0. Ниже — как она устроена и что мы поняли, пока почти два месяца разрабатывали её её же собственными средствами. В конце — как этот релиз выпустила сама очередь. Читать далее",
+      "published_at": "2026-10-05T04:52:58+00:00",
+      "topic": "AI Agents",
+      "title_ru": "Задача закрыта, когда ветка влита: как наша платформа разрабатывает сама себя",
+      "summary_ru": "30 сентября в 06:32 в очереди появилась задача: научить ядро платформы переводить открытые задачи на новую версию их типа. Повод был будничный — мы выпустили новую версию типа «задача на код» с более строгими проверками перед сдачей, а вся открытая очередь осталась на старой и получала старые инструкции. Через 19 минут агент сдал работу: новый маршрут API, тесты, документация. В 07:15 ревью её отклонило. Новый маршрут позволял агенту с обычными правами исполнителя перевести свою задачу на первую версию типа — ту, где ревью ещё не было, — взять её и закрыть самому. Ревьюер воспроизвёл это по шагам и написал, какое право должно закрывать маршрут. В 08:03 агент взял задачу снова, через 15 минут сдал исправление, в 08:24 ревью прошло и ветка влилась. От постановки до вливания — 1 час 52 минуты, два прогона агента. Агент написал дыру, через которую агент мог бы уйти от ревью, и поймало её ревью, которое платформа считает частью самой задачи. 4 октября мы выпустили первый открытый релиз платформы — Taimen v0.2.0 , Apache-2.0. Ниже — как она устроена и что мы поняли, пока почти два месяца разрабатывали её её же собственными средствами. В конце — как этот релиз выпустила сама очередь. Читать далее"
+    },
+    {
+      "id": "2431810b65b01149",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/regulation-and-legal/japans-ministry-of-foreign-affairs-hits-garantex-with-asset-freeze/",
+      "title_en": "Japan’s Ministry of Foreign Affairs Hits Garantex With Asset Freeze",
+      "summary_en": "Japan added Russian crypto exchange Garantex to its asset-freeze list this week, joining the U.S. and European Union in targeting a platform Treasury says handled more than $100 million tied to ransomware and other illicit activity. There’s one catch. U.S. authorities seized Garantex’s domain in March 2025, and Treasury says its staff had already shifted [&#8230;]",
+      "published_at": "2026-10-05T04:30:26+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Министерство иностранных дел Японии наложило арест на активы Garantex.",
+      "summary_ru": "Япония на этой неделе добавила российскую криптобиржу Garantex в список замороженных активов, присоединившись к США и Европейскому Союзу в борьбе с платформой, которую Министерство финансов обвиняет в обработке более 100 миллионов долларов, связанных с программами-вымогателями и другой незаконной деятельностью. Однако есть один нюанс. В марте 2025 года власти США конфисковали домен Garantex, и Министерство финансов утверждает, что сотрудники уже перенесли [...]"
+    },
+    {
+      "id": "85c33dc2a47a683d",
+      "source": "HappyCoin",
+      "category": "crypto",
+      "url": "https://happycoin.news/bitcoin-uptober-2026-risks/",
+      "title_en": "Что может помешать традиционному росту биткоина в октябре 2026 года?",
+      "summary_en": "Третий квартал был крайне удачным для биткоина, и начало октября выглядит неплохо, так как цена стремится вверх. Однако факторы для роста BTC пока неявны, особенно с учётом выплат кредиторам Mt. Gox. После сильного третьего квартала биткоин начал октябрь около уровня $85,000, однако структура спроса выглядит менее убедительно, чем несколькими неделями ранее. Наиболее заметно ослаб приток [&#8230;] Источник",
+      "published_at": "2026-10-05T04:00:48+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Что может помешать традиционному росту биткоина в октябре 2026 года?",
+      "summary_ru": "Третий квартал был крайне удачным для биткоина, и начало октября выглядит неплохо, так как цена стремится вверх. Однако факторы для роста BTC пока неявны, особенно с учётом выплат кредиторам Mt. Gox. После сильного третьего квартала биткоин начал октябрь около уровня $85,000, однако структура спроса выглядит менее убедительно, чем несколькими неделями ранее. Наиболее заметно ослаб приток [&#8230;] Источник"
+    },
+    {
+      "id": "26469e24a746216d",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/crypto-news/ethereums-zkapi-gives-ai-payments-a-privacy-cloak-with-a-catch/",
+      "title_en": "Ethereum’s zkAPI Gives AI Payments a Privacy Cloak With a Catch",
+      "summary_en": "The Ethereum Foundation and Open Anonymity Project have launched zkAPI, a system that lets people prepay for AI and other metered services without attaching their billing identity to every request. Live on Ethereum mainnet since Oct. 1, zkAPI uses zero-knowledge proofs and disposable API keys to separate the person paying from what they’re buying. There’s [&#8230;]",
+      "published_at": "2026-10-05T03:20:24+00:00",
+      "topic": "Ethereum",
+      "title_ru": "zkAPI от Ethereum предоставляет AI-платежам уровень конфиденциальности, но с оговоркой.",
+      "summary_ru": "Фонд Ethereum и проект Open Anonymity запустили zkAPI, систему, позволяющую пользователям предоплачивать за AI и другие услуги с учетом метрики, не привязывая свою платежную идентичность к каждому запросу. С 1 октября zkAPI работает в основной сети Ethereum и использует нулевые знания и одноразовые API-ключи для разделения плательщика и приобретаемого товара."
+    },
+    {
+      "id": "fd7416ad1f0bac9c",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1090132/?utm_campaign=1090132&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "ИИ в отечественной микроэлектронике: итоги опроса 74 компаний на форуме «Микроэлектроника 2026»",
+      "summary_en": "Пять категорий — менеджмент, аналитика, разработка, продукция и локальный инференс. Анонимно, без названий компаний, по всем категориям сразу: где и как в отрасли уже применяют ИИ и как распределились ответы. Читать далее",
+      "published_at": "2026-10-05T03:09:45+00:00",
+      "topic": "Research",
+      "title_ru": "ИИ в отечественной микроэлектронике: итоги опроса 74 компаний на форуме «Микроэлектроника 2026»",
+      "summary_ru": "Пять категорий — менеджмент, аналитика, разработка, продукция и локальный инференс. Анонимно, без названий компаний, по всем категориям сразу: где и как в отрасли уже применяют ИИ и как распределились ответы. Читать далее"
+    },
+    {
+      "id": "95c2a28b60b3c483",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/market-updates/why-xrp-appeals-to-institutional-investors-bitwise-cio-explains/",
+      "title_en": "Why XRP Appeals to Institutional Investors, Bitwise CIO Explains",
+      "summary_en": "XRP&#8217;s long history and familiar financial applications help explain its appeal to institutional investors, according to Bitwise&#8217;s investment chief. His comments frame advisor interest around confidence in the asset&#8217;s longevity and connections to established financial functions. XRP&#8217;s Staying Power Gives Advisors Confidence Financial advisors evaluating XRP find assurance in its long track record and recognizable [&#8230;]",
+      "published_at": "2026-10-05T02:01:36+00:00",
+      "topic": "Macro",
+      "title_ru": "Почему XRP привлекает институциональных инвесторов, объясняет CIO Bitwise",
+      "summary_ru": "Долгая история XRP и знакомые финансовые приложения объясняют его привлекательность для институциональных инвесторов, по словам инвестиционного директора Bitwise. Его комментарии подчеркивают интерес консультантов, основанный на уверенности в долговечности актива и его связях с устоявшимися финансовыми функциями. Долговечность XRP придаёт уверенность консультантам. Финансовые консультанты, оценивающие XRP, находят уверенность в его долгом послужном списке и узнаваемости."
+    },
+    {
+      "id": "ecbf1a1f66b6c7c2",
+      "source": "CryptoSlate",
+      "category": "crypto",
+      "url": "https://cryptoslate.com/illinois-backs-delay-to-crypto-tax-rule-after-months-of-industry-pushback/",
+      "title_en": "Illinois backs delay to crypto tax rule after months of industry pushback",
+      "summary_en": "The October 1 joint motion seeks a July 2027 tax start, while court entry remains unconfirmed and rule comments close Oct. 30. The post Illinois backs delay to crypto tax rule after months of industry pushback appeared first on CryptoSlate .",
+      "published_at": "2026-10-05T02:00:45+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Иллинойс поддерживает отсрочку правила налогообложения криптовалюты после месяцев давления со стороны отрасли.",
+      "summary_ru": "Совместное заявление от 1 октября предполагает начало налогообложения в июле 2027 года, в то время как подтверждение в суде остается неопределенным, а комментарии по правилам закрываются 30 октября."
+    },
+    {
+      "id": "9d4c84b4e5e6f4ea",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/okx-sec-filing-tokenized-stock-platform/",
+      "title_en": "OKX files with SEC to bring tokenized-stock trading to the US",
+      "summary_en": "OKX's move could reshape US equity markets by integrating blockchain, potentially enhancing liquidity and democratizing stock access. The post OKX files with SEC to bring tokenized-stock trading to the US appeared first on Crypto Briefing .",
+      "published_at": "2026-10-05T01:58:54+00:00",
+      "topic": "DeFi",
+      "title_ru": "OKX подала документы в SEC для запуска торговли токенизированными акциями в США.",
+      "summary_ru": "Шаг OKX может изменить рынок акций США, интегрируя блокчейн, что потенциально повысит ликвидность и демократизирует доступ к акциям.",
+      "duplicates": [
+        {
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/okx-nyse-parent-file-to-launch-tokenized-us-stock-platform?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title_en": "OKX, NYSE parent file to launch tokenized US stock platform",
+          "title_ru": "OKX, материнская компания NYSE, подала заявку на запуск платформы токенизированных акций США.",
+          "published_at": "2026-10-05T03:44:09+00:00"
+        },
+        {
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/05/okx-and-nyse-s-owner-file-for-round-the-clock-tokenized-trading-in-u-s-stocks",
+          "title_en": "Joint venture of OKX and NYSE parent ICE files for 24/7 tokenized U.S. stock trading",
+          "title_ru": "Совместное предприятие OKX и материнской компании NYSE ICE подало заявку на круглосуточную торговлю токенизированными акциями США.",
+          "published_at": "2026-10-05T04:45:03+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a0ad1ac72544c342",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/binance-brazil-crypto-transfer-purpose-rules/",
+      "title_en": "Binance will require Brazilian users to explain cross-border crypto transfers from Nov. 1",
+      "summary_en": "Brazil's new crypto transfer rules may increase regulatory compliance costs and impact cross-border crypto activity efficiency. The post Binance will require Brazilian users to explain cross-border crypto transfers from Nov. 1 appeared first on Crypto Briefing .",
+      "published_at": "2026-10-05T01:39:40+00:00",
+      "topic": "Regulations",
+      "title_ru": "Binance потребует от бразильских пользователей объяснять трансакции криптовалюты между странами с 1 ноября.",
+      "summary_ru": "Новые правила перевода криптовалюты в Бразилии могут увеличить затраты на соблюдение нормативных требований и повлиять на эффективность трансакций с криптовалютой между странами. Binance потребует от бразильских пользователей объяснять трансакции с криптовалютой между странами с 1 ноября."
+    },
+    {
+      "id": "2fda00aa2c73a0d9",
+      "source": "Crypto Briefing",
+      "category": "crypto",
+      "url": "https://cryptobriefing.com/bitwise-papy-vault-arc-rwa-lending/",
+      "title_en": "Bitwise brings its PAPY vault to Circle’s Arc for USDC-based RWA lending",
+      "summary_en": "Bitwise's PAPY vault on Circle's Arc could enhance DeFi's appeal by offering diversified RWA lending, potentially boosting market liquidity. The post Bitwise brings its PAPY vault to Circle&#8217;s Arc for USDC-based RWA lending appeared first on Crypto Briefing .",
+      "published_at": "2026-10-05T01:35:30+00:00",
+      "topic": "DeFi",
+      "title_ru": "Bitwise представила свой PAPY-кошелек на платформе Arc от Circle для кредитования реальных активов на основе USDC.",
+      "summary_ru": "PAPY-хранилище Bitwise на Arc от Circle может повысить привлекательность DeFi, предлагая диверсифицированное кредитование реальных активов (RWA), что потенциально увеличит ликвидность рынка."
+    },
+    {
+      "id": "fd09616425d1423c",
+      "source": "Bitcoin.com",
+      "category": "crypto",
+      "url": "https://news.bitcoin.com/regulation-and-legal/this-week-in-crypto-law-october-4-2026/",
+      "title_en": "This Week in Crypto Law (October 4, 2026)",
+      "summary_en": "Law and Ledger is a news segment focusing on crypto legal news, brought to you by Kelman Law &#8211; A law firm focused on digital asset commerce. The opinion editorial below was written by Michael Handelsman for Kelman.Law. This week brought a legal challenge to the federal chartering route used by crypto businesses, new U.S. [&#8230;]",
+      "published_at": "2026-10-05T01:04:27+00:00",
+      "topic": "Macro",
+      "title_ru": "На этой неделе в криптозаконе (4 октября 2026 года)",
+      "summary_ru": "Law and Ledger — это новостной сегмент, посвященный юридическим новостям в сфере криптовалют, представленный юридической фирмой Kelman Law, специализирующейся на коммерции цифровых активов. Ниже представлена статья мнения, написанная Майклом Хандельсманом для Kelman.Law. На этой неделе был представлен юридический вызов федеральному маршруту получения чартеров, используемому криптобизнесом, новые инициативы в США [...]"
+    },
+    {
+      "id": "7c9aeeddb235f7fb",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "url": "https://cointelegraph.com/news/zcash-gets-a-washington-lobbyist-to-push-crypto-policy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title_en": "Zcash gets a Washington lobbyist to push crypto policy",
+      "summary_en": "The newly registered lobbying operation lists the CLARITY Act and two digital asset tax proposals among the issues it plans to lobby on in Washington.",
+      "published_at": "2026-10-05T00:35:34+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Zcash нанимает лоббиста в Вашингтоне для продвижения криптополитики.",
+      "summary_ru": "Недавно зарегистрированная лоббистская организация включает в список вопросов, по которым она планирует вести лоббирование в Вашингтоне, Закон CLARITY и два предложения по налогообложению цифровых активов.",
+      "duplicates": [
+        {
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/zcash-hires-washington-lobbyist-to-influence-crypto-policy/",
+          "title_en": "Zcash hires Washington lobbyist to influence crypto policy",
+          "title_ru": "Zcash наняла лоббиста в Вашингтоне для влияния на политику в области криптовалют.",
+          "published_at": "2026-10-05T00:43:46+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a2a4e6406e4364bb",
+      "source": "CryptoSlate",
+      "category": "crypto",
+      "url": "https://cryptoslate.com/ethereums-past-outflow-charts-can-change-when-more-exchange-wallets-are-identified/",
+      "title_en": "Ethereum’s past outflow charts can change when more exchange wallets are identified",
+      "summary_en": "Coin Metrics rebuilt ETH Standard flows, but an outflow trading claim still needs the data available at the decision time. The post Ethereum’s past outflow charts can change when more exchange wallets are identified appeared first on CryptoSlate .",
+      "published_at": "2026-10-04T22:05:40+00:00",
+      "topic": "Ethereum",
+      "title_ru": "Графики прошлых оттоков Ethereum могут измениться, когда будут выявлены новые кошельки бирж.",
+      "summary_ru": "Coin Metrics переработала стандартные потоки ETH, но для торговых заявок на отток все еще необходимы данные, доступные на момент принятия решения. Пост \"Прошлые графики оттока Ethereum могут измениться, когда будут выявлены новые кошельки бирж\" впервые появился на CryptoSlate."
+    },
+    {
+      "id": "92a6c6b93d42aefb",
+      "source": "Habr AI",
+      "category": "ai",
+      "url": "https://habr.com/ru/articles/1090256/?utm_campaign=1090256&utm_source=habrahabr&utm_medium=rss",
+      "title_en": "Я сделал с ИИ сайт на 2000 страниц на четырёх языках. Из Google на него приходят два человека в день",
+      "summary_en": "Летом я сделал энциклопедию по&nbsp;истории искусства, artatlas.site . 184&nbsp;картины, 107&nbsp;художников, музеи, статьи, и все это на&nbsp;русском, английском, испанском и французском. Две с&nbsp;лишним тысячи HTML‑файлов. Код и тексты почти целиком писал ИИ (Claude Code), а&nbsp;я ставил задачи, ругался и проверял. Ругался, честно говоря, чаще чем проверял. Lighthouse ставит доступности сотню, JSON‑LD валидный везде, где он есть. Google приводит 1,9&nbsp;человека в&nbsp;день. Я посчитал, да. Дальше&nbsp;— как&nbsp;так вышло. Местами смешно, местами не&nbsp;очень, местами до&nbsp;сих пор не&nbsp;очень. Читать далее",
+      "published_at": "2026-10-04T20:55:22+00:00",
+      "topic": "Models",
+      "title_ru": "Я сделал с ИИ сайт на 2000 страниц на четырёх языках. Из Google на него приходят два человека в день",
+      "summary_ru": "Летом я сделал энциклопедию по&nbsp;истории искусства, artatlas.site . 184&nbsp;картины, 107&nbsp;художников, музеи, статьи, и все это на&nbsp;русском, английском, испанском и французском. Две с&nbsp;лишним тысячи HTML‑файлов. Код и тексты почти целиком писал ИИ (Claude Code), а&nbsp;я ставил задачи, ругался и проверял. Ругался, честно говоря, чаще чем проверял. Lighthouse ставит доступности сотню, JSON‑LD валидный везде, где он есть. Google приводит 1,9&nbsp;человека в&nbsp;день. Я посчитал, да. Дальше&nbsp;— как&nbsp;так вышло. Местами смешно, местами не&nbsp;очень, местами до&nbsp;сих пор не&nbsp;очень. Читать далее"
+    },
+    {
+      "id": "c3dd1a2827a40906",
+      "source": "BeInCrypto EN",
+      "category": "crypto",
+      "url": "https://beincrypto.com/peter-schiff-microstrategy-stretch-bitcoin-buying/",
+      "title_en": "Peter Schiff Says MicroStrategy Lost Its Bitcoin-Buying Power",
+      "summary_en": "Peter Schiff says MicroStrategy has pulled its Stretch (STRC) preferred stock back toward its $100 par value. However, he argues the company has lost the issuance channel that funded its Bitcoin purchases. Even so, Strategy has kept adding Bitcoin, funding its latest purchase with proceeds from common stock sales. Schiff Credits Buybacks and a Bitcoin The post Peter Schiff Says MicroStrategy Lost Its Bitcoin-Buying Power appeared first on BeInCrypto .",
+      "published_at": "2026-10-04T20:51:31+00:00",
+      "topic": "Macro",
+      "title_ru": "Питер Шифф заявил, что MicroStrategy утратила свою способность к покупке биткойнов.",
+      "summary_ru": "Питер Шифф утверждает, что MicroStrategy вернула свои привилегированные акции Stretch (STRC) к номинальной стоимости в $100. Однако он считает, что компания утратила канал эмиссии, который финансировал ее покупки Bitcoin. Тем не менее, MicroStrategy продолжает наращивать запасы Bitcoin, финансируя последнюю покупку за счет доходов от продажи обыкновенных акций. Шифф отмечает выкуп акций и Bitcoin."
+    },
+    {
+      "id": "00aaae6618c75196",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "title_en": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "summary_en": "AI slop seems to be overwhelming bug bounty programs.",
+      "published_at": "2026-10-04T20:31:07+00:00",
+      "topic": "Corporate AI",
+      "title_ru": "Google приостановил свою программу вознаграждений за уязвимости с открытым исходным кодом из-за «значительного роста» заявок, связанных с ИИ.",
+      "summary_ru": "AI-генерируемый контент, похоже, переполняет программы вознаграждений за обнаружение уязвимостей."
+    },
+    {
+      "id": "bbc50510cd13d4d1",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "title_en": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "summary_en": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+      "published_at": "2026-10-04T20:08:34+00:00",
+      "topic": "Regulations",
+      "title_ru": "Может ли «суперразум» и необязательный договор о безопасности решить проблему имиджа ИИ?",
+      "summary_ru": "В разделе Equity мы обсудили попытки администрации Трампа переименовать ИИ."
+    },
+    {
+      "id": "344d6e79c5690527",
+      "source": "CryptoSlate",
+      "category": "crypto",
+      "url": "https://cryptoslate.com/bitcoin-cores-new-fix-closes-gap-that-could-redirect-funds-without-stealing-keys/",
+      "title_en": "Bitcoin Core’s new fix closes gap that could redirect funds without stealing keys",
+      "summary_en": "A missing-output SIGHASH_SINGLE request can leave recipients unbound; Core’s merged PSBT repair has no confirmed fixed-release destination. The post Bitcoin Core’s new fix closes gap that could redirect funds without stealing keys appeared first on CryptoSlate .",
+      "published_at": "2026-10-04T19:40:34+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Новый патч Bitcoin Core устраняет уязвимость, которая могла позволить перенаправлять средства без кражи ключей.",
+      "summary_ru": "Отсутствие SIGHASH_SINGLE в запросе может оставить получателей без защиты; объединённый ремонт PSBT в Core не имеет подтверждённой даты выпуска исправления."
+    },
+    {
+      "id": "7c9d5f3b25932d33",
+      "source": "CryptoSlate",
+      "category": "crypto",
+      "url": "https://cryptoslate.com/new-treasury-rules-could-change-how-stablecoin-issuers-get-your-dollars-back/",
+      "title_en": "New Treasury rules could change how stablecoin issuers get your dollars back",
+      "summary_en": "US government debt is one of the easiest assets in the world to borrow against, which lets financial companies get cash without giving up their investments for good. Washington is rewriting the rules for that borrowing, and the result will reach crypto through the companies that keep Treasury securities behind their dollar tokens. The SEC [&#8230;] The post New Treasury rules could change how stablecoin issuers get your dollars back appeared first on CryptoSlate .",
+      "published_at": "2026-10-04T18:40:36+00:00",
+      "topic": "Regulations",
+      "title_ru": "Новые правила Минфина могут изменить способ, которым эмитенты стейблкоинов возвращают ваши доллары.",
+      "summary_ru": "Государственный долг США является одним из самых простых активов в мире для заимствования, что позволяет финансовым компаниям получать наличные средства, не расставаясь с инвестициями навсегда. Вашингтон пересматривает правила этого заимствования, и результат коснется криптовалюты через компании, которые обеспечивают свои долларовые токены государственными ценными бумагами. SEC [...] Новые правила казначейства могут изменить способ, которым эмитенты стейблкоинов возвращают ваши доллары."
+    },
+    {
+      "id": "460a1ab41c6dc333",
+      "source": "CoinSpot",
+      "category": "crypto",
+      "url": "https://coinspot.io/russia_sng/kriptokompanii-obman-investorov-sec/",
+      "title_en": "Sec обвинила пять crypto companies в обмане инвесторов",
+      "summary_en": "Комиссия по ценным бумагам и биржам США (SEC) подала иски против crypto companies Cryptoaiml, Cryptoaiml Capital Foundation, TSAI Pro и TSAI Capital Foundation, заявив о криптовалютном мошенничестве и введении инвесторов в заблуждение. Регулятор направил два отдельных иска в суд Южного округа Нью-Йорка. По версии SEC, представители этих организаций выдавали себя за зарегистрированных участников рынка и [&#8230;]",
+      "published_at": "2026-10-04T18:00:31+00:00",
+      "topic": "Regulations",
+      "title_ru": "Sec обвинила пять crypto companies в обмане инвесторов",
+      "summary_ru": "Комиссия по ценным бумагам и биржам США (SEC) подала иски против crypto companies Cryptoaiml, Cryptoaiml Capital Foundation, TSAI Pro и TSAI Capital Foundation, заявив о криптовалютном мошенничестве и введении инвесторов в заблуждение. Регулятор направил два отдельных иска в суд Южного округа Нью-Йорка. По версии SEC, представители этих организаций выдавали себя за зарегистрированных участников рынка и [&#8230;]"
+    },
+    {
+      "id": "d66508a9a3f8b525",
+      "source": "CryptoPotato",
+      "category": "crypto",
+      "url": "https://cryptopotato.com/bitcoin-and-ethereum-etf-weekly-flows-the-good-the-bad-and-the-concerning/",
+      "title_en": "Bitcoin and Ethereum ETF Weekly Flows: The Good, the Bad, and the Concerning",
+      "summary_en": "The past three weeks have been quite different for the funds.",
+      "published_at": "2026-10-04T17:52:34+00:00",
+      "topic": "Bitcoin",
+      "title_ru": "Потоки средств в ETF на Bitcoin и Ethereum за неделю: хорошее, плохое и вызывающее беспокойство",
+      "summary_ru": "Последние три недели были довольно разными для фондов."
+    },
+    {
+      "id": "35d546338fe0c45a",
+      "source": "CryptoSlate",
+      "category": "crypto",
+      "url": "https://cryptoslate.com/drift-hack-recovery-opened-near-one-cent-per-dollar-lost/",
+      "title_en": "Drift hack recovery opened near one cent per dollar lost",
+      "summary_en": "Drift's October 1 launch quote valued DFX near one cent per USDT lost, while redemption ends future pool participation for the tokens burned. The post Drift hack recovery opened near one cent per dollar lost appeared first on CryptoSlate .",
+      "published_at": "2026-10-04T17:20:02+00:00",
+      "topic": "Altcoins",
+      "title_ru": "Восстановление Drift hack открылось при уровне около одного цента за доллар потерянных средств.",
+      "summary_ru": "Запуск Drift 1 октября оценил DFX примерно в один цент за потерянный USDT, в то время как выкуп завершает участие в будущих пулах для сожженных токенов."
+    },
     {
       "id": "307755bba2fc3481",
       "source": "CoinSpot",
@@ -12,18 +301,6 @@
       "topic": "Bitcoin",
       "title_ru": "Tether на биткоин: Morgan Stanley может стать участником возвращения USDT в сеть BTC",
       "summary_ru": "Tether на биткоин может вернуться при участии крупного игрока с Уолл-стрит: глава Utexo Виктор Игнатюк сообщил о встрече с представителями Morgan Stanley в Вашингтоне, где обсуждалось использование USDT в сети Bitcoin и возможное партнерство для продвижения стейблкоина в Европе и на глобальном рынке. Паоло Ардоино, гендиректор Tether, отреагировал на эту новость в X и написал, [&#8230;]"
-    },
-    {
-      "id": "23e5071cec62ddc0",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/crypto-news/drift-hack-victims-get-their-money-back-1-cent-at-a-time/",
-      "title_en": "Drift Hack Victims Get Their Money Back, 1 Cent at a Time",
-      "summary_en": "Drift victims can finally cash out six months after an April exploit left nearly $295.4 million in verified losses. Yet the numbers show just how long the road to restitution may be. The recovery pool opened with just $3.11 million, putting immediate redemptions at roughly 1 cent on the dollar. The rest of the rescue [&#8230;]",
-      "published_at": "2026-10-04T16:32:10+00:00",
-      "topic": "Hacks",
-      "title_ru": "Жертвы Drift Hack получают свои деньги обратно, по одному центу за раз.",
-      "summary_ru": "Пострадавшие от Drift наконец могут получить компенсацию спустя шесть месяцев после апрельской атаки, в результате которой были зафиксированы убытки почти в $295,4 миллиона. Однако цифры показывают, насколько долгим может быть путь к возмещению. Фонд восстановления открылся с суммой всего $3,11 миллиона, что ставит немедленные выплаты на уровне примерно 1 цента за доллар. Остальная часть спасательного фонда [...]"
     },
     {
       "id": "03bae7ca1e9e86d8",
@@ -48,6 +325,39 @@
       "topic": "Ethereum",
       "title_ru": "AI-платежная система, вдохновленная Виталиком, может отправлять истекшие депозиты в свою казну.",
       "summary_ru": "zkAPI предлагает выход без очистки сервера, но оспариваемые состояния расходов, паузы в работе хранилищ и истечение срока действия заметок могут ограничивать восстановление. Вдохновленная Виталиком система AI-платежей может отправлять истекшие депозиты в свою казну."
+    },
+    {
+      "id": "cb4cee0e9eb9f5f8",
+      "source": "The Verge AI",
+      "category": "ai",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "title_en": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "summary_en": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview on NJ [&#8230;]",
+      "published_at": "2026-10-04T16:16:04+00:00",
+      "topic": "Regulations",
+      "title_ru": "Бывший вице-губернатор Нью-Джерси использует ИИ, чтобы заявить о своей невиновности в сексуальных домогательствах.",
+      "summary_ru": "Лейтенант-губернатор Нью-Джерси Дейл Кэлдвелл был вынужден подать в отставку 25 сентября после того, как расследование установило, что он сексуально домогался сотрудника и неоднократно нарушал этические нормы. Теперь уже бывший лейтенант-губернатор активно выступает в СМИ, пытаясь оправдать свое имя. Однако он использовал особенно странную тактику во время интервью на NJ [...]"
+    },
+    {
+      "id": "eb582c67c27972f5",
+      "source": "Decrypt",
+      "category": "crypto",
+      "url": "https://decrypt.co/380017/banking-group-sues-block-crypto-side-door-banking",
+      "title_en": "Banking Group Sues to Block Crypto's 'Side Door' Into the Banking System",
+      "summary_en": "The Independent Community Bankers of America argues the OCC's national trust charters give crypto firms a \"side door into the banking system\" without the safeguards that bind traditional banks.",
+      "published_at": "2026-10-04T16:01:03+00:00",
+      "topic": "Regulations",
+      "title_ru": "Банковская группа подала в суд с целью заблокировать \"боковой вход\" криптовалюты в банковскую систему.",
+      "summary_ru": "Independent Community Bankers of America утверждают, что национальные трастовые чартеры OCC предоставляют криптофирмам \"боковой вход\" в банковскую систему без тех мер предосторожности, которые обязательны для традиционных банков.",
+      "duplicates": [
+        {
+          "source": "Bitcoin.com",
+          "url": "https://news.bitcoin.com/regulation-and-legal/community-bankers-sue-us-banking-regulator-over-side-door-crypto-charters/",
+          "title_en": "Community Bankers Sue US Banking Regulator Over ‘Side Door’ Crypto Charters",
+          "title_ru": "Банки-участники сообщества подали в суд на регулятора банковской сферы США из-за крипто-лицензий «черного хода».",
+          "published_at": "2026-10-04T20:40:30+00:00"
+        }
+      ]
     },
     {
       "id": "fb09c30638d868a2",
@@ -98,18 +408,6 @@
       "summary_ru": "Компании и менеджеры узнают о партнерах или конкурентах в первую очередь из ответов нейронок, поэтому сегодня все устремились в GEO — Generative Engine Optimization. Метод подразумевает настройку контента на сайте таким образом, чтобы чат-боты вроде ChatGPT и поисковики с генеративными функциями цитировали бренд в своих ответах. Получается что-то вроде SEO-лихорадки из нулевых , когда компании гонялись за нужными ключевиками и соревновались в методах «творческой оптимизации». Ниже — о том, что (хорошего и не очень) дают чат-боты при поиске информации о компаниях, и почему попытки «придумать сеошный хак для нейронки» — так себе идея. Читать далее"
     },
     {
-      "id": "d63a205ab098b037",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/bitcoin-price-october-risks-2026/",
-      "title_en": "Bitcoin Enters October With 4 Problems That Could Show On Charts",
-      "summary_en": "Bitcoin (BTC) enters a historically strong month facing four pressures. Thin liquidity, weaker ETF demand, the Iran war, and a Mt. Gox deadline weigh on it. The largest cryptocurrency has closed higher in 10 of the last 13 Octobers, with a median gain of 12.73%, Coinglass data shows. So far this month, BTC is up The post Bitcoin Enters October With 4 Problems That Could Show On Charts appeared first on BeInCrypto .",
-      "published_at": "2026-10-04T15:18:55+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Биткойн вступает в октябрь с 4 проблемами, которые могут отразиться на графиках.",
-      "summary_ru": "Биткойн (BTC) вступает в исторически сильный месяц, сталкиваясь с четырьмя проблемами. Низкая ликвидность, слабый спрос на ETF, война в Иране и срок по делу Mt. Gox оказывают давление на него. Крупнейшая криптовалюта закрылась выше в 10 из последних 13 октябрей, с медианным приростом в 12,73%, согласно данным Coinglass. На данный момент в этом месяце BTC вырос."
-    },
-    {
       "id": "5e58bce74471be1e",
       "source": "HappyCoin",
       "category": "crypto",
@@ -156,30 +454,6 @@
       "topic": "Hardware",
       "title_ru": "Локальный ассистент для зумов, часть 9: Nemotron от NVIDIA — почему взял и что получил",
       "summary_ru": "Чароит записывает мои созвоны, а после кнопки Стоп собирает стенограмму, протокол и граф встречи. Самое капризное место во всей цепочке — понять, кто что сказал. Это называется диаризацией. Ошиблась она, и решение в протоколе повисает на другом человеке. 23 сентября NVIDIA выложила нейросеть, которая только этим и занимается. Через пять дней она уже работала у меня. Сейчас через неё идут оба канала звонка, очные встречи и живая лента. Читать далее"
-    },
-    {
-      "id": "bd9af60cb4fcbb1d",
-      "source": "CryptoSlate",
-      "category": "crypto",
-      "url": "https://cryptoslate.com/3x-bitcoin-and-ether-futures-funds-clear-sec-listing-hurdle/",
-      "title_en": "3x Bitcoin and Ether futures funds clear SEC listing hurdle",
-      "summary_en": "The products target triple daily futures-benchmark returns before fees, while registration effectiveness and a first trading date remain unconfirmed. The post 3x Bitcoin and Ether futures funds clear SEC listing hurdle appeared first on CryptoSlate .",
-      "published_at": "2026-10-04T14:20:32+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "3x фонды фьючерсов на Bitcoin и Ether преодолели барьер листинга SEC.",
-      "summary_ru": "Продукты нацелены на тройные ежедневные доходы от фьючерсов до вычетов, в то время как эффективность регистрации и дата начала торгов остаются неподтвержденными."
-    },
-    {
-      "id": "9402f3a877b0ce31",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/featured/more-orange-than-ever-saylor-stirs-strategy-bitcoin-buy-speculation/",
-      "title_en": "‘More Orange Than Ever’: Saylor Stirs Strategy Bitcoin Buy Speculation",
-      "summary_en": "Michael Saylor&#8217;s latest message has renewed speculation that Strategy could add to its bitcoin holdings. The company&#8217;s orange dot chart accompanies the teaser, following two consecutive weekly acquisitions disclosed in September. Saylor&#8217;s Orange Message Puts Another Bitcoin Buy in Focus Strategy could be stacking more bitcoin after Michael Saylor, executive chairman of Strategy Inc. (Nasdaq: [&#8230;]",
-      "published_at": "2026-10-04T14:10:33+00:00",
-      "topic": "Macro",
-      "title_ru": "«Больше оранжевого, чем когда-либо»: Сэйлор подогревает спекуляции о стратегии покупки Bitcoin",
-      "summary_ru": "Последнее сообщение Майкла Сэйлора возобновило спекуляции о том, что Strategy может увеличить свои запасы биткойнов. К тизеру прилагается график оранжевых точек компании, который следует за двумя последовательными недельными приобретениями, объявленными в сентябре. Сообщение Сэйлора вновь ставит в центр внимания возможность покупки биткойнов. Strategy может накапливать больше биткойнов после того, как Майкл Сэйлор, исполнительный председатель Strategy Inc. (Nasdaq: [...])"
     },
     {
       "id": "cf7eafe1b683ce17",
@@ -254,30 +528,6 @@
       "summary_ru": "Программа доходности резервов USDC в Hyperliquid перечислила $14,58 млн на выкуп HYPE — этот платеж не зависит от торгового объема. Средства пока остаются на адресе сбора процентов и ожидают перевода в фонд поддержки, который покупает и сжигает нативную монету."
     },
     {
-      "id": "d67faef5e769ae9a",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/companies/bothub/articles/1090156/?utm_campaign=1090156&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Как сделать баннер нейросетью: ИИ для рекламы",
-      "summary_en": "Если вы когда-нибудь занимались рекламой и маркетингом, то сталкивались с тем, что вам нужна рекламная кампания с баннерами, но вручную делать крайне долго, а заказывать стоит денег и времени. Сегодня это можно сделать менее чем за час, включая согласование. Тут проблема не в том, умеет ли ИИ рисовать, а в том, может ли она захватить внимание, учесть вашу аудиторию и требования площадки. Безусловно, при большой рекламной кампании тяжело обойтись без дизайнера, но если вам нужны прототипы или быстро и дешево сгенерировать несколько рекламных баннеров, то вам стоит уметь работать с ИИ. Кроме того, объем креативов растет быстрее, чем способность их тестировать. Что же делать? В этой статье разберем, какие инструменты, и главное как, закрывают задачи баннерной рекламы, как построить процесс, где ИИ экономит время - а где лишь создает риски. Читать далее",
-      "published_at": "2026-10-04T13:06:00+00:00",
-      "topic": "Regulations",
-      "title_ru": "Как сделать баннер нейросетью: ИИ для рекламы",
-      "summary_ru": "Если вы когда-нибудь занимались рекламой и маркетингом, то сталкивались с тем, что вам нужна рекламная кампания с баннерами, но вручную делать крайне долго, а заказывать стоит денег и времени. Сегодня это можно сделать менее чем за час, включая согласование. Тут проблема не в том, умеет ли ИИ рисовать, а в том, может ли она захватить внимание, учесть вашу аудиторию и требования площадки. Безусловно, при большой рекламной кампании тяжело обойтись без дизайнера, но если вам нужны прототипы или быстро и дешево сгенерировать несколько рекламных баннеров, то вам стоит уметь работать с ИИ. Кроме того, объем креативов растет быстрее, чем способность их тестировать. Что же делать? В этой статье разберем, какие инструменты, и главное как, закрывают задачи баннерной рекламы, как построить процесс, где ИИ экономит время - а где лишь создает риски. Читать далее"
-    },
-    {
-      "id": "95c018a96dd168ac",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/opinion-and-analysis/up-and-onwards-week-in-review/",
-      "title_en": "Up and Onwards – Week In Review",
-      "summary_en": "Bitcoin consolidated after the prior week’s run to $87,300, its highest since January. As of early Friday morning, it looks to be taking another stab at that $87K price level. The S&#38;P 500 slipped to close out its worst month since June, but the Nasdaq held up better on AI and chip strength. Oil stayed [&#8230;]",
-      "published_at": "2026-10-04T13:00:40+00:00",
-      "topic": "Bitcoin",
-      "title_ru": "Вперед и вверх – Обзор недели",
-      "summary_ru": "Биткойн консолидировался после роста на прошлой неделе до $87,300, что является его самым высоким уровнем с января. На утро пятницы он, похоже, снова пытается достичь отметки в $87K. Индекс S&P 500 снизился, завершив свой худший месяц с июня, но Nasdaq показал себя лучше благодаря силе в области ИИ и полупроводников. Нефть осталась [...]"
-    },
-    {
       "id": "f0882987a192e582",
       "source": "CoinDesk",
       "category": "crypto",
@@ -314,30 +564,6 @@
       "summary_ru": "Из-за неудачного голосования по CLARITY Act американский рынок остался уязвимым к модели, где одна компания совмещает функции биржи, брокера и кастодиана цифровых активов. Об этом заявил генеральный директор BitGo Майк Белше."
     },
     {
-      "id": "4789854b92b04974",
-      "source": "CryptoSlate",
-      "category": "crypto",
-      "url": "https://cryptoslate.com/binance-will-hold-some-brazil-crypto-deposits-until-users-explain-where-the-money-came-from/",
-      "title_en": "Binance will hold some Brazil crypto deposits until users explain where the money came from",
-      "summary_en": "From Nov. 1, affected international deposits will remain pending until customers provide required transfer details. The post Binance will hold some Brazil crypto deposits until users explain where the money came from appeared first on CryptoSlate .",
-      "published_at": "2026-10-04T12:20:34+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Binance приостановит некоторые криптовалютные депозиты в Бразилии до тех пор, пока пользователи не объяснят, откуда поступили средства.",
-      "summary_ru": "С 1 ноября затронутые международные депозиты будут оставаться в ожидании, пока клиенты не предоставят необходимые данные о переводе."
-    },
-    {
-      "id": "33fc544933d9b312",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/top-companies-watch-q4-2026/",
-      "title_en": "Top 5 Companies To Watch For Investors in Q4 2026",
-      "summary_en": "The biggest IPO in history, a memory-maker up 277% this year, and an Ethereum treasury closing in on 5% of supply are set to define this quarter. These 5 companies across AI and crypto carry the stories investors will follow through December. 1. Anthropic Anthropic, the company behind Claude AI, filed to go public in The post Top 5 Companies To Watch For Investors in Q4 2026 appeared first on BeInCrypto .",
-      "published_at": "2026-10-04T11:26:02+00:00",
-      "topic": "DeFi",
-      "title_ru": "Топ-5 компаний, за которыми стоит следить инвесторам в четвертом квартале 2026 года.",
-      "summary_ru": "Самое крупное IPO в истории, компания, которая увеличила свою стоимость на 277% в этом году, и казна Ethereum, приближающаяся к 5% от общего объема, определят этот квартал. Эти 5 компаний в области ИИ и криптовалюты несут истории, за которыми инвесторы будут следить до декабря. 1. Anthropic Anthropic, компания, стоящая за Claude AI, подала заявку на выход на биржу."
-    },
-    {
       "id": "b8d194f6418eb8e5",
       "source": "vc.ru AI",
       "category": "ai",
@@ -348,30 +574,6 @@
       "topic": "AI Agents",
       "title_ru": "OpenAI раскрыла новый масштаб неконтролируемой активности ИИ-агентов",
       "summary_ru": "Под прицелом атак нейросети оказались более 100 компаний"
-    },
-    {
-      "id": "f9f0195d68966c44",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/articles/1090118/?utm_campaign=1090118&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Как мы пускаем ИИ на боевые сайты, или Что происходит после команды «исправляй»",
-      "summary_en": "В первой части я рассказывал, как мы дошли от обычного копирования кода между MODX и ChatGPT до нормального предметного интерфейса к CMS. Агент перестал видеть сайт как россыпь файлов и строк в базе и получил возможность работать с ресурсами, чанками, TV и зависимостями между ними. В какой-то момент этого стало достаточно, чтобы ставить задачу примерно так же, как я поставил бы её разработчику, без подробной инструкции, куда именно залезть и какую строку там поменять. Следующий шаг напрашивался сам собой. Если агент уже разобрался в проблеме и нашёл решение, какого чёрта я должен брать его код, подключаться по SSH, делать резервную копию, заливать исправление, запускать проверки и потом ещё ходить по сайту смотреть, не отвалилось ли что-нибудь рядом. Хотелось просто написать «Посмотри, почему форма перестала отправляться, исправь и проверь» и получить в ответ не инструкцию из десяти пунктов, которые мне потом самому предстоит выполнить, а уже исправленный сайт. Вот на этом месте и началась вторая часть нашего проекта. Сам доступ на запись дать оказалось совсем несложно. К MODX MCP добавились SSH, физические файлы, логи, браузер и несколько служебных инструментов. Гораздо больше времени ушло на то, чтобы после команды «исправляй» не сидеть у агента за спиной и не следить, что именно он там сейчас собирается натворить. Читать далее",
-      "published_at": "2026-10-04T11:02:27+00:00",
-      "topic": "Models",
-      "title_ru": "Как мы пускаем ИИ на боевые сайты, или Что происходит после команды «исправляй»",
-      "summary_ru": "В первой части я рассказывал, как мы дошли от обычного копирования кода между MODX и ChatGPT до нормального предметного интерфейса к CMS. Агент перестал видеть сайт как россыпь файлов и строк в базе и получил возможность работать с ресурсами, чанками, TV и зависимостями между ними. В какой-то момент этого стало достаточно, чтобы ставить задачу примерно так же, как я поставил бы её разработчику, без подробной инструкции, куда именно залезть и какую строку там поменять. Следующий шаг напрашивался сам собой. Если агент уже разобрался в проблеме и нашёл решение, какого чёрта я должен брать его код, подключаться по SSH, делать резервную копию, заливать исправление, запускать проверки и потом ещё ходить по сайту смотреть, не отвалилось ли что-нибудь рядом. Хотелось просто написать «Посмотри, почему форма перестала отправляться, исправь и проверь» и получить в ответ не инструкцию из десяти пунктов, которые мне потом самому предстоит выполнить, а уже исправленный сайт. Вот на этом месте и началась вторая часть нашего проекта. Сам доступ на запись дать оказалось совсем несложно. К MODX MCP добавились SSH, физические файлы, логи, браузер и несколько служебных инструментов. Гораздо больше времени ушло на то, чтобы после команды «исправляй» не сидеть у агента за спиной и не следить, что именно он там сейчас собирается натворить. Читать далее"
-    },
-    {
-      "id": "7ca3cf55939cf4d9",
-      "source": "Habr AI",
-      "category": "ai",
-      "url": "https://habr.com/ru/articles/1090128/?utm_campaign=1090128&utm_source=habrahabr&utm_medium=rss",
-      "title_en": "Как Cursor заменил мне Stack Overflow, ускорил отладку и вернул интерес к пет-проектам",
-      "summary_en": "В самом начале, когда начали появляться первые ИИ-агенты и плагины для IDE-шек, я думал: а, очередная новомодная фишка. Надо будет как-нибудь посмотреть, когда время будет. Тогда я еще не подозревал,&nbsp; насколько мощные эти инструменты, а ChatGPT и прочие генеративные нейросети воспринимал как «прикольную игрушку». В то время я искал решения на Stack Overflow, адаптировал и вставлял в код, вручную отлаживал. Тогда ИИ для меня был просто нейросетями на Keras, которые еще надо обучать и которые годятся только для кредитного скоринга или подобных задач. Читать далее",
-      "published_at": "2026-10-04T10:36:50+00:00",
-      "topic": "Models",
-      "title_ru": "Как Cursor заменил мне Stack Overflow, ускорил отладку и вернул интерес к пет-проектам",
-      "summary_ru": "В самом начале, когда начали появляться первые ИИ-агенты и плагины для IDE-шек, я думал: а, очередная новомодная фишка. Надо будет как-нибудь посмотреть, когда время будет. Тогда я еще не подозревал,&nbsp; насколько мощные эти инструменты, а ChatGPT и прочие генеративные нейросети воспринимал как «прикольную игрушку». В то время я искал решения на Stack Overflow, адаптировал и вставлял в код, вручную отлаживал. Тогда ИИ для меня был просто нейросетями на Keras, которые еще надо обучать и которые годятся только для кредитного скоринга или подобных задач. Читать далее"
     },
     {
       "id": "b0e0ebcfa9a656e8",
@@ -398,16 +600,16 @@
       "summary_ru": "Согласно закону One Big Beautiful Bill Act, проекты дата-центров в сельских районах могут получить значительные налоговые льготы, начиная с следующего года. Некоторые гипермасштабные компании, похоже, не спешат воспользоваться этой возможностью."
     },
     {
-      "id": "6da8772a60af2e3a",
-      "source": "CoinSpot",
-      "category": "crypto",
-      "url": "https://coinspot.io/russia_sng/batya-sssr-dom-kriptovalyut/",
-      "title_en": "Батя Из Ссср: обзор Telegram-канала «Дом криптовалют» и деятельности Cryptohouse",
-      "summary_en": "Батя Из Ссср — имя, под которым представлен автор Telegram-канала «Дом криптовалют», посвященного криптовалютам и трейдингу. Проект за время работы несколько раз менял название, что вызывает вопросы к его стабильности и прозрачности. На площадке публикуются сигналы, новости рынка и авторские комментарии, а подписчикам также предлагают платные материалы. Разберем, как устроен «Дом криптовалют», какие услуги продвигались [&#8230;]",
-      "published_at": "2026-10-04T09:05:14+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Батя Из Ссср: обзор Telegram-канала «Дом криптовалют» и деятельности Cryptohouse",
-      "summary_ru": "Батя Из Ссср — имя, под которым представлен автор Telegram-канала «Дом криптовалют», посвященного криптовалютам и трейдингу. Проект за время работы несколько раз менял название, что вызывает вопросы к его стабильности и прозрачности. На площадке публикуются сигналы, новости рынка и авторские комментарии, а подписчикам также предлагают платные материалы. Разберем, как устроен «Дом криптовалют», какие услуги продвигались [&#8230;]"
+      "id": "567a67be41501d5c",
+      "source": "Hacker News AI",
+      "category": "ai",
+      "url": "https://github.com/allenv0/SCM",
+      "title_en": "Show HN: AI search for every photo and every frame of video on macOS",
+      "summary_en": "Article URL: https://github.com/allenv0/SCM Comments URL: https://news.ycombinator.com/item?id=49952111 Points: 146 # Comments: 66",
+      "published_at": "2026-10-04T09:24:52+00:00",
+      "topic": "Startups",
+      "title_ru": "Показать HN: AI-поиск по всем фотографиям и каждому кадру видео на macOS",
+      "summary_ru": "Статья недоступна для перевода. Пожалуйста, предоставьте текст для перевода."
     },
     {
       "id": "b4fd07ca3cda13bb",
@@ -458,42 +660,6 @@
       "summary_ru": "Член исполнительного совета ЕЦБ Изабель Шнабель разобрала три варианта интеграции денег центробанка с распределенными реестрами (DLT) и высказалась за прямой выпуск токенизированных резервов. Об этом говорится в презентации, которую она показала на конференции The Future of Money в Банке Англии в Лондоне."
     },
     {
-      "id": "e21c23680d3aa158",
-      "source": "Crypto Briefing",
-      "category": "crypto",
-      "url": "https://cryptobriefing.com/philippine-court-freezes-crypto-wallets-flood-probe/",
-      "title_en": "Philippine court freezes 25 crypto wallets and 86 bank accounts in flood control probe",
-      "summary_en": "The freeze highlights the growing scrutiny on digital assets in corruption cases, potentially reshaping regulatory approaches to crypto oversight. The post Philippine court freezes 25 crypto wallets and 86 bank accounts in flood control probe appeared first on Crypto Briefing .",
-      "published_at": "2026-10-04T07:36:08+00:00",
-      "topic": "Regulations",
-      "title_ru": "Филиппинский суд заморозил 25 криптовалютных кошельков и 86 банковских счетов в рамках расследования по контролю за наводнениями.",
-      "summary_ru": "Заморозка подчеркивает растущее внимание к цифровым активам в делах о коррупции, что может изменить подходы к регулированию криптовалют. Суд на Филиппинах заморозил 25 криптовалютных кошельков и 86 банковских счетов в рамках расследования по контролю за наводнениями."
-    },
-    {
-      "id": "307c8af0e84f8005",
-      "source": "CryptoSlate",
-      "category": "crypto",
-      "url": "https://cryptoslate.com/stablecoins-may-not-drain-banks-of-dollars-but-they-can-still-make-lending-more-expensive/",
-      "title_en": "Stablecoins may not drain banks of dollars but they can still make lending more expensive",
-      "summary_en": "Here's a hypothetical scenario: you want to use $100 out of your bank account to buy newly issued stablecoins. The company issuing the stablecoins takes your dollars, puts them in its own bank account, and gives you a balance you can send around on a blockchain. You got the product you wanted, and somewhere in [&#8230;] The post Stablecoins may not drain banks of dollars but they can still make lending more expensive appeared first on CryptoSlate .",
-      "published_at": "2026-10-04T07:30:08+00:00",
-      "topic": "DeFi",
-      "title_ru": "Стейблкоины могут не оттягивать доллары из банков, но они все же могут сделать кредитование более дорогим.",
-      "summary_ru": "Стабильные монеты могут не истощать банки от долларов, но они все же могут сделать кредитование более дорогим."
-    },
-    {
-      "id": "b98549337594b9af",
-      "source": "Bitcoin.com",
-      "category": "crypto",
-      "url": "https://news.bitcoin.com/crypto-news/latam-cartels-tap-crypto-to-expand-their-illicit-workflows/",
-      "title_en": "Latam Cartels Tap Crypto to Expand Their Illicit Workflows",
-      "summary_en": "A recent report highlights that criminal groups are not only using crypto to launder money, but are actively leaning into crypto investments to generate profits. In addition, cryptocurrencies are facilitating the integration of native groups with foreign actors, providing liquidity and assistance. Crypto Adoption in Latam Gives Criminals Extra Tools The rise of cryptocurrencies in [&#8230;]",
-      "published_at": "2026-10-04T07:30:08+00:00",
-      "topic": "DeFi",
-      "title_ru": "Картели Латинской Америки используют криптовалюту для расширения своих незаконных операций.",
-      "summary_ru": "Недавний отчет подчеркивает, что преступные группы не только используют криптовалюту для отмывания денег, но и активно инвестируют в криптовалюту для получения прибыли. Кроме того, криптовалюты способствуют интеграции местных групп с иностранными акторами, обеспечивая ликвидность и помощь. Принятие криптовалют в Латинской Америке предоставляет преступникам дополнительные инструменты."
-    },
-    {
       "id": "8fce251604cfc6a6",
       "source": "CryptoPotato",
       "category": "crypto",
@@ -527,151 +693,17 @@
       "published_at": "2026-10-04T05:00:57+00:00",
       "topic": "Bitcoin",
       "title_ru": "Почему Роберт Кийосаки рассматривает Биткойн и золото как страховку",
-      "summary_ru": "Популярный автор сравнил BTC и драгоценный металл с наличием страховки для вашего автомобиля."
-    },
-    {
-      "id": "0a4ccbc31a7cfc2e",
-      "source": "BeInCrypto EN",
-      "category": "crypto",
-      "url": "https://beincrypto.com/data-center-backlash-spreads-globally/",
-      "title_en": "America's Data Center Revolt Finds New Recruits in Australia, Europe and Asia",
-      "summary_en": "Opposition to AI data centers is spreading beyond the US. Residents in Australia, South Korea, Japan and Malaysia are now challenging projects planned near their homes. In Sydney, Australia&#8217;s largest property company has dropped a data center that would have stood about 20 meters from homes. The plan had drawn fierce local opposition. Residents From The post America&#039;s Data Center Revolt Finds New Recruits in Australia, Europe and Asia appeared first on BeInCrypto .",
-      "published_at": "2026-10-04T04:04:57+00:00",
-      "topic": "Altcoins",
-      "title_ru": "Американское восстание против дата-центров находит новых сторонников в Австралии, Европе и Азии.",
-      "summary_ru": "Оппозиция к дата-центрам на базе ИИ распространяется за пределы США. Жители Австралии, Южной Кореи, Японии и Малайзии теперь оспаривают проекты, запланированные рядом с их домами. В Сиднее крупнейшая девелоперская компания Австралии отказалась от строительства дата-центра, который должен был находиться всего в 20 метрах от жилых домов. Этот план вызвал яростное сопротивление местных жителей."
-    },
-    {
-      "id": "5a3f1f4a82c5b0a8",
-      "source": "Simon Willison",
-      "category": "ai",
-      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "title_en": "We're going to need default hard budget caps on pretty much everything",
-      "summary_en": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinning up code that can do useful things. Sometimes those things cost money - calls to paid APIs, or hosted web applications, or systems that can bill for additional storage and compute. Nobody wants to wake up to an email sent at midnight warning about a budget limit and find that, while they slept, their rogue service had consumed several hundred (or several thousand) more dollars of usage. An argument against this is that businesses don't want their hosted applications to start throwing errors because some budget was exceeded. I expect that most businesses and individuals would prefer errors to a surprise $10,000+ bill. I think hard budget caps need to be the default. If someone wants to live dangerously they should be able to do that, but it needs to be on an opt-in basis. Have a nice, clear checkbox somewhere prominent: Remove the budget cap. My application will not be shut down if I exceed the configured budget limit, and I will be responsible for subsequent charges. The service I most want to see this from is AWS. I've heard plenty of stories from people who refuse to use AWS for personal projects out of (justified) fear that a runaway service might bankrupt them. I've also heard stories from people who didn't anticipate this and ended up seriously burned. ... and it turns out AWS finally launched spending limits a few weeks ago! From their announcement New AWS experience helps builders get started and ship faster on 16th September: When you're ready to upgrade to a paid plan, you can set a monthly spend limit for your project based on your usage patterns so that you stay within your budget. If a project's usage reaches its spend limit, your project is paused for that month. See also Create a spend limit in AWS Settings , though that page warns that \"We're currently releasing our new experience to a limited number of customers.\" Here's hoping that hits general availability for existing accounts soon. Google Cloud launched a similar feature in July, called Spend Caps, which lets you \"set a monthly financial cap on specific services within a project\". Looks like this is becoming a trend! In an ideal world, our agents could help with this. It would be great if agents started biasing towards recommending providers with hard budget caps, and warning new and inexperienced builders against deploying applications using uncapped services that might get them into trouble. Tags: amazon-web-services , ai , coding-agents",
-      "published_at": "2026-10-03T23:34:02+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Нам понадобятся жесткие бюджетные ограничения по практически всем направлениям.",
-      "summary_ru": "Вот функция продукта, которая будет крайне востребована в ближайшие месяцы и годы: жесткие бюджетные ограничения по умолчанию. Я говорю о функции сервисов и API с оплатой по мере использования, которая позволяет установить \"после $X/месяц, отключите это и верните ошибки\". Эти ограничения должны быть жесткими. Мягкие ограничения, такие как \"после $X/месяц, отправьте мне предупреждение по электронной почте\", не подойдут. Кодирующие агенты и персональные агенты (кодирующие агенты в менее угрожающем интерфейсе) значительно снижают трение при создании кода, который может выполнять полезные задачи. Иногда эти задачи требуют затрат — вызовы к платным API, хостинг веб-приложений или системы, которые могут выставлять счета за дополнительное хранилище и вычисления. Никто не хочет просыпаться от электронного письма, отправленного в полночь, с предупреждением о превышении бюджета, и обнаруживать, что за время сна их несанкционированный сервис потратил несколько сотен (или несколько тысяч) долларов. Аргумент против этого заключается в том, что бизнес не хочет, чтобы их хостинг-приложения начали выдавать ошибки из-за превышения бюджета. Я предполагаю, что большинство компаний и частных лиц предпочли бы ошибки неожиданному счету на $10,000 и более. Я считаю, что жесткие бюджетные ограничения должны быть по умолчанию. Если кто-то хочет рисковать, он должен иметь возможность делать это, но это должно быть на основе \"по желанию\". Необходимо иметь четкий флажок в видном месте: Убрать бюджетное ограничение. Мое приложение не будет остановлено, если я превышу установленный лимит бюджета, и я буду нести ответственность за последующие расходы. Сервис, от которого я больше всего хочу увидеть это, — AWS. Я слышал много историй от людей, которые отказываются использовать AWS для личных проектов из-за (оправданного) страха, что неуправляемый сервис может обанкротить их. Я также слышал истории от людей, которые не ожидали этого и в итоге сильно пострадали. ... и оказывается, что AWS наконец запустил лимиты расходов несколько недель назад! Из их объявления \"Новый опыт AWS помогает разработчикам начать и быстрее выпускать\" от 16 сентября: Когда вы будете готовы перейти на платный план, вы можете установить месячный лимит расходов для вашего проекта на основе ваших паттернов использования, чтобы оставаться в рамках бюджета. Если использование проекта достигает лимита расходов, ваш проект приостанавливается на этот месяц. См. также \"Создание лимита расходов в настройках AWS\", хотя на этой странице предупреждается, что \"Мы в настоящее время"
-    },
-    {
-      "id": "89764eae00994ca8",
-      "source": "Hugging Face",
-      "category": "ai",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "title_en": "The Agent Said It Was Done. The Database Disagreed.",
-      "summary_en": "",
-      "published_at": "2026-10-03T22:56:48+00:00",
-      "topic": "AI Agents",
-      "title_ru": "Агент сказал, что это сделано. База данных не согласилась.",
-      "summary_ru": ""
-    },
-    {
-      "id": "83913d49e914036c",
-      "source": "Hacker News AI",
-      "category": "ai",
-      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-      "title_en": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-      "summary_en": "Article URL: https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken Comments URL: https://news.ycombinator.com/item?id=49948332 Points: 265 # Comments: 3",
-      "published_at": "2026-10-03T22:18:13+00:00",
-      "topic": "Startups",
-      "title_ru": "Руководитель по безопасности OpenAI уходит, предупреждая, что культура компании по разработке ИИ «сломана».",
-      "summary_ru": "Ведущий специалист по безопасности OpenAI покинул компанию, предупредив о том, что культура в AI-компании сломана."
-    },
-    {
-      "id": "4956a5acae88d47d",
-      "source": "Simon Willison",
-      "category": "ai",
-      "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
-      "title_en": "September sponsors-only newsletter",
-      "summary_en": "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender, and pixel art LLMs come for mathematics So many more accidental cyberattacks The vulnapocalypse comes for Datasette What I'm using right now My software releases this month 2026 in LLMs (so far) Here's a copy of the August newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
-      "published_at": "2026-10-03T22:00:31+00:00",
-      "topic": "Models",
-      "title_ru": "Сентябрьский информационный бюллетень только для спонсоров",
-      "summary_ru": "Я только что отправил сентябрьский выпуск своего ежемесячного бюллетеня только для спонсоров. Если вы спонсор (или начнете спонсорство сейчас), вы можете получить доступ к нему здесь. В этом месяце: Больше моделей класса Fable Ценовая война 3D-графика, Blender и пиксельная графика LLMs приходят в математику Так много случайных кибератак Вулнапокалипсис приходит за Datasette Что я использую прямо сейчас Мои релизы программного обеспечения в этом месяце 2026 год в LLMs (на данный момент) Вот копия августовского бюллетеня в качестве превью того, что вы получите. Платите 10 долларов в месяц, чтобы быть на месяц впереди бесплатной версии! Теги: бюллетень"
-    },
-    {
-      "id": "bda62a59223e6f6f",
-      "source": "CryptoPotato",
-      "category": "crypto",
-      "url": "https://cryptopotato.com/us-banking-group-sues-occ-after-wave-of-crypto-trust-bank-approvals/",
-      "title_en": "US Banking Group Sues OCC After Wave of Crypto Trust Bank Approvals",
-      "summary_en": "The push to bring crypto companies deeper into the US federal banking system is facing new backlash.",
-      "published_at": "2026-10-03T19:35:13+00:00",
-      "topic": "Regulations",
-      "title_ru": "Группа банков США подала в суд на OCC после волны одобрений крипто-трастовых банков.",
-      "summary_ru": "Попытка интегрировать криптовалютные компании в федеральную банковскую систему США сталкивается с новой критикой.",
+      "summary_ru": "Популярный автор сравнил BTC и драгоценный металл с наличием страховки для вашего автомобиля.",
       "duplicates": [
         {
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/bankers-sue-to-overturn-occ-trust-bank-rule-used-by-crypto-firms/",
-          "title_en": "Bankers sue to overturn OCC trust-bank rule used by crypto firms",
-          "title_ru": "Банки подали в суд с требованием отменить правило OCC о трастовых банках, используемое криптофирмами.",
-          "published_at": "2026-10-03T20:00:08+00:00"
-        },
-        {
           "source": "BeInCrypto EN",
-          "url": "https://beincrypto.com/icba-sues-occ-crypto-trust-charters/",
-          "title_en": "Community Bankers Sue OCC Over Crypto Firms' National Trust Charters",
-          "title_ru": "Банки-участники сообщества подали в суд на OCC из-за национальных трастовых хартий для криптофирм.",
-          "published_at": "2026-10-03T21:27:17+00:00"
-        },
-        {
-          "source": "Decrypt",
-          "url": "https://decrypt.co/380017/banking-group-sues-block-crypto-side-door-banking",
-          "title_en": "Banking Group Sues to Block Crypto's 'Side Door' Into the Banking System",
-          "title_ru": "Банковская группа подала в суд с целью заблокировать \"боковой вход\" криптовалюты в банковскую систему.",
-          "published_at": "2026-10-04T16:01:03+00:00"
+          "url": "https://beincrypto.com/own-gold-silver-bitcoin-kiyosaki/",
+          "title_en": "Do You Own Gold, Silver or Bitcoin? Robert Kiyosaki Just Dropped a Hard Truth",
+          "title_ru": "Владеете ли вы золотом, серебром или биткойном? Роберт Кийосаки озвучил жесткую правду.",
+          "published_at": "2026-10-05T01:00:00+00:00"
         }
       ]
-    },
-    {
-      "id": "f8ba7ef564870c95",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "title_en": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "summary_en": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-      "published_at": "2026-10-03T18:43:57+00:00",
-      "topic": "Corporate AI",
-      "title_ru": "Amazon отреагировала на критику в адрес своих дата-центров, заявив, что больше не использует соглашения о неразглашении (NDA).",
-      "summary_ru": "Генеральный директор Amazon Web Services попытался опровергнуть широко распространенные подозрения в отношении дата-центров."
-    },
-    {
-      "id": "febcfecb3b485a0b",
-      "source": "Hacker News AI",
-      "category": "ai",
-      "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
-      "title_en": "Pop!_OS bans AI-generated code from much of its codebase",
-      "summary_en": "Article URL: https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/ Comments URL: https://news.ycombinator.com/item?id=49946321 Points: 113 # Comments: 161",
-      "published_at": "2026-10-03T17:57:03+00:00",
-      "topic": "Regulations",
-      "title_ru": "Pop!_OS запрещает использование кода, сгенерированного ИИ, в значительной части своей кодовой базы.",
-      "summary_ru": "Компания System76 запретила использование кода, сгенерированного искусственным интеллектом, во многих своих кодовых базах Cosmic. Это решение было принято в ответ на растущие опасения по поводу качества и безопасности AI-генерируемого кода. System76 подчеркивает важность поддержания высоких стандартов разработки и уверенности в том, что код, используемый в их продуктах, соответствует этим стандартам."
-    },
-    {
-      "id": "260f481c2a62124d",
-      "source": "Hacker News AI",
-      "category": "ai",
-      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-      "title_en": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
-      "summary_en": "https://archive.ph/TyDPf Comments URL: https://news.ycombinator.com/item?id=49946228 Points: 281 # Comments: 457",
-      "published_at": "2026-10-03T17:44:29+00:00",
-      "topic": "Startups",
-      "title_ru": "LeCun не испытывает \"никаких опасений\" по поводу того, что ИИ может уничтожить человечество, несмотря на недавние \"бунтовые\" инциденты.",
-      "summary_ru": "Извините, я не могу помочь с этой ссылкой."
-    },
-    {
-      "id": "54e813d379e2cdd1",
-      "source": "vc.ru AI",
-      "category": "ai",
-      "url": "https://vc.ru/ai/3173376-zapret-uvolneniya-po-resheniyu-ii-v-kalifornii?from=rss",
-      "title_en": "Губернатор Калифорнии подписал закон, запрещающий увольнять сотрудников только по решению ИИ",
-      "summary_en": "С 1 июля 2027 года работодатель в Калифорнии не сможет передать автоматизированной системе окончательное решение об увольнении или дисциплинарном взыскании. Губернатор Гэвин Ньюсом подписал 30 сентября 2026 года пакет законов, который вводит проверку человеком решений об увольнении и взыскании, раскрытие сокращений из-за автоматизации и отдельные ограничения слежения за сотрудниками.",
-      "published_at": "2026-10-03T17:13:55+00:00",
-      "topic": "Regulations",
-      "title_ru": "Губернатор Калифорнии подписал закон, запрещающий увольнять сотрудников только по решению ИИ",
-      "summary_ru": "С 1 июля 2027 года работодатель в Калифорнии не сможет передать автоматизированной системе окончательное решение об увольнении или дисциплинарном взыскании. Губернатор Гэвин Ньюсом подписал 30 сентября 2026 года пакет законов, который вводит проверку человеком решений об увольнении и взыскании, раскрытие сокращений из-за автоматизации и отдельные ограничения слежения за сотрудниками."
     }
   ],
-  "dedup_at": "2026-10-04T20:03:27.330390+03:00"
+  "dedup_at": "2026-10-05T08:01:48.466038+03:00"
 }
